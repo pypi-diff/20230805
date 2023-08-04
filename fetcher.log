@@ -127,3 +127,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 
 [2023-08-05 00:03:42] INFO root fetch - main [MainThread]: End processing [multiqc] error
 [2023-08-05 00:03:42] INFO root fetch - main [MainThread]: Store serial: [19181199]
+[2023-08-05 00:08:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181199]
+[2023-08-05 00:08:51] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 00:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: btgsolutions-dataservices-python-client
+[2023-08-05 00:08:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytorch-tools
+[2023-08-05 00:08:51] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: New version: [0.5] Old Version: [0.4.1]
+[2023-08-05 00:08:51] INFO root fetch - processPackages [pytorch-tools]: New version: [0.5.1] Old Version: [0.1.9]
+[2023-08-05 00:08:51] INFO root fetch - processPackages [pytorch-tools]: Downloading https://files.pythonhosted.org/packages/3c/10/3093413b67d500b1558791606a753151b520c3bd336be39c91746e18e982/pytorch_tools-0.1.9.tar.gz
+[2023-08-05 00:08:51] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/24/9f/17424e48547665e730c70858b978bc1950b2370f22e70150a3eec7fa2304/btgsolutions-dataservices-python-client-0.4.1.tar.gz
+[2023-08-05 00:08:51] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Downloading https://files.pythonhosted.org/packages/ac/7f/9279c3d9f4e8eb131ba047a81526643d6599b29a25faebe60da39a6ce7ba/btgsolutions-dataservices-python-client-0.5.tar.gz
+[2023-08-05 00:08:52] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: executing diffoscope
+[2023-08-05 00:08:52] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/btgsolutions-dataservices-python-client-0.4.1.tar.gz tmp/btgsolutions-dataservices-python-client-0.5.tar.gz --markdown 20230805/b/btgsolutions-dataservices-python-client/0.4.1-0.5/diff.md --exclude *.pyd
+[2023-08-05 00:08:52] INFO root fetch - processPackages [pytorch-tools]: Downloading https://files.pythonhosted.org/packages/77/6e/4ff74c22ed8d54bf96c87f3ba51781594d7e2533941b66737cfd03399b84/pytorch_tools-0.5.1.tar.gz
+[2023-08-05 00:08:52] INFO root fetch - processPackages [pytorch-tools]: executing diffoscope
+[2023-08-05 00:08:52] INFO root fetch - processPackages [pytorch-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_tools-0.1.9.tar.gz tmp/pytorch_tools-0.5.1.tar.gz --markdown 20230805/p/pytorch-tools/0.1.9-0.5.1/diff.md --exclude *.pyd
+[2023-08-05 00:08:52] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.4.1.tar.gz]
+[2023-08-05 00:08:52] INFO root fetch - processPackages [btgsolutions-dataservices-python-client]: Remove: archive file [/home/abi/fetcher/tmp/btgsolutions-dataservices-python-client-0.5.tar.gz]
+[2023-08-05 00:08:52] INFO root fetch - main [MainThread]: End processing [btgsolutions-dataservices-python-client]: success
+[2023-08-05 00:08:53] INFO root fetch - processPackages [pytorch-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_tools-0.1.9.tar.gz]
+[2023-08-05 00:08:53] INFO root fetch - processPackages [pytorch-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_tools-0.5.1.tar.gz]
+[2023-08-05 00:08:53] INFO root fetch - main [MainThread]: End processing [pytorch-tools]: success
+[2023-08-05 00:08:53] INFO root fetch - main [MainThread]: Store serial: [19181205]
