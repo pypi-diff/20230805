@@ -778,3 +778,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 01:01:23] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
 [2023-08-05 01:01:23] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
 [2023-08-05 01:01:23] INFO root fetch - main [MainThread]: Store serial: [19181457]
+[2023-08-05 01:06:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181457]
+[2023-08-05 01:06:32] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xklb
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fusepyng
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: django-iubenda
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tmnt-cu101
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: django-errors
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tmnt
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: chai-guanaco
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: neon-phal-plugin-reset
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: e2D
+[2023-08-05 01:06:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pepperize.cdk-ses-smtp-credentials
+[2023-08-05 01:06:32] INFO root fetch - processPackages [chai-guanaco]: New version: [1.1.0] Old Version: [1.0.8]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [tmnt-cu101]: New version: [0.7.0b20230803] Old Version: [0.7.0b20230802]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [tmnt]: New version: [0.7.0b20230803] Old Version: [0.7.0b20230802]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [fusepyng]: New version: [2.0.0] Old Version: [1.0.7]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [django-iubenda]: New version: [1.2.6] Old Version: [0.1.12.dev0]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [e2D]: New version: [1.1.0] Old Version: [1.0.6]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [neon-phal-plugin-reset]: New version: [0.3.0] Old Version: [0.2.2a2]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [django-errors]: New version: [2.3.4] Old Version: [2.3.2]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: New version: [0.3.422] Old Version: [0.3.421]
+[2023-08-05 01:06:32] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/33/55/65d4067ada8ee0171bbea9ded7119d1b2856abea03926c542bbf6a169737/chai-guanaco-1.0.8.tar.gz
+[2023-08-05 01:06:32] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/62/ce/761eda6b4913aade1ca370d7c8cdc167994ad3612a6346c15f22238e8856/tmnt-0.7.0b20230802.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/fc/bd/f707492a6b676a81111d1850f8c117c91021318766c0c9ad5b9ea5fae440/tmnt-cu101-0.7.0b20230802.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [fusepyng]: Downloading https://files.pythonhosted.org/packages/73/75/82b75fccce88cacc0f49eba8fb7b26a0d8d8b08b54d1e811ecb81a5e1968/fusepyng-1.0.7.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/22/b2/5ca013e4ad7c2c643596c7454f43c565b9cb4fa1f653c10f1cfe8fd06619/django-errors-2.3.2.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [xklb]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-05 01:06:33] INFO root fetch - processPackages [django-iubenda]: Downloading https://files.pythonhosted.org/packages/a4/c3/58f581ea833a7b5144ebd235da7b42c24a7392fdde24099ae53965f5246f/django-iubenda-0.1.12.dev0.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/35/4d/500daeb5aa450328affd35bc95240503bdc485ecdddf553813392e02e17c/neon-phal-plugin-reset-0.2.2a2.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [e2D]: Downloading https://files.pythonhosted.org/packages/80/94/91b95678c9b3df561199e18f87bf63ea41cd58f264f07ac67430279f5e89/e2D-1.0.6.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt]: Downloading https://files.pythonhosted.org/packages/1c/e8/611c0ed6c5d6c6123c1017fcaa8fde4337ea00ea8ae3b02172efaa0b9bd2/tmnt-0.7.0b20230803.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/c8/dd/e8da70ed201de14811f761cbb05f8690419cf7b19349de9113aa3d47af73/pepperize.cdk-ses-smtp-credentials-0.3.421.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt-cu101]: Downloading https://files.pythonhosted.org/packages/58/ed/12e406be1d91f3855f189db96f2bb545fc98e73d0341a828070f93aa9869/tmnt-cu101-0.7.0b20230803.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [chai-guanaco]: Downloading https://files.pythonhosted.org/packages/7e/8c/8f68e991827bd02dc5b9284989161a87321a77a51b2c417ccfd7d5b7f008/chai-guanaco-1.1.0.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-0.7.0b20230802.tar.gz tmp/tmnt-0.7.0b20230803.tar.gz --markdown 20230805/t/tmnt/0.7.0b20230802-0.7.0b20230803/diff.md --exclude *.pyd
+[2023-08-05 01:06:33] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/10/78/158da1876f9993e387cbd6f3e863998fb3d36545c88820f91a57f7a97b99/xklb-2.2.8.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [fusepyng]: Downloading https://files.pythonhosted.org/packages/de/8e/1e3fe1e385a5c08fcee249752182bfe33209f0d0d6fa125fc185e2e1c4c6/fusepyng-2.0.0.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt-cu101]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [tmnt-cu101]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tmnt-cu101-0.7.0b20230802.tar.gz tmp/tmnt-cu101-0.7.0b20230803.tar.gz --markdown 20230805/t/tmnt-cu101/0.7.0b20230802-0.7.0b20230803/diff.md --exclude *.pyd
+[2023-08-05 01:06:33] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/72/72/0780c2dd252a10feb1dfe255f85a84cf8301530c038ff6eed64b974dd387/django-errors-2.3.4.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [neon-phal-plugin-reset]: Downloading https://files.pythonhosted.org/packages/5c/46/0fe728b76366a6eb8a6c7401ddf8cdec94f7cee0f09456ff7574f87bfbbc/neon-phal-plugin-reset-0.3.0.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [e2D]: Downloading https://files.pythonhosted.org/packages/f6/df/d38b1e67ce0b7d165364e64557ddb4e4e8247414af3434a9d73c16b6df07/e2D-1.1.0.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [fusepyng]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [fusepyng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fusepyng-1.0.7.tar.gz tmp/fusepyng-2.0.0.tar.gz --markdown 20230805/f/fusepyng/1.0.7-2.0.0/diff.md --exclude *.pyd
+[2023-08-05 01:06:33] INFO root fetch - processPackages [chai-guanaco]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [chai-guanaco]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chai-guanaco-1.0.8.tar.gz tmp/chai-guanaco-1.1.0.tar.gz --markdown 20230805/c/chai-guanaco/1.0.8-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 01:06:33] INFO root fetch - processPackages [django-iubenda]: Downloading https://files.pythonhosted.org/packages/ae/47/0fc7973172e26af1bbd38d214e8a80f4e22b523026254bf724144161c3be/django-iubenda-1.2.6.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Downloading https://files.pythonhosted.org/packages/1e/39/00e955d97db4a1c48197a28ee19694e8c33f426ba45a128e4d89e8051f13/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz
+[2023-08-05 01:06:33] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-2.3.2.tar.gz tmp/django-errors-2.3.4.tar.gz --markdown 20230805/d/django-errors/2.3.2-2.3.4/diff.md --exclude *.pyd
+[2023-08-05 01:06:33] INFO root fetch - processPackages [neon-phal-plugin-reset]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [neon-phal-plugin-reset]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-reset-0.2.2a2.tar.gz tmp/neon-phal-plugin-reset-0.3.0.tar.gz --markdown 20230805/n/neon-phal-plugin-reset/0.2.2a2-0.3.0/diff.md --exclude *.pyd
+[2023-08-05 01:06:33] INFO root fetch - processPackages [e2D]: executing diffoscope
+[2023-08-05 01:06:33] INFO root fetch - processPackages [e2D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2D-1.0.6.tar.gz tmp/e2D-1.1.0.tar.gz --markdown 20230805/e/e2D/1.0.6-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 01:06:34] INFO root fetch - processPackages [django-iubenda]: executing diffoscope
+[2023-08-05 01:06:34] INFO root fetch - processPackages [django-iubenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iubenda-0.1.12.dev0.tar.gz tmp/django-iubenda-1.2.6.tar.gz --markdown 20230805/d/django-iubenda/0.1.12.dev0-1.2.6/diff.md --exclude *.pyd
+[2023-08-05 01:06:34] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: executing diffoscope
+[2023-08-05 01:06:34] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-ses-smtp-credentials-0.3.421.tar.gz tmp/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz --markdown 20230805/p/pepperize.cdk-ses-smtp-credentials/0.3.421-0.3.422/diff.md --exclude *.pyd
+[2023-08-05 01:06:34] INFO root fetch - processPackages [xklb]: Downloading https://files.pythonhosted.org/packages/21/af/fbdd09ebcfd5aa404fbf007cfe827b2b56fcfd19c73cc4b3f7f672fe0b3c/xklb-2.2.9.tar.gz
+[2023-08-05 01:06:34] INFO root fetch - processPackages [xklb]: executing diffoscope
+[2023-08-05 01:06:34] INFO root fetch - processPackages [xklb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xklb-2.2.8.tar.gz tmp/xklb-2.2.9.tar.gz --markdown 20230805/x/xklb/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-05 01:06:35] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230802.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [tmnt]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-0.7.0b20230803.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [tmnt]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [fusepyng]: Remove: archive file [/home/abi/fetcher/tmp/fusepyng-1.0.7.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [fusepyng]: Remove: archive file [/home/abi/fetcher/tmp/fusepyng-2.0.0.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [fusepyng]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230802.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [tmnt-cu101]: Remove: archive file [/home/abi/fetcher/tmp/tmnt-cu101-0.7.0b20230803.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [tmnt-cu101]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-reset-0.2.2a2.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [neon-phal-plugin-reset]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-reset-0.3.0.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-reset]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [e2D]: Remove: archive file [/home/abi/fetcher/tmp/e2D-1.0.6.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [e2D]: Remove: archive file [/home/abi/fetcher/tmp/e2D-1.1.0.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [e2D]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.421.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [pepperize.cdk-ses-smtp-credentials]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-ses-smtp-credentials-0.3.422.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-ses-smtp-credentials]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [django-iubenda]: Remove: archive file [/home/abi/fetcher/tmp/django-iubenda-0.1.12.dev0.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [django-iubenda]: Remove: archive file [/home/abi/fetcher/tmp/django-iubenda-1.2.6.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [django-iubenda]: success
+[2023-08-05 01:06:35] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.2.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.4.tar.gz]
+[2023-08-05 01:06:35] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-08-05 01:06:36] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.0.8.tar.gz]
+[2023-08-05 01:06:36] INFO root fetch - processPackages [chai-guanaco]: Remove: archive file [/home/abi/fetcher/tmp/chai-guanaco-1.1.0.tar.gz]
+[2023-08-05 01:06:36] INFO root fetch - main [MainThread]: End processing [chai-guanaco]: success
+[2023-08-05 01:06:36] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.8.tar.gz]
+[2023-08-05 01:06:36] INFO root fetch - processPackages [xklb]: Remove: archive file [/home/abi/fetcher/tmp/xklb-2.2.9.tar.gz]
+[2023-08-05 01:06:36] INFO root fetch - main [MainThread]: End processing [xklb]: success
+[2023-08-05 01:06:36] INFO root fetch - main [MainThread]: Store serial: [19181486]
