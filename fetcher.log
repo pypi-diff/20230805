@@ -992,3 +992,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 01:16:59] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.8.3.tar.gz]
 [2023-08-05 01:16:59] INFO root fetch - main [MainThread]: End processing [bhv]: success
 [2023-08-05 01:16:59] INFO root fetch - main [MainThread]: Store serial: [19181534]
+[2023-08-05 01:22:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181534]
+[2023-08-05 01:22:08] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: django-errors
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: django-iubenda
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-python-classy
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Janex
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-metadata
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cmeel-example
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pepperize.cdk-github
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edc-facility
+[2023-08-05 01:22:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mbox2m365
+[2023-08-05 01:22:09] INFO root fetch - processPackages [django-iubenda]: New version: [1.2.6] Old Version: [0.1.12.dev0]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [cmeel-example]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [edc-facility]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [django-errors]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [mkdocs-python-classy]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [mbox2m365]: New version: [3.2.2] Old Version: [3.2.0]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [django-iubenda]: Downloading https://files.pythonhosted.org/packages/a4/c3/58f581ea833a7b5144ebd235da7b42c24a7392fdde24099ae53965f5246f/django-iubenda-0.1.12.dev0.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-05 01:22:09] INFO root fetch - processPackages [cmeel-example]: Downloading https://files.pythonhosted.org/packages/75/82/3c2c5fc2d10857299d4fc5acfb791c15e6da10773b3742edad62fd0daba3/cmeel_example-0.5.1.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 01:22:09] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/72/72/0780c2dd252a10feb1dfe255f85a84cf8301530c038ff6eed64b974dd387/django-errors-2.3.4.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [edc-facility]: Downloading https://files.pythonhosted.org/packages/f8/43/83ddfd23c29814a9582db7d419729670f9c76a8c30ea48150565efb2e059/edc_facility-0.3.8-py3-none-any.whl
+[2023-08-05 01:22:09] INFO root fetch - processPackages [mkdocs-python-classy]: Downloading https://files.pythonhosted.org/packages/46/84/15efe82c146ce9f5d9bfe5e70cf0e4722eefbb1cd9c529caf7ce5ccb67fc/mkdocs_python_classy-0.1.2.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [mbox2m365]: Downloading https://files.pythonhosted.org/packages/45/69/737b97ff918c42a5455925b30d09ef252a748326e6922bf78e381a52caea/mbox2m365-3.2.0.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [django-iubenda]: Downloading https://files.pythonhosted.org/packages/ae/47/0fc7973172e26af1bbd38d214e8a80f4e22b523026254bf724144161c3be/django-iubenda-1.2.6.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-05 01:22:09] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-05 01:22:09] INFO root fetch - processPackages [cmeel-example]: Downloading https://files.pythonhosted.org/packages/99/0c/7ff23d5cc2711498442ab715585cf39ffd893279238c7ef729a80b800519/cmeel_example-0.5.2.tar.gz
+[2023-08-05 01:22:10] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230805/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [django-iubenda]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [django-iubenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iubenda-0.1.12.dev0.tar.gz tmp/django-iubenda-1.2.6.tar.gz --markdown 20230805/d/django-iubenda/0.1.12.dev0-1.2.6/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [cmeel-example]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [cmeel-example]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmeel_example-0.5.1.tar.gz tmp/cmeel_example-0.5.2.tar.gz --markdown 20230805/c/cmeel-example/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230805/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-05 01:22:10] INFO root fetch - processPackages [edc-facility]: Downloading https://files.pythonhosted.org/packages/25/df/5c2c19681b3a879f977740022bc5a788ede02f38db0703d0f9c08b2d0300/edc-facility-0.3.9.tar.gz
+[2023-08-05 01:22:10] INFO root fetch - processPackages [django-errors]: Downloading https://files.pythonhosted.org/packages/e1/66/0a91ba4e74b69fd559f0f4579f5a727fa288b25260f627f539cc41537fa0/django-errors-2.3.5.tar.gz
+[2023-08-05 01:22:10] INFO root fetch - processPackages [mkdocs-python-classy]: Downloading https://files.pythonhosted.org/packages/51/e8/fbe71be16adc2669eae0809757526e66cc635f14b9bf3307d137eb5ecc5a/mkdocs_python_classy-0.1.3.tar.gz
+[2023-08-05 01:22:10] INFO root fetch - processPackages [mbox2m365]: Downloading https://files.pythonhosted.org/packages/11/b0/397a19c669eeba5cbec56451f96a165eda933d2b3167a97ad66b4a846983/mbox2m365-3.2.2.tar.gz
+[2023-08-05 01:22:10] INFO root fetch - processPackages [edc-facility]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [edc-facility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_facility-0.3.8-py3-none-any.whl.zip tmp/edc-facility-0.3.9.tar.gz --markdown 20230805/e/edc-facility/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [mkdocs-python-classy]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [mkdocs-python-classy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs_python_classy-0.1.2.tar.gz tmp/mkdocs_python_classy-0.1.3.tar.gz --markdown 20230805/m/mkdocs-python-classy/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [django-errors]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [django-errors]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-errors-2.3.4.tar.gz tmp/django-errors-2.3.5.tar.gz --markdown 20230805/d/django-errors/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [mbox2m365]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [mbox2m365]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbox2m365-3.2.0.tar.gz tmp/mbox2m365-3.2.2.tar.gz --markdown 20230805/m/mbox2m365/3.2.0-3.2.2/diff.md --exclude *.pyd
+[2023-08-05 01:22:10] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-05 01:22:10] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230805/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 01:22:11] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-05 01:22:11] INFO root fetch - processPackages [edc-facility]: Remove: archive file [/home/abi/fetcher/tmp/edc_facility-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 01:22:11] INFO root fetch - processPackages [edc-facility]: Remove: archive file [/home/abi/fetcher/tmp/edc-facility-0.3.9.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - main [MainThread]: End processing [edc-facility]: success
+[2023-08-05 01:22:11] INFO root fetch - processPackages [mkdocs-python-classy]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_python_classy-0.1.2.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - processPackages [mkdocs-python-classy]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs_python_classy-0.1.3.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - main [MainThread]: End processing [mkdocs-python-classy]: success
+[2023-08-05 01:22:11] INFO root fetch - processPackages [cmeel-example]: Remove: archive file [/home/abi/fetcher/tmp/cmeel_example-0.5.1.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - processPackages [cmeel-example]: Remove: archive file [/home/abi/fetcher/tmp/cmeel_example-0.5.2.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - main [MainThread]: End processing [cmeel-example]: success
+[2023-08-05 01:22:11] INFO root fetch - processPackages [django-iubenda]: Remove: archive file [/home/abi/fetcher/tmp/django-iubenda-0.1.12.dev0.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - processPackages [django-iubenda]: Remove: archive file [/home/abi/fetcher/tmp/django-iubenda-1.2.6.tar.gz]
+[2023-08-05 01:22:11] INFO root fetch - main [MainThread]: End processing [django-iubenda]: success
+[2023-08-05 01:22:11] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 01:22:11] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-05 01:22:11] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-05 01:22:12] INFO root fetch - processPackages [mbox2m365]: Remove: archive file [/home/abi/fetcher/tmp/mbox2m365-3.2.0.tar.gz]
+[2023-08-05 01:22:12] INFO root fetch - processPackages [mbox2m365]: Remove: archive file [/home/abi/fetcher/tmp/mbox2m365-3.2.2.tar.gz]
+[2023-08-05 01:22:12] INFO root fetch - main [MainThread]: End processing [mbox2m365]: success
+[2023-08-05 01:22:12] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.4.tar.gz]
+[2023-08-05 01:22:12] INFO root fetch - processPackages [django-errors]: Remove: archive file [/home/abi/fetcher/tmp/django-errors-2.3.5.tar.gz]
+[2023-08-05 01:22:12] INFO root fetch - main [MainThread]: End processing [django-errors]: success
+[2023-08-05 01:22:12] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-05 01:22:12] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-05 01:22:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-05 01:22:12] INFO root fetch - main [MainThread]: Store serial: [19181592]
