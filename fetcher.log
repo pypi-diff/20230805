@@ -209,3 +209,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:14:05] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.9.tar.gz]
 [2023-08-05 00:14:05] INFO root fetch - main [MainThread]: End processing [council-ai]: success
 [2023-08-05 00:14:05] INFO root fetch - main [MainThread]: Store serial: [19181234]
+[2023-08-05 00:19:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181234]
+[2023-08-05 00:19:13] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysr
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ppqueue
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nda
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gwdetchar
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dispersenn2
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voicebox-pytorch
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: echofish-aws-create-empty-zarr-store-lambda
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: edgepi-rpc-protobuf
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: konko
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: smltheory
+[2023-08-05 00:19:13] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [smltheory]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: New version: [1.0.0.dev20230804221115] Old Version: [1.0.0.dev20230705184439]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [gwdetchar]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [dispersenn2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [ppqueue]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [konko]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-05 00:19:13] WARNING root fetch - processPackages [nda]: Skipping, unable to determine old version
+[2023-08-05 00:19:13] INFO root fetch - processPackages [nda]: Start processing: metar2bufr
+[2023-08-05 00:19:13] INFO root fetch - main [MainThread]: End processing [nda] error
+[2023-08-05 00:19:13] INFO root fetch - processPackages [pysr]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [edgepi-rpc-protobuf]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-05 00:19:13] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/04/00/e2f118252509e75d4f5ce6e7fa0614bd1e32fb6843a0545d70ad7cb9f825/smltheory-0.1.1.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [metar2bufr]: New version: [0.0.2.42] Old Version: [0.0.2.41]
+[2023-08-05 00:19:14] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/32/47/93a40134d43ee3652bbdb44bf47615e830e65d1305fabc57bac8aea467ce/voicebox-pytorch-0.0.1.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/e2/cb/480620995a63b723e67f4b3b369349cd3449a5ba2cbdd8e888edd1b4cd6f/gwdetchar-2.1.2.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [dispersenn2]: Downloading https://files.pythonhosted.org/packages/58/0b/fb034b58d9a148e381cfa11a1f6d1d2c3889345b21274293e58d2063e1cb/dispersenn2-0.0.4.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/d3/df/14aea2e7309ad69a910657efbb000a334f142230bedba877ce76bc990cb2/echofish-aws-create-empty-zarr-store-lambda-1.0.0.dev20230705184439.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/8c/ce/a4b9e6869de210b14212439965d7c0ecd8a44ee42902942eb7ec80172d4c/konko-0.3.1.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/d9/e3/850929c67c6a6443d1f9fa459463e8dc6f4f8277218ba69c40ce71c63c6b/metar2bufr-0.0.2.41.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [edgepi-rpc-protobuf]: Downloading https://files.pythonhosted.org/packages/06/61/6921a029f01eb6bb78a14972a60e8e316c36d597616098dd6b611233bfab/edgepi-rpc-protobuf-1.0.2.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/73/ab/db4ac056fdd819802b0be21ffe3646ee022a42f6a5dc9284315b12b4a5a0/pysr-0.9.4.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [ppqueue]: Downloading https://files.pythonhosted.org/packages/00/73/5ca2c1644495654c056a7a420fc6e9c2a5398783d7c955b3ff2ab4136478/ppqueue-0.3.0.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/92/5a/8f6f30f4387bd24163563308e6ddf740e6570dd296771b5ad80ba2469e32/smltheory-0.1.2.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [dispersenn2]: Downloading https://files.pythonhosted.org/packages/47/83/5b2fb65ad6600c5fa574523d580949c27698dee2ba35f2503c7294e2ade7/dispersenn2-0.0.5.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [gwdetchar]: Downloading https://files.pythonhosted.org/packages/4d/27/d8426425727f4c495da1d4a8a1efa074a6e1fec3a0067a89504e5cbf9e48/gwdetchar-2.1.3.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/29/0e/2d333316f2a82b7b36f7fc05241dabe2d2f0b825f1dfa3b104c8622f7fd0/voicebox-pytorch-0.0.2.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [smltheory]: executing diffoscope
+[2023-08-05 00:19:14] INFO root fetch - processPackages [smltheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smltheory-0.1.1.tar.gz tmp/smltheory-0.1.2.tar.gz --markdown 20230805/s/smltheory/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 00:19:14] INFO root fetch - processPackages [konko]: Downloading https://files.pythonhosted.org/packages/b7/11/e95e968256271dc46f53db952eab33b3e25a7f3cf074d1e8c0357b4aa013/konko-0.3.2.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [edgepi-rpc-protobuf]: Downloading https://files.pythonhosted.org/packages/28/17/09aa4f14842615fb408c9be36e4c7207b648420a2392136ef55422446282/edgepi-rpc-protobuf-1.0.3.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [metar2bufr]: Downloading https://files.pythonhosted.org/packages/a4/9d/6d85ab5e9e5560efe9813c3d19267b7ce19990971f4626165e5bd72d61d5/metar2bufr-0.0.2.42.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [pysr]: Downloading https://files.pythonhosted.org/packages/94/ab/d3fde0e696012fdbfa1a72dbc577dac59abbdf676445377b79642490eea7/pysr-0.9.5.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: Downloading https://files.pythonhosted.org/packages/86/00/d2547aa6adaa3bdd57081f206723c4a8534d00d4e4bcd4b5415fba67635e/echofish-aws-create-empty-zarr-store-lambda-1.0.0.dev20230804221115.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [dispersenn2]: executing diffoscope
+[2023-08-05 00:19:14] INFO root fetch - processPackages [dispersenn2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispersenn2-0.0.4.tar.gz tmp/dispersenn2-0.0.5.tar.gz --markdown 20230805/d/dispersenn2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 00:19:14] INFO root fetch - processPackages [ppqueue]: Downloading https://files.pythonhosted.org/packages/80/e2/10aa5e40e524cf98772b17c03dba0cdc63a54fc193e217700977f901b3e0/ppqueue-0.4.0.tar.gz
+[2023-08-05 00:19:14] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-05 00:19:14] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.1.tar.gz tmp/voicebox-pytorch-0.0.2.tar.gz --markdown 20230805/v/voicebox-pytorch/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 00:19:14] INFO root fetch - processPackages [edgepi-rpc-protobuf]: executing diffoscope
+[2023-08-05 00:19:14] INFO root fetch - processPackages [edgepi-rpc-protobuf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edgepi-rpc-protobuf-1.0.2.tar.gz tmp/edgepi-rpc-protobuf-1.0.3.tar.gz --markdown 20230805/e/edgepi-rpc-protobuf/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-05 00:19:14] INFO root fetch - processPackages [konko]: executing diffoscope
+[2023-08-05 00:19:14] INFO root fetch - processPackages [konko]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konko-0.3.1.tar.gz tmp/konko-0.3.2.tar.gz --markdown 20230805/k/konko/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-05 00:19:15] INFO root fetch - processPackages [gwdetchar]: executing diffoscope
+[2023-08-05 00:19:15] INFO root fetch - processPackages [gwdetchar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwdetchar-2.1.2.tar.gz tmp/gwdetchar-2.1.3.tar.gz --markdown 20230805/g/gwdetchar/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-05 00:19:15] INFO root fetch - processPackages [ppqueue]: executing diffoscope
+[2023-08-05 00:19:15] INFO root fetch - processPackages [ppqueue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ppqueue-0.3.0.tar.gz tmp/ppqueue-0.4.0.tar.gz --markdown 20230805/p/ppqueue/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 00:19:15] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: executing diffoscope
+[2023-08-05 00:19:15] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/echofish-aws-create-empty-zarr-store-lambda-1.0.0.dev20230705184439.tar.gz tmp/echofish-aws-create-empty-zarr-store-lambda-1.0.0.dev20230804221115.tar.gz --markdown 20230805/e/echofish-aws-create-empty-zarr-store-lambda/1.0.0.dev20230705184439-1.0.0.dev20230804221115/diff.md --exclude *.pyd
+[2023-08-05 00:19:15] INFO root fetch - processPackages [metar2bufr]: executing diffoscope
+[2023-08-05 00:19:15] INFO root fetch - processPackages [metar2bufr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/metar2bufr-0.0.2.41.tar.gz tmp/metar2bufr-0.0.2.42.tar.gz --markdown 20230805/m/metar2bufr/0.0.2.41-0.0.2.42/diff.md --exclude *.pyd
+[2023-08-05 00:19:15] INFO root fetch - processPackages [pysr]: executing diffoscope
+[2023-08-05 00:19:15] INFO root fetch - processPackages [pysr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysr-0.9.4.tar.gz tmp/pysr-0.9.5.tar.gz --markdown 20230805/p/pysr/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-05 00:19:16] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.1.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.2.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [smltheory]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [dispersenn2]: Remove: archive file [/home/abi/fetcher/tmp/dispersenn2-0.0.4.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [dispersenn2]: Remove: archive file [/home/abi/fetcher/tmp/dispersenn2-0.0.5.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [dispersenn2]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.1.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.2.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.3.1.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [konko]: Remove: archive file [/home/abi/fetcher/tmp/konko-0.3.2.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [konko]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [edgepi-rpc-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/edgepi-rpc-protobuf-1.0.2.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [edgepi-rpc-protobuf]: Remove: archive file [/home/abi/fetcher/tmp/edgepi-rpc-protobuf-1.0.3.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [edgepi-rpc-protobuf]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-create-empty-zarr-store-lambda-1.0.0.dev20230705184439.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [echofish-aws-create-empty-zarr-store-lambda]: Remove: archive file [/home/abi/fetcher/tmp/echofish-aws-create-empty-zarr-store-lambda-1.0.0.dev20230804221115.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [echofish-aws-create-empty-zarr-store-lambda]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [ppqueue]: Remove: archive file [/home/abi/fetcher/tmp/ppqueue-0.3.0.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [ppqueue]: Remove: archive file [/home/abi/fetcher/tmp/ppqueue-0.4.0.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [ppqueue]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.4.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [pysr]: Remove: archive file [/home/abi/fetcher/tmp/pysr-0.9.5.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [pysr]: success
+[2023-08-05 00:19:16] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.41.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - processPackages [metar2bufr]: Remove: archive file [/home/abi/fetcher/tmp/metar2bufr-0.0.2.42.tar.gz]
+[2023-08-05 00:19:16] INFO root fetch - main [MainThread]: End processing [metar2bufr]: success
+[2023-08-05 00:19:17] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.1.2.tar.gz]
+[2023-08-05 00:19:17] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.1.3.tar.gz]
+[2023-08-05 00:19:17] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
+[2023-08-05 00:19:17] INFO root fetch - main [MainThread]: Store serial: [19181269]
