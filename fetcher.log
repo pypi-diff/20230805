@@ -305,3 +305,61 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:19:17] INFO root fetch - processPackages [gwdetchar]: Remove: archive file [/home/abi/fetcher/tmp/gwdetchar-2.1.3.tar.gz]
 [2023-08-05 00:19:17] INFO root fetch - main [MainThread]: End processing [gwdetchar]: success
 [2023-08-05 00:19:17] INFO root fetch - main [MainThread]: Store serial: [19181269]
+[2023-08-05 00:24:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181269]
+[2023-08-05 00:24:26] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: powerjira
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: demogpt
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: demogpt
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: meeseeksai
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quivr
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: msplotter
+[2023-08-05 00:24:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: element-deeplabcut
+[2023-08-05 00:24:26] INFO root fetch - processPackages [powerjira]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-05 00:24:26] INFO root fetch - processPackages [msplotter]: New version: [0.1.34] Old Version: [0.1.32]
+[2023-08-05 00:24:26] INFO root fetch - processPackages [quivr]: New version: [0.6.0rc1] Old Version: [0.5.0]
+[2023-08-05 00:24:26] INFO root fetch - processPackages [element-deeplabcut]: New version: [0.2.7] Old Version: [0.2.3]
+[2023-08-05 00:24:26] ERROR root fetch - processPackages [meeseeksai]: Unable to get metadata: No such project 'meeseeksai'
+[2023-08-05 00:24:26] INFO root fetch - main [MainThread]: End processing [meeseeksai] error
+[2023-08-05 00:24:26] INFO root fetch - processPackages [demogpt]: New version: [1.1.2.1] Old Version: [1.1.2]
+[2023-08-05 00:24:26] INFO root fetch - processPackages [demogpt]: New version: [1.1.2.1] Old Version: [1.1.2]
+[2023-08-05 00:24:26] INFO root fetch - processPackages [powerjira]: Downloading https://files.pythonhosted.org/packages/9d/3a/54f2470cd1fdd61f6f810015739b0be7fc6c59741e65859766b9841d2cfb/powerjira-0.3.1.tar.gz
+[2023-08-05 00:24:26] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/b9/33/ae44c777e01c9245a0f56465c92f60965ef1f575968af56e9721d63d716f/msplotter-0.1.32.tar.gz
+[2023-08-05 00:24:26] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/f2/00/7ed588bfcd3c55d9c15cf84b167b57353bee32b6127b0b287e9b90195e34/demogpt-1.1.2-py3-none-any.whl
+[2023-08-05 00:24:26] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/58/5f/53bdab02618937a99da1f21ed087b1ba4f9785f964d4b38bb4f4cba8feab/quivr-0.5.0.tar.gz
+[2023-08-05 00:24:26] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/f2/00/7ed588bfcd3c55d9c15cf84b167b57353bee32b6127b0b287e9b90195e34/demogpt-1.1.2-py3-none-any.whl
+[2023-08-05 00:24:26] INFO root fetch - processPackages [element-deeplabcut]: Downloading https://files.pythonhosted.org/packages/b7/63/4cd64b8fce1b62b4e00a3a51bca3d2a30cdcfb8aa4b61adbd201dad2d2da/element-deeplabcut-0.2.3.tar.gz
+[2023-08-05 00:24:26] INFO root fetch - processPackages [msplotter]: Downloading https://files.pythonhosted.org/packages/0d/a2/1580ecc157da697ce7cc182a1d6ef939d34cf121abd2f42014ef8009d74c/msplotter-0.1.34.tar.gz
+[2023-08-05 00:24:26] INFO root fetch - processPackages [powerjira]: Downloading https://files.pythonhosted.org/packages/47/e1/fa9f872e6aa9a4f50afbb5c7c9232d54b2c59ee8d700eb4bd914d084a316/powerjira-0.3.2.tar.gz
+[2023-08-05 00:24:26] INFO root fetch - processPackages [powerjira]: executing diffoscope
+[2023-08-05 00:24:26] INFO root fetch - processPackages [powerjira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerjira-0.3.1.tar.gz tmp/powerjira-0.3.2.tar.gz --markdown 20230805/p/powerjira/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-05 00:24:26] INFO root fetch - processPackages [msplotter]: executing diffoscope
+[2023-08-05 00:24:26] INFO root fetch - processPackages [msplotter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/msplotter-0.1.32.tar.gz tmp/msplotter-0.1.34.tar.gz --markdown 20230805/m/msplotter/0.1.32-0.1.34/diff.md --exclude *.pyd
+[2023-08-05 00:24:26] INFO root fetch - processPackages [quivr]: Downloading https://files.pythonhosted.org/packages/35/4f/2a9274a851c19add46cf8f689f74e00ceccbd9b910153919d2d6fde44ac1/quivr-0.6.0rc1.tar.gz
+[2023-08-05 00:24:27] INFO root fetch - processPackages [element-deeplabcut]: Downloading https://files.pythonhosted.org/packages/c5/5e/493391986b260e6c00f186f1e44a28e5a0846145660ae6acf9dcb16c8770/element-deeplabcut-0.2.7.tar.gz
+[2023-08-05 00:24:27] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/32/ef/78377e795dd42c3d80bf12f2cec6f10854e47b4af1fefd58aab79c737ab1/demogpt-1.1.2.1.tar.gz
+[2023-08-05 00:24:27] INFO root fetch - processPackages [demogpt]: Downloading https://files.pythonhosted.org/packages/32/ef/78377e795dd42c3d80bf12f2cec6f10854e47b4af1fefd58aab79c737ab1/demogpt-1.1.2.1.tar.gz
+[2023-08-05 00:24:27] INFO root fetch - processPackages [element-deeplabcut]: executing diffoscope
+[2023-08-05 00:24:27] INFO root fetch - processPackages [quivr]: executing diffoscope
+[2023-08-05 00:24:27] INFO root fetch - processPackages [element-deeplabcut]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/element-deeplabcut-0.2.3.tar.gz tmp/element-deeplabcut-0.2.7.tar.gz --markdown 20230805/e/element-deeplabcut/0.2.3-0.2.7/diff.md --exclude *.pyd
+[2023-08-05 00:24:27] INFO root fetch - processPackages [quivr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quivr-0.5.0.tar.gz tmp/quivr-0.6.0rc1.tar.gz --markdown 20230805/q/quivr/0.5.0-0.6.0rc1/diff.md --exclude *.pyd
+[2023-08-05 00:24:27] INFO root fetch - processPackages [demogpt]: executing diffoscope
+[2023-08-05 00:24:27] INFO root fetch - processPackages [demogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demogpt-1.1.2-py3-none-any.whl.zip tmp/demogpt-1.1.2.1.tar.gz --markdown 20230805/d/demogpt/1.1.2-1.1.2.1/diff.md --exclude *.pyd
+[2023-08-05 00:24:27] INFO root fetch - processPackages [demogpt]: executing diffoscope
+[2023-08-05 00:24:27] INFO root fetch - processPackages [demogpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/demogpt-1.1.2-py3-none-any.whl.zip tmp/demogpt-1.1.2.1.tar.gz --markdown 20230805/d/demogpt/1.1.2-1.1.2.1/diff.md --exclude *.pyd
+[2023-08-05 00:24:28] INFO root fetch - processPackages [powerjira]: Remove: archive file [/home/abi/fetcher/tmp/powerjira-0.3.1.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - processPackages [powerjira]: Remove: archive file [/home/abi/fetcher/tmp/powerjira-0.3.2.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [powerjira]: success
+[2023-08-05 00:24:28] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.32.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - processPackages [msplotter]: Remove: archive file [/home/abi/fetcher/tmp/msplotter-0.1.34.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [msplotter]: success
+[2023-08-05 00:24:28] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.5.0.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - processPackages [quivr]: Remove: archive file [/home/abi/fetcher/tmp/quivr-0.6.0rc1.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [quivr]: success
+[2023-08-05 00:24:28] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.2-py3-none-any.whl.zip]
+[2023-08-05 00:24:28] INFO root fetch - processPackages [demogpt]: Remove: archive file [/home/abi/fetcher/tmp/demogpt-1.1.2.1.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [demogpt]: success
+[2023-08-05 00:24:28] INFO root fetch - processPackages [element-deeplabcut]: Remove: archive file [/home/abi/fetcher/tmp/element-deeplabcut-0.2.3.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - processPackages [element-deeplabcut]: Remove: archive file [/home/abi/fetcher/tmp/element-deeplabcut-0.2.7.tar.gz]
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [element-deeplabcut]: success
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [demogpt]: success
+[2023-08-05 00:24:28] INFO root fetch - main [MainThread]: Store serial: [19181292]
