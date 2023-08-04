@@ -1076,3 +1076,55 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 01:22:12] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
 [2023-08-05 01:22:12] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
 [2023-08-05 01:22:12] INFO root fetch - main [MainThread]: Store serial: [19181592]
+[2023-08-05 01:27:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181592]
+[2023-08-05 01:27:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Carter-Offline
+[2023-08-05 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pepperize.cdk-github
+[2023-08-05 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aissistant
+[2023-08-05 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Carter-Offline
+[2023-08-05 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openct
+[2023-08-05 01:27:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyella-rs
+[2023-08-05 01:27:21] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-05 01:27:21] INFO root fetch - processPackages [openct]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 01:27:21] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.8] Old Version: [2.0.7]
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pepperize.cdk-github]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pyella-rs]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-05 01:27:21] INFO root fetch - processPackages [aissistant]: New version: [0.2] Old Version: [0.1]
+[2023-08-05 01:27:21] INFO root fetch - processPackages [openct]: Downloading https://files.pythonhosted.org/packages/08/19/3f010be3596bf652b671bed7c96c9ddd065ae3d1a84d1af33c3af553429d/openct-0.1.2.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/24/6d/598d06b1a4e959b347586ba22a01a1bc105e61fe7d1318c6fb190d545b38/pepperize.cdk-github-0.0.98.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/55/29/824978f5e84c158b003ae2dc76fe33a3612f5558063fa5b35d07492966fa/Carter-Offline-2.0.7.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/55/29/824978f5e84c158b003ae2dc76fe33a3612f5558063fa5b35d07492966fa/Carter-Offline-2.0.7.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pyella-rs]: Downloading https://files.pythonhosted.org/packages/49/c8/c36739e9bc52f9ef5c7009350606aaa9c33299127912a285b599696be5c3/pyella_rs-0.1.4.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [aissistant]: Downloading https://files.pythonhosted.org/packages/82/81/bdd337a8e531cceb820a668ad8084ffb1a84e6eeebd3cf3ea492bd0fe5b8/aissistant-0.1.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pepperize.cdk-github]: Downloading https://files.pythonhosted.org/packages/c3/a7/0446f664eacf32838f54f1c66d5396c5ab08f1bcd671ef0f29c503c0f763/pepperize.cdk-github-0.0.99.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [openct]: Downloading https://files.pythonhosted.org/packages/22/fe/9ec4150cf1d39084fccfc3daed7f76717449fba85c22bfa76712ec3087b4/openct-0.1.3.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pepperize.cdk-github]: executing diffoscope
+[2023-08-05 01:27:21] INFO root fetch - processPackages [pepperize.cdk-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pepperize.cdk-github-0.0.98.tar.gz tmp/pepperize.cdk-github-0.0.99.tar.gz --markdown 20230805/p/pepperize.cdk-github/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 01:27:21] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/65/89/3a3eedf3d237111aee07c77589cf8eb699a329c190f7346751f19575e940/Carter-Offline-2.0.8.tar.gz
+[2023-08-05 01:27:21] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/65/89/3a3eedf3d237111aee07c77589cf8eb699a329c190f7346751f19575e940/Carter-Offline-2.0.8.tar.gz
+[2023-08-05 01:27:22] INFO root fetch - processPackages [openct]: executing diffoscope
+[2023-08-05 01:27:22] INFO root fetch - processPackages [openct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openct-0.1.2.tar.gz tmp/openct-0.1.3.tar.gz --markdown 20230805/o/openct/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 01:27:22] INFO root fetch - processPackages [pyella-rs]: Downloading https://files.pythonhosted.org/packages/2e/90/bd0060bbd645623425a5f362b55b373334fa8f6e57ad3713634f6748ffc0/pyella_rs-0.1.5-cp311-cp311-macosx_10_7_x86_64.whl
+[2023-08-05 01:27:22] INFO root fetch - processPackages [aissistant]: Downloading https://files.pythonhosted.org/packages/cd/84/684c920647d5cb9cf47d2a63f8b22ea51cb5809bb33a150c636a9820187d/aissistant-0.2.tar.gz
+[2023-08-05 01:27:22] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-05 01:27:22] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.7.tar.gz tmp/Carter-Offline-2.0.8.tar.gz --markdown 20230805/C/Carter-Offline/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-05 01:27:22] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-05 01:27:22] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.7.tar.gz tmp/Carter-Offline-2.0.8.tar.gz --markdown 20230805/C/Carter-Offline/2.0.7-2.0.8/diff.md --exclude *.pyd
+[2023-08-05 01:27:22] INFO root fetch - processPackages [aissistant]: executing diffoscope
+[2023-08-05 01:27:22] INFO root fetch - processPackages [aissistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissistant-0.1.tar.gz tmp/aissistant-0.2.tar.gz --markdown 20230805/a/aissistant/0.1-0.2/diff.md --exclude *.pyd
+[2023-08-05 01:27:22] WARNING root fetch - processPackages [pyella-rs]: Skipping package: exceeds size limit 17228986>=10485760
+[2023-08-05 01:27:22] INFO root fetch - main [MainThread]: End processing [pyella-rs] error
+[2023-08-05 01:27:23] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.98.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - processPackages [pepperize.cdk-github]: Remove: archive file [/home/abi/fetcher/tmp/pepperize.cdk-github-0.0.99.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - main [MainThread]: End processing [pepperize.cdk-github]: success
+[2023-08-05 01:27:23] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.7.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.8.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-05 01:27:23] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-05 01:27:23] INFO root fetch - processPackages [aissistant]: Remove: archive file [/home/abi/fetcher/tmp/aissistant-0.1.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - processPackages [aissistant]: Remove: archive file [/home/abi/fetcher/tmp/aissistant-0.2.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - main [MainThread]: End processing [aissistant]: success
+[2023-08-05 01:27:23] INFO root fetch - processPackages [openct]: Remove: archive file [/home/abi/fetcher/tmp/openct-0.1.2.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - processPackages [openct]: Remove: archive file [/home/abi/fetcher/tmp/openct-0.1.3.tar.gz]
+[2023-08-05 01:27:23] INFO root fetch - main [MainThread]: End processing [openct]: success
+[2023-08-05 01:27:23] INFO root fetch - main [MainThread]: Store serial: [19181614]
