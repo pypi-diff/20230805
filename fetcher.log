@@ -148,3 +148,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:08:53] INFO root fetch - processPackages [pytorch-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_tools-0.5.1.tar.gz]
 [2023-08-05 00:08:53] INFO root fetch - main [MainThread]: End processing [pytorch-tools]: success
 [2023-08-05 00:08:53] INFO root fetch - main [MainThread]: Store serial: [19181205]
+[2023-08-05 00:13:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181205]
+[2023-08-05 00:14:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: algoritmo-gpt
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: algoritmo-gpt
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: powerjira
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: council-ai
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: uiclasses
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Tic-Toc-Toe-Elham
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: castep-outputs
+[2023-08-05 00:14:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Janex
+[2023-08-05 00:14:02] INFO root fetch - processPackages [powerjira]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-05 00:14:02] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-05 00:14:02] INFO root fetch - processPackages [council-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 00:14:02] INFO root fetch - processPackages [powerjira]: Downloading https://files.pythonhosted.org/packages/d9/7a/f2a373a261310fd6f08e8c3d5504b09fc47fd3ed46be3e5ce643b5770568/powerjira-0.3.0.tar.gz
+[2023-08-05 00:14:02] INFO root fetch - processPackages [algoritmo-gpt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-08-05 00:14:02] INFO root fetch - processPackages [algoritmo-gpt]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-08-05 00:14:02] WARNING root fetch - processPackages [castep-outputs]: Skipping, unable to determine old version
+[2023-08-05 00:14:02] WARNING root fetch - processPackages [Tic-Toc-Toe-Elham]: Skipping, unable to determine old version
+[2023-08-05 00:14:02] INFO root fetch - main [MainThread]: End processing [castep-outputs] error
+[2023-08-05 00:14:02] INFO root fetch - main [MainThread]: End processing [Tic-Toc-Toe-Elham] error
+[2023-08-05 00:14:02] INFO root fetch - processPackages [uiclasses]: New version: [3.0.0] Old Version: [2.4.0]
+[2023-08-05 00:14:02] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: Downloading https://files.pythonhosted.org/packages/07/1f/7b077c508d8c8d002ec8ce3c7fa8b1021cd67205d883fa106df918391515/algoritmo_gpt-0.0.1.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: Downloading https://files.pythonhosted.org/packages/07/1f/7b077c508d8c8d002ec8ce3c7fa8b1021cd67205d883fa106df918391515/algoritmo_gpt-0.0.1.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [uiclasses]: Downloading https://files.pythonhosted.org/packages/28/7f/16efb43c1d2fd95b831606cdf7b0640e78b1795546241a3cf1ad7d281214/uiclasses-2.4.0.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [council-ai]: Downloading https://files.pythonhosted.org/packages/55/d5/dc8bf25bce656865aab7c1bd3ef2e2f402582dec768d4d6cc0e84ad2266d/council_ai-0.0.8.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [powerjira]: Downloading https://files.pythonhosted.org/packages/9d/3a/54f2470cd1fdd61f6f810015739b0be7fc6c59741e65859766b9841d2cfb/powerjira-0.3.1.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-05 00:14:03] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230805/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: Downloading https://files.pythonhosted.org/packages/24/7f/533f3a649edafccf9cc309be2fd3bbca6e7ace76eb2e20f70e75ebc68588/algoritmo_gpt-0.1.0.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: Downloading https://files.pythonhosted.org/packages/24/7f/533f3a649edafccf9cc309be2fd3bbca6e7ace76eb2e20f70e75ebc68588/algoritmo_gpt-0.1.0.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [powerjira]: executing diffoscope
+[2023-08-05 00:14:03] INFO root fetch - processPackages [powerjira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerjira-0.3.0.tar.gz tmp/powerjira-0.3.1.tar.gz --markdown 20230805/p/powerjira/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: executing diffoscope
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoritmo_gpt-0.0.1.tar.gz tmp/algoritmo_gpt-0.1.0.tar.gz --markdown 20230805/a/algoritmo-gpt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-08-05 00:14:03] INFO root fetch - processPackages [uiclasses]: Downloading https://files.pythonhosted.org/packages/b7/93/c1400221f33224f8d5081a5a58ad523a5c8688fedba689297eaa9c2bf352/uiclasses-3.0.0.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: executing diffoscope
+[2023-08-05 00:14:03] INFO root fetch - processPackages [algoritmo-gpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoritmo_gpt-0.0.1.tar.gz tmp/algoritmo_gpt-0.1.0.tar.gz --markdown 20230805/a/algoritmo-gpt/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-08-05 00:14:03] INFO root fetch - processPackages [council-ai]: Downloading https://files.pythonhosted.org/packages/de/e1/3ded09dcccd73b3179e271245dfea5e33e5690be41c7d362ab702dc45639/council_ai-0.0.9.tar.gz
+[2023-08-05 00:14:03] INFO root fetch - processPackages [uiclasses]: executing diffoscope
+[2023-08-05 00:14:03] INFO root fetch - processPackages [uiclasses]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/uiclasses-2.4.0.tar.gz tmp/uiclasses-3.0.0.tar.gz --markdown 20230805/u/uiclasses/2.4.0-3.0.0/diff.md --exclude *.pyd
+[2023-08-05 00:14:03] INFO root fetch - processPackages [council-ai]: executing diffoscope
+[2023-08-05 00:14:03] INFO root fetch - processPackages [council-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/council_ai-0.0.8.tar.gz tmp/council_ai-0.0.9.tar.gz --markdown 20230805/c/council-ai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 00:14:04] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-05 00:14:04] INFO root fetch - processPackages [algoritmo-gpt]: Remove: archive file [/home/abi/fetcher/tmp/algoritmo_gpt-0.0.1.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - processPackages [algoritmo-gpt]: Remove: archive file [/home/abi/fetcher/tmp/algoritmo_gpt-0.1.0.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - main [MainThread]: End processing [algoritmo-gpt]: success
+[2023-08-05 00:14:04] INFO root fetch - processPackages [powerjira]: Remove: archive file [/home/abi/fetcher/tmp/powerjira-0.3.0.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - processPackages [powerjira]: Remove: archive file [/home/abi/fetcher/tmp/powerjira-0.3.1.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - main [MainThread]: End processing [powerjira]: success
+[2023-08-05 00:14:04] INFO root fetch - main [MainThread]: End processing [algoritmo-gpt]: success
+[2023-08-05 00:14:04] INFO root fetch - processPackages [uiclasses]: Remove: archive file [/home/abi/fetcher/tmp/uiclasses-2.4.0.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - processPackages [uiclasses]: Remove: archive file [/home/abi/fetcher/tmp/uiclasses-3.0.0.tar.gz]
+[2023-08-05 00:14:04] INFO root fetch - main [MainThread]: End processing [uiclasses]: success
+[2023-08-05 00:14:05] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.8.tar.gz]
+[2023-08-05 00:14:05] INFO root fetch - processPackages [council-ai]: Remove: archive file [/home/abi/fetcher/tmp/council_ai-0.0.9.tar.gz]
+[2023-08-05 00:14:05] INFO root fetch - main [MainThread]: End processing [council-ai]: success
+[2023-08-05 00:14:05] INFO root fetch - main [MainThread]: Store serial: [19181234]
