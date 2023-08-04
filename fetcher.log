@@ -605,3 +605,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:45:16] INFO root fetch - processPackages [ecoengine]: Remove: archive file [/home/abi/fetcher/tmp/ecoengine-1.0.0.tar.gz]
 [2023-08-05 00:45:16] INFO root fetch - main [MainThread]: End processing [ecoengine]: success
 [2023-08-05 00:45:16] INFO root fetch - main [MainThread]: Store serial: [19181374]
+[2023-08-05 00:50:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181374]
+[2023-08-05 00:50:26] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: oa-atomacos
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: powerjira
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: maroon
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: castep-outputs
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: investos
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pytorch-tools
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: words-tui
+[2023-08-05 00:50:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: poetry-kernel
+[2023-08-05 00:50:26] INFO root fetch - processPackages [words-tui]: New version: [23.1] Old Version: [23.0]
+[2023-08-05 00:50:26] INFO root fetch - processPackages [pytorch-tools]: New version: [0.5.1] Old Version: [0.1.9]
+[2023-08-05 00:50:26] WARNING root fetch - processPackages [castep-outputs]: Skipping, unable to determine old version
+[2023-08-05 00:50:26] INFO root fetch - main [MainThread]: End processing [castep-outputs] error
+[2023-08-05 00:50:26] INFO root fetch - processPackages [powerjira]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 00:50:26] INFO root fetch - processPackages [maroon]: New version: [0.2.0] Old Version: [0.1.44]
+[2023-08-05 00:50:26] INFO root fetch - processPackages [poetry-kernel]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 00:50:26] WARNING root fetch - processPackages [oa-atomacos]: Skipping, unable to determine old version
+[2023-08-05 00:50:26] INFO root fetch - main [MainThread]: End processing [oa-atomacos] error
+[2023-08-05 00:50:26] INFO root fetch - processPackages [words-tui]: Downloading https://files.pythonhosted.org/packages/27/d7/75db2be93f35ac2fd194c71b9c8347f98491709c6c8dffc84d90d6d1b905/words_tui-23.0.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [pytorch-tools]: Downloading https://files.pythonhosted.org/packages/3c/10/3093413b67d500b1558791606a753151b520c3bd336be39c91746e18e982/pytorch_tools-0.1.9.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [powerjira]: Downloading https://files.pythonhosted.org/packages/47/e1/fa9f872e6aa9a4f50afbb5c7c9232d54b2c59ee8d700eb4bd914d084a316/powerjira-0.3.2.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [investos]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-05 00:50:26] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/32/d4/74c78a713d69dbd63fa0c083e97884577f0a0963624ea2ebd4cdc4a4b31b/maroon-0.1.44.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [poetry-kernel]: Downloading https://files.pythonhosted.org/packages/33/d1/ad1821670cc8c76ea0f148c014464352e31baa3bb44c1f894824580cc899/poetry-kernel-0.1.2.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [words-tui]: Downloading https://files.pythonhosted.org/packages/5f/ec/1a63a2aac21835775bf47ca893791afe01a3957804d97f1929d20a048e58/words_tui-23.1.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [pytorch-tools]: Downloading https://files.pythonhosted.org/packages/77/6e/4ff74c22ed8d54bf96c87f3ba51781594d7e2533941b66737cfd03399b84/pytorch_tools-0.5.1.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [powerjira]: Downloading https://files.pythonhosted.org/packages/92/7d/a031d118932193082cb44d0aa4abd0c4fa9922e9c8c12b4cfd96a1d19698/powerjira-0.3.3.tar.gz
+[2023-08-05 00:50:26] INFO root fetch - processPackages [words-tui]: executing diffoscope
+[2023-08-05 00:50:26] INFO root fetch - processPackages [words-tui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/words_tui-23.0.tar.gz tmp/words_tui-23.1.tar.gz --markdown 20230805/w/words-tui/23.0-23.1/diff.md --exclude *.pyd
+[2023-08-05 00:50:26] INFO root fetch - processPackages [investos]: Downloading https://files.pythonhosted.org/packages/67/97/149ebd6a6a5f47e54e7ced6bc90d28590307b2242797bfc88f27bad57db5/investos-0.1.6.tar.gz
+[2023-08-05 00:50:27] INFO root fetch - processPackages [maroon]: Downloading https://files.pythonhosted.org/packages/85/b2/082e6e4982a70020d799769ab657b6feb006dba3b201e8f968b6478df9d5/maroon-0.2.0.tar.gz
+[2023-08-05 00:50:27] INFO root fetch - processPackages [pytorch-tools]: executing diffoscope
+[2023-08-05 00:50:27] INFO root fetch - processPackages [pytorch-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytorch_tools-0.1.9.tar.gz tmp/pytorch_tools-0.5.1.tar.gz --markdown 20230805/p/pytorch-tools/0.1.9-0.5.1/diff.md --exclude *.pyd
+[2023-08-05 00:50:27] INFO root fetch - processPackages [powerjira]: executing diffoscope
+[2023-08-05 00:50:27] INFO root fetch - processPackages [powerjira]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/powerjira-0.3.2.tar.gz tmp/powerjira-0.3.3.tar.gz --markdown 20230805/p/powerjira/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 00:50:27] INFO root fetch - processPackages [poetry-kernel]: Downloading https://files.pythonhosted.org/packages/be/4d/5ad6340a3c1ffaccb1d58067a6af079eed2d4190a80ebab2d1f2b543f14d/poetry-kernel-0.1.3.tar.gz
+[2023-08-05 00:50:27] INFO root fetch - processPackages [maroon]: executing diffoscope
+[2023-08-05 00:50:27] INFO root fetch - processPackages [maroon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/maroon-0.1.44.tar.gz tmp/maroon-0.2.0.tar.gz --markdown 20230805/m/maroon/0.1.44-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 00:50:27] INFO root fetch - processPackages [investos]: Downloading https://files.pythonhosted.org/packages/39/30/05c9e772af1e03bcd6d7107d706c13f3dec25fed08256805cac35f398645/investos-0.1.7.tar.gz
+[2023-08-05 00:50:27] INFO root fetch - processPackages [poetry-kernel]: executing diffoscope
+[2023-08-05 00:50:27] INFO root fetch - processPackages [poetry-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry-kernel-0.1.2.tar.gz tmp/poetry-kernel-0.1.3.tar.gz --markdown 20230805/p/poetry-kernel/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 00:50:27] INFO root fetch - processPackages [investos]: executing diffoscope
+[2023-08-05 00:50:27] INFO root fetch - processPackages [investos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/investos-0.1.6.tar.gz tmp/investos-0.1.7.tar.gz --markdown 20230805/i/investos/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-05 00:50:27] INFO root fetch - processPackages [words-tui]: Remove: archive file [/home/abi/fetcher/tmp/words_tui-23.0.tar.gz]
+[2023-08-05 00:50:27] INFO root fetch - processPackages [words-tui]: Remove: archive file [/home/abi/fetcher/tmp/words_tui-23.1.tar.gz]
+[2023-08-05 00:50:27] INFO root fetch - main [MainThread]: End processing [words-tui]: success
+[2023-08-05 00:50:28] INFO root fetch - processPackages [powerjira]: Remove: archive file [/home/abi/fetcher/tmp/powerjira-0.3.2.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - processPackages [powerjira]: Remove: archive file [/home/abi/fetcher/tmp/powerjira-0.3.3.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - main [MainThread]: End processing [powerjira]: success
+[2023-08-05 00:50:28] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.1.44.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - processPackages [maroon]: Remove: archive file [/home/abi/fetcher/tmp/maroon-0.2.0.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - main [MainThread]: End processing [maroon]: success
+[2023-08-05 00:50:28] INFO root fetch - processPackages [investos]: Remove: archive file [/home/abi/fetcher/tmp/investos-0.1.6.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - processPackages [investos]: Remove: archive file [/home/abi/fetcher/tmp/investos-0.1.7.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - main [MainThread]: End processing [investos]: success
+[2023-08-05 00:50:28] INFO root fetch - processPackages [poetry-kernel]: Remove: archive file [/home/abi/fetcher/tmp/poetry-kernel-0.1.2.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - processPackages [poetry-kernel]: Remove: archive file [/home/abi/fetcher/tmp/poetry-kernel-0.1.3.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - main [MainThread]: End processing [poetry-kernel]: success
+[2023-08-05 00:50:28] INFO root fetch - processPackages [pytorch-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_tools-0.1.9.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - processPackages [pytorch-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_tools-0.5.1.tar.gz]
+[2023-08-05 00:50:28] INFO root fetch - main [MainThread]: End processing [pytorch-tools]: success
+[2023-08-05 00:50:28] INFO root fetch - main [MainThread]: Store serial: [19181409]
