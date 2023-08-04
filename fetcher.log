@@ -941,3 +941,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 01:11:48] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.2.tar.gz]
 [2023-08-05 01:11:48] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
 [2023-08-05 01:11:48] INFO root fetch - main [MainThread]: Store serial: [19181510]
+[2023-08-05 01:16:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181510]
+[2023-08-05 01:16:57] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 01:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kgenealogic
+[2023-08-05 01:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edk2-pytool-library
+[2023-08-05 01:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: femtocrux
+[2023-08-05 01:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: bhv
+[2023-08-05 01:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: meeseeksai
+[2023-08-05 01:16:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: rsoup
+[2023-08-05 01:16:57] INFO root fetch - processPackages [meeseeksai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-05 01:16:57] INFO root fetch - processPackages [rsoup]: New version: [3.1.4] Old Version: [3.1.3]
+[2023-08-05 01:16:57] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/37/53/fdbbe12d94de5cbae8d159af8e1c59f7b011ba8bec02ab223b5c356b37b8/meeseeksai-0.1.4.tar.gz
+[2023-08-05 01:16:57] WARNING root fetch - processPackages [kgenealogic]: Skipping, unable to determine old version
+[2023-08-05 01:16:57] INFO root fetch - main [MainThread]: End processing [kgenealogic] error
+[2023-08-05 01:16:57] INFO root fetch - processPackages [bhv]: New version: [0.8.3] Old Version: [0.8.0]
+[2023-08-05 01:16:57] INFO root fetch - processPackages [femtocrux]: New version: [0.2.9] Old Version: [0.2.8.post3]
+[2023-08-05 01:16:57] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/e0/6f/2f135cbe6e3c312121ee07fb7ecf4f64ca098ddd107ee9f076586e8c069b/rsoup-3.1.3.tar.gz
+[2023-08-05 01:16:57] INFO root fetch - processPackages [edk2-pytool-library]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-05 01:16:57] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/88/31/b2eb340dc60ef1f53d1f09624634b5f80aa1d3dafd8759aaee208c130f1b/meeseeksai-0.1.5.tar.gz
+[2023-08-05 01:16:57] INFO root fetch - processPackages [edk2-pytool-library]: Downloading https://files.pythonhosted.org/packages/d3/dd/9e9968e75ee14ecf32974fd3d51b6ca06ed9a88b62d33e7d0f20fefcf7ab/edk2-pytool-library-0.9.1.tar.gz
+[2023-08-05 01:16:57] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/ff/e7/b8ddd338b3466858798d90d7cc70c799a444e24c138f787e6ed48a2f8fd6/bhv-0.8.0.tar.gz
+[2023-08-05 01:16:57] INFO root fetch - processPackages [femtocrux]: Downloading https://files.pythonhosted.org/packages/b3/ab/a00b371773c78cc7440e57d1888a8b442c2d7513e0ee7abae5e89678267f/femtocrux-0.2.8.post3-py3-none-any.whl
+[2023-08-05 01:16:58] INFO root fetch - processPackages [rsoup]: Downloading https://files.pythonhosted.org/packages/55/e5/9e36f6197578289e4fd1d5fc414b85a78fd65ecb4920efa44a11b09f2ef5/rsoup-3.1.4.tar.gz
+[2023-08-05 01:16:58] INFO root fetch - processPackages [meeseeksai]: executing diffoscope
+[2023-08-05 01:16:58] INFO root fetch - processPackages [meeseeksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeseeksai-0.1.4.tar.gz tmp/meeseeksai-0.1.5.tar.gz --markdown 20230805/m/meeseeksai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-05 01:16:58] INFO root fetch - processPackages [rsoup]: executing diffoscope
+[2023-08-05 01:16:58] INFO root fetch - processPackages [rsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rsoup-3.1.3.tar.gz tmp/rsoup-3.1.4.tar.gz --markdown 20230805/r/rsoup/3.1.3-3.1.4/diff.md --exclude *.pyd
+[2023-08-05 01:16:58] INFO root fetch - processPackages [femtocrux]: Downloading https://files.pythonhosted.org/packages/17/a8/e63fbc82f216cc13de48466625c82bd6f0cf30253dc5a7c7b3f71f2caffc/femtocrux-0.2.9-py3-none-any.whl
+[2023-08-05 01:16:58] INFO root fetch - processPackages [edk2-pytool-library]: Downloading https://files.pythonhosted.org/packages/7f/fa/a8d82168bbf0f14262200294a783666dad1db51b6d6b037a46d1089f5afe/edk2-pytool-library-0.9.2.tar.gz
+[2023-08-05 01:16:58] INFO root fetch - processPackages [bhv]: Downloading https://files.pythonhosted.org/packages/3e/94/f254bcf089bdcb35e982cd8ae41c4ecf6efe92e3f7baa3f933592332c2f8/bhv-0.8.3.tar.gz
+[2023-08-05 01:16:58] INFO root fetch - processPackages [femtocrux]: executing diffoscope
+[2023-08-05 01:16:58] INFO root fetch - processPackages [femtocrux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femtocrux-0.2.8.post3-py3-none-any.whl.zip tmp/femtocrux-0.2.9-py3-none-any.whl.zip --markdown 20230805/f/femtocrux/0.2.8.post3-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 01:16:58] INFO root fetch - processPackages [edk2-pytool-library]: executing diffoscope
+[2023-08-05 01:16:58] INFO root fetch - processPackages [edk2-pytool-library]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edk2-pytool-library-0.9.1.tar.gz tmp/edk2-pytool-library-0.9.2.tar.gz --markdown 20230805/e/edk2-pytool-library/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-05 01:16:58] INFO root fetch - processPackages [bhv]: executing diffoscope
+[2023-08-05 01:16:58] INFO root fetch - processPackages [bhv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bhv-0.8.0.tar.gz tmp/bhv-0.8.3.tar.gz --markdown 20230805/b/bhv/0.8.0-0.8.3/diff.md --exclude *.pyd
+[2023-08-05 01:16:58] INFO root fetch - processPackages [meeseeksai]: Remove: archive file [/home/abi/fetcher/tmp/meeseeksai-0.1.4.tar.gz]
+[2023-08-05 01:16:58] INFO root fetch - processPackages [meeseeksai]: Remove: archive file [/home/abi/fetcher/tmp/meeseeksai-0.1.5.tar.gz]
+[2023-08-05 01:16:58] INFO root fetch - main [MainThread]: End processing [meeseeksai]: success
+[2023-08-05 01:16:59] INFO root fetch - processPackages [femtocrux]: Remove: archive file [/home/abi/fetcher/tmp/femtocrux-0.2.8.post3-py3-none-any.whl.zip]
+[2023-08-05 01:16:59] INFO root fetch - processPackages [femtocrux]: Remove: archive file [/home/abi/fetcher/tmp/femtocrux-0.2.9-py3-none-any.whl.zip]
+[2023-08-05 01:16:59] INFO root fetch - main [MainThread]: End processing [femtocrux]: success
+[2023-08-05 01:16:59] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.3.tar.gz]
+[2023-08-05 01:16:59] INFO root fetch - processPackages [rsoup]: Remove: archive file [/home/abi/fetcher/tmp/rsoup-3.1.4.tar.gz]
+[2023-08-05 01:16:59] INFO root fetch - main [MainThread]: End processing [rsoup]: success
+[2023-08-05 01:16:59] INFO root fetch - processPackages [edk2-pytool-library]: Remove: archive file [/home/abi/fetcher/tmp/edk2-pytool-library-0.9.1.tar.gz]
+[2023-08-05 01:16:59] INFO root fetch - processPackages [edk2-pytool-library]: Remove: archive file [/home/abi/fetcher/tmp/edk2-pytool-library-0.9.2.tar.gz]
+[2023-08-05 01:16:59] INFO root fetch - main [MainThread]: End processing [edk2-pytool-library]: success
+[2023-08-05 01:16:59] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.8.0.tar.gz]
+[2023-08-05 01:16:59] INFO root fetch - processPackages [bhv]: Remove: archive file [/home/abi/fetcher/tmp/bhv-0.8.3.tar.gz]
+[2023-08-05 01:16:59] INFO root fetch - main [MainThread]: End processing [bhv]: success
+[2023-08-05 01:16:59] INFO root fetch - main [MainThread]: Store serial: [19181534]
