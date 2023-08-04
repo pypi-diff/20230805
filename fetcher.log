@@ -1191,3 +1191,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 01:32:33] INFO root fetch - processPackages [modelcif]: Remove: archive file [/home/abi/fetcher/tmp/modelcif-0.8.tar.gz]
 [2023-08-05 01:32:33] INFO root fetch - main [MainThread]: End processing [modelcif]: success
 [2023-08-05 01:32:33] INFO root fetch - main [MainThread]: Store serial: [19181663]
+[2023-08-05 01:37:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181663]
+[2023-08-05 01:37:42] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testflows.github.runners
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testflows.github.runners
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: meter-gear
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: coastseg
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: themachinethatgoesping
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aind-data-schema
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: fast-openai
+[2023-08-05 01:37:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: modelbit
+[2023-08-05 01:37:42] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.5.230804.1023218] Old Version: [1.4.230803.1172738]
+[2023-08-05 01:37:42] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.5.230804.1023218] Old Version: [1.4.230803.1172738]
+[2023-08-05 01:37:42] INFO root fetch - processPackages [modelbit]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-05 01:37:42] INFO root fetch - processPackages [coastseg]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 01:37:42] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-05 01:37:42] WARNING root fetch - processPackages [fast-openai]: Skipping, unable to determine old version
+[2023-08-05 01:37:42] INFO root fetch - main [MainThread]: End processing [fast-openai] error
+[2023-08-05 01:37:42] INFO root fetch - processPackages [meter-gear]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-05 01:37:42] INFO root fetch - processPackages [themachinethatgoesping]: New version: [0.6.9] Old Version: [0.6.8]
+[2023-08-05 01:37:42] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/9d/f2/596ef3d1c7d3f6773286532263f1b4f6998887ca7bb2f88207498d96ef43/testflows.github.runners-1.4.230803.1172738.tar.gz
+[2023-08-05 01:37:42] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/9d/f2/596ef3d1c7d3f6773286532263f1b4f6998887ca7bb2f88207498d96ef43/testflows.github.runners-1.4.230803.1172738.tar.gz
+[2023-08-05 01:37:42] INFO root fetch - processPackages [coastseg]: Downloading https://files.pythonhosted.org/packages/75/3b/19efffac60ef69a861417a37a370dc3f3a497cb93009fe8fff8dda38b476/coastseg-0.0.8.tar.gz
+[2023-08-05 01:37:42] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-08-05 01:37:42] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/c9/f0/ed4cc6d7e8a055435d41e58b6ff37b6189ac3cb52e6383b72c12aa4e605f/modelbit-0.9.6.tar.gz
+[2023-08-05 01:37:42] WARNING root fetch - processPackages [coastseg]: Skipping package: exceeds size limit 38421077>=10485760
+[2023-08-05 01:37:42] INFO root fetch - main [MainThread]: End processing [coastseg] error
+[2023-08-05 01:37:42] INFO root fetch - processPackages [meter-gear]: Downloading https://files.pythonhosted.org/packages/2e/f1/cd155aeba2b6334eb7139edd7409007e3b8ed72f5a0fd23f0236780b2afa/meter-gear-1.2.8.tar.gz
+[2023-08-05 01:37:42] INFO root fetch - processPackages [themachinethatgoesping]: Downloading https://files.pythonhosted.org/packages/41/86/59fbfb9c94764077e4d5f0a685f969526b626c456da17df7ec9e30b477f9/themachinethatgoesping-0.6.8-cp39-cp39-win_amd64.whl
+[2023-08-05 01:37:43] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-08-05 01:37:43] INFO root fetch - processPackages [modelbit]: Downloading https://files.pythonhosted.org/packages/55/0f/8d19e66368fbaa57d08deb9b9d12c445c2e2451e77490d39dfff1e70698a/modelbit-0.9.7.tar.gz
+[2023-08-05 01:37:43] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/5c/b1/1ccb29359f92bda53e5d6c84fe4a67d7029c49a601ab47fb75452dc1c4be/testflows.github.runners-1.5.230804.1023218.tar.gz
+[2023-08-05 01:37:43] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/5c/b1/1ccb29359f92bda53e5d6c84fe4a67d7029c49a601ab47fb75452dc1c4be/testflows.github.runners-1.5.230804.1023218.tar.gz
+[2023-08-05 01:37:43] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-08-05 01:37:43] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230805/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-05 01:37:43] WARNING root fetch - processPackages [themachinethatgoesping]: Skipping package: exceeds size limit 13352847>=10485760
+[2023-08-05 01:37:43] INFO root fetch - main [MainThread]: End processing [themachinethatgoesping] error
+[2023-08-05 01:37:43] INFO root fetch - processPackages [modelbit]: executing diffoscope
+[2023-08-05 01:37:43] INFO root fetch - processPackages [modelbit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modelbit-0.9.6.tar.gz tmp/modelbit-0.9.7.tar.gz --markdown 20230805/m/modelbit/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-05 01:37:43] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-08-05 01:37:43] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.4.230803.1172738.tar.gz tmp/testflows.github.runners-1.5.230804.1023218.tar.gz --markdown 20230805/t/testflows.github.runners/1.4.230803.1172738-1.5.230804.1023218/diff.md --exclude *.pyd
+[2023-08-05 01:37:43] INFO root fetch - processPackages [meter-gear]: Downloading https://files.pythonhosted.org/packages/71/f4/a7dd11caf7fac30d9e5b03741087fa53c6f5a4a7c98eae024610a66a611a/meter-gear-1.2.9.tar.gz
+[2023-08-05 01:37:43] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-08-05 01:37:43] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.4.230803.1172738.tar.gz tmp/testflows.github.runners-1.5.230804.1023218.tar.gz --markdown 20230805/t/testflows.github.runners/1.4.230803.1172738-1.5.230804.1023218/diff.md --exclude *.pyd
+[2023-08-05 01:37:43] INFO root fetch - processPackages [meter-gear]: executing diffoscope
+[2023-08-05 01:37:43] INFO root fetch - processPackages [meter-gear]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meter-gear-1.2.8.tar.gz tmp/meter-gear-1.2.9.tar.gz --markdown 20230805/m/meter-gear/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-05 01:37:44] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.6.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - processPackages [modelbit]: Remove: archive file [/home/abi/fetcher/tmp/modelbit-0.9.7.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - main [MainThread]: End processing [modelbit]: success
+[2023-08-05 01:37:44] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.4.230803.1172738.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.5.230804.1023218.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-08-05 01:37:44] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-08-05 01:37:44] INFO root fetch - processPackages [meter-gear]: Remove: archive file [/home/abi/fetcher/tmp/meter-gear-1.2.8.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - processPackages [meter-gear]: Remove: archive file [/home/abi/fetcher/tmp/meter-gear-1.2.9.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - main [MainThread]: End processing [meter-gear]: success
+[2023-08-05 01:37:44] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-08-05 01:37:44] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-08-05 01:37:44] INFO root fetch - main [MainThread]: Store serial: [19181688]
