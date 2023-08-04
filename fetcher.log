@@ -518,3 +518,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:34:52] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
 [2023-08-05 00:34:52] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
 [2023-08-05 00:34:52] INFO root fetch - main [MainThread]: Store serial: [19181342]
+[2023-08-05 00:39:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181342]
+[2023-08-05 00:40:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 00:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Carter-Offline
+[2023-08-05 00:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: serialalchemy
+[2023-08-05 00:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snaptrade-python-sdk
+[2023-08-05 00:40:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: smltheory
+[2023-08-05 00:40:01] INFO root fetch - processPackages [smltheory]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 00:40:01] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/92/5a/8f6f30f4387bd24163563308e6ddf740e6570dd296771b5ad80ba2469e32/smltheory-0.1.2.tar.gz
+[2023-08-05 00:40:01] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.7] Old Version: [2.0.6]
+[2023-08-05 00:40:01] INFO root fetch - processPackages [snaptrade-python-sdk]: New version: [9.0.0] Old Version: [8.4.0]
+[2023-08-05 00:40:01] INFO root fetch - processPackages [serialalchemy]: New version: [0.5.0] Old Version: [0.3.7]
+[2023-08-05 00:40:02] INFO root fetch - processPackages [serialalchemy]: Downloading https://files.pythonhosted.org/packages/69/60/ea0829da38cdc3ab7e11e9b7baa291162e44e2600c66d969796cc96e49b5/SerialAlchemy-0.3.7.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/aa/a0/e2164d692ef38414b5336c60a68c67926acd72b619681fb1d6f06d78c1ab/Carter-Offline-2.0.6.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/6f/c7/47221dc28e809cffa217eee9b3e3ab3b2e102b70f8259c8619c4d06252a1/snaptrade-python-sdk-8.4.0.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [smltheory]: Downloading https://files.pythonhosted.org/packages/d2/f4/fc06f708a0d03f736afd3f61fe4a4eb0226a95d7773475c24357d00b1d5e/smltheory-0.1.3.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [serialalchemy]: Downloading https://files.pythonhosted.org/packages/ad/6d/f991f75116d94b5683a7d370fa36b302c2a67dde04263748b45f55d47325/serialalchemy-0.5.0.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/55/29/824978f5e84c158b003ae2dc76fe33a3612f5558063fa5b35d07492966fa/Carter-Offline-2.0.7.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [smltheory]: executing diffoscope
+[2023-08-05 00:40:02] INFO root fetch - processPackages [smltheory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/smltheory-0.1.2.tar.gz tmp/smltheory-0.1.3.tar.gz --markdown 20230805/s/smltheory/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 00:40:02] INFO root fetch - processPackages [serialalchemy]: executing diffoscope
+[2023-08-05 00:40:02] INFO root fetch - processPackages [serialalchemy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SerialAlchemy-0.3.7.tar.gz tmp/serialalchemy-0.5.0.tar.gz --markdown 20230805/s/serialalchemy/0.3.7-0.5.0/diff.md --exclude *.pyd
+[2023-08-05 00:40:02] INFO root fetch - processPackages [snaptrade-python-sdk]: Downloading https://files.pythonhosted.org/packages/e8/91/81180245a4093fa5b9c1f540d35e7336338579401f2ae021892d41cf39f7/snaptrade-python-sdk-9.0.0.tar.gz
+[2023-08-05 00:40:02] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-05 00:40:02] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.6.tar.gz tmp/Carter-Offline-2.0.7.tar.gz --markdown 20230805/C/Carter-Offline/2.0.6-2.0.7/diff.md --exclude *.pyd
+[2023-08-05 00:40:02] INFO root fetch - processPackages [snaptrade-python-sdk]: executing diffoscope
+[2023-08-05 00:40:02] INFO root fetch - processPackages [snaptrade-python-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snaptrade-python-sdk-8.4.0.tar.gz tmp/snaptrade-python-sdk-9.0.0.tar.gz --markdown 20230805/s/snaptrade-python-sdk/8.4.0-9.0.0/diff.md --exclude *.pyd
+[2023-08-05 00:40:03] INFO root fetch - processPackages [serialalchemy]: Remove: archive file [/home/abi/fetcher/tmp/SerialAlchemy-0.3.7.tar.gz]
+[2023-08-05 00:40:03] INFO root fetch - processPackages [serialalchemy]: Remove: archive file [/home/abi/fetcher/tmp/serialalchemy-0.5.0.tar.gz]
+[2023-08-05 00:40:03] INFO root fetch - main [MainThread]: End processing [serialalchemy]: success
+[2023-08-05 00:40:03] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.2.tar.gz]
+[2023-08-05 00:40:03] INFO root fetch - processPackages [smltheory]: Remove: archive file [/home/abi/fetcher/tmp/smltheory-0.1.3.tar.gz]
+[2023-08-05 00:40:03] INFO root fetch - main [MainThread]: End processing [smltheory]: success
+[2023-08-05 00:40:03] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.6.tar.gz]
+[2023-08-05 00:40:03] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.7.tar.gz]
+[2023-08-05 00:40:03] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-05 00:40:05] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-8.4.0.tar.gz]
+[2023-08-05 00:40:05] INFO root fetch - processPackages [snaptrade-python-sdk]: Remove: archive file [/home/abi/fetcher/tmp/snaptrade-python-sdk-9.0.0.tar.gz]
+[2023-08-05 00:40:05] INFO root fetch - main [MainThread]: End processing [snaptrade-python-sdk]: success
+[2023-08-05 00:40:05] INFO root fetch - main [MainThread]: Store serial: [19181356]
