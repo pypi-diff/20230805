@@ -719,3 +719,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:55:39] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
 [2023-08-05 00:55:39] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
 [2023-08-05 00:55:39] INFO root fetch - main [MainThread]: Store serial: [19181425]
+[2023-08-05 01:00:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181425]
+[2023-08-05 01:00:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimalpdb
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: benchling-api-client
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimalpdb
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: libnacl
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: optimalpdb
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: backbuilder
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mitmproxy-rs
+[2023-08-05 01:00:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: leanforge
+[2023-08-05 01:00:48] INFO root fetch - processPackages [benchling-api-client]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: New version: [0.3] Old Version: [0.2]
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: New version: [0.3] Old Version: [0.2]
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: New version: [0.3] Old Version: [0.2]
+[2023-08-05 01:00:48] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/ce/1d/9c3669396c4c52924ccf39a48a438a2c8167c4fb512eca865bd64066d33e/benchling_api_client-2.0.98.tar.gz
+[2023-08-05 01:00:48] WARNING root fetch - processPackages [backbuilder]: Skipping, unable to determine old version
+[2023-08-05 01:00:48] INFO root fetch - main [MainThread]: End processing [backbuilder] error
+[2023-08-05 01:00:48] WARNING root fetch - processPackages [leanforge]: Skipping, unable to determine old version
+[2023-08-05 01:00:48] INFO root fetch - main [MainThread]: End processing [leanforge] error
+[2023-08-05 01:00:48] INFO root fetch - processPackages [libnacl]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-05 01:00:48] INFO root fetch - processPackages [mitmproxy-rs]: New version: [0.2.1] Old Version: [0.2.0b9]
+[2023-08-05 01:00:48] INFO root fetch - processPackages [mitmproxy-rs]: Downloading https://files.pythonhosted.org/packages/f2/14/36f2d8d38259aeae458804b46a61d5168a1246cd3a0c367d3c51549a995e/mitmproxy_rs-0.2.0b9.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: Downloading https://files.pythonhosted.org/packages/b2/bd/29d0a8b1c58d74d8264d04b826d917418a14f035fef3c1a4442e406f66f0/optimalpdb-0.2-py3-none-any.whl
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: Downloading https://files.pythonhosted.org/packages/b2/bd/29d0a8b1c58d74d8264d04b826d917418a14f035fef3c1a4442e406f66f0/optimalpdb-0.2-py3-none-any.whl
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: Downloading https://files.pythonhosted.org/packages/b2/bd/29d0a8b1c58d74d8264d04b826d917418a14f035fef3c1a4442e406f66f0/optimalpdb-0.2-py3-none-any.whl
+[2023-08-05 01:00:48] INFO root fetch - processPackages [libnacl]: Downloading https://files.pythonhosted.org/packages/db/ab/1111466244a682121a86cf5360fb7c804e6c21edaf0b439bfd898f4a11fe/libnacl-1.8.0.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [benchling-api-client]: Downloading https://files.pythonhosted.org/packages/f9/23/649c2147d11c171b4b3d27c6a52dab32d22dc24ec1c248cf5d1dd8a4451d/benchling_api_client-2.0.99.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: Downloading https://files.pythonhosted.org/packages/ee/10/dc08ce8b1c4b84435a2178a6b9fcb9b506f7fcb47a4bdbd773f6ac779b2a/optimalpdb-0.3.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: Downloading https://files.pythonhosted.org/packages/ee/10/dc08ce8b1c4b84435a2178a6b9fcb9b506f7fcb47a4bdbd773f6ac779b2a/optimalpdb-0.3.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [optimalpdb]: Downloading https://files.pythonhosted.org/packages/ee/10/dc08ce8b1c4b84435a2178a6b9fcb9b506f7fcb47a4bdbd773f6ac779b2a/optimalpdb-0.3.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [mitmproxy-rs]: Downloading https://files.pythonhosted.org/packages/db/1a/8c1678c625fd4e4c000b4c2e696d0121b66e1348bfa7b03755bb21441758/mitmproxy_rs-0.2.1.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [libnacl]: Downloading https://files.pythonhosted.org/packages/d0/d4/9150c2fefe34a8187a2655a0f00bb9c7a59c3d982d933b072e286ae611a9/libnacl-1.9.0.tar.gz
+[2023-08-05 01:00:48] INFO root fetch - processPackages [benchling-api-client]: executing diffoscope
+[2023-08-05 01:00:48] INFO root fetch - processPackages [benchling-api-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/benchling_api_client-2.0.98.tar.gz tmp/benchling_api_client-2.0.99.tar.gz --markdown 20230805/b/benchling-api-client/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-05 01:00:49] INFO root fetch - processPackages [libnacl]: executing diffoscope
+[2023-08-05 01:00:49] INFO root fetch - processPackages [libnacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libnacl-1.8.0.tar.gz tmp/libnacl-1.9.0.tar.gz --markdown 20230805/l/libnacl/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-05 01:00:49] INFO root fetch - processPackages [optimalpdb]: executing diffoscope
+[2023-08-05 01:00:49] INFO root fetch - processPackages [optimalpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalpdb-0.2-py3-none-any.whl.zip tmp/optimalpdb-0.3.tar.gz --markdown 20230805/o/optimalpdb/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-05 01:00:49] INFO root fetch - processPackages [optimalpdb]: executing diffoscope
+[2023-08-05 01:00:49] INFO root fetch - processPackages [optimalpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalpdb-0.2-py3-none-any.whl.zip tmp/optimalpdb-0.3.tar.gz --markdown 20230805/o/optimalpdb/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-05 01:00:49] INFO root fetch - processPackages [optimalpdb]: executing diffoscope
+[2023-08-05 01:00:49] INFO root fetch - processPackages [optimalpdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimalpdb-0.2-py3-none-any.whl.zip tmp/optimalpdb-0.3.tar.gz --markdown 20230805/o/optimalpdb/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-05 01:00:49] INFO root fetch - processPackages [mitmproxy-rs]: executing diffoscope
+[2023-08-05 01:00:49] INFO root fetch - processPackages [mitmproxy-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mitmproxy_rs-0.2.0b9.tar.gz tmp/mitmproxy_rs-0.2.1.tar.gz --markdown 20230805/m/mitmproxy-rs/0.2.0b9-0.2.1/diff.md --exclude *.pyd
+[2023-08-05 01:00:50] INFO root fetch - processPackages [optimalpdb]: Remove: archive file [/home/abi/fetcher/tmp/optimalpdb-0.2-py3-none-any.whl.zip]
+[2023-08-05 01:00:50] INFO root fetch - processPackages [optimalpdb]: Remove: archive file [/home/abi/fetcher/tmp/optimalpdb-0.3.tar.gz]
+[2023-08-05 01:00:50] INFO root fetch - main [MainThread]: End processing [optimalpdb]: success
+[2023-08-05 01:00:50] INFO root fetch - main [MainThread]: End processing [optimalpdb]: success
+[2023-08-05 01:00:50] INFO root fetch - main [MainThread]: End processing [optimalpdb]: success
+[2023-08-05 01:00:50] INFO root fetch - processPackages [libnacl]: Remove: archive file [/home/abi/fetcher/tmp/libnacl-1.8.0.tar.gz]
+[2023-08-05 01:00:50] INFO root fetch - processPackages [libnacl]: Remove: archive file [/home/abi/fetcher/tmp/libnacl-1.9.0.tar.gz]
+[2023-08-05 01:00:50] INFO root fetch - main [MainThread]: End processing [libnacl]: success
+[2023-08-05 01:00:50] INFO root fetch - processPackages [mitmproxy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy_rs-0.2.0b9.tar.gz]
+[2023-08-05 01:00:50] INFO root fetch - processPackages [mitmproxy-rs]: Remove: archive file [/home/abi/fetcher/tmp/mitmproxy_rs-0.2.1.tar.gz]
+[2023-08-05 01:00:50] INFO root fetch - main [MainThread]: End processing [mitmproxy-rs]: success
+[2023-08-05 01:01:23] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.98.tar.gz]
+[2023-08-05 01:01:23] INFO root fetch - processPackages [benchling-api-client]: Remove: archive file [/home/abi/fetcher/tmp/benchling_api_client-2.0.99.tar.gz]
+[2023-08-05 01:01:23] INFO root fetch - main [MainThread]: End processing [benchling-api-client]: success
+[2023-08-05 01:01:23] INFO root fetch - main [MainThread]: Store serial: [19181457]
