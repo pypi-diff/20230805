@@ -668,3 +668,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:50:28] INFO root fetch - processPackages [pytorch-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytorch_tools-0.5.1.tar.gz]
 [2023-08-05 00:50:28] INFO root fetch - main [MainThread]: End processing [pytorch-tools]: success
 [2023-08-05 00:50:28] INFO root fetch - main [MainThread]: Store serial: [19181409]
+[2023-08-05 00:55:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181409]
+[2023-08-05 00:55:36] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: meeseeksai
+[2023-08-05 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: aind-data-schema
+[2023-08-05 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: robotframework-requestspro
+[2023-08-05 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aleksis-app-paweljong
+[2023-08-05 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: instacrawl
+[2023-08-05 00:55:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: optimalpdb
+[2023-08-05 00:55:37] INFO root fetch - processPackages [instacrawl]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-05 00:55:37] INFO root fetch - processPackages [robotframework-requestspro]: New version: [1.2.5] Old Version: [1.2.3]
+[2023-08-05 00:55:37] WARNING root fetch - processPackages [optimalpdb]: Skipping, unable to determine old version
+[2023-08-05 00:55:37] INFO root fetch - main [MainThread]: End processing [optimalpdb] error
+[2023-08-05 00:55:37] INFO root fetch - processPackages [aleksis-app-paweljong]: New version: [3.0.dev3] Old Version: [3.0.dev2]
+[2023-08-05 00:55:37] INFO root fetch - processPackages [instacrawl]: Downloading https://files.pythonhosted.org/packages/e3/58/5f019b77cd8a8e82999ac1f70fa080538fcf1673da1fa38840a74d6d7d5f/instacrawl-0.1.3.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [meeseeksai]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-05 00:55:37] INFO root fetch - processPackages [aind-data-schema]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-05 00:55:37] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/2d/4d/39edcc841e3c938a824b16e1f4e13f2d2a74f30e82c9e9681b3a04564005/robotframework-requestspro-1.2.3.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/37/53/fdbbe12d94de5cbae8d159af8e1c59f7b011ba8bec02ab223b5c356b37b8/meeseeksai-0.1.4.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/79/43/79f180c5263027bb30eda420aea46edfdc4d722a4202cd155f39139b9cf0/aleksis_app_paweljong-3.0.dev2.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [instacrawl]: Downloading https://files.pythonhosted.org/packages/1b/ee/5c0b0d8365ab4e205903a2b6060972009e24feb7eac88660bbe609a3bd5b/instacrawl-0.1.4.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/f0/3d/4b855ccf3f1b8204c6d84b119d9c98b856c1659bfafe8aa893009a0e4d63/aind-data-schema-0.9.5.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [robotframework-requestspro]: Downloading https://files.pythonhosted.org/packages/c1/2d/911c6b015901cb43e2ddb28235b728ba0b7e5661d6cff2f0c48300899d6b/robotframework-requestspro-1.2.5.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [instacrawl]: executing diffoscope
+[2023-08-05 00:55:37] INFO root fetch - processPackages [instacrawl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/instacrawl-0.1.3.tar.gz tmp/instacrawl-0.1.4.tar.gz --markdown 20230805/i/instacrawl/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-05 00:55:37] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/88/31/b2eb340dc60ef1f53d1f09624634b5f80aa1d3dafd8759aaee208c130f1b/meeseeksai-0.1.5.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [aleksis-app-paweljong]: Downloading https://files.pythonhosted.org/packages/ac/ec/4967ecdb1c75a4184078696c8280e221ffa48b85b24d87210aa4e4057a23/aleksis_app_paweljong-3.0.dev3.tar.gz
+[2023-08-05 00:55:37] INFO root fetch - processPackages [robotframework-requestspro]: executing diffoscope
+[2023-08-05 00:55:37] INFO root fetch - processPackages [robotframework-requestspro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/robotframework-requestspro-1.2.3.tar.gz tmp/robotframework-requestspro-1.2.5.tar.gz --markdown 20230805/r/robotframework-requestspro/1.2.3-1.2.5/diff.md --exclude *.pyd
+[2023-08-05 00:55:38] INFO root fetch - processPackages [meeseeksai]: executing diffoscope
+[2023-08-05 00:55:38] INFO root fetch - processPackages [meeseeksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeseeksai-0.1.4.tar.gz tmp/meeseeksai-0.1.5.tar.gz --markdown 20230805/m/meeseeksai/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-05 00:55:38] INFO root fetch - processPackages [aleksis-app-paweljong]: executing diffoscope
+[2023-08-05 00:55:38] INFO root fetch - processPackages [aleksis-app-paweljong]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aleksis_app_paweljong-3.0.dev2.tar.gz tmp/aleksis_app_paweljong-3.0.dev3.tar.gz --markdown 20230805/a/aleksis-app-paweljong/3.0.dev2-3.0.dev3/diff.md --exclude *.pyd
+[2023-08-05 00:55:38] INFO root fetch - processPackages [aind-data-schema]: Downloading https://files.pythonhosted.org/packages/42/51/6b230e8ca198de797130787e0cd5036fc8d11696d1c43a8c8c07152176e8/aind-data-schema-0.9.6.tar.gz
+[2023-08-05 00:55:38] INFO root fetch - processPackages [aind-data-schema]: executing diffoscope
+[2023-08-05 00:55:38] INFO root fetch - processPackages [aind-data-schema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aind-data-schema-0.9.5.tar.gz tmp/aind-data-schema-0.9.6.tar.gz --markdown 20230805/a/aind-data-schema/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-05 00:55:38] INFO root fetch - processPackages [instacrawl]: Remove: archive file [/home/abi/fetcher/tmp/instacrawl-0.1.3.tar.gz]
+[2023-08-05 00:55:38] INFO root fetch - processPackages [instacrawl]: Remove: archive file [/home/abi/fetcher/tmp/instacrawl-0.1.4.tar.gz]
+[2023-08-05 00:55:38] INFO root fetch - main [MainThread]: End processing [instacrawl]: success
+[2023-08-05 00:55:38] INFO root fetch - processPackages [meeseeksai]: Remove: archive file [/home/abi/fetcher/tmp/meeseeksai-0.1.4.tar.gz]
+[2023-08-05 00:55:38] INFO root fetch - processPackages [meeseeksai]: Remove: archive file [/home/abi/fetcher/tmp/meeseeksai-0.1.5.tar.gz]
+[2023-08-05 00:55:38] INFO root fetch - main [MainThread]: End processing [meeseeksai]: success
+[2023-08-05 00:55:38] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.2.3.tar.gz]
+[2023-08-05 00:55:38] INFO root fetch - processPackages [robotframework-requestspro]: Remove: archive file [/home/abi/fetcher/tmp/robotframework-requestspro-1.2.5.tar.gz]
+[2023-08-05 00:55:38] INFO root fetch - main [MainThread]: End processing [robotframework-requestspro]: success
+[2023-08-05 00:55:39] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-3.0.dev2.tar.gz]
+[2023-08-05 00:55:39] INFO root fetch - processPackages [aleksis-app-paweljong]: Remove: archive file [/home/abi/fetcher/tmp/aleksis_app_paweljong-3.0.dev3.tar.gz]
+[2023-08-05 00:55:39] INFO root fetch - main [MainThread]: End processing [aleksis-app-paweljong]: success
+[2023-08-05 00:55:39] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.5.tar.gz]
+[2023-08-05 00:55:39] INFO root fetch - processPackages [aind-data-schema]: Remove: archive file [/home/abi/fetcher/tmp/aind-data-schema-0.9.6.tar.gz]
+[2023-08-05 00:55:39] INFO root fetch - main [MainThread]: End processing [aind-data-schema]: success
+[2023-08-05 00:55:39] INFO root fetch - main [MainThread]: Store serial: [19181425]
