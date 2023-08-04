@@ -363,3 +363,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [element-deeplabcut]: success
 [2023-08-05 00:24:28] INFO root fetch - main [MainThread]: End processing [demogpt]: success
 [2023-08-05 00:24:28] INFO root fetch - main [MainThread]: Store serial: [19181292]
+[2023-08-05 00:29:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181292]
+[2023-08-05 00:29:37] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: typedhtml
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: blockchyp
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: eltako14bus
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: setuptools-github
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openseries
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: outerbounds
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: meeseeksai
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: scrunch
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: meeseeksai
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: ihm
+[2023-08-05 00:29:37] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.7b91] Old Version: [0.3.6b90]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [typedhtml]: New version: [0.2.21] Old Version: [0.2.20]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [blockchyp]: New version: [2.9.6.post1] Old Version: [2.9.3.post1]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [meeseeksai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [meeseeksai]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [scrunch]: New version: [6.5.2037.post1691184100] Old Version: [6.5.2036.post1691173520]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [openseries]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [ihm]: New version: [0.9] Old Version: [0.8]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [eltako14bus]: New version: [0.0.28] Old Version: [0.0.27]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [outerbounds]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 00:29:37] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/50/80/959886dc0f14f9f68fa1891705adacb9f58e0c2dfb10a5107700c7c71e4d/typedhtml-0.2.20.tar.gz
+[2023-08-05 00:29:37] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/83/db/137bbe41bf72b63c35f7f423a670afa24d146b82d6257111926d27f496b1/setuptools-github-0.3.6b90.tar.gz
+[2023-08-05 00:29:37] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/fa/ee/0ccaf93bd3374459b6d5761825a104b3f836486f5467a40c9a2bdb8c8f05/meeseeksai-0.1.1.tar.gz
+[2023-08-05 00:29:37] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/fa/ee/0ccaf93bd3374459b6d5761825a104b3f836486f5467a40c9a2bdb8c8f05/meeseeksai-0.1.1.tar.gz
+[2023-08-05 00:29:37] INFO root fetch - processPackages [blockchyp]: Downloading https://files.pythonhosted.org/packages/77/a3/98b8799d69262817ab1eec1265de8e06da5b538e01cb8bb6038c60f07604/blockchyp-2.9.3.post1.tar.gz
+[2023-08-05 00:29:37] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/97/5a/087e05d0976417f7b076bf2267d19af209ec76ed7408a4f5fe7885832ad2/scrunch-6.5.2036.post1691173520.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [eltako14bus]: Downloading https://files.pythonhosted.org/packages/ba/1e/3e6f2781c80dae94e2808e1805eea9f50ea224287a64be5e9bf6a13f2891/eltako14bus-0.0.27.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/a4/28/2110f5988fa6dd4e36627a3b6d71be7e8f419e264961882bbde6748c8f24/openseries-1.0.1-py3-none-any.whl
+[2023-08-05 00:29:38] INFO root fetch - processPackages [ihm]: Downloading https://files.pythonhosted.org/packages/9c/44/99a9980905259fa5879d9388b667c1d9875516d2bb27cabed71131f7b5ba/ihm-0.8.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/db/c3/414322f3ea100053ac3662e6bb112f6d3bc83f54c5c0996e89fef5c3d384/outerbounds-0.3.8-py3-none-any.whl
+[2023-08-05 00:29:38] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/b3/89/e74035c029b5a8d8bc23ab650f343c2a6eff6baf1a4189f1a33efc09703c/setuptools-github-0.3.7b91.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [typedhtml]: Downloading https://files.pythonhosted.org/packages/48/d4/cb02dc5c113d7166aa59ab5d36666bb1a7593aad0ecf3ae3bbee2f28f646/typedhtml-0.2.21.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/01/85/32e2065cf451bd33e1082bf848d09a83514ca723eaf120018b137b55d354/scrunch-6.5.2037.post1691184100.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/26/d9/088a9413d71f49c64f996dfd7ecfdb9d65004304ae463a8bfb68c9953930/meeseeksai-0.1.2.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [meeseeksai]: Downloading https://files.pythonhosted.org/packages/26/d9/088a9413d71f49c64f996dfd7ecfdb9d65004304ae463a8bfb68c9953930/meeseeksai-0.1.2.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.6b90.tar.gz tmp/setuptools-github-0.3.7b91.tar.gz --markdown 20230805/s/setuptools-github/0.3.6b90-0.3.7b91/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [blockchyp]: Downloading https://files.pythonhosted.org/packages/37/eb/1ac942044b53b2cf63f5280c3b458d488039a74ae19d9863f0f114c172db/blockchyp-2.9.6.post1.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [eltako14bus]: Downloading https://files.pythonhosted.org/packages/db/8d/fe053b69405259daf027ff9079e4887d0d6f7a2a087286a70e328071a31c/eltako14bus-0.0.28.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [typedhtml]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [typedhtml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/typedhtml-0.2.20.tar.gz tmp/typedhtml-0.2.21.tar.gz --markdown 20230805/t/typedhtml/0.2.20-0.2.21/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [outerbounds]: Downloading https://files.pythonhosted.org/packages/eb/c8/c87d25484be12f66ee78314f7ebd89ca4200a29e85c757b1d2e469e06c52/outerbounds-0.3.9-py3-none-any.whl
+[2023-08-05 00:29:38] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/8c/c2/bda31fca27bc55a1fbc9a8d0a48225bba8beb0894a24299238fef931c30d/openseries-1.1.0-py3-none-any.whl
+[2023-08-05 00:29:38] INFO root fetch - processPackages [meeseeksai]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [meeseeksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeseeksai-0.1.1.tar.gz tmp/meeseeksai-0.1.2.tar.gz --markdown 20230805/m/meeseeksai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [meeseeksai]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [meeseeksai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/meeseeksai-0.1.1.tar.gz tmp/meeseeksai-0.1.2.tar.gz --markdown 20230805/m/meeseeksai/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [ihm]: Downloading https://files.pythonhosted.org/packages/92/a1/856fa18db57b21499700031467e9a13378b9690432abe738b33273e6ccc3/ihm-0.9.tar.gz
+[2023-08-05 00:29:38] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2036.post1691173520.tar.gz tmp/scrunch-6.5.2037.post1691184100.tar.gz --markdown 20230805/s/scrunch/6.5.2036.post1691173520-6.5.2037.post1691184100/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [blockchyp]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [blockchyp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/blockchyp-2.9.3.post1.tar.gz tmp/blockchyp-2.9.6.post1.tar.gz --markdown 20230805/b/blockchyp/2.9.3.post1-2.9.6.post1/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [outerbounds]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [outerbounds]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/outerbounds-0.3.8-py3-none-any.whl.zip tmp/outerbounds-0.3.9-py3-none-any.whl.zip --markdown 20230805/o/outerbounds/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [eltako14bus]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [eltako14bus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eltako14bus-0.0.27.tar.gz tmp/eltako14bus-0.0.28.tar.gz --markdown 20230805/e/eltako14bus/0.0.27-0.0.28/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-1.0.1-py3-none-any.whl.zip tmp/openseries-1.1.0-py3-none-any.whl.zip --markdown 20230805/o/openseries/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 00:29:38] INFO root fetch - processPackages [ihm]: executing diffoscope
+[2023-08-05 00:29:38] INFO root fetch - processPackages [ihm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ihm-0.8.tar.gz tmp/ihm-0.9.tar.gz --markdown 20230805/i/ihm/0.8-0.9/diff.md --exclude *.pyd
+[2023-08-05 00:29:40] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.6b90.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.7b91.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [meeseeksai]: Remove: archive file [/home/abi/fetcher/tmp/meeseeksai-0.1.1.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [meeseeksai]: Remove: archive file [/home/abi/fetcher/tmp/meeseeksai-0.1.2.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [meeseeksai]: success
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [meeseeksai]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [blockchyp]: Remove: archive file [/home/abi/fetcher/tmp/blockchyp-2.9.3.post1.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [blockchyp]: Remove: archive file [/home/abi/fetcher/tmp/blockchyp-2.9.6.post1.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [blockchyp]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [outerbounds]: Remove: archive file [/home/abi/fetcher/tmp/outerbounds-0.3.9-py3-none-any.whl.zip]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [outerbounds]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.0.1-py3-none-any.whl.zip]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.1.0-py3-none-any.whl.zip]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2036.post1691173520.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2037.post1691184100.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [eltako14bus]: Remove: archive file [/home/abi/fetcher/tmp/eltako14bus-0.0.27.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [eltako14bus]: Remove: archive file [/home/abi/fetcher/tmp/eltako14bus-0.0.28.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [eltako14bus]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.20.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [typedhtml]: Remove: archive file [/home/abi/fetcher/tmp/typedhtml-0.2.21.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [typedhtml]: success
+[2023-08-05 00:29:40] INFO root fetch - processPackages [ihm]: Remove: archive file [/home/abi/fetcher/tmp/ihm-0.8.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - processPackages [ihm]: Remove: archive file [/home/abi/fetcher/tmp/ihm-0.9.tar.gz]
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: End processing [ihm]: success
+[2023-08-05 00:29:40] INFO root fetch - main [MainThread]: Store serial: [19181320]
