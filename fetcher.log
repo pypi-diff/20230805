@@ -8012,3 +8012,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:27:12] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.8-py3-none-any.whl.zip]
 [2023-08-05 06:27:12] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
 [2023-08-05 06:27:12] INFO root fetch - main [MainThread]: Store serial: [19184253]
+[2023-08-05 06:32:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184253]
+[2023-08-05 06:32:21] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 06:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-msgraph
+[2023-08-05 06:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: calf-milp
+[2023-08-05 06:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sphinxnotes-lilypond
+[2023-08-05 06:32:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: valvefgd
+[2023-08-05 06:32:21] INFO root fetch - processPackages [py-msgraph]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 06:32:21] WARNING root fetch - processPackages [calf-milp]: Skipping, unable to determine old version
+[2023-08-05 06:32:21] INFO root fetch - main [MainThread]: End processing [calf-milp] error
+[2023-08-05 06:32:21] INFO root fetch - processPackages [valvefgd]: New version: [1.0.5] Old Version: [1.0.3]
+[2023-08-05 06:32:21] INFO root fetch - processPackages [sphinxnotes-lilypond]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-08-05 06:32:22] INFO root fetch - processPackages [py-msgraph]: Downloading https://files.pythonhosted.org/packages/04/b8/0ef48bc65973932dbeed401e2a7c23818c234054a3c1db86f7965e121273/py-msgraph-0.0.1.tar.gz
+[2023-08-05 06:32:22] INFO root fetch - processPackages [sphinxnotes-lilypond]: Downloading https://files.pythonhosted.org/packages/15/30/499994b15be004afccf38e9b92fc9ec95ccbfcf5044f2d45c13f5510221c/sphinxnotes-lilypond-2.0.0a1.tar.gz
+[2023-08-05 06:32:22] INFO root fetch - processPackages [valvefgd]: Downloading https://files.pythonhosted.org/packages/36/0a/443a5b18627d8d21ab9c52f746d81a0e9a819bd0f5986ae159c8e55d6c75/valvefgd-1.0.3.tar.gz
+[2023-08-05 06:32:22] INFO root fetch - processPackages [py-msgraph]: Downloading https://files.pythonhosted.org/packages/5d/ed/ea675e16254e498bc29d2c166ff2a06ccfd8f26563d0dcda1e7a0262b175/py-msgraph-0.0.2.tar.gz
+[2023-08-05 06:32:22] INFO root fetch - processPackages [valvefgd]: Downloading https://files.pythonhosted.org/packages/45/64/cec341c1370ac85f84d2420ebb06e280850538c76f44b892319443bf4413/valvefgd-1.0.5.tar.gz
+[2023-08-05 06:32:22] INFO root fetch - processPackages [py-msgraph]: executing diffoscope
+[2023-08-05 06:32:22] INFO root fetch - processPackages [py-msgraph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py-msgraph-0.0.1.tar.gz tmp/py-msgraph-0.0.2.tar.gz --markdown 20230805/p/py-msgraph/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 06:32:22] INFO root fetch - processPackages [sphinxnotes-lilypond]: Downloading https://files.pythonhosted.org/packages/70/24/ff995137462dd43728b5f139e1299a27663fa4a14da9cdb7a610d25641fd/sphinxnotes-lilypond-2.0.0a2.tar.gz
+[2023-08-05 06:32:22] INFO root fetch - processPackages [valvefgd]: executing diffoscope
+[2023-08-05 06:32:22] INFO root fetch - processPackages [valvefgd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valvefgd-1.0.3.tar.gz tmp/valvefgd-1.0.5.tar.gz --markdown 20230805/v/valvefgd/1.0.3-1.0.5/diff.md --exclude *.pyd
+[2023-08-05 06:32:22] INFO root fetch - processPackages [sphinxnotes-lilypond]: executing diffoscope
+[2023-08-05 06:32:22] INFO root fetch - processPackages [sphinxnotes-lilypond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxnotes-lilypond-2.0.0a1.tar.gz tmp/sphinxnotes-lilypond-2.0.0a2.tar.gz --markdown 20230805/s/sphinxnotes-lilypond/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-08-05 06:32:23] INFO root fetch - processPackages [py-msgraph]: Remove: archive file [/home/abi/fetcher/tmp/py-msgraph-0.0.1.tar.gz]
+[2023-08-05 06:32:23] INFO root fetch - processPackages [py-msgraph]: Remove: archive file [/home/abi/fetcher/tmp/py-msgraph-0.0.2.tar.gz]
+[2023-08-05 06:32:23] INFO root fetch - main [MainThread]: End processing [py-msgraph]: success
+[2023-08-05 06:32:23] INFO root fetch - processPackages [valvefgd]: Remove: archive file [/home/abi/fetcher/tmp/valvefgd-1.0.3.tar.gz]
+[2023-08-05 06:32:23] INFO root fetch - processPackages [valvefgd]: Remove: archive file [/home/abi/fetcher/tmp/valvefgd-1.0.5.tar.gz]
+[2023-08-05 06:32:23] INFO root fetch - main [MainThread]: End processing [valvefgd]: success
+[2023-08-05 06:32:42] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-2.0.0a1.tar.gz]
+[2023-08-05 06:32:42] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-2.0.0a2.tar.gz]
+[2023-08-05 06:32:42] INFO root fetch - main [MainThread]: End processing [sphinxnotes-lilypond]: success
+[2023-08-05 06:32:42] INFO root fetch - main [MainThread]: Store serial: [19184266]
