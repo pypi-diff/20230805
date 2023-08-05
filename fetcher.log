@@ -9024,3 +9024,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:23:27] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
 [2023-08-05 08:23:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-05 08:23:27] INFO root fetch - main [MainThread]: Store serial: [19184641]
+[2023-08-05 08:28:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184641]
+[2023-08-05 08:28:35] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 08:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: fake-bpy-module-latest
+[2023-08-05 08:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyviscous
+[2023-08-05 08:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assess-acceptability-judgments
+[2023-08-05 08:28:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: decorator-validation
+[2023-08-05 08:28:35] INFO root fetch - processPackages [decorator-validation]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-05 08:28:35] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 08:28:35] INFO root fetch - processPackages [decorator-validation]: Downloading https://files.pythonhosted.org/packages/cb/e9/65f0766c04ccaa76dadf309532110eea2db6e4fcad64e5ec951c16c2dae2/decorator_validation-1.0.0.tar.gz
+[2023-08-05 08:28:35] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-05 08:28:35] INFO root fetch - processPackages [pyviscous]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-05 08:28:35] INFO root fetch - processPackages [fake-bpy-module-latest]: New version: [20230805] Old Version: [20230804]
+[2023-08-05 08:28:35] INFO root fetch - processPackages [decorator-validation]: Downloading https://files.pythonhosted.org/packages/cd/e0/c69ad1ed996dc478f4fded012a99ad5d01aaa4f47b5fdf0ee19498cd2118/decorator_validation-1.0.1.tar.gz
+[2023-08-05 08:28:35] INFO root fetch - processPackages [pyviscous]: Downloading https://files.pythonhosted.org/packages/1c/7a/d6923e9095aa140df6948129762d5af05694d453c16e63217fea2d70e6fd/pyviscous-2.1.0.tar.gz
+[2023-08-05 08:28:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/dc/1d/3e295eb88649e1cb37290f98796469111740cede725a4889f5349c6e4783/fake-bpy-module-latest-20230804.tar.gz
+[2023-08-05 08:28:36] INFO root fetch - processPackages [decorator-validation]: executing diffoscope
+[2023-08-05 08:28:36] INFO root fetch - processPackages [decorator-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_validation-1.0.0.tar.gz tmp/decorator_validation-1.0.1.tar.gz --markdown 20230805/d/decorator-validation/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-05 08:28:36] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-05 08:28:36] INFO root fetch - processPackages [pyviscous]: Downloading https://files.pythonhosted.org/packages/96/e9/5772ab5bbab2afeafd4954ccf88224cc08cf41f9767d04c2e1418da082f1/pyviscous-2.2.0.tar.gz
+[2023-08-05 08:28:36] INFO root fetch - processPackages [fake-bpy-module-latest]: Downloading https://files.pythonhosted.org/packages/60/4e/473ef30fc700757b94fa6eed47652693e64de9b39ee7b86bb088a3b50818/fake-bpy-module-latest-20230805.tar.gz
+[2023-08-05 08:28:36] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-05 08:28:36] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230805/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 08:28:36] INFO root fetch - processPackages [pyviscous]: executing diffoscope
+[2023-08-05 08:28:36] INFO root fetch - processPackages [pyviscous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyviscous-2.1.0.tar.gz tmp/pyviscous-2.2.0.tar.gz --markdown 20230805/p/pyviscous/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-05 08:28:36] INFO root fetch - processPackages [fake-bpy-module-latest]: executing diffoscope
+[2023-08-05 08:28:36] INFO root fetch - processPackages [fake-bpy-module-latest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fake-bpy-module-latest-20230804.tar.gz tmp/fake-bpy-module-latest-20230805.tar.gz --markdown 20230805/f/fake-bpy-module-latest/20230804-20230805/diff.md --exclude *.pyd
+[2023-08-05 08:28:36] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-1.0.0.tar.gz]
+[2023-08-05 08:28:36] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-1.0.1.tar.gz]
+[2023-08-05 08:28:36] INFO root fetch - main [MainThread]: End processing [decorator-validation]: success
+[2023-08-05 08:28:37] INFO root fetch - processPackages [pyviscous]: Remove: archive file [/home/abi/fetcher/tmp/pyviscous-2.1.0.tar.gz]
+[2023-08-05 08:28:37] INFO root fetch - processPackages [pyviscous]: Remove: archive file [/home/abi/fetcher/tmp/pyviscous-2.2.0.tar.gz]
+[2023-08-05 08:28:37] INFO root fetch - main [MainThread]: End processing [pyviscous]: success
+[2023-08-05 08:28:38] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.8.tar.gz]
+[2023-08-05 08:28:38] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
+[2023-08-05 08:28:38] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-05 08:28:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230804.tar.gz]
+[2023-08-05 08:28:41] INFO root fetch - processPackages [fake-bpy-module-latest]: Remove: archive file [/home/abi/fetcher/tmp/fake-bpy-module-latest-20230805.tar.gz]
+[2023-08-05 08:28:41] INFO root fetch - main [MainThread]: End processing [fake-bpy-module-latest]: success
+[2023-08-05 08:28:41] INFO root fetch - main [MainThread]: Store serial: [19184654]
