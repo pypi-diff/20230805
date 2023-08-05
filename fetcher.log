@@ -8763,3 +8763,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:51:48] INFO root fetch - processPackages [pypomes-soap]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_soap-0.1.4.tar.gz]
 [2023-08-05 07:51:48] INFO root fetch - main [MainThread]: End processing [pypomes-soap]: success
 [2023-08-05 07:51:48] INFO root fetch - main [MainThread]: Store serial: [19184538]
+[2023-08-05 07:56:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184538]
+[2023-08-05 07:56:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: decorator-validation
+[2023-08-05 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snapcode
+[2023-08-05 07:56:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: idkwhttph
+[2023-08-05 07:56:57] INFO root fetch - processPackages [idkwhttph]: New version: [0.4.2] Old Version: [0.3.8]
+[2023-08-05 07:56:57] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/67/4a/b1823ec624ee64596238eab1e64b877875c3f1f7b9032c280165432437ae/idkwhttph-0.3.8.tar.gz
+[2023-08-05 07:56:57] INFO root fetch - processPackages [decorator-validation]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-05 07:56:57] INFO root fetch - processPackages [snapcode]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 07:56:57] INFO root fetch - processPackages [decorator-validation]: Downloading https://files.pythonhosted.org/packages/cb/e9/65f0766c04ccaa76dadf309532110eea2db6e4fcad64e5ec951c16c2dae2/decorator_validation-1.0.0.tar.gz
+[2023-08-05 07:56:57] INFO root fetch - processPackages [snapcode]: Downloading https://files.pythonhosted.org/packages/b5/49/f37036734631116c76744e374558a48f2dad633f51252bbd9f9ca8d38265/snapcode-0.0.2.tar.gz
+[2023-08-05 07:56:57] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/2e/00/c3eac6d0ba951f46196234e0f314d47569e695bc16bef97eb29515e52c23/idkwhttph-0.4.2.tar.gz
+[2023-08-05 07:56:57] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-08-05 07:56:57] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.8.tar.gz tmp/idkwhttph-0.4.2.tar.gz --markdown 20230805/i/idkwhttph/0.3.8-0.4.2/diff.md --exclude *.pyd
+[2023-08-05 07:56:57] INFO root fetch - processPackages [decorator-validation]: Downloading https://files.pythonhosted.org/packages/cd/e0/c69ad1ed996dc478f4fded012a99ad5d01aaa4f47b5fdf0ee19498cd2118/decorator_validation-1.0.1.tar.gz
+[2023-08-05 07:56:57] INFO root fetch - processPackages [snapcode]: Downloading https://files.pythonhosted.org/packages/b5/e6/ae156dc4f28e3601f82884e04f4f056aace6016fc0ff804225021b1fb2f0/snapcode-0.0.3.tar.gz
+[2023-08-05 07:56:58] INFO root fetch - processPackages [decorator-validation]: executing diffoscope
+[2023-08-05 07:56:58] INFO root fetch - processPackages [decorator-validation]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/decorator_validation-1.0.0.tar.gz tmp/decorator_validation-1.0.1.tar.gz --markdown 20230805/d/decorator-validation/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-05 07:56:58] INFO root fetch - processPackages [snapcode]: executing diffoscope
+[2023-08-05 07:56:58] INFO root fetch - processPackages [snapcode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snapcode-0.0.2.tar.gz tmp/snapcode-0.0.3.tar.gz --markdown 20230805/s/snapcode/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 07:56:58] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.8.tar.gz]
+[2023-08-05 07:56:58] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.4.2.tar.gz]
+[2023-08-05 07:56:58] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-08-05 07:56:58] INFO root fetch - processPackages [snapcode]: Remove: archive file [/home/abi/fetcher/tmp/snapcode-0.0.2.tar.gz]
+[2023-08-05 07:56:58] INFO root fetch - processPackages [snapcode]: Remove: archive file [/home/abi/fetcher/tmp/snapcode-0.0.3.tar.gz]
+[2023-08-05 07:56:58] INFO root fetch - main [MainThread]: End processing [snapcode]: success
+[2023-08-05 07:56:58] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-1.0.0.tar.gz]
+[2023-08-05 07:56:58] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-1.0.1.tar.gz]
+[2023-08-05 07:56:58] INFO root fetch - main [MainThread]: End processing [decorator-validation]: success
+[2023-08-05 07:56:58] INFO root fetch - main [MainThread]: Store serial: [19184546]
