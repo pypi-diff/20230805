@@ -14827,3 +14827,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:44:13] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.8.tar.gz]
 [2023-08-05 17:44:13] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
 [2023-08-05 17:44:13] INFO root fetch - main [MainThread]: Store serial: [19187538]
+[2023-08-05 17:49:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187538]
+[2023-08-05 17:49:21] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amdfan
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via-api
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rucio-consistency
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: abess
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: knifes
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mailhound
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4all-code-review
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ddqla
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: django-eveuniverse
+[2023-08-05 17:49:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cad-tickers
+[2023-08-05 17:49:22] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.11] Old Version: [0.1]
+[2023-08-05 17:49:22] WARNING root fetch - processPackages [mailhound]: Skipping, unable to determine old version
+[2023-08-05 17:49:22] INFO root fetch - main [MainThread]: End processing [mailhound] error
+[2023-08-05 17:49:22] INFO root fetch - processPackages [cad-tickers]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [via-api]: New version: [2.3.0] Old Version: [2.2.0]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [amdfan]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [django-eveuniverse]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [ddqla]: New version: [0.1.22] Old Version: [0.1.15]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [rucio-consistency]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [knifes]: New version: [0.8.93] Old Version: [0.8.92]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [abess]: New version: [0.4.7rc1] Old Version: [0.4.6]
+[2023-08-05 17:49:22] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/ed/8a/3cb8b932007ab57b7118cf04cb275f9c0132a0c2bec710d0e682d6f645f0/gpt4all-code-review-0.1.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/7c/81/f98d9a2ebcc6ba1049290d1f96a3213a4e9ac59cbc7b33b13eec43ace61e/via-api-2.2.0.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [cad-tickers]: Downloading https://files.pythonhosted.org/packages/6a/21/89ea1f0086456addb225b3077a8387c611ea55f03fa4a99352ff59d77deb/cad_tickers-1.5.2.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [amdfan]: Downloading https://files.pythonhosted.org/packages/a5/84/eaf0780a35d2771e2f65c31662d8ccd82ffff08cf9e8e4bc0c8f10668587/amdfan-0.1.8.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [django-eveuniverse]: Downloading https://files.pythonhosted.org/packages/10/1b/cef7a2d3854638a1c527bc37835837838acde5d2bd4fe311d7440c45b811/django_eveuniverse-1.3.0.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [rucio-consistency]: Downloading https://files.pythonhosted.org/packages/3c/84/cdd78442b1c7fdd244939d03827b132faa15dc72d388a3f4d04aae7600ed/rucio-consistency-1.3.0.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [ddqla]: Downloading https://files.pythonhosted.org/packages/a8/ad/873ac3dc2a74801ad6bece04c15149a5f250a20740403df7fe177daa70bf/ddqla-0.1.15.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/59/30/e04bc4f56382e892fc60b9c4c04029215fd3edec060fb10534c8bad052e3/knifes-0.8.92.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [abess]: Downloading https://files.pythonhosted.org/packages/1f/27/0abee072f9378ea41d484b0fcc3e67b5ff10380539da7321b234adbc182d/abess-0.4.6.tar.gz
+[2023-08-05 17:49:22] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/4b/2f/a84b67879f7fe703de9afd6bd148d8308fa0b12d8b453012863645cd6fc3/gpt4all-code-review-0.11.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/78/05/b16c942c8f121643fd4f442a12354318a5c08c56f9bba6c59d0ab3476f4b/via-api-2.3.0.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.1.tar.gz tmp/gpt4all-code-review-0.11.tar.gz --markdown 20230805/g/gpt4all-code-review/0.1-0.11/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-2.2.0.tar.gz tmp/via-api-2.3.0.tar.gz --markdown 20230805/v/via-api/2.2.0-2.3.0/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [cad-tickers]: Downloading https://files.pythonhosted.org/packages/36/be/11252f36035ff2ee981ce25d1a966a76dacb56bb510a61d7315e88dcbbb0/cad_tickers-1.5.3.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [ddqla]: Downloading https://files.pythonhosted.org/packages/5d/1d/ac22972fd4b6dfe36e0753902eaa562d6c4eb394744b6ccf0ec872596ebc/ddqla-0.1.22.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [django-eveuniverse]: Downloading https://files.pythonhosted.org/packages/bd/27/3a501fda687d80987e80381690efe9bcd5c6d45f2444f43a233924e814b5/django_eveuniverse-1.3.1.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [amdfan]: Downloading https://files.pythonhosted.org/packages/f2/fc/abdc2525391e94984012cd44bc9d28985eaa38a41b8492ec8d90761b5a30/amdfan-0.1.9.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/54/58/906daf05d6d7fdefc2cc3365e5f3fda688c18bf8435ae83a345838b7be84/knifes-0.8.93.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [cad-tickers]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [cad-tickers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cad_tickers-1.5.2.tar.gz tmp/cad_tickers-1.5.3.tar.gz --markdown 20230805/c/cad-tickers/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [ddqla]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [ddqla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddqla-0.1.15.tar.gz tmp/ddqla-0.1.22.tar.gz --markdown 20230805/d/ddqla/0.1.15-0.1.22/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [abess]: Downloading https://files.pythonhosted.org/packages/63/59/b3e4f1fa29e46821ed9d16c29062faf593ed858c026f1bd48f0d0dc005b1/abess-0.4.7rc1.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [amdfan]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [amdfan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amdfan-0.1.8.tar.gz tmp/amdfan-0.1.9.tar.gz --markdown 20230805/a/amdfan/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [rucio-consistency]: Downloading https://files.pythonhosted.org/packages/72/33/c8b107906ad02da76694dbe953c8c26873e25dd424434542d545451c3531/rucio-consistency-1.4.0.tar.gz
+[2023-08-05 17:49:23] INFO root fetch - processPackages [django-eveuniverse]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [django-eveuniverse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django_eveuniverse-1.3.0.tar.gz tmp/django_eveuniverse-1.3.1.tar.gz --markdown 20230805/d/django-eveuniverse/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.92.tar.gz tmp/knifes-0.8.93.tar.gz --markdown 20230805/k/knifes/0.8.92-0.8.93/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [rucio-consistency]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [rucio-consistency]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rucio-consistency-1.3.0.tar.gz tmp/rucio-consistency-1.4.0.tar.gz --markdown 20230805/r/rucio-consistency/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-05 17:49:23] INFO root fetch - processPackages [abess]: executing diffoscope
+[2023-08-05 17:49:23] INFO root fetch - processPackages [abess]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abess-0.4.6.tar.gz tmp/abess-0.4.7rc1.tar.gz --markdown 20230805/a/abess/0.4.6-0.4.7rc1/diff.md --exclude *.pyd
+[2023-08-05 17:49:24] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.1.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.11.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-05 17:49:24] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.2.0.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.3.0.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-05 17:49:24] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.15.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.22.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [ddqla]: success
+[2023-08-05 17:49:24] INFO root fetch - processPackages [cad-tickers]: Remove: archive file [/home/abi/fetcher/tmp/cad_tickers-1.5.2.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [cad-tickers]: Remove: archive file [/home/abi/fetcher/tmp/cad_tickers-1.5.3.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [cad-tickers]: success
+[2023-08-05 17:49:24] INFO root fetch - processPackages [amdfan]: Remove: archive file [/home/abi/fetcher/tmp/amdfan-0.1.8.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [amdfan]: Remove: archive file [/home/abi/fetcher/tmp/amdfan-0.1.9.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [amdfan]: success
+[2023-08-05 17:49:24] INFO root fetch - processPackages [rucio-consistency]: Remove: archive file [/home/abi/fetcher/tmp/rucio-consistency-1.3.0.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [rucio-consistency]: Remove: archive file [/home/abi/fetcher/tmp/rucio-consistency-1.4.0.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [rucio-consistency]: success
+[2023-08-05 17:49:24] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.92.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.93.tar.gz]
+[2023-08-05 17:49:24] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-08-05 17:49:25] INFO root fetch - processPackages [django-eveuniverse]: Remove: archive file [/home/abi/fetcher/tmp/django_eveuniverse-1.3.0.tar.gz]
+[2023-08-05 17:49:25] INFO root fetch - processPackages [django-eveuniverse]: Remove: archive file [/home/abi/fetcher/tmp/django_eveuniverse-1.3.1.tar.gz]
+[2023-08-05 17:49:25] INFO root fetch - main [MainThread]: End processing [django-eveuniverse]: success
+[2023-08-05 17:49:28] INFO root fetch - processPackages [abess]: Remove: archive file [/home/abi/fetcher/tmp/abess-0.4.6.tar.gz]
+[2023-08-05 17:49:28] INFO root fetch - processPackages [abess]: Remove: archive file [/home/abi/fetcher/tmp/abess-0.4.7rc1.tar.gz]
+[2023-08-05 17:49:28] INFO root fetch - main [MainThread]: End processing [abess]: success
+[2023-08-05 17:49:28] INFO root fetch - main [MainThread]: Store serial: [19187609]
