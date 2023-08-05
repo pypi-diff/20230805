@@ -7240,3 +7240,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 05:20:35] INFO root fetch - processPackages [abinitostudio]: Remove: archive file [/home/abi/fetcher/tmp/abinitostudio-1.0.8.tar.gz]
 [2023-08-05 05:20:35] INFO root fetch - main [MainThread]: End processing [abinitostudio]: success
 [2023-08-05 05:20:35] INFO root fetch - main [MainThread]: Store serial: [19183971]
+[2023-08-05 05:25:40] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183971]
+[2023-08-05 05:25:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 05:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordcel
+[2023-08-05 05:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: utz
+[2023-08-05 05:25:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2023-08-05 05:25:44] INFO root fetch - processPackages [wordcel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 05:25:44] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-05 05:25:44] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/a9/10/8929d3ae9183abe01a4656fca207828dbed46658c127f8733f67dbda9e81/wordcel-0.0.4.tar.gz
+[2023-08-05 05:25:45] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-05 05:25:45] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/f2/35/1d63491e3023df4acd2b8fef4ee8edf51af99d7267e31133447c961901f0/wordcel-0.0.5.tar.gz
+[2023-08-05 05:25:45] INFO root fetch - processPackages [utz]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-05 05:25:45] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-05 05:25:45] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-08-05 05:25:45] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.4.tar.gz tmp/wordcel-0.0.5.tar.gz --markdown 20230805/w/wordcel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 05:25:45] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-05 05:25:45] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230805/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-05 05:25:45] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/ff/21/141cab19c79e03a5ca5496b0412ffb195b2336c490b3989c8d9527ae60f6/utz-0.4.1.tar.gz
+[2023-08-05 05:25:45] INFO root fetch - processPackages [utz]: Downloading https://files.pythonhosted.org/packages/dd/f9/7543b5e959a13c8c05e7842e240a559fecfbd263f0700da647e83267add9/utz-0.4.2.tar.gz
+[2023-08-05 05:25:45] INFO root fetch - processPackages [utz]: executing diffoscope
+[2023-08-05 05:25:45] INFO root fetch - processPackages [utz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/utz-0.4.1.tar.gz tmp/utz-0.4.2.tar.gz --markdown 20230805/u/utz/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-05 05:25:46] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.4.tar.gz]
+[2023-08-05 05:25:46] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.5.tar.gz]
+[2023-08-05 05:25:46] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-08-05 05:25:46] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-05 05:25:46] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-05 05:25:46] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-05 05:25:46] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.4.1.tar.gz]
+[2023-08-05 05:25:46] INFO root fetch - processPackages [utz]: Remove: archive file [/home/abi/fetcher/tmp/utz-0.4.2.tar.gz]
+[2023-08-05 05:25:46] INFO root fetch - main [MainThread]: End processing [utz]: success
+[2023-08-05 05:25:46] INFO root fetch - main [MainThread]: Store serial: [19183986]
