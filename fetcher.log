@@ -13202,3 +13202,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:38:42] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.9.tar.gz]
 [2023-08-05 15:38:42] INFO root fetch - main [MainThread]: End processing [clustimage]: success
 [2023-08-05 15:38:42] INFO root fetch - main [MainThread]: Store serial: [19186762]
+[2023-08-05 15:43:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186762]
+[2023-08-05 15:43:51] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 15:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: spherical-dev
+[2023-08-05 15:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: hotsos
+[2023-08-05 15:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asset-sizer
+[2023-08-05 15:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pynabi
+[2023-08-05 15:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: usda
+[2023-08-05 15:43:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pydt3
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pynabi]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 15:43:52] WARNING root fetch - processPackages [asset-sizer]: Skipping, unable to determine old version
+[2023-08-05 15:43:52] INFO root fetch - main [MainThread]: End processing [asset-sizer] error
+[2023-08-05 15:43:52] INFO root fetch - processPackages [usda]: New version: [0.0.27] Old Version: [0.0.26]
+[2023-08-05 15:43:52] INFO root fetch - processPackages [spherical-dev]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 15:43:52] INFO root fetch - processPackages [hotsos]: New version: [1.16.0.post8] Old Version: [1.16.0.post7]
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pydt3]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pynabi]: Downloading https://files.pythonhosted.org/packages/3a/81/2035f696c5e21a3f2ec3eac7aedf1b468036892d860b9f705a422831d471/pynabi-0.1.1.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/49/76/a2b96c8c862c390cbbf149e1ce9e113d05f5f2de322d8ea55b3cd91f894c/usda-0.0.26.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [spherical-dev]: Downloading https://files.pythonhosted.org/packages/22/47/fc1f6225e02ed062881452f1ec1c1347c9aaf71b3e6b12df0d9d4eec3cf8/spherical_dev-0.2.8-py3-none-any.whl
+[2023-08-05 15:43:52] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/01/45/f393e3402962f6e39e49a002d4e1e72d76eb958b376477c86a171ecb7c91/hotsos-1.16.0.post7.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/85/dc/18eeccf12580ccf4a4e99642e6e77874827c9062b438d203312ec5565a06/pydt3-0.0.5.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pynabi]: Downloading https://files.pythonhosted.org/packages/fb/d3/3b303924d549460a8c0a71268bb28e5895d4e17cbe3ff3c8fe044a40714b/pynabi-0.1.2.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [usda]: Downloading https://files.pythonhosted.org/packages/35/7f/587207f263fc2c4daebd0747c3cc333d605e41d4cf4bce097c4dc371f728/usda-0.0.27.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/95/e0/e079608c3da20d43e98a6b9e5653ddfc92439d93131ac43415e7e5109c10/pydt3-0.0.6.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [spherical-dev]: Downloading https://files.pythonhosted.org/packages/f9/ac/346de21963ac25544dc37a4921a22fa33177d2358c3a833744559a32b5a4/spherical_dev-0.2.9-py3-none-any.whl
+[2023-08-05 15:43:52] INFO root fetch - processPackages [hotsos]: Downloading https://files.pythonhosted.org/packages/5e/a9/bb3ccdf76496dcf06ac980d9c1ec2dbd759c402656fd9727338ae6fa814e/hotsos-1.16.0.post8.tar.gz
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pynabi]: executing diffoscope
+[2023-08-05 15:43:52] INFO root fetch - processPackages [pynabi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pynabi-0.1.1.tar.gz tmp/pynabi-0.1.2.tar.gz --markdown 20230805/p/pynabi/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 15:43:52] INFO root fetch - processPackages [usda]: executing diffoscope
+[2023-08-05 15:43:52] INFO root fetch - processPackages [usda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usda-0.0.26.tar.gz tmp/usda-0.0.27.tar.gz --markdown 20230805/u/usda/0.0.26-0.0.27/diff.md --exclude *.pyd
+[2023-08-05 15:43:53] INFO root fetch - processPackages [pydt3]: executing diffoscope
+[2023-08-05 15:43:53] INFO root fetch - processPackages [pydt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydt3-0.0.5.tar.gz tmp/pydt3-0.0.6.tar.gz --markdown 20230805/p/pydt3/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-05 15:43:53] INFO root fetch - processPackages [hotsos]: executing diffoscope
+[2023-08-05 15:43:53] INFO root fetch - processPackages [hotsos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hotsos-1.16.0.post7.tar.gz tmp/hotsos-1.16.0.post8.tar.gz --markdown 20230805/h/hotsos/1.16.0.post7-1.16.0.post8/diff.md --exclude *.pyd
+[2023-08-05 15:43:53] INFO root fetch - processPackages [spherical-dev]: executing diffoscope
+[2023-08-05 15:43:53] INFO root fetch - processPackages [spherical-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spherical_dev-0.2.8-py3-none-any.whl.zip tmp/spherical_dev-0.2.9-py3-none-any.whl.zip --markdown 20230805/s/spherical-dev/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 15:43:53] INFO root fetch - processPackages [pynabi]: Remove: archive file [/home/abi/fetcher/tmp/pynabi-0.1.1.tar.gz]
+[2023-08-05 15:43:53] INFO root fetch - processPackages [pynabi]: Remove: archive file [/home/abi/fetcher/tmp/pynabi-0.1.2.tar.gz]
+[2023-08-05 15:43:53] INFO root fetch - main [MainThread]: End processing [pynabi]: success
+[2023-08-05 15:43:54] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.5.tar.gz]
+[2023-08-05 15:43:54] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.6.tar.gz]
+[2023-08-05 15:43:54] INFO root fetch - main [MainThread]: End processing [pydt3]: success
+[2023-08-05 15:43:54] INFO root fetch - processPackages [spherical-dev]: Remove: archive file [/home/abi/fetcher/tmp/spherical_dev-0.2.8-py3-none-any.whl.zip]
+[2023-08-05 15:43:54] INFO root fetch - processPackages [spherical-dev]: Remove: archive file [/home/abi/fetcher/tmp/spherical_dev-0.2.9-py3-none-any.whl.zip]
+[2023-08-05 15:43:54] INFO root fetch - main [MainThread]: End processing [spherical-dev]: success
+[2023-08-05 15:43:55] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.26.tar.gz]
+[2023-08-05 15:43:55] INFO root fetch - processPackages [usda]: Remove: archive file [/home/abi/fetcher/tmp/usda-0.0.27.tar.gz]
+[2023-08-05 15:43:55] INFO root fetch - main [MainThread]: End processing [usda]: success
+[2023-08-05 15:43:55] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post7.tar.gz]
+[2023-08-05 15:43:55] INFO root fetch - processPackages [hotsos]: Remove: archive file [/home/abi/fetcher/tmp/hotsos-1.16.0.post8.tar.gz]
+[2023-08-05 15:43:55] INFO root fetch - main [MainThread]: End processing [hotsos]: success
+[2023-08-05 15:43:55] INFO root fetch - main [MainThread]: Store serial: [19186782]
