@@ -13381,3 +13381,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:49:07] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.6.tar.gz]
 [2023-08-05 15:49:07] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
 [2023-08-05 15:49:07] INFO root fetch - main [MainThread]: Store serial: [19186829]
+[2023-08-05 15:54:11] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186829]
+[2023-08-05 15:54:16] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: remote-log
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ZW-geo
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: coloraide
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: syntaxlight
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytypos
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tinapdf
+[2023-08-05 15:54:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: psycopg
+[2023-08-05 15:54:16] WARNING root fetch - processPackages [ZW-geo]: Skipping, unable to determine old version
+[2023-08-05 15:54:16] INFO root fetch - main [MainThread]: End processing [ZW-geo] error
+[2023-08-05 15:54:16] WARNING root fetch - processPackages [tinapdf]: Skipping, unable to determine old version
+[2023-08-05 15:54:16] INFO root fetch - main [MainThread]: End processing [tinapdf] error
+[2023-08-05 15:54:16] WARNING root fetch - processPackages [remote-log]: Skipping, unable to determine old version
+[2023-08-05 15:54:16] INFO root fetch - processPackages [syntaxlight]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 15:54:16] INFO root fetch - main [MainThread]: End processing [remote-log] error
+[2023-08-05 15:54:16] INFO root fetch - processPackages [pytypos]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-05 15:54:17] INFO root fetch - processPackages [coloraide]: New version: [2.7] Old Version: [2.6]
+[2023-08-05 15:54:17] INFO root fetch - processPackages [psycopg]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-08-05 15:54:17] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/e3/20/ba3eebff3391e83403933bad628648a94d2320e63ca8d83152d2b0a9edc9/syntaxlight-0.1.2.tar.gz
+[2023-08-05 15:54:17] INFO root fetch - processPackages [pytypos]: Downloading https://files.pythonhosted.org/packages/3f/a2/159c6587e65241b80d3d5a68397cf5619419311376be3d61d17df39d91fa/pytypos-1.3.0.tar.gz
+[2023-08-05 15:54:17] INFO root fetch - processPackages [coloraide]: Downloading https://files.pythonhosted.org/packages/cb/bf/bab46cd4ab6c15e885ca208addeb6857a866aaac841f978871a57dccda39/coloraide-2.6.tar.gz
+[2023-08-05 15:54:17] INFO root fetch - processPackages [psycopg]: Downloading https://files.pythonhosted.org/packages/ef/52/bfc1d7d82467594a45d46cf5ecae1cd5e6009ec851f4cff1f239d0f32730/psycopg-3.1.8.tar.gz
+[2023-08-05 15:54:17] WARNING root fetch - processPackages [coloraide]: Skipping package: exceeds size limit 15353259>=10485760
+[2023-08-05 15:54:17] INFO root fetch - main [MainThread]: End processing [coloraide] error
+[2023-08-05 15:54:17] INFO root fetch - processPackages [syntaxlight]: Downloading https://files.pythonhosted.org/packages/ad/94/b36a8a1f8f41444d213f781edd485b2d0aaca015edef14eb6f6ca408ece3/syntaxlight-0.1.3.tar.gz
+[2023-08-05 15:54:17] INFO root fetch - processPackages [psycopg]: Downloading https://files.pythonhosted.org/packages/7f/56/6463b9b47400710819153dcdfecf29d6d2f63f772e524f94b090fe5716a2/psycopg-3.1.9.tar.gz
+[2023-08-05 15:54:17] INFO root fetch - processPackages [pytypos]: Downloading https://files.pythonhosted.org/packages/35/58/0f60e55e788dfe8da71387cdc5bce8fd85b4fbf839e07d50ec04fe159a94/pytypos-1.4.0.tar.gz
+[2023-08-05 15:54:17] INFO root fetch - processPackages [syntaxlight]: executing diffoscope
+[2023-08-05 15:54:17] INFO root fetch - processPackages [syntaxlight]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/syntaxlight-0.1.2.tar.gz tmp/syntaxlight-0.1.3.tar.gz --markdown 20230805/s/syntaxlight/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 15:54:17] INFO root fetch - processPackages [pytypos]: executing diffoscope
+[2023-08-05 15:54:17] INFO root fetch - processPackages [pytypos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytypos-1.3.0.tar.gz tmp/pytypos-1.4.0.tar.gz --markdown 20230805/p/pytypos/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-05 15:54:17] INFO root fetch - processPackages [psycopg]: executing diffoscope
+[2023-08-05 15:54:17] INFO root fetch - processPackages [psycopg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg-3.1.8.tar.gz tmp/psycopg-3.1.9.tar.gz --markdown 20230805/p/psycopg/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-08-05 15:54:18] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.2.tar.gz]
+[2023-08-05 15:54:18] INFO root fetch - processPackages [syntaxlight]: Remove: archive file [/home/abi/fetcher/tmp/syntaxlight-0.1.3.tar.gz]
+[2023-08-05 15:54:18] INFO root fetch - main [MainThread]: End processing [syntaxlight]: success
+[2023-08-05 15:54:18] INFO root fetch - processPackages [pytypos]: Remove: archive file [/home/abi/fetcher/tmp/pytypos-1.3.0.tar.gz]
+[2023-08-05 15:54:18] INFO root fetch - processPackages [pytypos]: Remove: archive file [/home/abi/fetcher/tmp/pytypos-1.4.0.tar.gz]
+[2023-08-05 15:54:18] INFO root fetch - main [MainThread]: End processing [pytypos]: success
+[2023-08-05 15:54:18] INFO root fetch - processPackages [psycopg]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-3.1.8.tar.gz]
+[2023-08-05 15:54:18] INFO root fetch - processPackages [psycopg]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-3.1.9.tar.gz]
+[2023-08-05 15:54:18] INFO root fetch - main [MainThread]: End processing [psycopg]: success
+[2023-08-05 15:54:18] INFO root fetch - main [MainThread]: Store serial: [19186851]
