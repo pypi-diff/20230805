@@ -11863,3 +11863,102 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:33:35] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.5-py39-none-any.whl.zip]
 [2023-08-05 13:33:35] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
 [2023-08-05 13:33:35] INFO root fetch - main [MainThread]: Store serial: [19186081]
+[2023-08-05 13:38:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186081]
+[2023-08-05 13:38:44] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locust
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: motorhead
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: quantnb
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: scikit-rmt
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: steam-tools-ng
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: audioldm2
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steam-tools-ng
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: jj
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: ml3m
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pyre-check-nightly
+[2023-08-05 13:38:44] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-08-05 13:38:44] INFO root fetch - processPackages [quantnb]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-08-05 13:38:44] INFO root fetch - processPackages [audioldm2]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 13:38:44] WARNING root fetch - processPackages [ml3m]: Skipping, unable to determine old version
+[2023-08-05 13:38:44] INFO root fetch - processPackages [ml3m]: Start processing: alchemyjsonschema
+[2023-08-05 13:38:44] INFO root fetch - main [MainThread]: End processing [ml3m] error
+[2023-08-05 13:38:45] INFO root fetch - processPackages [alchemyjsonschema]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [steam-tools-ng]: New version: [3.1.3] Old Version: [3.1.1]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [steam-tools-ng]: New version: [3.1.3] Old Version: [3.1.1]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [scikit-rmt]: New version: [0.8.0] Old Version: [0.7.1]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [jj]: New version: [2.8.0] Old Version: [2.7.3]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [motorhead]: New version: [0.2308.3] Old Version: [0.2308.2]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [pyre-check-nightly]: New version: [0.0.101691233985] Old Version: [0.0.101691147578]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/a2/1d/3d336644991a0b49a305a926389df70f564e74dfdb018d7256464a85d24e/quantnb-0.2.9.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/5c/df/479543659d26ce17b22af604e356df62239861b12a29126298e7778e4a95/audioldm2-0.0.2.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [jj]: Downloading https://files.pythonhosted.org/packages/13/93/4a6d2a6a5748d40910361878be9c16d88b2cd472eb80bcc8bf6bfbc68c81/jj-2.7.3.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/74/60/58a4f4c24477adf00d998131ebcde0c6ddf2dcada83f6ad4c6ef55acef7e/scikit-rmt-0.7.1.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [motorhead]: Downloading https://files.pythonhosted.org/packages/c3/94/b0870f44b9cb0104181730b1ada102dd1a45679c69567173868edf8edac2/motorhead-0.2308.2.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [alchemyjsonschema]: Downloading https://files.pythonhosted.org/packages/20/84/61afd7dc39e0b7343cca678c130c391d87fdfe819d7b5e0ea375ca45c261/alchemyjsonschema-0.7.1.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [steam-tools-ng]: Downloading https://files.pythonhosted.org/packages/fa/e9/5fce3478a62763ffc63193aea745f6f2ce61454fe97b8b0789f0d72e30c9/steam-tools-ng-3.1.1.rc1.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [steam-tools-ng]: Downloading https://files.pythonhosted.org/packages/fa/e9/5fce3478a62763ffc63193aea745f6f2ce61454fe97b8b0789f0d72e30c9/steam-tools-ng-3.1.1.rc1.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [pyre-check-nightly]: Downloading https://files.pythonhosted.org/packages/84/2a/18ab2878ac5f2d04e5c868baa5f0668e6d6d520ad4aeed9199e211ec3586/pyre-check-nightly-0.0.101691147578.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [quantnb]: Downloading https://files.pythonhosted.org/packages/dd/f6/f4e46ef87612d56ebbdaa1772fd75a301b93f004270b48d6aee2d7463ca8/quantnb-0.3.1.tar.gz
+[2023-08-05 13:38:45] WARNING root fetch - processPackages [pyre-check-nightly]: Skipping package: exceeds size limit 23743588>=10485760
+[2023-08-05 13:38:45] INFO root fetch - processPackages [pyre-check-nightly]: Start processing: audioldm2
+[2023-08-05 13:38:45] INFO root fetch - main [MainThread]: End processing [pyre-check-nightly] error
+[2023-08-05 13:38:45] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-08-05 13:38:45] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230805/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-08-05 13:38:45] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/00/60/90d08dd272184fd9b16c5099bd8c1c085b668b883d3b91ed82066d4330f6/audioldm2-0.0.3.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [audioldm2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 13:38:45] INFO root fetch - processPackages [jj]: Downloading https://files.pythonhosted.org/packages/05/b5/9de72b6b122fc2f497825eab3b7c692c11d33aa6dec8177eefb8496bd330/jj-2.8.0.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [quantnb]: executing diffoscope
+[2023-08-05 13:38:45] INFO root fetch - processPackages [quantnb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quantnb-0.2.9.tar.gz tmp/quantnb-0.3.1.tar.gz --markdown 20230805/q/quantnb/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 13:38:45] INFO root fetch - processPackages [scikit-rmt]: Downloading https://files.pythonhosted.org/packages/c5/9d/4e91cd092cbae3dde4a0dd1a55f7b073808d9f222f93009236a11d43850a/scikit-rmt-0.8.0.tar.gz
+[2023-08-05 13:38:45] INFO root fetch - processPackages [motorhead]: Downloading https://files.pythonhosted.org/packages/bb/73/5103fcf562618942ac0cee1d01929fad3f771759da6a0b7170d4792063f7/motorhead-0.2308.3.tar.gz
+[2023-08-05 13:38:46] INFO root fetch - processPackages [steam-tools-ng]: Downloading https://files.pythonhosted.org/packages/e4/08/14169b617c46ea5999e6fbe338dab4fa6bf286e690b166ecbfd9d7ddd867/steam-tools-ng-3.1.3.tar.gz
+[2023-08-05 13:38:46] INFO root fetch - processPackages [alchemyjsonschema]: Downloading https://files.pythonhosted.org/packages/60/33/138a6316a6cb8910e16687f9ea9e5467012a9dea77e262619b3570729652/alchemyjsonschema-0.7.2.tar.gz
+[2023-08-05 13:38:46] INFO root fetch - processPackages [steam-tools-ng]: Downloading https://files.pythonhosted.org/packages/e4/08/14169b617c46ea5999e6fbe338dab4fa6bf286e690b166ecbfd9d7ddd867/steam-tools-ng-3.1.3.tar.gz
+[2023-08-05 13:38:46] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/7c/c5/5c2ebeb649cb5dba243001bdbeb42de05d57a7ce81c104cc726f946a73cb/audioldm2-0.0.4.tar.gz
+[2023-08-05 13:38:46] INFO root fetch - processPackages [jj]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [jj]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jj-2.7.3.tar.gz tmp/jj-2.8.0.tar.gz --markdown 20230805/j/jj/2.7.3-2.8.0/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [motorhead]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [motorhead]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/motorhead-0.2308.2.tar.gz tmp/motorhead-0.2308.3.tar.gz --markdown 20230805/m/motorhead/0.2308.2-0.2308.3/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [scikit-rmt]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [scikit-rmt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scikit-rmt-0.7.1.tar.gz tmp/scikit-rmt-0.8.0.tar.gz --markdown 20230805/s/scikit-rmt/0.7.1-0.8.0/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [steam-tools-ng]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [steam-tools-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-tools-ng-3.1.1.rc1.tar.gz tmp/steam-tools-ng-3.1.3.tar.gz --markdown 20230805/s/steam-tools-ng/3.1.1-3.1.3/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [steam-tools-ng]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [steam-tools-ng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/steam-tools-ng-3.1.1.rc1.tar.gz tmp/steam-tools-ng-3.1.3.tar.gz --markdown 20230805/s/steam-tools-ng/3.1.1-3.1.3/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [alchemyjsonschema]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [alchemyjsonschema]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alchemyjsonschema-0.7.1.tar.gz tmp/alchemyjsonschema-0.7.2.tar.gz --markdown 20230805/a/alchemyjsonschema/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [audioldm2]: executing diffoscope
+[2023-08-05 13:38:46] INFO root fetch - processPackages [audioldm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm2-0.0.2.tar.gz tmp/audioldm2-0.0.3.tar.gz --markdown 20230805/a/audioldm2/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 13:38:46] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/a9/1c/088c4edc1a97d36c8f3cb511a646a188bfa862aa4c39bb009f9c49aaac69/audioldm2-0.0.5.tar.gz
+[2023-08-05 13:38:47] INFO root fetch - processPackages [audioldm2]: executing diffoscope
+[2023-08-05 13:38:47] INFO root fetch - processPackages [audioldm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm2-0.0.4.tar.gz tmp/audioldm2-0.0.5.tar.gz --markdown 20230805/a/audioldm2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 13:38:47] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.2.9.tar.gz]
+[2023-08-05 13:38:47] INFO root fetch - processPackages [quantnb]: Remove: archive file [/home/abi/fetcher/tmp/quantnb-0.3.1.tar.gz]
+[2023-08-05 13:38:47] INFO root fetch - main [MainThread]: End processing [quantnb]: success
+[2023-08-05 13:38:47] INFO root fetch - processPackages [motorhead]: Remove: archive file [/home/abi/fetcher/tmp/motorhead-0.2308.2.tar.gz]
+[2023-08-05 13:38:47] INFO root fetch - processPackages [motorhead]: Remove: archive file [/home/abi/fetcher/tmp/motorhead-0.2308.3.tar.gz]
+[2023-08-05 13:38:47] INFO root fetch - main [MainThread]: End processing [motorhead]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [jj]: Remove: archive file [/home/abi/fetcher/tmp/jj-2.7.3.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [jj]: Remove: archive file [/home/abi/fetcher/tmp/jj-2.8.0.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [jj]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [steam-tools-ng]: Remove: archive file [/home/abi/fetcher/tmp/steam-tools-ng-3.1.1.rc1.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [steam-tools-ng]: Remove: archive file [/home/abi/fetcher/tmp/steam-tools-ng-3.1.3.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [steam-tools-ng]: success
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [steam-tools-ng]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [alchemyjsonschema]: Remove: archive file [/home/abi/fetcher/tmp/alchemyjsonschema-0.7.1.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [alchemyjsonschema]: Remove: archive file [/home/abi/fetcher/tmp/alchemyjsonschema-0.7.2.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [alchemyjsonschema]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.7.1.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [scikit-rmt]: Remove: archive file [/home/abi/fetcher/tmp/scikit-rmt-0.8.0.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [scikit-rmt]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.2.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.3.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
+[2023-08-05 13:38:48] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.4.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.5.tar.gz]
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
+[2023-08-05 13:38:48] INFO root fetch - main [MainThread]: Store serial: [19186120]
