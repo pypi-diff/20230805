@@ -18711,3 +18711,39 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 23:21:28] INFO root fetch - processPackages [manageprojects]: Remove: archive file [/home/abi/fetcher/tmp/manageprojects-0.9.9.tar.gz]
 [2023-08-05 23:21:28] INFO root fetch - main [MainThread]: End processing [manageprojects]: success
 [2023-08-05 23:21:28] INFO root fetch - main [MainThread]: Store serial: [19189408]
+[2023-08-05 23:26:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189408]
+[2023-08-05 23:26:37] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 23:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: arrrgs
+[2023-08-05 23:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyraws
+[2023-08-05 23:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: rethink
+[2023-08-05 23:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-separator
+[2023-08-05 23:26:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CrossPy
+[2023-08-05 23:26:37] INFO root fetch - processPackages [audio-separator]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-05 23:26:37] WARNING root fetch - processPackages [pyraws]: Skipping, unable to determine old version
+[2023-08-05 23:26:37] INFO root fetch - main [MainThread]: End processing [pyraws] error
+[2023-08-05 23:26:37] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-08-05 23:26:37] WARNING root fetch - processPackages [rethink]: Skipping, unable to determine old version
+[2023-08-05 23:26:37] INFO root fetch - main [MainThread]: End processing [rethink] error
+[2023-08-05 23:26:37] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/7d/de/3f797526bf5d25df0d089d657ce9b32a9bc94a904330e77744b170c10aeb/audio_separator-0.6.2.tar.gz
+[2023-08-05 23:26:37] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-08-05 23:26:37] INFO root fetch - processPackages [arrrgs]: New version: [3.0.1] Old Version: [3.0.0]
+[2023-08-05 23:26:37] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-08-05 23:26:38] INFO root fetch - processPackages [arrrgs]: Downloading https://files.pythonhosted.org/packages/bc/27/f4daca0ad4bf1ed3a03b771a5bcfd73f31d0d0c063fff1d95d61c1e04388/arrrgs-3.0.0.tar.gz
+[2023-08-05 23:26:38] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/28/0e/ac429494242fc5b1bfae45e67d64893c91605ce030ff09b297da6d83488c/audio_separator-0.6.3.tar.gz
+[2023-08-05 23:26:38] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-08-05 23:26:38] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230805/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-08-05 23:26:38] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-08-05 23:26:38] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.6.2.tar.gz tmp/audio_separator-0.6.3.tar.gz --markdown 20230805/a/audio-separator/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-05 23:26:38] INFO root fetch - processPackages [arrrgs]: Downloading https://files.pythonhosted.org/packages/12/16/607941643e27939d8665d4e1c52ca923659d1ab7a3770f2bfaeee07216ee/arrrgs-3.0.1.tar.gz
+[2023-08-05 23:26:38] INFO root fetch - processPackages [arrrgs]: executing diffoscope
+[2023-08-05 23:26:38] INFO root fetch - processPackages [arrrgs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/arrrgs-3.0.0.tar.gz tmp/arrrgs-3.0.1.tar.gz --markdown 20230805/a/arrrgs/3.0.0-3.0.1/diff.md --exclude *.pyd
+[2023-08-05 23:26:38] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-08-05 23:26:38] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-08-05 23:26:38] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-08-05 23:26:39] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.6.2.tar.gz]
+[2023-08-05 23:26:39] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.6.3.tar.gz]
+[2023-08-05 23:26:39] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-08-05 23:26:39] INFO root fetch - processPackages [arrrgs]: Remove: archive file [/home/abi/fetcher/tmp/arrrgs-3.0.0.tar.gz]
+[2023-08-05 23:26:39] INFO root fetch - processPackages [arrrgs]: Remove: archive file [/home/abi/fetcher/tmp/arrrgs-3.0.1.tar.gz]
+[2023-08-05 23:26:39] INFO root fetch - main [MainThread]: End processing [arrrgs]: success
+[2023-08-05 23:26:39] INFO root fetch - main [MainThread]: Store serial: [19189423]
