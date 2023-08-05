@@ -16604,3 +16604,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:13:09] INFO root fetch - processPackages [chromatinhd]: Remove: archive file [/home/abi/fetcher/tmp/chromatinhd-0.0.21.tar.gz]
 [2023-08-05 20:13:09] INFO root fetch - main [MainThread]: End processing [chromatinhd]: success
 [2023-08-05 20:13:09] INFO root fetch - main [MainThread]: Store serial: [19188331]
+[2023-08-05 20:18:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188331]
+[2023-08-05 20:18:20] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-secure-flow-log-bucket
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: irene-pro
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: levpro9999
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: TheSilent
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: MineLaunch
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: modflow-devtools
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: serpyco-rs
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: openct
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: spectrafit
+[2023-08-05 20:18:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cityseer
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [openct]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 20:18:21] WARNING root fetch - processPackages [levpro9999]: Skipping, unable to determine old version
+[2023-08-05 20:18:21] INFO root fetch - processPackages [levpro9999]: Start processing: gymnasium-connect-four
+[2023-08-05 20:18:21] INFO root fetch - main [MainThread]: End processing [levpro9999] error
+[2023-08-05 20:18:21] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/41/d1/1609d9136e2768b4a42f2595a3278ac4d8b74caf161d765430c143a23f9e/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz
+[2023-08-05 20:18:21] WARNING root fetch - processPackages [MineLaunch]: Skipping, unable to determine old version
+[2023-08-05 20:18:21] INFO root fetch - main [MainThread]: End processing [MineLaunch] error
+[2023-08-05 20:18:21] INFO root fetch - processPackages [spectrafit]: New version: [1.0.0b2] Old Version: [1.0.0b1]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [openct]: Downloading https://files.pythonhosted.org/packages/de/0e/a6525213850d195fcb8bc77afb25e80f608202dfdd0471a2a865f601eb7f/openct-0.1.5.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [modflow-devtools]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [serpyco-rs]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [cityseer]: New version: [4.0.0b3] Old Version: [4.0.0b2]
+[2023-08-05 20:18:21] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/6b/2a/41e9908ead4ca1e1d9d996de0c892d67d060119e8afe804904347a462817/spectrafit-1.0.0b1.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [modflow-devtools]: Downloading https://files.pythonhosted.org/packages/05/a4/47f585d7dff50454b3967521d935fec181b541e4821fba707610d9e1fc3e/modflow-devtools-0.3.0.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/d9/45/94ce3f85179db4fac16aa2fe9d20adf17e5539bb7cd9289d14b3e1ffb8ec/serpyco_rs-0.9.2.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [cityseer]: Downloading https://files.pythonhosted.org/packages/1b/4e/04829a4f2d63386a470487aef12158b98f76037e05bc7071a0a6dbd4f97d/cityseer-4.0.0b2.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Downloading https://files.pythonhosted.org/packages/8b/9e/1444bb150a643d143d15a3e71f4ec01b157852a6248fcde9039057364f2a/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/da/64/c03dda73c474e8aee22798596645c7035399b46492715146b7aa6881fd05/gymnasium_connect_four-1.3.0.tar.gz
+[2023-08-05 20:18:21] WARNING root fetch - processPackages [cityseer]: Skipping package: exceeds size limit 52661983>=10485760
+[2023-08-05 20:18:21] INFO root fetch - main [MainThread]: End processing [cityseer] error
+[2023-08-05 20:18:21] INFO root fetch - processPackages [openct]: Downloading https://files.pythonhosted.org/packages/bc/6a/fb80dcb5f913e933cd3034e139a9ec530367d742b912619a3a1c989ada96/openct-0.1.6.tar.gz
+[2023-08-05 20:18:21] WARNING root fetch - processPackages [gymnasium-connect-four]: Skipping package: exceeds size limit 54047745>=10485760
+[2023-08-05 20:18:21] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four] error
+[2023-08-05 20:18:21] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-05 20:18:21] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-05 20:18:21] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230805/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: executing diffoscope
+[2023-08-05 20:18:21] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz --markdown 20230805/g/gammarer.aws-secure-flow-log-bucket/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 20:18:21] INFO root fetch - processPackages [openct]: executing diffoscope
+[2023-08-05 20:18:21] INFO root fetch - processPackages [openct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openct-0.1.5.tar.gz tmp/openct-0.1.6.tar.gz --markdown 20230805/o/openct/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-05 20:18:21] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-05 20:18:21] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230805/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 20:18:21] INFO root fetch - processPackages [modflow-devtools]: Downloading https://files.pythonhosted.org/packages/20/f7/b6c715a02aa32218a381f7a8cc26316f3a03c68edc5d09b635a771636d3c/modflow-devtools-1.0.0.tar.gz
+[2023-08-05 20:18:22] INFO root fetch - processPackages [serpyco-rs]: Downloading https://files.pythonhosted.org/packages/0d/b3/c3f982b04acf7516afd38fbdc171988d718835fdd1e426e434d91d55611a/serpyco_rs-0.9.3.tar.gz
+[2023-08-05 20:18:22] INFO root fetch - processPackages [spectrafit]: Downloading https://files.pythonhosted.org/packages/b0/e6/82afb2b07e68fd939709273d2e78209c65e2ecd4f15dfd661bf36a3c9604/spectrafit-1.0.0b2.tar.gz
+[2023-08-05 20:18:22] INFO root fetch - processPackages [modflow-devtools]: executing diffoscope
+[2023-08-05 20:18:22] INFO root fetch - processPackages [modflow-devtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/modflow-devtools-0.3.0.tar.gz tmp/modflow-devtools-1.0.0.tar.gz --markdown 20230805/m/modflow-devtools/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 20:18:22] INFO root fetch - processPackages [serpyco-rs]: executing diffoscope
+[2023-08-05 20:18:22] INFO root fetch - processPackages [serpyco-rs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/serpyco_rs-0.9.2.tar.gz tmp/serpyco_rs-0.9.3.tar.gz --markdown 20230805/s/serpyco-rs/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-05 20:18:22] INFO root fetch - processPackages [spectrafit]: executing diffoscope
+[2023-08-05 20:18:22] INFO root fetch - processPackages [spectrafit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spectrafit-1.0.0b1.tar.gz tmp/spectrafit-1.0.0b2.tar.gz --markdown 20230805/s/spectrafit/1.0.0b1-1.0.0b2/diff.md --exclude *.pyd
+[2023-08-05 20:18:22] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-05 20:18:22] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-05 20:18:22] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-05 20:18:22] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.8.tar.gz]
+[2023-08-05 20:18:22] INFO root fetch - processPackages [gammarer.aws-secure-flow-log-bucket]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-flow-log-bucket-0.3.9.tar.gz]
+[2023-08-05 20:18:22] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-flow-log-bucket]: success
+[2023-08-05 20:18:22] INFO root fetch - processPackages [openct]: Remove: archive file [/home/abi/fetcher/tmp/openct-0.1.5.tar.gz]
+[2023-08-05 20:18:22] INFO root fetch - processPackages [openct]: Remove: archive file [/home/abi/fetcher/tmp/openct-0.1.6.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - main [MainThread]: End processing [openct]: success
+[2023-08-05 20:18:23] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-05 20:18:23] INFO root fetch - processPackages [modflow-devtools]: Remove: archive file [/home/abi/fetcher/tmp/modflow-devtools-0.3.0.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - processPackages [modflow-devtools]: Remove: archive file [/home/abi/fetcher/tmp/modflow-devtools-1.0.0.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - main [MainThread]: End processing [modflow-devtools]: success
+[2023-08-05 20:18:23] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b1.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - processPackages [spectrafit]: Remove: archive file [/home/abi/fetcher/tmp/spectrafit-1.0.0b2.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - main [MainThread]: End processing [spectrafit]: success
+[2023-08-05 20:18:23] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.2.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.3.tar.gz]
+[2023-08-05 20:18:23] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
+[2023-08-05 20:18:23] INFO root fetch - main [MainThread]: Store serial: [19188397]
