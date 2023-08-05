@@ -14439,3 +14439,88 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:12:46] INFO root fetch - processPackages [photobooth-app]: Remove: archive file [/home/abi/fetcher/tmp/photobooth_app-0.1.0rc9.tar.gz]
 [2023-08-05 17:12:46] INFO root fetch - main [MainThread]: End processing [photobooth-app]: success
 [2023-08-05 17:12:46] INFO root fetch - main [MainThread]: Store serial: [19187359]
+[2023-08-05 17:17:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187359]
+[2023-08-05 17:17:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rdpy3
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litestar
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pih
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: stream-unzip
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: wagtail-cjkcms
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tensorflow-text-nightly
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pih
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Sidebar-nav-custom-icons-streamlit
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: fastapi-cruddy-framework
+[2023-08-05 17:17:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sliderule
+[2023-08-05 17:17:55] INFO root fetch - processPackages [wagtail-cjkcms]: New version: [23.8.2] Old Version: [23.8.1]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [rdpy3]: New version: [1.3.8] Old Version: [1.3.7]
+[2023-08-05 17:17:55] WARNING root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Skipping, unable to determine old version
+[2023-08-05 17:17:55] INFO root fetch - main [MainThread]: End processing [Sidebar-nav-custom-icons-streamlit] error
+[2023-08-05 17:17:55] INFO root fetch - processPackages [pih]: New version: [1.48043] Old Version: [1.48042]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [pih]: New version: [1.48043] Old Version: [1.48042]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/26/39/3c3292863a390dccb0fe9eb03b3da6295b607914547a964a0406e03edb30/wagtail-cjkcms-23.8.1.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [litestar]: New version: [2.0.0rc1] Old Version: [2.0.0b4]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/5a/41/b923e192069395e99061ae4547236b287f2e166d1de043883d4c9ccb981c/rdpy3-1.3.7.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [fastapi-cruddy-framework]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [stream-unzip]: New version: [0.0.9] Old Version: [0.0.88]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [sliderule]: New version: [3.7.0] Old Version: [3.6.0]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/50/96/055ed9054aacc769150d77da95f175f08db8760c4c216bea1b203ec68f7b/pih-1.48042.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [tensorflow-text-nightly]: New version: [2.15.0.dev20230805] Old Version: [2.15.0.dev20230804]
+[2023-08-05 17:17:55] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/50/96/055ed9054aacc769150d77da95f175f08db8760c4c216bea1b203ec68f7b/pih-1.48042.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/95/56/0c1725426cbee733cb681ee2c5f5f77ceb0522961002a8f6dc6230ee2b00/litestar-2.0.0b4.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/30/92/e752af0d5bd8e4ebdfaedd3c3f9df0c32930ae359cf889bf41021cd729fc/sliderule-3.6.0.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [stream-unzip]: Downloading https://files.pythonhosted.org/packages/6d/8c/5b668610a1366ecfd154bb848f63f42e006601f63a929da52c52f2c57427/stream_unzip-0.0.88.tar.gz
+[2023-08-05 17:17:55] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/35/25/12d956cf6a12e9b80d068639448c3168dced8b09421e2bcc9d836834b0b0/fastapi_cruddy_framework-0.0.8.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/76/07/3f036812593ef630e730dda4ecf524234092a871cd6e7f04b36ba8bdf0f5/tensorflow_text_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 17:17:56] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/09/f1/fe66020d3f1860d227b7e1839b67655a34a9249bbb4e629279a9e3647af3/pih-1.48043.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [wagtail-cjkcms]: Downloading https://files.pythonhosted.org/packages/2c/e6/5f9af69b38e155fe6d085e666d46c30482c57c3d9c1d2c8b9a5f578a35e6/wagtail-cjkcms-23.8.2.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/46/ef/b550ffee2aabb1177a7135de7c75f47fa7737ca788587ae2f942e4b60e9c/rdpy3-1.3.8.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/09/f1/fe66020d3f1860d227b7e1839b67655a34a9249bbb4e629279a9e3647af3/pih-1.48043.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48042.tar.gz tmp/pih-1.48043.tar.gz --markdown 20230805/p/pih/1.48042-1.48043/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [litestar]: Downloading https://files.pythonhosted.org/packages/80/79/be63470c4975ec4d7dcfee5e8428ca238391c682995b1a4950d0ce6345ff/litestar-2.0.0rc1.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.7.tar.gz tmp/rdpy3-1.3.8.tar.gz --markdown 20230805/r/rdpy3/1.3.7-1.3.8/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48042.tar.gz tmp/pih-1.48043.tar.gz --markdown 20230805/p/pih/1.48042-1.48043/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [wagtail-cjkcms]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [wagtail-cjkcms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-cjkcms-23.8.1.tar.gz tmp/wagtail-cjkcms-23.8.2.tar.gz --markdown 20230805/w/wagtail-cjkcms/23.8.1-23.8.2/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [stream-unzip]: Downloading https://files.pythonhosted.org/packages/63/8b/f96854ff5ec2ef7fdb20cd56d8d2d7fa4aa1f29709585ead50201ed5d1f0/stream-unzip-0.0.9.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [sliderule]: Downloading https://files.pythonhosted.org/packages/79/6d/4d3da96e3a9effa3a67ae0a96f85be85b79c8109cc48d7171147f4a434ff/sliderule-3.7.0.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [fastapi-cruddy-framework]: Downloading https://files.pythonhosted.org/packages/42/cf/ab76e6d9347a6ad42b9fa537b6285bf61f469bcc21324b6fd6ca9edfba97/fastapi_cruddy_framework-0.0.9.tar.gz
+[2023-08-05 17:17:56] INFO root fetch - processPackages [litestar]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [litestar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litestar-2.0.0b4.tar.gz tmp/litestar-2.0.0rc1.tar.gz --markdown 20230805/l/litestar/2.0.0b4-2.0.0rc1/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [stream-unzip]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [stream-unzip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream_unzip-0.0.88.tar.gz tmp/stream-unzip-0.0.9.tar.gz --markdown 20230805/s/stream-unzip/0.0.88-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [sliderule]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [sliderule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sliderule-3.6.0.tar.gz tmp/sliderule-3.7.0.tar.gz --markdown 20230805/s/sliderule/3.6.0-3.7.0/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [fastapi-cruddy-framework]: executing diffoscope
+[2023-08-05 17:17:56] INFO root fetch - processPackages [fastapi-cruddy-framework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_cruddy_framework-0.0.8.tar.gz tmp/fastapi_cruddy_framework-0.0.9.tar.gz --markdown 20230805/f/fastapi-cruddy-framework/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 17:17:56] INFO root fetch - processPackages [tensorflow-text-nightly]: Downloading https://files.pythonhosted.org/packages/8d/7e/27cc87731be4b1556d33422910d78565f34a1b9db0cc7593492140eca33c/tensorflow_text_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 17:17:57] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48042.tar.gz]
+[2023-08-05 17:17:57] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48043.tar.gz]
+[2023-08-05 17:17:57] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-05 17:17:57] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-05 17:17:57] INFO root fetch - processPackages [stream-unzip]: Remove: archive file [/home/abi/fetcher/tmp/stream_unzip-0.0.88.tar.gz]
+[2023-08-05 17:17:57] INFO root fetch - processPackages [stream-unzip]: Remove: archive file [/home/abi/fetcher/tmp/stream-unzip-0.0.9.tar.gz]
+[2023-08-05 17:17:57] INFO root fetch - main [MainThread]: End processing [stream-unzip]: success
+[2023-08-05 17:17:57] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.7.tar.gz]
+[2023-08-05 17:17:57] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.8.tar.gz]
+[2023-08-05 17:17:57] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-05 17:17:58] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.8.tar.gz]
+[2023-08-05 17:17:58] INFO root fetch - processPackages [fastapi-cruddy-framework]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_cruddy_framework-0.0.9.tar.gz]
+[2023-08-05 17:17:58] INFO root fetch - main [MainThread]: End processing [fastapi-cruddy-framework]: success
+[2023-08-05 17:17:58] INFO root fetch - processPackages [tensorflow-text-nightly]: executing diffoscope
+[2023-08-05 17:17:58] INFO root fetch - processPackages [tensorflow-text-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorflow_text_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/tensorflow_text_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/t/tensorflow-text-nightly/2.15.0.dev20230804-2.15.0.dev20230805/diff.md --exclude *.pyd
+[2023-08-05 17:17:58] INFO root fetch - processPackages [sliderule]: Remove: archive file [/home/abi/fetcher/tmp/sliderule-3.6.0.tar.gz]
+[2023-08-05 17:17:58] INFO root fetch - processPackages [sliderule]: Remove: archive file [/home/abi/fetcher/tmp/sliderule-3.7.0.tar.gz]
+[2023-08-05 17:17:58] INFO root fetch - main [MainThread]: End processing [sliderule]: success
+[2023-08-05 17:17:58] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.1.tar.gz]
+[2023-08-05 17:17:58] INFO root fetch - processPackages [wagtail-cjkcms]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-cjkcms-23.8.2.tar.gz]
+[2023-08-05 17:17:58] INFO root fetch - main [MainThread]: End processing [wagtail-cjkcms]: success
+[2023-08-05 17:17:59] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 17:17:59] INFO root fetch - processPackages [tensorflow-text-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorflow_text_nightly-2.15.0.dev20230805-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 17:17:59] INFO root fetch - main [MainThread]: End processing [tensorflow-text-nightly]: success
+[2023-08-05 17:17:59] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0b4.tar.gz]
+[2023-08-05 17:17:59] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0rc1.tar.gz]
+[2023-08-05 17:17:59] INFO root fetch - main [MainThread]: End processing [litestar]: success
+[2023-08-05 17:17:59] INFO root fetch - main [MainThread]: Store serial: [19187391]
