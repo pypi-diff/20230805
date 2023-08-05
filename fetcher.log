@@ -7456,3 +7456,108 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 05:36:18] INFO root fetch - processPackages [odoo-addon-companyweb-base]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_companyweb_base-16.0.1.0.7.2-py3-none-any.whl.zip]
 [2023-08-05 05:36:18] INFO root fetch - main [MainThread]: End processing [odoo-addon-companyweb-base]: success
 [2023-08-05 05:36:18] INFO root fetch - main [MainThread]: Store serial: [19184038]
+[2023-08-05 05:41:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184038]
+[2023-08-05 05:41:26] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: python-configuration
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: enact
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-sqlite-html
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-html
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valvepcf
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-l10n-br-nfe
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: calfcv
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PigBotFramework
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: valvesmd
+[2023-08-05 05:41:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: calfcv
+[2023-08-05 05:41:26] INFO root fetch - processPackages [PigBotFramework]: New version: [4.1.9] Old Version: [4.1.8]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [valvesmd]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [valvepcf]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [datasette-sqlite-html]: New version: [0.1.2a8] Old Version: [0.1.2a7]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [sqlite-html]: New version: [0.1.2a8] Old Version: [0.1.2a7]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: New version: [14.0.9.1.1.dev1] Old Version: [14.0.9.0.1]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [calfcv]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [calfcv]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [enact]: New version: [0.4.0.dev1] Old Version: [0.4.0.dev0]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [python-configuration]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-05 05:41:26] INFO root fetch - processPackages [valvesmd]: Downloading https://files.pythonhosted.org/packages/fe/89/d66ac3eca7192b98ebcea6771a2c3579adaf501a80f8a789b41b3b35cc50/valvesmd-1.0.0.tar.gz
+[2023-08-05 05:41:26] INFO root fetch - processPackages [valvepcf]: Downloading https://files.pythonhosted.org/packages/9d/ff/9f26ecd4bf3375eb03b4112ef607e99979bf85eaf4b870abbb99835e0cc0/valvepcf-1.1.0.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [PigBotFramework]: Downloading https://files.pythonhosted.org/packages/49/ec/9fb3b77384d7d7ab87c675a8586c1c1d45a15849d6c3babc4de326eaad70/PigBotFramework-4.1.8.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/e3/8c/24116b604c6bc22ce1e4e6d458ad5f4941cc363b81eabac01fe2ae3bcd9c/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl
+[2023-08-05 05:41:27] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/2f/f2/6241e9243be74c73f9868e6d20a04a1add34e0a23ae3ad4f4aa04537cd22/datasette_sqlite_html-0.1.2a7-py3-none-any.whl
+[2023-08-05 05:41:27] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/36/9f/c718eeeca2d6cdf902641580493b1ff5baceb12d01165839da31cb3c9486/sqlite_html-0.1.2a7-py3-none-win_amd64.whl
+[2023-08-05 05:41:27] INFO root fetch - processPackages [enact]: Downloading https://files.pythonhosted.org/packages/a6/82/6455971d15395c91a667eb95d47033e380a8e559faf877dae6a7ca459cbf/enact-0.4.0.dev0.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/94/97/0cb72e0656e05c75e509c8c5240aca83afec6c70b776689d4bd1b66731ee/calfcv-0.0.7.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/94/97/0cb72e0656e05c75e509c8c5240aca83afec6c70b776689d4bd1b66731ee/calfcv-0.0.7.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [valvesmd]: Downloading https://files.pythonhosted.org/packages/f8/79/cc4e6cdd2cc94e4bb310bf00cfae2510930a34087d981df7e49989099e49/valvesmd-1.0.1.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [valvepcf]: Downloading https://files.pythonhosted.org/packages/50/84/2ef153ddd2edf30c2a739315048ef5401f9a47cb69d74c31b4f005bdf816/valvepcf-1.1.1.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [python-configuration]: Downloading https://files.pythonhosted.org/packages/22/4a/f2b5dcc4324d3950abfebff1df11cfc13d5d04ae62261e0fa06f8e324769/python-configuration-0.8.2.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [valvepcf]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [valvepcf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valvepcf-1.1.0.tar.gz tmp/valvepcf-1.1.1.tar.gz --markdown 20230805/v/valvepcf/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 05:41:27] INFO root fetch - processPackages [valvesmd]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [valvesmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valvesmd-1.0.0.tar.gz tmp/valvesmd-1.0.1.tar.gz --markdown 20230805/v/valvesmd/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-05 05:41:27] INFO root fetch - processPackages [PigBotFramework]: Downloading https://files.pythonhosted.org/packages/6d/e2/f7fce21072ffc19fed3e3321ea9f987e729929562f7e3b32bc14018a6bf8/PigBotFramework-4.1.9.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Downloading https://files.pythonhosted.org/packages/f8/ef/5b863388381c35c36cfea4e1f356dafa923aab127c4dfe81de1ea7bd0465/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl
+[2023-08-05 05:41:27] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/09/25/692f000a54f896a4ee73fe2b13160c81aab1262624513bb88ffec823a2eb/datasette_sqlite_html-0.1.2a8-py3-none-any.whl
+[2023-08-05 05:41:27] INFO root fetch - processPackages [PigBotFramework]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [PigBotFramework]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PigBotFramework-4.1.8.tar.gz tmp/PigBotFramework-4.1.9.tar.gz --markdown 20230805/P/PigBotFramework/4.1.8-4.1.9/diff.md --exclude *.pyd
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/3e/23/711cb250e4bf95a971ed99c65b906bf98cdda9d7c02183d02f00d70657e6/calfcv-0.0.8.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [enact]: Downloading https://files.pythonhosted.org/packages/3e/58/c9942c986fbd22f5091e4a47ede1147c1b7cf04761be894894f96cd56a29/enact-0.4.0.dev1.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/3e/23/711cb250e4bf95a971ed99c65b906bf98cdda9d7c02183d02f00d70657e6/calfcv-0.0.8.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [python-configuration]: Downloading https://files.pythonhosted.org/packages/87/6d/29315450c91d8705fda4faa0830d9233d5b09821a7a566db3084cca4f7ce/python_configuration-0.9.0.tar.gz
+[2023-08-05 05:41:27] INFO root fetch - processPackages [datasette-sqlite-html]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [datasette-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_html-0.1.2a7-py3-none-any.whl.zip tmp/datasette_sqlite_html-0.1.2a8-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-html/0.1.2a7-0.1.2a8/diff.md --exclude *.pyd
+[2023-08-05 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip --markdown 20230805/o/odoo14-addon-l10n-br-nfe/14.0.9.0.1-14.0.9.1.1.dev1/diff.md --exclude *.pyd
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.7.tar.gz tmp/calfcv-0.0.8.tar.gz --markdown 20230805/c/calfcv/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-05 05:41:27] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.7.tar.gz tmp/calfcv-0.0.8.tar.gz --markdown 20230805/c/calfcv/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 05:41:28] INFO root fetch - processPackages [python-configuration]: executing diffoscope
+[2023-08-05 05:41:28] INFO root fetch - processPackages [python-configuration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-configuration-0.8.2.tar.gz tmp/python_configuration-0.9.0.tar.gz --markdown 20230805/p/python-configuration/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 05:41:28] INFO root fetch - processPackages [enact]: executing diffoscope
+[2023-08-05 05:41:28] INFO root fetch - processPackages [enact]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/enact-0.4.0.dev0.tar.gz tmp/enact-0.4.0.dev1.tar.gz --markdown 20230805/e/enact/0.4.0.dev0-0.4.0.dev1/diff.md --exclude *.pyd
+[2023-08-05 05:41:28] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/9c/59/def88633dcf456b37da006762bd22151998cfaff1af7b7824b36c26e65ee/sqlite_html-0.1.2a8-py3-none-win_amd64.whl
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvesmd]: Remove: archive file [/home/abi/fetcher/tmp/valvesmd-1.0.0.tar.gz]
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvesmd]: Remove: archive file [/home/abi/fetcher/tmp/valvesmd-1.0.1.tar.gz]
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvesmd]: Start processing: opencv-python-rolling
+[2023-08-05 05:41:28] INFO root fetch - main [MainThread]: End processing [valvesmd]: success
+[2023-08-05 05:41:28] INFO root fetch - processPackages [opencv-python-rolling]: New version: [5.0.0.20221015] Old Version: [5.0.0.20221008]
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvepcf]: Remove: archive file [/home/abi/fetcher/tmp/valvepcf-1.1.0.tar.gz]
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvepcf]: Remove: archive file [/home/abi/fetcher/tmp/valvepcf-1.1.1.tar.gz]
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvepcf]: Start processing: valvevmf
+[2023-08-05 05:41:28] INFO root fetch - main [MainThread]: End processing [valvepcf]: success
+[2023-08-05 05:41:28] INFO root fetch - processPackages [valvevmf]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [valvevmf]: Downloading https://files.pythonhosted.org/packages/d0/27/a46c5e19432ac8bf5d8a2a1d1a1af147bd0a0fd872ec44235d4a9a96519b/valvevmf-0.1.0.tar.gz
+[2023-08-05 05:41:29] INFO root fetch - processPackages [opencv-python-rolling]: Downloading https://files.pythonhosted.org/packages/32/6b/7a25c64d9114c7637e2850826c668c26d8ede5a8c04b15aa282508321da4/opencv_python_rolling-5.0.0.20221008-cp37-abi3-macosx_11_0_arm64.whl
+[2023-08-05 05:41:29] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a7-py3-none-any.whl.zip]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a8-py3-none-any.whl.zip]
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-html]: success
+[2023-08-05 05:41:29] WARNING root fetch - processPackages [opencv-python-rolling]: Skipping package: exceeds size limit 32729233>=10485760
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [opencv-python-rolling] error
+[2023-08-05 05:41:29] INFO root fetch - processPackages [valvevmf]: Downloading https://files.pythonhosted.org/packages/82/81/27683a71e03768c65004aa9b6ac2c8466b8a6ea9c888aa6c55399d47ffa5/valvevmf-0.1.1.tar.gz
+[2023-08-05 05:41:29] INFO root fetch - processPackages [valvevmf]: executing diffoscope
+[2023-08-05 05:41:29] INFO root fetch - processPackages [valvevmf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valvevmf-0.1.0.tar.gz tmp/valvevmf-0.1.1.tar.gz --markdown 20230805/v/valvevmf/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 05:41:29] INFO root fetch - processPackages [PigBotFramework]: Remove: archive file [/home/abi/fetcher/tmp/PigBotFramework-4.1.8.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [PigBotFramework]: Remove: archive file [/home/abi/fetcher/tmp/PigBotFramework-4.1.9.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [PigBotFramework]: success
+[2023-08-05 05:41:29] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.7.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.8.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-05 05:41:29] INFO root fetch - processPackages [sqlite-html]: executing diffoscope
+[2023-08-05 05:41:29] INFO root fetch - processPackages [sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_html-0.1.2a7-py3-none-win_amd64.whl.zip tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip --markdown 20230805/s/sqlite-html/0.1.2a7-0.1.2a8/diff.md --exclude *.pyd
+[2023-08-05 05:41:29] INFO root fetch - processPackages [enact]: Remove: archive file [/home/abi/fetcher/tmp/enact-0.4.0.dev0.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [enact]: Remove: archive file [/home/abi/fetcher/tmp/enact-0.4.0.dev1.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [enact]: success
+[2023-08-05 05:41:29] INFO root fetch - processPackages [python-configuration]: Remove: archive file [/home/abi/fetcher/tmp/python-configuration-0.8.2.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [python-configuration]: Remove: archive file [/home/abi/fetcher/tmp/python_configuration-0.9.0.tar.gz]
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [python-configuration]: success
+[2023-08-05 05:41:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.0.1-py3-none-any.whl.zip]
+[2023-08-05 05:41:29] INFO root fetch - processPackages [odoo14-addon-l10n-br-nfe]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_l10n_br_nfe-14.0.9.1.1.dev1-py3-none-any.whl.zip]
+[2023-08-05 05:41:29] INFO root fetch - main [MainThread]: End processing [odoo14-addon-l10n-br-nfe]: success
+[2023-08-05 05:41:30] INFO root fetch - processPackages [valvevmf]: Remove: archive file [/home/abi/fetcher/tmp/valvevmf-0.1.0.tar.gz]
+[2023-08-05 05:41:30] INFO root fetch - processPackages [valvevmf]: Remove: archive file [/home/abi/fetcher/tmp/valvevmf-0.1.1.tar.gz]
+[2023-08-05 05:41:30] INFO root fetch - main [MainThread]: End processing [valvevmf]: success
+[2023-08-05 05:43:21] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a7-py3-none-win_amd64.whl.zip]
+[2023-08-05 05:43:21] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip]
+[2023-08-05 05:43:21] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
+[2023-08-05 05:43:21] INFO root fetch - main [MainThread]: Store serial: [19184077]
