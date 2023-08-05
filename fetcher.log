@@ -18614,3 +18614,61 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 23:11:06] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.5.tar.gz]
 [2023-08-05 23:11:06] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
 [2023-08-05 23:11:06] INFO root fetch - main [MainThread]: Store serial: [19189365]
+[2023-08-05 23:16:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189365]
+[2023-08-05 23:16:15] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: AnkiChinese
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: AnkiChinese
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellacdc
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: miepython
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: devtools-cli
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: AnkiChinese
+[2023-08-05 23:16:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: CrossPy
+[2023-08-05 23:16:15] INFO root fetch - processPackages [devtools-cli]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [cellacdc]: New version: [1.4.0rc1] Old Version: [1.3.0]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [AnkiChinese]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [AnkiChinese]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [AnkiChinese]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [miepython]: New version: [2.5.1] Old Version: [2.5.0]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [CrossPy]: New version: [0.0.0a3.dev9] Old Version: [0.0.0a3.dev8]
+[2023-08-05 23:16:15] INFO root fetch - processPackages [devtools-cli]: Downloading https://files.pythonhosted.org/packages/a4/bf/1f99359091642c0127591625317382b33c015d9a72af03adf77a311c5954/devtools_cli-0.1.0.tar.gz
+[2023-08-05 23:16:15] INFO root fetch - processPackages [cellacdc]: Downloading https://files.pythonhosted.org/packages/bb/f4/31f0fac3ef7707b2506227ddcf93f765f86d0001cacb5e4d644e2003f279/cellacdc-1.3.0.tar.gz
+[2023-08-05 23:16:15] INFO root fetch - processPackages [AnkiChinese]: Downloading https://files.pythonhosted.org/packages/82/a6/22d93b0274349c57c5dee588625a5926e61892b8b66220ab019076cc066d/AnkiChinese-1.0.0-py3-none-any.whl
+[2023-08-05 23:16:15] INFO root fetch - processPackages [AnkiChinese]: Downloading https://files.pythonhosted.org/packages/82/a6/22d93b0274349c57c5dee588625a5926e61892b8b66220ab019076cc066d/AnkiChinese-1.0.0-py3-none-any.whl
+[2023-08-05 23:16:15] INFO root fetch - processPackages [AnkiChinese]: Downloading https://files.pythonhosted.org/packages/82/a6/22d93b0274349c57c5dee588625a5926e61892b8b66220ab019076cc066d/AnkiChinese-1.0.0-py3-none-any.whl
+[2023-08-05 23:16:15] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/ec/b8/e5ab99de223845d8d356f63f407518017a5afb79c4313f7c29026f449ba8/CrossPy-0.0.0a3.dev8.tar.gz
+[2023-08-05 23:16:15] INFO root fetch - processPackages [miepython]: Downloading https://files.pythonhosted.org/packages/52/7e/5ff36e3f470d7b73b5ad2ca6b762fcd42f6b771eb965b3bb96af14c27663/miepython-2.5.0.tar.gz
+[2023-08-05 23:16:15] WARNING root fetch - processPackages [cellacdc]: Skipping package: exceeds size limit 53103585>=10485760
+[2023-08-05 23:16:15] INFO root fetch - main [MainThread]: End processing [cellacdc] error
+[2023-08-05 23:16:16] INFO root fetch - processPackages [devtools-cli]: Downloading https://files.pythonhosted.org/packages/14/e8/5b5ceae2b4e1214afd3ac285ec302674b90a22957aae9fcbecf4b9d39369/devtools_cli-0.1.1.tar.gz
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: Downloading https://files.pythonhosted.org/packages/4e/55/2a5c40360b88fd54a01fa31e6349dbdb0b5c995ffaaa72245fc535cfd254/AnkiChinese-1.1.0.tar.gz
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: Downloading https://files.pythonhosted.org/packages/4e/55/2a5c40360b88fd54a01fa31e6349dbdb0b5c995ffaaa72245fc535cfd254/AnkiChinese-1.1.0.tar.gz
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: Downloading https://files.pythonhosted.org/packages/4e/55/2a5c40360b88fd54a01fa31e6349dbdb0b5c995ffaaa72245fc535cfd254/AnkiChinese-1.1.0.tar.gz
+[2023-08-05 23:16:16] INFO root fetch - processPackages [devtools-cli]: executing diffoscope
+[2023-08-05 23:16:16] INFO root fetch - processPackages [devtools-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/devtools_cli-0.1.0.tar.gz tmp/devtools_cli-0.1.1.tar.gz --markdown 20230805/d/devtools-cli/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: executing diffoscope
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnkiChinese-1.0.0-py3-none-any.whl.zip tmp/AnkiChinese-1.1.0.tar.gz --markdown 20230805/A/AnkiChinese/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: executing diffoscope
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnkiChinese-1.0.0-py3-none-any.whl.zip tmp/AnkiChinese-1.1.0.tar.gz --markdown 20230805/A/AnkiChinese/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 23:16:16] INFO root fetch - processPackages [CrossPy]: Downloading https://files.pythonhosted.org/packages/42/3c/bb73b16a9d09ec4ec2e611a065b0b1308508085441750f46083f95b884c7/CrossPy-0.0.0a3.dev9.tar.gz
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: executing diffoscope
+[2023-08-05 23:16:16] INFO root fetch - processPackages [AnkiChinese]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AnkiChinese-1.0.0-py3-none-any.whl.zip tmp/AnkiChinese-1.1.0.tar.gz --markdown 20230805/A/AnkiChinese/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 23:16:16] INFO root fetch - processPackages [miepython]: Downloading https://files.pythonhosted.org/packages/29/ae/532aaccd8c12247cb56310d60ec5ee803ad756cbd58317d1dd0410088b1d/miepython-2.5.1.tar.gz
+[2023-08-05 23:16:16] INFO root fetch - processPackages [CrossPy]: executing diffoscope
+[2023-08-05 23:16:16] INFO root fetch - processPackages [CrossPy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CrossPy-0.0.0a3.dev8.tar.gz tmp/CrossPy-0.0.0a3.dev9.tar.gz --markdown 20230805/C/CrossPy/0.0.0a3.dev8-0.0.0a3.dev9/diff.md --exclude *.pyd
+[2023-08-05 23:16:16] INFO root fetch - processPackages [miepython]: executing diffoscope
+[2023-08-05 23:16:16] INFO root fetch - processPackages [miepython]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miepython-2.5.0.tar.gz tmp/miepython-2.5.1.tar.gz --markdown 20230805/m/miepython/2.5.0-2.5.1/diff.md --exclude *.pyd
+[2023-08-05 23:16:17] INFO root fetch - processPackages [AnkiChinese]: Remove: archive file [/home/abi/fetcher/tmp/AnkiChinese-1.0.0-py3-none-any.whl.zip]
+[2023-08-05 23:16:17] INFO root fetch - processPackages [AnkiChinese]: Remove: archive file [/home/abi/fetcher/tmp/AnkiChinese-1.1.0.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: End processing [AnkiChinese]: success
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: End processing [AnkiChinese]: success
+[2023-08-05 23:16:17] INFO root fetch - processPackages [devtools-cli]: Remove: archive file [/home/abi/fetcher/tmp/devtools_cli-0.1.0.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - processPackages [devtools-cli]: Remove: archive file [/home/abi/fetcher/tmp/devtools_cli-0.1.1.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: End processing [devtools-cli]: success
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: End processing [AnkiChinese]: success
+[2023-08-05 23:16:17] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev8.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - processPackages [CrossPy]: Remove: archive file [/home/abi/fetcher/tmp/CrossPy-0.0.0a3.dev9.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: End processing [CrossPy]: success
+[2023-08-05 23:16:17] INFO root fetch - processPackages [miepython]: Remove: archive file [/home/abi/fetcher/tmp/miepython-2.5.0.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - processPackages [miepython]: Remove: archive file [/home/abi/fetcher/tmp/miepython-2.5.1.tar.gz]
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: End processing [miepython]: success
+[2023-08-05 23:16:17] INFO root fetch - main [MainThread]: Store serial: [19189388]
