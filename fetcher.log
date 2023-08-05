@@ -7937,3 +7937,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:22:00] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-23.8.1.tar.gz]
 [2023-08-05 06:22:00] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
 [2023-08-05 06:22:00] INFO root fetch - main [MainThread]: Store serial: [19184233]
+[2023-08-05 06:27:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184233]
+[2023-08-05 06:27:09] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: moderne-visualizations-misc
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-partner-firstname
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pmdsky-debug-py
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: odoo14-addon-pms
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: making-with-code-cli
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: quickstart-vdk
+[2023-08-05 06:27:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: libnacl
+[2023-08-05 06:27:09] INFO root fetch - processPackages [libnacl]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [moderne-visualizations-misc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [quickstart-vdk]: New version: [0.2.955500861.dev12666] Old Version: [0.2.954571638.dev12638]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.4.0] Old Version: [0.3.9.9]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [pmdsky-debug-py]: New version: [7.0.8] Old Version: [7.0.7]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: New version: [14.0.1.1.1.dev6] Old Version: [14.0.1.1.1.dev5]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [odoo14-addon-pms]: New version: [14.0.2.9.0] Old Version: [14.0.2.8.0]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [making-with-code-cli]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-05 06:27:09] INFO root fetch - processPackages [libnacl]: Downloading https://files.pythonhosted.org/packages/db/ab/1111466244a682121a86cf5360fb7c804e6c21edaf0b439bfd898f4a11fe/libnacl-1.8.0.tar.gz
+[2023-08-05 06:27:09] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/bc/6f/4263bca1d812e7dae4451ff2f027cb3ffafec635a4e9b2627f8d6650cbd6/moderne_visualizations_misc-0.1.8.tar.gz
+[2023-08-05 06:27:09] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/05/4f/072cd2b19cc2dd14933bbea9bd91d38bdc0d4002e9c037f20f04e11c730c/quickstart-vdk-0.2.954571638.dev12638.tar.gz
+[2023-08-05 06:27:09] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/14/21/d07f1d6b02be11575882d336bf8cc34be59c31c8477fe22a44c1dd33c41e/pmdsky_debug_py-7.0.7-py3-none-any.whl
+[2023-08-05 06:27:09] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/b3/57/1e50ef0ef46712b5883753b8d6e59894045ab477285bb8640dc09791840d/nonebot_plugin_stable_diffusion_diao-0.3.9.9.tar.gz
+[2023-08-05 06:27:09] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/82/1b/4365dd580c9d319c799f62af58e7f4f33186c0ab9046d7792c2dc15967a7/odoo14_addon_partner_firstname-14.0.1.1.1.dev5-py3-none-any.whl
+[2023-08-05 06:27:10] INFO root fetch - processPackages [making-with-code-cli]: Downloading https://files.pythonhosted.org/packages/c3/9b/a7e7a048ac4af51a7e5e53e1723844d8b977d58b1318582e788a97397717/making_with_code_cli-1.2.8.tar.gz
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/35/dd/9ca9ec4be1214b080d690d035081114d6c68515ac18307d8cb5edc8c7664/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl
+[2023-08-05 06:27:10] INFO root fetch - processPackages [quickstart-vdk]: Downloading https://files.pythonhosted.org/packages/91/ff/1960ed709dd9432ccfa1d5c93f00ceea9347bdd5eaf605aa4dd171f60c4f/quickstart-vdk-0.2.955500861.dev12666.tar.gz
+[2023-08-05 06:27:10] INFO root fetch - processPackages [libnacl]: Downloading https://files.pythonhosted.org/packages/d0/d4/9150c2fefe34a8187a2655a0f00bb9c7a59c3d982d933b072e286ae611a9/libnacl-1.9.0.tar.gz
+[2023-08-05 06:27:10] INFO root fetch - processPackages [moderne-visualizations-misc]: Downloading https://files.pythonhosted.org/packages/34/32/528a5e18cb25868dcad90492d4d0ddd89399aa872c92d27599e98db2e52d/moderne_visualizations_misc-0.1.9.tar.gz
+[2023-08-05 06:27:10] INFO root fetch - processPackages [libnacl]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [libnacl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/libnacl-1.8.0.tar.gz tmp/libnacl-1.9.0.tar.gz --markdown 20230805/l/libnacl/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [quickstart-vdk]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [quickstart-vdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickstart-vdk-0.2.954571638.dev12638.tar.gz tmp/quickstart-vdk-0.2.955500861.dev12666.tar.gz --markdown 20230805/q/quickstart-vdk/0.2.954571638.dev12638-0.2.955500861.dev12666/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [moderne-visualizations-misc]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [moderne-visualizations-misc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moderne_visualizations_misc-0.1.8.tar.gz tmp/moderne_visualizations_misc-0.1.9.tar.gz --markdown 20230805/m/moderne-visualizations-misc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/a1/be/7f6756796c994d2da3c5c6b23462ecd645bf28be3d6c6f07b598f31e2368/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz
+[2023-08-05 06:27:10] INFO root fetch - processPackages [making-with-code-cli]: Downloading https://files.pythonhosted.org/packages/7a/5d/fa750a4ca16c7c429580fdfd472d8a679f42912988a8f714daa1493226e4/making_with_code_cli-1.2.9.tar.gz
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Downloading https://files.pythonhosted.org/packages/a1/c1/338cb19e486bc00849d7a3820edc06016d508ff2a0e177abecce9a14a2f7/odoo14_addon_partner_firstname-14.0.1.1.1.dev6-py3-none-any.whl
+[2023-08-05 06:27:10] INFO root fetch - processPackages [pmdsky-debug-py]: Downloading https://files.pythonhosted.org/packages/57/e5/d022e8743e77dedad2d9245fa290c75080cdd27cbf8944cf672488a06923/pmdsky_debug_py-7.0.8-py3-none-any.whl
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-pms]: Downloading https://files.pythonhosted.org/packages/6b/d2/872d4271026f02e164cdf6773633ee7c39723165f305fdf11e37a2224677/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl
+[2023-08-05 06:27:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.9.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz --markdown 20230805/n/nonebot-plugin-stable-diffusion-diao/0.3.9.9-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev5-py3-none-any.whl.zip tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev6-py3-none-any.whl.zip --markdown 20230805/o/odoo14-addon-partner-firstname/14.0.1.1.1.dev5-14.0.1.1.1.dev6/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [making-with-code-cli]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [making-with-code-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/making_with_code_cli-1.2.8.tar.gz tmp/making_with_code_cli-1.2.9.tar.gz --markdown 20230805/m/making-with-code-cli/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [pmdsky-debug-py]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [pmdsky-debug-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pmdsky_debug_py-7.0.7-py3-none-any.whl.zip tmp/pmdsky_debug_py-7.0.8-py3-none-any.whl.zip --markdown 20230805/p/pmdsky-debug-py/7.0.7-7.0.8/diff.md --exclude *.pyd
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-pms]: executing diffoscope
+[2023-08-05 06:27:10] INFO root fetch - processPackages [odoo14-addon-pms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip --markdown 20230805/o/odoo14-addon-pms/14.0.2.8.0-14.0.2.9.0/diff.md --exclude *.pyd
+[2023-08-05 06:27:11] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.954571638.dev12638.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - processPackages [quickstart-vdk]: Remove: archive file [/home/abi/fetcher/tmp/quickstart-vdk-0.2.955500861.dev12666.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - main [MainThread]: End processing [quickstart-vdk]: success
+[2023-08-05 06:27:11] INFO root fetch - processPackages [libnacl]: Remove: archive file [/home/abi/fetcher/tmp/libnacl-1.8.0.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - processPackages [libnacl]: Remove: archive file [/home/abi/fetcher/tmp/libnacl-1.9.0.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - main [MainThread]: End processing [libnacl]: success
+[2023-08-05 06:27:11] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.8.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - processPackages [moderne-visualizations-misc]: Remove: archive file [/home/abi/fetcher/tmp/moderne_visualizations_misc-0.1.9.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - main [MainThread]: End processing [moderne-visualizations-misc]: success
+[2023-08-05 06:27:11] INFO root fetch - processPackages [making-with-code-cli]: Remove: archive file [/home/abi/fetcher/tmp/making_with_code_cli-1.2.8.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - processPackages [making-with-code-cli]: Remove: archive file [/home/abi/fetcher/tmp/making_with_code_cli-1.2.9.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - main [MainThread]: End processing [making-with-code-cli]: success
+[2023-08-05 06:27:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.9.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz]
+[2023-08-05 06:27:11] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-05 06:27:12] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev5-py3-none-any.whl.zip]
+[2023-08-05 06:27:12] INFO root fetch - processPackages [odoo14-addon-partner-firstname]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_partner_firstname-14.0.1.1.1.dev6-py3-none-any.whl.zip]
+[2023-08-05 06:27:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-partner-firstname]: success
+[2023-08-05 06:27:12] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.8.0-py3-none-any.whl.zip]
+[2023-08-05 06:27:12] INFO root fetch - processPackages [odoo14-addon-pms]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_pms-14.0.2.9.0-py3-none-any.whl.zip]
+[2023-08-05 06:27:12] INFO root fetch - main [MainThread]: End processing [odoo14-addon-pms]: success
+[2023-08-05 06:27:12] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.7-py3-none-any.whl.zip]
+[2023-08-05 06:27:12] INFO root fetch - processPackages [pmdsky-debug-py]: Remove: archive file [/home/abi/fetcher/tmp/pmdsky_debug_py-7.0.8-py3-none-any.whl.zip]
+[2023-08-05 06:27:12] INFO root fetch - main [MainThread]: End processing [pmdsky-debug-py]: success
+[2023-08-05 06:27:12] INFO root fetch - main [MainThread]: Store serial: [19184253]
