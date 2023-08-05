@@ -2112,3 +2112,64 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 02:30:27] INFO root fetch - processPackages [py7zr]: Remove: archive file [/home/abi/fetcher/tmp/py7zr-0.9.9.tar.gz]
 [2023-08-05 02:30:27] INFO root fetch - main [MainThread]: End processing [py7zr]: success
 [2023-08-05 02:30:27] INFO root fetch - main [MainThread]: Store serial: [19182064]
+[2023-08-05 02:35:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19182064]
+[2023-08-05 02:35:36] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-github-actions
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cartup-dag
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bigstream
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OpenGeode-core
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aeppl-nightly
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: satcfdi
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tfds-nightly
+[2023-08-05 02:35:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: suggestscraper
+[2023-08-05 02:35:36] INFO root fetch - processPackages [aeppl-nightly]: New version: [0.1.5.dev20230804] Old Version: [0.1.5.dev20230803]
+[2023-08-05 02:35:36] INFO root fetch - processPackages [tfds-nightly]: New version: [4.9.2.dev202308040033] Old Version: [4.9.2.dev202308030032]
+[2023-08-05 02:35:36] INFO root fetch - processPackages [cdktf-github-actions]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 02:35:36] WARNING root fetch - processPackages [suggestscraper]: Skipping, unable to determine old version
+[2023-08-05 02:35:36] INFO root fetch - main [MainThread]: End processing [suggestscraper] error
+[2023-08-05 02:35:36] INFO root fetch - processPackages [OpenGeode-core]: New version: [9.10.4] Old Version: [14.4.6rc4]
+[2023-08-05 02:35:36] INFO root fetch - processPackages [cartup-dag]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-05 02:35:36] INFO root fetch - processPackages [bigstream]: New version: [1.2.1] Old Version: [1.1.6]
+[2023-08-05 02:35:36] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/07/58/fd956de115e00f327e93ad8957b6bb967e67537256fcee54171d65d2a849/cdktf-github-actions-0.0.98.tar.gz
+[2023-08-05 02:35:36] INFO root fetch - processPackages [satcfdi]: New version: [4.1.3] Old Version: [4.1.2]
+[2023-08-05 02:35:36] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/0f/16/21ef724e05eacd63c84f60983de9a0a02aed662af1bf805e002ec62c0ceb/aeppl-nightly-0.1.5.dev20230803.tar.gz
+[2023-08-05 02:35:36] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/80/32/194fb1502ca9cc1597486c2c369e84a4e74a74329dbb3f9683a5d25f2220/tfds-nightly-4.9.2.dev202308030032.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [OpenGeode-core]: Downloading https://files.pythonhosted.org/packages/e1/35/660f4b09f4e3be14a344f5209fc4a9294d4c4541c0fc5f4b8994c63fff65/OpenGeode_core-14.4.6rc4-cp39-cp39-win_amd64.whl
+[2023-08-05 02:35:37] INFO root fetch - processPackages [bigstream]: Downloading https://files.pythonhosted.org/packages/7f/b7/6baab87e428e55714754c15a572e8ba8d7007f2ad6cd39bce497a17efcaf/bigstream-1.1.6.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cartup-dag]: Downloading https://files.pythonhosted.org/packages/b7/0d/48b6547e98558df2edc04105a9eb0cf1052f6dbeff95308ccb23254e4520/cartup_dag-1.0.3.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/1d/f8/241dbb5f8c29c9054a14bc5c90c43ef6ce54095ac10ef43c71c19e68509e/satcfdi-4.1.2.tar.gz
+[2023-08-05 02:35:37] WARNING root fetch - processPackages [OpenGeode-core]: Skipping package: exceeds size limit 17593494>=10485760
+[2023-08-05 02:35:37] INFO root fetch - main [MainThread]: End processing [OpenGeode-core] error
+[2023-08-05 02:35:37] INFO root fetch - processPackages [aeppl-nightly]: Downloading https://files.pythonhosted.org/packages/fe/07/54c429583f5799ac664c805182f13e5e3aeaa64561af691c0efac9f56a14/aeppl-nightly-0.1.5.dev20230804.tar.gz
+[2023-08-05 02:35:37] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10614951>=10485760
+[2023-08-05 02:35:37] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cdktf-github-actions]: Downloading https://files.pythonhosted.org/packages/56/78/477ea020d063f38bdacf3f5681517318875ce9cbff389019b4934f6c8cf1/cdktf-github-actions-0.0.99.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [aeppl-nightly]: executing diffoscope
+[2023-08-05 02:35:37] INFO root fetch - processPackages [aeppl-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aeppl-nightly-0.1.5.dev20230803.tar.gz tmp/aeppl-nightly-0.1.5.dev20230804.tar.gz --markdown 20230805/a/aeppl-nightly/0.1.5.dev20230803-0.1.5.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 02:35:37] INFO root fetch - processPackages [tfds-nightly]: Downloading https://files.pythonhosted.org/packages/6c/89/10060ae41ba736eb0e7cb747b7904af82bf528fa658c7321c962f799272a/tfds-nightly-4.9.2.dev202308040033.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cdktf-github-actions]: executing diffoscope
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cdktf-github-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-github-actions-0.0.98.tar.gz tmp/cdktf-github-actions-0.0.99.tar.gz --markdown 20230805/c/cdktf-github-actions/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cartup-dag]: Downloading https://files.pythonhosted.org/packages/e1/60/7768a311b793126b637f0ddd76027bf7f79898bedcb94b26040086a195d2/cartup_dag-1.0.4.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [bigstream]: Downloading https://files.pythonhosted.org/packages/53/40/0fc7ecbec373498c7383b0cf60f5e76f8a3f70584105114a4239503525a9/bigstream-1.2.1.tar.gz
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cartup-dag]: executing diffoscope
+[2023-08-05 02:35:37] INFO root fetch - processPackages [cartup-dag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cartup_dag-1.0.3.tar.gz tmp/cartup_dag-1.0.4.tar.gz --markdown 20230805/c/cartup-dag/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-05 02:35:37] INFO root fetch - processPackages [bigstream]: executing diffoscope
+[2023-08-05 02:35:37] INFO root fetch - processPackages [bigstream]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigstream-1.1.6.tar.gz tmp/bigstream-1.2.1.tar.gz --markdown 20230805/b/bigstream/1.1.6-1.2.1/diff.md --exclude *.pyd
+[2023-08-05 02:35:37] INFO root fetch - processPackages [tfds-nightly]: executing diffoscope
+[2023-08-05 02:35:37] INFO root fetch - processPackages [tfds-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tfds-nightly-4.9.2.dev202308030032.tar.gz tmp/tfds-nightly-4.9.2.dev202308040033.tar.gz --markdown 20230805/t/tfds-nightly/4.9.2.dev202308030032-4.9.2.dev202308040033/diff.md --exclude *.pyd
+[2023-08-05 02:35:38] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.98.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - processPackages [cdktf-github-actions]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-github-actions-0.0.99.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - main [MainThread]: End processing [cdktf-github-actions]: success
+[2023-08-05 02:35:38] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230803.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - processPackages [aeppl-nightly]: Remove: archive file [/home/abi/fetcher/tmp/aeppl-nightly-0.1.5.dev20230804.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - main [MainThread]: End processing [aeppl-nightly]: success
+[2023-08-05 02:35:38] INFO root fetch - processPackages [cartup-dag]: Remove: archive file [/home/abi/fetcher/tmp/cartup_dag-1.0.3.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - processPackages [cartup-dag]: Remove: archive file [/home/abi/fetcher/tmp/cartup_dag-1.0.4.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - main [MainThread]: End processing [cartup-dag]: success
+[2023-08-05 02:35:38] INFO root fetch - processPackages [bigstream]: Remove: archive file [/home/abi/fetcher/tmp/bigstream-1.1.6.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - processPackages [bigstream]: Remove: archive file [/home/abi/fetcher/tmp/bigstream-1.2.1.tar.gz]
+[2023-08-05 02:35:38] INFO root fetch - main [MainThread]: End processing [bigstream]: success
+[2023-08-05 02:35:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202308030032.tar.gz]
+[2023-08-05 02:35:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202308040033.tar.gz]
+[2023-08-05 02:35:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
+[2023-08-05 02:35:43] INFO root fetch - main [MainThread]: Store serial: [19182102]
