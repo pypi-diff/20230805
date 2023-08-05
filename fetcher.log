@@ -16159,3 +16159,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:36:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-08-05 19:36:31] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-08-05 19:36:31] INFO root fetch - main [MainThread]: Store serial: [19188155]
+[2023-08-05 19:41:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188155]
+[2023-08-05 19:41:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: magicsoup
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: envpos
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datapipe-core
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pibble
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logger-local
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: celltypist
+[2023-08-05 19:41:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-08-05 19:41:40] INFO root fetch - processPackages [pibble]: New version: [0.6.7] Old Version: [0.6.6]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [celltypist]: New version: [1.5.3] Old Version: [1.5.2]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [datapipe-core]: New version: [0.13.0b2] Old Version: [0.13.0b1]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [envpos]: New version: [0.81] Old Version: [0.8]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/7d/47/767d1281dd23c51f2c17b974f1943d18110361f90e45a116dc34a92c0cd1/pibble-0.6.6.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [magicsoup]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 19:41:40] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [celltypist]: Downloading https://files.pythonhosted.org/packages/6b/62/71cd2f1f8b56c3ac656e27b249bce979ab1258390a4df1aec49bf08ac88d/celltypist-1.5.2.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/4b/64/69caa33a15f09b90e269e16ce19300789975b164c494fb7cc3cb777c7dfa/magicsoup-0.4.5.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [envpos]: Downloading https://files.pythonhosted.org/packages/d7/6f/c7c29d5e8ac3239c9c61480d526be9e164d1149f9dd8fad28ed2ca274689/envpos-0.8-py3-none-any.whl
+[2023-08-05 19:41:40] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/73/0f/64b6bc95ddcf5762510132015d13e406b5bac1f4323074410461495dd001/datapipe_core-0.13.0b1.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-05 19:41:40] INFO root fetch - processPackages [pibble]: Downloading https://files.pythonhosted.org/packages/10/dd/db1662bb4498460a62f15f3cec426e320c8e021f4d50d0d67fd85da3105e/pibble-0.6.7.tar.gz
+[2023-08-05 19:41:41] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-05 19:41:41] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230805/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 19:41:41] WARNING root fetch - processPackages [envpos]: Skipping package: exceeds size limit 21521199>=10485760
+[2023-08-05 19:41:41] INFO root fetch - main [MainThread]: End processing [envpos] error
+[2023-08-05 19:41:41] INFO root fetch - processPackages [pibble]: executing diffoscope
+[2023-08-05 19:41:41] INFO root fetch - processPackages [pibble]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pibble-0.6.6.tar.gz tmp/pibble-0.6.7.tar.gz --markdown 20230805/p/pibble/0.6.6-0.6.7/diff.md --exclude *.pyd
+[2023-08-05 19:41:41] INFO root fetch - processPackages [magicsoup]: Downloading https://files.pythonhosted.org/packages/76/be/ff7afd0f117e5de199ce6a9db4867c18b65d6357fc018a88c67ab9fc9777/magicsoup-0.4.6.tar.gz
+[2023-08-05 19:41:41] INFO root fetch - processPackages [datapipe-core]: Downloading https://files.pythonhosted.org/packages/a5/77/dca01e7a0744b65c751cc369104aaa1b89d0c45520dfee471f1e9eefc884/datapipe_core-0.13.0b2.tar.gz
+[2023-08-05 19:41:41] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-08-05 19:41:41] INFO root fetch - processPackages [datapipe-core]: executing diffoscope
+[2023-08-05 19:41:41] INFO root fetch - processPackages [datapipe-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datapipe_core-0.13.0b1.tar.gz tmp/datapipe_core-0.13.0b2.tar.gz --markdown 20230805/d/datapipe-core/0.13.0b1-0.13.0b2/diff.md --exclude *.pyd
+[2023-08-05 19:41:41] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-08-05 19:41:41] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230805/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 19:41:41] INFO root fetch - processPackages [magicsoup]: executing diffoscope
+[2023-08-05 19:41:41] INFO root fetch - processPackages [magicsoup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magicsoup-0.4.5.tar.gz tmp/magicsoup-0.4.6.tar.gz --markdown 20230805/m/magicsoup/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-05 19:41:42] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-05 19:41:42] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-08-05 19:41:42] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0b1.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - processPackages [datapipe-core]: Remove: archive file [/home/abi/fetcher/tmp/datapipe_core-0.13.0b2.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - main [MainThread]: End processing [datapipe-core]: success
+[2023-08-05 19:41:42] INFO root fetch - processPackages [celltypist]: Downloading https://files.pythonhosted.org/packages/32/1b/4abd8e9ff3e35b97527448c55674353a51f990330b774ae231b59bdbc68d/celltypist-1.5.3.tar.gz
+[2023-08-05 19:41:42] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.6.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.7.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - main [MainThread]: End processing [pibble]: success
+[2023-08-05 19:41:42] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.5.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - processPackages [magicsoup]: Remove: archive file [/home/abi/fetcher/tmp/magicsoup-0.4.6.tar.gz]
+[2023-08-05 19:41:42] INFO root fetch - main [MainThread]: End processing [magicsoup]: success
+[2023-08-05 19:41:43] INFO root fetch - processPackages [celltypist]: executing diffoscope
+[2023-08-05 19:41:43] INFO root fetch - processPackages [celltypist]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/celltypist-1.5.2.tar.gz tmp/celltypist-1.5.3.tar.gz --markdown 20230805/c/celltypist/1.5.2-1.5.3/diff.md --exclude *.pyd
+[2023-08-05 19:41:48] INFO root fetch - processPackages [celltypist]: Remove: archive file [/home/abi/fetcher/tmp/celltypist-1.5.2.tar.gz]
+[2023-08-05 19:41:48] INFO root fetch - processPackages [celltypist]: Remove: archive file [/home/abi/fetcher/tmp/celltypist-1.5.3.tar.gz]
+[2023-08-05 19:41:48] INFO root fetch - main [MainThread]: End processing [celltypist]: success
+[2023-08-05 19:41:48] INFO root fetch - main [MainThread]: Store serial: [19188174]
