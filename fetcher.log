@@ -12568,3 +12568,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
 [2023-08-05 14:46:14] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
 [2023-08-05 14:46:14] INFO root fetch - main [MainThread]: Store serial: [19186476]
+[2023-08-05 14:51:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186476]
+[2023-08-05 14:51:22] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 14:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lazrs
+[2023-08-05 14:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: manticore
+[2023-08-05 14:51:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kufar
+[2023-08-05 14:51:22] INFO root fetch - processPackages [manticore]: New version: [0.3.8.dev230804] Old Version: [0.3.8.dev230803]
+[2023-08-05 14:51:22] WARNING root fetch - processPackages [kufar]: Skipping, unable to determine old version
+[2023-08-05 14:51:22] INFO root fetch - main [MainThread]: End processing [kufar] error
+[2023-08-05 14:51:22] INFO root fetch - processPackages [lazrs]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-05 14:51:22] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/a5/6c/d16bb4f6de47a902c11be1557e858d4981b146557d6d19b0f583190b805e/manticore-0.3.8.dev230803.tar.gz
+[2023-08-05 14:51:23] INFO root fetch - processPackages [lazrs]: Downloading https://files.pythonhosted.org/packages/82/a2/ede57dbda64630a2936b617591b58ff51866f3cc5c01e8b9d1a43af12b4d/lazrs-0.5.1.tar.gz
+[2023-08-05 14:51:23] INFO root fetch - processPackages [manticore]: Downloading https://files.pythonhosted.org/packages/dd/73/d4c3d6441968eb4a0a55281fd0ba2b80377d23f7753032636286339ded6f/manticore-0.3.8.dev230804.tar.gz
+[2023-08-05 14:51:23] INFO root fetch - processPackages [manticore]: executing diffoscope
+[2023-08-05 14:51:23] INFO root fetch - processPackages [manticore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/manticore-0.3.8.dev230803.tar.gz tmp/manticore-0.3.8.dev230804.tar.gz --markdown 20230805/m/manticore/0.3.8.dev230803-0.3.8.dev230804/diff.md --exclude *.pyd
+[2023-08-05 14:51:23] INFO root fetch - processPackages [lazrs]: Downloading https://files.pythonhosted.org/packages/7a/3d/05edb394501b516efcab6cf2de57dcae4ea87ef943b40b373bee83ba12a4/lazrs-0.5.2.tar.gz
+[2023-08-05 14:51:23] INFO root fetch - processPackages [lazrs]: executing diffoscope
+[2023-08-05 14:51:23] INFO root fetch - processPackages [lazrs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lazrs-0.5.1.tar.gz tmp/lazrs-0.5.2.tar.gz --markdown 20230805/l/lazrs/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-05 14:51:24] INFO root fetch - processPackages [lazrs]: Remove: archive file [/home/abi/fetcher/tmp/lazrs-0.5.1.tar.gz]
+[2023-08-05 14:51:24] INFO root fetch - processPackages [lazrs]: Remove: archive file [/home/abi/fetcher/tmp/lazrs-0.5.2.tar.gz]
+[2023-08-05 14:51:24] INFO root fetch - main [MainThread]: End processing [lazrs]: success
+[2023-08-05 14:51:24] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230803.tar.gz]
+[2023-08-05 14:51:24] INFO root fetch - processPackages [manticore]: Remove: archive file [/home/abi/fetcher/tmp/manticore-0.3.8.dev230804.tar.gz]
+[2023-08-05 14:51:24] INFO root fetch - main [MainThread]: End processing [manticore]: success
+[2023-08-05 14:51:24] INFO root fetch - main [MainThread]: Store serial: [19186515]
