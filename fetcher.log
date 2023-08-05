@@ -6000,3 +6000,167 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 03:34:11] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip]
 [2023-08-05 03:34:11] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-08-05 03:34:11] INFO root fetch - main [MainThread]: Store serial: [19183442]
+[2023-08-05 03:39:34] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183442]
+[2023-08-05 03:39:39] INFO root fetch - main [MainThread]: Found 19 changed packages
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: neurondm
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-stdlib
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: neon-phal-plugin-device-updater
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysndlib
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-numpy
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: qontract-reconcile
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: kedro-prefect-oliver
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: mosec
+[2023-08-05 03:39:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: nbdev-pytorch
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [kedro-prefect-oliver]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [neurondm]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: New version: [0.0.1a5] Old Version: [0.0.1a4]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [pysndlib]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [qontract-reconcile]: New version: [0.9.1rc99] Old Version: [0.9.1rc98]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [mosec]: New version: [0.8.0] Old Version: [0.7.2]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [kedro-prefect-oliver]: Downloading https://files.pythonhosted.org/packages/ed/ba/661831133afe40b76f41ee83cdd7707d3cec7dada14f9e19a5f80bb935ee/kedro-prefect-oliver-0.1.8.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [pysndlib]: Downloading https://files.pythonhosted.org/packages/6f/07/bf1f53972978d15610d674c902117f8d193159b9e32d533ef32efe24ee1f/pysndlib-0.5.5.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [neurondm]: Downloading https://files.pythonhosted.org/packages/43/52/e8e41a32b80ecc884a1e58e6385ebae5f1161e104e589b1be9931f910a6c/neurondm-0.1.6.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: Downloading https://files.pythonhosted.org/packages/7d/20/78c2cd83b214cca489922c85abce6af24346ff72411cdb27ef1847762a1a/neon-phal-plugin-device-updater-0.0.1a4.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/ee/0e/ac8ef8d8ff9114b5366efefac8ac0a94430168107cf051385aa73efdd7ef/qontract_reconcile-0.9.1rc98-py3-none-any.whl
+[2023-08-05 03:39:40] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/3a/de/be8a94d4656724b3dfac41245438e60cbd31e85c3ce6466e45a23a54936b/mosec-0.7.2.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230805/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: Downloading https://files.pythonhosted.org/packages/3b/85/adeaebaf05ebf9cf1b6a96006d63b285a3efaeb9421b1a3a489828a5b24e/neon-phal-plugin-device-updater-0.0.1a5.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-05 03:39:40] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230805/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:40] INFO root fetch - processPackages [neurondm]: Downloading https://files.pythonhosted.org/packages/59/5e/f2cf43380e6a88fa0f3e435b8bb25db414026aa0090925e25f3006dce468/neurondm-0.1.7.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [kedro-prefect-oliver]: Downloading https://files.pythonhosted.org/packages/de/49/0c86ca46b3c42fc675c169aff2de0254b3d051ccdd2b46999db4920b58ad/kedro-prefect-oliver-0.1.9.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [pysndlib]: Downloading https://files.pythonhosted.org/packages/46/6e/99253a8eaa0113785960527556d54a676cd6c8fefe806c1c04766c4cfe97/pysndlib-0.5.6.tar.gz
+[2023-08-05 03:39:40] INFO root fetch - processPackages [qontract-reconcile]: Downloading https://files.pythonhosted.org/packages/dd/8b/9de8b95ca80c898ecaafa95edc3438d306b82ab0d29d3895dd6e8f152129/qontract_reconcile-0.9.1rc99-py3-none-any.whl
+[2023-08-05 03:39:41] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neon-phal-plugin-device-updater-0.0.1a4.tar.gz tmp/neon-phal-plugin-device-updater-0.0.1a5.tar.gz --markdown 20230805/n/neon-phal-plugin-device-updater/0.0.1a4-0.0.1a5/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [mosec]: Downloading https://files.pythonhosted.org/packages/aa/d3/a2d5b3601d652c88a03f4c39fea1715e95a1ea341a7a38258c273bff503e/mosec-0.8.0.tar.gz
+[2023-08-05 03:39:41] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230805/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-05 03:39:41] INFO root fetch - processPackages [kedro-prefect-oliver]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [kedro-prefect-oliver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kedro-prefect-oliver-0.1.8.tar.gz tmp/kedro-prefect-oliver-0.1.9.tar.gz --markdown 20230805/k/kedro-prefect-oliver/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [neurondm]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [neurondm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neurondm-0.1.6.tar.gz tmp/neurondm-0.1.7.tar.gz --markdown 20230805/n/neurondm/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [mosec]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [mosec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mosec-0.7.2.tar.gz tmp/mosec-0.8.0.tar.gz --markdown 20230805/m/mosec/0.7.2-0.8.0/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [pysndlib]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [pysndlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysndlib-0.5.5.tar.gz tmp/pysndlib-0.5.6.tar.gz --markdown 20230805/p/pysndlib/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230805/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:41] INFO root fetch - processPackages [qontract-reconcile]: executing diffoscope
+[2023-08-05 03:39:41] INFO root fetch - processPackages [qontract-reconcile]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip --markdown 20230805/q/qontract-reconcile/0.9.1rc98-0.9.1rc99/diff.md --exclude *.pyd
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-pandas]: Start processing: flightcondition
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-pytorch]: Start processing: django-bleach
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-05 03:39:42] INFO root fetch - processPackages [flightcondition]: New version: [23.8.4] Old Version: [23.1.23]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [django-bleach]: New version: [3.1.0] Old Version: [3.0.1]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-device-updater-0.0.1a4.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: Remove: archive file [/home/abi/fetcher/tmp/neon-phal-plugin-device-updater-0.0.1a5.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [neon-phal-plugin-device-updater]: Start processing: nbdev-scipy
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [neon-phal-plugin-device-updater]: success
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/5b/e8/932b93760696a4c79b6b52916068240e12f27ade975143f7124db9f4e0cc/flightcondition-23.1.23.tar.gz
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-05 03:39:42] INFO root fetch - processPackages [django-bleach]: Downloading https://files.pythonhosted.org/packages/6f/0c/c6403e43a5ce225dd80ca8513144d01188a23ff06df8e0b12f63613874e0/django-bleach-3.0.1.tar.gz
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-stdlib]: Start processing: xtweet
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-numpy]: Start processing: radiant-framework
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-05 03:39:42] INFO root fetch - processPackages [kedro-prefect-oliver]: Remove: archive file [/home/abi/fetcher/tmp/kedro-prefect-oliver-0.1.8.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [kedro-prefect-oliver]: Remove: archive file [/home/abi/fetcher/tmp/kedro-prefect-oliver-0.1.9.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [kedro-prefect-oliver]: Start processing: nbdev-sphinx
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [kedro-prefect-oliver]: success
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/63/84/f7a30138499658158fce4e1a2cb71997661a4e42ee3e562d9bff5fa53f4c/flightcondition-23.8.4.tar.gz
+[2023-08-05 03:39:42] WARNING root fetch - processPackages [xtweet]: Skipping, unable to determine old version
+[2023-08-05 03:39:42] INFO root fetch - processPackages [xtweet]: Start processing: TorchSUL
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [xtweet] error
+[2023-08-05 03:39:42] INFO root fetch - processPackages [radiant-framework]: New version: [0.1a9] Old Version: [0.1a8]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-05 03:39:42] INFO root fetch - processPackages [neurondm]: Remove: archive file [/home/abi/fetcher/tmp/neurondm-0.1.6.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [neurondm]: Remove: archive file [/home/abi/fetcher/tmp/neurondm-0.1.7.tar.gz]
+[2023-08-05 03:39:42] INFO root fetch - processPackages [neurondm]: Start processing: nbdev-django
+[2023-08-05 03:39:42] INFO root fetch - main [MainThread]: End processing [neurondm]: success
+[2023-08-05 03:39:43] INFO root fetch - processPackages [django-bleach]: Downloading https://files.pythonhosted.org/packages/8c/d9/e50567bf752da972c4eb1e294af9692b656444341d115545e041c38e921c/django-bleach-3.1.0.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [flightcondition]: executing diffoscope
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [flightcondition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightcondition-23.1.23.tar.gz tmp/flightcondition-23.8.4.tar.gz --markdown 20230805/f/flightcondition/23.1.23-23.8.4/diff.md --exclude *.pyd
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 03:39:43] INFO root fetch - processPackages [TorchSUL]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230805/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [django-bleach]: executing diffoscope
+[2023-08-05 03:39:43] INFO root fetch - processPackages [django-bleach]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-bleach-3.0.1.tar.gz tmp/django-bleach-3.1.0.tar.gz --markdown 20230805/d/django-bleach/3.0.1-3.1.0/diff.md --exclude *.pyd
+[2023-08-05 03:39:43] INFO root fetch - processPackages [radiant-framework]: Downloading https://files.pythonhosted.org/packages/04/bb/4f604ae9554b409e4d748d3c93be5131311dc7e76653a627e0f8141a8439/radiant-framework-0.1a8.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.7.2.tar.gz]
+[2023-08-05 03:39:43] INFO root fetch - processPackages [mosec]: Remove: archive file [/home/abi/fetcher/tmp/mosec-0.8.0.tar.gz]
+[2023-08-05 03:39:43] INFO root fetch - processPackages [mosec]: Start processing: refineryframe
+[2023-08-05 03:39:43] INFO root fetch - main [MainThread]: End processing [mosec]: success
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [TorchSUL]: Downloading https://files.pythonhosted.org/packages/bb/76/7369d3bce477eb488d6fd90aeabd069784c7391b313a239bf1aecb823755/TorchSUL-0.2.3.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [refineryframe]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230805/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:43] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/ed/ba/e15310318ef6cf23c949fa509a47d30fb75f482e23cdc2cf91ba00612d1d/refineryframe-0.1.3.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-05 03:39:43] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230805/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 03:39:43] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/fd/e1/c89d6e7833fa8479b7829ea13b8cd5b44a036a54f0ca1ac5d76b0446d1fd/refineryframe-0.1.4.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [TorchSUL]: Downloading https://files.pythonhosted.org/packages/d3/00/eef0064c3ff00ccbbaba13d44cd4341a585befac67cd3969b9ee758f3f73/TorchSUL-0.2.4.tar.gz
+[2023-08-05 03:39:43] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 03:39:43] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.3.tar.gz tmp/refineryframe-0.1.4.tar.gz --markdown 20230805/r/refineryframe/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-05 03:39:44] WARNING root fetch - processPackages [radiant-framework]: Skipping package: exceeds size limit 29761762>=10485760
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [radiant-framework] error
+[2023-08-05 03:39:44] INFO root fetch - processPackages [TorchSUL]: executing diffoscope
+[2023-08-05 03:39:44] INFO root fetch - processPackages [TorchSUL]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TorchSUL-0.2.3.tar.gz tmp/TorchSUL-0.2.4.tar.gz --markdown 20230805/T/TorchSUL/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-05 03:39:44] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-05 03:39:44] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-23.1.23.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-23.8.4.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [flightcondition]: success
+[2023-08-05 03:39:44] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-05 03:39:44] INFO root fetch - processPackages [django-bleach]: Remove: archive file [/home/abi/fetcher/tmp/django-bleach-3.0.1.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - processPackages [django-bleach]: Remove: archive file [/home/abi/fetcher/tmp/django-bleach-3.1.0.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [django-bleach]: success
+[2023-08-05 03:39:44] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-05 03:39:44] INFO root fetch - processPackages [pysndlib]: Remove: archive file [/home/abi/fetcher/tmp/pysndlib-0.5.5.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - processPackages [pysndlib]: Remove: archive file [/home/abi/fetcher/tmp/pysndlib-0.5.6.tar.gz]
+[2023-08-05 03:39:44] INFO root fetch - main [MainThread]: End processing [pysndlib]: success
+[2023-08-05 03:39:45] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.3.tar.gz]
+[2023-08-05 03:39:45] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.4.tar.gz]
+[2023-08-05 03:39:45] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 03:39:45] INFO root fetch - processPackages [TorchSUL]: Remove: archive file [/home/abi/fetcher/tmp/TorchSUL-0.2.3.tar.gz]
+[2023-08-05 03:39:45] INFO root fetch - processPackages [TorchSUL]: Remove: archive file [/home/abi/fetcher/tmp/TorchSUL-0.2.4.tar.gz]
+[2023-08-05 03:39:45] INFO root fetch - main [MainThread]: End processing [TorchSUL]: success
+[2023-08-05 03:39:45] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc98-py3-none-any.whl.zip]
+[2023-08-05 03:39:45] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
+[2023-08-05 03:39:45] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
+[2023-08-05 03:39:45] INFO root fetch - main [MainThread]: Store serial: [19183528]
