@@ -17086,3 +17086,90 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:49:45] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.80-py3-none-any.whl.zip]
 [2023-08-05 20:49:45] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-08-05 20:49:45] INFO root fetch - main [MainThread]: Store serial: [19188578]
+[2023-08-05 20:54:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188578]
+[2023-08-05 20:54:54] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: modulomuysimpleoscar
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: moteus
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: moteus-gui
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hissbytenotation
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sklearn-nature-inspired-algorithms
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pyraws
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: irene-pro
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rclip
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: djangoldp-babelfish
+[2023-08-05 20:54:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: clustimage
+[2023-08-05 20:54:55] INFO root fetch - processPackages [clustimage]: New version: [1.5.9] Old Version: [1.5.8]
+[2023-08-05 20:54:55] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: New version: [0.9.0] Old Version: [0.8.2]
+[2023-08-05 20:54:55] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 20:54:55] WARNING root fetch - processPackages [hissbytenotation]: Skipping, unable to determine old version
+[2023-08-05 20:54:55] INFO root fetch - processPackages [hissbytenotation]: Start processing: ladderbot
+[2023-08-05 20:54:55] INFO root fetch - main [MainThread]: End processing [hissbytenotation] error
+[2023-08-05 20:54:55] INFO root fetch - processPackages [moteus]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 20:54:55] WARNING root fetch - processPackages [pyraws]: Skipping, unable to determine old version
+[2023-08-05 20:54:55] INFO root fetch - processPackages [pyraws]: Start processing: discord-api-info
+[2023-08-05 20:54:55] INFO root fetch - main [MainThread]: End processing [pyraws] error
+[2023-08-05 20:54:55] INFO root fetch - processPackages [rclip]: New version: [1.4.8a0] Old Version: [1.4.7a9]
+[2023-08-05 20:54:55] WARNING root fetch - processPackages [modulomuysimpleoscar]: Skipping, unable to determine old version
+[2023-08-05 20:54:55] INFO root fetch - main [MainThread]: End processing [modulomuysimpleoscar] error
+[2023-08-05 20:54:55] INFO root fetch - processPackages [djangoldp-babelfish]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-05 20:54:55] INFO root fetch - processPackages [ladderbot]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-05 20:54:55] INFO root fetch - processPackages [moteus-gui]: New version: [0.3.56] Old Version: [0.3.55]
+[2023-08-05 20:54:55] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 20:54:55] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 20:54:55] INFO root fetch - processPackages [clustimage]: Downloading https://files.pythonhosted.org/packages/57/ed/d304662a558e304bcba25df649b188acd09e7efa6e25c4de1b480242df60/clustimage-1.5.8.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/3a/86/9d2ff7b913ad4519720de891fbc01eb47e5d111297e795d3c45e1e99c414/ladderbot-0.0.5.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: Downloading https://files.pythonhosted.org/packages/36/7f/b8108cebda26eda1ddce68025eb01a28f55599b58cc3232afad89132cb37/sklearn_nature_inspired_algorithms-0.8.2.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/31/e5/7bb0bec8ec5f762444a62bbc17fd8e01f29a10f98d54311ab9c756bd2fea/rclip-1.4.7a9.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/62/f9/078947536b3f3868ab5e18453c4593fb9c6bb31cb7b023fd8ed17fa1cf8c/moteus-0.3.8.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/40/bf/b80f1ba68c049d323bdcd2ea53010d46f36ae2eb4c5f2fd0056610dfa5d4/djangoldp_babelfish-1.0.8.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/bc/12/93a9c556eede6de6b63e4672287cdcf30dabe68d1d17acddc3fb0f9bbfaf/moteus_gui-0.3.55-py3-none-any.whl
+[2023-08-05 20:54:55] INFO root fetch - processPackages [clustimage]: Downloading https://files.pythonhosted.org/packages/94/eb/110301aacac610178260ea5b86a12edcfdb979075298fe6edbe3f915b89b/clustimage-1.5.9.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/10/28/79be586efa04a519f97d8a56b48d690aacfd17dcf2b78fd57717395c7fd5/ladderbot-0.0.6.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/4f/3b/20bb8117e6885a6774e7c33a9a6a20429d78280483fb6446e211d831aad1/rclip-1.4.8a0.tar.gz
+[2023-08-05 20:54:55] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-05 20:54:55] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230805/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 20:54:55] INFO root fetch - processPackages [clustimage]: executing diffoscope
+[2023-08-05 20:54:55] INFO root fetch - processPackages [clustimage]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/clustimage-1.5.8.tar.gz tmp/clustimage-1.5.9.tar.gz --markdown 20230805/c/clustimage/1.5.8-1.5.9/diff.md --exclude *.pyd
+[2023-08-05 20:54:56] INFO root fetch - processPackages [djangoldp-babelfish]: Downloading https://files.pythonhosted.org/packages/ea/47/319e409f54a9171ba0fc3d1f6b661bd0adebd36cf7e662a859a53cfdd4da/djangoldp_babelfish-1.0.9.tar.gz
+[2023-08-05 20:54:56] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 20:54:56] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.5.tar.gz tmp/ladderbot-0.0.6.tar.gz --markdown 20230805/l/ladderbot/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-05 20:54:56] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-05 20:54:56] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a9.tar.gz tmp/rclip-1.4.8a0.tar.gz --markdown 20230805/r/rclip/1.4.7a9-1.4.8a0/diff.md --exclude *.pyd
+[2023-08-05 20:54:56] INFO root fetch - processPackages [moteus]: Downloading https://files.pythonhosted.org/packages/78/b3/d213a086454e82f9c5f13f3fb1c01b68749bb35298812108dc75ada6083c/moteus-0.3.9.tar.gz
+[2023-08-05 20:54:56] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: Downloading https://files.pythonhosted.org/packages/95/31/a0b55aa5f222c0bda2fbed1f1b983dd9d60e6009859e10e73975f955654b/sklearn_nature_inspired_algorithms-0.9.0.tar.gz
+[2023-08-05 20:54:56] INFO root fetch - processPackages [moteus-gui]: Downloading https://files.pythonhosted.org/packages/cd/d4/e80f7430b058539421e1761fd0fa007d293c73de9b72433ff1f290c48637/moteus_gui-0.3.56-py3-none-any.whl
+[2023-08-05 20:54:56] INFO root fetch - processPackages [djangoldp-babelfish]: executing diffoscope
+[2023-08-05 20:54:56] INFO root fetch - processPackages [djangoldp-babelfish]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djangoldp_babelfish-1.0.8.tar.gz tmp/djangoldp_babelfish-1.0.9.tar.gz --markdown 20230805/d/djangoldp-babelfish/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-05 20:54:56] INFO root fetch - processPackages [moteus]: executing diffoscope
+[2023-08-05 20:54:56] INFO root fetch - processPackages [moteus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus-0.3.8.tar.gz tmp/moteus-0.3.9.tar.gz --markdown 20230805/m/moteus/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 20:54:56] INFO root fetch - processPackages [moteus-gui]: executing diffoscope
+[2023-08-05 20:54:56] INFO root fetch - processPackages [moteus-gui]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moteus_gui-0.3.55-py3-none-any.whl.zip tmp/moteus_gui-0.3.56-py3-none-any.whl.zip --markdown 20230805/m/moteus-gui/0.3.55-0.3.56/diff.md --exclude *.pyd
+[2023-08-05 20:54:56] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: executing diffoscope
+[2023-08-05 20:54:56] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn_nature_inspired_algorithms-0.8.2.tar.gz tmp/sklearn_nature_inspired_algorithms-0.9.0.tar.gz --markdown 20230805/s/sklearn-nature-inspired-algorithms/0.8.2-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 20:54:57] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.5.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.6.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.55-py3-none-any.whl.zip]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [moteus-gui]: Remove: archive file [/home/abi/fetcher/tmp/moteus_gui-0.3.56-py3-none-any.whl.zip]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [moteus-gui]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.8.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [clustimage]: Remove: archive file [/home/abi/fetcher/tmp/clustimage-1.5.9.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [clustimage]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.8.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [djangoldp-babelfish]: Remove: archive file [/home/abi/fetcher/tmp/djangoldp_babelfish-1.0.9.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [djangoldp-babelfish]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a9.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.8a0.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_nature_inspired_algorithms-0.8.2.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [sklearn-nature-inspired-algorithms]: Remove: archive file [/home/abi/fetcher/tmp/sklearn_nature_inspired_algorithms-0.9.0.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [sklearn-nature-inspired-algorithms]: success
+[2023-08-05 20:54:57] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.8.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - processPackages [moteus]: Remove: archive file [/home/abi/fetcher/tmp/moteus-0.3.9.tar.gz]
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: End processing [moteus]: success
+[2023-08-05 20:54:57] INFO root fetch - main [MainThread]: Store serial: [19188618]
