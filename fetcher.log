@@ -12698,3 +12698,132 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:06:56] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.6.3.tar.gz]
 [2023-08-05 15:06:56] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
 [2023-08-05 15:06:56] INFO root fetch - main [MainThread]: Store serial: [19186555]
+[2023-08-05 15:12:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186555]
+[2023-08-05 15:12:05] INFO root fetch - main [MainThread]: Found 16 changed packages
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vban-cmd
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nbdev-numpy
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hyperreal
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fbgemm-gpu-nightly-cpu
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: stream-zip
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: curies
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: myPyllant
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-pandas
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: circt
+[2023-08-05 15:12:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: pytech-rules
+[2023-08-05 15:12:05] INFO root fetch - processPackages [vban-cmd]: New version: [2.4.3] Old Version: [2.4.1]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [circt]: New version: [1.49.1.dev50] Old Version: [1.49.1.dev36]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [nbdev-pandas]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [curies]: New version: [0.6.0] Old Version: [0.5.7]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [nbdev-numpy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/ee/e4/fb495a92455761c1eb0c6bb50bea45a41f7b5d48ab872d7bc7d8992e5a12/fbgemm_gpu_nightly_cpu-2023.8.3-cp39-cp39-manylinux2014_aarch64.whl
+[2023-08-05 15:12:05] INFO root fetch - processPackages [hyperreal]: New version: [0.4.0] Old Version: [0.3.1]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [myPyllant]: New version: [0.4.4] Old Version: [0.4.3]
+[2023-08-05 15:12:05] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 15:12:05] WARNING root fetch - processPackages [pytech-rules]: Skipping, unable to determine old version
+[2023-08-05 15:12:05] INFO root fetch - processPackages [pytech-rules]: Start processing: super-paczka
+[2023-08-05 15:12:05] INFO root fetch - main [MainThread]: End processing [pytech-rules] error
+[2023-08-05 15:12:05] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/dc/e0/f681eb5937c24ca5667f8091ab89df89135a39f004bec050da6434b83665/vban_cmd-2.4.1.tar.gz
+[2023-08-05 15:12:05] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/e4/e4/cd3df65f7d13a8e8dfa1592e08d78574793d38384b1c92993ce920dcd0df/nbdev-pandas-0.0.98.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/f4/cd/35f83f95a672d4422b6eb231aec9a95eac4a24c751024be6738167659a05/circt-1.49.1.dev36-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/73/28/26429c7dd7dcf4c45025b55facc2688943de2ab2ec4851cc073f81f31e65/nbdev-numpy-0.0.98.tar.gz
+[2023-08-05 15:12:06] WARNING root fetch - processPackages [super-paczka]: Skipping, unable to determine old version
+[2023-08-05 15:12:06] INFO root fetch - processPackages [super-paczka]: Start processing: mojo-runtime
+[2023-08-05 15:12:06] INFO root fetch - main [MainThread]: End processing [super-paczka] error
+[2023-08-05 15:12:06] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/36/ff/03cdd2eba5e34d322242ea6f9422f64a7c944a0e3c3fc0da426aab734750/curies-0.5.7.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/b9/0e/33ed3698f6e845a2ba4f796a841ce831f39f083c21c1172f07b227ec2e8b/mypyllant-0.4.3.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [hyperreal]: Downloading https://files.pythonhosted.org/packages/c5/27/bb880cdcc8701e68594d2712f458ab54178d4b569884485eabee96369385/hyperreal-0.3.1.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-pandas]: Downloading https://files.pythonhosted.org/packages/cf/b5/493c8e89c5cb4fcc7db248f99868f931ca6389f6e411e63c97bb22c6f1b0/nbdev-pandas-0.0.99.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Downloading https://files.pythonhosted.org/packages/0f/ff/debe2060d9d8a0b24284e3d29f7cc372aac7d02ff27a3bc69cf9aa889b9b/fbgemm_gpu_nightly_cpu-2023.8.4-cp39-cp39-manylinux2014_aarch64.whl
+[2023-08-05 15:12:06] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/80/82/17403cabd2022d42c36b3a1467c0df11a36dac410a3cabe1835dea782eb8/vban_cmd-2.4.3.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-numpy]: Downloading https://files.pythonhosted.org/packages/ea/78/0c0ef1d69ad517e7123dd810dda3cf8c0863af031c2cbb78ac3dae878b48/nbdev-numpy-0.0.99.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-pandas]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-pandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pandas-0.0.98.tar.gz tmp/nbdev-pandas-0.0.99.tar.gz --markdown 20230805/n/nbdev-pandas/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban_cmd-2.4.1.tar.gz tmp/vban_cmd-2.4.3.tar.gz --markdown 20230805/v/vban-cmd/2.4.1-2.4.3/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [myPyllant]: Downloading https://files.pythonhosted.org/packages/64/32/a692dccad27bb01e22d571716e0885b76eb85ef85871523a23c91bd70759/mypyllant-0.4.4.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-numpy]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [nbdev-numpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-numpy-0.0.98.tar.gz tmp/nbdev-numpy-0.0.99.tar.gz --markdown 20230805/n/nbdev-numpy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fbgemm_gpu_nightly_cpu-2023.8.3-cp39-cp39-manylinux2014_aarch64.whl.zip tmp/fbgemm_gpu_nightly_cpu-2023.8.4-cp39-cp39-manylinux2014_aarch64.whl.zip --markdown 20230805/f/fbgemm-gpu-nightly-cpu/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [hyperreal]: Downloading https://files.pythonhosted.org/packages/3f/0c/005369361012e35505eda02f18b35fa00c3274958a3d185faebeb680befb/hyperreal-0.4.0.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [curies]: Downloading https://files.pythonhosted.org/packages/b1/44/29aba544c7a63a949afc672e883aa621b28e890ff02a9977f32077f90192/curies-0.6.0.tar.gz
+[2023-08-05 15:12:06] INFO root fetch - processPackages [myPyllant]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [myPyllant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mypyllant-0.4.3.tar.gz tmp/mypyllant-0.4.4.tar.gz --markdown 20230805/m/myPyllant/0.4.3-0.4.4/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [hyperreal]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [hyperreal]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyperreal-0.3.1.tar.gz tmp/hyperreal-0.4.0.tar.gz --markdown 20230805/h/hyperreal/0.3.1-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [curies]: executing diffoscope
+[2023-08-05 15:12:06] INFO root fetch - processPackages [curies]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/curies-0.5.7.tar.gz tmp/curies-0.6.0.tar.gz --markdown 20230805/c/curies/0.5.7-0.6.0/diff.md --exclude *.pyd
+[2023-08-05 15:12:06] INFO root fetch - processPackages [circt]: Downloading https://files.pythonhosted.org/packages/a5/85/214c57fe7df25c8b140331ae02e0e46fc72af15fa9d8e5a108017220399e/circt-1.49.1.dev50-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 15:12:07] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-08-05 15:12:07] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-08-05 15:12:07] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-08-05 15:12:07] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230805/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 15:12:07] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-08-05 15:12:07] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230805/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.98.tar.gz]
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-pandas]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pandas-0.0.99.tar.gz]
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-pandas]: Start processing: nbdev-pytorch
+[2023-08-05 15:12:07] INFO root fetch - main [MainThread]: End processing [nbdev-pandas]: success
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-pytorch]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.98.tar.gz]
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-numpy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-numpy-0.0.99.tar.gz]
+[2023-08-05 15:12:07] INFO root fetch - processPackages [nbdev-numpy]: Start processing: CloseBullet
+[2023-08-05 15:12:07] INFO root fetch - main [MainThread]: End processing [nbdev-numpy]: success
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/f8/45/4613a0137d296a1960d76ded45b0af15a8fd578bf48df103c50675b49136/nbdev-pytorch-0.0.98.tar.gz
+[2023-08-05 15:12:08] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.4.1.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.4.3.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [vban-cmd]: Start processing: docsig
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-08-05 15:12:08] WARNING root fetch - processPackages [CloseBullet]: Skipping, unable to determine old version
+[2023-08-05 15:12:08] INFO root fetch - processPackages [CloseBullet]: Start processing: nbdev-scipy
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [CloseBullet] error
+[2023-08-05 15:12:08] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.3.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [myPyllant]: Remove: archive file [/home/abi/fetcher/tmp/mypyllant-0.4.4.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [myPyllant]: success
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-scipy]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [docsig]: New version: [0.9.0] Old Version: [0.7.0]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-pytorch]: Downloading https://files.pythonhosted.org/packages/b0/37/5921f26bef4d07ebb5599f7ccb4d57ab1a847950edaa615ebcf9ef228690/nbdev-pytorch-0.0.99.tar.gz
+[2023-08-05 15:12:08] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.5.7.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [curies]: Remove: archive file [/home/abi/fetcher/tmp/curies-0.6.0.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [curies]: success
+[2023-08-05 15:12:08] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/b7/aa/3a58eed65c9cd6b8bd5a25e3fb75d0dab2ecdda4b36d07b1e482c485f72b/docsig-0.7.0.tar.gz
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-pytorch]: executing diffoscope
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-pytorch-0.0.98.tar.gz tmp/nbdev-pytorch-0.0.99.tar.gz --markdown 20230805/n/nbdev-pytorch/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/94/a7/9596b1506d5fc0b0ceb265f8bbd5e0919fc146eb6df0916b4e546e9f074f/nbdev-scipy-0.0.98.tar.gz
+[2023-08-05 15:12:08] INFO root fetch - processPackages [hyperreal]: Remove: archive file [/home/abi/fetcher/tmp/hyperreal-0.3.1.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [hyperreal]: Remove: archive file [/home/abi/fetcher/tmp/hyperreal-0.4.0.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [hyperreal]: success
+[2023-08-05 15:12:08] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-08-05 15:12:08] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.8.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
+[2023-08-05 15:12:08] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-scipy]: Downloading https://files.pythonhosted.org/packages/d4/25/482f9160692bdd2d374401b19f8b4700ae91c179761991cee076e37aae0d/nbdev-scipy-0.0.99.tar.gz
+[2023-08-05 15:12:08] INFO root fetch - processPackages [docsig]: Downloading https://files.pythonhosted.org/packages/a5/8b/f9b2d72f71a3977e2edb7a543e8805b8f859ed021086b9eb63b07f9aa86d/docsig-0.9.0.tar.gz
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-scipy]: executing diffoscope
+[2023-08-05 15:12:08] INFO root fetch - processPackages [nbdev-scipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-scipy-0.0.98.tar.gz tmp/nbdev-scipy-0.0.99.tar.gz --markdown 20230805/n/nbdev-scipy/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:12:08] INFO root fetch - processPackages [docsig]: executing diffoscope
+[2023-08-05 15:12:08] INFO root fetch - processPackages [docsig]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/docsig-0.7.0.tar.gz tmp/docsig-0.9.0.tar.gz --markdown 20230805/d/docsig/0.7.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 15:12:09] INFO root fetch - processPackages [circt]: executing diffoscope
+[2023-08-05 15:12:09] INFO root fetch - processPackages [circt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circt-1.49.1.dev36-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/circt-1.49.1.dev50-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/c/circt/1.49.1.dev36-1.49.1.dev50/diff.md --exclude *.pyd
+[2023-08-05 15:12:09] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.98.tar.gz]
+[2023-08-05 15:12:09] INFO root fetch - processPackages [nbdev-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-pytorch-0.0.99.tar.gz]
+[2023-08-05 15:12:09] INFO root fetch - main [MainThread]: End processing [nbdev-pytorch]: success
+[2023-08-05 15:12:09] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.98.tar.gz]
+[2023-08-05 15:12:09] INFO root fetch - processPackages [nbdev-scipy]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-scipy-0.0.99.tar.gz]
+[2023-08-05 15:12:09] INFO root fetch - main [MainThread]: End processing [nbdev-scipy]: success
+[2023-08-05 15:12:09] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.7.0.tar.gz]
+[2023-08-05 15:12:09] INFO root fetch - processPackages [docsig]: Remove: archive file [/home/abi/fetcher/tmp/docsig-0.9.0.tar.gz]
+[2023-08-05 15:12:09] INFO root fetch - main [MainThread]: End processing [docsig]: success
+[2023-08-05 15:12:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.8.3-cp39-cp39-manylinux2014_aarch64.whl.zip]
+[2023-08-05 15:12:30] INFO root fetch - processPackages [fbgemm-gpu-nightly-cpu]: Remove: archive file [/home/abi/fetcher/tmp/fbgemm_gpu_nightly_cpu-2023.8.4-cp39-cp39-manylinux2014_aarch64.whl.zip]
+[2023-08-05 15:12:30] INFO root fetch - main [MainThread]: End processing [fbgemm-gpu-nightly-cpu]: success
+[2023-08-05 15:15:07] INFO root fetch - processPackages [circt]: Remove: archive file [/home/abi/fetcher/tmp/circt-1.49.1.dev36-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 15:15:07] INFO root fetch - processPackages [circt]: Remove: archive file [/home/abi/fetcher/tmp/circt-1.49.1.dev50-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 15:15:07] INFO root fetch - main [MainThread]: End processing [circt]: success
+[2023-08-05 15:15:07] INFO root fetch - main [MainThread]: Store serial: [19186612]
