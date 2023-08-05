@@ -12055,3 +12055,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:54:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
 [2023-08-05 13:54:20] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
 [2023-08-05 13:54:20] INFO root fetch - main [MainThread]: Store serial: [19186172]
+[2023-08-05 13:59:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186172]
+[2023-08-05 13:59:28] INFO root fetch - main [MainThread]: No changed packages found
+[2023-08-05 14:04:29] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186173]
+[2023-08-05 14:04:34] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wow-srp
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: dve-lumipy-preview
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: u8darts
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tech-spec
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: encipher-lightman210567
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hapm
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: steamcom
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: coursebox
+[2023-08-05 14:04:34] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: async-wrapper
+[2023-08-05 14:04:34] INFO root fetch - processPackages [async-wrapper]: New version: [0.4.5] Old Version: [0.4.4]
+[2023-08-05 14:04:34] INFO root fetch - processPackages [tech-spec]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-08-05 14:04:34] WARNING root fetch - processPackages [steamcom]: Skipping, unable to determine old version
+[2023-08-05 14:04:34] INFO root fetch - main [MainThread]: End processing [steamcom] error
+[2023-08-05 14:04:34] INFO root fetch - processPackages [dve-lumipy-preview]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-05 14:04:34] INFO root fetch - processPackages [wow-srp]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-05 14:04:34] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/5d/a0/39c694d9a44684556c3fa4f398ea2a64ee523fb50e0543e2f62a5c44f380/async_wrapper-0.4.4.tar.gz
+[2023-08-05 14:04:34] WARNING root fetch - processPackages [encipher-lightman210567]: Skipping, unable to determine old version
+[2023-08-05 14:04:34] INFO root fetch - main [MainThread]: End processing [encipher-lightman210567] error
+[2023-08-05 14:04:34] INFO root fetch - processPackages [u8darts]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-05 14:04:34] INFO root fetch - processPackages [coursebox]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 14:04:34] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/53/1b/b95ae9f1ee0d70add76cdadfbc66a40e9a2c285b2ea88f903954b90ef30e/dve_lumipy_preview-0.1.98-py3-none-any.whl
+[2023-08-05 14:04:34] INFO root fetch - processPackages [hapm]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-05 14:04:34] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/fe/65/f7524c6d9f76184c5795f41a6f16ba174320d819ff4f7cbe1c753d3edd2f/tech-spec-1.0.27.tar.gz
+[2023-08-05 14:04:34] INFO root fetch - processPackages [wow-srp]: Downloading https://files.pythonhosted.org/packages/5b/8e/69575522497896e15267fa64ac7e9b9246c18557cef042c04151f4a702f1/wow_srp-0.1.1.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [u8darts]: Downloading https://files.pythonhosted.org/packages/e2/5c/d8a040d8aa80cbbf1a15df45305b100465df0c4f0a3d663834c8f6e04141/u8darts-0.9.0.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [hapm]: Downloading https://files.pythonhosted.org/packages/0f/22/977fba4e3a9402daa54c43bfb097d55e3d3368a6ffb4559b5f5de6ff2ec9/hapm-0.1.0.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/9d/36/def56436e99070761715ee4292ceb55536502b616afbeac9d5353660a62e/coursebox-0.1.8.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [dve-lumipy-preview]: Downloading https://files.pythonhosted.org/packages/3e/79/4e5e14a533ef4877c17c99900bbdc73daee3c1499e43275f026447166ab0/dve_lumipy_preview-0.1.99-py3-none-any.whl
+[2023-08-05 14:04:35] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/63/51/ef433ff8d9aa218b611290d6a18f19ff2375b7ec615a6ff8d99c91ecd189/async_wrapper-0.4.5.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/bb/ad/0ee5013e51a9ea1fd1a049b0fe0ffd4dfc7a7a40b13aa4fac54aae349394/tech-spec-1.0.28.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [wow-srp]: Downloading https://files.pythonhosted.org/packages/4f/0e/966f4527eed8cbe184486e9e03ddad8b0d8652afe5fa5c2762772bc3c14c/wow_srp-0.2.0.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.4.4.tar.gz tmp/async_wrapper-0.4.5.tar.gz --markdown 20230805/a/async-wrapper/0.4.4-0.4.5/diff.md --exclude *.pyd
+[2023-08-05 14:04:35] INFO root fetch - processPackages [dve-lumipy-preview]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [dve-lumipy-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip --markdown 20230805/d/dve-lumipy-preview/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-05 14:04:35] INFO root fetch - processPackages [hapm]: Downloading https://files.pythonhosted.org/packages/60/2d/63535711b292542ee9352791f6169a1022c35ff200a79bee51ca7205cee5/hapm-0.2.0.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.27.tar.gz tmp/tech-spec-1.0.28.tar.gz --markdown 20230805/t/tech-spec/1.0.27-1.0.28/diff.md --exclude *.pyd
+[2023-08-05 14:04:35] INFO root fetch - processPackages [coursebox]: Downloading https://files.pythonhosted.org/packages/59/40/ba7cf6852b6e58bae63bd3ee694ac4054ea7a5de15ce75d0008ffea172a9/coursebox-0.1.9.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [wow-srp]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [wow-srp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wow_srp-0.1.1.tar.gz tmp/wow_srp-0.2.0.tar.gz --markdown 20230805/w/wow-srp/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 14:04:35] INFO root fetch - processPackages [hapm]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [hapm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hapm-0.1.0.tar.gz tmp/hapm-0.2.0.tar.gz --markdown 20230805/h/hapm/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 14:04:35] INFO root fetch - processPackages [coursebox]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [coursebox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/coursebox-0.1.8.tar.gz tmp/coursebox-0.1.9.tar.gz --markdown 20230805/c/coursebox/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 14:04:35] INFO root fetch - processPackages [u8darts]: Downloading https://files.pythonhosted.org/packages/7c/6c/16de4020c6077cc746e12da1a02546b899ac11f9185e0ae358fe291eb44e/u8darts-0.9.1.tar.gz
+[2023-08-05 14:04:35] INFO root fetch - processPackages [u8darts]: executing diffoscope
+[2023-08-05 14:04:35] INFO root fetch - processPackages [u8darts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/u8darts-0.9.0.tar.gz tmp/u8darts-0.9.1.tar.gz --markdown 20230805/u/u8darts/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-05 14:04:36] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.4.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.5.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-08-05 14:04:36] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.27.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.28.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-05 14:04:36] INFO root fetch - processPackages [wow-srp]: Remove: archive file [/home/abi/fetcher/tmp/wow_srp-0.1.1.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - processPackages [wow-srp]: Remove: archive file [/home/abi/fetcher/tmp/wow_srp-0.2.0.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - main [MainThread]: End processing [wow-srp]: success
+[2023-08-05 14:04:36] INFO root fetch - processPackages [hapm]: Remove: archive file [/home/abi/fetcher/tmp/hapm-0.1.0.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - processPackages [hapm]: Remove: archive file [/home/abi/fetcher/tmp/hapm-0.2.0.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - main [MainThread]: End processing [hapm]: success
+[2023-08-05 14:04:36] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.98-py3-none-any.whl.zip]
+[2023-08-05 14:04:36] INFO root fetch - processPackages [dve-lumipy-preview]: Remove: archive file [/home/abi/fetcher/tmp/dve_lumipy_preview-0.1.99-py3-none-any.whl.zip]
+[2023-08-05 14:04:36] INFO root fetch - main [MainThread]: End processing [dve-lumipy-preview]: success
+[2023-08-05 14:04:36] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.8.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - processPackages [coursebox]: Remove: archive file [/home/abi/fetcher/tmp/coursebox-0.1.9.tar.gz]
+[2023-08-05 14:04:36] INFO root fetch - main [MainThread]: End processing [coursebox]: success
+[2023-08-05 14:04:37] INFO root fetch - processPackages [u8darts]: Remove: archive file [/home/abi/fetcher/tmp/u8darts-0.9.0.tar.gz]
+[2023-08-05 14:04:37] INFO root fetch - processPackages [u8darts]: Remove: archive file [/home/abi/fetcher/tmp/u8darts-0.9.1.tar.gz]
+[2023-08-05 14:04:37] INFO root fetch - main [MainThread]: End processing [u8darts]: success
+[2023-08-05 14:04:37] INFO root fetch - main [MainThread]: Store serial: [19186271]
