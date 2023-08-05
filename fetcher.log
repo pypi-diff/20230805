@@ -9659,3 +9659,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:57:32] INFO root fetch - processPackages [vika]: Remove: archive file [/home/abi/fetcher/tmp/vika-1.3.1.tar.gz]
 [2023-08-05 09:57:32] INFO root fetch - main [MainThread]: End processing [vika]: success
 [2023-08-05 09:57:32] INFO root fetch - main [MainThread]: Store serial: [19184990]
+[2023-08-05 10:02:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184990]
+[2023-08-05 10:02:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: skimpy-ext
+[2023-08-05 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: yeref
+[2023-08-05 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: YzDB
+[2023-08-05 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: txt2voice
+[2023-08-05 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: testLidamao
+[2023-08-05 10:02:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shortgpt
+[2023-08-05 10:02:41] WARNING root fetch - processPackages [txt2voice]: Skipping, unable to determine old version
+[2023-08-05 10:02:41] INFO root fetch - main [MainThread]: End processing [txt2voice] error
+[2023-08-05 10:02:41] INFO root fetch - processPackages [shortgpt]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 10:02:41] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 10:02:41] INFO root fetch - processPackages [YzDB]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 10:02:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-05 10:02:41] WARNING root fetch - processPackages [testLidamao]: Skipping, unable to determine old version
+[2023-08-05 10:02:41] INFO root fetch - main [MainThread]: End processing [testLidamao] error
+[2023-08-05 10:02:41] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/f0/09/6926178edf84be16d235714489ff8231e7551baf9a5de3afb74e5ea82664/shortgpt-0.1.1.tar.gz
+[2023-08-05 10:02:41] WARNING root fetch - processPackages [skimpy-ext]: Skipping, unable to determine old version
+[2023-08-05 10:02:41] INFO root fetch - main [MainThread]: End processing [skimpy-ext] error
+[2023-08-05 10:02:41] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-05 10:02:41] INFO root fetch - processPackages [YzDB]: Downloading https://files.pythonhosted.org/packages/85/e0/068be7616862ce6030f875499b2b32c7d9932ecbdddeafea36e1afaa44a4/YzDB-0.0.1.tar.gz
+[2023-08-05 10:02:41] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-05 10:02:41] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230805/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 10:02:41] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/cb/06/ec949cc7d5558318a164b4f4b6d8961342d46587a08d73df3511a7d9fa7a/shortgpt-0.1.2.tar.gz
+[2023-08-05 10:02:41] INFO root fetch - processPackages [YzDB]: Downloading https://files.pythonhosted.org/packages/ce/4c/333ef1854d7d3e3dc550f13e3891b6c61e45a2d07e31c6e7ab3e48e25b0a/YzDB-0.0.2.tar.gz
+[2023-08-05 10:02:41] INFO root fetch - processPackages [YzDB]: executing diffoscope
+[2023-08-05 10:02:41] INFO root fetch - processPackages [YzDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/YzDB-0.0.1.tar.gz tmp/YzDB-0.0.2.tar.gz --markdown 20230805/Y/YzDB/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 10:02:41] INFO root fetch - processPackages [shortgpt]: executing diffoscope
+[2023-08-05 10:02:41] INFO root fetch - processPackages [shortgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortgpt-0.1.1.tar.gz tmp/shortgpt-0.1.2.tar.gz --markdown 20230805/s/shortgpt/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 10:02:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-05 10:02:42] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-05 10:02:42] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-05 10:02:42] INFO root fetch - processPackages [YzDB]: Remove: archive file [/home/abi/fetcher/tmp/YzDB-0.0.1.tar.gz]
+[2023-08-05 10:02:42] INFO root fetch - processPackages [YzDB]: Remove: archive file [/home/abi/fetcher/tmp/YzDB-0.0.2.tar.gz]
+[2023-08-05 10:02:42] INFO root fetch - main [MainThread]: End processing [YzDB]: success
+[2023-08-05 10:02:42] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.1.tar.gz]
+[2023-08-05 10:02:42] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.2.tar.gz]
+[2023-08-05 10:02:42] INFO root fetch - main [MainThread]: End processing [shortgpt]: success
+[2023-08-05 10:02:42] INFO root fetch - main [MainThread]: Store serial: [19185022]
