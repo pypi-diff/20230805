@@ -10859,3 +10859,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:52:53] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
 [2023-08-05 11:52:53] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-08-05 11:52:53] INFO root fetch - main [MainThread]: Store serial: [19185541]
+[2023-08-05 11:57:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185541]
+[2023-08-05 11:58:02] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: zip2pdf
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: nvfuser-cu121
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DEME
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nvfuser-cu118
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyrtcm
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nvfuser-cu117
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: EntropyEncoding
+[2023-08-05 11:58:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: PyQt-Fluent-Widgets
+[2023-08-05 11:58:02] INFO root fetch - processPackages [nvfuser-cu118]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-05 11:58:02] INFO root fetch - processPackages [nvfuser-cu117]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-05 11:58:02] WARNING root fetch - processPackages [DEME]: Skipping, unable to determine old version
+[2023-08-05 11:58:02] INFO root fetch - main [MainThread]: End processing [DEME] error
+[2023-08-05 11:58:02] INFO root fetch - processPackages [nvfuser-cu121]: New version: [0.0.9.dev20230515] Old Version: [0.0.9.dev20230514]
+[2023-08-05 11:58:02] INFO root fetch - processPackages [EntropyEncoding]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 11:58:02] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/97/5f/a04da4d60f1816efafaa93531502bc7956df43f23ed210d62d175d8ae006/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 11:58:02] INFO root fetch - processPackages [zip2pdf]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 11:58:02] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-05 11:58:02] INFO root fetch - processPackages [pyrtcm]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-05 11:58:02] INFO root fetch - processPackages [EntropyEncoding]: Downloading https://files.pythonhosted.org/packages/e7/8f/1ce3341bdf947e0e7965976614d338c4ae0a2668c3bdb57b967c29476a37/EntropyEncoding-0.0.2.tar.gz
+[2023-08-05 11:58:02] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/b3/bf/667bd4aad6c776a5e62ad2f63da6dd5bb51f013f1ff3284d04efbf109991/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 11:58:02] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/4b/cd/4c428ce97d9be97932eb85eb49ce89f8833a6daf4081080607d7a4dd07d9/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 11:58:03] INFO root fetch - processPackages [zip2pdf]: Downloading https://files.pythonhosted.org/packages/03/f5/7eba1601a82650c4b6e1579e0948735130b77e397b591936718684de161a/zip2pdf-0.0.2.tar.gz
+[2023-08-05 11:58:03] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/31/99/5670aa585fc8494bd7872b8886fcbc3efcc4facb36a7669d07029ee3068f/pyrtcm-1.0.8-py3-none-any.whl
+[2023-08-05 11:58:03] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/4a/94/a728c2798af911f10568c98f4c1aa97b890b24b6e50765e9b255995251b6/PyQt-Fluent-Widgets-1.0.3.tar.gz
+[2023-08-05 11:58:03] INFO root fetch - processPackages [EntropyEncoding]: Downloading https://files.pythonhosted.org/packages/51/09/465773d2857194d1522b8075991f4ea53a091cc4690c7ae87fbb0b0b3232/EntropyEncoding-0.0.3.tar.gz
+[2023-08-05 11:58:03] INFO root fetch - processPackages [EntropyEncoding]: executing diffoscope
+[2023-08-05 11:58:03] INFO root fetch - processPackages [EntropyEncoding]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/EntropyEncoding-0.0.2.tar.gz tmp/EntropyEncoding-0.0.3.tar.gz --markdown 20230805/E/EntropyEncoding/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 11:58:03] INFO root fetch - processPackages [zip2pdf]: Downloading https://files.pythonhosted.org/packages/35/63/d64d339fb04982bcd329105d4c9663481ec84da27f73e37f1d4fb4ca3109/zip2pdf-0.0.3.tar.gz
+[2023-08-05 11:58:03] INFO root fetch - processPackages [pyrtcm]: Downloading https://files.pythonhosted.org/packages/75/a3/d3d2fccb0b3397f1b27d3035ccbde12211afd92137575a7ef063b6651593/pyrtcm-1.0.9.tar.gz
+[2023-08-05 11:58:03] INFO root fetch - processPackages [nvfuser-cu118]: Downloading https://files.pythonhosted.org/packages/b4/43/b31a00b4452d0b5904b6a1613a4dc7aa7a262ccdc4d4f61614f466008980/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 11:58:03] INFO root fetch - processPackages [zip2pdf]: executing diffoscope
+[2023-08-05 11:58:03] INFO root fetch - processPackages [zip2pdf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zip2pdf-0.0.2.tar.gz tmp/zip2pdf-0.0.3.tar.gz --markdown 20230805/z/zip2pdf/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 11:58:03] INFO root fetch - processPackages [nvfuser-cu121]: Downloading https://files.pythonhosted.org/packages/05/3d/6c84b5f07a9f69349df1b20f64065b4cbd84158521710f47bb31051a8ee9/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 11:58:03] INFO root fetch - processPackages [nvfuser-cu117]: Downloading https://files.pythonhosted.org/packages/74/50/be3d462491ae9f70d80293010b36c2a163fbf4cce3cab00d4fd749c345ce/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 11:58:03] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/80/2f/41c2cfd82f74f59106030c8b0ac4ec2a91757a76fb35f58d02bb05f02dcb/PyQt-Fluent-Widgets-1.0.4.tar.gz
+[2023-08-05 11:58:03] INFO root fetch - processPackages [pyrtcm]: executing diffoscope
+[2023-08-05 11:58:03] INFO root fetch - processPackages [pyrtcm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrtcm-1.0.8-py3-none-any.whl.zip tmp/pyrtcm-1.0.9.tar.gz --markdown 20230805/p/pyrtcm/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-05 11:58:04] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: executing diffoscope
+[2023-08-05 11:58:04] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt-Fluent-Widgets-1.0.3.tar.gz tmp/PyQt-Fluent-Widgets-1.0.4.tar.gz --markdown 20230805/P/PyQt-Fluent-Widgets/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-05 11:58:04] INFO root fetch - processPackages [nvfuser-cu121]: executing diffoscope
+[2023-08-05 11:58:04] INFO root fetch - processPackages [nvfuser-cu121]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/n/nvfuser-cu121/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-05 11:58:04] INFO root fetch - processPackages [nvfuser-cu118]: executing diffoscope
+[2023-08-05 11:58:04] INFO root fetch - processPackages [nvfuser-cu118]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/n/nvfuser-cu118/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-05 11:58:04] INFO root fetch - processPackages [nvfuser-cu117]: executing diffoscope
+[2023-08-05 11:58:04] INFO root fetch - processPackages [nvfuser-cu117]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/n/nvfuser-cu117/0.0.9.dev20230514-0.0.9.dev20230515/diff.md --exclude *.pyd
+[2023-08-05 11:58:04] INFO root fetch - processPackages [EntropyEncoding]: Remove: archive file [/home/abi/fetcher/tmp/EntropyEncoding-0.0.2.tar.gz]
+[2023-08-05 11:58:04] INFO root fetch - processPackages [EntropyEncoding]: Remove: archive file [/home/abi/fetcher/tmp/EntropyEncoding-0.0.3.tar.gz]
+[2023-08-05 11:58:04] INFO root fetch - main [MainThread]: End processing [EntropyEncoding]: success
+[2023-08-05 11:58:04] INFO root fetch - processPackages [zip2pdf]: Remove: archive file [/home/abi/fetcher/tmp/zip2pdf-0.0.2.tar.gz]
+[2023-08-05 11:58:04] INFO root fetch - processPackages [zip2pdf]: Remove: archive file [/home/abi/fetcher/tmp/zip2pdf-0.0.3.tar.gz]
+[2023-08-05 11:58:04] INFO root fetch - main [MainThread]: End processing [zip2pdf]: success
+[2023-08-05 11:58:04] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.8-py3-none-any.whl.zip]
+[2023-08-05 11:58:04] INFO root fetch - processPackages [pyrtcm]: Remove: archive file [/home/abi/fetcher/tmp/pyrtcm-1.0.9.tar.gz]
+[2023-08-05 11:58:04] INFO root fetch - main [MainThread]: End processing [pyrtcm]: success
+[2023-08-05 11:58:05] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 11:58:05] INFO root fetch - processPackages [nvfuser-cu121]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu121-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 11:58:05] INFO root fetch - main [MainThread]: End processing [nvfuser-cu121]: success
+[2023-08-05 11:58:05] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 11:58:05] INFO root fetch - processPackages [nvfuser-cu117]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu117-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 11:58:05] INFO root fetch - main [MainThread]: End processing [nvfuser-cu117]: success
+[2023-08-05 11:58:05] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230514-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 11:58:05] INFO root fetch - processPackages [nvfuser-cu118]: Remove: archive file [/home/abi/fetcher/tmp/nvfuser_cu118-0.0.9.dev20230515-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 11:58:05] INFO root fetch - main [MainThread]: End processing [nvfuser-cu118]: success
+[2023-08-05 11:58:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-1.0.3.tar.gz]
+[2023-08-05 11:58:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-1.0.4.tar.gz]
+[2023-08-05 11:58:07] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
+[2023-08-05 11:58:07] INFO root fetch - main [MainThread]: Store serial: [19185561]
