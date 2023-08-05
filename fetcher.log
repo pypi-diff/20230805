@@ -8817,3 +8817,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:02:30] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl.zip]
 [2023-08-05 08:02:30] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
 [2023-08-05 08:02:30] INFO root fetch - main [MainThread]: Store serial: [19184561]
+[2023-08-05 08:07:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184561]
+[2023-08-05 08:07:40] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amazon-invoice-downloader
+[2023-08-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: flask-admin-csv-model
+[2023-08-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alembic-postgresql-enum
+[2023-08-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: assess-acceptability-judgments
+[2023-08-05 08:07:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-redis
+[2023-08-05 08:07:40] INFO root fetch - processPackages [alembic-postgresql-enum]: New version: [0.1.4a2] Old Version: [0.1.4a0]
+[2023-08-05 08:07:40] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 08:07:40] INFO root fetch - processPackages [cdk8s-redis]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-05 08:07:41] WARNING root fetch - processPackages [flask-admin-csv-model]: Skipping, unable to determine old version
+[2023-08-05 08:07:41] INFO root fetch - main [MainThread]: End processing [flask-admin-csv-model] error
+[2023-08-05 08:07:41] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-05 08:07:41] WARNING root fetch - processPackages [amazon-invoice-downloader]: Skipping, unable to determine old version
+[2023-08-05 08:07:41] INFO root fetch - main [MainThread]: End processing [amazon-invoice-downloader] error
+[2023-08-05 08:07:41] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/5a/8c/825ae4195bc273e13b4fb93e9ef112419d75fcd2c5194121692b5cd9fd19/cdk8s-redis-0.1.98.tar.gz
+[2023-08-05 08:07:41] INFO root fetch - processPackages [alembic-postgresql-enum]: Downloading https://files.pythonhosted.org/packages/e2/17/26b34877128a307a79fdb0d9b965a17c092061c92cf4ad9c1f1b450489a9/alembic_postgresql_enum-0.1.4a0.tar.gz
+[2023-08-05 08:07:41] INFO root fetch - processPackages [cdk8s-redis]: Downloading https://files.pythonhosted.org/packages/f2/71/df3da901bc2e5bd800b595302ae54fadb2f66a5789cfb0dd7e7d34eb2d91/cdk8s-redis-0.1.99.tar.gz
+[2023-08-05 08:07:41] INFO root fetch - processPackages [alembic-postgresql-enum]: Downloading https://files.pythonhosted.org/packages/2d/44/bc67b6cf2c34c3b33eec7405178c07a6b382ba8298e82755c627ad6702c8/alembic_postgresql_enum-0.1.4a2.tar.gz
+[2023-08-05 08:07:41] INFO root fetch - processPackages [cdk8s-redis]: executing diffoscope
+[2023-08-05 08:07:41] INFO root fetch - processPackages [cdk8s-redis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-redis-0.1.98.tar.gz tmp/cdk8s-redis-0.1.99.tar.gz --markdown 20230805/c/cdk8s-redis/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-05 08:07:41] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-05 08:07:41] INFO root fetch - processPackages [alembic-postgresql-enum]: executing diffoscope
+[2023-08-05 08:07:41] INFO root fetch - processPackages [alembic-postgresql-enum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic_postgresql_enum-0.1.4a0.tar.gz tmp/alembic_postgresql_enum-0.1.4a2.tar.gz --markdown 20230805/a/alembic-postgresql-enum/0.1.4a0-0.1.4a2/diff.md --exclude *.pyd
+[2023-08-05 08:07:42] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-05 08:07:42] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230805/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 08:07:42] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.98.tar.gz]
+[2023-08-05 08:07:42] INFO root fetch - processPackages [cdk8s-redis]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-redis-0.1.99.tar.gz]
+[2023-08-05 08:07:42] INFO root fetch - main [MainThread]: End processing [cdk8s-redis]: success
+[2023-08-05 08:07:42] INFO root fetch - processPackages [alembic-postgresql-enum]: Remove: archive file [/home/abi/fetcher/tmp/alembic_postgresql_enum-0.1.4a0.tar.gz]
+[2023-08-05 08:07:42] INFO root fetch - processPackages [alembic-postgresql-enum]: Remove: archive file [/home/abi/fetcher/tmp/alembic_postgresql_enum-0.1.4a2.tar.gz]
+[2023-08-05 08:07:42] INFO root fetch - main [MainThread]: End processing [alembic-postgresql-enum]: success
+[2023-08-05 08:07:44] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.8.tar.gz]
+[2023-08-05 08:07:44] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
+[2023-08-05 08:07:44] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-05 08:07:44] INFO root fetch - main [MainThread]: Store serial: [19184579]
