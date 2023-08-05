@@ -9408,3 +9408,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:26:29] INFO root fetch - main [MainThread]: End processing [mpcrl]: success
 [2023-08-05 09:26:29] INFO root fetch - main [MainThread]: End processing [mpcrl]: success
 [2023-08-05 09:26:29] INFO root fetch - main [MainThread]: Store serial: [19184830]
+[2023-08-05 09:31:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184830]
+[2023-08-05 09:31:37] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 09:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sopel-twitter
+[2023-08-05 09:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inviz
+[2023-08-05 09:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqldao-generator
+[2023-08-05 09:31:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbbank-lib
+[2023-08-05 09:31:38] INFO root fetch - processPackages [inviz]: New version: [0.2.8a1] Old Version: [0.2.8a0]
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sopel-twitter]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-05 09:31:38] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/25/13/43df8970a90f4ca5f111254b21be737a21731d0593b37d011b7b697368f1/inviz-0.2.8a0.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [mbbank-lib]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sqldao-generator]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-05 09:31:38] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/d3/64/7ebe09855589be13cb55a9728c382ea36ccf369276d483ffe19b463093b2/mbbank-lib-0.0.2.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sopel-twitter]: Downloading https://files.pythonhosted.org/packages/47/56/9789051a3731e57aa161857e35dbf3eacb47b4248eb733ba96cfb77e3d60/sopel-twitter-1.3.0.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sqldao-generator]: Downloading https://files.pythonhosted.org/packages/43/a2/2a2f1d0f83d35d5bccfd7f3faf1f48feb34e0a77f30aad41229abe4ae8e8/sqldao-generator-0.3.0.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/ba/f5/f722af018a62add8a15c201c5ccd8c43f36f7dba4c0093c08347fe6f60a4/inviz-0.2.8a1.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/d6/c5/0a1c86769e00153981b33b94ab3a56d08e2bdc3a40dd3ec0f14d51814ec2/mbbank-lib-0.0.3.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-05 09:31:38] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.8a0.tar.gz tmp/inviz-0.2.8a1.tar.gz --markdown 20230805/i/inviz/0.2.8a0-0.2.8a1/diff.md --exclude *.pyd
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sqldao-generator]: Downloading https://files.pythonhosted.org/packages/cd/20/29207fa3a35599e529cf786da940d565d1981bac2cfa6fec751d8f6e8d52/sqldao-generator-0.4.0.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sopel-twitter]: Downloading https://files.pythonhosted.org/packages/46/43/3695d5b8642b59b0ca795cda2964089e475ba1840e60eeae70ba10b2c8b3/sopel-twitter-1.3.1.tar.gz
+[2023-08-05 09:31:38] INFO root fetch - processPackages [mbbank-lib]: executing diffoscope
+[2023-08-05 09:31:38] INFO root fetch - processPackages [mbbank-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbbank-lib-0.0.2.tar.gz tmp/mbbank-lib-0.0.3.tar.gz --markdown 20230805/m/mbbank-lib/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sopel-twitter]: executing diffoscope
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sopel-twitter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sopel-twitter-1.3.0.tar.gz tmp/sopel-twitter-1.3.1.tar.gz --markdown 20230805/s/sopel-twitter/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sqldao-generator]: executing diffoscope
+[2023-08-05 09:31:38] INFO root fetch - processPackages [sqldao-generator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqldao-generator-0.3.0.tar.gz tmp/sqldao-generator-0.4.0.tar.gz --markdown 20230805/s/sqldao-generator/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 09:31:39] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.8a0.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.8a1.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-05 09:31:39] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.2.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.3.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - main [MainThread]: End processing [mbbank-lib]: success
+[2023-08-05 09:31:39] INFO root fetch - processPackages [sopel-twitter]: Remove: archive file [/home/abi/fetcher/tmp/sopel-twitter-1.3.0.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - processPackages [sopel-twitter]: Remove: archive file [/home/abi/fetcher/tmp/sopel-twitter-1.3.1.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - main [MainThread]: End processing [sopel-twitter]: success
+[2023-08-05 09:31:39] INFO root fetch - processPackages [sqldao-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqldao-generator-0.3.0.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - processPackages [sqldao-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqldao-generator-0.4.0.tar.gz]
+[2023-08-05 09:31:39] INFO root fetch - main [MainThread]: End processing [sqldao-generator]: success
+[2023-08-05 09:31:39] INFO root fetch - main [MainThread]: Store serial: [19184847]
