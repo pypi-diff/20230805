@@ -17448,3 +17448,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:20:54] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.8.tar.gz]
 [2023-08-05 21:20:54] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
 [2023-08-05 21:20:54] INFO root fetch - main [MainThread]: Store serial: [19188722]
+[2023-08-05 21:25:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188722]
+[2023-08-05 21:26:03] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 21:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nullspace-optimizer
+[2023-08-05 21:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: event-schema-profcomff
+[2023-08-05 21:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: litellm
+[2023-08-05 21:26:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rclip
+[2023-08-05 21:26:03] INFO root fetch - processPackages [rclip]: New version: [1.4.8a1] Old Version: [1.4.8a0]
+[2023-08-05 21:26:03] INFO root fetch - processPackages [litellm]: New version: [0.1.34] Old Version: [0.1.331]
+[2023-08-05 21:26:03] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/4f/3b/20bb8117e6885a6774e7c33a9a6a20429d78280483fb6446e211d831aad1/rclip-1.4.8a0.tar.gz
+[2023-08-05 21:26:03] INFO root fetch - processPackages [nullspace-optimizer]: New version: [1.2.0] Old Version: [1.1.2]
+[2023-08-05 21:26:03] INFO root fetch - processPackages [event-schema-profcomff]: New version: [2023.8.5] Old Version: [2023.7.29.1]
+[2023-08-05 21:26:03] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/dd/7b/a139c314ae0da330cdef7365fad987845fcff2e3a9cf232750e558a3e2fa/litellm-0.1.331.tar.gz
+[2023-08-05 21:26:03] INFO root fetch - processPackages [event-schema-profcomff]: Downloading https://files.pythonhosted.org/packages/98/43/983f2f1c19d06e7006d6713ffac75a1ca28d9d0046dc2ba483e9eb00a57e/event_schema_profcomff-2023.7.29.1.tar.gz
+[2023-08-05 21:26:03] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/2c/b7/05fb891d9566f3ca6fc808c3071cc92bf186292988f829ef5575f8982a45/nullspace_optimizer-1.1.2.tar.gz
+[2023-08-05 21:26:03] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/3c/e2/50b26d775acdcaf40cd1af19ebec611667f75bc5a7ca4de3d539bc4763ab/litellm-0.1.34.tar.gz
+[2023-08-05 21:26:04] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/e4/9f/dbd9b89e575a4ffe5c7b5e2b6e5263e97778546c70fec49645e128782af3/rclip-1.4.8a1.tar.gz
+[2023-08-05 21:26:04] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 21:26:04] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.331.tar.gz tmp/litellm-0.1.34.tar.gz --markdown 20230805/l/litellm/0.1.331-0.1.34/diff.md --exclude *.pyd
+[2023-08-05 21:26:04] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-05 21:26:04] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.8a0.tar.gz tmp/rclip-1.4.8a1.tar.gz --markdown 20230805/r/rclip/1.4.8a0-1.4.8a1/diff.md --exclude *.pyd
+[2023-08-05 21:26:04] INFO root fetch - processPackages [event-schema-profcomff]: Downloading https://files.pythonhosted.org/packages/55/25/471d089a33e5efe9cac93a60847b78055588ae633dd22d1d586b905dd557/event_schema_profcomff-2023.8.5.tar.gz
+[2023-08-05 21:26:04] INFO root fetch - processPackages [nullspace-optimizer]: Downloading https://files.pythonhosted.org/packages/4e/b9/afa2e2cbc9e3d825c7af2a08f39b09ff3e70f4493084364bc3b499bb90b5/nullspace_optimizer-1.2.0-py3-none-any.whl
+[2023-08-05 21:26:04] INFO root fetch - processPackages [event-schema-profcomff]: executing diffoscope
+[2023-08-05 21:26:04] INFO root fetch - processPackages [event-schema-profcomff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/event_schema_profcomff-2023.7.29.1.tar.gz tmp/event_schema_profcomff-2023.8.5.tar.gz --markdown 20230805/e/event-schema-profcomff/2023.7.29.1-2023.8.5/diff.md --exclude *.pyd
+[2023-08-05 21:26:04] INFO root fetch - processPackages [nullspace-optimizer]: executing diffoscope
+[2023-08-05 21:26:04] INFO root fetch - processPackages [nullspace-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nullspace_optimizer-1.1.2.tar.gz tmp/nullspace_optimizer-1.2.0-py3-none-any.whl.zip --markdown 20230805/n/nullspace-optimizer/1.1.2-1.2.0/diff.md --exclude *.pyd
+[2023-08-05 21:26:05] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.8a0.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.8a1.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-05 21:26:05] INFO root fetch - processPackages [event-schema-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/event_schema_profcomff-2023.7.29.1.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - processPackages [event-schema-profcomff]: Remove: archive file [/home/abi/fetcher/tmp/event_schema_profcomff-2023.8.5.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - main [MainThread]: End processing [event-schema-profcomff]: success
+[2023-08-05 21:26:05] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.331.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.34.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 21:26:05] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.1.2.tar.gz]
+[2023-08-05 21:26:05] INFO root fetch - processPackages [nullspace-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/nullspace_optimizer-1.2.0-py3-none-any.whl.zip]
+[2023-08-05 21:26:05] INFO root fetch - main [MainThread]: End processing [nullspace-optimizer]: success
+[2023-08-05 21:26:05] INFO root fetch - main [MainThread]: Store serial: [19188733]
