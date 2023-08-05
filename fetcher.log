@@ -14668,3 +14668,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:28:23] INFO root fetch - processPackages [eolymp]: Remove: archive file [/home/abi/fetcher/tmp/eolymp-0.8.1.tar.gz]
 [2023-08-05 17:28:23] INFO root fetch - main [MainThread]: End processing [eolymp]: success
 [2023-08-05 17:28:23] INFO root fetch - main [MainThread]: Store serial: [19187452]
+[2023-08-05 17:33:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187452]
+[2023-08-05 17:33:32] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: likeinterface
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: glinski
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mailhound
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: PySiglent-SSA3000x
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mknodes
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: biogeme
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mynacode
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-lostark-wandering-trader
+[2023-08-05 17:33:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: portchoice
+[2023-08-05 17:33:32] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [PySiglent-SSA3000x]: New version: [0.4] Old Version: [0.3]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [mynacode]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/ae/39/544d3fb9e920b8eaec624b13310ea84da9b9f76445a9b54ccb43119cec76/nonebot_plugin_lostark_wandering_trader-0.0.3.tar.gz
+[2023-08-05 17:33:32] INFO root fetch - processPackages [glinski]: New version: [0.0.1] Old Version: [0.0.0]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [PySiglent-SSA3000x]: Downloading https://files.pythonhosted.org/packages/ec/5e/ecaae49f548dcb85ee097e2ce96093b5046df32f98873a9121f8aea4c47a/PySiglent_SSA3000x-0.3.tar.gz
+[2023-08-05 17:33:32] WARNING root fetch - processPackages [likeinterface]: Skipping, unable to determine old version
+[2023-08-05 17:33:32] WARNING root fetch - processPackages [mailhound]: Skipping, unable to determine old version
+[2023-08-05 17:33:32] INFO root fetch - main [MainThread]: End processing [likeinterface] error
+[2023-08-05 17:33:32] INFO root fetch - main [MainThread]: End processing [mailhound] error
+[2023-08-05 17:33:32] INFO root fetch - processPackages [portchoice]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [biogeme]: New version: [3.2.9] Old Version: [3.2.8]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [mknodes]: New version: [0.9.0] Old Version: [0.8.3]
+[2023-08-05 17:33:32] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/1d/24/3d4ef0a0a267fb47bcbac68ff9b760a9b892095f2ee727874f0286d600c3/mynacode-1.0.98-py3-none-any.whl
+[2023-08-05 17:33:32] INFO root fetch - processPackages [glinski]: Downloading https://files.pythonhosted.org/packages/a2/1d/290ddd16c6248dbf036da086730763ab24a3e5dc1067718b4b8dc3716a22/glinski-0.0.0.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/27/bc/958d0e78f9a83f177105236c08c487fda901d3e8943db7b2d269fbdfb0de/nonebot_plugin_lostark_wandering_trader-0.0.4.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [portchoice]: Downloading https://files.pythonhosted.org/packages/87/7c/112b87cf37754c9805af85010d01c29030959dcf6790a72573f3c9d189af/portchoice-0.3.2.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/7f/f1/533fbe0917ee95b4471dbbba2b0708b664d9aa3be25f84b08d6ccebde7ab/mknodes-0.8.3.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [biogeme]: Downloading https://files.pythonhosted.org/packages/bf/77/8ce5b8f6d0bb10ea36885f8bbcbf9717457e5c56b4d0470dc6c3841b9db0/biogeme-3.2.8.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mynacode]: Downloading https://files.pythonhosted.org/packages/38/32/362f7abef6d28b78afa03843fa2eadc7bb1454ef66bde894a08e281d5bfb/mynacode-1.0.99-py3-none-any.whl
+[2023-08-05 17:33:33] INFO root fetch - processPackages [PySiglent-SSA3000x]: Downloading https://files.pythonhosted.org/packages/da/e1/92388d58de3f4cda1de9558e6b1c1ff245f744db9ecedce76c9676db8dd8/PySiglent_SSA3000x-0.4.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: executing diffoscope
+[2023-08-05 17:33:33] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_lostark_wandering_trader-0.0.3.tar.gz tmp/nonebot_plugin_lostark_wandering_trader-0.0.4.tar.gz --markdown 20230805/n/nonebot-plugin-lostark-wandering-trader/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mynacode]: executing diffoscope
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mynacode]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mynacode-1.0.98-py3-none-any.whl.zip tmp/mynacode-1.0.99-py3-none-any.whl.zip --markdown 20230805/m/mynacode/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-05 17:33:33] INFO root fetch - processPackages [glinski]: Downloading https://files.pythonhosted.org/packages/59/79/963577fa72d7c16bc203711c6e497f854fb349f79d73487694497b1b7bc3/glinski-0.0.1.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [PySiglent-SSA3000x]: executing diffoscope
+[2023-08-05 17:33:33] INFO root fetch - processPackages [PySiglent-SSA3000x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySiglent_SSA3000x-0.3.tar.gz tmp/PySiglent_SSA3000x-0.4.tar.gz --markdown 20230805/P/PySiglent-SSA3000x/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-05 17:33:33] INFO root fetch - processPackages [glinski]: executing diffoscope
+[2023-08-05 17:33:33] INFO root fetch - processPackages [glinski]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/glinski-0.0.0.tar.gz tmp/glinski-0.0.1.tar.gz --markdown 20230805/g/glinski/0.0.0-0.0.1/diff.md --exclude *.pyd
+[2023-08-05 17:33:33] INFO root fetch - processPackages [portchoice]: Downloading https://files.pythonhosted.org/packages/10/39/d53eaa6df7cbad3d4175669fbed146335a2c103acae971d56e06a75619cd/portchoice-0.3.3.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mknodes]: Downloading https://files.pythonhosted.org/packages/a9/23/d4351caa4d81e1d5dfee2da642c21895fe33271ddb4650d42f56940e3a64/mknodes-0.9.0.tar.gz
+[2023-08-05 17:33:33] INFO root fetch - processPackages [portchoice]: executing diffoscope
+[2023-08-05 17:33:33] INFO root fetch - processPackages [portchoice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/portchoice-0.3.2.tar.gz tmp/portchoice-0.3.3.tar.gz --markdown 20230805/p/portchoice/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mknodes]: executing diffoscope
+[2023-08-05 17:33:33] INFO root fetch - processPackages [mknodes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mknodes-0.8.3.tar.gz tmp/mknodes-0.9.0.tar.gz --markdown 20230805/m/mknodes/0.8.3-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 17:33:33] INFO root fetch - processPackages [biogeme]: Downloading https://files.pythonhosted.org/packages/3b/40/9ca37be456c7cd85650df3b86be43900e48354619e0acfa0e91fa3546dd1/biogeme-3.2.9.tar.gz
+[2023-08-05 17:33:34] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.3.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.4.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-lostark-wandering-trader]: success
+[2023-08-05 17:33:34] INFO root fetch - processPackages [biogeme]: executing diffoscope
+[2023-08-05 17:33:34] INFO root fetch - processPackages [biogeme]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/biogeme-3.2.8.tar.gz tmp/biogeme-3.2.9.tar.gz --markdown 20230805/b/biogeme/3.2.8-3.2.9/diff.md --exclude *.pyd
+[2023-08-05 17:33:34] INFO root fetch - processPackages [glinski]: Remove: archive file [/home/abi/fetcher/tmp/glinski-0.0.0.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - processPackages [glinski]: Remove: archive file [/home/abi/fetcher/tmp/glinski-0.0.1.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - main [MainThread]: End processing [glinski]: success
+[2023-08-05 17:33:34] INFO root fetch - processPackages [PySiglent-SSA3000x]: Remove: archive file [/home/abi/fetcher/tmp/PySiglent_SSA3000x-0.3.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - processPackages [PySiglent-SSA3000x]: Remove: archive file [/home/abi/fetcher/tmp/PySiglent_SSA3000x-0.4.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - main [MainThread]: End processing [PySiglent-SSA3000x]: success
+[2023-08-05 17:33:34] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.98-py3-none-any.whl.zip]
+[2023-08-05 17:33:34] INFO root fetch - processPackages [mynacode]: Remove: archive file [/home/abi/fetcher/tmp/mynacode-1.0.99-py3-none-any.whl.zip]
+[2023-08-05 17:33:34] INFO root fetch - main [MainThread]: End processing [mynacode]: success
+[2023-08-05 17:33:34] INFO root fetch - processPackages [portchoice]: Remove: archive file [/home/abi/fetcher/tmp/portchoice-0.3.2.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - processPackages [portchoice]: Remove: archive file [/home/abi/fetcher/tmp/portchoice-0.3.3.tar.gz]
+[2023-08-05 17:33:34] INFO root fetch - main [MainThread]: End processing [portchoice]: success
+[2023-08-05 17:33:35] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.8.3.tar.gz]
+[2023-08-05 17:33:35] INFO root fetch - processPackages [mknodes]: Remove: archive file [/home/abi/fetcher/tmp/mknodes-0.9.0.tar.gz]
+[2023-08-05 17:33:35] INFO root fetch - main [MainThread]: End processing [mknodes]: success
+[2023-08-05 17:33:52] INFO root fetch - processPackages [biogeme]: Remove: archive file [/home/abi/fetcher/tmp/biogeme-3.2.8.tar.gz]
+[2023-08-05 17:33:52] INFO root fetch - processPackages [biogeme]: Remove: archive file [/home/abi/fetcher/tmp/biogeme-3.2.9.tar.gz]
+[2023-08-05 17:33:52] INFO root fetch - main [MainThread]: End processing [biogeme]: success
+[2023-08-05 17:33:52] INFO root fetch - main [MainThread]: Store serial: [19187487]
