@@ -14524,3 +14524,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:17:59] INFO root fetch - processPackages [litestar]: Remove: archive file [/home/abi/fetcher/tmp/litestar-2.0.0rc1.tar.gz]
 [2023-08-05 17:17:59] INFO root fetch - main [MainThread]: End processing [litestar]: success
 [2023-08-05 17:17:59] INFO root fetch - main [MainThread]: Store serial: [19187391]
+[2023-08-05 17:23:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187391]
+[2023-08-05 17:23:08] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidy-dir
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: statprocon
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: funda-scraper
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logical-rush
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tja2fumen
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: successfactors-auth
+[2023-08-05 17:23:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: riskmodels
+[2023-08-05 17:23:08] INFO root fetch - processPackages [funda-scraper]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-08-05 17:23:08] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 17:23:08] WARNING root fetch - processPackages [tidy-dir]: Skipping, unable to determine old version
+[2023-08-05 17:23:08] INFO root fetch - main [MainThread]: End processing [tidy-dir] error
+[2023-08-05 17:23:08] INFO root fetch - processPackages [riskmodels]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-05 17:23:08] INFO root fetch - processPackages [statprocon]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-05 17:23:08] WARNING root fetch - processPackages [logical-rush]: Skipping, unable to determine old version
+[2023-08-05 17:23:08] INFO root fetch - main [MainThread]: End processing [logical-rush] error
+[2023-08-05 17:23:08] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/83/16/06ddbd12e8d83fcb705b9261aa5b89a9068489370a3f708544f0f6d93d19/funda_scraper-0.0.3-py3.8.egg
+[2023-08-05 17:23:08] WARNING root fetch - processPackages [successfactors-auth]: Skipping, unable to determine old version
+[2023-08-05 17:23:08] INFO root fetch - main [MainThread]: End processing [successfactors-auth] error
+[2023-08-05 17:23:08] INFO root fetch - processPackages [tja2fumen]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-05 17:23:08] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-05 17:23:08] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/68/fc/1a91c3a440b5ddbf1c35af25af4c0016273d104a76c930b19ee0b0fbdd2b/statprocon-0.1.1.tar.gz
+[2023-08-05 17:23:08] INFO root fetch - processPackages [riskmodels]: Downloading https://files.pythonhosted.org/packages/29/c7/6aeb4a033ced81a24795e7599104b1e7a6d3d2f67d109526f7bb4161b5df/riskmodels-2.1.0.tar.gz
+[2023-08-05 17:23:08] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/2a/a0/8e780a8389284977560795d334b5c8867f6224d87fb8f616c130e6b8a897/tja2fumen-0.6.0.tar.gz
+[2023-08-05 17:23:08] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-05 17:23:08] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/3c/9c/b7b068f09eadf43eeee6f54e08594667e555dea0a704c6adbd9521c22e42/funda-scraper-1.0.0.tar.gz
+[2023-08-05 17:23:08] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-05 17:23:08] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230805/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 17:23:08] INFO root fetch - processPackages [funda-scraper]: executing diffoscope
+[2023-08-05 17:23:08] INFO root fetch - processPackages [funda-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funda_scraper-0.0.3-py3.8.egg tmp/funda-scraper-1.0.0.tar.gz --markdown 20230805/f/funda-scraper/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 17:23:09] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/d6/57/93d4632f63a59f7fe7bd0deb4a0d5e3cd98eced1ee56af85457bd0774851/statprocon-0.2.0.tar.gz
+[2023-08-05 17:23:09] INFO root fetch - processPackages [tja2fumen]: Downloading https://files.pythonhosted.org/packages/83/8d/a48ad6722b696132cd26d61ab7ddb7ce686be5a7b11f17493436b1c7c65b/tja2fumen-0.6.1.tar.gz
+[2023-08-05 17:23:09] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-08-05 17:23:09] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.1.1.tar.gz tmp/statprocon-0.2.0.tar.gz --markdown 20230805/s/statprocon/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 17:23:09] INFO root fetch - processPackages [tja2fumen]: executing diffoscope
+[2023-08-05 17:23:09] INFO root fetch - processPackages [tja2fumen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tja2fumen-0.6.0.tar.gz tmp/tja2fumen-0.6.1.tar.gz --markdown 20230805/t/tja2fumen/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-05 17:23:09] INFO root fetch - processPackages [riskmodels]: Downloading https://files.pythonhosted.org/packages/eb/64/32caeb5cdff80834efcf31e61fb448e622548833f2544685f6d89da4b2af/riskmodels-2.2.0.tar.gz
+[2023-08-05 17:23:09] INFO root fetch - processPackages [riskmodels]: executing diffoscope
+[2023-08-05 17:23:09] INFO root fetch - processPackages [riskmodels]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/riskmodels-2.1.0.tar.gz tmp/riskmodels-2.2.0.tar.gz --markdown 20230805/r/riskmodels/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-05 17:23:09] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda_scraper-0.0.3-py3.8.egg]
+[2023-08-05 17:23:09] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.0.tar.gz]
+[2023-08-05 17:23:09] INFO root fetch - main [MainThread]: End processing [funda-scraper]: success
+[2023-08-05 17:23:10] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-05 17:23:10] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.1.1.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.2.0.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-08-05 17:23:10] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.6.0.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - processPackages [tja2fumen]: Remove: archive file [/home/abi/fetcher/tmp/tja2fumen-0.6.1.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - main [MainThread]: End processing [tja2fumen]: success
+[2023-08-05 17:23:10] INFO root fetch - processPackages [riskmodels]: Remove: archive file [/home/abi/fetcher/tmp/riskmodels-2.1.0.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - processPackages [riskmodels]: Remove: archive file [/home/abi/fetcher/tmp/riskmodels-2.2.0.tar.gz]
+[2023-08-05 17:23:10] INFO root fetch - main [MainThread]: End processing [riskmodels]: success
+[2023-08-05 17:23:10] INFO root fetch - main [MainThread]: Store serial: [19187419]
