@@ -6621,3 +6621,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 04:17:38] INFO root fetch - processPackages [threemystic-cloud-data-client]: Remove: archive file [/home/abi/fetcher/tmp/threemystic_cloud_data_client-0.1.70.tar.gz]
 [2023-08-05 04:17:38] INFO root fetch - main [MainThread]: End processing [threemystic-cloud-data-client]: success
 [2023-08-05 04:17:38] INFO root fetch - main [MainThread]: Store serial: [19183717]
+[2023-08-05 04:22:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183717]
+[2023-08-05 04:22:47] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iam-actions
+[2023-08-05 04:22:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kkpyutil
+[2023-08-05 04:22:47] INFO root fetch - processPackages [iam-actions]: New version: [1.2.20230804] Old Version: [1.2.20230803]
+[2023-08-05 04:22:47] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/13/71/83bffd5881bc8ba1a82aecfd1af01ab70b29aa18103805cfbf35196528e2/iam_actions-1.2.20230803.tar.gz
+[2023-08-05 04:22:47] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-08-05 04:22:48] INFO root fetch - processPackages [iam-actions]: Downloading https://files.pythonhosted.org/packages/c2/34/7675c88ab61271ddcc807f57f7cbe56025e95a3011f447c23fb29a1ae2a4/iam_actions-1.2.20230804.tar.gz
+[2023-08-05 04:22:48] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-08-05 04:22:48] INFO root fetch - processPackages [iam-actions]: executing diffoscope
+[2023-08-05 04:22:48] INFO root fetch - processPackages [iam-actions]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iam_actions-1.2.20230803.tar.gz tmp/iam_actions-1.2.20230804.tar.gz --markdown 20230805/i/iam-actions/1.2.20230803-1.2.20230804/diff.md --exclude *.pyd
+[2023-08-05 04:22:48] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-08-05 04:22:48] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-08-05 04:22:48] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230805/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-08-05 04:22:49] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-08-05 04:22:49] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-08-05 04:22:49] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-08-05 04:22:53] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230803.tar.gz]
+[2023-08-05 04:22:53] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230804.tar.gz]
+[2023-08-05 04:22:53] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
+[2023-08-05 04:22:53] INFO root fetch - main [MainThread]: Store serial: [19183732]
