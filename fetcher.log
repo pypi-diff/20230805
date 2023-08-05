@@ -17020,3 +17020,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:44:32] INFO root fetch - processPackages [movingpandas]: Remove: archive file [/home/abi/fetcher/tmp/movingpandas-0.9rc3.tar.gz]
 [2023-08-05 20:44:32] INFO root fetch - main [MainThread]: End processing [movingpandas]: success
 [2023-08-05 20:44:32] INFO root fetch - main [MainThread]: Store serial: [19188552]
+[2023-08-05 20:49:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188552]
+[2023-08-05 20:49:41] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolibri-ml
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-api-info
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wechat-backup
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pca
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: s3kv
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gwsnr
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ctransformers
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: upload-machine
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: bSuite-database
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ctransformers]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 20:49:41] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 20:49:41] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 20:49:41] WARNING root fetch - processPackages [s3kv]: Skipping, unable to determine old version
+[2023-08-05 20:49:41] INFO root fetch - main [MainThread]: End processing [s3kv] error
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/f8/b5/b244e28dbaa3006d70a3ce502e7ba862384f95cbd5df6718038b58d30bc9/ctransformers-0.2.8.tar.gz
+[2023-08-05 20:49:41] INFO root fetch - processPackages [wechat-backup]: New version: [2.0.0] Old Version: [0.1.0]
+[2023-08-05 20:49:41] INFO root fetch - processPackages [upload-machine]: New version: [0.0.8] Old Version: [0.0.71]
+[2023-08-05 20:49:41] WARNING root fetch - processPackages [bSuite-database]: Skipping, unable to determine old version
+[2023-08-05 20:49:41] INFO root fetch - main [MainThread]: End processing [bSuite-database] error
+[2023-08-05 20:49:41] INFO root fetch - processPackages [gwsnr]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 20:49:41] INFO root fetch - processPackages [pca]: New version: [2.0.4] Old Version: [2.0.3]
+[2023-08-05 20:49:41] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.80] Old Version: [1.1.8]
+[2023-08-05 20:49:41] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/9b/cc/06d46e49ec41d314f212660a4b7d97ec1aab2b0501c640ab42973cdbf2a4/upload_machine-0.0.71.tar.gz
+[2023-08-05 20:49:41] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-08-05 20:49:41] INFO root fetch - processPackages [pca]: Downloading https://files.pythonhosted.org/packages/e9/77/68374999cae23f3af5a68b79d0dcb71960ae94d9a2d34fab57467cf8a813/pca-2.0.3.tar.gz
+[2023-08-05 20:49:41] INFO root fetch - processPackages [wechat-backup]: Downloading https://files.pythonhosted.org/packages/41/63/eb4ed31786c52482e6103928c9ad0374f797bcaf0e2bc4ab064aba51a353/wechat_backup-0.1.0.tar.gz
+[2023-08-05 20:49:41] INFO root fetch - processPackages [gwsnr]: Downloading https://files.pythonhosted.org/packages/e6/5f/b97a12b792ac72bc3b94ea9c966551e71cccd6320d8c251dbe2254cd5932/gwsnr-0.1.2.tar.gz
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ctransformers]: Downloading https://files.pythonhosted.org/packages/6c/6a/51fe0e5f1a8aa79becd03dc0b6c195896d7c8eddfae48dd1190c1c0b7710/ctransformers-0.2.9.tar.gz
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ctransformers]: executing diffoscope
+[2023-08-05 20:49:41] INFO root fetch - processPackages [ctransformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ctransformers-0.2.8.tar.gz tmp/ctransformers-0.2.9.tar.gz --markdown 20230805/c/ctransformers/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 20:49:42] INFO root fetch - processPackages [pca]: Downloading https://files.pythonhosted.org/packages/99/b9/9450b6242e4a9de982dc24f52e75a98c71cf8010a2ea58e761e101bb96c4/pca-2.0.4.tar.gz
+[2023-08-05 20:49:42] INFO root fetch - processPackages [gwsnr]: Downloading https://files.pythonhosted.org/packages/9c/60/fbdc2ff3c8b3c73dd89b6a0570bd357ef38d673c7b66a7159b40aebb86f6/gwsnr-0.1.3.tar.gz
+[2023-08-05 20:49:42] INFO root fetch - processPackages [upload-machine]: Downloading https://files.pythonhosted.org/packages/64/65/84b4bf4f46e9d5a30af7a84e38f824d36e5ee389378c67b46ac6158af024/upload_machine-0.0.8.tar.gz
+[2023-08-05 20:49:42] INFO root fetch - processPackages [wechat-backup]: Downloading https://files.pythonhosted.org/packages/9e/77/a891f638f168a7849b1466a6e60705f9ce31c926913b25d6844c48bad0b8/wechat_backup-2.0.0.tar.gz
+[2023-08-05 20:49:42] INFO root fetch - processPackages [pca]: executing diffoscope
+[2023-08-05 20:49:42] INFO root fetch - processPackages [pca]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pca-2.0.3.tar.gz tmp/pca-2.0.4.tar.gz --markdown 20230805/p/pca/2.0.3-2.0.4/diff.md --exclude *.pyd
+[2023-08-05 20:49:42] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/83/ac/cd6af3458cf0e4f8c9d6d58751ebe634b9442e1e9c2734b2369da8529650/kolibri_ml-1.1.80-py3-none-any.whl
+[2023-08-05 20:49:42] INFO root fetch - processPackages [gwsnr]: executing diffoscope
+[2023-08-05 20:49:42] INFO root fetch - processPackages [gwsnr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gwsnr-0.1.2.tar.gz tmp/gwsnr-0.1.3.tar.gz --markdown 20230805/g/gwsnr/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 20:49:42] INFO root fetch - processPackages [upload-machine]: executing diffoscope
+[2023-08-05 20:49:42] INFO root fetch - processPackages [upload-machine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/upload_machine-0.0.71.tar.gz tmp/upload_machine-0.0.8.tar.gz --markdown 20230805/u/upload-machine/0.0.71-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 20:49:42] INFO root fetch - processPackages [wechat-backup]: executing diffoscope
+[2023-08-05 20:49:42] INFO root fetch - processPackages [wechat-backup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wechat_backup-0.1.0.tar.gz tmp/wechat_backup-2.0.0.tar.gz --markdown 20230805/w/wechat-backup/0.1.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-05 20:49:42] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-05 20:49:42] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip tmp/kolibri_ml-1.1.80-py3-none-any.whl.zip --markdown 20230805/k/kolibri-ml/1.1.8-1.1.80/diff.md --exclude *.pyd
+[2023-08-05 20:49:43] INFO root fetch - processPackages [gwsnr]: Remove: archive file [/home/abi/fetcher/tmp/gwsnr-0.1.2.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - processPackages [gwsnr]: Remove: archive file [/home/abi/fetcher/tmp/gwsnr-0.1.3.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - main [MainThread]: End processing [gwsnr]: success
+[2023-08-05 20:49:43] INFO root fetch - processPackages [pca]: Remove: archive file [/home/abi/fetcher/tmp/pca-2.0.3.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - processPackages [pca]: Remove: archive file [/home/abi/fetcher/tmp/pca-2.0.4.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - main [MainThread]: End processing [pca]: success
+[2023-08-05 20:49:43] INFO root fetch - processPackages [wechat-backup]: Remove: archive file [/home/abi/fetcher/tmp/wechat_backup-0.1.0.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - processPackages [wechat-backup]: Remove: archive file [/home/abi/fetcher/tmp/wechat_backup-2.0.0.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - main [MainThread]: End processing [wechat-backup]: success
+[2023-08-05 20:49:43] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.8.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - processPackages [ctransformers]: Remove: archive file [/home/abi/fetcher/tmp/ctransformers-0.2.9.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - main [MainThread]: End processing [ctransformers]: success
+[2023-08-05 20:49:43] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.71.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - processPackages [upload-machine]: Remove: archive file [/home/abi/fetcher/tmp/upload_machine-0.0.8.tar.gz]
+[2023-08-05 20:49:43] INFO root fetch - main [MainThread]: End processing [upload-machine]: success
+[2023-08-05 20:49:45] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-08-05 20:49:45] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.80-py3-none-any.whl.zip]
+[2023-08-05 20:49:45] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-05 20:49:45] INFO root fetch - main [MainThread]: Store serial: [19188578]
