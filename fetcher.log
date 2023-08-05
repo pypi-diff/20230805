@@ -14237,3 +14237,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:57:09] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
 [2023-08-05 16:57:09] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
 [2023-08-05 16:57:09] INFO root fetch - main [MainThread]: Store serial: [19187229]
+[2023-08-05 17:02:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187229]
+[2023-08-05 17:02:17] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pysensibo
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: FlagEmbedding
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Thugstools
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moneycontrol-api
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk-fargate-run-task
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kkpyutil
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: C-MTEB
+[2023-08-05 17:02:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: tremolo
+[2023-08-05 17:02:17] INFO root fetch - processPackages [tremolo]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 17:02:17] INFO root fetch - processPackages [moneycontrol-api]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-05 17:02:17] WARNING root fetch - processPackages [Thugstools]: Skipping, unable to determine old version
+[2023-08-05 17:02:17] INFO root fetch - main [MainThread]: End processing [Thugstools] error
+[2023-08-05 17:02:18] INFO root fetch - processPackages [pysensibo]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-05 17:02:18] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/17/91/55df15a00968bc570dc929dde0d884467bd21d9f1dc571df2cf31ad3d9c0/tremolo-0.0.98.tar.gz
+[2023-08-05 17:02:18] WARNING root fetch - processPackages [FlagEmbedding]: Skipping, unable to determine old version
+[2023-08-05 17:02:18] INFO root fetch - main [MainThread]: End processing [FlagEmbedding] error
+[2023-08-05 17:02:18] INFO root fetch - processPackages [moneycontrol-api]: Downloading https://files.pythonhosted.org/packages/7b/3c/bbc831516fa7da68dff2e9ed36b1e3e5ccded1791eb3418bb2def46d8dda/moneycontrol_api-1.1.1.tar.gz
+[2023-08-05 17:02:18] WARNING root fetch - processPackages [C-MTEB]: Skipping, unable to determine old version
+[2023-08-05 17:02:18] INFO root fetch - main [MainThread]: End processing [C-MTEB] error
+[2023-08-05 17:02:18] INFO root fetch - processPackages [kkpyutil]: New version: [0.99.1] Old Version: [0.99.0]
+[2023-08-05 17:02:18] INFO root fetch - processPackages [cdk-fargate-run-task]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-05 17:02:18] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/fd/24/affb7fe4496d087c3b175a07aae0ea898dcf008ef4be91f51a39e9000c24/kkpyutil-0.99.0.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/af/4c/8116c33c00bca7b5a5fff60756f8391e12b67b1d1e5ef744286e16a99e08/pysensibo-1.0.8.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [cdk-fargate-run-task]: Downloading https://files.pythonhosted.org/packages/84/d2/8d029d82c7d4579316b99c006828dd64a53939c9be8431cf6b9e34caa15a/cdk-fargate-run-task-2.0.98.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [moneycontrol-api]: Downloading https://files.pythonhosted.org/packages/be/0d/1e3ff622b2a9f869009b4fe1404a927afbeb501b0b384ad46f2a665c960a/moneycontrol_api-1.1.2.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [tremolo]: Downloading https://files.pythonhosted.org/packages/9d/1f/2855765591f7f7e3122f1fde84cd87b5ded8131578ba6b246fe07394c77b/tremolo-0.0.99.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [kkpyutil]: Downloading https://files.pythonhosted.org/packages/55/42/485d53cc78b791f1dd32900d05d05c1a2070176870f678253c86b332956b/kkpyutil-0.99.1.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [moneycontrol-api]: executing diffoscope
+[2023-08-05 17:02:18] INFO root fetch - processPackages [moneycontrol-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneycontrol_api-1.1.1.tar.gz tmp/moneycontrol_api-1.1.2.tar.gz --markdown 20230805/m/moneycontrol-api/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-05 17:02:18] INFO root fetch - processPackages [kkpyutil]: executing diffoscope
+[2023-08-05 17:02:18] INFO root fetch - processPackages [kkpyutil]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kkpyutil-0.99.0.tar.gz tmp/kkpyutil-0.99.1.tar.gz --markdown 20230805/k/kkpyutil/0.99.0-0.99.1/diff.md --exclude *.pyd
+[2023-08-05 17:02:18] INFO root fetch - processPackages [tremolo]: executing diffoscope
+[2023-08-05 17:02:18] INFO root fetch - processPackages [tremolo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tremolo-0.0.98.tar.gz tmp/tremolo-0.0.99.tar.gz --markdown 20230805/t/tremolo/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 17:02:18] INFO root fetch - processPackages [pysensibo]: Downloading https://files.pythonhosted.org/packages/74/b9/30a2c00590d3482692d7b5e8d6094384f519992a13ae674c69db37cdd068/pysensibo-1.0.9.tar.gz
+[2023-08-05 17:02:18] INFO root fetch - processPackages [pysensibo]: executing diffoscope
+[2023-08-05 17:02:18] INFO root fetch - processPackages [pysensibo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysensibo-1.0.8.tar.gz tmp/pysensibo-1.0.9.tar.gz --markdown 20230805/p/pysensibo/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-05 17:02:19] INFO root fetch - processPackages [cdk-fargate-run-task]: Downloading https://files.pythonhosted.org/packages/af/42/dfe42643d9aaeb9588255aeea326e5372008d92d7dc93cc76da5ffc44131/cdk-fargate-run-task-2.0.99.tar.gz
+[2023-08-05 17:02:19] INFO root fetch - processPackages [moneycontrol-api]: Remove: archive file [/home/abi/fetcher/tmp/moneycontrol_api-1.1.1.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - processPackages [moneycontrol-api]: Remove: archive file [/home/abi/fetcher/tmp/moneycontrol_api-1.1.2.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - main [MainThread]: End processing [moneycontrol-api]: success
+[2023-08-05 17:02:19] INFO root fetch - processPackages [cdk-fargate-run-task]: executing diffoscope
+[2023-08-05 17:02:19] INFO root fetch - processPackages [cdk-fargate-run-task]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-fargate-run-task-2.0.98.tar.gz tmp/cdk-fargate-run-task-2.0.99.tar.gz --markdown 20230805/c/cdk-fargate-run-task/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-05 17:02:19] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.0.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - processPackages [kkpyutil]: Remove: archive file [/home/abi/fetcher/tmp/kkpyutil-0.99.1.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - main [MainThread]: End processing [kkpyutil]: success
+[2023-08-05 17:02:19] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.98.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - processPackages [tremolo]: Remove: archive file [/home/abi/fetcher/tmp/tremolo-0.0.99.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - main [MainThread]: End processing [tremolo]: success
+[2023-08-05 17:02:19] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.8.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - processPackages [pysensibo]: Remove: archive file [/home/abi/fetcher/tmp/pysensibo-1.0.9.tar.gz]
+[2023-08-05 17:02:19] INFO root fetch - main [MainThread]: End processing [pysensibo]: success
+[2023-08-05 17:02:20] INFO root fetch - processPackages [cdk-fargate-run-task]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fargate-run-task-2.0.98.tar.gz]
+[2023-08-05 17:02:20] INFO root fetch - processPackages [cdk-fargate-run-task]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fargate-run-task-2.0.99.tar.gz]
+[2023-08-05 17:02:20] INFO root fetch - main [MainThread]: End processing [cdk-fargate-run-task]: success
+[2023-08-05 17:02:20] INFO root fetch - main [MainThread]: Store serial: [19187258]
