@@ -7675,3 +7675,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 05:54:01] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.8.tar.gz]
 [2023-08-05 05:54:01] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
 [2023-08-05 05:54:01] INFO root fetch - main [MainThread]: Store serial: [19184134]
+[2023-08-05 05:59:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184134]
+[2023-08-05 05:59:10] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-html
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-html
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ebcdic-parser
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tybase
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bliss-toolkit
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasette-sqlite-lines
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-lines
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sqlite-utils-sqlite-lines
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: microformats
+[2023-08-05 05:59:10] INFO root fetch - processPackages [tybase]: New version: [0.2.5] Old Version: [0.2.4]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [datasette-sqlite-html]: New version: [0.1.2a8] Old Version: [0.1.2a7]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [datasette-sqlite-lines]: New version: [0.2.1a1] Old Version: [0.2.0a6]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/e8/4e/f854567ee164d7d397577368d89142ff10c90aa94e0086294b66a6118f8e/tybase-0.2.4.tar.gz
+[2023-08-05 05:59:10] INFO root fetch - processPackages [microformats]: New version: [0.3.5] Old Version: [0.3.4]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [sqlite-lines]: New version: [0.2.1a1] Old Version: [0.2.0a6]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [sqlite-html]: New version: [0.1.2a8] Old Version: [0.1.2a7]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ebcdic-parser]: New version: [3.2.0] Old Version: [3.1.0]
+[2023-08-05 05:59:10] WARNING root fetch - processPackages [bliss-toolkit]: Skipping, unable to determine old version
+[2023-08-05 05:59:10] INFO root fetch - main [MainThread]: End processing [bliss-toolkit] error
+[2023-08-05 05:59:10] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: New version: [0.2.1a1] Old Version: [0.2.0a6]
+[2023-08-05 05:59:10] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/fa/64/519a60604f470d9e4593ef935d20b4c3728cc5e4497096cce486b85606ba/datasette_sqlite_lines-0.2.0a6-py3-none-any.whl
+[2023-08-05 05:59:10] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/2f/f2/6241e9243be74c73f9868e6d20a04a1add34e0a23ae3ad4f4aa04537cd22/datasette_sqlite_html-0.1.2a7-py3-none-any.whl
+[2023-08-05 05:59:10] INFO root fetch - processPackages [ebcdic-parser]: Downloading https://files.pythonhosted.org/packages/b7/f1/036b2c96746eec466b7fc004bca89ee37ef1d28d1b4c6b9e0f17ef3af7ea/ebcdic_parser-3.1.0.tar.gz
+[2023-08-05 05:59:10] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/36/9f/c718eeeca2d6cdf902641580493b1ff5baceb12d01165839da31cb3c9486/sqlite_html-0.1.2a7-py3-none-win_amd64.whl
+[2023-08-05 05:59:10] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/a5/f8/01ccbe99d79524a36b74906e2bc344777d72591b7d8c9efa277d3107e9f6/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-05 05:59:10] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/53/9c/c1b825bdd1f8408c3a3b1972c0e1dcc3fb569b71c083a57f9f0584e14462/sqlite_utils_sqlite_lines-0.2.0a6-py3-none-any.whl
+[2023-08-05 05:59:10] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/a7/7d/e80d21e470123c318e4c1f96dc4cdbe2e7bc9f76ddd98581ec10feff156b/tybase-0.2.5.tar.gz
+[2023-08-05 05:59:10] INFO root fetch - processPackages [microformats]: Downloading https://files.pythonhosted.org/packages/fb/e5/c93ef716bbb67209a937cc1b4e1b7a9fde16338a568fa4d802660ead9858/microformats-0.3.4.tar.gz
+[2023-08-05 05:59:11] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.2.4.tar.gz tmp/tybase-0.2.5.tar.gz --markdown 20230805/t/tybase/0.2.4-0.2.5/diff.md --exclude *.pyd
+[2023-08-05 05:59:11] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/83/92/f91984e26cd56f347ae064021bd16423ef351f2cafd5539c85dae86fa10c/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl
+[2023-08-05 05:59:11] INFO root fetch - processPackages [ebcdic-parser]: Downloading https://files.pythonhosted.org/packages/f6/ab/9c6be86fd3857d1d0eaff7e082de57fbe69f36a8ec1a189fcefc8faafc28/ebcdic_parser-3.2.0.tar.gz
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/9c/33/30b00959127f6aa687f490e7424634309e76e47cbc9238d781660b39a620/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-05 05:59:11] INFO root fetch - processPackages [datasette-sqlite-html]: Downloading https://files.pythonhosted.org/packages/09/25/692f000a54f896a4ee73fe2b13160c81aab1262624513bb88ffec823a2eb/datasette_sqlite_html-0.1.2a8-py3-none-any.whl
+[2023-08-05 05:59:11] INFO root fetch - processPackages [datasette-sqlite-lines]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [datasette-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_lines-0.2.0a6-py3-none-any.whl.zip tmp/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-lines/0.2.0a6-0.2.1a1/diff.md --exclude *.pyd
+[2023-08-05 05:59:11] INFO root fetch - processPackages [ebcdic-parser]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [ebcdic-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ebcdic_parser-3.1.0.tar.gz tmp/ebcdic_parser-3.2.0.tar.gz --markdown 20230805/e/ebcdic-parser/3.1.0-3.2.0/diff.md --exclude *.pyd
+[2023-08-05 05:59:11] INFO root fetch - processPackages [datasette-sqlite-html]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [datasette-sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_html-0.1.2a7-py3-none-any.whl.zip tmp/datasette_sqlite_html-0.1.2a8-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-html/0.1.2a7-0.1.2a8/diff.md --exclude *.pyd
+[2023-08-05 05:59:11] INFO root fetch - processPackages [microformats]: Downloading https://files.pythonhosted.org/packages/d7/fb/71fc8c13e686acdd35230cfc12a1410129cfb32d8fa2ba7083ef6df18efb/microformats-0.3.5.tar.gz
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-lines]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230805/s/sqlite-lines/0.2.0a6-0.2.1a1/diff.md --exclude *.pyd
+[2023-08-05 05:59:11] INFO root fetch - processPackages [microformats]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [microformats]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/microformats-0.3.4.tar.gz tmp/microformats-0.3.5.tar.gz --markdown 20230805/m/microformats/0.3.4-0.3.5/diff.md --exclude *.pyd
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/48/31/41e3b2075c6dc432da12788dd517bd3cefb7ef4c2b7b15527992c1a1edc6/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-html]: Downloading https://files.pythonhosted.org/packages/9c/59/def88633dcf456b37da006762bd22151998cfaff1af7b7824b36c26e65ee/sqlite_html-0.1.2a8-py3-none-win_amd64.whl
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: executing diffoscope
+[2023-08-05 05:59:11] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_lines-0.2.0a6-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl.zip --markdown 20230805/s/sqlite-utils-sqlite-lines/0.2.0a6-0.2.1a1/diff.md --exclude *.pyd
+[2023-08-05 05:59:12] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.4.tar.gz]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.5.tar.gz]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 05:59:12] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.0a6-py3-none-any.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-lines]: success
+[2023-08-05 05:59:12] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a7-py3-none-any.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [datasette-sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_html-0.1.2a8-py3-none-any.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-html]: success
+[2023-08-05 05:59:12] INFO root fetch - processPackages [ebcdic-parser]: Remove: archive file [/home/abi/fetcher/tmp/ebcdic_parser-3.1.0.tar.gz]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [ebcdic-parser]: Remove: archive file [/home/abi/fetcher/tmp/ebcdic_parser-3.2.0.tar.gz]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [ebcdic-parser]: success
+[2023-08-05 05:59:12] INFO root fetch - processPackages [sqlite-html]: executing diffoscope
+[2023-08-05 05:59:12] INFO root fetch - processPackages [sqlite-html]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_html-0.1.2a7-py3-none-win_amd64.whl.zip tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip --markdown 20230805/s/sqlite-html/0.1.2a7-0.1.2a8/diff.md --exclude *.pyd
+[2023-08-05 05:59:12] INFO root fetch - processPackages [microformats]: Remove: archive file [/home/abi/fetcher/tmp/microformats-0.3.4.tar.gz]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [microformats]: Remove: archive file [/home/abi/fetcher/tmp/microformats-0.3.5.tar.gz]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [microformats]: success
+[2023-08-05 05:59:12] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.0a6-py3-none-any.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-lines]: success
+[2023-08-05 05:59:12] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.0a6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-05 05:59:12] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
+[2023-08-05 06:01:05] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a7-py3-none-win_amd64.whl.zip]
+[2023-08-05 06:01:05] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip]
+[2023-08-05 06:01:05] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
+[2023-08-05 06:01:05] INFO root fetch - main [MainThread]: Store serial: [19184164]
