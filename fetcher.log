@@ -8045,3 +8045,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:32:42] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-2.0.0a2.tar.gz]
 [2023-08-05 06:32:42] INFO root fetch - main [MainThread]: End processing [sphinxnotes-lilypond]: success
 [2023-08-05 06:32:42] INFO root fetch - main [MainThread]: Store serial: [19184266]
+[2023-08-05 06:37:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184266]
+[2023-08-05 06:37:53] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 06:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyzard
+[2023-08-05 06:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DataRecorder
+[2023-08-05 06:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snowflake-connector-python-nightly
+[2023-08-05 06:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: startorch
+[2023-08-05 06:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: valveexe
+[2023-08-05 06:37:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: opendp
+[2023-08-05 06:37:53] WARNING root fetch - processPackages [pyzard]: Skipping, unable to determine old version
+[2023-08-05 06:37:53] INFO root fetch - main [MainThread]: End processing [pyzard] error
+[2023-08-05 06:37:53] INFO root fetch - processPackages [opendp]: New version: [0.8.0a20230803001] Old Version: [0.8.0a20230727001]
+[2023-08-05 06:37:53] INFO root fetch - processPackages [opendp]: Downloading https://files.pythonhosted.org/packages/7a/28/dfaf76f556079bb0fd1947bfdf812281a8c722c657c98f03d28c3582f109/opendp-0.8.0a20230727001-py3-none-any.whl
+[2023-08-05 06:37:53] INFO root fetch - processPackages [valveexe]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-05 06:37:53] INFO root fetch - processPackages [DataRecorder]: New version: [3.4.1] Old Version: [3.4.0]
+[2023-08-05 06:37:53] INFO root fetch - processPackages [startorch]: New version: [0.0.2] Old Version: [0.0.1a8]
+[2023-08-05 06:37:53] INFO root fetch - processPackages [snowflake-connector-python-nightly]: New version: [2023.8.5] Old Version: [2023.8.1]
+[2023-08-05 06:37:53] INFO root fetch - processPackages [valveexe]: Downloading https://files.pythonhosted.org/packages/b7/b5/9a38ccf8c6d028bcfdbdf8f97cf7a3311032fe9ace5c47db160c377b469a/valveexe-0.1.1.tar.gz
+[2023-08-05 06:37:53] INFO root fetch - processPackages [startorch]: Downloading https://files.pythonhosted.org/packages/af/39/558f1ac468f6afd992c1a026fef7f47e3e97e81bc760b807fb503338e9e4/startorch-0.0.1a8.tar.gz
+[2023-08-05 06:37:53] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/6f/69/8c6784d462c67252fb2ae17ddf6581a1639896d3def2f6ebf019d79866f5/snowflake-connector-python-nightly-2023.8.1.tar.gz
+[2023-08-05 06:37:53] INFO root fetch - processPackages [DataRecorder]: Downloading https://files.pythonhosted.org/packages/8d/5a/b67ba1c21bc182fc7d58f928b7710c5b452909e6b225ccd93bec1efddf50/DataRecorder-3.4.0.tar.gz
+[2023-08-05 06:37:54] WARNING root fetch - processPackages [opendp]: Skipping package: exceeds size limit 29305765>=10485760
+[2023-08-05 06:37:54] INFO root fetch - main [MainThread]: End processing [opendp] error
+[2023-08-05 06:37:54] INFO root fetch - processPackages [valveexe]: Downloading https://files.pythonhosted.org/packages/0b/2c/672b2e5fe2e6c3f781732b8f414d0ab2d03efb530a1c8294f5c1fc442983/valveexe-0.1.3.tar.gz
+[2023-08-05 06:37:54] INFO root fetch - processPackages [startorch]: Downloading https://files.pythonhosted.org/packages/ac/09/5541326c3bf2e6f0860b2806ab4d8df7887f3230a225f507950a15312c42/startorch-0.0.2.tar.gz
+[2023-08-05 06:37:54] INFO root fetch - processPackages [DataRecorder]: Downloading https://files.pythonhosted.org/packages/f3/cb/f39ab46bb8f5bd0e319628fca37098910d34f9220a67c6f071e078713683/DataRecorder-3.4.1.tar.gz
+[2023-08-05 06:37:54] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Downloading https://files.pythonhosted.org/packages/1c/f9/a0de4473259aace51832823b9db6a3f2e072b554c4353f02ea0e4ca35c6a/snowflake-connector-python-nightly-2023.8.5.tar.gz
+[2023-08-05 06:37:54] INFO root fetch - processPackages [valveexe]: executing diffoscope
+[2023-08-05 06:37:54] INFO root fetch - processPackages [valveexe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valveexe-0.1.1.tar.gz tmp/valveexe-0.1.3.tar.gz --markdown 20230805/v/valveexe/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 06:37:54] INFO root fetch - processPackages [startorch]: executing diffoscope
+[2023-08-05 06:37:54] INFO root fetch - processPackages [startorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/startorch-0.0.1a8.tar.gz tmp/startorch-0.0.2.tar.gz --markdown 20230805/s/startorch/0.0.1a8-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 06:37:54] INFO root fetch - processPackages [DataRecorder]: executing diffoscope
+[2023-08-05 06:37:54] INFO root fetch - processPackages [DataRecorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DataRecorder-3.4.0.tar.gz tmp/DataRecorder-3.4.1.tar.gz --markdown 20230805/D/DataRecorder/3.4.0-3.4.1/diff.md --exclude *.pyd
+[2023-08-05 06:37:54] INFO root fetch - processPackages [snowflake-connector-python-nightly]: executing diffoscope
+[2023-08-05 06:37:54] INFO root fetch - processPackages [snowflake-connector-python-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snowflake-connector-python-nightly-2023.8.1.tar.gz tmp/snowflake-connector-python-nightly-2023.8.5.tar.gz --markdown 20230805/s/snowflake-connector-python-nightly/2023.8.1-2023.8.5/diff.md --exclude *.pyd
+[2023-08-05 06:37:55] INFO root fetch - processPackages [valveexe]: Remove: archive file [/home/abi/fetcher/tmp/valveexe-0.1.1.tar.gz]
+[2023-08-05 06:37:55] INFO root fetch - processPackages [valveexe]: Remove: archive file [/home/abi/fetcher/tmp/valveexe-0.1.3.tar.gz]
+[2023-08-05 06:37:55] INFO root fetch - main [MainThread]: End processing [valveexe]: success
+[2023-08-05 06:37:55] INFO root fetch - processPackages [startorch]: Remove: archive file [/home/abi/fetcher/tmp/startorch-0.0.1a8.tar.gz]
+[2023-08-05 06:37:55] INFO root fetch - processPackages [startorch]: Remove: archive file [/home/abi/fetcher/tmp/startorch-0.0.2.tar.gz]
+[2023-08-05 06:37:55] INFO root fetch - main [MainThread]: End processing [startorch]: success
+[2023-08-05 06:37:55] INFO root fetch - processPackages [DataRecorder]: Remove: archive file [/home/abi/fetcher/tmp/DataRecorder-3.4.0.tar.gz]
+[2023-08-05 06:37:55] INFO root fetch - processPackages [DataRecorder]: Remove: archive file [/home/abi/fetcher/tmp/DataRecorder-3.4.1.tar.gz]
+[2023-08-05 06:37:55] INFO root fetch - main [MainThread]: End processing [DataRecorder]: success
+[2023-08-05 06:37:56] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.8.1.tar.gz]
+[2023-08-05 06:37:56] INFO root fetch - processPackages [snowflake-connector-python-nightly]: Remove: archive file [/home/abi/fetcher/tmp/snowflake-connector-python-nightly-2023.8.5.tar.gz]
+[2023-08-05 06:37:56] INFO root fetch - main [MainThread]: End processing [snowflake-connector-python-nightly]: success
+[2023-08-05 06:37:56] INFO root fetch - main [MainThread]: Store serial: [19184308]
