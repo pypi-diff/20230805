@@ -14971,3 +14971,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:54:43] INFO root fetch - processPackages [ccxt]: Remove: archive file [/home/abi/fetcher/tmp/ccxt-4.0.9.tar.gz]
 [2023-08-05 17:54:43] INFO root fetch - main [MainThread]: End processing [ccxt]: success
 [2023-08-05 17:54:43] INFO root fetch - main [MainThread]: Store serial: [19187638]
+[2023-08-05 17:59:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187638]
+[2023-08-05 17:59:52] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ddqla
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: paquo
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dragonion
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: chi-drm
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: datkit
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: service-person-stamdata-udvidet
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: PPP-Language-Translater
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gpt4all-code-review
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: sedaro
+[2023-08-05 17:59:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: absl-extra
+[2023-08-05 17:59:53] INFO root fetch - processPackages [ddqla]: New version: [0.1.22] Old Version: [0.1.15]
+[2023-08-05 17:59:53] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.12] Old Version: [0.11]
+[2023-08-05 17:59:53] INFO root fetch - processPackages [paquo]: New version: [0.7.1] Old Version: [0.7.0]
+[2023-08-05 17:59:53] INFO root fetch - processPackages [absl-extra]: New version: [0.0.3.dev8] Old Version: [0.0.3.dev7]
+[2023-08-05 17:59:53] INFO root fetch - processPackages [ddqla]: Downloading https://files.pythonhosted.org/packages/a8/ad/873ac3dc2a74801ad6bece04c15149a5f250a20740403df7fe177daa70bf/ddqla-0.1.15.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [dragonion]: New version: [1.0.0] Old Version: [0.1.0rc4]
+[2023-08-05 17:59:53] WARNING root fetch - processPackages [service-person-stamdata-udvidet]: Skipping, unable to determine old version
+[2023-08-05 17:59:53] INFO root fetch - processPackages [service-person-stamdata-udvidet]: Start processing: wscribe
+[2023-08-05 17:59:53] INFO root fetch - main [MainThread]: End processing [service-person-stamdata-udvidet] error
+[2023-08-05 17:59:53] INFO root fetch - processPackages [sedaro]: New version: [4.5.2] Old Version: [4.3.2]
+[2023-08-05 17:59:53] WARNING root fetch - processPackages [PPP-Language-Translater]: Skipping, unable to determine old version
+[2023-08-05 17:59:53] INFO root fetch - main [MainThread]: End processing [PPP-Language-Translater] error
+[2023-08-05 17:59:53] INFO root fetch - processPackages [chi-drm]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-05 17:59:53] WARNING root fetch - processPackages [datkit]: Skipping, unable to determine old version
+[2023-08-05 17:59:53] INFO root fetch - main [MainThread]: End processing [datkit] error
+[2023-08-05 17:59:53] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/4b/2f/a84b67879f7fe703de9afd6bd148d8308fa0b12d8b453012863645cd6fc3/gpt4all-code-review-0.11.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [wscribe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 17:59:53] INFO root fetch - processPackages [paquo]: Downloading https://files.pythonhosted.org/packages/2a/38/b6cf4ac2335e890ee4b51d8ff2c947fcbc76cab2384d282e65e7cc391bc2/paquo-0.7.0.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/80/75/f2adcd56aba5d9faea5d957bf237c25bab0f329852477b3ec17a7439c2d2/dragonion-0.1.0rc4-py3-none-any.whl
+[2023-08-05 17:59:53] INFO root fetch - processPackages [sedaro]: Downloading https://files.pythonhosted.org/packages/aa/16/eb36dfc17bae73cc27889309563e7ddfad1e6ada7371c23037d50fa257ca/sedaro-4.3.2.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/ba/13/872a047082b2562ec847a5d5e13af650034a2c3bf81ad65a811944515f86/absl_extra-0.0.3.dev7.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [chi-drm]: Downloading https://files.pythonhosted.org/packages/4e/ce/2ada248221ae7c83bddaa57fc5e6428958c719a5821b8876f0fd397d012a/chi-drm-0.2.2.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [ddqla]: Downloading https://files.pythonhosted.org/packages/5d/1d/ac22972fd4b6dfe36e0753902eaa562d6c4eb394744b6ccf0ec872596ebc/ddqla-0.1.22.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/b2/fa/88bc11326a4c101c4604af22d7890247d0da7e345873a5f5e6e061c0ea3f/wscribe-0.1.0.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/26/92/b82867b462a439a7e39c87f8fa9cb2805f2d76f9b1f7f934b06e9771de93/gpt4all-code-review-0.12.tar.gz
+[2023-08-05 17:59:53] INFO root fetch - processPackages [ddqla]: executing diffoscope
+[2023-08-05 17:59:53] INFO root fetch - processPackages [ddqla]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ddqla-0.1.15.tar.gz tmp/ddqla-0.1.22.tar.gz --markdown 20230805/d/ddqla/0.1.15-0.1.22/diff.md --exclude *.pyd
+[2023-08-05 17:59:53] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-05 17:59:53] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.11.tar.gz tmp/gpt4all-code-review-0.12.tar.gz --markdown 20230805/g/gpt4all-code-review/0.11-0.12/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [paquo]: Downloading https://files.pythonhosted.org/packages/3e/74/54fe464ef12cfb3d7b8d41c930ec320545572c6ff517a0e9e3738940bf07/paquo-0.7.1.tar.gz
+[2023-08-05 17:59:54] INFO root fetch - processPackages [sedaro]: Downloading https://files.pythonhosted.org/packages/b2/3e/d0513f2b6f85481fe9804760b5edb67d72561e2877d5a27b3042623db7d1/sedaro-4.5.2.tar.gz
+[2023-08-05 17:59:54] INFO root fetch - processPackages [dragonion]: Downloading https://files.pythonhosted.org/packages/12/97/f34509f63ec9501767ce86fa0d3e341d13218dba1bdd4364a17a1b883bbd/dragonion-1.0.0-py3-none-any.whl
+[2023-08-05 17:59:54] INFO root fetch - processPackages [absl-extra]: Downloading https://files.pythonhosted.org/packages/b7/85/eadbb6b1ceb5d5f02f2f074ba780a3429473f84fb505f276d1d7c2476260/absl_extra-0.0.3.dev8.tar.gz
+[2023-08-05 17:59:54] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/9b/5b/7d5773343043c5f181d0fb37a5a8f8984dcdcb8d1970128eb2b85ebb2c83/wscribe-0.1.1.tar.gz
+[2023-08-05 17:59:54] INFO root fetch - processPackages [chi-drm]: Downloading https://files.pythonhosted.org/packages/9a/ca/d887c6a1a26023553c67cddc73c467ceaea12b160ae5f5a83695f3dafb40/chi-drm-0.2.3.tar.gz
+[2023-08-05 17:59:54] INFO root fetch - processPackages [paquo]: executing diffoscope
+[2023-08-05 17:59:54] INFO root fetch - processPackages [paquo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/paquo-0.7.0.tar.gz tmp/paquo-0.7.1.tar.gz --markdown 20230805/p/paquo/0.7.0-0.7.1/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [absl-extra]: executing diffoscope
+[2023-08-05 17:59:54] INFO root fetch - processPackages [absl-extra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/absl_extra-0.0.3.dev7.tar.gz tmp/absl_extra-0.0.3.dev8.tar.gz --markdown 20230805/a/absl-extra/0.0.3.dev7-0.0.3.dev8/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [sedaro]: executing diffoscope
+[2023-08-05 17:59:54] INFO root fetch - processPackages [sedaro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sedaro-4.3.2.tar.gz tmp/sedaro-4.5.2.tar.gz --markdown 20230805/s/sedaro/4.3.2-4.5.2/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [dragonion]: executing diffoscope
+[2023-08-05 17:59:54] INFO root fetch - processPackages [dragonion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dragonion-0.1.0rc4-py3-none-any.whl.zip tmp/dragonion-1.0.0-py3-none-any.whl.zip --markdown 20230805/d/dragonion/0.1.0rc4-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [chi-drm]: executing diffoscope
+[2023-08-05 17:59:54] INFO root fetch - processPackages [chi-drm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chi-drm-0.2.2.tar.gz tmp/chi-drm-0.2.3.tar.gz --markdown 20230805/c/chi-drm/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [wscribe]: executing diffoscope
+[2023-08-05 17:59:54] INFO root fetch - processPackages [wscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wscribe-0.1.0.tar.gz tmp/wscribe-0.1.1.tar.gz --markdown 20230805/w/wscribe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 17:59:54] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.11.tar.gz]
+[2023-08-05 17:59:54] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.12.tar.gz]
+[2023-08-05 17:59:54] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-05 17:59:54] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.15.tar.gz]
+[2023-08-05 17:59:54] INFO root fetch - processPackages [ddqla]: Remove: archive file [/home/abi/fetcher/tmp/ddqla-0.1.22.tar.gz]
+[2023-08-05 17:59:54] INFO root fetch - main [MainThread]: End processing [ddqla]: success
+[2023-08-05 17:59:55] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.3.dev7.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - processPackages [absl-extra]: Remove: archive file [/home/abi/fetcher/tmp/absl_extra-0.0.3.dev8.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - main [MainThread]: End processing [absl-extra]: success
+[2023-08-05 17:59:55] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.0.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.1.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - main [MainThread]: End processing [wscribe]: success
+[2023-08-05 17:59:55] INFO root fetch - processPackages [paquo]: Remove: archive file [/home/abi/fetcher/tmp/paquo-0.7.0.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - processPackages [paquo]: Remove: archive file [/home/abi/fetcher/tmp/paquo-0.7.1.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - main [MainThread]: End processing [paquo]: success
+[2023-08-05 17:59:55] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-0.1.0rc4-py3-none-any.whl.zip]
+[2023-08-05 17:59:55] INFO root fetch - processPackages [dragonion]: Remove: archive file [/home/abi/fetcher/tmp/dragonion-1.0.0-py3-none-any.whl.zip]
+[2023-08-05 17:59:55] INFO root fetch - main [MainThread]: End processing [dragonion]: success
+[2023-08-05 17:59:55] INFO root fetch - processPackages [chi-drm]: Remove: archive file [/home/abi/fetcher/tmp/chi-drm-0.2.2.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - processPackages [chi-drm]: Remove: archive file [/home/abi/fetcher/tmp/chi-drm-0.2.3.tar.gz]
+[2023-08-05 17:59:55] INFO root fetch - main [MainThread]: End processing [chi-drm]: success
+[2023-08-05 17:59:58] INFO root fetch - processPackages [sedaro]: Remove: archive file [/home/abi/fetcher/tmp/sedaro-4.3.2.tar.gz]
+[2023-08-05 17:59:58] INFO root fetch - processPackages [sedaro]: Remove: archive file [/home/abi/fetcher/tmp/sedaro-4.5.2.tar.gz]
+[2023-08-05 17:59:58] INFO root fetch - main [MainThread]: End processing [sedaro]: success
+[2023-08-05 17:59:58] INFO root fetch - main [MainThread]: Store serial: [19187681]
