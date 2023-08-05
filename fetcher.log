@@ -7144,3 +7144,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 05:15:21] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.8.tar.gz]
 [2023-08-05 05:15:21] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
 [2023-08-05 05:15:21] INFO root fetch - main [MainThread]: Store serial: [19183934]
+[2023-08-05 05:20:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183934]
+[2023-08-05 05:20:30] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: abinitostudio
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pulumi
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tybase
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: casechecking
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: terminal-manager
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo-addon-event-min-seat
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: odoo-addon-event-session
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-event
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: datasette-sqlite-path
+[2023-08-05 05:20:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: sqlite-path
+[2023-08-05 05:20:30] INFO root fetch - processPackages [tybase]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [sqlite-path]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [odoo-addon-event-min-seat]: New version: [15.0.1.0.0.4] Old Version: [15.0.1.0.0.3]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [odoo-addon-event-session]: New version: [16.0.1.0.0.7] Old Version: [16.0.1.0.0.5]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [terminal-manager]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [sqlite-path]: Downloading https://files.pythonhosted.org/packages/af/40/b1ac3868494a210ca157f82de6b7077b934dd56e55feef80a1370a47729d/sqlite_path-0.2.1a1-py3-none-win_amd64.whl
+[2023-08-05 05:20:30] INFO root fetch - processPackages [abinitostudio]: New version: [1.0.8] Old Version: [1.0.7]
+[2023-08-05 05:20:30] WARNING root fetch - processPackages [casechecking]: Skipping, unable to determine old version
+[2023-08-05 05:20:30] INFO root fetch - processPackages [odoo-addons-oca-event]: New version: [16.0.20230801.1] Old Version: [16.0.20230720.0]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [casechecking]: Start processing: sqlite-utils-sqlite-path
+[2023-08-05 05:20:30] INFO root fetch - main [MainThread]: End processing [casechecking] error
+[2023-08-05 05:20:30] INFO root fetch - processPackages [datasette-sqlite-path]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 05:20:30] INFO root fetch - processPackages [pulumi]: New version: [3.9.1] Old Version: [3.9.0a1627480147]
+[2023-08-05 05:20:31] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 05:20:31] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/24/f1/27de526105894485cb1b9cf9791a564fc53a5efa77883e0f6a699fda2582/tybase-0.2.3.tar.gz
+[2023-08-05 05:20:31] INFO root fetch - processPackages [datasette-sqlite-path]: Downloading https://files.pythonhosted.org/packages/6b/e4/258d8c0594b4184536710518897439a0f53e74ee5e0d1ae083aa1e097a1e/datasette_sqlite_path-0.2.1a1-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addon-event-min-seat]: Downloading https://files.pythonhosted.org/packages/62/75/25e9cef5fc69f26d29f10a86a7976bdd3f314ab0118a66e9d47bdb77e066/odoo_addon_event_min_seat-15.0.1.0.0.3-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/3c/ab/6da4e084520739c6d2616d1ca90c064951519b3c6ec43b53f06b4c76cd97/terminal_manager-0.9.2.tar.gz
+[2023-08-05 05:20:31] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: Downloading https://files.pythonhosted.org/packages/e5/e3/088dcc588bcdaa0ab2bf442e8586fd2feb3c14dd86f366cd57a3ecf8ba42/sqlite_utils_sqlite_path-0.2.1a1-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/43/48/67d467755afd4c4a3b37afb86a781c9a0dfccd434a335ac2f1931a63a118/odoo_addon_event_session-16.0.1.0.0.5-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [abinitostudio]: Downloading https://files.pythonhosted.org/packages/44/ce/54ec5140a762c7b30260d0f0ca46f559ce66fb363c7225ed061b831baeca/abinitostudio-1.0.7.tar.gz
+[2023-08-05 05:20:31] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/c1/86/e81db20648ca7b8fbc7fb663e6795bc30d94e7f71c35856cda04bb48fb84/pulumi-3.9.0a1627480147-py2.py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/75/1a/d3c3d27b8886b40aab2bbc2cf21883abc92d30a46d2caf60cb607d2c2f2e/odoo_addons_oca_event-16.0.20230720.0-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [sqlite-path]: Downloading https://files.pythonhosted.org/packages/0c/05/5127f16d04e47f8703cd6bb7a2c467946d4712d40118eb462637258b66b8/sqlite_path-0.2.1a2-py3-none-win_amd64.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/e8/4e/f854567ee164d7d397577368d89142ff10c90aa94e0086294b66a6118f8e/tybase-0.2.4.tar.gz
+[2023-08-05 05:20:31] INFO root fetch - processPackages [sqlite-path]: executing diffoscope
+[2023-08-05 05:20:31] INFO root fetch - processPackages [sqlite-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_path-0.2.1a1-py3-none-win_amd64.whl.zip tmp/sqlite_path-0.2.1a2-py3-none-win_amd64.whl.zip --markdown 20230805/s/sqlite-path/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addon-event-min-seat]: Downloading https://files.pythonhosted.org/packages/ff/6b/013de8ab3563205f69cb1528dbd1248688808d0f04068795b60809cc55ff/odoo_addon_event_min_seat-15.0.1.0.0.4-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [datasette-sqlite-path]: Downloading https://files.pythonhosted.org/packages/c0/12/737a98845e37186089a945ac0a429d599d02c34a80ed84bce9e8729d1a25/datasette_sqlite_path-0.2.1a2-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [terminal-manager]: Downloading https://files.pythonhosted.org/packages/22/a6/0db9c759d9edb1fda66033c49c7c90c400fb06d0e7547659020d6be88106/terminal_manager-0.9.3.tar.gz
+[2023-08-05 05:20:31] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 05:20:31] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.2.3.tar.gz tmp/tybase-0.2.4.tar.gz --markdown 20230805/t/tybase/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-05 05:20:31] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: Downloading https://files.pythonhosted.org/packages/67/07/7921b7ba3d5fb708ffdff959e456aa2b5c6b3476ca517bded982edc22c9b/sqlite_utils_sqlite_path-0.2.1a2-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [pulumi]: Downloading https://files.pythonhosted.org/packages/ba/a5/2a7580020b4c5bf7a2141ea9a534e88935a103da4dff30a205e4afdfb95d/pulumi-3.9.1-py2.py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addon-event-session]: Downloading https://files.pythonhosted.org/packages/93/ea/b64e09d9ee49fed89723a6d4725f9d16e446f561715f7e46378ef0505ad7/odoo_addon_event_session-16.0.1.0.0.7-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addons-oca-event]: Downloading https://files.pythonhosted.org/packages/6d/f3/32c61885ae0882270dabc9c1442bb5961944c9a2d64e71b7e20267bd912b/odoo_addons_oca_event-16.0.20230801.1-py3-none-any.whl
+[2023-08-05 05:20:31] INFO root fetch - processPackages [terminal-manager]: executing diffoscope
+[2023-08-05 05:20:31] INFO root fetch - processPackages [terminal-manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/terminal_manager-0.9.2.tar.gz tmp/terminal_manager-0.9.3.tar.gz --markdown 20230805/t/terminal-manager/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-05 05:20:31] INFO root fetch - processPackages [datasette-sqlite-path]: executing diffoscope
+[2023-08-05 05:20:31] INFO root fetch - processPackages [datasette-sqlite-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_path-0.2.1a1-py3-none-any.whl.zip tmp/datasette_sqlite_path-0.2.1a2-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-path/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addon-event-min-seat]: executing diffoscope
+[2023-08-05 05:20:31] INFO root fetch - processPackages [odoo-addon-event-min-seat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_min_seat-15.0.1.0.0.3-py3-none-any.whl.zip tmp/odoo_addon_event_min_seat-15.0.1.0.0.4-py3-none-any.whl.zip --markdown 20230805/o/odoo-addon-event-min-seat/15.0.1.0.0.3-15.0.1.0.0.4/diff.md --exclude *.pyd
+[2023-08-05 05:20:32] INFO root fetch - processPackages [pulumi]: executing diffoscope
+[2023-08-05 05:20:32] INFO root fetch - processPackages [pulumi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip --markdown 20230805/p/pulumi/3.9.0a1627480147-3.9.1/diff.md --exclude *.pyd
+[2023-08-05 05:20:32] INFO root fetch - processPackages [odoo-addons-oca-event]: executing diffoscope
+[2023-08-05 05:20:32] INFO root fetch - processPackages [odoo-addons-oca-event]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_event-16.0.20230720.0-py3-none-any.whl.zip tmp/odoo_addons_oca_event-16.0.20230801.1-py3-none-any.whl.zip --markdown 20230805/o/odoo-addons-oca-event/16.0.20230720.0-16.0.20230801.1/diff.md --exclude *.pyd
+[2023-08-05 05:20:32] INFO root fetch - processPackages [odoo-addon-event-session]: executing diffoscope
+[2023-08-05 05:20:32] INFO root fetch - processPackages [odoo-addon-event-session]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_event_session-16.0.1.0.0.5-py3-none-any.whl.zip tmp/odoo_addon_event_session-16.0.1.0.0.7-py3-none-any.whl.zip --markdown 20230805/o/odoo-addon-event-session/16.0.1.0.0.5-16.0.1.0.0.7/diff.md --exclude *.pyd
+[2023-08-05 05:20:32] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: executing diffoscope
+[2023-08-05 05:20:32] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_path-0.2.1a1-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_path-0.2.1a2-py3-none-any.whl.zip --markdown 20230805/s/sqlite-utils-sqlite-path/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 05:20:32] INFO root fetch - processPackages [abinitostudio]: Downloading https://files.pythonhosted.org/packages/11/7f/ef3311b875ed911d9c76025a942fdce82e5bcd631ddcc004403fb78ad8d1/abinitostudio-1.0.8.tar.gz
+[2023-08-05 05:20:32] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.3.tar.gz]
+[2023-08-05 05:20:32] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.4.tar.gz]
+[2023-08-05 05:20:32] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [datasette-sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_path-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [datasette-sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_path-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-path]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_path-0.2.1a1-py3-none-win_amd64.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_path-0.2.1a2-py3-none-win_amd64.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [sqlite-path]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [abinitostudio]: executing diffoscope
+[2023-08-05 05:20:33] INFO root fetch - processPackages [abinitostudio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abinitostudio-1.0.7.tar.gz tmp/abinitostudio-1.0.8.tar.gz --markdown 20230805/a/abinitostudio/1.0.7-1.0.8/diff.md --exclude *.pyd
+[2023-08-05 05:20:33] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_path-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [sqlite-utils-sqlite-path]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_path-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-path]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20230720.0-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [odoo-addons-oca-event]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_event-16.0.20230801.1-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-event]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [odoo-addon-event-min-seat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_min_seat-15.0.1.0.0.3-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [odoo-addon-event-min-seat]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_min_seat-15.0.1.0.0.4-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-min-seat]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.2.tar.gz]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [terminal-manager]: Remove: archive file [/home/abi/fetcher/tmp/terminal_manager-0.9.3.tar.gz]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [terminal-manager]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.0a1627480147-py2.py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [pulumi]: Remove: archive file [/home/abi/fetcher/tmp/pulumi-3.9.1-py2.py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [pulumi]: success
+[2023-08-05 05:20:33] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.0.0.5-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - processPackages [odoo-addon-event-session]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_event_session-16.0.1.0.0.7-py3-none-any.whl.zip]
+[2023-08-05 05:20:33] INFO root fetch - main [MainThread]: End processing [odoo-addon-event-session]: success
+[2023-08-05 05:20:35] INFO root fetch - processPackages [abinitostudio]: Remove: archive file [/home/abi/fetcher/tmp/abinitostudio-1.0.7.tar.gz]
+[2023-08-05 05:20:35] INFO root fetch - processPackages [abinitostudio]: Remove: archive file [/home/abi/fetcher/tmp/abinitostudio-1.0.8.tar.gz]
+[2023-08-05 05:20:35] INFO root fetch - main [MainThread]: End processing [abinitostudio]: success
+[2023-08-05 05:20:35] INFO root fetch - main [MainThread]: Store serial: [19183971]
