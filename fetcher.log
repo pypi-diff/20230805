@@ -6436,3 +6436,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 04:00:37] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.9.tar.gz]
 [2023-08-05 04:00:37] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
 [2023-08-05 04:00:37] INFO root fetch - main [MainThread]: Store serial: [19183645]
+[2023-08-05 04:05:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183645]
+[2023-08-05 04:05:46] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: SBILib
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pymeten
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: radarcord-py
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vaimm
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TheSilent
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: composabl-core-dev
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pydumpck
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: sagemaker
+[2023-08-05 04:05:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: composabl-core
+[2023-08-05 04:05:46] INFO root fetch - processPackages [SBILib]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [vaimm]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [SBILib]: Downloading https://files.pythonhosted.org/packages/e1/cb/903c853bf9c9b126c4e1b474151c56ca2a786d1abe80c980021a8d515d3e/SBILib-0.3.3.tar.gz
+[2023-08-05 04:05:46] INFO root fetch - processPackages [pymeten]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 04:05:46] ERROR root fetch - processPackages [radarcord-py]: Unable to get metadata: No such project 'radarcord-py'
+[2023-08-05 04:05:46] INFO root fetch - main [MainThread]: End processing [radarcord-py] error
+[2023-08-05 04:05:46] INFO root fetch - processPackages [pydumpck]: New version: [1.7.62] Old Version: [1.6.168]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [composabl-core-dev]: New version: [0.4.2.dev1] Old Version: [0.4.1.dev1]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [composabl-core]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [sagemaker]: New version: [2.99.0] Old Version: [2.98.0]
+[2023-08-05 04:05:46] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-05 04:05:46] INFO root fetch - processPackages [vaimm]: Downloading https://files.pythonhosted.org/packages/71/df/bef10ef517249a4651ec03fc2d774c819aa54716525b0a73f7ca37281b40/vaimm-0.1.0.tar.gz
+[2023-08-05 04:05:46] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/2f/a1/00960ecb1b245928fd22faa6e59f9ed7c6cfcde1a1d79ba19e825ac3c17b/composabl_core_dev-0.4.1.dev1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 04:05:47] INFO root fetch - processPackages [pymeten]: Downloading https://files.pythonhosted.org/packages/bb/64/75081782ce7ea1c6c094fe7ce7a19dfd95c8a0858b7cec6f76863e85e5de/pymeten-0.0.4.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [pydumpck]: Downloading https://files.pythonhosted.org/packages/28/11/8b9da72be078b0fd1f778b9f84900f121290f666d7df45aca9f2bcbbdede/pydumpck-1.6.168.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [composabl-core]: Downloading https://files.pythonhosted.org/packages/1b/c3/fa153fa0719f1271e46075ebfcfa8093b0c992a7f519c1f1219999343fa7/composabl_core-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 04:05:47] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/22/dd/adc439c8040ceb2a14d8d72110638d79775925a88e7e3925ee7a87333551/sagemaker-2.98.0.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [SBILib]: Downloading https://files.pythonhosted.org/packages/d5/de/5d52ab5ca4141fbedfaa93ddd43432e482d9d97ff181a1786b73a4ce8418/SBILib-0.3.4.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-05 04:05:47] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230805/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 04:05:47] INFO root fetch - processPackages [vaimm]: Downloading https://files.pythonhosted.org/packages/41/6a/abc5bf151f4d98f3927ce989490e41d5cad1a51f0d0b8fd2ed90dd714376/vaimm-0.2.0.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [pymeten]: Downloading https://files.pythonhosted.org/packages/56/71/56e38e70408e2ae49e2f20a83bb97ad480ee52f8b0976ee20e7302312640/pymeten-0.0.5.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [SBILib]: executing diffoscope
+[2023-08-05 04:05:47] INFO root fetch - processPackages [SBILib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILib-0.3.3.tar.gz tmp/SBILib-0.3.4.tar.gz --markdown 20230805/S/SBILib/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-05 04:05:47] INFO root fetch - processPackages [vaimm]: executing diffoscope
+[2023-08-05 04:05:47] INFO root fetch - processPackages [vaimm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vaimm-0.1.0.tar.gz tmp/vaimm-0.2.0.tar.gz --markdown 20230805/v/vaimm/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 04:05:47] INFO root fetch - processPackages [pymeten]: executing diffoscope
+[2023-08-05 04:05:47] INFO root fetch - processPackages [pymeten]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pymeten-0.0.4.tar.gz tmp/pymeten-0.0.5.tar.gz --markdown 20230805/p/pymeten/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 04:05:47] INFO root fetch - processPackages [sagemaker]: Downloading https://files.pythonhosted.org/packages/a1/4b/c6dcd8ae0e0f163c7938e1fee17da72be71aac4347c044a5a52f21a850a6/sagemaker-2.99.0.tar.gz
+[2023-08-05 04:05:47] INFO root fetch - processPackages [composabl-core-dev]: Downloading https://files.pythonhosted.org/packages/41/2e/af68f5b9cd77320abe05c3d3b23fda967fd8ef2cabcc393d128f4c9c3b07/composabl_core_dev-0.4.2.dev1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 04:05:47] INFO root fetch - processPackages [sagemaker]: executing diffoscope
+[2023-08-05 04:05:47] INFO root fetch - processPackages [sagemaker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sagemaker-2.98.0.tar.gz tmp/sagemaker-2.99.0.tar.gz --markdown 20230805/s/sagemaker/2.98.0-2.99.0/diff.md --exclude *.pyd
+[2023-08-05 04:05:47] INFO root fetch - processPackages [composabl-core]: Downloading https://files.pythonhosted.org/packages/4b/82/c718240eab211fb81e79edb95b98ce323b259bdad203b66f270f7aa874b9/composabl_core-0.3.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-05 04:05:47] INFO root fetch - processPackages [pydumpck]: Downloading https://files.pythonhosted.org/packages/78/20/f3811ed345f3c0eb756a765146041217df73954cc9c2b8965d052ce00b1c/pydumpck-1.7.62.tar.gz
+[2023-08-05 04:05:48] INFO root fetch - processPackages [composabl-core-dev]: executing diffoscope
+[2023-08-05 04:05:48] INFO root fetch - processPackages [composabl-core-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_core_dev-0.4.1.dev1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_core_dev-0.4.2.dev1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/c/composabl-core-dev/0.4.1.dev1-0.4.2.dev1/diff.md --exclude *.pyd
+[2023-08-05 04:05:48] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-05 04:05:48] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-05 04:05:48] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-05 04:05:48] INFO root fetch - processPackages [pydumpck]: executing diffoscope
+[2023-08-05 04:05:48] INFO root fetch - processPackages [pydumpck]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydumpck-1.6.168.tar.gz tmp/pydumpck-1.7.62.tar.gz --markdown 20230805/p/pydumpck/1.6.168-1.7.62/diff.md --exclude *.pyd
+[2023-08-05 04:05:48] INFO root fetch - processPackages [pymeten]: Remove: archive file [/home/abi/fetcher/tmp/pymeten-0.0.4.tar.gz]
+[2023-08-05 04:05:48] INFO root fetch - processPackages [pymeten]: Remove: archive file [/home/abi/fetcher/tmp/pymeten-0.0.5.tar.gz]
+[2023-08-05 04:05:48] INFO root fetch - main [MainThread]: End processing [pymeten]: success
+[2023-08-05 04:05:48] INFO root fetch - processPackages [vaimm]: Remove: archive file [/home/abi/fetcher/tmp/vaimm-0.1.0.tar.gz]
+[2023-08-05 04:05:48] INFO root fetch - processPackages [vaimm]: Remove: archive file [/home/abi/fetcher/tmp/vaimm-0.2.0.tar.gz]
+[2023-08-05 04:05:48] INFO root fetch - main [MainThread]: End processing [vaimm]: success
+[2023-08-05 04:05:49] INFO root fetch - processPackages [SBILib]: Remove: archive file [/home/abi/fetcher/tmp/SBILib-0.3.3.tar.gz]
+[2023-08-05 04:05:49] INFO root fetch - processPackages [SBILib]: Remove: archive file [/home/abi/fetcher/tmp/SBILib-0.3.4.tar.gz]
+[2023-08-05 04:05:49] INFO root fetch - main [MainThread]: End processing [SBILib]: success
+[2023-08-05 04:05:49] INFO root fetch - processPackages [pydumpck]: Remove: archive file [/home/abi/fetcher/tmp/pydumpck-1.6.168.tar.gz]
+[2023-08-05 04:05:49] INFO root fetch - processPackages [pydumpck]: Remove: archive file [/home/abi/fetcher/tmp/pydumpck-1.7.62.tar.gz]
+[2023-08-05 04:05:49] INFO root fetch - main [MainThread]: End processing [pydumpck]: success
+[2023-08-05 04:05:49] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.4.1.dev1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 04:05:49] INFO root fetch - processPackages [composabl-core-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core_dev-0.4.2.dev1-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 04:05:49] INFO root fetch - main [MainThread]: End processing [composabl-core-dev]: success
+[2023-08-05 04:05:50] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.98.0.tar.gz]
+[2023-08-05 04:05:50] INFO root fetch - processPackages [sagemaker]: Remove: archive file [/home/abi/fetcher/tmp/sagemaker-2.99.0.tar.gz]
+[2023-08-05 04:05:50] INFO root fetch - main [MainThread]: End processing [sagemaker]: success
+[2023-08-05 04:05:53] INFO root fetch - processPackages [composabl-core]: executing diffoscope
+[2023-08-05 04:05:53] INFO root fetch - processPackages [composabl-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_core-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_core-0.3.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip --markdown 20230805/c/composabl-core/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 04:06:54] INFO root fetch - processPackages [composabl-core]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 04:06:54] INFO root fetch - processPackages [composabl-core]: Remove: archive file [/home/abi/fetcher/tmp/composabl_core-0.3.3-cp38-cp38-manylinux_2_17_aarch64.manylinux2014_aarch64.whl.zip]
+[2023-08-05 04:06:54] INFO root fetch - main [MainThread]: End processing [composabl-core]: success
+[2023-08-05 04:06:54] INFO root fetch - main [MainThread]: Store serial: [19183677]
