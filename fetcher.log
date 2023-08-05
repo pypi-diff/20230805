@@ -16083,3 +16083,79 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:31:14] INFO root fetch - processPackages [mySweetCache]: Remove: archive file [/home/abi/fetcher/tmp/mysweetcache-1.0.0.tar.gz]
 [2023-08-05 19:31:14] INFO root fetch - main [MainThread]: End processing [mySweetCache]: success
 [2023-08-05 19:31:14] INFO root fetch - main [MainThread]: Store serial: [19188127]
+[2023-08-05 19:36:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188127]
+[2023-08-05 19:36:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: windmill-api
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wmill
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wmill-pg
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: multimcts
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: event-delegate
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aa-miningtaxes
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xapi-python
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: litellm
+[2023-08-05 19:36:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: litellm
+[2023-08-05 19:36:23] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: New version: [0.1.34] Old Version: [0.1.32]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: New version: [0.1.34] Old Version: [0.1.32]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/39/64/c4e55485e6d772b15175375ca59650a5af4a3f7e712097ac2078078ab373/aa-miningtaxes-1.2.8.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [multimcts]: New version: [0.5] Old Version: [0.4.2]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [xapi-python]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-05 19:36:23] WARNING root fetch - processPackages [event-delegate]: Skipping, unable to determine old version
+[2023-08-05 19:36:23] INFO root fetch - main [MainThread]: End processing [event-delegate] error
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/5d/0e/1b5861544b7eb3e5b9f24ad8b64702d92c0132103bbbc827a67ce3e1d6b3/litellm-0.1.32.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/5d/0e/1b5861544b7eb3e5b9f24ad8b64702d92c0132103bbbc827a67ce3e1d6b3/litellm-0.1.32.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [multimcts]: Downloading https://files.pythonhosted.org/packages/f3/cc/9f1a8858dd6714306d81cd55280ab27627cc48ac550aaa15ef2a30e1f380/multimcts-0.4.2.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [xapi-python]: Downloading https://files.pythonhosted.org/packages/d1/ef/03b496ad8929bfe46258c7af20cc1fb3cfb2c761ea7b6f23cf86100ab0e1/xapi-python-0.1.5.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/db/06/9e86cd7848559f1c04f901cb810b8abc9ab64b8789572d2eee63d461ef4e/aa-miningtaxes-1.2.9.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/3c/e2/50b26d775acdcaf40cd1af19ebec611667f75bc5a7ca4de3d539bc4763ab/litellm-0.1.34.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/3c/e2/50b26d775acdcaf40cd1af19ebec611667f75bc5a7ca4de3d539bc4763ab/litellm-0.1.34.tar.gz
+[2023-08-05 19:36:23] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-08-05 19:36:23] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.2.8.tar.gz tmp/aa-miningtaxes-1.2.9.tar.gz --markdown 20230805/a/aa-miningtaxes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-08-05 19:36:23] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230805/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.32.tar.gz tmp/litellm-0.1.34.tar.gz --markdown 20230805/l/litellm/0.1.32-0.1.34/diff.md --exclude *.pyd
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 19:36:23] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.32.tar.gz tmp/litellm-0.1.34.tar.gz --markdown 20230805/l/litellm/0.1.32-0.1.34/diff.md --exclude *.pyd
+[2023-08-05 19:36:24] INFO root fetch - processPackages [multimcts]: Downloading https://files.pythonhosted.org/packages/1f/7f/e3b7379905009b6e8a22454b70d43f684673dea4e99ba1024da93a8342b0/multimcts-0.5.tar.gz
+[2023-08-05 19:36:24] INFO root fetch - processPackages [xapi-python]: Downloading https://files.pythonhosted.org/packages/5b/23/ccea52cf4e7f5a2097afafef86c4afa2364c2e419a21d05d519350c353c3/xapi-python-0.1.6.tar.gz
+[2023-08-05 19:36:24] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-08-05 19:36:24] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-08-05 19:36:24] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-08-05 19:36:24] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230805/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 19:36:24] INFO root fetch - processPackages [xapi-python]: executing diffoscope
+[2023-08-05 19:36:24] INFO root fetch - processPackages [xapi-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xapi-python-0.1.5.tar.gz tmp/xapi-python-0.1.6.tar.gz --markdown 20230805/x/xapi-python/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-05 19:36:24] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-08-05 19:36:24] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230805/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 19:36:24] INFO root fetch - processPackages [multimcts]: executing diffoscope
+[2023-08-05 19:36:24] INFO root fetch - processPackages [multimcts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/multimcts-0.4.2.tar.gz tmp/multimcts-0.5.tar.gz --markdown 20230805/m/multimcts/0.4.2-0.5/diff.md --exclude *.pyd
+[2023-08-05 19:36:25] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-08-05 19:36:25] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.32.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.34.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 19:36:25] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-08-05 19:36:25] INFO root fetch - processPackages [xapi-python]: Remove: archive file [/home/abi/fetcher/tmp/xapi-python-0.1.5.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - processPackages [xapi-python]: Remove: archive file [/home/abi/fetcher/tmp/xapi-python-0.1.6.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [xapi-python]: success
+[2023-08-05 19:36:25] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.8.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.9.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-08-05 19:36:25] INFO root fetch - processPackages [multimcts]: Remove: archive file [/home/abi/fetcher/tmp/multimcts-0.4.2.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - processPackages [multimcts]: Remove: archive file [/home/abi/fetcher/tmp/multimcts-0.5.tar.gz]
+[2023-08-05 19:36:25] INFO root fetch - main [MainThread]: End processing [multimcts]: success
+[2023-08-05 19:36:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-08-05 19:36:31] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-08-05 19:36:31] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-08-05 19:36:31] INFO root fetch - main [MainThread]: Store serial: [19188155]
