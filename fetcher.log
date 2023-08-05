@@ -16447,3 +16447,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:57:24] INFO root fetch - processPackages [graphene-django-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-optimizer-0.9.1.tar.gz]
 [2023-08-05 19:57:24] INFO root fetch - main [MainThread]: End processing [graphene-django-optimizer]: success
 [2023-08-05 19:57:24] INFO root fetch - main [MainThread]: Store serial: [19188263]
+[2023-08-05 20:02:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188263]
+[2023-08-05 20:02:33] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: langchain
+[2023-08-05 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: localstack-core
+[2023-08-05 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: refineryframe
+[2023-08-05 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Sidebar-nav-custom-icons-streamlit
+[2023-08-05 20:02:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ladderbot
+[2023-08-05 20:02:33] WARNING root fetch - processPackages [ladderbot]: Skipping, unable to determine old version
+[2023-08-05 20:02:33] INFO root fetch - main [MainThread]: End processing [ladderbot] error
+[2023-08-05 20:02:33] INFO root fetch - processPackages [refineryframe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 20:02:33] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 20:02:33] INFO root fetch - processPackages [langchain]: New version: [0.0.99rc0] Old Version: [0.0.99]
+[2023-08-05 20:02:33] INFO root fetch - processPackages [localstack-core]: New version: [2.2.1.dev20230804195337] Old Version: [2.2.1.dev20230804184158]
+[2023-08-05 20:02:33] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/2e/dd/10ed1c1f11bfa8ab104700b2a5d020c536a28c23c9e5e796f231fe36a0a8/refineryframe-0.1.8.tar.gz
+[2023-08-05 20:02:33] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Downloading https://files.pythonhosted.org/packages/04/be/a36ac7ab8ce1495aee3f77c27cd3f8aa45a85f6923a1017baa80c4ab14c7/Sidebar-nav-custom-icons-streamlit-0.0.2.tar.gz
+[2023-08-05 20:02:33] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/68/3e/df8446f58a372dbf5acfa054236d0cb32b5867612cde669121c7e6192980/localstack-core-2.2.1.dev20230804184158.tar.gz
+[2023-08-05 20:02:33] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/24/6a/f6c87d4ef49bae4d166fa3be99402f669acf9aa59b4d1d31342da0c57e32/langchain-0.0.99.tar.gz
+[2023-08-05 20:02:33] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/70/6e/5c9dd4eb84b76aabd31215851f6762877f567a5471242d422854a20e2369/refineryframe-0.1.9.tar.gz
+[2023-08-05 20:02:33] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Downloading https://files.pythonhosted.org/packages/0e/6a/fb67c4af81d0341b8dca98aea5e153c718ce88b502c704526bf811bc51e5/Sidebar-nav-custom-icons-streamlit-0.0.3.tar.gz
+[2023-08-05 20:02:33] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 20:02:33] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.8.tar.gz tmp/refineryframe-0.1.9.tar.gz --markdown 20230805/r/refineryframe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 20:02:34] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: executing diffoscope
+[2023-08-05 20:02:34] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sidebar-nav-custom-icons-streamlit-0.0.2.tar.gz tmp/Sidebar-nav-custom-icons-streamlit-0.0.3.tar.gz --markdown 20230805/S/Sidebar-nav-custom-icons-streamlit/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 20:02:34] INFO root fetch - processPackages [localstack-core]: Downloading https://files.pythonhosted.org/packages/a3/7e/4db32104a79d3383a73bb026300b9d40f6a5683bb478c6e076a4e07a33d7/localstack-core-2.2.1.dev20230804195337.tar.gz
+[2023-08-05 20:02:34] INFO root fetch - processPackages [langchain]: Downloading https://files.pythonhosted.org/packages/8e/d3/a01f18d4cda1e4e2cbed8c15693f649fb439aab4b94f0c2a0ed636bbe505/langchain-0.0.99rc0.tar.gz
+[2023-08-05 20:02:34] INFO root fetch - processPackages [localstack-core]: executing diffoscope
+[2023-08-05 20:02:34] INFO root fetch - processPackages [localstack-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-core-2.2.1.dev20230804184158.tar.gz tmp/localstack-core-2.2.1.dev20230804195337.tar.gz --markdown 20230805/l/localstack-core/2.2.1.dev20230804184158-2.2.1.dev20230804195337/diff.md --exclude *.pyd
+[2023-08-05 20:02:34] INFO root fetch - processPackages [langchain]: executing diffoscope
+[2023-08-05 20:02:34] INFO root fetch - processPackages [langchain]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/langchain-0.0.99.tar.gz tmp/langchain-0.0.99rc0.tar.gz --markdown 20230805/l/langchain/0.0.99-0.0.99rc0/diff.md --exclude *.pyd
+[2023-08-05 20:02:34] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/Sidebar-nav-custom-icons-streamlit-0.0.2.tar.gz]
+[2023-08-05 20:02:34] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/Sidebar-nav-custom-icons-streamlit-0.0.3.tar.gz]
+[2023-08-05 20:02:34] INFO root fetch - main [MainThread]: End processing [Sidebar-nav-custom-icons-streamlit]: success
+[2023-08-05 20:02:34] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.8.tar.gz]
+[2023-08-05 20:02:34] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.9.tar.gz]
+[2023-08-05 20:02:34] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 20:02:36] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99.tar.gz]
+[2023-08-05 20:02:36] INFO root fetch - processPackages [langchain]: Remove: archive file [/home/abi/fetcher/tmp/langchain-0.0.99rc0.tar.gz]
+[2023-08-05 20:02:36] INFO root fetch - main [MainThread]: End processing [langchain]: success
+[2023-08-05 20:02:37] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230804184158.tar.gz]
+[2023-08-05 20:02:37] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230804195337.tar.gz]
+[2023-08-05 20:02:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
+[2023-08-05 20:02:38] INFO root fetch - main [MainThread]: Store serial: [19188281]
