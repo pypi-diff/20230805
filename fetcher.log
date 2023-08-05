@@ -14782,3 +14782,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:39:03] INFO root fetch - processPackages [sinol-make]: Remove: archive file [/home/abi/fetcher/tmp/sinol-make-1.4.1.tar.gz]
 [2023-08-05 17:39:03] INFO root fetch - main [MainThread]: End processing [sinol-make]: success
 [2023-08-05 17:39:03] INFO root fetch - main [MainThread]: Store serial: [19187519]
+[2023-08-05 17:44:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187519]
+[2023-08-05 17:44:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 17:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tidy-dir
+[2023-08-05 17:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: successfactors-auth
+[2023-08-05 17:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jmcomic
+[2023-08-05 17:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyNekobin
+[2023-08-05 17:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gpt4all-code-review
+[2023-08-05 17:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: colorful-logger
+[2023-08-05 17:44:11] WARNING root fetch - processPackages [gpt4all-code-review]: Skipping, unable to determine old version
+[2023-08-05 17:44:11] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review] error
+[2023-08-05 17:44:11] INFO root fetch - processPackages [jmcomic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-05 17:44:11] INFO root fetch - processPackages [successfactors-auth]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-05 17:44:11] INFO root fetch - processPackages [pyNekobin]: New version: [2.8] Old Version: [2.7]
+[2023-08-05 17:44:11] INFO root fetch - processPackages [colorful-logger]: New version: [0.2.0b3] Old Version: [0.2.0b2]
+[2023-08-05 17:44:11] WARNING root fetch - processPackages [tidy-dir]: Skipping, unable to determine old version
+[2023-08-05 17:44:11] INFO root fetch - main [MainThread]: End processing [tidy-dir] error
+[2023-08-05 17:44:11] INFO root fetch - processPackages [successfactors-auth]: Downloading https://files.pythonhosted.org/packages/8d/07/6ffae7649cc613251bba11f0ce03272c2b698ac081fe58350c899bb960d8/successfactors_auth-0.0.5.tar.gz
+[2023-08-05 17:44:11] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/7b/b8/13c9f98128c85bfd8b7f327bfe6158f9db46127912d80d4d9124e0115c81/jmcomic-2.1.8.tar.gz
+[2023-08-05 17:44:11] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/80/d6/2bd95e8508674ed90ec0eabd3524b959d7afaefd9c7e1f25745c62478003/pyNekobin-2.7.tar.gz
+[2023-08-05 17:44:11] INFO root fetch - processPackages [colorful-logger]: Downloading https://files.pythonhosted.org/packages/6b/58/3d914350f28698768d58f2dcf7d0ebcb31057e7f8a84b64f8a12b40f727d/colorful-logger-0.2.0b2.tar.gz
+[2023-08-05 17:44:12] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/3c/67/abc1ff1b2b2d3681a020412740641c7a62b80e3b76d8c5cd167f53c1c689/jmcomic-2.1.9.tar.gz
+[2023-08-05 17:44:12] INFO root fetch - processPackages [successfactors-auth]: Downloading https://files.pythonhosted.org/packages/d9/67/171db509d2e207e203f746fb3740e9b43d1c0bf6ea16b10a516cc670e4b9/successfactors_auth-0.0.6-py3-none-any.whl
+[2023-08-05 17:44:12] INFO root fetch - processPackages [colorful-logger]: Downloading https://files.pythonhosted.org/packages/11/3f/e7ba7dc962bdf7cb2af840eb02409189436135b57fe2545626729ecc93ab/colorful-logger-0.2.0b3.tar.gz
+[2023-08-05 17:44:12] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-08-05 17:44:12] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.1.8.tar.gz tmp/jmcomic-2.1.9.tar.gz --markdown 20230805/j/jmcomic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-08-05 17:44:12] INFO root fetch - processPackages [successfactors-auth]: executing diffoscope
+[2023-08-05 17:44:12] INFO root fetch - processPackages [successfactors-auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/successfactors_auth-0.0.5.tar.gz tmp/successfactors_auth-0.0.6-py3-none-any.whl.zip --markdown 20230805/s/successfactors-auth/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-05 17:44:12] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/af/91/fd64e2d22f5208ad90177e20eb9e874ce69c7490a6b309b0c30d21650e7a/pyNekobin-2.8.tar.gz
+[2023-08-05 17:44:12] INFO root fetch - processPackages [colorful-logger]: executing diffoscope
+[2023-08-05 17:44:12] INFO root fetch - processPackages [colorful-logger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colorful-logger-0.2.0b2.tar.gz tmp/colorful-logger-0.2.0b3.tar.gz --markdown 20230805/c/colorful-logger/0.2.0b2-0.2.0b3/diff.md --exclude *.pyd
+[2023-08-05 17:44:12] INFO root fetch - processPackages [pyNekobin]: executing diffoscope
+[2023-08-05 17:44:12] INFO root fetch - processPackages [pyNekobin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNekobin-2.7.tar.gz tmp/pyNekobin-2.8.tar.gz --markdown 20230805/p/pyNekobin/2.7-2.8/diff.md --exclude *.pyd
+[2023-08-05 17:44:13] INFO root fetch - processPackages [successfactors-auth]: Remove: archive file [/home/abi/fetcher/tmp/successfactors_auth-0.0.5.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - processPackages [successfactors-auth]: Remove: archive file [/home/abi/fetcher/tmp/successfactors_auth-0.0.6-py3-none-any.whl.zip]
+[2023-08-05 17:44:13] INFO root fetch - main [MainThread]: End processing [successfactors-auth]: success
+[2023-08-05 17:44:13] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.8.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.9.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-08-05 17:44:13] INFO root fetch - processPackages [colorful-logger]: Remove: archive file [/home/abi/fetcher/tmp/colorful-logger-0.2.0b2.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - processPackages [colorful-logger]: Remove: archive file [/home/abi/fetcher/tmp/colorful-logger-0.2.0b3.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - main [MainThread]: End processing [colorful-logger]: success
+[2023-08-05 17:44:13] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.7.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.8.tar.gz]
+[2023-08-05 17:44:13] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
+[2023-08-05 17:44:13] INFO root fetch - main [MainThread]: Store serial: [19187538]
