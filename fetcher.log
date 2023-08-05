@@ -15606,3 +15606,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:37:26] INFO root fetch - processPackages [sankaku]: Remove: archive file [/home/abi/fetcher/tmp/sankaku-1.0.4.tar.gz]
 [2023-08-05 18:37:26] INFO root fetch - main [MainThread]: End processing [sankaku]: success
 [2023-08-05 18:37:26] INFO root fetch - main [MainThread]: Store serial: [19187881]
+[2023-08-05 18:42:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187881]
+[2023-08-05 18:42:35] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 18:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: optimal-data-selector
+[2023-08-05 18:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyNekobin
+[2023-08-05 18:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-csv
+[2023-08-05 18:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-vault
+[2023-08-05 18:42:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pandocker-lua-filters
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pandocker-lua-filters]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-08-05 18:42:35] INFO root fetch - processPackages [optimal-data-selector]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pyNekobin]: New version: [2.9] Old Version: [2.8]
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/df/51/77c7beb7e0f2b3d6df61da9ef737bad7e0b6fdbcf567e04a5037977b7b31/pandocker_lua_filters-0.0.25-py3-none-any.whl
+[2023-08-05 18:42:35] INFO root fetch - processPackages [vector-vault]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-05 18:42:35] INFO root fetch - processPackages [optimal-data-selector]: Downloading https://files.pythonhosted.org/packages/01/86/7426ce902958bfea1611e820b665c9e73d1f597b1f8af0952b7e80aeaf0a/optimal_data_selector-1.0.2.tar.gz
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/af/91/fd64e2d22f5208ad90177e20eb9e874ce69c7490a6b309b0c30d21650e7a/pyNekobin-2.8.tar.gz
+[2023-08-05 18:42:35] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/88/8a/a787b885786b8a7d6cbabb230efa58b7eb0ae6b2c2be79bd2c61f55022bf/vector_vault-2.1.2.tar.gz
+[2023-08-05 18:42:35] INFO root fetch - processPackages [optimal-data-selector]: Downloading https://files.pythonhosted.org/packages/37/3b/31903552da70f586ad67f1895b6c6020219655c4be67cdb93050beea735c/optimal_data_selector-1.0.3.tar.gz
+[2023-08-05 18:42:35] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 18:42:35] INFO root fetch - processPackages [optimal-data-selector]: executing diffoscope
+[2023-08-05 18:42:35] INFO root fetch - processPackages [optimal-data-selector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimal_data_selector-1.0.2.tar.gz tmp/optimal_data_selector-1.0.3.tar.gz --markdown 20230805/o/optimal-data-selector/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/32/62/9112c4735142df154d2b72684117526ab757316b0013db3a042c452656ac/pandocker_lua_filters-0.0.26-py3-none-any.whl
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/2d/13/b22604addf3639c49ccbaf070aea34f3d07aa0cfce00a533c7b51c868d74/pyNekobin-2.9.tar.gz
+[2023-08-05 18:42:36] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/6b/8f/7d21a0682747ad2213b0c891c79bd363d304c922cfa656819e44be9abdad/vector_vault-2.1.3.tar.gz
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyNekobin]: executing diffoscope
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyNekobin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNekobin-2.8.tar.gz tmp/pyNekobin-2.9.tar.gz --markdown 20230805/p/pyNekobin/2.8-2.9/diff.md --exclude *.pyd
+[2023-08-05 18:42:36] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-08-05 18:42:36] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.2.tar.gz tmp/vector_vault-2.1.3.tar.gz --markdown 20230805/v/vector-vault/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pandocker-lua-filters]: executing diffoscope
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pandocker-lua-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip tmp/pandocker_lua_filters-0.0.26-py3-none-any.whl.zip --markdown 20230805/p/pandocker-lua-filters/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-08-05 18:42:36] INFO root fetch - processPackages [optimal-data-selector]: Remove: archive file [/home/abi/fetcher/tmp/optimal_data_selector-1.0.2.tar.gz]
+[2023-08-05 18:42:36] INFO root fetch - processPackages [optimal-data-selector]: Remove: archive file [/home/abi/fetcher/tmp/optimal_data_selector-1.0.3.tar.gz]
+[2023-08-05 18:42:36] INFO root fetch - main [MainThread]: End processing [optimal-data-selector]: success
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-05 18:42:36] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-05 18:42:36] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 18:42:37] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.8.tar.gz]
+[2023-08-05 18:42:37] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.9.tar.gz]
+[2023-08-05 18:42:37] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
+[2023-08-05 18:42:37] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.2.tar.gz]
+[2023-08-05 18:42:37] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.3.tar.gz]
+[2023-08-05 18:42:37] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-08-05 18:44:20] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip]
+[2023-08-05 18:44:20] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.26-py3-none-any.whl.zip]
+[2023-08-05 18:44:20] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
+[2023-08-05 18:44:20] INFO root fetch - main [MainThread]: Store serial: [19187895]
