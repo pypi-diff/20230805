@@ -11349,3 +11349,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:41:31] INFO root fetch - processPackages [unigui]: Remove: archive file [/home/abi/fetcher/tmp/unigui-1.9.9.tar.gz]
 [2023-08-05 12:41:31] INFO root fetch - main [MainThread]: End processing [unigui]: success
 [2023-08-05 12:41:31] INFO root fetch - main [MainThread]: Store serial: [19185811]
+[2023-08-05 12:46:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185811]
+[2023-08-05 12:46:40] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 12:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: linktransformer
+[2023-08-05 12:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: DuHast
+[2023-08-05 12:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: blockchain-todo
+[2023-08-05 12:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: via-api
+[2023-08-05 12:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nice65
+[2023-08-05 12:46:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pojw
+[2023-08-05 12:46:40] WARNING root fetch - processPackages [blockchain-todo]: Skipping, unable to determine old version
+[2023-08-05 12:46:40] INFO root fetch - main [MainThread]: End processing [blockchain-todo] error
+[2023-08-05 12:46:40] INFO root fetch - processPackages [nice65]: New version: [0.1.0] Old Version: [0.0.5]
+[2023-08-05 12:46:41] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/17/bd/6b67524157d91d9a47941559680f6d0b220a098c6d3791c3d29ef4a83ca7/nice65-0.0.5.tar.gz
+[2023-08-05 12:46:41] WARNING root fetch - processPackages [pojw]: Skipping, unable to determine old version
+[2023-08-05 12:46:41] INFO root fetch - main [MainThread]: End processing [pojw] error
+[2023-08-05 12:46:41] INFO root fetch - processPackages [DuHast]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 12:46:41] INFO root fetch - processPackages [linktransformer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 12:46:41] INFO root fetch - processPackages [via-api]: New version: [2.1.0] Old Version: [1.1.3]
+[2023-08-05 12:46:41] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/fe/b6/a418a4cc5d74d468739c55b1e437394effd41b35cc4d9b6ab536a3e98af7/DuHast-0.0.8.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [linktransformer]: Downloading https://files.pythonhosted.org/packages/21/5f/aa3e09bd48f822041b958d09def081bcc5a8209c1e1542e1a1e372fe6a83/linktransformer-0.1.2.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/ab/70/e4f73bda041365c1686a6e9572d96a1bbbd3c22ef1e91870ae5ccc1d6c9c/via-api-1.1.3.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/fc/18/73bbb88bf9d3cc5e4dab69ad4ba9eb683b612692928ce245c5a81962a787/nice65-0.1.0.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [nice65]: executing diffoscope
+[2023-08-05 12:46:41] INFO root fetch - processPackages [nice65]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice65-0.0.5.tar.gz tmp/nice65-0.1.0.tar.gz --markdown 20230805/n/nice65/0.0.5-0.1.0/diff.md --exclude *.pyd
+[2023-08-05 12:46:41] INFO root fetch - processPackages [DuHast]: Downloading https://files.pythonhosted.org/packages/c8/5a/3ad8a291a267c8261164aa695009dcd79ad9bbf3de9675a1df8ad7ceca90/DuHast-0.0.9.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [linktransformer]: Downloading https://files.pythonhosted.org/packages/09/f9/ea2ccaf3459453b82c6542c54757583fdba2bfb0222f82c325ed55e7238a/linktransformer-0.1.3.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/8a/db/12fe2ce46fd9d8b0c8bee4a62b65513da1712c952ac01db032352ef69b7b/via-api-2.1.0.tar.gz
+[2023-08-05 12:46:41] INFO root fetch - processPackages [DuHast]: executing diffoscope
+[2023-08-05 12:46:41] INFO root fetch - processPackages [DuHast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DuHast-0.0.8.tar.gz tmp/DuHast-0.0.9.tar.gz --markdown 20230805/D/DuHast/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 12:46:41] INFO root fetch - processPackages [linktransformer]: executing diffoscope
+[2023-08-05 12:46:41] INFO root fetch - processPackages [linktransformer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/linktransformer-0.1.2.tar.gz tmp/linktransformer-0.1.3.tar.gz --markdown 20230805/l/linktransformer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 12:46:41] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-05 12:46:41] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-1.1.3.tar.gz tmp/via-api-2.1.0.tar.gz --markdown 20230805/v/via-api/1.1.3-2.1.0/diff.md --exclude *.pyd
+[2023-08-05 12:46:42] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.0.5.tar.gz]
+[2023-08-05 12:46:42] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.0.tar.gz]
+[2023-08-05 12:46:42] INFO root fetch - main [MainThread]: End processing [nice65]: success
+[2023-08-05 12:46:42] INFO root fetch - processPackages [linktransformer]: Remove: archive file [/home/abi/fetcher/tmp/linktransformer-0.1.2.tar.gz]
+[2023-08-05 12:46:42] INFO root fetch - processPackages [linktransformer]: Remove: archive file [/home/abi/fetcher/tmp/linktransformer-0.1.3.tar.gz]
+[2023-08-05 12:46:42] INFO root fetch - main [MainThread]: End processing [linktransformer]: success
+[2023-08-05 12:46:42] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-1.1.3.tar.gz]
+[2023-08-05 12:46:42] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.1.0.tar.gz]
+[2023-08-05 12:46:42] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-05 12:46:44] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.8.tar.gz]
+[2023-08-05 12:46:44] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.9.tar.gz]
+[2023-08-05 12:46:44] INFO root fetch - main [MainThread]: End processing [DuHast]: success
+[2023-08-05 12:46:44] INFO root fetch - main [MainThread]: Store serial: [19185837]
