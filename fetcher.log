@@ -17956,3 +17956,66 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 22:13:20] INFO root fetch - processPackages [aim]: Remove: archive file [/home/abi/fetcher/tmp/aim-4.0.0a9.tar.gz]
 [2023-08-05 22:13:20] INFO root fetch - main [MainThread]: End processing [aim]: success
 [2023-08-05 22:13:20] INFO root fetch - main [MainThread]: Store serial: [19188959]
+[2023-08-05 22:18:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188959]
+[2023-08-05 22:18:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyabsa
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: capcruncher-tools
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: amarium
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hikari-core
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: first-zawakin-package
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: second-zawakin-package
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: grafana-api-sdk
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ladderbot
+[2023-08-05 22:18:29] INFO root fetch - processPackages [amarium]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-05 22:18:29] INFO root fetch - processPackages [capcruncher-tools]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ladderbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 22:18:29] INFO root fetch - processPackages [grafana-api-sdk]: New version: [0.3.0] Old Version: [0.2.0]
+[2023-08-05 22:18:29] WARNING root fetch - processPackages [second-zawakin-package]: Skipping, unable to determine old version
+[2023-08-05 22:18:29] INFO root fetch - main [MainThread]: End processing [second-zawakin-package] error
+[2023-08-05 22:18:29] WARNING root fetch - processPackages [first-zawakin-package]: Skipping, unable to determine old version
+[2023-08-05 22:18:29] INFO root fetch - main [MainThread]: End processing [first-zawakin-package] error
+[2023-08-05 22:18:29] INFO root fetch - processPackages [hikari-core]: New version: [0.9.0.7] Old Version: [0.9.0.6]
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/e5/e1/cc5f3a847cf2d38e7aaf9e6801e57ff12e3f3cc59754fb9b36a461f387e7/ladderbot-0.0.8.tar.gz
+[2023-08-05 22:18:29] INFO root fetch - processPackages [amarium]: Downloading https://files.pythonhosted.org/packages/cb/07/2d1f7739c6194560b32ec2c30c98abcc67f632d1d544c8118cf4fb2d255e/amarium-0.1.7.tar.gz
+[2023-08-05 22:18:29] INFO root fetch - processPackages [pyabsa]: New version: [2.3.2] Old Version: [2.3.1b0]
+[2023-08-05 22:18:29] INFO root fetch - processPackages [capcruncher-tools]: Downloading https://files.pythonhosted.org/packages/8c/8a/9dfbeadeee349fafb7c75c47dbb1e1ae5387d0c5519a4f5e221bc840754d/capcruncher_tools-0.1.1.tar.gz
+[2023-08-05 22:18:29] INFO root fetch - processPackages [grafana-api-sdk]: Downloading https://files.pythonhosted.org/packages/76/e7/9180df8ff3c6cf223aecbb56fe868ae8b9a223780d1d64babcbddce6e332/grafana-api-sdk-0.2.0.tar.gz
+[2023-08-05 22:18:29] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/42/f9/80da72dfcfc52b8e40b98cfc6007eb7068a4b1d4bd54d1144c6fdb71304e/hikari_core-0.9.0.6.tar.gz
+[2023-08-05 22:18:29] INFO root fetch - processPackages [pyabsa]: Downloading https://files.pythonhosted.org/packages/b5/8e/6759ac9b620652d27859c305cc5eb5746cbc1d040ce28b81777c8d9fff95/pyabsa-2.3.1b0-py3-none-any.whl
+[2023-08-05 22:18:29] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/69/27/e8f02b0d156d3bafa2ea1b34e9d5107a5482106411478528075cb9cd4eed/ladderbot-0.0.9.tar.gz
+[2023-08-05 22:18:29] INFO root fetch - processPackages [amarium]: Downloading https://files.pythonhosted.org/packages/11/a0/c5c77f5dcdd2eaaaef03e9f98fbc54fd6d7b13ab86af6e303d0b9b848151/amarium-0.1.8.tar.gz
+[2023-08-05 22:18:30] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 22:18:30] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.8.tar.gz tmp/ladderbot-0.0.9.tar.gz --markdown 20230805/l/ladderbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 22:18:30] INFO root fetch - processPackages [amarium]: executing diffoscope
+[2023-08-05 22:18:30] INFO root fetch - processPackages [amarium]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amarium-0.1.7.tar.gz tmp/amarium-0.1.8.tar.gz --markdown 20230805/a/amarium/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-05 22:18:30] INFO root fetch - processPackages [grafana-api-sdk]: Downloading https://files.pythonhosted.org/packages/be/29/a6db4dfeb4db84b9d93ce4cd14f36bf1b468cc2b7e4b067f57d4b8ac2fd2/grafana-api-sdk-0.3.0.tar.gz
+[2023-08-05 22:18:30] INFO root fetch - processPackages [hikari-core]: Downloading https://files.pythonhosted.org/packages/88/6d/173b00c986c637f7461b85da04324717fee237aa99c92ab7a5d4571eb756/hikari_core-0.9.0.7.tar.gz
+[2023-08-05 22:18:30] INFO root fetch - processPackages [pyabsa]: Downloading https://files.pythonhosted.org/packages/ce/95/5b2d3cb7171f54fdc9e702662c711ba38147b28eac594a4c4ed029990d18/pyabsa-2.3.2-py3-none-any.whl
+[2023-08-05 22:18:30] INFO root fetch - processPackages [grafana-api-sdk]: executing diffoscope
+[2023-08-05 22:18:30] INFO root fetch - processPackages [grafana-api-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/grafana-api-sdk-0.2.0.tar.gz tmp/grafana-api-sdk-0.3.0.tar.gz --markdown 20230805/g/grafana-api-sdk/0.2.0-0.3.0/diff.md --exclude *.pyd
+[2023-08-05 22:18:30] INFO root fetch - processPackages [hikari-core]: executing diffoscope
+[2023-08-05 22:18:30] INFO root fetch - processPackages [hikari-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hikari_core-0.9.0.6.tar.gz tmp/hikari_core-0.9.0.7.tar.gz --markdown 20230805/h/hikari-core/0.9.0.6-0.9.0.7/diff.md --exclude *.pyd
+[2023-08-05 22:18:30] INFO root fetch - processPackages [capcruncher-tools]: Downloading https://files.pythonhosted.org/packages/36/d3/6e4f02709a722be27a8b12b8aff8f43be595130d4ae36b4b408e6aecf720/capcruncher_tools-0.1.2.tar.gz
+[2023-08-05 22:18:30] INFO root fetch - processPackages [pyabsa]: executing diffoscope
+[2023-08-05 22:18:30] INFO root fetch - processPackages [pyabsa]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyabsa-2.3.1b0-py3-none-any.whl.zip tmp/pyabsa-2.3.2-py3-none-any.whl.zip --markdown 20230805/p/pyabsa/2.3.1b0-2.3.2/diff.md --exclude *.pyd
+[2023-08-05 22:18:30] INFO root fetch - processPackages [capcruncher-tools]: executing diffoscope
+[2023-08-05 22:18:30] INFO root fetch - processPackages [capcruncher-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/capcruncher_tools-0.1.1.tar.gz tmp/capcruncher_tools-0.1.2.tar.gz --markdown 20230805/c/capcruncher-tools/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 22:18:31] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.8.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.9.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 22:18:31] INFO root fetch - processPackages [amarium]: Remove: archive file [/home/abi/fetcher/tmp/amarium-0.1.7.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - processPackages [amarium]: Remove: archive file [/home/abi/fetcher/tmp/amarium-0.1.8.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - main [MainThread]: End processing [amarium]: success
+[2023-08-05 22:18:31] INFO root fetch - processPackages [hikari-core]: Remove: archive file [/home/abi/fetcher/tmp/hikari_core-0.9.0.6.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - processPackages [hikari-core]: Remove: archive file [/home/abi/fetcher/tmp/hikari_core-0.9.0.7.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - main [MainThread]: End processing [hikari-core]: success
+[2023-08-05 22:18:31] INFO root fetch - processPackages [grafana-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana-api-sdk-0.2.0.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - processPackages [grafana-api-sdk]: Remove: archive file [/home/abi/fetcher/tmp/grafana-api-sdk-0.3.0.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - main [MainThread]: End processing [grafana-api-sdk]: success
+[2023-08-05 22:18:31] INFO root fetch - processPackages [capcruncher-tools]: Remove: archive file [/home/abi/fetcher/tmp/capcruncher_tools-0.1.1.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - processPackages [capcruncher-tools]: Remove: archive file [/home/abi/fetcher/tmp/capcruncher_tools-0.1.2.tar.gz]
+[2023-08-05 22:18:31] INFO root fetch - main [MainThread]: End processing [capcruncher-tools]: success
+[2023-08-05 22:18:33] INFO root fetch - processPackages [pyabsa]: Remove: archive file [/home/abi/fetcher/tmp/pyabsa-2.3.1b0-py3-none-any.whl.zip]
+[2023-08-05 22:18:33] INFO root fetch - processPackages [pyabsa]: Remove: archive file [/home/abi/fetcher/tmp/pyabsa-2.3.2-py3-none-any.whl.zip]
+[2023-08-05 22:18:33] INFO root fetch - main [MainThread]: End processing [pyabsa]: success
+[2023-08-05 22:18:33] INFO root fetch - main [MainThread]: Store serial: [19188988]
