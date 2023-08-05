@@ -9923,3 +9923,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 10:33:46] INFO root fetch - processPackages [hyfi]: Remove: archive file [/home/abi/fetcher/tmp/hyfi-1.9.4.tar.gz]
 [2023-08-05 10:33:46] INFO root fetch - main [MainThread]: End processing [hyfi]: success
 [2023-08-05 10:33:46] INFO root fetch - main [MainThread]: Store serial: [19185119]
+[2023-08-05 10:38:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185119]
+[2023-08-05 10:38:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 10:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ioavstatsdb
+[2023-08-05 10:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rp
+[2023-08-05 10:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: snakemake
+[2023-08-05 10:38:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: castep-outputs
+[2023-08-05 10:38:54] INFO root fetch - processPackages [castep-outputs]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 10:38:54] WARNING root fetch - processPackages [ioavstatsdb]: Skipping, unable to determine old version
+[2023-08-05 10:38:54] INFO root fetch - main [MainThread]: End processing [ioavstatsdb] error
+[2023-08-05 10:38:54] INFO root fetch - processPackages [snakemake]: New version: [7.9.0] Old Version: [7.8.5]
+[2023-08-05 10:38:54] INFO root fetch - processPackages [rp]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-05 10:38:54] INFO root fetch - processPackages [castep-outputs]: Downloading https://files.pythonhosted.org/packages/e7/b2/84b8d474733123d75cef457e437e26cddc2c2a9c2dc81c92db642b126a6c/castep_outputs-0.1.1.tar.gz
+[2023-08-05 10:38:55] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/5d/46/165e979908eabbb5cd0b58bcdad46e04802264f46764940c97dad3ffeb85/snakemake-7.8.5.tar.gz
+[2023-08-05 10:38:55] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/cf/25/369e404bce913c1beddaed1f1d3e46b8862a396396793b7a8cacadab94fd/rp-0.1.98.tar.gz
+[2023-08-05 10:38:55] INFO root fetch - processPackages [castep-outputs]: Downloading https://files.pythonhosted.org/packages/74/24/c01c58c9b6801a3c1d3171f7e433e6e49a1c9114129d4b787e02d8a1b21e/castep_outputs-0.1.2.tar.gz
+[2023-08-05 10:38:55] INFO root fetch - processPackages [castep-outputs]: executing diffoscope
+[2023-08-05 10:38:55] INFO root fetch - processPackages [castep-outputs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/castep_outputs-0.1.1.tar.gz tmp/castep_outputs-0.1.2.tar.gz --markdown 20230805/c/castep-outputs/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 10:38:55] INFO root fetch - processPackages [snakemake]: Downloading https://files.pythonhosted.org/packages/6a/d0/729c86354d6fa9730d622186edfc9d900c52fcfa0b4316726433079c7a1d/snakemake-7.9.0.tar.gz
+[2023-08-05 10:38:55] INFO root fetch - processPackages [rp]: Downloading https://files.pythonhosted.org/packages/8c/07/4906647b2e098701a052ff5872a2a0c90db0d89d9b3ba87d146983bb910b/rp-0.1.99.tar.gz
+[2023-08-05 10:38:55] INFO root fetch - processPackages [snakemake]: executing diffoscope
+[2023-08-05 10:38:55] INFO root fetch - processPackages [snakemake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snakemake-7.8.5.tar.gz tmp/snakemake-7.9.0.tar.gz --markdown 20230805/s/snakemake/7.8.5-7.9.0/diff.md --exclude *.pyd
+[2023-08-05 10:38:56] INFO root fetch - processPackages [rp]: executing diffoscope
+[2023-08-05 10:38:56] INFO root fetch - processPackages [rp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rp-0.1.98.tar.gz tmp/rp-0.1.99.tar.gz --markdown 20230805/r/rp/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-05 10:38:56] INFO root fetch - processPackages [castep-outputs]: Remove: archive file [/home/abi/fetcher/tmp/castep_outputs-0.1.1.tar.gz]
+[2023-08-05 10:38:56] INFO root fetch - processPackages [castep-outputs]: Remove: archive file [/home/abi/fetcher/tmp/castep_outputs-0.1.2.tar.gz]
+[2023-08-05 10:38:56] INFO root fetch - main [MainThread]: End processing [castep-outputs]: success
+[2023-08-05 10:38:56] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.8.5.tar.gz]
+[2023-08-05 10:38:56] INFO root fetch - processPackages [snakemake]: Remove: archive file [/home/abi/fetcher/tmp/snakemake-7.9.0.tar.gz]
+[2023-08-05 10:38:56] INFO root fetch - main [MainThread]: End processing [snakemake]: success
+[2023-08-05 10:38:57] INFO root fetch - processPackages [rp]: Remove: archive file [/home/abi/fetcher/tmp/rp-0.1.98.tar.gz]
+[2023-08-05 10:38:57] INFO root fetch - processPackages [rp]: Remove: archive file [/home/abi/fetcher/tmp/rp-0.1.99.tar.gz]
+[2023-08-05 10:38:57] INFO root fetch - main [MainThread]: End processing [rp]: success
+[2023-08-05 10:38:57] INFO root fetch - main [MainThread]: Store serial: [19185133]
