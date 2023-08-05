@@ -14294,3 +14294,94 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:02:20] INFO root fetch - processPackages [cdk-fargate-run-task]: Remove: archive file [/home/abi/fetcher/tmp/cdk-fargate-run-task-2.0.99.tar.gz]
 [2023-08-05 17:02:20] INFO root fetch - main [MainThread]: End processing [cdk-fargate-run-task]: success
 [2023-08-05 17:02:20] INFO root fetch - main [MainThread]: Store serial: [19187258]
+[2023-08-05 17:07:23] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187258]
+[2023-08-05 17:07:28] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pih
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: python-bale-bot
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: alibabacloud-rds-data20220330-py2
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: alibabacloud-rds20140815-py2
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytech-tools
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pih
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: alibabacloud-rds-data20220330
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-rds20140815
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: usearch
+[2023-08-05 17:07:28] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Sidebar-nav-custom-icons-streamlit
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-05 17:07:29] WARNING root fetch - processPackages [alibabacloud-rds-data20220330-py2]: Skipping, unable to determine old version
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds-data20220330-py2]: Start processing: poetry-plugin-dotenv
+[2023-08-05 17:07:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds-data20220330-py2] error
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-05 17:07:29] WARNING root fetch - processPackages [alibabacloud-rds-data20220330]: Skipping, unable to determine old version
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds-data20220330]: Start processing: rdpy3
+[2023-08-05 17:07:29] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds-data20220330] error
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/d3/3f/d2e8c8209c87aa68f9b07b2d10f12ef5815c7aac1b31b9991c0abf06636a/alibabacloud_rds20140815_py2-1.4.0.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/5f/38/f84538e433bf80888d80fff1ecb5949fa755b46ec10e96b1238c937fc80f/alibabacloud_rds20140815-2.2.8.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [python-bale-bot]: New version: [2.4.7] Old Version: [2.4.6]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [rdpy3]: New version: [1.3.7] Old Version: [1.3.6]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pytech-tools]: New version: [0.1.3] Old Version: [0.1.1]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [poetry-plugin-dotenv]: New version: [0.5.2] Old Version: [0.5.1]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pih]: New version: [1.48041] Old Version: [1.48040]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pih]: New version: [1.48041] Old Version: [1.48040]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [usearch]: New version: [1.0.0] Old Version: [0.9.7]
+[2023-08-05 17:07:29] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/ef/6e/9a2694a605d3da9bc61f73897a24f36ffe7d2ebab4b5cb01e43c2c529f4e/rdpy3-1.3.6.tar.gz
+[2023-08-05 17:07:29] WARNING root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Skipping, unable to determine old version
+[2023-08-05 17:07:29] INFO root fetch - main [MainThread]: End processing [Sidebar-nav-custom-icons-streamlit] error
+[2023-08-05 17:07:29] INFO root fetch - processPackages [python-bale-bot]: Downloading https://files.pythonhosted.org/packages/9f/64/24331185266db79b70edeab43cd12157d054648492ecd9099e179074f028/python-bale-bot-2.4.6.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/b5/6c/a36da4c08c69c7d9eb1b67bfa7948a17f58464c7059a16abfdea0e8e5a14/pih-1.48040.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pytech-tools]: Downloading https://files.pythonhosted.org/packages/b9/e5/df32f5569844b5363cd5702f79e661d72ddd81edb88961c7aed28ddb4968/pytech_tools-0.1.1.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/a2/92/b387869af2f7b59f207aaa066d4f0b6c92635dfab9a36c2a800959b1ad17/poetry_plugin_dotenv-0.5.1.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/b5/6c/a36da4c08c69c7d9eb1b67bfa7948a17f58464c7059a16abfdea0e8e5a14/pih-1.48040.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a2/8f/a3252b30a16eab11240405b70ca175d22e9e65286f0453a51404db91b23e/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: Downloading https://files.pythonhosted.org/packages/8e/38/2ed843ab2f4bae57c984e9c496af84eaedd402b05d3492d4c9d1a253f508/alibabacloud_rds20140815-2.2.9.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Downloading https://files.pythonhosted.org/packages/bd/b8/336e5508e76b8559fb5e8bde74301b22c80757da9d2fa6344cf121807942/alibabacloud_rds20140815_py2-1.4.1.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/5a/41/b923e192069395e99061ae4547236b287f2e166d1de043883d4c9ccb981c/rdpy3-1.3.7.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: executing diffoscope
+[2023-08-05 17:07:29] INFO root fetch - processPackages [alibabacloud-rds20140815]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815-2.2.8.tar.gz tmp/alibabacloud_rds20140815-2.2.9.tar.gz --markdown 20230805/a/alibabacloud-rds20140815/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-05 17:07:29] INFO root fetch - processPackages [pytech-tools]: Downloading https://files.pythonhosted.org/packages/4f/a6/e28b0e609e6c68a854f551bca0e790c0911fb41a9be0fcce7f0f67945b68/pytech_tools-0.1.3.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [python-bale-bot]: Downloading https://files.pythonhosted.org/packages/f5/18/75b6782767c942904640765f92dd67fdf214e7b590fdc6767bc5f0143a55/python-bale-bot-2.4.7.tar.gz
+[2023-08-05 17:07:29] INFO root fetch - processPackages [poetry-plugin-dotenv]: Downloading https://files.pythonhosted.org/packages/3d/62/4dfaf2af415783e41045b4f82bc8dde80a506e7cb26d8c0f032e6473fb09/poetry_plugin_dotenv-0.5.2.tar.gz
+[2023-08-05 17:07:30] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_rds20140815_py2-1.4.0.tar.gz tmp/alibabacloud_rds20140815_py2-1.4.1.tar.gz --markdown 20230805/a/alibabacloud-rds20140815-py2/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/30/df/e2b6f572d727038c77391c71064126e8fd3812bc00d7378a5983621cacfe/pih-1.48041.tar.gz
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/30/df/e2b6f572d727038c77391c71064126e8fd3812bc00d7378a5983621cacfe/pih-1.48041.tar.gz
+[2023-08-05 17:07:30] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.6.tar.gz tmp/rdpy3-1.3.7.tar.gz --markdown 20230805/r/rdpy3/1.3.6-1.3.7/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [python-bale-bot]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [python-bale-bot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-bale-bot-2.4.6.tar.gz tmp/python-bale-bot-2.4.7.tar.gz --markdown 20230805/p/python-bale-bot/2.4.6-2.4.7/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d1/67/391210bf8bc918c7676b859cbe9d56ab8c4d57df244900081ffdebcc9fc6/usearch-1.0.0-cp39-cp39-win_amd64.whl
+[2023-08-05 17:07:30] INFO root fetch - processPackages [poetry-plugin-dotenv]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [poetry-plugin-dotenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/poetry_plugin_dotenv-0.5.1.tar.gz tmp/poetry_plugin_dotenv-0.5.2.tar.gz --markdown 20230805/p/poetry-plugin-dotenv/0.5.1-0.5.2/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pytech-tools]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pytech-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytech_tools-0.1.1.tar.gz tmp/pytech_tools-0.1.3.tar.gz --markdown 20230805/p/pytech-tools/0.1.1-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48040.tar.gz tmp/pih-1.48041.tar.gz --markdown 20230805/p/pih/1.48040-1.48041/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48040.tar.gz tmp/pih-1.48041.tar.gz --markdown 20230805/p/pih/1.48040-1.48041/diff.md --exclude *.pyd
+[2023-08-05 17:07:30] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-08-05 17:07:30] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/usearch-1.0.0-cp39-cp39-win_amd64.whl.zip --markdown 20230805/u/usearch/0.9.7-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 17:07:31] INFO root fetch - processPackages [pytech-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytech_tools-0.1.1.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [pytech-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytech_tools-0.1.3.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [pytech-tools]: success
+[2023-08-05 17:07:31] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.8.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [alibabacloud-rds20140815]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815-2.2.9.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815]: success
+[2023-08-05 17:07:31] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.5.1.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [poetry-plugin-dotenv]: Remove: archive file [/home/abi/fetcher/tmp/poetry_plugin_dotenv-0.5.2.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [poetry-plugin-dotenv]: success
+[2023-08-05 17:07:31] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.6.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.7.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-05 17:07:31] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48040.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48041.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-05 17:07:31] INFO root fetch - processPackages [python-bale-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-bale-bot-2.4.6.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [python-bale-bot]: Remove: archive file [/home/abi/fetcher/tmp/python-bale-bot-2.4.7.tar.gz]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [python-bale-bot]: success
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-05 17:07:31] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-08-05 17:07:31] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-1.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 17:07:31] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-08-05 17:07:32] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.4.0.tar.gz]
+[2023-08-05 17:07:32] INFO root fetch - processPackages [alibabacloud-rds20140815-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_rds20140815_py2-1.4.1.tar.gz]
+[2023-08-05 17:07:32] INFO root fetch - main [MainThread]: End processing [alibabacloud-rds20140815-py2]: success
+[2023-08-05 17:07:32] INFO root fetch - main [MainThread]: Store serial: [19187325]
