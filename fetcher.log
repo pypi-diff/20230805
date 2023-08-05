@@ -16821,3 +16821,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:28:45] INFO root fetch - processPackages [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-secure-frontend-web-app-cloudfront-distribution-0.7.4.tar.gz]
 [2023-08-05 20:28:45] INFO root fetch - main [MainThread]: End processing [gammarer.aws-secure-frontend-web-app-cloudfront-distribution]: success
 [2023-08-05 20:28:45] INFO root fetch - main [MainThread]: Store serial: [19188453]
+[2023-08-05 20:33:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188453]
+[2023-08-05 20:33:54] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 20:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyenphase
+[2023-08-05 20:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: useragent-changer
+[2023-08-05 20:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: svt-text
+[2023-08-05 20:33:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-08-05 20:33:54] INFO root fetch - processPackages [pyenphase]: New version: [0.6.1] Old Version: [0.6.0]
+[2023-08-05 20:33:54] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/f3/25/2fddc058029e1897560444727fb5e8ae625b1fc8eff5b44837ada3ed60e2/pyenphase-0.6.0.tar.gz
+[2023-08-05 20:33:54] INFO root fetch - processPackages [svt-text]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-05 20:33:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 20:33:54] WARNING root fetch - processPackages [useragent-changer]: Skipping, unable to determine old version
+[2023-08-05 20:33:54] INFO root fetch - main [MainThread]: End processing [useragent-changer] error
+[2023-08-05 20:33:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/ca/61/9e4c760b07afc2d6aebca990dd38c89cbf3a553dadbdcb1c9ac824ee950b/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz
+[2023-08-05 20:33:55] INFO root fetch - processPackages [svt-text]: Downloading https://files.pythonhosted.org/packages/90/c7/509d19f30e3e59f32864f1273ae8eac51695b3cb9afb2e683d383d3bc634/svt-text-0.2.0.tar.gz
+[2023-08-05 20:33:55] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/97/f3/696be0badabfa52cf9740511e69df648363960329f0ac7b1a13d6a03d5cf/pyenphase-0.6.1.tar.gz
+[2023-08-05 20:33:55] INFO root fetch - processPackages [svt-text]: Downloading https://files.pythonhosted.org/packages/67/35/be93a5b34db6b06da6c37e244b49e32f5f3be3505c5bc43acfba437fa428/svt-text-0.2.1.tar.gz
+[2023-08-05 20:33:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/5e/70/85c765d1c6558e5a8b65e2333fcc088597ebc1f9517340e2968d4be03e15/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz
+[2023-08-05 20:33:55] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-05 20:33:55] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.6.0.tar.gz tmp/pyenphase-0.6.1.tar.gz --markdown 20230805/p/pyenphase/0.6.0-0.6.1/diff.md --exclude *.pyd
+[2023-08-05 20:33:55] INFO root fetch - processPackages [svt-text]: executing diffoscope
+[2023-08-05 20:33:55] INFO root fetch - processPackages [svt-text]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/svt-text-0.2.0.tar.gz tmp/svt-text-0.2.1.tar.gz --markdown 20230805/s/svt-text/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-05 20:33:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: executing diffoscope
+[2023-08-05 20:33:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz --markdown 20230805/m/mkdocs-git-revision-date-plugin-blame/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 20:33:56] INFO root fetch - processPackages [svt-text]: Remove: archive file [/home/abi/fetcher/tmp/svt-text-0.2.0.tar.gz]
+[2023-08-05 20:33:56] INFO root fetch - processPackages [svt-text]: Remove: archive file [/home/abi/fetcher/tmp/svt-text-0.2.1.tar.gz]
+[2023-08-05 20:33:56] INFO root fetch - main [MainThread]: End processing [svt-text]: success
+[2023-08-05 20:33:56] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz]
+[2023-08-05 20:33:56] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz]
+[2023-08-05 20:33:56] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
+[2023-08-05 20:33:56] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.6.0.tar.gz]
+[2023-08-05 20:33:56] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.6.1.tar.gz]
+[2023-08-05 20:33:56] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-05 20:33:56] INFO root fetch - main [MainThread]: Store serial: [19188471]
