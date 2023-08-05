@@ -2250,3 +2250,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 02:46:06] INFO root fetch - processPackages [meraki]: Remove: archive file [/home/abi/fetcher/tmp/meraki-1.7.2.tar.gz]
 [2023-08-05 02:46:06] INFO root fetch - main [MainThread]: End processing [meraki]: success
 [2023-08-05 02:46:06] INFO root fetch - main [MainThread]: Store serial: [19182149]
+[2023-08-05 02:51:10] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19182149]
+[2023-08-05 02:51:15] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 02:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kubric-nightly
+[2023-08-05 02:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-slack-chatbot
+[2023-08-05 02:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-databrew-cicd
+[2023-08-05 02:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: BlaApi
+[2023-08-05 02:51:15] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: slack-logger-python
+[2023-08-05 02:51:15] INFO root fetch - processPackages [cdk-databrew-cicd]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-05 02:51:15] INFO root fetch - processPackages [slack-logger-python]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-05 02:51:15] INFO root fetch - processPackages [BlaApi]: New version: [1.9] Old Version: [1.8]
+[2023-08-05 02:51:15] INFO root fetch - processPackages [cdk-slack-chatbot]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-05 02:51:15] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/9c/18/acad9d22fe20a13d93a1aee49739981e3ab739a2edcb478344aa0fc5b783/cdk_databrew_cicd-2.0.98.tar.gz
+[2023-08-05 02:51:15] INFO root fetch - processPackages [kubric-nightly]: New version: [2023.8.5] Old Version: [2023.8.4]
+[2023-08-05 02:51:15] INFO root fetch - processPackages [slack-logger-python]: Downloading https://files.pythonhosted.org/packages/95/bb/237d3297274f3ca779b35e8674170d696f28886f7cf366a615967d469f94/slack-logger-python-0.4.0.tar.gz
+[2023-08-05 02:51:15] INFO root fetch - processPackages [BlaApi]: Downloading https://files.pythonhosted.org/packages/e0/25/e2f021ca0ef4e4dd78436a0ae680b7979383ced3826464f9289bb27872cb/BlaApi-1.8.tar.gz
+[2023-08-05 02:51:15] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/18/e1/39c7ef0a63f08b4cdd9206beb69861062b890aa42bf0ead00ce61f92d7e4/cdk-slack-chatbot-1.0.98.tar.gz
+[2023-08-05 02:51:15] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/d2/42/0cd7855e7042fb7ea38aee4578bb1c07877180e09df89122282c2554b6c9/kubric-nightly-2023.8.4.tar.gz
+[2023-08-05 02:51:15] INFO root fetch - processPackages [cdk-databrew-cicd]: Downloading https://files.pythonhosted.org/packages/66/41/4c5089b171b28b627753bb3de1b4b696fdaeb4f78ef49dcb72a79fcb6e9d/cdk_databrew_cicd-2.0.99.tar.gz
+[2023-08-05 02:51:16] INFO root fetch - processPackages [slack-logger-python]: Downloading https://files.pythonhosted.org/packages/b6/c2/b4693f0c3a72342a4f01fa82fa946c4dac27103287be8a52bf53caf94a2b/slack-logger-python-0.5.0.tar.gz
+[2023-08-05 02:51:16] INFO root fetch - processPackages [BlaApi]: Downloading https://files.pythonhosted.org/packages/21/1a/9741bf8dccc7afb2965d5a403e41d04dd66c8aa332b59e24bbcaf24fb4bd/BlaApi-1.9.tar.gz
+[2023-08-05 02:51:16] INFO root fetch - processPackages [cdk-databrew-cicd]: executing diffoscope
+[2023-08-05 02:51:16] INFO root fetch - processPackages [cdk-databrew-cicd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_databrew_cicd-2.0.98.tar.gz tmp/cdk_databrew_cicd-2.0.99.tar.gz --markdown 20230805/c/cdk-databrew-cicd/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:51:16] INFO root fetch - processPackages [cdk-slack-chatbot]: Downloading https://files.pythonhosted.org/packages/12/72/dc851f78a8ed85e11196ca9ee9dd0d9524d10ba5e6a193ae2ce79645cb38/cdk-slack-chatbot-1.0.99.tar.gz
+[2023-08-05 02:51:16] INFO root fetch - processPackages [slack-logger-python]: executing diffoscope
+[2023-08-05 02:51:16] INFO root fetch - processPackages [slack-logger-python]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/slack-logger-python-0.4.0.tar.gz tmp/slack-logger-python-0.5.0.tar.gz --markdown 20230805/s/slack-logger-python/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-05 02:51:16] INFO root fetch - processPackages [kubric-nightly]: Downloading https://files.pythonhosted.org/packages/e6/56/654e6f0b5dd5385836e8ccb76c4e67263df4881a5b184c310994661b4583/kubric-nightly-2023.8.5.tar.gz
+[2023-08-05 02:51:16] INFO root fetch - processPackages [BlaApi]: executing diffoscope
+[2023-08-05 02:51:16] INFO root fetch - processPackages [BlaApi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/BlaApi-1.8.tar.gz tmp/BlaApi-1.9.tar.gz --markdown 20230805/B/BlaApi/1.8-1.9/diff.md --exclude *.pyd
+[2023-08-05 02:51:16] INFO root fetch - processPackages [cdk-slack-chatbot]: executing diffoscope
+[2023-08-05 02:51:16] INFO root fetch - processPackages [cdk-slack-chatbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-slack-chatbot-1.0.98.tar.gz tmp/cdk-slack-chatbot-1.0.99.tar.gz --markdown 20230805/c/cdk-slack-chatbot/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:51:16] INFO root fetch - processPackages [kubric-nightly]: executing diffoscope
+[2023-08-05 02:51:16] INFO root fetch - processPackages [kubric-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kubric-nightly-2023.8.4.tar.gz tmp/kubric-nightly-2023.8.5.tar.gz --markdown 20230805/k/kubric-nightly/2023.8.4-2023.8.5/diff.md --exclude *.pyd
+[2023-08-05 02:51:17] INFO root fetch - processPackages [slack-logger-python]: Remove: archive file [/home/abi/fetcher/tmp/slack-logger-python-0.4.0.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - processPackages [slack-logger-python]: Remove: archive file [/home/abi/fetcher/tmp/slack-logger-python-0.5.0.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - main [MainThread]: End processing [slack-logger-python]: success
+[2023-08-05 02:51:17] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.98.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - processPackages [cdk-databrew-cicd]: Remove: archive file [/home/abi/fetcher/tmp/cdk_databrew_cicd-2.0.99.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - main [MainThread]: End processing [cdk-databrew-cicd]: success
+[2023-08-05 02:51:17] INFO root fetch - processPackages [BlaApi]: Remove: archive file [/home/abi/fetcher/tmp/BlaApi-1.8.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - processPackages [BlaApi]: Remove: archive file [/home/abi/fetcher/tmp/BlaApi-1.9.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - main [MainThread]: End processing [BlaApi]: success
+[2023-08-05 02:51:17] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.98.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - processPackages [cdk-slack-chatbot]: Remove: archive file [/home/abi/fetcher/tmp/cdk-slack-chatbot-1.0.99.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - main [MainThread]: End processing [cdk-slack-chatbot]: success
+[2023-08-05 02:51:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.4.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.5.tar.gz]
+[2023-08-05 02:51:17] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
+[2023-08-05 02:51:17] INFO root fetch - main [MainThread]: Store serial: [19182164]
