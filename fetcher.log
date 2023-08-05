@@ -11006,3 +11006,81 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:09:02] INFO root fetch - processPackages [dm-reverb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/dm_reverb_nightly-0.9.0.dev20221207-cp39-cp39-manylinux2014_x86_64.whl.zip]
 [2023-08-05 12:09:02] INFO root fetch - main [MainThread]: End processing [dm-reverb-nightly]: success
 [2023-08-05 12:09:02] INFO root fetch - main [MainThread]: Store serial: [19185602]
+[2023-08-05 12:14:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185602]
+[2023-08-05 12:14:12] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openseries
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: thunno2
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: PySide2-Fluent-Widgets
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sphinxnotes-lilypond
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: windmill-api
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wmill
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: clbtope
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wmill-pg
+[2023-08-05 12:14:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: neco-f
+[2023-08-05 12:14:12] INFO root fetch - processPackages [sphinxnotes-lilypond]: New version: [2.0.0a2] Old Version: [2.0.0a1]
+[2023-08-05 12:14:12] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-05 12:14:12] INFO root fetch - processPackages [openseries]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-05 12:14:13] WARNING root fetch - processPackages [clbtope]: Skipping, unable to determine old version
+[2023-08-05 12:14:13] INFO root fetch - main [MainThread]: End processing [clbtope] error
+[2023-08-05 12:14:13] INFO root fetch - processPackages [neco-f]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-05 12:14:13] INFO root fetch - processPackages [sphinxnotes-lilypond]: Downloading https://files.pythonhosted.org/packages/15/30/499994b15be004afccf38e9b92fc9ec95ccbfcf5044f2d45c13f5510221c/sphinxnotes-lilypond-2.0.0a1.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [thunno2]: New version: [2.2.9] Old Version: [2.2.8]
+[2023-08-05 12:14:13] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 12:14:13] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 12:14:13] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 12:14:13] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/74/8b/d5e90e3fccf565bed187da638c17a10cac2330beb0e8a8506db469a12a19/PySide2-Fluent-Widgets-1.0.2.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/8c/c2/bda31fca27bc55a1fbc9a8d0a48225bba8beb0894a24299238fef931c30d/openseries-1.1.0-py3-none-any.whl
+[2023-08-05 12:14:13] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/b8/a3/52e5795c3e80c493976802b71aaad7307a333eb556d8916f21008194b902/thunno2-2.2.8.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [neco-f]: Downloading https://files.pythonhosted.org/packages/9c/b4/f03644a310b5f888bc02caf40d8e333c53f80a7f7cc43d6d540e9a35e4b8/neco_f-0.0.5.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [sphinxnotes-lilypond]: Downloading https://files.pythonhosted.org/packages/70/24/ff995137462dd43728b5f139e1299a27663fa4a14da9cdb7a610d25641fd/sphinxnotes-lilypond-2.0.0a2.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/a7/11/c24f303a51c7fd26b9cfd5a2b21f79b8116f78aa6a4d584863c0745b55e1/PySide2-Fluent-Widgets-1.0.3.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [neco-f]: Downloading https://files.pythonhosted.org/packages/46/64/3b0284ecabae10d4ad07a7a5cbd360285dcf886bf4e1a3b0bd6986401745/neco_f-0.0.6.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [openseries]: Downloading https://files.pythonhosted.org/packages/a4/d9/8d00f7cafd58f1313df40810d76ef971719b9e676aae75b34a8cbed401c3/openseries-1.1.1-py3-none-any.whl
+[2023-08-05 12:14:13] INFO root fetch - processPackages [sphinxnotes-lilypond]: executing diffoscope
+[2023-08-05 12:14:13] INFO root fetch - processPackages [sphinxnotes-lilypond]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sphinxnotes-lilypond-2.0.0a1.tar.gz tmp/sphinxnotes-lilypond-2.0.0a2.tar.gz --markdown 20230805/s/sphinxnotes-lilypond/2.0.0a1-2.0.0a2/diff.md --exclude *.pyd
+[2023-08-05 12:14:13] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-08-05 12:14:13] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: executing diffoscope
+[2023-08-05 12:14:13] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySide2-Fluent-Widgets-1.0.2.tar.gz tmp/PySide2-Fluent-Widgets-1.0.3.tar.gz --markdown 20230805/P/PySide2-Fluent-Widgets/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-05 12:14:14] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-08-05 12:14:14] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230805/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 12:14:14] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-08-05 12:14:14] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230805/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 12:14:14] INFO root fetch - processPackages [neco-f]: executing diffoscope
+[2023-08-05 12:14:14] INFO root fetch - processPackages [neco-f]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/neco_f-0.0.5.tar.gz tmp/neco_f-0.0.6.tar.gz --markdown 20230805/n/neco-f/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-05 12:14:14] INFO root fetch - processPackages [thunno2]: Downloading https://files.pythonhosted.org/packages/d5/7d/0e3397e1aca965a707d2b7bae81fff816c88e90b5baf4f83455d22039f02/thunno2-2.2.9.tar.gz
+[2023-08-05 12:14:14] INFO root fetch - processPackages [openseries]: executing diffoscope
+[2023-08-05 12:14:14] INFO root fetch - processPackages [openseries]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openseries-1.1.0-py3-none-any.whl.zip tmp/openseries-1.1.1-py3-none-any.whl.zip --markdown 20230805/o/openseries/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 12:14:14] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-08-05 12:14:14] INFO root fetch - processPackages [thunno2]: executing diffoscope
+[2023-08-05 12:14:14] INFO root fetch - processPackages [thunno2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/thunno2-2.2.8.tar.gz tmp/thunno2-2.2.9.tar.gz --markdown 20230805/t/thunno2/2.2.8-2.2.9/diff.md --exclude *.pyd
+[2023-08-05 12:14:14] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-08-05 12:14:14] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230805/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 12:14:15] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-08-05 12:14:15] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-08-05 12:14:15] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.8.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - processPackages [thunno2]: Remove: archive file [/home/abi/fetcher/tmp/thunno2-2.2.9.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - main [MainThread]: End processing [thunno2]: success
+[2023-08-05 12:14:15] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.1.0-py3-none-any.whl.zip]
+[2023-08-05 12:14:15] INFO root fetch - processPackages [openseries]: Remove: archive file [/home/abi/fetcher/tmp/openseries-1.1.1-py3-none-any.whl.zip]
+[2023-08-05 12:14:15] INFO root fetch - main [MainThread]: End processing [openseries]: success
+[2023-08-05 12:14:15] INFO root fetch - processPackages [neco-f]: Remove: archive file [/home/abi/fetcher/tmp/neco_f-0.0.5.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - processPackages [neco-f]: Remove: archive file [/home/abi/fetcher/tmp/neco_f-0.0.6.tar.gz]
+[2023-08-05 12:14:15] INFO root fetch - main [MainThread]: End processing [neco-f]: success
+[2023-08-05 12:14:17] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-1.0.2.tar.gz]
+[2023-08-05 12:14:17] INFO root fetch - processPackages [PySide2-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PySide2-Fluent-Widgets-1.0.3.tar.gz]
+[2023-08-05 12:14:17] INFO root fetch - main [MainThread]: End processing [PySide2-Fluent-Widgets]: success
+[2023-08-05 12:14:21] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-08-05 12:14:21] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-08-05 12:14:21] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-08-05 12:14:34] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-2.0.0a1.tar.gz]
+[2023-08-05 12:14:34] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-2.0.0a2.tar.gz]
+[2023-08-05 12:14:34] INFO root fetch - main [MainThread]: End processing [sphinxnotes-lilypond]: success
+[2023-08-05 12:14:34] INFO root fetch - main [MainThread]: Store serial: [19185633]
