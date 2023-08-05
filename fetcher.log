@@ -18230,3 +18230,149 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 22:39:29] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.0.0rc3.tar.gz]
 [2023-08-05 22:39:29] INFO root fetch - main [MainThread]: End processing [dipdup]: success
 [2023-08-05 22:39:29] INFO root fetch - main [MainThread]: Store serial: [19189196]
+[2023-08-05 22:44:33] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189196]
+[2023-08-05 22:44:38] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: graphscope
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: graphscope-client
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gs-apps
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gs-coordinator
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gs-engine
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gs-include
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: historydict
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: litellm
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: MyGaiaDB
+[2023-08-05 22:44:38] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: freetar
+[2023-08-05 22:44:38] INFO root fetch - processPackages [freetar]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [litellm]: New version: [0.1.341] Old Version: [0.1.34]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [graphscope-client]: New version: [0.24.0a20230805] Old Version: [0.24.0a20230804]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [graphscope]: New version: [0.24.0a20230805] Old Version: [0.24.0a20230804]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [historydict]: New version: [1.2.6] Old Version: [1.2.3]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [MyGaiaDB]: New version: [0.3] Old Version: [0.2]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [gs-coordinator]: New version: [0.24.0a20230805] Old Version: [0.24.0a20230804]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [freetar]: Downloading https://files.pythonhosted.org/packages/68/ad/5d21d0c72ef91b247176d9e82df775dad1c7896cadbea3e09a3bba31d25c/freetar-0.1.3.tar.gz
+[2023-08-05 22:44:38] INFO root fetch - processPackages [gs-engine]: New version: [0.24.0a20230805] Old Version: [0.24.0a20230804]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [gs-include]: New version: [0.24.0a20230805] Old Version: [0.24.0a20230804]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [gs-apps]: New version: [0.24.0a20230805] Old Version: [0.24.0a20230804]
+[2023-08-05 22:44:38] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/3c/e2/50b26d775acdcaf40cd1af19ebec611667f75bc5a7ca4de3d539bc4763ab/litellm-0.1.34.tar.gz
+[2023-08-05 22:44:38] INFO root fetch - processPackages [graphscope-client]: Downloading https://files.pythonhosted.org/packages/1f/6f/20a4c3de401dc35b0199c377474064e4dc0c268073651951f339f75d59a5/graphscope_client-0.24.0a20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 22:44:38] INFO root fetch - processPackages [graphscope]: Downloading https://files.pythonhosted.org/packages/fc/b8/ce00a4b7f2a49532318a6319327a4fbbe5dd66912530070eb630cb3d713d/graphscope-0.24.0a20230804-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 22:44:39] INFO root fetch - processPackages [freetar]: Downloading https://files.pythonhosted.org/packages/03/f6/1c4df33ee71be38d8236d166a714e8e63b0e64b5299fd3c53a0c47648485/freetar-0.1.5.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [historydict]: Downloading https://files.pythonhosted.org/packages/f6/de/7e36dcf849553863043273dc3868d2cb0ef8328f794a85d4a714930fbb60/historydict-1.2.3.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/a5/ac/d8d95cf6d78066a702925f6717098bdff8fb10952942906f63f427643c4f/gs_coordinator-0.24.0a20230804-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-08-05 22:44:39] INFO root fetch - processPackages [MyGaiaDB]: Downloading https://files.pythonhosted.org/packages/95/76/20cc7d16dd9daf8a6bf9392b9c08a2931ec1bfac0c153a3ad807b45302b5/MyGaiaDB-0.2.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-include]: Downloading https://files.pythonhosted.org/packages/a0/4f/14b0759155684704a78ab7ca68b4ffdfe6b55a4f4c7eafc4c5b73a57a475/gs_include-0.24.0a20230804-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/d4/a4/8187d2c0d32ef09a050db6d387308047175acc25dc2e6447de32092f8450/gs_engine-0.24.0a20230804-py2.py3-none-macosx_11_0_x86_64.whl
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-apps]: Downloading https://files.pythonhosted.org/packages/e4/9d/28ef1824a3590d2c89f316bf7ca35bb4f1ba6d3203ce12182988165b8df9/gs_apps-0.24.0a20230804-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 22:44:39] WARNING root fetch - processPackages [graphscope]: Skipping package: exceeds size limit 211211935>=10485760
+[2023-08-05 22:44:39] INFO root fetch - processPackages [graphscope]: Start processing: recOrder-napari
+[2023-08-05 22:44:39] INFO root fetch - main [MainThread]: End processing [graphscope] error
+[2023-08-05 22:44:39] INFO root fetch - processPackages [freetar]: executing diffoscope
+[2023-08-05 22:44:39] INFO root fetch - processPackages [freetar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freetar-0.1.3.tar.gz tmp/freetar-0.1.5.tar.gz --markdown 20230805/f/freetar/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-08-05 22:44:39] WARNING root fetch - processPackages [gs-include]: Skipping package: exceeds size limit 32294099>=10485760
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-include]: Start processing: flux-local
+[2023-08-05 22:44:39] INFO root fetch - main [MainThread]: End processing [gs-include] error
+[2023-08-05 22:44:39] WARNING root fetch - processPackages [gs-apps]: Skipping package: exceeds size limit 46798716>=10485760
+[2023-08-05 22:44:39] INFO root fetch - main [MainThread]: End processing [gs-apps] error
+[2023-08-05 22:44:39] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/ba/0d/9c8ed89f44602d798cfb56e4f4f2694e9ba1e6cbc982ffe16cc3ca274b56/litellm-0.1.341.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [recOrder-napari]: New version: [0.4.0rc0] Old Version: [0.3.1]
+[2023-08-05 22:44:39] INFO root fetch - processPackages [MyGaiaDB]: Downloading https://files.pythonhosted.org/packages/6c/0b/284620421d6b0024d2df0555197d00c1f0036b1eeca46d0539469d80510c/MyGaiaDB-0.3.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [flux-local]: New version: [3.1.1] Old Version: [3.1.0]
+[2023-08-05 22:44:39] WARNING root fetch - processPackages [graphscope-client]: Skipping package: exceeds size limit 64945719>=10485760
+[2023-08-05 22:44:39] INFO root fetch - main [MainThread]: End processing [graphscope-client] error
+[2023-08-05 22:44:39] INFO root fetch - processPackages [historydict]: Downloading https://files.pythonhosted.org/packages/21/eb/91c2bd3684147ba8deef546ff2b6d091f32ece81ceb153831bab9f2ea6a5/historydict-1.2.6.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [recOrder-napari]: Downloading https://files.pythonhosted.org/packages/76/14/0ee03c2d1a137ec11d773b374c83410f2a87771f7393143ad727fc471d44/recOrder-napari-0.3.1.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-engine]: Downloading https://files.pythonhosted.org/packages/db/94/ebaca1f77cd8e57666af5906d265f3ea77945741ae472ab847ecb5d1537c/gs_engine-0.24.0a20230805-py2.py3-none-any.whl
+[2023-08-05 22:44:39] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 22:44:39] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.34.tar.gz tmp/litellm-0.1.341.tar.gz --markdown 20230805/l/litellm/0.1.34-0.1.341/diff.md --exclude *.pyd
+[2023-08-05 22:44:39] INFO root fetch - processPackages [MyGaiaDB]: executing diffoscope
+[2023-08-05 22:44:39] INFO root fetch - processPackages [MyGaiaDB]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MyGaiaDB-0.2.tar.gz tmp/MyGaiaDB-0.3.tar.gz --markdown 20230805/M/MyGaiaDB/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-coordinator]: Downloading https://files.pythonhosted.org/packages/35/31/b05267bf63c6c80db76fadaefdc1fb3948901edc88c49a5bad87c49ff43b/gs_coordinator-0.24.0a20230805-py2.py3-none-any.whl
+[2023-08-05 22:44:39] INFO root fetch - processPackages [historydict]: executing diffoscope
+[2023-08-05 22:44:39] INFO root fetch - processPackages [historydict]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/historydict-1.2.3.tar.gz tmp/historydict-1.2.6.tar.gz --markdown 20230805/h/historydict/1.2.3-1.2.6/diff.md --exclude *.pyd
+[2023-08-05 22:44:39] WARNING root fetch - processPackages [recOrder-napari]: Skipping package: exceeds size limit 10584597>=10485760
+[2023-08-05 22:44:39] INFO root fetch - main [MainThread]: End processing [recOrder-napari] error
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-engine]: executing diffoscope
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-engine]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_engine-0.24.0a20230804-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_engine-0.24.0a20230805-py2.py3-none-any.whl.zip --markdown 20230805/g/gs-engine/0.24.0a20230804-0.24.0a20230805/diff.md --exclude *.pyd
+[2023-08-05 22:44:39] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/cf/e0/858df86bbd0aee6e66e32ac467405b6e8018d28978e82e450d3e0d2aee7d/flux-local-3.1.0.tar.gz
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-coordinator]: executing diffoscope
+[2023-08-05 22:44:39] INFO root fetch - processPackages [gs-coordinator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gs_coordinator-0.24.0a20230804-py2.py3-none-macosx_11_0_x86_64.whl.zip tmp/gs_coordinator-0.24.0a20230805-py2.py3-none-any.whl.zip --markdown 20230805/g/gs-coordinator/0.24.0a20230804-0.24.0a20230805/diff.md --exclude *.pyd
+[2023-08-05 22:44:40] INFO root fetch - processPackages [flux-local]: Downloading https://files.pythonhosted.org/packages/d4/7d/edbd75a68b60c5da8148774423c38276f8935d83917d64167e593fbddbef/flux-local-3.1.1.tar.gz
+[2023-08-05 22:44:40] INFO root fetch - processPackages [freetar]: Remove: archive file [/home/abi/fetcher/tmp/freetar-0.1.3.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - processPackages [freetar]: Remove: archive file [/home/abi/fetcher/tmp/freetar-0.1.5.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - main [MainThread]: End processing [freetar]: success
+[2023-08-05 22:44:40] INFO root fetch - processPackages [flux-local]: executing diffoscope
+[2023-08-05 22:44:40] INFO root fetch - processPackages [flux-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flux-local-3.1.0.tar.gz tmp/flux-local-3.1.1.tar.gz --markdown 20230805/f/flux-local/3.1.0-3.1.1/diff.md --exclude *.pyd
+[2023-08-05 22:44:40] INFO root fetch - processPackages [historydict]: Remove: archive file [/home/abi/fetcher/tmp/historydict-1.2.3.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - processPackages [historydict]: Remove: archive file [/home/abi/fetcher/tmp/historydict-1.2.6.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - main [MainThread]: End processing [historydict]: success
+[2023-08-05 22:44:40] INFO root fetch - processPackages [MyGaiaDB]: Remove: archive file [/home/abi/fetcher/tmp/MyGaiaDB-0.2.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - processPackages [MyGaiaDB]: Remove: archive file [/home/abi/fetcher/tmp/MyGaiaDB-0.3.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - main [MainThread]: End processing [MyGaiaDB]: success
+[2023-08-05 22:44:40] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230804-py2.py3-none-macosx_11_0_x86_64.whl.zip]
+[2023-08-05 22:44:40] INFO root fetch - processPackages [gs-engine]: Remove: archive file [/home/abi/fetcher/tmp/gs_engine-0.24.0a20230805-py2.py3-none-any.whl.zip]
+[2023-08-05 22:44:40] INFO root fetch - main [MainThread]: End processing [gs-engine]: success
+[2023-08-05 22:44:40] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.34.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.341.tar.gz]
+[2023-08-05 22:44:40] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 22:44:40] ERROR root fetch - processPackages [gs-coordinator]: Diffoscope failed: time="2023-08-05T22:44:39+02:00" level=error msg="User-selected graph driver \"vfs\" overwritten by graph driver \"overlay\" from database - delete libpod local files to resolve.  May prevent use of images created by other tools"
+Traceback (most recent call last):
+  File "/srv/diffoscope/diffoscope/main.py", line 767, in main
+    sys.exit(run_diffoscope(parsed_args))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/main.py", line 718, in run_diffoscope
+    difference = compare_root_paths(path1, path2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 69, in compare_root_paths
+    difference = compare_files(file1, file2)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 149, in compare_files
+    return file1.compare(file2, source)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 217, in compare
+    x = super().compare(other, source)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 515, in compare
+    difference = self._compare_using_details(other, source)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 450, in _compare_using_details
+    details.extend(
+  File "/srv/diffoscope/diffoscope/comparators/utils/container.py", line 197, in compare_pair
+    difference = compare_files(
+                 ^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/compare.py", line 138, in compare_files
+    and (file1.as_container is None or file2.as_container is None)
+         ^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/file.py", line 285, in as_container
+    self._as_container = klass(self)
+                         ^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/utils/archive.py", line 43, in __init__
+    self._archive = self.open_archive()
+                    ^^^^^^^^^^^^^^^^^^^
+  File "/srv/diffoscope/diffoscope/comparators/zip.py", line 179, in open_archive
+    return zipfile.ZipFile(self.source.path, "r")
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.11/zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+  File "/usr/lib/python3.11/zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+
+[2023-08-05 22:44:41] INFO root fetch - main [MainThread]: End processing [gs-coordinator] error
+[2023-08-05 22:44:41] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-3.1.0.tar.gz]
+[2023-08-05 22:44:41] INFO root fetch - processPackages [flux-local]: Remove: archive file [/home/abi/fetcher/tmp/flux-local-3.1.1.tar.gz]
+[2023-08-05 22:44:41] INFO root fetch - main [MainThread]: End processing [flux-local]: success
+[2023-08-05 22:44:41] INFO root fetch - main [MainThread]: Store serial: [19189245]
