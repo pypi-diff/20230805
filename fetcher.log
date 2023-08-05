@@ -18065,3 +18065,48 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 22:23:45] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
 [2023-08-05 22:23:45] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
 [2023-08-05 22:23:45] INFO root fetch - main [MainThread]: Store serial: [19189009]
+[2023-08-05 22:28:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189009]
+[2023-08-05 22:28:54] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 22:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pasp-plp
+[2023-08-05 22:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyVLC
+[2023-08-05 22:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-08-05 22:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: audio-separator
+[2023-08-05 22:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: secondzawakin-package
+[2023-08-05 22:28:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-08-05 22:28:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 22:28:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 22:28:54] INFO root fetch - processPackages [audio-separator]: New version: [0.6.2] Old Version: [0.6.1]
+[2023-08-05 22:28:54] INFO root fetch - processPackages [pasp-plp]: New version: [0.0.4.post2] Old Version: [0.0.4.post1]
+[2023-08-05 22:28:54] WARNING root fetch - processPackages [secondzawakin-package]: Skipping, unable to determine old version
+[2023-08-05 22:28:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/5e/70/85c765d1c6558e5a8b65e2333fcc088597ebc1f9517340e2968d4be03e15/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz
+[2023-08-05 22:28:54] INFO root fetch - main [MainThread]: End processing [secondzawakin-package] error
+[2023-08-05 22:28:54] INFO root fetch - processPackages [PyVLC]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-05 22:28:54] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/77/74/b051540b4b37e5120b0cc2beb2e54e51e82204bdc6d64e94b73a8bc7b95c/audio_separator-0.6.1.tar.gz
+[2023-08-05 22:28:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/5e/70/85c765d1c6558e5a8b65e2333fcc088597ebc1f9517340e2968d4be03e15/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz
+[2023-08-05 22:28:54] INFO root fetch - processPackages [pasp-plp]: Downloading https://files.pythonhosted.org/packages/fa/c7/aff8e89a7d295972c2f726e907b8601d9320be1740ef960bae96a64178b0/pasp-plp-0.0.4.post1.tar.gz
+[2023-08-05 22:28:54] INFO root fetch - processPackages [PyVLC]: Downloading https://files.pythonhosted.org/packages/06/3d/e7c43da16f7ab4cb41bf6071356dd43c9342b69d510f793ed203723d505f/pyvlc-1.0.0.tar.gz
+[2023-08-05 22:28:54] WARNING root fetch - processPackages [pasp-plp]: Skipping package: exceeds size limit 26088598>=10485760
+[2023-08-05 22:28:54] INFO root fetch - main [MainThread]: End processing [pasp-plp] error
+[2023-08-05 22:28:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/20/6c/c0ee51ffb0a3c865ea21202d61d797d69c96bea8ffb541c249aed4983e85/mkdocs-git-revision-date-plugin-blame-0.1.3.tar.gz
+[2023-08-05 22:28:54] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/20/6c/c0ee51ffb0a3c865ea21202d61d797d69c96bea8ffb541c249aed4983e85/mkdocs-git-revision-date-plugin-blame-0.1.3.tar.gz
+[2023-08-05 22:28:54] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/7d/de/3f797526bf5d25df0d089d657ce9b32a9bc94a904330e77744b170c10aeb/audio_separator-0.6.2.tar.gz
+[2023-08-05 22:28:55] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-08-05 22:28:55] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.6.1.tar.gz tmp/audio_separator-0.6.2.tar.gz --markdown 20230805/a/audio-separator/0.6.1-0.6.2/diff.md --exclude *.pyd
+[2023-08-05 22:28:55] INFO root fetch - processPackages [PyVLC]: Downloading https://files.pythonhosted.org/packages/24/c9/8c3b096d1d59bd839d2598606c86d0a126e56eced02a3f0157b07e8642ef/pyvlc-1.0.1.tar.gz
+[2023-08-05 22:28:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: executing diffoscope
+[2023-08-05 22:28:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz tmp/mkdocs-git-revision-date-plugin-blame-0.1.3.tar.gz --markdown 20230805/m/mkdocs-git-revision-date-plugin-blame/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 22:28:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: executing diffoscope
+[2023-08-05 22:28:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz tmp/mkdocs-git-revision-date-plugin-blame-0.1.3.tar.gz --markdown 20230805/m/mkdocs-git-revision-date-plugin-blame/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 22:28:55] INFO root fetch - processPackages [PyVLC]: executing diffoscope
+[2023-08-05 22:28:55] INFO root fetch - processPackages [PyVLC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyvlc-1.0.0.tar.gz tmp/pyvlc-1.0.1.tar.gz --markdown 20230805/P/PyVLC/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-05 22:28:55] INFO root fetch - processPackages [PyVLC]: Remove: archive file [/home/abi/fetcher/tmp/pyvlc-1.0.0.tar.gz]
+[2023-08-05 22:28:55] INFO root fetch - processPackages [PyVLC]: Remove: archive file [/home/abi/fetcher/tmp/pyvlc-1.0.1.tar.gz]
+[2023-08-05 22:28:55] INFO root fetch - main [MainThread]: End processing [PyVLC]: success
+[2023-08-05 22:28:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz]
+[2023-08-05 22:28:55] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.3.tar.gz]
+[2023-08-05 22:28:55] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
+[2023-08-05 22:28:56] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.6.1.tar.gz]
+[2023-08-05 22:28:56] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.6.2.tar.gz]
+[2023-08-05 22:28:56] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-08-05 22:28:56] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
+[2023-08-05 22:28:56] INFO root fetch - main [MainThread]: Store serial: [19189040]
