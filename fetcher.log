@@ -12644,3 +12644,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 14:56:35] INFO root fetch - processPackages [cuppa]: Remove: archive file [/home/abi/fetcher/tmp/cuppa-0.9.99.tar.gz]
 [2023-08-05 14:56:35] INFO root fetch - main [MainThread]: End processing [cuppa]: success
 [2023-08-05 14:56:35] INFO root fetch - main [MainThread]: Store serial: [19186533]
+[2023-08-05 15:01:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186533]
+[2023-08-05 15:01:44] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: exopropred
+[2023-08-05 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PySiglent-SSA3000x
+[2023-08-05 15:01:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: always-updates
+[2023-08-05 15:01:44] INFO root fetch - processPackages [always-updates]: New version: [99.9] Old Version: [99.8]
+[2023-08-05 15:01:44] INFO root fetch - processPackages [PySiglent-SSA3000x]: New version: [0.3] Old Version: [0.2]
+[2023-08-05 15:01:44] WARNING root fetch - processPackages [exopropred]: Skipping, unable to determine old version
+[2023-08-05 15:01:44] INFO root fetch - main [MainThread]: End processing [exopropred] error
+[2023-08-05 15:01:44] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/5a/dc/f0b9cc3dcafc81b230cec909ee0b7d6229e97b28093d8f6f51c2ace8468b/always_updates-99.8.tar.gz
+[2023-08-05 15:01:45] INFO root fetch - processPackages [PySiglent-SSA3000x]: Downloading https://files.pythonhosted.org/packages/48/18/678e3ae618e02688bf1b76952f7642fde63ae8bcf3f813be942e3fb3bbac/PySiglent_SSA3000x-0.2.tar.gz
+[2023-08-05 15:01:45] INFO root fetch - processPackages [always-updates]: Downloading https://files.pythonhosted.org/packages/b1/bd/641679b0c9c7b7c15f7084f8215f70f9189c0f4efd5633e45fe0a7f33ba5/always_updates-99.9.tar.gz
+[2023-08-05 15:01:45] INFO root fetch - processPackages [always-updates]: executing diffoscope
+[2023-08-05 15:01:45] INFO root fetch - processPackages [always-updates]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/always_updates-99.8.tar.gz tmp/always_updates-99.9.tar.gz --markdown 20230805/a/always-updates/99.8-99.9/diff.md --exclude *.pyd
+[2023-08-05 15:01:45] INFO root fetch - processPackages [PySiglent-SSA3000x]: Downloading https://files.pythonhosted.org/packages/ec/5e/ecaae49f548dcb85ee097e2ce96093b5046df32f98873a9121f8aea4c47a/PySiglent_SSA3000x-0.3.tar.gz
+[2023-08-05 15:01:45] INFO root fetch - processPackages [PySiglent-SSA3000x]: executing diffoscope
+[2023-08-05 15:01:45] INFO root fetch - processPackages [PySiglent-SSA3000x]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PySiglent_SSA3000x-0.2.tar.gz tmp/PySiglent_SSA3000x-0.3.tar.gz --markdown 20230805/P/PySiglent-SSA3000x/0.2-0.3/diff.md --exclude *.pyd
+[2023-08-05 15:01:45] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.8.tar.gz]
+[2023-08-05 15:01:45] INFO root fetch - processPackages [always-updates]: Remove: archive file [/home/abi/fetcher/tmp/always_updates-99.9.tar.gz]
+[2023-08-05 15:01:45] INFO root fetch - main [MainThread]: End processing [always-updates]: success
+[2023-08-05 15:01:46] INFO root fetch - processPackages [PySiglent-SSA3000x]: Remove: archive file [/home/abi/fetcher/tmp/PySiglent_SSA3000x-0.2.tar.gz]
+[2023-08-05 15:01:46] INFO root fetch - processPackages [PySiglent-SSA3000x]: Remove: archive file [/home/abi/fetcher/tmp/PySiglent_SSA3000x-0.3.tar.gz]
+[2023-08-05 15:01:46] INFO root fetch - main [MainThread]: End processing [PySiglent-SSA3000x]: success
+[2023-08-05 15:01:46] INFO root fetch - main [MainThread]: Store serial: [19186545]
