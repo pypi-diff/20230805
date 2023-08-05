@@ -11759,3 +11759,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:23:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
 [2023-08-05 13:23:13] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
 [2023-08-05 13:23:13] INFO root fetch - main [MainThread]: Store serial: [19186037]
+[2023-08-05 13:28:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186037]
+[2023-08-05 13:28:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyimporters-csv
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: degreesConversion
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: jmcomic
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: torchtnt-nightly
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: torchx-nightly
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: djdantic
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: torchserve-nightly
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: torch-model-archiver-nightly
+[2023-08-05 13:28:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torch-workflow-archiver-nightly
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torchserve-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 13:28:22] WARNING root fetch - processPackages [degreesConversion]: Skipping, unable to determine old version
+[2023-08-05 13:28:22] INFO root fetch - main [MainThread]: End processing [degreesConversion] error
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torch-model-archiver-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torchx-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 13:28:22] INFO root fetch - processPackages [djdantic]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [jmcomic]: New version: [2.1.9] Old Version: [2.1.8]
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/e4/72/1b1bc870135a123fad66ae7062343eda79e3fe105ca4d25a4b2be44eade1/torch_model_archiver_nightly-2023.8.3-py3-none-any.whl
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torchserve-nightly]: Downloading https://files.pythonhosted.org/packages/c0/f5/f95bdbddd61b661f6580741ef99c60780212ff8388ccecf5d0dedef422ec/torchserve_nightly-2023.8.3-py3-none-any.whl
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/4e/89/7cd77383778c84d915b98fed9bdf9f872c0e55d32f654a8367c91d8d7075/torchtnt-nightly-2023.8.3.tar.gz
+[2023-08-05 13:28:22] WARNING root fetch - processPackages [torchserve-nightly]: Skipping package: exceeds size limit 23751372>=10485760
+[2023-08-05 13:28:22] INFO root fetch - main [MainThread]: End processing [torchserve-nightly] error
+[2023-08-05 13:28:22] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/6a/21/ec20ea9a2ede19402548892f273fd4b733f804f5cd1b00b09e4068c7945d/torchx_nightly-2023.8.3-py3-none-any.whl
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/b5/f8/b83425554c9316aff8ebeab95f6bc1c8533d12f1b2717eea45aefeaad0e2/torch_workflow_archiver_nightly-2023.8.3-py3-none-any.whl
+[2023-08-05 13:28:23] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/6b/01/7b99b438be3180f4c11b404a39696e894c48441b43764956dfe1c658a47e/djdantic-0.0.8.tar.gz
+[2023-08-05 13:28:23] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/7b/b8/13c9f98128c85bfd8b7f327bfe6158f9db46127912d80d4d9124e0115c81/jmcomic-2.1.8.tar.gz
+[2023-08-05 13:28:23] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-model-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/12/5f/9e0942855814c910846bd202d454a3794b2be83ad872abc42bc1811d5564/torch_model_archiver_nightly-2023.8.4-py3-none-any.whl
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torchx-nightly]: Downloading https://files.pythonhosted.org/packages/82/63/0017720b20b22c6fa76e096cd7a1e767ec12dfac25153c8d9d3996d19a80/torchx_nightly-2023.8.4-py3-none-any.whl
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-model-archiver-nightly]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-model-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_model_archiver_nightly-2023.8.3-py3-none-any.whl.zip tmp/torch_model_archiver_nightly-2023.8.4-py3-none-any.whl.zip --markdown 20230805/t/torch-model-archiver-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 13:28:23] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: Downloading https://files.pythonhosted.org/packages/cf/53/327e9a0dec7447f1e9635c7eed9d7001b65256afa8468d073721dd510bc8/torchtnt-nightly-2023.8.4.tar.gz
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Downloading https://files.pythonhosted.org/packages/3b/19/610f8eaccfd6fc55e44adf974391391a334f1728d03ed7bb99514b043156/torch_workflow_archiver_nightly-2023.8.4-py3-none-any.whl
+[2023-08-05 13:28:23] INFO root fetch - processPackages [jmcomic]: Downloading https://files.pythonhosted.org/packages/3c/67/abc1ff1b2b2d3681a020412740641c7a62b80e3b76d8c5cd167f53c1c689/jmcomic-2.1.9.tar.gz
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torchx-nightly]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torchx-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchx_nightly-2023.8.3-py3-none-any.whl.zip tmp/torchx_nightly-2023.8.4-py3-none-any.whl.zip --markdown 20230805/t/torchx-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torchtnt-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchtnt-nightly-2023.8.3.tar.gz tmp/torchtnt-nightly-2023.8.4.tar.gz --markdown 20230805/t/torchtnt-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torch_workflow_archiver_nightly-2023.8.3-py3-none-any.whl.zip tmp/torch_workflow_archiver_nightly-2023.8.4-py3-none-any.whl.zip --markdown 20230805/t/torch-workflow-archiver-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 13:28:23] INFO root fetch - processPackages [jmcomic]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [jmcomic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jmcomic-2.1.8.tar.gz tmp/jmcomic-2.1.9.tar.gz --markdown 20230805/j/jmcomic/2.1.8-2.1.9/diff.md --exclude *.pyd
+[2023-08-05 13:28:23] INFO root fetch - processPackages [djdantic]: Downloading https://files.pythonhosted.org/packages/88/22/c9aa0b10748408764928cf0af9f3447f06fac8c6db08ba9a54a5703619c0/djdantic-0.0.9.tar.gz
+[2023-08-05 13:28:23] INFO root fetch - processPackages [djdantic]: executing diffoscope
+[2023-08-05 13:28:23] INFO root fetch - processPackages [djdantic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/djdantic-0.0.8.tar.gz tmp/djdantic-0.0.9.tar.gz --markdown 20230805/d/djdantic/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 13:28:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.3-py3-none-any.whl.zip]
+[2023-08-05 13:28:24] INFO root fetch - processPackages [torch-model-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_model_archiver_nightly-2023.8.4-py3-none-any.whl.zip]
+[2023-08-05 13:28:24] INFO root fetch - main [MainThread]: End processing [torch-model-archiver-nightly]: success
+[2023-08-05 13:28:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.3-py3-none-any.whl.zip]
+[2023-08-05 13:28:24] INFO root fetch - processPackages [torch-workflow-archiver-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torch_workflow_archiver_nightly-2023.8.4-py3-none-any.whl.zip]
+[2023-08-05 13:28:24] INFO root fetch - main [MainThread]: End processing [torch-workflow-archiver-nightly]: success
+[2023-08-05 13:28:24] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-05 13:28:24] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-05 13:28:24] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 13:28:24] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.8.tar.gz]
+[2023-08-05 13:28:24] INFO root fetch - processPackages [jmcomic]: Remove: archive file [/home/abi/fetcher/tmp/jmcomic-2.1.9.tar.gz]
+[2023-08-05 13:28:24] INFO root fetch - main [MainThread]: End processing [jmcomic]: success
+[2023-08-05 13:28:24] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.3.tar.gz]
+[2023-08-05 13:28:24] INFO root fetch - processPackages [torchtnt-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchtnt-nightly-2023.8.4.tar.gz]
+[2023-08-05 13:28:24] INFO root fetch - main [MainThread]: End processing [torchtnt-nightly]: success
+[2023-08-05 13:28:25] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.3-py3-none-any.whl.zip]
+[2023-08-05 13:28:25] INFO root fetch - processPackages [torchx-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchx_nightly-2023.8.4-py3-none-any.whl.zip]
+[2023-08-05 13:28:25] INFO root fetch - main [MainThread]: End processing [torchx-nightly]: success
+[2023-08-05 13:28:25] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.8.tar.gz]
+[2023-08-05 13:28:25] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
+[2023-08-05 13:28:25] INFO root fetch - main [MainThread]: End processing [djdantic]: success
+[2023-08-05 13:28:25] INFO root fetch - main [MainThread]: Store serial: [19186070]
