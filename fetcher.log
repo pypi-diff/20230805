@@ -14195,3 +14195,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:51:57] INFO root fetch - processPackages [acdh-transkribus-utils]: Remove: archive file [/home/abi/fetcher/tmp/acdh-transkribus-utils-2.7.tar.gz]
 [2023-08-05 16:51:57] INFO root fetch - main [MainThread]: End processing [acdh-transkribus-utils]: success
 [2023-08-05 16:51:57] INFO root fetch - main [MainThread]: Store serial: [19187207]
+[2023-08-05 16:57:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187207]
+[2023-08-05 16:57:06] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 16:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pystv
+[2023-08-05 16:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: submititnow
+[2023-08-05 16:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graia-saya
+[2023-08-05 16:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mercury-engine-data-structures
+[2023-08-05 16:57:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: moneycontrol-api
+[2023-08-05 16:57:06] INFO root fetch - processPackages [moneycontrol-api]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-05 16:57:06] WARNING root fetch - processPackages [submititnow]: Skipping, unable to determine old version
+[2023-08-05 16:57:06] INFO root fetch - main [MainThread]: End processing [submititnow] error
+[2023-08-05 16:57:06] INFO root fetch - processPackages [mercury-engine-data-structures]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-05 16:57:06] INFO root fetch - processPackages [moneycontrol-api]: Downloading https://files.pythonhosted.org/packages/81/31/2b5a9e73c1f5d9fd86614bf1c4d005b5eee120dce655c160599b19ffbc3a/moneycontrol_api-1.1.0.tar.gz
+[2023-08-05 16:57:06] INFO root fetch - processPackages [graia-saya]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:57:06] INFO root fetch - processPackages [pystv]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-05 16:57:07] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/39/e0/fc744921b150b00c8ddb23acc3afb33cffac60d0ba7554589364c746e51a/mercury-engine-data-structures-0.9.5.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [pystv]: Downloading https://files.pythonhosted.org/packages/3a/4c/e8fb04898953ab8c1a13bdece9ebb5ae5643f942dcd8b892340eed63db32/pystv-0.8.1.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [graia-saya]: Downloading https://files.pythonhosted.org/packages/36/b8/c19aed263a098ce3b7b1a2b09dcbdb2807ea9e22f5ecc4f6eecc30f7bf28/graia-saya-0.0.8.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [moneycontrol-api]: Downloading https://files.pythonhosted.org/packages/7b/3c/bbc831516fa7da68dff2e9ed36b1e3e5ccded1791eb3418bb2def46d8dda/moneycontrol_api-1.1.1.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [moneycontrol-api]: executing diffoscope
+[2023-08-05 16:57:07] INFO root fetch - processPackages [moneycontrol-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneycontrol_api-1.1.0.tar.gz tmp/moneycontrol_api-1.1.1.tar.gz --markdown 20230805/m/moneycontrol-api/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 16:57:07] INFO root fetch - processPackages [mercury-engine-data-structures]: Downloading https://files.pythonhosted.org/packages/ea/9a/111001b9a671be0e6b9e31841e0e275f2d5098f85da2d1421181c36e046a/mercury-engine-data-structures-0.9.6.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [pystv]: Downloading https://files.pythonhosted.org/packages/1a/00/cbaab1718442b0a35b5f3218e3c50869a83dc09c2bc1c3b551e5e94cbde1/pystv-0.9.0.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [graia-saya]: Downloading https://files.pythonhosted.org/packages/ee/59/96260c43adaee16b519c8ba1a00dd511f30a54eb9c7d62a603b0c92a79a3/graia-saya-0.0.9.tar.gz
+[2023-08-05 16:57:07] INFO root fetch - processPackages [mercury-engine-data-structures]: executing diffoscope
+[2023-08-05 16:57:07] INFO root fetch - processPackages [mercury-engine-data-structures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mercury-engine-data-structures-0.9.5.tar.gz tmp/mercury-engine-data-structures-0.9.6.tar.gz --markdown 20230805/m/mercury-engine-data-structures/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-05 16:57:07] INFO root fetch - processPackages [pystv]: executing diffoscope
+[2023-08-05 16:57:07] INFO root fetch - processPackages [pystv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pystv-0.8.1.tar.gz tmp/pystv-0.9.0.tar.gz --markdown 20230805/p/pystv/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 16:57:07] INFO root fetch - processPackages [graia-saya]: executing diffoscope
+[2023-08-05 16:57:07] INFO root fetch - processPackages [graia-saya]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-saya-0.0.8.tar.gz tmp/graia-saya-0.0.9.tar.gz --markdown 20230805/g/graia-saya/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:57:08] INFO root fetch - processPackages [moneycontrol-api]: Remove: archive file [/home/abi/fetcher/tmp/moneycontrol_api-1.1.0.tar.gz]
+[2023-08-05 16:57:08] INFO root fetch - processPackages [moneycontrol-api]: Remove: archive file [/home/abi/fetcher/tmp/moneycontrol_api-1.1.1.tar.gz]
+[2023-08-05 16:57:08] INFO root fetch - main [MainThread]: End processing [moneycontrol-api]: success
+[2023-08-05 16:57:08] INFO root fetch - processPackages [pystv]: Remove: archive file [/home/abi/fetcher/tmp/pystv-0.8.1.tar.gz]
+[2023-08-05 16:57:08] INFO root fetch - processPackages [pystv]: Remove: archive file [/home/abi/fetcher/tmp/pystv-0.9.0.tar.gz]
+[2023-08-05 16:57:08] INFO root fetch - main [MainThread]: End processing [pystv]: success
+[2023-08-05 16:57:08] INFO root fetch - processPackages [graia-saya]: Remove: archive file [/home/abi/fetcher/tmp/graia-saya-0.0.8.tar.gz]
+[2023-08-05 16:57:08] INFO root fetch - processPackages [graia-saya]: Remove: archive file [/home/abi/fetcher/tmp/graia-saya-0.0.9.tar.gz]
+[2023-08-05 16:57:08] INFO root fetch - main [MainThread]: End processing [graia-saya]: success
+[2023-08-05 16:57:09] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.5.tar.gz]
+[2023-08-05 16:57:09] INFO root fetch - processPackages [mercury-engine-data-structures]: Remove: archive file [/home/abi/fetcher/tmp/mercury-engine-data-structures-0.9.6.tar.gz]
+[2023-08-05 16:57:09] INFO root fetch - main [MainThread]: End processing [mercury-engine-data-structures]: success
+[2023-08-05 16:57:09] INFO root fetch - main [MainThread]: Store serial: [19187229]
