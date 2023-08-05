@@ -8973,3 +8973,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:18:12] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
 [2023-08-05 08:18:12] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
 [2023-08-05 08:18:12] INFO root fetch - main [MainThread]: Store serial: [19184621]
+[2023-08-05 08:23:16] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184621]
+[2023-08-05 08:23:20] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aramgg-poro
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: alembic-postgresql-enum
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hiddifypanel
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: ciokatana
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyboba
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: pypomes-store
+[2023-08-05 08:23:20] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-05 08:23:20] INFO root fetch - processPackages [ciokatana]: New version: [0.1.3rc1] Old Version: [0.1.2]
+[2023-08-05 08:23:21] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/36/c3/cfbedb5b3dd48e3b73700c71e03c449020c0ec3acac35f0057700937a42d/ciokatana-0.1.2-py2.py3-none-any.whl
+[2023-08-05 08:23:21] INFO root fetch - processPackages [aramgg-poro]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 08:23:21] INFO root fetch - processPackages [alembic-postgresql-enum]: New version: [0.1.5a0] Old Version: [0.1.5]
+[2023-08-05 08:23:21] WARNING root fetch - processPackages [pyboba]: Skipping, unable to determine old version
+[2023-08-05 08:23:21] INFO root fetch - main [MainThread]: End processing [pyboba] error
+[2023-08-05 08:23:21] INFO root fetch - processPackages [pypomes-store]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 08:23:21] INFO root fetch - processPackages [alembic-postgresql-enum]: Downloading https://files.pythonhosted.org/packages/88/22/84623c3d3f4977617d0fe99bb96e31173a86b2fca549a2f96e441d2ef752/alembic_postgresql_enum-0.1.5.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/e4/f7/ddf0421b68c94a1419f2e2a2bd4094b7c3ebc7902fc333131aa9f448c8f2/aramgg-poro-0.0.7.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/07/e8/a38446c300119546c4b1911e3561dc52fa2194055e6fec2a0510de43e220/pypomes_store-0.1.8.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [ciokatana]: Downloading https://files.pythonhosted.org/packages/38/2b/7b0747b4a748cc19ef4d2287b22c27dcf30d06bb3b6a137b6e17b3a4c6f8/ciokatana-0.1.3rc1-py2.py3-none-any.whl
+[2023-08-05 08:23:21] INFO root fetch - processPackages [pypomes-store]: Downloading https://files.pythonhosted.org/packages/e6/75/50105d33956667f8fc8e832d6e47b53dc52b28d39eccd477cdeb887b770b/pypomes_store-0.1.9.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [alembic-postgresql-enum]: Downloading https://files.pythonhosted.org/packages/05/e5/f21acdc5b7777a34f89ec8595800edf2cf61c68bc7c96476e21ec5afd7ce/alembic_postgresql_enum-0.1.5a0.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [aramgg-poro]: Downloading https://files.pythonhosted.org/packages/3e/d4/4ca9b45c89d6214cefa8be09f58bcb5b378e769777330fd4eb5f11bab862/aramgg-poro-0.0.8.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-05 08:23:21] INFO root fetch - processPackages [pypomes-store]: executing diffoscope
+[2023-08-05 08:23:21] INFO root fetch - processPackages [pypomes-store]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_store-0.1.8.tar.gz tmp/pypomes_store-0.1.9.tar.gz --markdown 20230805/p/pypomes-store/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 08:23:21] INFO root fetch - processPackages [ciokatana]: executing diffoscope
+[2023-08-05 08:23:21] INFO root fetch - processPackages [ciokatana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ciokatana-0.1.2-py2.py3-none-any.whl.zip tmp/ciokatana-0.1.3rc1-py2.py3-none-any.whl.zip --markdown 20230805/c/ciokatana/0.1.2-0.1.3rc1/diff.md --exclude *.pyd
+[2023-08-05 08:23:21] INFO root fetch - processPackages [alembic-postgresql-enum]: executing diffoscope
+[2023-08-05 08:23:21] INFO root fetch - processPackages [alembic-postgresql-enum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alembic_postgresql_enum-0.1.5.tar.gz tmp/alembic_postgresql_enum-0.1.5a0.tar.gz --markdown 20230805/a/alembic-postgresql-enum/0.1.5-0.1.5a0/diff.md --exclude *.pyd
+[2023-08-05 08:23:21] INFO root fetch - processPackages [aramgg-poro]: executing diffoscope
+[2023-08-05 08:23:21] INFO root fetch - processPackages [aramgg-poro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aramgg-poro-0.0.7.tar.gz tmp/aramgg-poro-0.0.8.tar.gz --markdown 20230805/a/aramgg-poro/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 08:23:22] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-05 08:23:22] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230805/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-05 08:23:22] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.8.tar.gz]
+[2023-08-05 08:23:22] INFO root fetch - processPackages [pypomes-store]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_store-0.1.9.tar.gz]
+[2023-08-05 08:23:22] INFO root fetch - main [MainThread]: End processing [pypomes-store]: success
+[2023-08-05 08:23:22] INFO root fetch - processPackages [alembic-postgresql-enum]: Remove: archive file [/home/abi/fetcher/tmp/alembic_postgresql_enum-0.1.5.tar.gz]
+[2023-08-05 08:23:22] INFO root fetch - processPackages [alembic-postgresql-enum]: Remove: archive file [/home/abi/fetcher/tmp/alembic_postgresql_enum-0.1.5a0.tar.gz]
+[2023-08-05 08:23:22] INFO root fetch - main [MainThread]: End processing [alembic-postgresql-enum]: success
+[2023-08-05 08:23:22] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.7.tar.gz]
+[2023-08-05 08:23:22] INFO root fetch - processPackages [aramgg-poro]: Remove: archive file [/home/abi/fetcher/tmp/aramgg-poro-0.0.8.tar.gz]
+[2023-08-05 08:23:22] INFO root fetch - main [MainThread]: End processing [aramgg-poro]: success
+[2023-08-05 08:23:23] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.2-py2.py3-none-any.whl.zip]
+[2023-08-05 08:23:23] INFO root fetch - processPackages [ciokatana]: Remove: archive file [/home/abi/fetcher/tmp/ciokatana-0.1.3rc1-py2.py3-none-any.whl.zip]
+[2023-08-05 08:23:23] INFO root fetch - main [MainThread]: End processing [ciokatana]: success
+[2023-08-05 08:23:27] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-05 08:23:27] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-05 08:23:27] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-05 08:23:27] INFO root fetch - main [MainThread]: Store serial: [19184641]
