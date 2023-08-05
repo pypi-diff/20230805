@@ -16396,3 +16396,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:52:13] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
 [2023-08-05 19:52:13] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
 [2023-08-05 19:52:13] INFO root fetch - main [MainThread]: Store serial: [19188240]
+[2023-08-05 19:57:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188240]
+[2023-08-05 19:57:21] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 19:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyfixest
+[2023-08-05 19:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: setuptools-github
+[2023-08-05 19:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: graphene-django-optimizer
+[2023-08-05 19:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: s3kv
+[2023-08-05 19:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: solidwrap
+[2023-08-05 19:57:21] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: indexnow
+[2023-08-05 19:57:22] INFO root fetch - processPackages [setuptools-github]: New version: [0.3.7b93] Old Version: [0.3.7b92]
+[2023-08-05 19:57:22] INFO root fetch - processPackages [pyfixest]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-05 19:57:22] INFO root fetch - processPackages [graphene-django-optimizer]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-05 19:57:22] WARNING root fetch - processPackages [s3kv]: Skipping, unable to determine old version
+[2023-08-05 19:57:22] INFO root fetch - main [MainThread]: End processing [s3kv] error
+[2023-08-05 19:57:22] INFO root fetch - processPackages [solidwrap]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-05 19:57:22] INFO root fetch - processPackages [indexnow]: New version: [1.0.0] Old Version: [0.0.2]
+[2023-08-05 19:57:22] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/5c/63/e265d68bee6abd7b24418ce50c6acd78b0e0293aeecdd5bdb349c61f097c/setuptools-github-0.3.7b92.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/d5/c4/5fde571f0184db6d6dd809480fe9159cad975cc206f3bbcb69df8e7c7554/pyfixest-0.8.2.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/6a/9f/34346f3f173d837d47ae28cb97547e5d87db2a4092059b0840300c49221a/solidwrap-1.0.5.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [graphene-django-optimizer]: Downloading https://files.pythonhosted.org/packages/d5/2d/0fb864062315fcbfb1d7d08f781db9a71d65e925ccd5ab7676850bc16bab/graphene-django-optimizer-0.9.0.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/9c/43/5391eac44103d743a9b69de209bfa5bb160f33048988cebc5ca74538238a/indexnow-0.0.2.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [setuptools-github]: Downloading https://files.pythonhosted.org/packages/22/31/53be31e56d79b77ee8d21f222fee5a5cdb00204726aee5f2e36c82a6757f/setuptools-github-0.3.7b93.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [setuptools-github]: executing diffoscope
+[2023-08-05 19:57:22] INFO root fetch - processPackages [setuptools-github]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/setuptools-github-0.3.7b92.tar.gz tmp/setuptools-github-0.3.7b93.tar.gz --markdown 20230805/s/setuptools-github/0.3.7b92-0.3.7b93/diff.md --exclude *.pyd
+[2023-08-05 19:57:22] INFO root fetch - processPackages [solidwrap]: Downloading https://files.pythonhosted.org/packages/43/f7/427d759c5049ae3ae3b1f17bf0030ac22ab30f59d848e4b0b27fddb380f9/solidwrap-1.0.6.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/ba/e6/f1fe822b80e1984cb82858b96cd64047b80a625016ae2740891af644d69b/pyfixest-0.8.3.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [graphene-django-optimizer]: Downloading https://files.pythonhosted.org/packages/96/00/361d61157e8e3abe70abf0d12c994adbee50acb60a790bddc3c05ce6fb9f/graphene-django-optimizer-0.9.1.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/26/2e/3c46e5e6d72caa8b929c0e6c781ef9f54c29d10827b5fe25c8a2f5be4543/indexnow-1.0.0.tar.gz
+[2023-08-05 19:57:22] INFO root fetch - processPackages [pyfixest]: executing diffoscope
+[2023-08-05 19:57:22] INFO root fetch - processPackages [pyfixest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfixest-0.8.2.tar.gz tmp/pyfixest-0.8.3.tar.gz --markdown 20230805/p/pyfixest/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-05 19:57:23] INFO root fetch - processPackages [solidwrap]: executing diffoscope
+[2023-08-05 19:57:23] INFO root fetch - processPackages [solidwrap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/solidwrap-1.0.5.tar.gz tmp/solidwrap-1.0.6.tar.gz --markdown 20230805/s/solidwrap/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-05 19:57:23] INFO root fetch - processPackages [graphene-django-optimizer]: executing diffoscope
+[2023-08-05 19:57:23] INFO root fetch - processPackages [graphene-django-optimizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graphene-django-optimizer-0.9.0.tar.gz tmp/graphene-django-optimizer-0.9.1.tar.gz --markdown 20230805/g/graphene-django-optimizer/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-05 19:57:23] INFO root fetch - processPackages [indexnow]: executing diffoscope
+[2023-08-05 19:57:23] INFO root fetch - processPackages [indexnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnow-0.0.2.tar.gz tmp/indexnow-1.0.0.tar.gz --markdown 20230805/i/indexnow/0.0.2-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 19:57:23] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.7b92.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - processPackages [setuptools-github]: Remove: archive file [/home/abi/fetcher/tmp/setuptools-github-0.3.7b93.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - main [MainThread]: End processing [setuptools-github]: success
+[2023-08-05 19:57:23] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.8.2.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.8.3.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - main [MainThread]: End processing [pyfixest]: success
+[2023-08-05 19:57:23] INFO root fetch - processPackages [indexnow]: Remove: archive file [/home/abi/fetcher/tmp/indexnow-0.0.2.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - processPackages [indexnow]: Remove: archive file [/home/abi/fetcher/tmp/indexnow-1.0.0.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - main [MainThread]: End processing [indexnow]: success
+[2023-08-05 19:57:23] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-1.0.5.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - processPackages [solidwrap]: Remove: archive file [/home/abi/fetcher/tmp/solidwrap-1.0.6.tar.gz]
+[2023-08-05 19:57:23] INFO root fetch - main [MainThread]: End processing [solidwrap]: success
+[2023-08-05 19:57:24] INFO root fetch - processPackages [graphene-django-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-optimizer-0.9.0.tar.gz]
+[2023-08-05 19:57:24] INFO root fetch - processPackages [graphene-django-optimizer]: Remove: archive file [/home/abi/fetcher/tmp/graphene-django-optimizer-0.9.1.tar.gz]
+[2023-08-05 19:57:24] INFO root fetch - main [MainThread]: End processing [graphene-django-optimizer]: success
+[2023-08-05 19:57:24] INFO root fetch - main [MainThread]: Store serial: [19188263]
