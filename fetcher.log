@@ -9749,3 +9749,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 10:07:54] INFO root fetch - processPackages [pyglove]: Remove: archive file [/home/abi/fetcher/tmp/pyglove-0.4.3.dev20230804.tar.gz]
 [2023-08-05 10:07:54] INFO root fetch - main [MainThread]: End processing [pyglove]: success
 [2023-08-05 10:07:54] INFO root fetch - main [MainThread]: Store serial: [19185042]
+[2023-08-05 10:12:57] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185042]
+[2023-08-05 10:13:02] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 10:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-api-info
+[2023-08-05 10:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txt2voice
+[2023-08-05 10:13:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: referencing
+[2023-08-05 10:13:02] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 10:13:02] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 10:13:02] INFO root fetch - processPackages [txt2voice]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 10:13:02] INFO root fetch - processPackages [referencing]: New version: [0.9.2] Old Version: [0.8.9]
+[2023-08-05 10:13:03] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/2b/ed/f98bc7032a95aa20012ccefb729c1908f6acc9c6c6f88e038ac0a93750cb/referencing-0.8.9.tar.gz
+[2023-08-05 10:13:03] INFO root fetch - processPackages [txt2voice]: Downloading https://files.pythonhosted.org/packages/58/f8/94290421828f33296b674b74e6db734610345fa209604b6f231388edb16b/txt2voice-0.1.2.tar.gz
+[2023-08-05 10:13:03] INFO root fetch - processPackages [referencing]: Downloading https://files.pythonhosted.org/packages/3a/2c/6c5c6451d2818adfd99b87a8aa1c5147f6d9097d31cfee6a020418f9b02c/referencing-0.9.2.tar.gz
+[2023-08-05 10:13:03] INFO root fetch - processPackages [referencing]: executing diffoscope
+[2023-08-05 10:13:03] INFO root fetch - processPackages [referencing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/referencing-0.8.9.tar.gz tmp/referencing-0.9.2.tar.gz --markdown 20230805/r/referencing/0.8.9-0.9.2/diff.md --exclude *.pyd
+[2023-08-05 10:13:03] INFO root fetch - processPackages [txt2voice]: Downloading https://files.pythonhosted.org/packages/e4/ac/59892c6b571a421f41f853159292e6280c6d0ce30a0d8d77a29a5421e592/txt2voice-0.1.3.tar.gz
+[2023-08-05 10:13:03] INFO root fetch - processPackages [txt2voice]: executing diffoscope
+[2023-08-05 10:13:03] INFO root fetch - processPackages [txt2voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2voice-0.1.2.tar.gz tmp/txt2voice-0.1.3.tar.gz --markdown 20230805/t/txt2voice/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 10:13:04] INFO root fetch - processPackages [txt2voice]: Remove: archive file [/home/abi/fetcher/tmp/txt2voice-0.1.2.tar.gz]
+[2023-08-05 10:13:04] INFO root fetch - processPackages [txt2voice]: Remove: archive file [/home/abi/fetcher/tmp/txt2voice-0.1.3.tar.gz]
+[2023-08-05 10:13:04] INFO root fetch - main [MainThread]: End processing [txt2voice]: success
+[2023-08-05 10:13:04] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.8.9.tar.gz]
+[2023-08-05 10:13:04] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.9.2.tar.gz]
+[2023-08-05 10:13:04] INFO root fetch - main [MainThread]: End processing [referencing]: success
+[2023-08-05 10:13:04] INFO root fetch - main [MainThread]: Store serial: [19185051]
