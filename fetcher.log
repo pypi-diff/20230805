@@ -8901,3 +8901,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:12:56] INFO root fetch - processPackages [rime-sdk]: Remove: archive file [/home/abi/fetcher/tmp/rime_sdk-2.2.0rc9.tar.gz]
 [2023-08-05 08:12:56] INFO root fetch - main [MainThread]: End processing [rime-sdk]: success
 [2023-08-05 08:12:56] INFO root fetch - main [MainThread]: Store serial: [19184591]
+[2023-08-05 08:18:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184591]
+[2023-08-05 08:18:05] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk8s-operator
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg-nightly
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vercel-llm-api
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pretext
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: hexchecker
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: hiddifypanel
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: flarepy
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-05 08:18:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: anypoint
+[2023-08-05 08:18:05] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.4.0] Old Version: [0.3.9.9]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [anypoint]: New version: [0.8.1] Old Version: [0.8.0]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [pyg-nightly]: New version: [2.4.0.dev20230804] Old Version: [2.4.0.dev20230803]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [pretext]: New version: [1.7.5.dev20230804] Old Version: [1.7.5.dev20230803]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [hiddifypanel]: New version: [8.0.0.dev9] Old Version: [8.0.0.dev8]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [vercel-llm-api]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/b3/57/1e50ef0ef46712b5883753b8d6e59894045ab477285bb8640dc09791840d/nonebot_plugin_stable_diffusion_diao-0.3.9.9.tar.gz
+[2023-08-05 08:18:05] WARNING root fetch - processPackages [flarepy]: Skipping, unable to determine old version
+[2023-08-05 08:18:05] INFO root fetch - main [MainThread]: End processing [flarepy] error
+[2023-08-05 08:18:05] WARNING root fetch - processPackages [hexchecker]: Skipping, unable to determine old version
+[2023-08-05 08:18:05] INFO root fetch - main [MainThread]: End processing [hexchecker] error
+[2023-08-05 08:18:05] INFO root fetch - processPackages [cdk8s-operator]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-05 08:18:05] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/40/06/061bc50fe4f98551c89f8984c278d3bdd14e2e59dfb33f8653a9fc8808d2/pretext-1.7.5.dev20230803.tar.gz
+[2023-08-05 08:18:05] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/e4/d0/78fb3c772608daeb234604e5aa5f922dba007d3e5eb97a85bce9f69eb6d4/pyg_nightly-2.4.0.dev20230803.tar.gz
+[2023-08-05 08:18:05] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/79/0f/8d7b5360871610450f74050b361ece2789f20126c59c7d532f7b5acb2128/hiddifypanel-8.0.0.dev8.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [anypoint]: Downloading https://files.pythonhosted.org/packages/ce/5a/de3c5cd9095e7d40e18b324053cbf872520e8bd01967e826ae3dff444a53/anypoint-0.8.0.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [vercel-llm-api]: Downloading https://files.pythonhosted.org/packages/17/6c/eb4c4e5622b7fa47ca3888ab880b330fa26b4088e8cce204d65ad37be525/vercel_llm_api-0.3.0-py3-none-any.whl
+[2023-08-05 08:18:06] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/81/a1/472f9e27ea96746839caa41992257e24e496917b018d958034169769bdb6/cdk8s-operator-0.1.98.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/a1/be/7f6756796c994d2da3c5c6b23462ecd645bf28be3d6c6f07b598f31e2368/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-05 08:18:06] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.9.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz --markdown 20230805/n/nonebot-plugin-stable-diffusion-diao/0.3.9.9-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 08:18:06] INFO root fetch - processPackages [anypoint]: Downloading https://files.pythonhosted.org/packages/f1/b8/ef7cae516fc8da1dc9fa27752834f2df41dc17d4585676f4e0349d51048f/anypoint-0.8.1.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [vercel-llm-api]: Downloading https://files.pythonhosted.org/packages/7b/8d/2770e2c6bb91f3febdaf54e0166fc4eae4ea2d1f44996a144d5aaee794d8/vercel_llm_api-0.3.1-py3-none-any.whl
+[2023-08-05 08:18:06] INFO root fetch - processPackages [pyg-nightly]: Downloading https://files.pythonhosted.org/packages/59/11/d22771c94a2247020bffb9d6ec216faa928a22db8aa6b81179d38458d269/pyg_nightly-2.4.0.dev20230804.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [anypoint]: executing diffoscope
+[2023-08-05 08:18:06] INFO root fetch - processPackages [anypoint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anypoint-0.8.0.tar.gz tmp/anypoint-0.8.1.tar.gz --markdown 20230805/a/anypoint/0.8.0-0.8.1/diff.md --exclude *.pyd
+[2023-08-05 08:18:06] INFO root fetch - processPackages [cdk8s-operator]: Downloading https://files.pythonhosted.org/packages/ed/ed/568c3c642392b5ad833ee040dea0d55163deba1f7a12ed395db2a18420f0/cdk8s-operator-0.1.99.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [pretext]: Downloading https://files.pythonhosted.org/packages/e6/9c/de287ec990009fd5d1b88201193d020ebb04161df29c42fccac3cf7689ee/pretext-1.7.5.dev20230804.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [hiddifypanel]: Downloading https://files.pythonhosted.org/packages/11/ec/acf002f59f9c21a8800ae683d202d2f624d14d53d3646ba829a1d83857cc/hiddifypanel-8.0.0.dev9.tar.gz
+[2023-08-05 08:18:06] INFO root fetch - processPackages [vercel-llm-api]: executing diffoscope
+[2023-08-05 08:18:06] INFO root fetch - processPackages [vercel-llm-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vercel_llm_api-0.3.0-py3-none-any.whl.zip tmp/vercel_llm_api-0.3.1-py3-none-any.whl.zip --markdown 20230805/v/vercel-llm-api/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 08:18:06] INFO root fetch - processPackages [pyg-nightly]: executing diffoscope
+[2023-08-05 08:18:06] INFO root fetch - processPackages [pyg-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyg_nightly-2.4.0.dev20230803.tar.gz tmp/pyg_nightly-2.4.0.dev20230804.tar.gz --markdown 20230805/p/pyg-nightly/2.4.0.dev20230803-2.4.0.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 08:18:06] INFO root fetch - processPackages [cdk8s-operator]: executing diffoscope
+[2023-08-05 08:18:06] INFO root fetch - processPackages [cdk8s-operator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-operator-0.1.98.tar.gz tmp/cdk8s-operator-0.1.99.tar.gz --markdown 20230805/c/cdk8s-operator/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-05 08:18:06] INFO root fetch - processPackages [pretext]: executing diffoscope
+[2023-08-05 08:18:06] INFO root fetch - processPackages [pretext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pretext-1.7.5.dev20230803.tar.gz tmp/pretext-1.7.5.dev20230804.tar.gz --markdown 20230805/p/pretext/1.7.5.dev20230803-1.7.5.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 08:18:07] INFO root fetch - processPackages [hiddifypanel]: executing diffoscope
+[2023-08-05 08:18:07] INFO root fetch - processPackages [hiddifypanel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hiddifypanel-8.0.0.dev8.tar.gz tmp/hiddifypanel-8.0.0.dev9.tar.gz --markdown 20230805/h/hiddifypanel/8.0.0.dev8-8.0.0.dev9/diff.md --exclude *.pyd
+[2023-08-05 08:18:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.3.9.9.tar.gz]
+[2023-08-05 08:18:07] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz]
+[2023-08-05 08:18:07] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-05 08:18:07] INFO root fetch - processPackages [anypoint]: Remove: archive file [/home/abi/fetcher/tmp/anypoint-0.8.0.tar.gz]
+[2023-08-05 08:18:07] INFO root fetch - processPackages [anypoint]: Remove: archive file [/home/abi/fetcher/tmp/anypoint-0.8.1.tar.gz]
+[2023-08-05 08:18:07] INFO root fetch - main [MainThread]: End processing [anypoint]: success
+[2023-08-05 08:18:07] INFO root fetch - processPackages [vercel-llm-api]: Remove: archive file [/home/abi/fetcher/tmp/vercel_llm_api-0.3.0-py3-none-any.whl.zip]
+[2023-08-05 08:18:07] INFO root fetch - processPackages [vercel-llm-api]: Remove: archive file [/home/abi/fetcher/tmp/vercel_llm_api-0.3.1-py3-none-any.whl.zip]
+[2023-08-05 08:18:07] INFO root fetch - main [MainThread]: End processing [vercel-llm-api]: success
+[2023-08-05 08:18:07] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.98.tar.gz]
+[2023-08-05 08:18:07] INFO root fetch - processPackages [cdk8s-operator]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-operator-0.1.99.tar.gz]
+[2023-08-05 08:18:07] INFO root fetch - main [MainThread]: End processing [cdk8s-operator]: success
+[2023-08-05 08:18:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230803.tar.gz]
+[2023-08-05 08:18:10] INFO root fetch - processPackages [pyg-nightly]: Remove: archive file [/home/abi/fetcher/tmp/pyg_nightly-2.4.0.dev20230804.tar.gz]
+[2023-08-05 08:18:10] INFO root fetch - main [MainThread]: End processing [pyg-nightly]: success
+[2023-08-05 08:18:10] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230803.tar.gz]
+[2023-08-05 08:18:10] INFO root fetch - processPackages [pretext]: Remove: archive file [/home/abi/fetcher/tmp/pretext-1.7.5.dev20230804.tar.gz]
+[2023-08-05 08:18:10] INFO root fetch - main [MainThread]: End processing [pretext]: success
+[2023-08-05 08:18:12] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev8.tar.gz]
+[2023-08-05 08:18:12] INFO root fetch - processPackages [hiddifypanel]: Remove: archive file [/home/abi/fetcher/tmp/hiddifypanel-8.0.0.dev9.tar.gz]
+[2023-08-05 08:18:12] INFO root fetch - main [MainThread]: End processing [hiddifypanel]: success
+[2023-08-05 08:18:12] INFO root fetch - main [MainThread]: Store serial: [19184621]
