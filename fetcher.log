@@ -7904,3 +7904,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:16:50] INFO root fetch - processPackages [pybmd]: Remove: archive file [/home/abi/fetcher/tmp/pybmd-2023.3.0.tar.gz]
 [2023-08-05 06:16:50] INFO root fetch - main [MainThread]: End processing [pybmd]: success
 [2023-08-05 06:16:50] INFO root fetch - main [MainThread]: Store serial: [19184219]
+[2023-08-05 06:21:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184219]
+[2023-08-05 06:21:58] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 06:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-editor
+[2023-08-05 06:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: volumizer
+[2023-08-05 06:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: edc-he
+[2023-08-05 06:21:58] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: calf-milp
+[2023-08-05 06:21:58] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 06:21:58] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-05 06:21:58] WARNING root fetch - processPackages [calf-milp]: Skipping, unable to determine old version
+[2023-08-05 06:21:58] INFO root fetch - main [MainThread]: End processing [calf-milp] error
+[2023-08-05 06:21:58] INFO root fetch - processPackages [auto-editor]: New version: [23.8.1] Old Version: [23.4.1]
+[2023-08-05 06:21:58] INFO root fetch - processPackages [volumizer]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 06:21:59] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/61/ce/f2339cfa4e5ff5ec776a3121d3f99050c6d45ec0efa54bdc458fefb12d96/auto-editor-23.4.1.tar.gz
+[2023-08-05 06:21:59] INFO root fetch - processPackages [volumizer]: Downloading https://files.pythonhosted.org/packages/02/d5/551f21f5328c0fb5c49724543c8f7fd646c031108d16ec73d02d30f62ca7/volumizer-0.1.2.tar.gz
+[2023-08-05 06:21:59] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-05 06:21:59] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-05 06:21:59] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230805/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 06:21:59] INFO root fetch - processPackages [volumizer]: Downloading https://files.pythonhosted.org/packages/18/e1/674f43dd892c940e082dcb9de83b6979435e6fe6e19683200203bff60170/volumizer-0.1.3.tar.gz
+[2023-08-05 06:21:59] INFO root fetch - processPackages [auto-editor]: Downloading https://files.pythonhosted.org/packages/81/fb/7d378ea008a385ac90effc7ebdc31a455182328179d84fe7b53a563ef973/auto-editor-23.8.1.tar.gz
+[2023-08-05 06:21:59] INFO root fetch - processPackages [volumizer]: executing diffoscope
+[2023-08-05 06:21:59] INFO root fetch - processPackages [volumizer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/volumizer-0.1.2.tar.gz tmp/volumizer-0.1.3.tar.gz --markdown 20230805/v/volumizer/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 06:21:59] INFO root fetch - processPackages [auto-editor]: executing diffoscope
+[2023-08-05 06:21:59] INFO root fetch - processPackages [auto-editor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto-editor-23.4.1.tar.gz tmp/auto-editor-23.8.1.tar.gz --markdown 20230805/a/auto-editor/23.4.1-23.8.1/diff.md --exclude *.pyd
+[2023-08-05 06:22:00] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-05 06:22:00] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-05 06:22:00] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-05 06:22:00] INFO root fetch - processPackages [volumizer]: Remove: archive file [/home/abi/fetcher/tmp/volumizer-0.1.2.tar.gz]
+[2023-08-05 06:22:00] INFO root fetch - processPackages [volumizer]: Remove: archive file [/home/abi/fetcher/tmp/volumizer-0.1.3.tar.gz]
+[2023-08-05 06:22:00] INFO root fetch - main [MainThread]: End processing [volumizer]: success
+[2023-08-05 06:22:00] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-23.4.1.tar.gz]
+[2023-08-05 06:22:00] INFO root fetch - processPackages [auto-editor]: Remove: archive file [/home/abi/fetcher/tmp/auto-editor-23.8.1.tar.gz]
+[2023-08-05 06:22:00] INFO root fetch - main [MainThread]: End processing [auto-editor]: success
+[2023-08-05 06:22:00] INFO root fetch - main [MainThread]: Store serial: [19184233]
