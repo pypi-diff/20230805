@@ -9234,3 +9234,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:05:20] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.9.tar.gz]
 [2023-08-05 09:05:20] INFO root fetch - main [MainThread]: End processing [deeplake]: success
 [2023-08-05 09:05:20] INFO root fetch - main [MainThread]: Store serial: [19184733]
+[2023-08-05 09:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184733]
+[2023-08-05 09:10:29] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 09:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tf-hub-nightly
+[2023-08-05 09:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mereja
+[2023-08-05 09:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: feffery-antd-components
+[2023-08-05 09:10:29] INFO root fetch - processPackages [tf-hub-nightly]: New version: [0.9.0.dev202008190006] Old Version: [0.9.0.dev202008180006]
+[2023-08-05 09:10:29] INFO root fetch - processPackages [mereja]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-05 09:10:29] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/e8/6b/02811fcd79aec590e7355647130c822f1bd53092a205ce986e6df7364f52/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl
+[2023-08-05 09:10:29] INFO root fetch - processPackages [feffery-antd-components]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 09:10:29] INFO root fetch - processPackages [mereja]: Downloading https://files.pythonhosted.org/packages/6f/96/5e4268569121f8780abbc57033cb944a5ec4123827e5cceecfbcb9f58e05/mereja-0.0.6.tar.gz
+[2023-08-05 09:10:29] INFO root fetch - processPackages [tf-hub-nightly]: Downloading https://files.pythonhosted.org/packages/d1/9a/6b02d0906847e11386093420119d147f7306d7a9cad79e8e575a9d29ae76/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl
+[2023-08-05 09:10:29] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/54/82/f35103c609f66540f561267cee21d87261dc90f7a6909eba705aab10d074/feffery_antd_components-0.2.8.tar.gz
+[2023-08-05 09:10:29] INFO root fetch - processPackages [tf-hub-nightly]: executing diffoscope
+[2023-08-05 09:10:29] INFO root fetch - processPackages [tf-hub-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip --markdown 20230805/t/tf-hub-nightly/0.9.0.dev202008180006-0.9.0.dev202008190006/diff.md --exclude *.pyd
+[2023-08-05 09:10:29] INFO root fetch - processPackages [mereja]: Downloading https://files.pythonhosted.org/packages/da/e0/9a8bb892d06e9b237b9be66717d1db4a5f77d523a128be8ee7ae0849df88/mereja-0.0.7.tar.gz
+[2023-08-05 09:10:30] INFO root fetch - processPackages [mereja]: executing diffoscope
+[2023-08-05 09:10:30] INFO root fetch - processPackages [mereja]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mereja-0.0.6.tar.gz tmp/mereja-0.0.7.tar.gz --markdown 20230805/m/mereja/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-05 09:10:30] INFO root fetch - processPackages [feffery-antd-components]: Downloading https://files.pythonhosted.org/packages/94/81/17fc6b7cca34abb81e767c58edbacfc6dbc509dc49bf7acfbfdcda1007ca/feffery_antd_components-0.2.9.tar.gz
+[2023-08-05 09:10:30] INFO root fetch - processPackages [feffery-antd-components]: executing diffoscope
+[2023-08-05 09:10:30] INFO root fetch - processPackages [feffery-antd-components]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/feffery_antd_components-0.2.8.tar.gz tmp/feffery_antd_components-0.2.9.tar.gz --markdown 20230805/f/feffery-antd-components/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 09:10:30] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008180006-py2.py3-none-any.whl.zip]
+[2023-08-05 09:10:30] INFO root fetch - processPackages [tf-hub-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tf_hub_nightly-0.9.0.dev202008190006-py2.py3-none-any.whl.zip]
+[2023-08-05 09:10:30] INFO root fetch - main [MainThread]: End processing [tf-hub-nightly]: success
+[2023-08-05 09:10:30] INFO root fetch - processPackages [mereja]: Remove: archive file [/home/abi/fetcher/tmp/mereja-0.0.6.tar.gz]
+[2023-08-05 09:10:30] INFO root fetch - processPackages [mereja]: Remove: archive file [/home/abi/fetcher/tmp/mereja-0.0.7.tar.gz]
+[2023-08-05 09:10:30] INFO root fetch - main [MainThread]: End processing [mereja]: success
+[2023-08-05 09:10:54] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.8.tar.gz]
+[2023-08-05 09:10:54] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
+[2023-08-05 09:10:54] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
+[2023-08-05 09:10:54] INFO root fetch - main [MainThread]: Store serial: [19184743]
