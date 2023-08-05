@@ -6368,3 +6368,71 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 03:55:12] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip]
 [2023-08-05 03:55:12] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-08-05 03:55:12] INFO root fetch - main [MainThread]: Store serial: [19183616]
+[2023-08-05 04:00:17] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183616]
+[2023-08-05 04:00:22] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pkscreener
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: codedapertures
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ICICONSOLE
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: satcfdi
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: warn-transformer
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: TheSilent
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: xtweet
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: music-assistant-frontend
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: TheSilent
+[2023-08-05 04:00:22] WARNING root fetch - processPackages [xtweet]: Skipping, unable to determine old version
+[2023-08-05 04:00:22] INFO root fetch - main [MainThread]: End processing [xtweet] error
+[2023-08-05 04:00:22] INFO root fetch - processPackages [satcfdi]: New version: [4.1.4] Old Version: [4.1.3]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [pkscreener]: New version: [0.4.20230805.16] Old Version: [0.4.20230805.15]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [music-assistant-frontend]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ICICONSOLE]: New version: [0.7.0] Old Version: [0.6.0]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [codedapertures]: New version: [0.8] Old Version: [0.7.1]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [warn-transformer]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [TheSilent]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 04:00:22] INFO root fetch - processPackages [satcfdi]: Downloading https://files.pythonhosted.org/packages/cf/e0/3122980aafacef424cf32c55fce74c9bd69220e456edc671f3cca62e9746/satcfdi-4.1.3.tar.gz
+[2023-08-05 04:00:22] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/64/5c/d4501b48931f9c772bb2a376dd64683bc41f8917ca4cf22356c9d427ccb4/music-assistant-frontend-2.0.8.tar.gz
+[2023-08-05 04:00:22] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/d3/52/33ad30f5e58652e55529c3b7abd8f5f9655f61fcb3767c496cd0988f992a/pkscreener-0.4.20230805.15.tar.gz
+[2023-08-05 04:00:22] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-05 04:00:22] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/ad/09/2a1f42483bf3fbc17417489cf4f3d6ec17c5c763e219aa02ad1827f29dc1/TheSilent-0.0.98.tar.gz
+[2023-08-05 04:00:22] WARNING root fetch - processPackages [satcfdi]: Skipping package: exceeds size limit 10615194>=10485760
+[2023-08-05 04:00:22] INFO root fetch - main [MainThread]: End processing [satcfdi] error
+[2023-08-05 04:00:22] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/08/bb/79c1ff73b26f2f70655697caf1e1af5a1f3b407e78223b0b3b7083425ca4/codedapertures-0.7.1.tar.gz
+[2023-08-05 04:00:22] INFO root fetch - processPackages [warn-transformer]: Downloading https://files.pythonhosted.org/packages/27/ea/a7f48507ea48fcdbce1aeece06724a91fabd45f25890432912afb917e10a/warn-transformer-1.3.8.tar.gz
+[2023-08-05 04:00:22] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/da/82/fdb0ca0c3dda3b735fa6ef406c59b2e35bff2b924bd93790bfbe0e7dd283/ICICONSOLE-0.6.0.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [pkscreener]: Downloading https://files.pythonhosted.org/packages/0b/e5/eb439087eed2ff61add576fee0dec6dc292e59491fe4de0f61f8750c5dc7/pkscreener-0.4.20230805.16.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [ICICONSOLE]: Downloading https://files.pythonhosted.org/packages/54/85/a3957c5ce7838b5fb05da195e71e5fd201ca2dce30426a59255e778f93c0/ICICONSOLE-0.7.0.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [codedapertures]: Downloading https://files.pythonhosted.org/packages/2b/9f/a5ac1d0c7819d1410276497f99f6cc4f7a8f3b80689cc6aafc943ebe8575/codedapertures-0.8.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [TheSilent]: Downloading https://files.pythonhosted.org/packages/38/21/9b42cfa55edd85cfd4fefba7fb94aab0891af2b6c90ef59e687a42228a0b/TheSilent-0.0.99.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [pkscreener]: executing diffoscope
+[2023-08-05 04:00:23] INFO root fetch - processPackages [pkscreener]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkscreener-0.4.20230805.15.tar.gz tmp/pkscreener-0.4.20230805.16.tar.gz --markdown 20230805/p/pkscreener/0.4.20230805.15-0.4.20230805.16/diff.md --exclude *.pyd
+[2023-08-05 04:00:23] INFO root fetch - processPackages [codedapertures]: executing diffoscope
+[2023-08-05 04:00:23] INFO root fetch - processPackages [codedapertures]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codedapertures-0.7.1.tar.gz tmp/codedapertures-0.8.tar.gz --markdown 20230805/c/codedapertures/0.7.1-0.8/diff.md --exclude *.pyd
+[2023-08-05 04:00:23] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-05 04:00:23] INFO root fetch - processPackages [TheSilent]: executing diffoscope
+[2023-08-05 04:00:23] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230805/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 04:00:23] INFO root fetch - processPackages [TheSilent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TheSilent-0.0.98.tar.gz tmp/TheSilent-0.0.99.tar.gz --markdown 20230805/T/TheSilent/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 04:00:23] INFO root fetch - processPackages [ICICONSOLE]: executing diffoscope
+[2023-08-05 04:00:23] INFO root fetch - processPackages [ICICONSOLE]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ICICONSOLE-0.6.0.tar.gz tmp/ICICONSOLE-0.7.0.tar.gz --markdown 20230805/I/ICICONSOLE/0.6.0-0.7.0/diff.md --exclude *.pyd
+[2023-08-05 04:00:23] INFO root fetch - processPackages [music-assistant-frontend]: Downloading https://files.pythonhosted.org/packages/86/7e/47baf1682c9c96c82e5efb5d20dc440424c7db3327fed9be80f4369c7aa6/music-assistant-frontend-2.0.9.tar.gz
+[2023-08-05 04:00:23] INFO root fetch - processPackages [music-assistant-frontend]: executing diffoscope
+[2023-08-05 04:00:23] INFO root fetch - processPackages [music-assistant-frontend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/music-assistant-frontend-2.0.8.tar.gz tmp/music-assistant-frontend-2.0.9.tar.gz --markdown 20230805/m/music-assistant-frontend/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-05 04:00:23] WARNING root fetch - processPackages [warn-transformer]: Skipping package: exceeds size limit 17532658>=10485760
+[2023-08-05 04:00:23] INFO root fetch - main [MainThread]: End processing [warn-transformer] error
+[2023-08-05 04:00:24] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.7.1.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - processPackages [codedapertures]: Remove: archive file [/home/abi/fetcher/tmp/codedapertures-0.8.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - main [MainThread]: End processing [codedapertures]: success
+[2023-08-05 04:00:24] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.6.0.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - processPackages [ICICONSOLE]: Remove: archive file [/home/abi/fetcher/tmp/ICICONSOLE-0.7.0.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - main [MainThread]: End processing [ICICONSOLE]: success
+[2023-08-05 04:00:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.98.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - processPackages [TheSilent]: Remove: archive file [/home/abi/fetcher/tmp/TheSilent-0.0.99.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-05 04:00:24] INFO root fetch - main [MainThread]: End processing [TheSilent]: success
+[2023-08-05 04:00:24] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.4.20230805.15.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - processPackages [pkscreener]: Remove: archive file [/home/abi/fetcher/tmp/pkscreener-0.4.20230805.16.tar.gz]
+[2023-08-05 04:00:24] INFO root fetch - main [MainThread]: End processing [pkscreener]: success
+[2023-08-05 04:00:37] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.8.tar.gz]
+[2023-08-05 04:00:37] INFO root fetch - processPackages [music-assistant-frontend]: Remove: archive file [/home/abi/fetcher/tmp/music-assistant-frontend-2.0.9.tar.gz]
+[2023-08-05 04:00:37] INFO root fetch - main [MainThread]: End processing [music-assistant-frontend]: success
+[2023-08-05 04:00:37] INFO root fetch - main [MainThread]: Store serial: [19183645]
