@@ -9096,3 +9096,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:39:03] INFO root fetch - processPackages [pulumi-splunk]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_splunk-1.3.0a1691216102.tar.gz]
 [2023-08-05 08:39:03] INFO root fetch - main [MainThread]: End processing [pulumi-splunk]: success
 [2023-08-05 08:39:03] INFO root fetch - main [MainThread]: Store serial: [19184662]
+[2023-08-05 08:44:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184662]
+[2023-08-05 08:44:11] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: GalSim
+[2023-08-05 08:44:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: replit2
+[2023-08-05 08:44:12] INFO root fetch - processPackages [replit2]: New version: [3.3.0] Old Version: [3.2.6]
+[2023-08-05 08:44:12] INFO root fetch - processPackages [GalSim]: New version: [2.4.9] Old Version: [2.4.11]
+[2023-08-05 08:44:12] INFO root fetch - processPackages [replit2]: Downloading https://files.pythonhosted.org/packages/be/35/d9e3c15dd617996b973dd15df687c727b7a2eb8ea64db02a19b07b3d9143/replit2-3.2.6.tar.gz
+[2023-08-05 08:44:12] INFO root fetch - processPackages [GalSim]: Downloading https://files.pythonhosted.org/packages/9d/fe/ec7fbf5e82e9694be5e40645fc637cfcb324a5a9368665ac0221150cd48a/GalSim-2.4.11.tar.gz
+[2023-08-05 08:44:12] INFO root fetch - processPackages [replit2]: Downloading https://files.pythonhosted.org/packages/89/5d/2c6dbce9fa08931ea84e71ec7027bc1108ae4f41280610a5161b066c2207/replit2-3.3.0.tar.gz
+[2023-08-05 08:44:12] INFO root fetch - processPackages [replit2]: executing diffoscope
+[2023-08-05 08:44:12] INFO root fetch - processPackages [replit2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/replit2-3.2.6.tar.gz tmp/replit2-3.3.0.tar.gz --markdown 20230805/r/replit2/3.2.6-3.3.0/diff.md --exclude *.pyd
+[2023-08-05 08:44:12] INFO root fetch - processPackages [GalSim]: Downloading https://files.pythonhosted.org/packages/09/7a/decac011e4272a5b6692617c8a98809a72de9a71d53a29c93f50830ff216/GalSim-2.4.9.tar.gz
+[2023-08-05 08:44:13] INFO root fetch - processPackages [replit2]: Remove: archive file [/home/abi/fetcher/tmp/replit2-3.2.6.tar.gz]
+[2023-08-05 08:44:13] INFO root fetch - processPackages [replit2]: Remove: archive file [/home/abi/fetcher/tmp/replit2-3.3.0.tar.gz]
+[2023-08-05 08:44:13] INFO root fetch - main [MainThread]: End processing [replit2]: success
+[2023-08-05 08:44:14] INFO root fetch - processPackages [GalSim]: executing diffoscope
+[2023-08-05 08:44:14] INFO root fetch - processPackages [GalSim]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/GalSim-2.4.11.tar.gz tmp/GalSim-2.4.9.tar.gz --markdown 20230805/G/GalSim/2.4.11-2.4.9/diff.md --exclude *.pyd
+[2023-08-05 08:44:20] INFO root fetch - processPackages [GalSim]: Remove: archive file [/home/abi/fetcher/tmp/GalSim-2.4.11.tar.gz]
+[2023-08-05 08:44:20] INFO root fetch - processPackages [GalSim]: Remove: archive file [/home/abi/fetcher/tmp/GalSim-2.4.9.tar.gz]
+[2023-08-05 08:44:20] INFO root fetch - main [MainThread]: End processing [GalSim]: success
+[2023-08-05 08:44:20] INFO root fetch - main [MainThread]: Store serial: [19184692]
