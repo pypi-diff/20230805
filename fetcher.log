@@ -12129,3 +12129,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 14:04:37] INFO root fetch - processPackages [u8darts]: Remove: archive file [/home/abi/fetcher/tmp/u8darts-0.9.1.tar.gz]
 [2023-08-05 14:04:37] INFO root fetch - main [MainThread]: End processing [u8darts]: success
 [2023-08-05 14:04:37] INFO root fetch - main [MainThread]: Store serial: [19186271]
+[2023-08-05 14:09:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186271]
+[2023-08-05 14:09:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: async-wrapper
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ioavstatsdb
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: article-crawler
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sourmash-mixers
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cdk8s-jenkins
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: gaohn-common-utils
+[2023-08-05 14:09:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tech-spec
+[2023-08-05 14:09:46] INFO root fetch - processPackages [tech-spec]: New version: [1.0.29] Old Version: [1.0.28]
+[2023-08-05 14:09:46] WARNING root fetch - processPackages [ioavstatsdb]: Skipping, unable to determine old version
+[2023-08-05 14:09:46] INFO root fetch - main [MainThread]: End processing [ioavstatsdb] error
+[2023-08-05 14:09:46] INFO root fetch - processPackages [gaohn-common-utils]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 14:09:46] INFO root fetch - processPackages [async-wrapper]: New version: [0.4.6] Old Version: [0.4.5]
+[2023-08-05 14:09:46] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/bb/ad/0ee5013e51a9ea1fd1a049b0fe0ffd4dfc7a7a40b13aa4fac54aae349394/tech-spec-1.0.28.tar.gz
+[2023-08-05 14:09:46] WARNING root fetch - processPackages [article-crawler]: Skipping, unable to determine old version
+[2023-08-05 14:09:46] INFO root fetch - main [MainThread]: End processing [article-crawler] error
+[2023-08-05 14:09:46] INFO root fetch - processPackages [sourmash-mixers]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-05 14:09:46] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/de/cb/b59449e33cbbb6a379cd00e6b37837dd662e130b45b5af97c635b9922884/gaohn-common-utils-0.0.98.tar.gz
+[2023-08-05 14:09:46] INFO root fetch - processPackages [cdk8s-jenkins]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 14:09:46] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/63/51/ef433ff8d9aa218b611290d6a18f19ff2375b7ec615a6ff8d99c91ecd189/async_wrapper-0.4.5.tar.gz
+[2023-08-05 14:09:46] INFO root fetch - processPackages [sourmash-mixers]: Downloading https://files.pythonhosted.org/packages/62/b3/d97f4955009c463838ccc44de4890c7d6839ba80fecbac1eab7027316d24/sourmash_mixers-0.2.1.tar.gz
+[2023-08-05 14:09:46] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/90/ba/1d34a887bfae9752a98646fbb4ba086b72cc56f857a5b9642929b03e46f2/cdk8s-jenkins-0.0.98.tar.gz
+[2023-08-05 14:09:47] INFO root fetch - processPackages [gaohn-common-utils]: Downloading https://files.pythonhosted.org/packages/24/7b/4defbbfcde3a78dc325e728153b266bf6e459463db62e6ef1ce246b4b605/gaohn-common-utils-0.0.99.tar.gz
+[2023-08-05 14:09:47] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/48/2b/99d61c35d8e9f78456ba154ae2a6ac4f00eb5ef579e3b26be6572e24ea0e/tech-spec-1.0.29.tar.gz
+[2023-08-05 14:09:47] INFO root fetch - processPackages [gaohn-common-utils]: executing diffoscope
+[2023-08-05 14:09:47] INFO root fetch - processPackages [gaohn-common-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gaohn-common-utils-0.0.98.tar.gz tmp/gaohn-common-utils-0.0.99.tar.gz --markdown 20230805/g/gaohn-common-utils/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 14:09:47] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-05 14:09:47] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.28.tar.gz tmp/tech-spec-1.0.29.tar.gz --markdown 20230805/t/tech-spec/1.0.28-1.0.29/diff.md --exclude *.pyd
+[2023-08-05 14:09:47] INFO root fetch - processPackages [async-wrapper]: Downloading https://files.pythonhosted.org/packages/8e/7d/2816299f5f8524a0ec682f7102af77b52aee36ea1bdb6b268d579b6bb002/async_wrapper-0.4.6.tar.gz
+[2023-08-05 14:09:47] INFO root fetch - processPackages [sourmash-mixers]: Downloading https://files.pythonhosted.org/packages/24/42/03c7c332720f8276f08b1841224bfa0852ec1becbec3d8187a3fa600260b/sourmash_mixers-0.2.2.tar.gz
+[2023-08-05 14:09:47] INFO root fetch - processPackages [async-wrapper]: executing diffoscope
+[2023-08-05 14:09:47] INFO root fetch - processPackages [async-wrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/async_wrapper-0.4.5.tar.gz tmp/async_wrapper-0.4.6.tar.gz --markdown 20230805/a/async-wrapper/0.4.5-0.4.6/diff.md --exclude *.pyd
+[2023-08-05 14:09:47] INFO root fetch - processPackages [sourmash-mixers]: executing diffoscope
+[2023-08-05 14:09:47] INFO root fetch - processPackages [sourmash-mixers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sourmash_mixers-0.2.1.tar.gz tmp/sourmash_mixers-0.2.2.tar.gz --markdown 20230805/s/sourmash-mixers/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-05 14:09:47] INFO root fetch - processPackages [cdk8s-jenkins]: Downloading https://files.pythonhosted.org/packages/1d/dc/2404b70a9e64251aafef4957d08604e1863c0d6026d1bd4faf3e70e3e690/cdk8s-jenkins-0.0.99.tar.gz
+[2023-08-05 14:09:47] INFO root fetch - processPackages [cdk8s-jenkins]: executing diffoscope
+[2023-08-05 14:09:47] INFO root fetch - processPackages [cdk8s-jenkins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-jenkins-0.0.98.tar.gz tmp/cdk8s-jenkins-0.0.99.tar.gz --markdown 20230805/c/cdk8s-jenkins/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 14:09:48] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.28.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.29.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-05 14:09:48] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.98.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.99.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
+[2023-08-05 14:09:48] INFO root fetch - processPackages [sourmash-mixers]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_mixers-0.2.1.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - processPackages [sourmash-mixers]: Remove: archive file [/home/abi/fetcher/tmp/sourmash_mixers-0.2.2.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - main [MainThread]: End processing [sourmash-mixers]: success
+[2023-08-05 14:09:48] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.5.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - processPackages [async-wrapper]: Remove: archive file [/home/abi/fetcher/tmp/async_wrapper-0.4.6.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - main [MainThread]: End processing [async-wrapper]: success
+[2023-08-05 14:09:48] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.98.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
+[2023-08-05 14:09:48] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
+[2023-08-05 14:09:48] INFO root fetch - main [MainThread]: Store serial: [19186297]
