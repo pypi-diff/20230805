@@ -15055,3 +15055,97 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 17:59:58] INFO root fetch - processPackages [sedaro]: Remove: archive file [/home/abi/fetcher/tmp/sedaro-4.5.2.tar.gz]
 [2023-08-05 17:59:58] INFO root fetch - main [MainThread]: End processing [sedaro]: success
 [2023-08-05 17:59:58] INFO root fetch - main [MainThread]: Store serial: [19187681]
+[2023-08-05 18:05:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187681]
+[2023-08-05 18:05:06] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytech-sqlalchemy-tools
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytech-sqlalchemy-tools
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gpt4all-code-review
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wscribe
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: PyFlyt
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: alibabacloud-sas20181203-py2
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: indexnow
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: alibabacloud-sas20181203
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tidy-dir
+[2023-08-05 18:05:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: notification-service-nightly
+[2023-08-05 18:05:07] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.13] Old Version: [0.12]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [wscribe]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 18:05:07] WARNING root fetch - processPackages [tidy-dir]: Skipping, unable to determine old version
+[2023-08-05 18:05:07] INFO root fetch - processPackages [tidy-dir]: Start processing: ai-flow-nightly
+[2023-08-05 18:05:07] INFO root fetch - main [MainThread]: End processing [tidy-dir] error
+[2023-08-05 18:05:07] INFO root fetch - processPackages [notification-service-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [PyFlyt]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [ai-flow-nightly]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [indexnow]: New version: [1.1.1] Old Version: [0.1]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [alibabacloud-sas20181203]: New version: [2.2.2] Old Version: [2.2.1]
+[2023-08-05 18:05:07] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/b2/fa/88bc11326a4c101c4604af22d7890247d0da7e345873a5f5e6e061c0ea3f/wscribe-0.1.0.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/26/92/b82867b462a439a7e39c87f8fa9cb2805f2d76f9b1f7f934b06e9771de93/gpt4all-code-review-0.12.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/eb/a4/3da8f422dd197330ad1d4552a8f48a1e7ef31d8e1f36243629900352269b/notification_service_nightly-2023.8.3.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: Downloading https://files.pythonhosted.org/packages/f2/0d/63354c55c66d2bc47b5a10c25681af540c48ff0af18189772ca038f99cb0/pytech_sqlalchemy_tools-0.1.2.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/01/2b/42d9c2c7c87a22c7d96cea727a331b70f9672685deb9f7da3fcab35fa7f0/ai_flow_nightly-2023.8.3.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: Downloading https://files.pythonhosted.org/packages/f2/0d/63354c55c66d2bc47b5a10c25681af540c48ff0af18189772ca038f99cb0/pytech_sqlalchemy_tools-0.1.2.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/da/65/a58ac237bdbaff01181226c942507222037c9492128850a96aa8e0e87afe/PyFlyt-0.9.4.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/b3/cb/955c819044094ed28041fac9dfc236719d4ea008156a8679c36b1576f9c5/alibabacloud_sas20181203-2.2.1.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/8b/1f/811c605a992a7ebc696db3fe2c67493ffe0a726dc1c83463b80d902803d9/alibabacloud_sas20181203_py2-2.2.1.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/da/2f/7a7a41a67db5ba4af890750244511299e11da4da0c07762f6f5a2d3ea51c/gpt4all-code-review-0.13.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/dd/be/7c5441a7d5c963d26d7bec83decc1eca3a781ded228c9b5461396bfbe5a9/IndexNow-0.1.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/9b/5b/7d5773343043c5f181d0fb37a5a8f8984dcdcb8d1970128eb2b85ebb2c83/wscribe-0.1.1.tar.gz
+[2023-08-05 18:05:07] INFO root fetch - processPackages [notification-service-nightly]: Downloading https://files.pythonhosted.org/packages/42/e8/13f2ca03ab482f238f27f60b4c9260543c0b9183b7602f10e7b6f3c00699/notification_service_nightly-2023.8.4.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: Downloading https://files.pythonhosted.org/packages/44/b9/17d10c3c531e85f23af1bbd8cca09d778d444fa09122158c066c0c72d22c/pytech_sqlalchemy_tools-0.1.3.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: Downloading https://files.pythonhosted.org/packages/44/b9/17d10c3c531e85f23af1bbd8cca09d778d444fa09122158c066c0c72d22c/pytech_sqlalchemy_tools-0.1.3.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [wscribe]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [wscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wscribe-0.1.0.tar.gz tmp/wscribe-0.1.1.tar.gz --markdown 20230805/w/wscribe/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [notification-service-nightly]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [notification-service-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notification_service_nightly-2023.8.3.tar.gz tmp/notification_service_nightly-2023.8.4.tar.gz --markdown 20230805/n/notification-service-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.12.tar.gz tmp/gpt4all-code-review-0.13.tar.gz --markdown 20230805/g/gpt4all-code-review/0.12-0.13/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytech_sqlalchemy_tools-0.1.2.tar.gz tmp/pytech_sqlalchemy_tools-0.1.3.tar.gz --markdown 20230805/p/pytech-sqlalchemy-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytech_sqlalchemy_tools-0.1.2.tar.gz tmp/pytech_sqlalchemy_tools-0.1.3.tar.gz --markdown 20230805/p/pytech-sqlalchemy-tools/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [alibabacloud-sas20181203]: Downloading https://files.pythonhosted.org/packages/32/4b/f189cd491a2f64bb532e2cc498a884134bba025596416f71507192bebf0f/alibabacloud_sas20181203-2.2.2.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [PyFlyt]: Downloading https://files.pythonhosted.org/packages/b4/57/8a1fbdbd9df0426eecb1b94bd4f4c3ff235fadbeac9f621bd46cc3b31607/PyFlyt-0.9.5.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [ai-flow-nightly]: Downloading https://files.pythonhosted.org/packages/3b/9e/adc8c4de4e35e2c2ee2c07eb356370018ad71d2d1b8b95c432f5c76ea3bc/ai_flow_nightly-2023.8.4.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/06/4d/582c6c6f5be18bd3839e72781fd997a7ba126ec5ab9725479f6df2b5bb58/indexnow-1.1.1.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Downloading https://files.pythonhosted.org/packages/96/30/9ff4643c2a32570bfa326949d661a1a0b967c7abb204471378fef6595f18/alibabacloud_sas20181203_py2-2.2.2.tar.gz
+[2023-08-05 18:05:08] INFO root fetch - processPackages [indexnow]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [indexnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/IndexNow-0.1.tar.gz tmp/indexnow-1.1.1.tar.gz --markdown 20230805/i/indexnow/0.1-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [ai-flow-nightly]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [ai-flow-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ai_flow_nightly-2023.8.3.tar.gz tmp/ai_flow_nightly-2023.8.4.tar.gz --markdown 20230805/a/ai-flow-nightly/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [alibabacloud-sas20181203]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [alibabacloud-sas20181203]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203-2.2.1.tar.gz tmp/alibabacloud_sas20181203-2.2.2.tar.gz --markdown 20230805/a/alibabacloud-sas20181203/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [PyFlyt]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [PyFlyt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyFlyt-0.9.4.tar.gz tmp/PyFlyt-0.9.5.tar.gz --markdown 20230805/P/PyFlyt/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-05 18:05:08] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: executing diffoscope
+[2023-08-05 18:05:08] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alibabacloud_sas20181203_py2-2.2.1.tar.gz tmp/alibabacloud_sas20181203_py2-2.2.2.tar.gz --markdown 20230805/a/alibabacloud-sas20181203-py2/2.2.1-2.2.2/diff.md --exclude *.pyd
+[2023-08-05 18:05:09] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.12.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.13.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-05 18:05:09] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytech_sqlalchemy_tools-0.1.2.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - processPackages [pytech-sqlalchemy-tools]: Remove: archive file [/home/abi/fetcher/tmp/pytech_sqlalchemy_tools-0.1.3.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - main [MainThread]: End processing [pytech-sqlalchemy-tools]: success
+[2023-08-05 18:05:09] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.0.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.1.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - main [MainThread]: End processing [wscribe]: success
+[2023-08-05 18:05:09] INFO root fetch - main [MainThread]: End processing [pytech-sqlalchemy-tools]: success
+[2023-08-05 18:05:09] INFO root fetch - processPackages [indexnow]: Remove: archive file [/home/abi/fetcher/tmp/IndexNow-0.1.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - processPackages [indexnow]: Remove: archive file [/home/abi/fetcher/tmp/indexnow-1.1.1.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - main [MainThread]: End processing [indexnow]: success
+[2023-08-05 18:05:09] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.8.3.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - processPackages [notification-service-nightly]: Remove: archive file [/home/abi/fetcher/tmp/notification_service_nightly-2023.8.4.tar.gz]
+[2023-08-05 18:05:09] INFO root fetch - main [MainThread]: End processing [notification-service-nightly]: success
+[2023-08-05 18:05:10] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.4.tar.gz]
+[2023-08-05 18:05:10] INFO root fetch - processPackages [PyFlyt]: Remove: archive file [/home/abi/fetcher/tmp/PyFlyt-0.9.5.tar.gz]
+[2023-08-05 18:05:10] INFO root fetch - main [MainThread]: End processing [PyFlyt]: success
+[2023-08-05 18:05:10] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.8.3.tar.gz]
+[2023-08-05 18:05:10] INFO root fetch - processPackages [ai-flow-nightly]: Remove: archive file [/home/abi/fetcher/tmp/ai_flow_nightly-2023.8.4.tar.gz]
+[2023-08-05 18:05:10] INFO root fetch - main [MainThread]: End processing [ai-flow-nightly]: success
+[2023-08-05 18:05:11] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.2.1.tar.gz]
+[2023-08-05 18:05:11] INFO root fetch - processPackages [alibabacloud-sas20181203]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203-2.2.2.tar.gz]
+[2023-08-05 18:05:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203]: success
+[2023-08-05 18:05:11] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.2.1.tar.gz]
+[2023-08-05 18:05:11] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.2.2.tar.gz]
+[2023-08-05 18:05:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
+[2023-08-05 18:05:11] INFO root fetch - main [MainThread]: Store serial: [19187718]
