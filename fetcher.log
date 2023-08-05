@@ -18942,3 +18942,24 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 23:47:43] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.3.2.tar.gz]
 [2023-08-05 23:47:43] INFO root fetch - main [MainThread]: End processing [pyyeti]: success
 [2023-08-05 23:47:43] INFO root fetch - main [MainThread]: Store serial: [19189529]
+[2023-08-05 23:52:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189529]
+[2023-08-05 23:52:57] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 23:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: companycam-unofficial
+[2023-08-05 23:52:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrapy-playwright
+[2023-08-05 23:52:58] INFO root fetch - processPackages [companycam-unofficial]: New version: [0.2.0] Old Version: [0.1.6]
+[2023-08-05 23:52:58] INFO root fetch - processPackages [scrapy-playwright]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 23:52:58] INFO root fetch - processPackages [companycam-unofficial]: Downloading https://files.pythonhosted.org/packages/d3/7e/0f90290332a7cd7555344c241bae0599db20d4404a336fae15e2b4fa2de6/companycam-unofficial-0.1.6.tar.gz
+[2023-08-05 23:52:58] INFO root fetch - processPackages [scrapy-playwright]: Downloading https://files.pythonhosted.org/packages/6f/fe/000b0bc7685ca551795b0368bc9f53644f81bc7ca68158b4c818a5a57652/scrapy-playwright-0.0.8.tar.gz
+[2023-08-05 23:52:58] INFO root fetch - processPackages [companycam-unofficial]: Downloading https://files.pythonhosted.org/packages/c8/1f/442f9b3cf204710af7e7ada2855b9edaf92a23070982115435242e8fb13f/companycam-unofficial-0.2.0.tar.gz
+[2023-08-05 23:52:58] INFO root fetch - processPackages [companycam-unofficial]: executing diffoscope
+[2023-08-05 23:52:58] INFO root fetch - processPackages [companycam-unofficial]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/companycam-unofficial-0.1.6.tar.gz tmp/companycam-unofficial-0.2.0.tar.gz --markdown 20230805/c/companycam-unofficial/0.1.6-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 23:52:58] INFO root fetch - processPackages [scrapy-playwright]: Downloading https://files.pythonhosted.org/packages/28/26/cee57cbf54ecf21dcaec9eb3665cddb8a79b21d2c312d01bcee06dfde713/scrapy-playwright-0.0.9.tar.gz
+[2023-08-05 23:52:59] INFO root fetch - processPackages [scrapy-playwright]: executing diffoscope
+[2023-08-05 23:52:59] INFO root fetch - processPackages [scrapy-playwright]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrapy-playwright-0.0.8.tar.gz tmp/scrapy-playwright-0.0.9.tar.gz --markdown 20230805/s/scrapy-playwright/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 23:52:59] INFO root fetch - processPackages [companycam-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/companycam-unofficial-0.1.6.tar.gz]
+[2023-08-05 23:52:59] INFO root fetch - processPackages [companycam-unofficial]: Remove: archive file [/home/abi/fetcher/tmp/companycam-unofficial-0.2.0.tar.gz]
+[2023-08-05 23:52:59] INFO root fetch - main [MainThread]: End processing [companycam-unofficial]: success
+[2023-08-05 23:53:00] INFO root fetch - processPackages [scrapy-playwright]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-playwright-0.0.8.tar.gz]
+[2023-08-05 23:53:00] INFO root fetch - processPackages [scrapy-playwright]: Remove: archive file [/home/abi/fetcher/tmp/scrapy-playwright-0.0.9.tar.gz]
+[2023-08-05 23:53:00] INFO root fetch - main [MainThread]: End processing [scrapy-playwright]: success
+[2023-08-05 23:53:00] INFO root fetch - main [MainThread]: Store serial: [19189535]
