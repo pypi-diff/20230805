@@ -18496,3 +18496,30 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 22:55:34] INFO root fetch - processPackages [babi-grammars]: Remove: archive file [/home/abi/fetcher/tmp/babi_grammars-0.0.9.tar.gz]
 [2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [babi-grammars]: success
 [2023-08-05 22:55:34] INFO root fetch - main [MainThread]: Store serial: [19189290]
+[2023-08-05 23:00:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189290]
+[2023-08-05 23:00:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 23:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: suvvyapi
+[2023-08-05 23:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyraws
+[2023-08-05 23:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: thonny-edulint
+[2023-08-05 23:00:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hardbrake
+[2023-08-05 23:00:43] WARNING root fetch - processPackages [suvvyapi]: Skipping, unable to determine old version
+[2023-08-05 23:00:43] INFO root fetch - main [MainThread]: End processing [suvvyapi] error
+[2023-08-05 23:00:43] WARNING root fetch - processPackages [thonny-edulint]: Skipping, unable to determine old version
+[2023-08-05 23:00:43] INFO root fetch - main [MainThread]: End processing [thonny-edulint] error
+[2023-08-05 23:00:43] INFO root fetch - processPackages [hardbrake]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 23:00:43] INFO root fetch - processPackages [pyraws]: New version: [1.0.5] Old Version: [1.0.0]
+[2023-08-05 23:00:43] INFO root fetch - processPackages [pyraws]: Downloading https://files.pythonhosted.org/packages/65/f7/65b2dd6b5b60b79166e2d25224e384f684e83a10be71f9290a289327b610/pyraws-1.0.0-py3-none-any.whl
+[2023-08-05 23:00:44] INFO root fetch - processPackages [hardbrake]: Downloading https://files.pythonhosted.org/packages/89/df/64813eb5449dccad967a146c8fb5d234a5930e1e6106cf87b0ebd8836b76/hardbrake-0.1.1.tar.gz
+[2023-08-05 23:00:44] INFO root fetch - processPackages [hardbrake]: Downloading https://files.pythonhosted.org/packages/95/35/d475747bffea2d27e445ba2ff2d6619740a28520038fca03f859a7e7ee9f/hardbrake-0.1.2.tar.gz
+[2023-08-05 23:00:44] INFO root fetch - processPackages [pyraws]: Downloading https://files.pythonhosted.org/packages/d8/51/fe61a0123869ed00df1a94115fb86f0ea6513090d2473bb41b6fe785cccf/pyraws-1.0.5-py3-none-any.whl
+[2023-08-05 23:00:44] INFO root fetch - processPackages [hardbrake]: executing diffoscope
+[2023-08-05 23:00:44] INFO root fetch - processPackages [hardbrake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hardbrake-0.1.1.tar.gz tmp/hardbrake-0.1.2.tar.gz --markdown 20230805/h/hardbrake/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 23:00:44] INFO root fetch - processPackages [pyraws]: executing diffoscope
+[2023-08-05 23:00:44] INFO root fetch - processPackages [pyraws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyraws-1.0.0-py3-none-any.whl.zip tmp/pyraws-1.0.5-py3-none-any.whl.zip --markdown 20230805/p/pyraws/1.0.0-1.0.5/diff.md --exclude *.pyd
+[2023-08-05 23:00:45] INFO root fetch - processPackages [hardbrake]: Remove: archive file [/home/abi/fetcher/tmp/hardbrake-0.1.1.tar.gz]
+[2023-08-05 23:00:45] INFO root fetch - processPackages [hardbrake]: Remove: archive file [/home/abi/fetcher/tmp/hardbrake-0.1.2.tar.gz]
+[2023-08-05 23:00:45] INFO root fetch - main [MainThread]: End processing [hardbrake]: success
+[2023-08-05 23:00:45] INFO root fetch - processPackages [pyraws]: Remove: archive file [/home/abi/fetcher/tmp/pyraws-1.0.0-py3-none-any.whl.zip]
+[2023-08-05 23:00:45] INFO root fetch - processPackages [pyraws]: Remove: archive file [/home/abi/fetcher/tmp/pyraws-1.0.5-py3-none-any.whl.zip]
+[2023-08-05 23:00:45] INFO root fetch - main [MainThread]: End processing [pyraws]: success
+[2023-08-05 23:00:45] INFO root fetch - main [MainThread]: Store serial: [19189302]
