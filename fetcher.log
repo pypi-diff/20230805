@@ -10105,3 +10105,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 10:49:24] INFO root fetch - processPackages [tfp-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfp_nightly-0.9.0.dev20200114-py2.py3-none-any.whl.zip]
 [2023-08-05 10:49:24] INFO root fetch - main [MainThread]: End processing [tfp-nightly]: success
 [2023-08-05 10:49:24] INFO root fetch - main [MainThread]: Store serial: [19185183]
+[2023-08-05 10:54:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185183]
+[2023-08-05 10:54:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 10:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: markline
+[2023-08-05 10:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bforce
+[2023-08-05 10:54:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyurlx
+[2023-08-05 10:54:33] INFO root fetch - processPackages [markline]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-05 10:54:33] INFO root fetch - processPackages [markline]: Downloading https://files.pythonhosted.org/packages/94/2c/210a911fd06caf90bc3510b598ab0929c399d4f985f8734a87faeb24ae9c/markline-0.3.0.tar.gz
+[2023-08-05 10:54:33] INFO root fetch - processPackages [pyurlx]: New version: [2.0.0] Old Version: [1.0.0]
+[2023-08-05 10:54:33] INFO root fetch - processPackages [bforce]: New version: [0.4] Old Version: [0.3]
+[2023-08-05 10:54:34] INFO root fetch - processPackages [pyurlx]: Downloading https://files.pythonhosted.org/packages/0d/1b/ddcf6cab1c2da9540b1a26b74591df281b610908f35ce34a109ac353d399/pyurlx-1.0.0.tar.gz
+[2023-08-05 10:54:34] INFO root fetch - processPackages [bforce]: Downloading https://files.pythonhosted.org/packages/e2/43/5058b1999f47c76c781308ea609b292a07ed6a13e8aba1f5cf17937bca09/bforce-0.3.tar.gz
+[2023-08-05 10:54:34] INFO root fetch - processPackages [markline]: Downloading https://files.pythonhosted.org/packages/1b/89/c0ad0800689222012a2e1bfd776b879454930a9b8ce884a948d8dd6e270b/markline-0.3.1.tar.gz
+[2023-08-05 10:54:34] INFO root fetch - processPackages [markline]: executing diffoscope
+[2023-08-05 10:54:34] INFO root fetch - processPackages [markline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markline-0.3.0.tar.gz tmp/markline-0.3.1.tar.gz --markdown 20230805/m/markline/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 10:54:34] INFO root fetch - processPackages [bforce]: Downloading https://files.pythonhosted.org/packages/7b/98/b1c706fd44db33b291ec8fe2179393d45c4f74266883d0f7f38fa8ccf30d/bforce-0.4.tar.gz
+[2023-08-05 10:54:34] INFO root fetch - processPackages [pyurlx]: Downloading https://files.pythonhosted.org/packages/2d/4a/14a7b180f5825b89a66fb29f0b978f3ea909098f652820efdc84b2479313/pyurlx-2.0.0.tar.gz
+[2023-08-05 10:54:34] INFO root fetch - processPackages [bforce]: executing diffoscope
+[2023-08-05 10:54:34] INFO root fetch - processPackages [bforce]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bforce-0.3.tar.gz tmp/bforce-0.4.tar.gz --markdown 20230805/b/bforce/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-05 10:54:34] INFO root fetch - processPackages [pyurlx]: executing diffoscope
+[2023-08-05 10:54:34] INFO root fetch - processPackages [pyurlx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyurlx-1.0.0.tar.gz tmp/pyurlx-2.0.0.tar.gz --markdown 20230805/p/pyurlx/1.0.0-2.0.0/diff.md --exclude *.pyd
+[2023-08-05 10:54:35] INFO root fetch - processPackages [markline]: Remove: archive file [/home/abi/fetcher/tmp/markline-0.3.0.tar.gz]
+[2023-08-05 10:54:35] INFO root fetch - processPackages [markline]: Remove: archive file [/home/abi/fetcher/tmp/markline-0.3.1.tar.gz]
+[2023-08-05 10:54:35] INFO root fetch - main [MainThread]: End processing [markline]: success
+[2023-08-05 10:54:35] INFO root fetch - processPackages [bforce]: Remove: archive file [/home/abi/fetcher/tmp/bforce-0.3.tar.gz]
+[2023-08-05 10:54:35] INFO root fetch - processPackages [bforce]: Remove: archive file [/home/abi/fetcher/tmp/bforce-0.4.tar.gz]
+[2023-08-05 10:54:35] INFO root fetch - main [MainThread]: End processing [bforce]: success
+[2023-08-05 10:54:35] INFO root fetch - processPackages [pyurlx]: Remove: archive file [/home/abi/fetcher/tmp/pyurlx-1.0.0.tar.gz]
+[2023-08-05 10:54:35] INFO root fetch - processPackages [pyurlx]: Remove: archive file [/home/abi/fetcher/tmp/pyurlx-2.0.0.tar.gz]
+[2023-08-05 10:54:35] INFO root fetch - main [MainThread]: End processing [pyurlx]: success
+[2023-08-05 10:54:35] INFO root fetch - main [MainThread]: Store serial: [19185192]
