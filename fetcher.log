@@ -15193,3 +15193,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:10:33] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.4.tar.gz]
 [2023-08-05 18:10:33] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
 [2023-08-05 18:10:33] INFO root fetch - main [MainThread]: Store serial: [19187730]
+[2023-08-05 18:15:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187730]
+[2023-08-05 18:15:42] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: openshift-python-utilities
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: openshift-python-utilities
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cellar-extractor
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mbbank-lib
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litellm
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: JanexPT
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: myllm
+[2023-08-05 18:15:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: Sidebar-nav-custom-icons-streamlit
+[2023-08-05 18:15:42] INFO root fetch - processPackages [myllm]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.56] Old Version: [1.0.55]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [litellm]: New version: [0.1.232] Old Version: [0.1.230]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [litellm]: New version: [0.1.232] Old Version: [0.1.230]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [mbbank-lib]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.5] Old Version: [4.14.4]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.5] Old Version: [4.14.4]
+[2023-08-05 18:15:42] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/b8/06/02129965da3802a565d90ea29b0dddb95e3f57abe517e282585cbb9852b2/myllm-1.0.1.tar.gz
+[2023-08-05 18:15:42] WARNING root fetch - processPackages [JanexPT]: Skipping, unable to determine old version
+[2023-08-05 18:15:42] INFO root fetch - main [MainThread]: End processing [JanexPT] error
+[2023-08-05 18:15:42] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/87/f5/0a25e756368770cf0734e8ef6eae21d38b2979e563bb73da7fa5cda49973/cellar_extractor-1.0.55.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/06/e5/17ced5a3f5f386d54b9d694191f32081cf20fb0e3b384f6a15b2723e4dc7/litellm-0.1.230.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/53/4b/41f687bc4e17a7269792b8060a73760a85487e0187ed6ebb82d267ee22d5/mbbank-lib-0.0.6.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/06/e5/17ced5a3f5f386d54b9d694191f32081cf20fb0e3b384f6a15b2723e4dc7/litellm-0.1.230.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Downloading https://files.pythonhosted.org/packages/a6/b4/ea0af473545c59edef3a0887eb2631f8872d935890fec0bbafdcdf080b97/Sidebar-nav-custom-icons-streamlit-0.0.1.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/2f/df/7fbbe1d089e299496d9ac3942cdda3eed63f38e68e9188e487ff3ab9b3f7/openshift-python-utilities-4.14.4.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/2f/df/7fbbe1d089e299496d9ac3942cdda3eed63f38e68e9188e487ff3ab9b3f7/openshift-python-utilities-4.14.4.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/f1/41/b4353350dd6166a723446ff09feef879964d1ec3f9c31443b5cc931573bd/cellar_extractor-1.0.56.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [myllm]: Downloading https://files.pythonhosted.org/packages/1b/11/a4f11a51c0655eefc531c4f708cf6c9306680c94d3dec5b8597e4242276d/myllm-1.0.2.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/ea/7a/9ac86c5d55e73f8c4355ac5c44f903d5fb3475226f7b603b6352e84eea63/mbbank-lib-0.0.7.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/13/c8/b04bdb0c6e9a038162587ab6ae06d9e471eac65a7ed36b7f249c5d9aaef7/litellm-0.1.232.tar.gz
+[2023-08-05 18:15:42] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/13/c8/b04bdb0c6e9a038162587ab6ae06d9e471eac65a7ed36b7f249c5d9aaef7/litellm-0.1.232.tar.gz
+[2023-08-05 18:15:43] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.55.tar.gz tmp/cellar_extractor-1.0.56.tar.gz --markdown 20230805/c/cellar-extractor/1.0.55-1.0.56/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [myllm]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [myllm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/myllm-1.0.1.tar.gz tmp/myllm-1.0.2.tar.gz --markdown 20230805/m/myllm/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/16/83/2c94f66bf0436ddba1788d98ff922183c1601b05f19454672fde8e7bf99a/openshift-python-utilities-4.14.5.tar.gz
+[2023-08-05 18:15:43] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/16/83/2c94f66bf0436ddba1788d98ff922183c1601b05f19454672fde8e7bf99a/openshift-python-utilities-4.14.5.tar.gz
+[2023-08-05 18:15:43] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Downloading https://files.pythonhosted.org/packages/04/be/a36ac7ab8ce1495aee3f77c27cd3f8aa45a85f6923a1017baa80c4ab14c7/Sidebar-nav-custom-icons-streamlit-0.0.2.tar.gz
+[2023-08-05 18:15:43] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.230.tar.gz tmp/litellm-0.1.232.tar.gz --markdown 20230805/l/litellm/0.1.230-0.1.232/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.230.tar.gz tmp/litellm-0.1.232.tar.gz --markdown 20230805/l/litellm/0.1.230-0.1.232/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.4.tar.gz tmp/openshift-python-utilities-4.14.5.tar.gz --markdown 20230805/o/openshift-python-utilities/4.14.4-4.14.5/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.4.tar.gz tmp/openshift-python-utilities-4.14.5.tar.gz --markdown 20230805/o/openshift-python-utilities/4.14.4-4.14.5/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Sidebar-nav-custom-icons-streamlit-0.0.1.tar.gz tmp/Sidebar-nav-custom-icons-streamlit-0.0.2.tar.gz --markdown 20230805/S/Sidebar-nav-custom-icons-streamlit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 18:15:43] INFO root fetch - processPackages [mbbank-lib]: executing diffoscope
+[2023-08-05 18:15:43] INFO root fetch - processPackages [mbbank-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbbank-lib-0.0.6.tar.gz tmp/mbbank-lib-0.0.7.tar.gz --markdown 20230805/m/mbbank-lib/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-05 18:15:44] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.55.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.56.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-08-05 18:15:44] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.230.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.232.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 18:15:44] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.0.1.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - processPackages [myllm]: Remove: archive file [/home/abi/fetcher/tmp/myllm-1.0.2.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [myllm]: success
+[2023-08-05 18:15:44] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.4.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.5.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-08-05 18:15:44] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/Sidebar-nav-custom-icons-streamlit-0.0.1.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - processPackages [Sidebar-nav-custom-icons-streamlit]: Remove: archive file [/home/abi/fetcher/tmp/Sidebar-nav-custom-icons-streamlit-0.0.2.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [Sidebar-nav-custom-icons-streamlit]: success
+[2023-08-05 18:15:44] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.6.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.7.tar.gz]
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [mbbank-lib]: success
+[2023-08-05 18:15:44] INFO root fetch - main [MainThread]: Store serial: [19187755]
