@@ -17350,3 +17350,101 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:15:42] INFO root fetch - processPackages [kubeflow-katib]: Remove: archive file [/home/abi/fetcher/tmp/kubeflow-katib-0.16.0rc0.tar.gz]
 [2023-08-05 21:15:42] INFO root fetch - main [MainThread]: End processing [kubeflow-katib]: success
 [2023-08-05 21:15:42] INFO root fetch - main [MainThread]: Store serial: [19188687]
+[2023-08-05 21:20:46] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188687]
+[2023-08-05 21:20:50] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 21:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-ec2-auto-scaling-instance-running-scheduler
+[2023-08-05 21:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: certora-cli-beta
+[2023-08-05 21:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: etm-dgraham
+[2023-08-05 21:20:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: astro-wcpy
+[2023-08-05 21:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: logical-rush
+[2023-08-05 21:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: magnus
+[2023-08-05 21:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audio-separator
+[2023-08-05 21:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: gammarer.aws-ec2-instance-running-scheduler
+[2023-08-05 21:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gammarer.aws-daily-cost-usage-reporter
+[2023-08-05 21:20:51] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: gammarer.aws-budgets-notification
+[2023-08-05 21:20:51] INFO root fetch - processPackages [logical-rush]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: New version: [0.4.9] Old Version: [0.4.7]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [astro-wcpy]: New version: [0.0.2.0] Old Version: [0.0.1.0]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [certora-cli-beta]: New version: [4.7.0] Old Version: [4.6.2]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [audio-separator]: New version: [0.6.1] Old Version: [0.5.1]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [magnus]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [etm-dgraham]: New version: [5.1.8] Old Version: [5.1.7]
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/a8/5f/774709f6379ff3071fbe5c92854f80f84ef8d5948d1774bf6abb940a3698/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Downloading https://files.pythonhosted.org/packages/37/b5/62c54f1538d65889aa0fed6d08914677d986a8fe912f0dc3264793be7072/gammarer.aws-daily-cost-usage-reporter-0.9.8.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/93/84/4067ea4481549b7f420d637936e6efb78134391463b766a240838509d391/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Downloading https://files.pythonhosted.org/packages/fb/d0/a0e6ce8a97d70809e5aa46b529465cf104065807451ef77031b39bb13b2c/gammarer.aws-budgets-notification-0.2.8.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [astro-wcpy]: Downloading https://files.pythonhosted.org/packages/f0/60/c4876bb4f45f7001700ea3123494745927a3429e6804e7f5706087066ee4/astro-wcpy-0.0.1.0.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [logical-rush]: Downloading https://files.pythonhosted.org/packages/97/69/41c65e40f769067ccc8643324508c77433ac7d657afd909539ea1b7c9465/logical_rush-0.0.1-py3-none-any.whl
+[2023-08-05 21:20:51] INFO root fetch - processPackages [certora-cli-beta]: Downloading https://files.pythonhosted.org/packages/a2/95/0e123ba1c35dd82a46154bceb328c10572ef1fffedd7ece4888cc6b4e873/certora-cli-beta-4.6.2.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/a5/e0/fc2ef8345b16eada08e58b9af2a9a042d7280ce989e1eedee2877a6d4d5d/audio_separator-0.5.1.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/90/39/6e79fcb32eeb63890ea90c481570e93e3cc96f5428dd4de86e0421b4a87d/magnus-0.4.8.tar.gz
+[2023-08-05 21:20:51] WARNING root fetch - processPackages [certora-cli-beta]: Skipping package: exceeds size limit 37695697>=10485760
+[2023-08-05 21:20:51] INFO root fetch - processPackages [certora-cli-beta]: Start processing: jaxwt
+[2023-08-05 21:20:51] INFO root fetch - main [MainThread]: End processing [certora-cli-beta] error
+[2023-08-05 21:20:51] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/e6/1a/1f5ce6765c58a81511d98e32fbc099c2444e47972984d7725f79c2dda8a4/etm-dgraham-5.1.7.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/18/9b/38ff75b49271647698e6064f2a7e0d38196047b6ed186cbdc2df33b62620/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz
+[2023-08-05 21:20:51] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Downloading https://files.pythonhosted.org/packages/38/d0/1d35005ade384b85a5f579fd776e14751c92bc2807bb079f49b075794485/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [jaxwt]: New version: [0.0.8.post1] Old Version: [0.0.8]
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Downloading https://files.pythonhosted.org/packages/ae/3e/c20f8d5523075b059d1f4b6a33f437a3952c81c5d1db8ff2b3586ab02628/gammarer.aws-daily-cost-usage-reporter-0.9.9.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Downloading https://files.pythonhosted.org/packages/fb/c5/89a725331f93b09cf937d96c37750a6c3fd3f7b42d542c36ce041e55fb51/gammarer.aws-budgets-notification-0.2.9.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz --markdown 20230805/g/gammarer.aws-ec2-instance-running-scheduler/0.4.7-0.4.9/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz --markdown 20230805/g/gammarer.aws-ec2-auto-scaling-instance-running-scheduler/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [astro-wcpy]: Downloading https://files.pythonhosted.org/packages/a3/1d/3d9e63d66788fb0bce434bd92c4285bcd371f585b67cdc919766bf9c0f03/astro-wcpy-0.0.2.0.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/77/74/b051540b4b37e5120b0cc2beb2e54e51e82204bdc6d64e94b73a8bc7b95c/audio_separator-0.6.1.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [logical-rush]: Downloading https://files.pythonhosted.org/packages/9b/f2/b0db7127256c00456cfa6a01ef52890ec1d9f9d3d38dcc02c0cf7b0c6adb/logical_rush-0.0.2-py3-none-any.whl
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-budgets-notification-0.2.8.tar.gz tmp/gammarer.aws-budgets-notification-0.2.9.tar.gz --markdown 20230805/g/gammarer.aws-budgets-notification/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [magnus]: Downloading https://files.pythonhosted.org/packages/44/a5/abfc74ee3d541331891e45d0986c3171ab5084231cebacc144a6afd310b0/magnus-0.4.9.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-daily-cost-usage-reporter-0.9.8.tar.gz tmp/gammarer.aws-daily-cost-usage-reporter-0.9.9.tar.gz --markdown 20230805/g/gammarer.aws-daily-cost-usage-reporter/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [astro-wcpy]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [astro-wcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-wcpy-0.0.1.0.tar.gz tmp/astro-wcpy-0.0.2.0.tar.gz --markdown 20230805/a/astro-wcpy/0.0.1.0-0.0.2.0/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.5.1.tar.gz tmp/audio_separator-0.6.1.tar.gz --markdown 20230805/a/audio-separator/0.5.1-0.6.1/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [jaxwt]: Downloading https://files.pythonhosted.org/packages/bf/70/ad460c09b4f1b28a33e536967f2fb76bd0dd30d2d32d008d3cf112c94c2d/jaxwt-0.0.8.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [logical-rush]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [logical-rush]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logical_rush-0.0.1-py3-none-any.whl.zip tmp/logical_rush-0.0.2-py3-none-any.whl.zip --markdown 20230805/l/logical-rush/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [magnus]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [magnus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/magnus-0.4.8.tar.gz tmp/magnus-0.4.9.tar.gz --markdown 20230805/m/magnus/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-05 21:20:52] INFO root fetch - processPackages [etm-dgraham]: Downloading https://files.pythonhosted.org/packages/d8/33/3caf9dd340c0ee2a4e2f985d371a29616473dc128585eb2496056b48de6c/etm-dgraham-5.1.8.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [jaxwt]: Downloading https://files.pythonhosted.org/packages/2e/7c/f77ac38f4dc2300dc0543f8cebbe373fee6f0f991add91b32de1b1f9db46/jaxwt-0.0.8.post1.tar.gz
+[2023-08-05 21:20:52] INFO root fetch - processPackages [jaxwt]: executing diffoscope
+[2023-08-05 21:20:52] INFO root fetch - processPackages [jaxwt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxwt-0.0.8.tar.gz tmp/jaxwt-0.0.8.post1.tar.gz --markdown 20230805/j/jaxwt/0.0.8-0.0.8.post1/diff.md --exclude *.pyd
+[2023-08-05 21:20:53] INFO root fetch - processPackages [etm-dgraham]: executing diffoscope
+[2023-08-05 21:20:53] INFO root fetch - processPackages [etm-dgraham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/etm-dgraham-5.1.7.tar.gz tmp/etm-dgraham-5.1.8.tar.gz --markdown 20230805/e/etm-dgraham/5.1.7-5.1.8/diff.md --exclude *.pyd
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.7.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-ec2-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-running-scheduler-0.4.9.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-running-scheduler]: success
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.8.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-auto-scaling-instance-running-scheduler-0.3.9.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-auto-scaling-instance-running-scheduler]: success
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-budgets-notification-0.2.8.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-budgets-notification]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-budgets-notification-0.2.9.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [gammarer.aws-budgets-notification]: success
+[2023-08-05 21:20:53] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.5.1.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.6.1.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-08-05 21:20:53] INFO root fetch - processPackages [astro-wcpy]: Remove: archive file [/home/abi/fetcher/tmp/astro-wcpy-0.0.1.0.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [astro-wcpy]: Remove: archive file [/home/abi/fetcher/tmp/astro-wcpy-0.0.2.0.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [astro-wcpy]: success
+[2023-08-05 21:20:53] INFO root fetch - processPackages [logical-rush]: Remove: archive file [/home/abi/fetcher/tmp/logical_rush-0.0.1-py3-none-any.whl.zip]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [logical-rush]: Remove: archive file [/home/abi/fetcher/tmp/logical_rush-0.0.2-py3-none-any.whl.zip]
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cost-usage-reporter-0.9.8.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [logical-rush]: success
+[2023-08-05 21:20:53] INFO root fetch - processPackages [gammarer.aws-daily-cost-usage-reporter]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-daily-cost-usage-reporter-0.9.9.tar.gz]
+[2023-08-05 21:20:53] INFO root fetch - main [MainThread]: End processing [gammarer.aws-daily-cost-usage-reporter]: success
+[2023-08-05 21:20:54] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.8.tar.gz]
+[2023-08-05 21:20:54] INFO root fetch - processPackages [magnus]: Remove: archive file [/home/abi/fetcher/tmp/magnus-0.4.9.tar.gz]
+[2023-08-05 21:20:54] INFO root fetch - main [MainThread]: End processing [magnus]: success
+[2023-08-05 21:20:54] INFO root fetch - processPackages [jaxwt]: Remove: archive file [/home/abi/fetcher/tmp/jaxwt-0.0.8.tar.gz]
+[2023-08-05 21:20:54] INFO root fetch - processPackages [jaxwt]: Remove: archive file [/home/abi/fetcher/tmp/jaxwt-0.0.8.post1.tar.gz]
+[2023-08-05 21:20:54] INFO root fetch - main [MainThread]: End processing [jaxwt]: success
+[2023-08-05 21:20:54] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.7.tar.gz]
+[2023-08-05 21:20:54] INFO root fetch - processPackages [etm-dgraham]: Remove: archive file [/home/abi/fetcher/tmp/etm-dgraham-5.1.8.tar.gz]
+[2023-08-05 21:20:54] INFO root fetch - main [MainThread]: End processing [etm-dgraham]: success
+[2023-08-05 21:20:54] INFO root fetch - main [MainThread]: Store serial: [19188722]
