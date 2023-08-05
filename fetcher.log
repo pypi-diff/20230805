@@ -16489,3 +16489,100 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:02:37] INFO root fetch - processPackages [localstack-core]: Remove: archive file [/home/abi/fetcher/tmp/localstack-core-2.2.1.dev20230804195337.tar.gz]
 [2023-08-05 20:02:38] INFO root fetch - main [MainThread]: End processing [localstack-core]: success
 [2023-08-05 20:02:38] INFO root fetch - main [MainThread]: Store serial: [19188281]
+[2023-08-05 20:07:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188281]
+[2023-08-05 20:07:46] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rivian-python-client
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: indexnow
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cyberdrop-dl
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: skscope
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: indexnow
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: localstack
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: localstack-ext
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: slack-serverless
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-08-05 20:07:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: summa-embed
+[2023-08-05 20:07:47] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [cyberdrop-dl]: New version: [4.2.99] Old Version: [4.2.98]
+[2023-08-05 20:07:47] WARNING root fetch - processPackages [slack-serverless]: Skipping, unable to determine old version
+[2023-08-05 20:07:47] INFO root fetch - processPackages [slack-serverless]: Start processing: python-osc
+[2023-08-05 20:07:47] INFO root fetch - main [MainThread]: End processing [slack-serverless] error
+[2023-08-05 20:07:47] WARNING root fetch - processPackages [skscope]: Skipping, unable to determine old version
+[2023-08-05 20:07:47] INFO root fetch - processPackages [skscope]: Start processing: refineryframe
+[2023-08-05 20:07:47] INFO root fetch - main [MainThread]: End processing [skscope] error
+[2023-08-05 20:07:47] INFO root fetch - processPackages [indexnow]: New version: [0.9.9] Old Version: [0.0.2]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [indexnow]: New version: [0.9.9] Old Version: [0.0.2]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [refineryframe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [rivian-python-client]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [localstack-ext]: New version: [2.2.1.dev20230805180111] Old Version: [2.2.0]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [localstack]: New version: [2.2.1.dev20230805180111] Old Version: [2.2.0]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [summa-embed]: New version: [0.17.8] Old Version: [0.17.7]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [python-osc]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-08-05 20:07:47] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/1b/f8/0bf0ba2d44c54577234ba97b219752bdc63f63c54eddb613647161b06c5e/cyberdrop-dl-4.2.98.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/2e/dd/10ed1c1f11bfa8ab104700b2a5d020c536a28c23c9e5e796f231fe36a0a8/refineryframe-0.1.8.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/9c/43/5391eac44103d743a9b69de209bfa5bb160f33048988cebc5ca74538238a/indexnow-0.0.2.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/9c/43/5391eac44103d743a9b69de209bfa5bb160f33048988cebc5ca74538238a/indexnow-0.0.2.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/1f/ca/7d1b6d9708631980064fe1827d375ee8077236c3b20d7dc87bce7a36f8c1/summa_embed-0.17.7.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [rivian-python-client]: Downloading https://files.pythonhosted.org/packages/aa/f3/9cc05e965d0889b31db6fd84732eaf2cfb0d2de716c55cb90883b33907bb/rivian_python_client-1.0.0.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/b3/84/f52570efd364ad562cc63889f8cd7015fd5e3e433b145aed3656842d621c/localstack-2.2.0.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/2d/32/51dfeefe0af594b3e5dbaed2d968bb727525e9c3ffee93729e49f3c0e213/localstack-ext-2.2.0.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [python-osc]: Downloading https://files.pythonhosted.org/packages/66/f2/d12f100cd0bae070eb1b7632deddb9972cab3fcbdde70dcf89c44cfd1ee4/python-osc-1.8.1.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/70/6e/5c9dd4eb84b76aabd31215851f6762877f567a5471242d422854a20e2369/refineryframe-0.1.9.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [cyberdrop-dl]: Downloading https://files.pythonhosted.org/packages/cb/85/1082dbce7699795fa0752358803e2c52dedd79d14d96d728d35eae76c69a/cyberdrop-dl-4.2.99.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-05 20:07:47] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230805/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 20:07:47] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/3d/06/ab97a7d43fa6c5231980742a3aab07fc8a994291ea9475b42a4aaba6292b/indexnow-0.9.9.tar.gz
+[2023-08-05 20:07:47] INFO root fetch - processPackages [indexnow]: Downloading https://files.pythonhosted.org/packages/3d/06/ab97a7d43fa6c5231980742a3aab07fc8a994291ea9475b42a4aaba6292b/indexnow-0.9.9.tar.gz
+[2023-08-05 20:07:48] INFO root fetch - processPackages [cyberdrop-dl]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [cyberdrop-dl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cyberdrop-dl-4.2.98.tar.gz tmp/cyberdrop-dl-4.2.99.tar.gz --markdown 20230805/c/cyberdrop-dl/4.2.98-4.2.99/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [localstack]: Downloading https://files.pythonhosted.org/packages/66/07/26e5359e85aaf18583e99dd07da92ebd95925d98308094dca23856199f58/localstack-2.2.1.dev20230805180111.tar.gz
+[2023-08-05 20:07:48] INFO root fetch - processPackages [rivian-python-client]: Downloading https://files.pythonhosted.org/packages/17/74/034d137ee94a9bb120167e97c93bb1f0e5b5195848473311bfcf64a98bf4/rivian_python_client-1.0.1.tar.gz
+[2023-08-05 20:07:48] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.8.tar.gz tmp/refineryframe-0.1.9.tar.gz --markdown 20230805/r/refineryframe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [python-osc]: Downloading https://files.pythonhosted.org/packages/ff/0e/45b2c1a492d6f3dcdc4cb1a89da1bda9ee2d5743536e7342dd5d8f133cb1/python-osc-1.8.2.tar.gz
+[2023-08-05 20:07:48] INFO root fetch - processPackages [summa-embed]: Downloading https://files.pythonhosted.org/packages/6b/ea/150d0c00b745d433ff3c5141fc5860aa80bc411f482be6781499f6c5ac8a/summa_embed-0.17.8.tar.gz
+[2023-08-05 20:07:48] INFO root fetch - processPackages [indexnow]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [indexnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnow-0.0.2.tar.gz tmp/indexnow-0.9.9.tar.gz --markdown 20230805/i/indexnow/0.0.2-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [indexnow]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [indexnow]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/indexnow-0.0.2.tar.gz tmp/indexnow-0.9.9.tar.gz --markdown 20230805/i/indexnow/0.0.2-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [localstack]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [localstack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-2.2.0.tar.gz tmp/localstack-2.2.1.dev20230805180111.tar.gz --markdown 20230805/l/localstack/2.2.0-2.2.1.dev20230805180111/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [rivian-python-client]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [rivian-python-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rivian_python_client-1.0.0.tar.gz tmp/rivian_python_client-1.0.1.tar.gz --markdown 20230805/r/rivian-python-client/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [python-osc]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [python-osc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-osc-1.8.1.tar.gz tmp/python-osc-1.8.2.tar.gz --markdown 20230805/p/python-osc/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [summa-embed]: executing diffoscope
+[2023-08-05 20:07:48] INFO root fetch - processPackages [summa-embed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/summa_embed-0.17.7.tar.gz tmp/summa_embed-0.17.8.tar.gz --markdown 20230805/s/summa-embed/0.17.7-0.17.8/diff.md --exclude *.pyd
+[2023-08-05 20:07:48] INFO root fetch - processPackages [localstack-ext]: Downloading https://files.pythonhosted.org/packages/f3/c5/5a7bf25b2d51b1172a58fd1e995ddff8662eb2c66679a735d12c99a2bc4a/localstack-ext-2.2.1.dev20230805180111.tar.gz
+[2023-08-05 20:07:49] INFO root fetch - processPackages [localstack-ext]: executing diffoscope
+[2023-08-05 20:07:49] INFO root fetch - processPackages [localstack-ext]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/localstack-ext-2.2.0.tar.gz tmp/localstack-ext-2.2.1.dev20230805180111.tar.gz --markdown 20230805/l/localstack-ext/2.2.0-2.2.1.dev20230805180111/diff.md --exclude *.pyd
+[2023-08-05 20:07:49] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-05 20:07:49] INFO root fetch - processPackages [indexnow]: Remove: archive file [/home/abi/fetcher/tmp/indexnow-0.0.2.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [indexnow]: Remove: archive file [/home/abi/fetcher/tmp/indexnow-0.9.9.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [indexnow]: success
+[2023-08-05 20:07:49] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.8.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.9.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 20:07:49] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.98.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [cyberdrop-dl]: Remove: archive file [/home/abi/fetcher/tmp/cyberdrop-dl-4.2.99.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [cyberdrop-dl]: success
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [indexnow]: success
+[2023-08-05 20:07:49] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.2.0.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [localstack]: Remove: archive file [/home/abi/fetcher/tmp/localstack-2.2.1.dev20230805180111.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [localstack]: success
+[2023-08-05 20:07:49] INFO root fetch - processPackages [python-osc]: Remove: archive file [/home/abi/fetcher/tmp/python-osc-1.8.1.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [python-osc]: Remove: archive file [/home/abi/fetcher/tmp/python-osc-1.8.2.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [python-osc]: success
+[2023-08-05 20:07:49] INFO root fetch - processPackages [rivian-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rivian_python_client-1.0.0.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - processPackages [rivian-python-client]: Remove: archive file [/home/abi/fetcher/tmp/rivian_python_client-1.0.1.tar.gz]
+[2023-08-05 20:07:49] INFO root fetch - main [MainThread]: End processing [rivian-python-client]: success
+[2023-08-05 20:07:50] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.7.tar.gz]
+[2023-08-05 20:07:50] INFO root fetch - processPackages [summa-embed]: Remove: archive file [/home/abi/fetcher/tmp/summa_embed-0.17.8.tar.gz]
+[2023-08-05 20:07:50] INFO root fetch - main [MainThread]: End processing [summa-embed]: success
+[2023-08-05 20:07:54] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.2.0.tar.gz]
+[2023-08-05 20:07:54] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.2.1.dev20230805180111.tar.gz]
+[2023-08-05 20:07:54] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
+[2023-08-05 20:07:54] INFO root fetch - main [MainThread]: Store serial: [19188326]
