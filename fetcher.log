@@ -2173,3 +2173,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 02:35:43] INFO root fetch - processPackages [tfds-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tfds-nightly-4.9.2.dev202308040033.tar.gz]
 [2023-08-05 02:35:43] INFO root fetch - main [MainThread]: End processing [tfds-nightly]: success
 [2023-08-05 02:35:43] INFO root fetch - main [MainThread]: Store serial: [19182102]
+[2023-08-05 02:40:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19182102]
+[2023-08-05 02:40:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 02:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-msgraph
+[2023-08-05 02:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: state-machine-semaphore
+[2023-08-05 02:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: scrunch
+[2023-08-05 02:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pandasai
+[2023-08-05 02:40:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: expectra
+[2023-08-05 02:40:52] INFO root fetch - processPackages [scrunch]: New version: [6.5.2037.post1691184100] Old Version: [6.5.2036.post1691173520]
+[2023-08-05 02:40:52] INFO root fetch - processPackages [state-machine-semaphore]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-05 02:40:52] INFO root fetch - processPackages [expectra]: New version: [1.0.5] Old Version: [0.1.0]
+[2023-08-05 02:40:52] INFO root fetch - processPackages [pandasai]: New version: [0.8.2] Old Version: [0.8.1]
+[2023-08-05 02:40:52] WARNING root fetch - processPackages [py-msgraph]: Skipping, unable to determine old version
+[2023-08-05 02:40:52] INFO root fetch - main [MainThread]: End processing [py-msgraph] error
+[2023-08-05 02:40:52] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/97/5a/087e05d0976417f7b076bf2267d19af209ec76ed7408a4f5fe7885832ad2/scrunch-6.5.2036.post1691173520.tar.gz
+[2023-08-05 02:40:52] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/fa/f7/eea494ef2079699969c054c97478b7e0d5db0ce186fbb2708d9a243b4366/state-machine-semaphore-0.1.98.tar.gz
+[2023-08-05 02:40:52] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/43/02/e34ba5dc7edb320a1cbf69972637288b5218ad28f17c2adfcbe3b89e3f98/pandasai-0.8.1.tar.gz
+[2023-08-05 02:40:52] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/01/85/32e2065cf451bd33e1082bf848d09a83514ca723eaf120018b137b55d354/scrunch-6.5.2037.post1691184100.tar.gz
+[2023-08-05 02:40:52] INFO root fetch - processPackages [expectra]: Downloading https://files.pythonhosted.org/packages/a3/a8/b65a71aad133739b20d9b0c2131c6fff05b7ca59666fc47e9e645b04f921/expectra-0.1.0.tar.gz
+[2023-08-05 02:40:52] INFO root fetch - processPackages [state-machine-semaphore]: Downloading https://files.pythonhosted.org/packages/80/0f/c73e069a7ceff3d9f61065aa4b5b338bc0b9f4f933b94a97692457bfa317/state-machine-semaphore-0.1.99.tar.gz
+[2023-08-05 02:40:52] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-05 02:40:52] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2036.post1691173520.tar.gz tmp/scrunch-6.5.2037.post1691184100.tar.gz --markdown 20230805/s/scrunch/6.5.2036.post1691173520-6.5.2037.post1691184100/diff.md --exclude *.pyd
+[2023-08-05 02:40:52] INFO root fetch - processPackages [state-machine-semaphore]: executing diffoscope
+[2023-08-05 02:40:52] INFO root fetch - processPackages [state-machine-semaphore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/state-machine-semaphore-0.1.98.tar.gz tmp/state-machine-semaphore-0.1.99.tar.gz --markdown 20230805/s/state-machine-semaphore/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-05 02:40:53] INFO root fetch - processPackages [pandasai]: Downloading https://files.pythonhosted.org/packages/04/50/999960ec592fcfe30a5e49caa717c9643beab602c5c6a075fc501d7cb592/pandasai-0.8.2.tar.gz
+[2023-08-05 02:40:53] INFO root fetch - processPackages [expectra]: Downloading https://files.pythonhosted.org/packages/ac/2f/37c5aa1986be900948123ece76654465873299246c25e272c12b553746a8/expectra-1.0.5.tar.gz
+[2023-08-05 02:40:53] INFO root fetch - processPackages [pandasai]: executing diffoscope
+[2023-08-05 02:40:53] INFO root fetch - processPackages [pandasai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandasai-0.8.1.tar.gz tmp/pandasai-0.8.2.tar.gz --markdown 20230805/p/pandasai/0.8.1-0.8.2/diff.md --exclude *.pyd
+[2023-08-05 02:40:53] INFO root fetch - processPackages [expectra]: executing diffoscope
+[2023-08-05 02:40:53] INFO root fetch - processPackages [expectra]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/expectra-0.1.0.tar.gz tmp/expectra-1.0.5.tar.gz --markdown 20230805/e/expectra/0.1.0-1.0.5/diff.md --exclude *.pyd
+[2023-08-05 02:40:53] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.98.tar.gz]
+[2023-08-05 02:40:53] INFO root fetch - processPackages [state-machine-semaphore]: Remove: archive file [/home/abi/fetcher/tmp/state-machine-semaphore-0.1.99.tar.gz]
+[2023-08-05 02:40:53] INFO root fetch - main [MainThread]: End processing [state-machine-semaphore]: success
+[2023-08-05 02:40:53] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2036.post1691173520.tar.gz]
+[2023-08-05 02:40:53] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2037.post1691184100.tar.gz]
+[2023-08-05 02:40:53] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-05 02:40:54] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.8.1.tar.gz]
+[2023-08-05 02:40:54] INFO root fetch - processPackages [pandasai]: Remove: archive file [/home/abi/fetcher/tmp/pandasai-0.8.2.tar.gz]
+[2023-08-05 02:40:54] INFO root fetch - main [MainThread]: End processing [pandasai]: success
+[2023-08-05 02:40:54] INFO root fetch - processPackages [expectra]: Remove: archive file [/home/abi/fetcher/tmp/expectra-0.1.0.tar.gz]
+[2023-08-05 02:40:54] INFO root fetch - processPackages [expectra]: Remove: archive file [/home/abi/fetcher/tmp/expectra-1.0.5.tar.gz]
+[2023-08-05 02:40:54] INFO root fetch - main [MainThread]: End processing [expectra]: success
+[2023-08-05 02:40:54] INFO root fetch - main [MainThread]: Store serial: [19182134]
