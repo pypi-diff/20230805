@@ -9159,3 +9159,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:54:51] INFO root fetch - processPackages [lino-react]: Remove: archive file [/home/abi/fetcher/tmp/lino_react-23.8.0.tar.gz]
 [2023-08-05 08:54:51] INFO root fetch - main [MainThread]: End processing [lino-react]: success
 [2023-08-05 08:54:51] INFO root fetch - main [MainThread]: Store serial: [19184704]
+[2023-08-05 08:59:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184704]
+[2023-08-05 09:00:00] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 09:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyggc
+[2023-08-05 09:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pglast
+[2023-08-05 09:00:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: diplo-locus
+[2023-08-05 09:00:00] WARNING root fetch - processPackages [pyggc]: Skipping, unable to determine old version
+[2023-08-05 09:00:00] INFO root fetch - main [MainThread]: End processing [pyggc] error
+[2023-08-05 09:00:00] WARNING root fetch - processPackages [diplo-locus]: Skipping, unable to determine old version
+[2023-08-05 09:00:00] INFO root fetch - main [MainThread]: End processing [diplo-locus] error
+[2023-08-05 09:00:00] INFO root fetch - processPackages [pglast]: New version: [5.3] Old Version: [5.2]
+[2023-08-05 09:00:01] INFO root fetch - processPackages [pglast]: Downloading https://files.pythonhosted.org/packages/21/16/aa61b70559747030cdb9534ff3816cd275d76d48c07d3cdb4b0490297626/pglast-5.2.tar.gz
+[2023-08-05 09:00:01] INFO root fetch - processPackages [pglast]: Downloading https://files.pythonhosted.org/packages/27/32/c6add10eb206054798e0dfdf3ae7bb7e5ddfcc173d344ac84c2f85a9b4fd/pglast-5.3.tar.gz
+[2023-08-05 09:00:01] INFO root fetch - processPackages [pglast]: executing diffoscope
+[2023-08-05 09:00:01] INFO root fetch - processPackages [pglast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pglast-5.2.tar.gz tmp/pglast-5.3.tar.gz --markdown 20230805/p/pglast/5.2-5.3/diff.md --exclude *.pyd
+[2023-08-05 09:00:09] INFO root fetch - processPackages [pglast]: Remove: archive file [/home/abi/fetcher/tmp/pglast-5.2.tar.gz]
+[2023-08-05 09:00:09] INFO root fetch - processPackages [pglast]: Remove: archive file [/home/abi/fetcher/tmp/pglast-5.3.tar.gz]
+[2023-08-05 09:00:09] INFO root fetch - main [MainThread]: End processing [pglast]: success
+[2023-08-05 09:00:09] INFO root fetch - main [MainThread]: Store serial: [19184716]
