@@ -11454,3 +11454,36 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:51:56] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.2.tar.gz]
 [2023-08-05 12:51:56] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
 [2023-08-05 12:51:56] INFO root fetch - main [MainThread]: Store serial: [19185860]
+[2023-08-05 12:56:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185860]
+[2023-08-05 12:57:04] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: hezar
+[2023-08-05 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plot2vid
+[2023-08-05 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-api-info
+[2023-08-05 12:57:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pojw
+[2023-08-05 12:57:04] INFO root fetch - processPackages [plot2vid]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-05 12:57:04] WARNING root fetch - processPackages [pojw]: Skipping, unable to determine old version
+[2023-08-05 12:57:04] INFO root fetch - main [MainThread]: End processing [pojw] error
+[2023-08-05 12:57:04] INFO root fetch - processPackages [plot2vid]: Downloading https://files.pythonhosted.org/packages/46/0f/6aa1dc7b3ae77ef5e80abf05738256e859f4d2115297a736b66bd27755fb/plot2vid-1.0.1.tar.gz
+[2023-08-05 12:57:04] INFO root fetch - processPackages [hezar]: New version: [0.20.1] Old Version: [0.20.0]
+[2023-08-05 12:57:04] INFO root fetch - processPackages [discord-api-info]: New version: [1.7] Old Version: [1.6]
+[2023-08-05 12:57:04] INFO root fetch - processPackages [discord-api-info]: Downloading https://files.pythonhosted.org/packages/4b/8b/c399d6b9277b1959740383ba6a034102e1e2794c94fff77e1ae7442a7554/discord_api_info-1.6.tar.gz
+[2023-08-05 12:57:05] INFO root fetch - processPackages [plot2vid]: Downloading https://files.pythonhosted.org/packages/06/bb/bbdb96aa9e7e5898a6f42535f345cf8909768f26a9ada763efce64b745eb/plot2vid-1.0.2.tar.gz
+[2023-08-05 12:57:05] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/a0/1a/a2349d693aa62c2c8a5684de32f0ad57c8d789009ebb248d5220b7f13820/hezar-0.20.0.tar.gz
+[2023-08-05 12:57:05] INFO root fetch - processPackages [plot2vid]: executing diffoscope
+[2023-08-05 12:57:05] INFO root fetch - processPackages [plot2vid]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plot2vid-1.0.1.tar.gz tmp/plot2vid-1.0.2.tar.gz --markdown 20230805/p/plot2vid/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 12:57:05] INFO root fetch - processPackages [discord-api-info]: Downloading https://files.pythonhosted.org/packages/21/5a/46961512c8c243e53863efff68ecb23905f8cf925e0301e9ed744146bc45/discord_api_info-1.7.tar.gz
+[2023-08-05 12:57:05] INFO root fetch - processPackages [hezar]: Downloading https://files.pythonhosted.org/packages/d2/17/6dd321aa26c7d4f8696464199f28ade175d25da4fac152e1031400620101/hezar-0.20.1.tar.gz
+[2023-08-05 12:57:05] INFO root fetch - processPackages [discord-api-info]: executing diffoscope
+[2023-08-05 12:57:05] INFO root fetch - processPackages [discord-api-info]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_api_info-1.6.tar.gz tmp/discord_api_info-1.7.tar.gz --markdown 20230805/d/discord-api-info/1.6-1.7/diff.md --exclude *.pyd
+[2023-08-05 12:57:05] INFO root fetch - processPackages [hezar]: executing diffoscope
+[2023-08-05 12:57:05] INFO root fetch - processPackages [hezar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hezar-0.20.0.tar.gz tmp/hezar-0.20.1.tar.gz --markdown 20230805/h/hezar/0.20.0-0.20.1/diff.md --exclude *.pyd
+[2023-08-05 12:57:05] INFO root fetch - processPackages [plot2vid]: Remove: archive file [/home/abi/fetcher/tmp/plot2vid-1.0.1.tar.gz]
+[2023-08-05 12:57:05] INFO root fetch - processPackages [plot2vid]: Remove: archive file [/home/abi/fetcher/tmp/plot2vid-1.0.2.tar.gz]
+[2023-08-05 12:57:05] INFO root fetch - main [MainThread]: End processing [plot2vid]: success
+[2023-08-05 12:57:06] INFO root fetch - processPackages [discord-api-info]: Remove: archive file [/home/abi/fetcher/tmp/discord_api_info-1.6.tar.gz]
+[2023-08-05 12:57:06] INFO root fetch - processPackages [discord-api-info]: Remove: archive file [/home/abi/fetcher/tmp/discord_api_info-1.7.tar.gz]
+[2023-08-05 12:57:06] INFO root fetch - main [MainThread]: End processing [discord-api-info]: success
+[2023-08-05 12:57:06] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.20.0.tar.gz]
+[2023-08-05 12:57:06] INFO root fetch - processPackages [hezar]: Remove: archive file [/home/abi/fetcher/tmp/hezar-0.20.1.tar.gz]
+[2023-08-05 12:57:06] INFO root fetch - main [MainThread]: End processing [hezar]: success
+[2023-08-05 12:57:06] INFO root fetch - main [MainThread]: Store serial: [19185870]
