@@ -13587,3 +13587,109 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:05:10] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
 [2023-08-05 16:05:10] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
 [2023-08-05 16:05:10] INFO root fetch - main [MainThread]: Store serial: [19186969]
+[2023-08-05 16:10:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186969]
+[2023-08-05 16:10:18] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refineryframe
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-tech-docs-template
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: remote-log
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mojo-interop
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: postfix-mta-sts-resolver
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fpcmci
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: remote-log
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ros2bridge
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rdpy3
+[2023-08-05 16:10:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Nutter-Tools
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [rdpy3]: New version: [1.3.5] Old Version: [1.3.4]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [fpcmci]: New version: [4.3.2] Old Version: [4.3.1]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [ros2bridge]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-05 16:10:19] WARNING root fetch - processPackages [Nutter-Tools]: Skipping, unable to determine old version
+[2023-08-05 16:10:19] INFO root fetch - processPackages [Nutter-Tools]: Start processing: quiele
+[2023-08-05 16:10:19] INFO root fetch - main [MainThread]: End processing [Nutter-Tools] error
+[2023-08-05 16:10:19] INFO root fetch - processPackages [mkdocs-tech-docs-template]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [mojo-interop]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/f1/16/81a5471bad251f0e9f7f1322c737d2e208a369cfd01e12e386317bdaae9c/remote-log-1.0.1.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [refineryframe]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [postfix-mta-sts-resolver]: New version: [1.4.0] Old Version: [1.3.0]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/f1/16/81a5471bad251f0e9f7f1322c737d2e208a369cfd01e12e386317bdaae9c/remote-log-1.0.1.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/2c/af/d455a70932fa45e70f6eb0f22bb7e54b4ab636cc84759cca6eb1c633d9a5/rdpy3-1.3.4.tar.gz
+[2023-08-05 16:10:19] WARNING root fetch - processPackages [quiele]: Skipping, unable to determine old version
+[2023-08-05 16:10:19] INFO root fetch - processPackages [quiele]: Start processing: remote-log
+[2023-08-05 16:10:19] INFO root fetch - main [MainThread]: End processing [quiele] error
+[2023-08-05 16:10:19] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/d3/73/639e288c8da114fe2ebeebe9fe7546ba5744794e732f44d584b46897b226/fpcmci-4.3.1.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-05 16:10:19] INFO root fetch - processPackages [ros2bridge]: Downloading https://files.pythonhosted.org/packages/0d/1f/691e0ffbf00f53519e4923b5353953c92ccc9be6765fd162fbffc7b7fcab/ros2bridge-0.2.5.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/d1/1e/b43f44a9f6143c60cb9b5b148a6023b3322306ab07afb5ff6c1727944fec/refineryframe-0.1.7.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [postfix-mta-sts-resolver]: Downloading https://files.pythonhosted.org/packages/41/65/3699a8cd634e95660814e6f86f6c551d5f321a096e81b425e11d6b6da069/postfix_mta_sts_resolver-1.3.0.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Downloading https://files.pythonhosted.org/packages/d9/53/0a7d1282a0913582cffe08984b29d2c3270515297e2ee639ae6b107230a8/mkdocs-tech-docs-template-0.1.1.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/55/36/9f539ca328591858e08e09e01710b5923e4b5fe2e60213684f9eb88bbee1/mojo_interop-0.0.8.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/7f/c8/138a005b6a9b1fb541325e02b838a66d401a78c4109f5d8d46e984d1f9fe/remote-log-1.0.4.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/ed/b6/96401dfa2b992a7de968c10cb773427ddc644ec34fbf078c248b8640bb25/remote-log-1.0.2.tar.gz
+[2023-08-05 16:10:19] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/ed/b6/96401dfa2b992a7de968c10cb773427ddc644ec34fbf078c248b8640bb25/remote-log-1.0.2.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/99/49/45e3667c9d95581c9a90a11da2b77132298a905536cfa9e34a10ad8072fa/rdpy3-1.3.5.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/08/f6/43025d59993e618954265387cb91b4d1523769d46a1d18dafc865ab191e4/fpcmci-4.3.2.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-log-1.0.1.tar.gz tmp/remote-log-1.0.2.tar.gz --markdown 20230805/r/remote-log/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-log-1.0.1.tar.gz tmp/remote-log-1.0.2.tar.gz --markdown 20230805/r/remote-log/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.4.tar.gz tmp/rdpy3-1.3.5.tar.gz --markdown 20230805/r/rdpy3/1.3.4-1.3.5/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Downloading https://files.pythonhosted.org/packages/80/19/f896faff99d6fde251f5806880ca28239aa7a7356b29b0cb10133eb99f61/mkdocs-tech-docs-template-0.1.2.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [postfix-mta-sts-resolver]: Downloading https://files.pythonhosted.org/packages/62/1c/5a6ac7fbbdc200f64e68867d07725ce1e93bb8adf69b6467df1e8b75e85f/postfix_mta_sts_resolver-1.4.0.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/2e/dd/10ed1c1f11bfa8ab104700b2a5d020c536a28c23c9e5e796f231fe36a0a8/refineryframe-0.1.8.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [ros2bridge]: Downloading https://files.pythonhosted.org/packages/be/e1/dc87435a5d3f0842d12d820692ef142c20f72290e8fb69a8557bbce28df0/ros2bridge-0.2.6.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [mojo-interop]: Downloading https://files.pythonhosted.org/packages/ea/70/9e09838bffe5311c4accab6c3c9f2293ee5a591bd45e9bf64ebb9a01b20d/mojo_interop-0.0.9.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [fpcmci]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [fpcmci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpcmci-4.3.1.tar.gz tmp/fpcmci-4.3.2.tar.gz --markdown 20230805/f/fpcmci/4.3.1-4.3.2/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [ros2bridge]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [ros2bridge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ros2bridge-0.2.5.tar.gz tmp/ros2bridge-0.2.6.tar.gz --markdown 20230805/r/ros2bridge/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.7.tar.gz tmp/refineryframe-0.1.8.tar.gz --markdown 20230805/r/refineryframe/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [mkdocs-tech-docs-template]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [mkdocs-tech-docs-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-tech-docs-template-0.1.1.tar.gz tmp/mkdocs-tech-docs-template-0.1.2.tar.gz --markdown 20230805/m/mkdocs-tech-docs-template/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [postfix-mta-sts-resolver]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [postfix-mta-sts-resolver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/postfix_mta_sts_resolver-1.3.0.tar.gz tmp/postfix_mta_sts_resolver-1.4.0.tar.gz --markdown 20230805/p/postfix-mta-sts-resolver/1.3.0-1.4.0/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [mojo-interop]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [mojo-interop]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_interop-0.0.8.tar.gz tmp/mojo_interop-0.0.9.tar.gz --markdown 20230805/m/mojo-interop/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/1a/07/878cc3f71094fbefd92c24b9c53623fe05b75d59225b642aa6aca6d9f3f4/remote-log-1.0.5.tar.gz
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: executing diffoscope
+[2023-08-05 16:10:20] INFO root fetch - processPackages [remote-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-log-1.0.4.tar.gz tmp/remote-log-1.0.5.tar.gz --markdown 20230805/r/remote-log/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-05 16:10:21] INFO root fetch - processPackages [remote-log]: Remove: archive file [/home/abi/fetcher/tmp/remote-log-1.0.1.tar.gz]
+[2023-08-05 16:10:21] INFO root fetch - processPackages [remote-log]: Remove: archive file [/home/abi/fetcher/tmp/remote-log-1.0.2.tar.gz]
+[2023-08-05 16:10:21] INFO root fetch - processPackages [remote-log]: Start processing: simple-websocket-server
+[2023-08-05 16:10:21] INFO root fetch - main [MainThread]: End processing [remote-log]: success
+[2023-08-05 16:10:21] INFO root fetch - main [MainThread]: End processing [remote-log]: success
+[2023-08-05 16:10:21] INFO root fetch - processPackages [simple-websocket-server]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-05 16:10:21] INFO root fetch - processPackages [simple-websocket-server]: Downloading https://files.pythonhosted.org/packages/53/e0/2efb92d392e47da31faf26e43f8a5fd2d5130308e4fd8e17d0d92dd05634/simple-websocket-server-0.4.1.tar.gz
+[2023-08-05 16:10:22] INFO root fetch - processPackages [simple-websocket-server]: Downloading https://files.pythonhosted.org/packages/ad/31/1acb094a1c161457ce68249741d1f4036998d070e346b6e220bc468edbec/simple-websocket-server-0.4.2.tar.gz
+[2023-08-05 16:10:22] INFO root fetch - processPackages [fpcmci]: Remove: archive file [/home/abi/fetcher/tmp/fpcmci-4.3.1.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [fpcmci]: Remove: archive file [/home/abi/fetcher/tmp/fpcmci-4.3.2.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [fpcmci]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.4.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.5.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.7.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.8.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [simple-websocket-server]: executing diffoscope
+[2023-08-05 16:10:22] INFO root fetch - processPackages [simple-websocket-server]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/simple-websocket-server-0.4.1.tar.gz tmp/simple-websocket-server-0.4.2.tar.gz --markdown 20230805/s/simple-websocket-server/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-05 16:10:22] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-tech-docs-template-0.1.1.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [mkdocs-tech-docs-template]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-tech-docs-template-0.1.2.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [mkdocs-tech-docs-template]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [postfix-mta-sts-resolver]: Remove: archive file [/home/abi/fetcher/tmp/postfix_mta_sts_resolver-1.3.0.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [postfix-mta-sts-resolver]: Remove: archive file [/home/abi/fetcher/tmp/postfix_mta_sts_resolver-1.4.0.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [postfix-mta-sts-resolver]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [ros2bridge]: Remove: archive file [/home/abi/fetcher/tmp/ros2bridge-0.2.5.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [ros2bridge]: Remove: archive file [/home/abi/fetcher/tmp/ros2bridge-0.2.6.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [ros2bridge]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [remote-log]: Remove: archive file [/home/abi/fetcher/tmp/remote-log-1.0.4.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [remote-log]: Remove: archive file [/home/abi/fetcher/tmp/remote-log-1.0.5.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [remote-log]: success
+[2023-08-05 16:10:22] INFO root fetch - processPackages [simple-websocket-server]: Remove: archive file [/home/abi/fetcher/tmp/simple-websocket-server-0.4.1.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - processPackages [simple-websocket-server]: Remove: archive file [/home/abi/fetcher/tmp/simple-websocket-server-0.4.2.tar.gz]
+[2023-08-05 16:10:22] INFO root fetch - main [MainThread]: End processing [simple-websocket-server]: success
+[2023-08-05 16:10:23] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.8.tar.gz]
+[2023-08-05 16:10:23] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
+[2023-08-05 16:10:23] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
+[2023-08-05 16:10:23] INFO root fetch - main [MainThread]: Store serial: [19187008]
