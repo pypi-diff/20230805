@@ -8158,3 +8158,9 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:43:27] INFO root fetch - processPackages [InvokeAI]: Remove: archive file [/home/abi/fetcher/tmp/InvokeAI-3.0.2a1.tar.gz]
 [2023-08-05 06:43:27] INFO root fetch - main [MainThread]: End processing [InvokeAI]: success
 [2023-08-05 06:43:27] INFO root fetch - main [MainThread]: Store serial: [19184323]
+[2023-08-05 06:48:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184323]
+[2023-08-05 06:48:36] INFO root fetch - main [MainThread]: Found 1 changed packages
+[2023-08-05 06:48:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quickMTF
+[2023-08-05 06:48:36] WARNING root fetch - processPackages [quickMTF]: Skipping, unable to determine old version
+[2023-08-05 06:48:36] INFO root fetch - main [MainThread]: End processing [quickMTF] error
+[2023-08-05 06:48:36] INFO root fetch - main [MainThread]: Store serial: [19184326]
