@@ -8697,3 +8697,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:41:27] INFO root fetch - processPackages [odoo12-addon-website-cookie-notice]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_cookie_notice-12.0.1.0.0.99.dev9-py3-none-any.whl.zip]
 [2023-08-05 07:41:27] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-cookie-notice]: success
 [2023-08-05 07:41:27] INFO root fetch - main [MainThread]: Store serial: [19184516]
+[2023-08-05 07:46:31] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184516]
+[2023-08-05 07:46:36] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 07:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo11-addon-website-legal-page
+[2023-08-05 07:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo12-addon-website-legal-page
+[2023-08-05 07:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: first-zawakin-package
+[2023-08-05 07:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: first-zawakin-package
+[2023-08-05 07:46:36] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniagent
+[2023-08-05 07:46:36] WARNING root fetch - processPackages [first-zawakin-package]: Skipping, unable to determine old version
+[2023-08-05 07:46:36] INFO root fetch - main [MainThread]: End processing [first-zawakin-package] error
+[2023-08-05 07:46:36] WARNING root fetch - processPackages [first-zawakin-package]: Skipping, unable to determine old version
+[2023-08-05 07:46:36] INFO root fetch - main [MainThread]: End processing [first-zawakin-package] error
+[2023-08-05 07:46:36] INFO root fetch - processPackages [miniagent]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 07:46:36] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: New version: [11.0.1.2.0.99.dev9] Old Version: [11.0.1.2.0.99.dev8]
+[2023-08-05 07:46:36] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: New version: [12.0.1.1.0.99.dev9] Old Version: [12.0.1.1.0.99.dev8]
+[2023-08-05 07:46:36] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: Downloading https://files.pythonhosted.org/packages/54/5f/166b374dd97097a4b91a8a117909c00a44052622f1f49134256a58164330/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev8-py3-none-any.whl
+[2023-08-05 07:46:36] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: Downloading https://files.pythonhosted.org/packages/7e/e3/a0bdae2fb20d07988c31e16695f65f409408c502518dae8ca91bb570f517/odoo11_addon_website_legal_page-11.0.1.2.0.99.dev8-py2.py3-none-any.whl
+[2023-08-05 07:46:36] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/61/fe/ddee9f7a8915f85ae86d21e121b9930e76846662b7905185edc01f253eaa/miniagent-0.0.8-py3-none-any.whl
+[2023-08-05 07:46:37] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: Downloading https://files.pythonhosted.org/packages/fa/68/c00415dea3b2e5f82116714501c5647b3c4577f58124149d42c81bf87911/odoo11_addon_website_legal_page-11.0.1.2.0.99.dev9-py2.py3-none-any.whl
+[2023-08-05 07:46:37] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: Downloading https://files.pythonhosted.org/packages/6d/36/01e431e44951f84f98092b6012bcfdb75d113cc21248219eb552c6f69e3d/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev9-py3-none-any.whl
+[2023-08-05 07:46:37] INFO root fetch - processPackages [miniagent]: Downloading https://files.pythonhosted.org/packages/92/e5/684583b07fce6c155c48f3ef92f5aade89cf5a39088f833b45de3c073fdf/miniagent-0.0.9-py3-none-any.whl
+[2023-08-05 07:46:37] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: executing diffoscope
+[2023-08-05 07:46:37] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo11_addon_website_legal_page-11.0.1.2.0.99.dev8-py2.py3-none-any.whl.zip tmp/odoo11_addon_website_legal_page-11.0.1.2.0.99.dev9-py2.py3-none-any.whl.zip --markdown 20230805/o/odoo11-addon-website-legal-page/11.0.1.2.0.99.dev8-11.0.1.2.0.99.dev9/diff.md --exclude *.pyd
+[2023-08-05 07:46:37] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: executing diffoscope
+[2023-08-05 07:46:37] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev8-py3-none-any.whl.zip tmp/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev9-py3-none-any.whl.zip --markdown 20230805/o/odoo12-addon-website-legal-page/12.0.1.1.0.99.dev8-12.0.1.1.0.99.dev9/diff.md --exclude *.pyd
+[2023-08-05 07:46:37] INFO root fetch - processPackages [miniagent]: executing diffoscope
+[2023-08-05 07:46:37] INFO root fetch - processPackages [miniagent]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniagent-0.0.8-py3-none-any.whl.zip tmp/miniagent-0.0.9-py3-none-any.whl.zip --markdown 20230805/m/miniagent/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 07:46:38] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.8-py3-none-any.whl.zip]
+[2023-08-05 07:46:38] INFO root fetch - processPackages [miniagent]: Remove: archive file [/home/abi/fetcher/tmp/miniagent-0.0.9-py3-none-any.whl.zip]
+[2023-08-05 07:46:38] INFO root fetch - main [MainThread]: End processing [miniagent]: success
+[2023-08-05 07:46:38] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_website_legal_page-11.0.1.2.0.99.dev8-py2.py3-none-any.whl.zip]
+[2023-08-05 07:46:38] INFO root fetch - processPackages [odoo11-addon-website-legal-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo11_addon_website_legal_page-11.0.1.2.0.99.dev9-py2.py3-none-any.whl.zip]
+[2023-08-05 07:46:38] INFO root fetch - main [MainThread]: End processing [odoo11-addon-website-legal-page]: success
+[2023-08-05 07:46:38] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev8-py3-none-any.whl.zip]
+[2023-08-05 07:46:38] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev9-py3-none-any.whl.zip]
+[2023-08-05 07:46:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-legal-page]: success
+[2023-08-05 07:46:38] INFO root fetch - main [MainThread]: Store serial: [19184529]
