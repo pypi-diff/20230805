@@ -18834,3 +18834,68 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 23:37:21] INFO root fetch - processPackages [vp4jl]: Remove: archive file [/home/abi/fetcher/tmp/vp4jl-0.1.3.tar.gz]
 [2023-08-05 23:37:21] INFO root fetch - main [MainThread]: End processing [vp4jl]: success
 [2023-08-05 23:37:21] INFO root fetch - main [MainThread]: Store serial: [19189480]
+[2023-08-05 23:42:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189480]
+[2023-08-05 23:42:30] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: geomancy
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyraws
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cmnemoi-learn
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: dissect.target
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: numba-integrators
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tm-remote-build
+[2023-08-05 23:42:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hyko-sdk
+[2023-08-05 23:42:30] INFO root fetch - processPackages [pyraws]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [hyko-sdk]: New version: [0.3.0b9] Old Version: [0.3.0b8]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [numba-integrators]: New version: [0.1.1] Old Version: [0.0.3]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [tm-remote-build]: New version: [2.0.0.dev2] Old Version: [2.0.0.dev1]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [geomancy]: New version: [1.1.2] Old Version: [1.1.1]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [numba-integrators]: Downloading https://files.pythonhosted.org/packages/ea/a6/bbb5be9957864c1f1b94e25e4f1be683b29e189950fae867f0b1f58c20b2/numba-integrators-0.0.3.tar.gz
+[2023-08-05 23:42:30] WARNING root fetch - processPackages [cmnemoi-learn]: Skipping, unable to determine old version
+[2023-08-05 23:42:30] INFO root fetch - main [MainThread]: End processing [cmnemoi-learn] error
+[2023-08-05 23:42:30] INFO root fetch - processPackages [dissect.target]: New version: [3.9.dev9] Old Version: [3.9.dev8]
+[2023-08-05 23:42:30] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/29/16/e1183e5d33d35fab53f4cbd6ab161f3e781abdc1ccec78b5a2ad8f8811dc/hyko_sdk-0.3.0b8.tar.gz
+[2023-08-05 23:42:30] INFO root fetch - processPackages [tm-remote-build]: Downloading https://files.pythonhosted.org/packages/93/62/41bf27d4c1d14aaeca13361641c6ffa5461977fd54ee6d1b3c8d33c920c9/tm_remote_build-2.0.0.dev1.tar.gz
+[2023-08-05 23:42:30] INFO root fetch - processPackages [pyraws]: Downloading https://files.pythonhosted.org/packages/93/02/fb41c38dfaee7aade68b10472473a5acfe2982d7c0d3cc550807a74d67cf/pyraws-0.0.1-py3-none-any.whl
+[2023-08-05 23:42:30] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/0d/d8/af9e654e34735a37cb349f405db5ea2f210122e650a51933aef986555f11/mkdocs-git-revision-date-plugin-blame-0.1.5.tar.gz
+[2023-08-05 23:42:30] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/91/99/85349df66277c46306b9574e64fa9652adef29f67c662c260931607493c9/geomancy-1.1.1.tar.gz
+[2023-08-05 23:42:30] INFO root fetch - processPackages [dissect.target]: Downloading https://files.pythonhosted.org/packages/b1/a4/24f9ce2eb6a1913b82598a01b68b634c9fe5535a9484bff3d7d56a0ae929/dissect.target-3.9.dev8.tar.gz
+[2023-08-05 23:42:30] INFO root fetch - processPackages [numba-integrators]: Downloading https://files.pythonhosted.org/packages/03/f7/15aab60ced17d31fb67347843dfd0c004f05f56ab3e789ec6fb9102816da/numba-integrators-0.1.1.tar.gz
+[2023-08-05 23:42:30] WARNING root fetch - processPackages [dissect.target]: Skipping package: exceeds size limit 63555307>=10485760
+[2023-08-05 23:42:30] INFO root fetch - main [MainThread]: End processing [dissect.target] error
+[2023-08-05 23:42:30] INFO root fetch - processPackages [hyko-sdk]: Downloading https://files.pythonhosted.org/packages/06/8d/cbdf9b2fdeff0e52c6c72f3e3a10681b50dc9789d68e50ae7334d77318db/hyko_sdk-0.3.0b9.tar.gz
+[2023-08-05 23:42:30] INFO root fetch - processPackages [tm-remote-build]: Downloading https://files.pythonhosted.org/packages/01/1f/fb6c3892439c6321bec3f38f651e14f18c5d1834ce01b26458b6a1ee76e4/tm_remote_build-2.0.0.dev2.tar.gz
+[2023-08-05 23:42:31] INFO root fetch - processPackages [numba-integrators]: executing diffoscope
+[2023-08-05 23:42:31] INFO root fetch - processPackages [numba-integrators]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numba-integrators-0.0.3.tar.gz tmp/numba-integrators-0.1.1.tar.gz --markdown 20230805/n/numba-integrators/0.0.3-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 23:42:31] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/fd/fe/7029b4664b81e649ed96ba058f8f9ef9644cd7938de46da53482ec69e4dd/mkdocs-git-revision-date-plugin-blame-0.1.6.tar.gz
+[2023-08-05 23:42:31] INFO root fetch - processPackages [hyko-sdk]: executing diffoscope
+[2023-08-05 23:42:31] INFO root fetch - processPackages [hyko-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hyko_sdk-0.3.0b8.tar.gz tmp/hyko_sdk-0.3.0b9.tar.gz --markdown 20230805/h/hyko-sdk/0.3.0b8-0.3.0b9/diff.md --exclude *.pyd
+[2023-08-05 23:42:31] INFO root fetch - processPackages [pyraws]: Downloading https://files.pythonhosted.org/packages/81/46/1e2b9e7d1d349d001456e48746fe8845a54571da331f26ddfa6acfa6f845/pyraws-0.0.2-py3-none-any.whl
+[2023-08-05 23:42:31] INFO root fetch - processPackages [tm-remote-build]: executing diffoscope
+[2023-08-05 23:42:31] INFO root fetch - processPackages [tm-remote-build]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tm_remote_build-2.0.0.dev1.tar.gz tmp/tm_remote_build-2.0.0.dev2.tar.gz --markdown 20230805/t/tm-remote-build/2.0.0.dev1-2.0.0.dev2/diff.md --exclude *.pyd
+[2023-08-05 23:42:31] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/01/2c/a27d14d482f4fd371e5dacd88f8d6fb7f34e8bb1b6d56d116e916373f00e/geomancy-1.1.2.tar.gz
+[2023-08-05 23:42:31] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: executing diffoscope
+[2023-08-05 23:42:31] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-revision-date-plugin-blame-0.1.5.tar.gz tmp/mkdocs-git-revision-date-plugin-blame-0.1.6.tar.gz --markdown 20230805/m/mkdocs-git-revision-date-plugin-blame/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-05 23:42:31] INFO root fetch - processPackages [pyraws]: executing diffoscope
+[2023-08-05 23:42:31] INFO root fetch - processPackages [pyraws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyraws-0.0.1-py3-none-any.whl.zip tmp/pyraws-0.0.2-py3-none-any.whl.zip --markdown 20230805/p/pyraws/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 23:42:31] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-08-05 23:42:31] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-1.1.1.tar.gz tmp/geomancy-1.1.2.tar.gz --markdown 20230805/g/geomancy/1.1.1-1.1.2/diff.md --exclude *.pyd
+[2023-08-05 23:42:32] INFO root fetch - processPackages [numba-integrators]: Remove: archive file [/home/abi/fetcher/tmp/numba-integrators-0.0.3.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - processPackages [numba-integrators]: Remove: archive file [/home/abi/fetcher/tmp/numba-integrators-0.1.1.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [numba-integrators]: success
+[2023-08-05 23:42:32] INFO root fetch - processPackages [pyraws]: Remove: archive file [/home/abi/fetcher/tmp/pyraws-0.0.1-py3-none-any.whl.zip]
+[2023-08-05 23:42:32] INFO root fetch - processPackages [pyraws]: Remove: archive file [/home/abi/fetcher/tmp/pyraws-0.0.2-py3-none-any.whl.zip]
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [pyraws]: success
+[2023-08-05 23:42:32] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.5.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.6.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
+[2023-08-05 23:42:32] INFO root fetch - processPackages [tm-remote-build]: Remove: archive file [/home/abi/fetcher/tmp/tm_remote_build-2.0.0.dev1.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - processPackages [tm-remote-build]: Remove: archive file [/home/abi/fetcher/tmp/tm_remote_build-2.0.0.dev2.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [tm-remote-build]: success
+[2023-08-05 23:42:32] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b8.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - processPackages [hyko-sdk]: Remove: archive file [/home/abi/fetcher/tmp/hyko_sdk-0.3.0b9.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [hyko-sdk]: success
+[2023-08-05 23:42:32] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-1.1.1.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-1.1.2.tar.gz]
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-08-05 23:42:32] INFO root fetch - main [MainThread]: Store serial: [19189505]
