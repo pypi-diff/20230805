@@ -6719,3 +6719,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 04:38:33] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.5.230805.1023308.tar.gz]
 [2023-08-05 04:38:33] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
 [2023-08-05 04:38:33] INFO root fetch - main [MainThread]: Store serial: [19183787]
+[2023-08-05 04:43:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183787]
+[2023-08-05 04:43:41] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 04:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: odoo-addons-oca-account-fiscal-rule
+[2023-08-05 04:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gmpg
+[2023-08-05 04:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmetric
+[2023-08-05 04:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: score-regression
+[2023-08-05 04:43:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lycoris-lora
+[2023-08-05 04:43:41] WARNING root fetch - processPackages [lmetric]: Skipping, unable to determine old version
+[2023-08-05 04:43:41] INFO root fetch - main [MainThread]: End processing [lmetric] error
+[2023-08-05 04:43:41] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: New version: [16.0.20230803.1] Old Version: [16.0.20230522.0]
+[2023-08-05 04:43:41] WARNING root fetch - processPackages [score-regression]: Skipping, unable to determine old version
+[2023-08-05 04:43:41] INFO root fetch - main [MainThread]: End processing [score-regression] error
+[2023-08-05 04:43:41] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: Downloading https://files.pythonhosted.org/packages/d7/21/a9315b1e822211fe464076517331191ac68fd53940d2ce37b4c10b190317/odoo_addons_oca_account_fiscal_rule-16.0.20230522.0-py3-none-any.whl
+[2023-08-05 04:43:41] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 04:43:41] INFO root fetch - processPackages [lycoris-lora]: New version: [1.9.0.dev2] Old Version: [1.8.3]
+[2023-08-05 04:43:42] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-08-05 04:43:42] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/1a/ee/5bbb454b107bb6e47107edab90a4fcc13e9fe94c88c075647de642590461/lycoris_lora-1.8.3.tar.gz
+[2023-08-05 04:43:42] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: Downloading https://files.pythonhosted.org/packages/2f/a8/d43828bb8fda71a011f6dbb0697996fecc01f61539f635dda8ea27e65211/odoo_addons_oca_account_fiscal_rule-16.0.20230803.1-py3-none-any.whl
+[2023-08-05 04:43:42] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: executing diffoscope
+[2023-08-05 04:43:42] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_account_fiscal_rule-16.0.20230522.0-py3-none-any.whl.zip tmp/odoo_addons_oca_account_fiscal_rule-16.0.20230803.1-py3-none-any.whl.zip --markdown 20230805/o/odoo-addons-oca-account-fiscal-rule/16.0.20230522.0-16.0.20230803.1/diff.md --exclude *.pyd
+[2023-08-05 04:43:42] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-05 04:43:42] INFO root fetch - processPackages [lycoris-lora]: Downloading https://files.pythonhosted.org/packages/c1/d8/9a9af71f90cb6be26bbd2c7e4e221f51940ca3f3e4e19cd63e4ac592db67/lycoris_lora-1.9.0.dev2.tar.gz
+[2023-08-05 04:43:42] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-05 04:43:42] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230805/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 04:43:42] INFO root fetch - processPackages [lycoris-lora]: executing diffoscope
+[2023-08-05 04:43:42] INFO root fetch - processPackages [lycoris-lora]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lycoris_lora-1.8.3.tar.gz tmp/lycoris_lora-1.9.0.dev2.tar.gz --markdown 20230805/l/lycoris-lora/1.8.3-1.9.0.dev2/diff.md --exclude *.pyd
+[2023-08-05 04:43:43] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_fiscal_rule-16.0.20230522.0-py3-none-any.whl.zip]
+[2023-08-05 04:43:43] INFO root fetch - processPackages [odoo-addons-oca-account-fiscal-rule]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_account_fiscal_rule-16.0.20230803.1-py3-none-any.whl.zip]
+[2023-08-05 04:43:43] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-account-fiscal-rule]: success
+[2023-08-05 04:43:43] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-08-05 04:43:43] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-08-05 04:43:43] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-05 04:43:43] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.8.3.tar.gz]
+[2023-08-05 04:43:43] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.9.0.dev2.tar.gz]
+[2023-08-05 04:43:43] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
+[2023-08-05 04:43:43] INFO root fetch - main [MainThread]: Store serial: [19183802]
