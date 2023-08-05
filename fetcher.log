@@ -17783,3 +17783,99 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 22:02:51] INFO root fetch - processPackages [DragonPyEmulator]: Remove: archive file [/home/abi/fetcher/tmp/DragonPyEmulator-0.9.0.tar.gz]
 [2023-08-05 22:02:51] INFO root fetch - main [MainThread]: End processing [DragonPyEmulator]: success
 [2023-08-05 22:02:51] INFO root fetch - main [MainThread]: Store serial: [19188851]
+[2023-08-05 22:07:55] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188851]
+[2023-08-05 22:07:59] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kolibri-ml
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: audio-separator
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: aby
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: seleniumbase
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: scrunch
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ladderbot
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mkdocs-git-revision-date-plugin-blame
+[2023-08-05 22:07:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: wscribe
+[2023-08-05 22:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: selenium-base
+[2023-08-05 22:08:00] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xmlable
+[2023-08-05 22:08:00] INFO root fetch - processPackages [audio-separator]: New version: [0.6.1] Old Version: [0.5.1]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [wscribe]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [ladderbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [scrunch]: New version: [6.5.2038.post1691195849] Old Version: [6.5.2037.post1691184100]
+[2023-08-05 22:08:00] WARNING root fetch - processPackages [aby]: Skipping, unable to determine old version
+[2023-08-05 22:08:00] INFO root fetch - processPackages [aby]: Start processing: pytest-sbase
+[2023-08-05 22:08:00] INFO root fetch - main [MainThread]: End processing [aby] error
+[2023-08-05 22:08:00] INFO root fetch - processPackages [xmlable]: New version: [1.2.0] Old Version: [1.1.0]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.82] Old Version: [1.1.81]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/ca/61/9e4c760b07afc2d6aebca990dd38c89cbf3a553dadbdcb1c9ac824ee950b/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/9b/5b/7d5773343043c5f181d0fb37a5a8f8984dcdcb8d1970128eb2b85ebb2c83/wscribe-0.1.1.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [selenium-base]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/e5/e1/cc5f3a847cf2d38e7aaf9e6801e57ff12e3f3cc59754fb9b36a461f387e7/ladderbot-0.0.8.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [seleniumbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/a5/e0/fc2ef8345b16eada08e58b9af2a9a042d7280ce989e1eedee2877a6d4d5d/audio_separator-0.5.1.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/01/85/32e2065cf451bd33e1082bf848d09a83514ca723eaf120018b137b55d354/scrunch-6.5.2037.post1691184100.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/fe/5b/f6503b736a13d7f5c089f71ef33bfe43329a9b8a05bc855a94832d36130f/kolibri_ml-1.1.81-py3-none-any.whl
+[2023-08-05 22:08:00] INFO root fetch - processPackages [pytest-sbase]: New version: [4.9.9] Old Version: [4.9.8]
+[2023-08-05 22:08:00] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Downloading https://files.pythonhosted.org/packages/5e/70/85c765d1c6558e5a8b65e2333fcc088597ebc1f9517340e2968d4be03e15/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [xmlable]: Downloading https://files.pythonhosted.org/packages/69/79/2028fd0b814a97b9019909fecee475ab0658adee7d49fa593bec49dac21c/xmlable-1.1.0.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/0c/c5/4b0998b225dca01836de2d57f20acb6e0a80c8a8a65c1fd2dce8338316f4/scrunch-6.5.2038.post1691195849.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/49/eb/ad6c55d2af108681e38505aff036aef13544a2d1c09817221f499826a6f9/selenium-base-4.9.8.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/d5/06/b4c4aa69540cf3a9c497a53072da777eefd704403fc8f952a88c69208ad1/seleniumbase-4.9.8.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/69/27/e8f02b0d156d3bafa2ea1b34e9d5107a5482106411478528075cb9cd4eed/ladderbot-0.0.9.tar.gz
+[2023-08-05 22:08:00] INFO root fetch - processPackages [audio-separator]: Downloading https://files.pythonhosted.org/packages/77/74/b051540b4b37e5120b0cc2beb2e54e51e82204bdc6d64e94b73a8bc7b95c/audio_separator-0.6.1.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [wscribe]: Downloading https://files.pythonhosted.org/packages/00/cb/d9cf7402ee79326f37d973ac2b6769afd29b4008965b77d27b64b5827cb4/wscribe-0.1.2.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz --markdown 20230805/m/mkdocs-git-revision-date-plugin-blame/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/91/87/a1223948d4bac31ab82915c4e7a930c22af874859aa805d6c3abd6b5bb3e/pytest-sbase-4.9.8.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.8.tar.gz tmp/ladderbot-0.0.9.tar.gz --markdown 20230805/l/ladderbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2037.post1691184100.tar.gz tmp/scrunch-6.5.2038.post1691195849.tar.gz --markdown 20230805/s/scrunch/6.5.2037.post1691184100-6.5.2038.post1691195849/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [audio-separator]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [audio-separator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audio_separator-0.5.1.tar.gz tmp/audio_separator-0.6.1.tar.gz --markdown 20230805/a/audio-separator/0.5.1-0.6.1/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [wscribe]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [wscribe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wscribe-0.1.1.tar.gz tmp/wscribe-0.1.2.tar.gz --markdown 20230805/w/wscribe/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [xmlable]: Downloading https://files.pythonhosted.org/packages/3c/ca/4d4c7bce2c6ddccbc5e5a77b59fd1a1a980f9417996a90bb3666fe6fd3f5/xmlable-1.2.0.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [selenium-base]: Downloading https://files.pythonhosted.org/packages/0a/3b/8bdd54f85b1550af5050c8683212c3f88b854c0ef99e22fa6fe216094900/selenium-base-4.9.9.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [seleniumbase]: Downloading https://files.pythonhosted.org/packages/9d/0f/462449b9921267bb9f0f0db257c72435e50ec2fcd4219764bb131be70686/seleniumbase-4.9.9.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [xmlable]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [xmlable]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xmlable-1.1.0.tar.gz tmp/xmlable-1.2.0.tar.gz --markdown 20230805/x/xmlable/1.1.0-1.2.0/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/4c/1b/755aaf1c9b8a0ddf73fd7cff5977dd5309f60fb36fc5d6983bf4fee9d4f6/kolibri_ml-1.1.82-py3-none-any.whl
+[2023-08-05 22:08:01] INFO root fetch - processPackages [pytest-sbase]: Downloading https://files.pythonhosted.org/packages/ea/6c/61da56c0f8d30ee6ecfbf486bd770ce073eba9a09e63981ae35863a37cb0/pytest-sbase-4.9.9.tar.gz
+[2023-08-05 22:08:01] INFO root fetch - processPackages [selenium-base]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [selenium-base]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/selenium-base-4.9.8.tar.gz tmp/selenium-base-4.9.9.tar.gz --markdown 20230805/s/selenium-base/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [pytest-sbase]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [pytest-sbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-sbase-4.9.8.tar.gz tmp/pytest-sbase-4.9.9.tar.gz --markdown 20230805/p/pytest-sbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-05 22:08:01] INFO root fetch - processPackages [seleniumbase]: executing diffoscope
+[2023-08-05 22:08:01] INFO root fetch - processPackages [seleniumbase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seleniumbase-4.9.8.tar.gz tmp/seleniumbase-4.9.9.tar.gz --markdown 20230805/s/seleniumbase/4.9.8-4.9.9/diff.md --exclude *.pyd
+[2023-08-05 22:08:02] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.1.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - processPackages [mkdocs-git-revision-date-plugin-blame]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-git-revision-date-plugin-blame-0.1.2.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
+[2023-08-05 22:08:02] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-05 22:08:02] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.81-py3-none-any.whl.zip tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip --markdown 20230805/k/kolibri-ml/1.1.81-1.1.82/diff.md --exclude *.pyd
+[2023-08-05 22:08:02] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.5.1.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - processPackages [audio-separator]: Remove: archive file [/home/abi/fetcher/tmp/audio_separator-0.6.1.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
+[2023-08-05 22:08:02] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.1.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - processPackages [wscribe]: Remove: archive file [/home/abi/fetcher/tmp/wscribe-0.1.2.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - main [MainThread]: End processing [wscribe]: success
+[2023-08-05 22:08:02] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.8.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.9.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 22:08:02] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2037.post1691184100.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2038.post1691195849.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-05 22:08:02] INFO root fetch - processPackages [xmlable]: Remove: archive file [/home/abi/fetcher/tmp/xmlable-1.1.0.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - processPackages [xmlable]: Remove: archive file [/home/abi/fetcher/tmp/xmlable-1.2.0.tar.gz]
+[2023-08-05 22:08:02] INFO root fetch - main [MainThread]: End processing [xmlable]: success
+[2023-08-05 22:08:03] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.8.tar.gz]
+[2023-08-05 22:08:03] INFO root fetch - processPackages [selenium-base]: Remove: archive file [/home/abi/fetcher/tmp/selenium-base-4.9.9.tar.gz]
+[2023-08-05 22:08:03] INFO root fetch - main [MainThread]: End processing [selenium-base]: success
+[2023-08-05 22:08:03] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.8.tar.gz]
+[2023-08-05 22:08:03] INFO root fetch - processPackages [pytest-sbase]: Remove: archive file [/home/abi/fetcher/tmp/pytest-sbase-4.9.9.tar.gz]
+[2023-08-05 22:08:03] INFO root fetch - main [MainThread]: End processing [pytest-sbase]: success
+[2023-08-05 22:08:03] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.8.tar.gz]
+[2023-08-05 22:08:03] INFO root fetch - processPackages [seleniumbase]: Remove: archive file [/home/abi/fetcher/tmp/seleniumbase-4.9.9.tar.gz]
+[2023-08-05 22:08:03] INFO root fetch - main [MainThread]: End processing [seleniumbase]: success
+[2023-08-05 22:08:05] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.81-py3-none-any.whl.zip]
+[2023-08-05 22:08:05] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.82-py3-none-any.whl.zip]
+[2023-08-05 22:08:05] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-05 22:08:05] INFO root fetch - main [MainThread]: Store serial: [19188900]
