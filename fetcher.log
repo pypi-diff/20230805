@@ -1465,3 +1465,112 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 02:03:43] INFO root fetch - processPackages [mujoco-dev]: Remove: archive file [/home/abi/fetcher/tmp/mujoco_dev-2.3.8.dev553946457-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-05 02:03:43] INFO root fetch - main [MainThread]: End processing [mujoco-dev]: success
 [2023-08-05 02:03:43] INFO root fetch - main [MainThread]: Store serial: [19181790]
+[2023-08-05 02:08:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181790]
+[2023-08-05 02:08:55] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: wordcel
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mct-nightly
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dep-lerng
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-iubenda
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: jaxkern-nightly
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: jaxutils-nightly
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: dep-lerng
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ml-compiler-opt
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: torchlayers-nightly
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: anatools
+[2023-08-05 02:08:55] INFO root fetch - processPackages [jaxutils-nightly]: New version: [0.0.8.dev20230804] Old Version: [0.0.8.dev20230803]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [dep-lerng]: New version: [0.14] Old Version: [0.13]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [django-iubenda]: New version: [1.2.9] Old Version: [1.2.7]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [dep-lerng]: New version: [0.14] Old Version: [0.13]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ml-compiler-opt]: New version: [0.0.1.dev202308040007] Old Version: [0.0.1.dev202308030007]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [torchlayers-nightly]: New version: [1691107662] Old Version: [1691021244]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [jaxkern-nightly]: New version: [0.dev20221222] Old Version: [0.dev20221221]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [mct-nightly]: New version: [1.9.0.20230804.post414] Old Version: [1.9.0.20230803.post430]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [anatools]: New version: [3.3.1] Old Version: [3.3.0]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/da/de/7d31e9e873e1878321886d6ea6c43db05f3b1886a64ad048f5ba4fef8ff5/jaxutils-nightly-0.0.8.dev20230803.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [wordcel]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 02:08:55] INFO root fetch - processPackages [dep-lerng]: Downloading https://files.pythonhosted.org/packages/9a/3b/a141e399a859a467e3f6eaf4e4b2bc389c5751d38303771804b7a9546307/dep_lerng-0.13.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [django-iubenda]: Downloading https://files.pythonhosted.org/packages/19/32/ff8c0fd623678368775d0efd894ac132b74c4df7db0947bc17b2c4e87fc6/django-iubenda-1.2.7.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/86/dd/7e14f47fd072412b458c045dbd532c4871e494a31639184a48fb882f35b5/ml-compiler-opt-0.0.1.dev202308030007.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [dep-lerng]: Downloading https://files.pythonhosted.org/packages/9a/3b/a141e399a859a467e3f6eaf4e4b2bc389c5751d38303771804b7a9546307/dep_lerng-0.13.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/fd/dd/d9dff41a115bb56ef71f1d376f557748360929ae1aad47fb77b3788a472c/mct-nightly-1.9.0.20230803.post430.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/87/e0/584ab401dafa46448f1071c47e487d92b98c4e1ce4d0325ad68117cd5ee2/torchlayers-nightly-1691021244.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/76/55/ef13835e3e8e1570e91b3bc7235725e556f183e3222d5e7e66ac8de58ba0/jaxkern-nightly-0.dev20221221.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [anatools]: Downloading https://files.pythonhosted.org/packages/04/89/a1255f5fc196342d27233403cc79d058510b46af61e8804eb2d0d026ce93/anatools-3.3.0.tar.gz
+[2023-08-05 02:08:55] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/a9/10/8929d3ae9183abe01a4656fca207828dbed46658c127f8733f67dbda9e81/wordcel-0.0.4.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [jaxutils-nightly]: Downloading https://files.pythonhosted.org/packages/31/88/a454dd936e6b031b2fbc529f80408753601f2c847d449a020b69d256d712/jaxutils-nightly-0.0.8.dev20230804.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [jaxkern-nightly]: Downloading https://files.pythonhosted.org/packages/ea/b1/fbac44f07e48f8800aada2de8e9114775baf3f3d605ee80382db18a1c728/jaxkern-nightly-0.dev20221222.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [ml-compiler-opt]: Downloading https://files.pythonhosted.org/packages/ee/4f/ad7ce3dd4bcf62368e7c8fcea5c98a9a0a8cd4610f75614815fbe9036cf4/ml-compiler-opt-0.0.1.dev202308040007.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [dep-lerng]: Downloading https://files.pythonhosted.org/packages/93/d7/7ca105c1f9ee7158c3036b834a261ef80f4bd107c0c2224ed0d213d9f8a3/dep_lerng-0.14.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [dep-lerng]: Downloading https://files.pythonhosted.org/packages/93/d7/7ca105c1f9ee7158c3036b834a261ef80f4bd107c0c2224ed0d213d9f8a3/dep_lerng-0.14.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [django-iubenda]: Downloading https://files.pythonhosted.org/packages/ae/67/24be623feb13b9d1fce9edeeac803a8bfb5260151e539483b402632ae323/django-iubenda-1.2.9.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [jaxkern-nightly]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [jaxkern-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxkern-nightly-0.dev20221221.tar.gz tmp/jaxkern-nightly-0.dev20221222.tar.gz --markdown 20230805/j/jaxkern-nightly/0.dev20221221-0.dev20221222/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [mct-nightly]: Downloading https://files.pythonhosted.org/packages/66/01/1126b7560c7656b4ba1f7ae75fbe0bc08ce1a65424ade540aa93d4363863/mct-nightly-1.9.0.20230804.post414.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [jaxutils-nightly]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [jaxutils-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jaxutils-nightly-0.0.8.dev20230803.tar.gz tmp/jaxutils-nightly-0.0.8.dev20230804.tar.gz --markdown 20230805/j/jaxutils-nightly/0.0.8.dev20230803-0.0.8.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [torchlayers-nightly]: Downloading https://files.pythonhosted.org/packages/e2/e2/717e393f5ab277d961eeeacc4366657750d8dd58b60aaa0377e1aa45defe/torchlayers-nightly-1691107662.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [ml-compiler-opt]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [ml-compiler-opt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ml-compiler-opt-0.0.1.dev202308030007.tar.gz tmp/ml-compiler-opt-0.0.1.dev202308040007.tar.gz --markdown 20230805/m/ml-compiler-opt/0.0.1.dev202308030007-0.0.1.dev202308040007/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [dep-lerng]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [dep-lerng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dep_lerng-0.13.tar.gz tmp/dep_lerng-0.14.tar.gz --markdown 20230805/d/dep-lerng/0.13-0.14/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [dep-lerng]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [dep-lerng]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dep_lerng-0.13.tar.gz tmp/dep_lerng-0.14.tar.gz --markdown 20230805/d/dep-lerng/0.13-0.14/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [wordcel]: Downloading https://files.pythonhosted.org/packages/f2/35/1d63491e3023df4acd2b8fef4ee8edf51af99d7267e31133447c961901f0/wordcel-0.0.5.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [anatools]: Downloading https://files.pythonhosted.org/packages/2b/b3/5aeb68bb8376438a79b7651b462e7016352c3b40335223bda11c3d53a3d2/anatools-3.3.1.tar.gz
+[2023-08-05 02:08:56] INFO root fetch - processPackages [django-iubenda]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [django-iubenda]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/django-iubenda-1.2.7.tar.gz tmp/django-iubenda-1.2.9.tar.gz --markdown 20230805/d/django-iubenda/1.2.7-1.2.9/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [torchlayers-nightly]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [torchlayers-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchlayers-nightly-1691021244.tar.gz tmp/torchlayers-nightly-1691107662.tar.gz --markdown 20230805/t/torchlayers-nightly/1691021244-1691107662/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [wordcel]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [wordcel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordcel-0.0.4.tar.gz tmp/wordcel-0.0.5.tar.gz --markdown 20230805/w/wordcel/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [anatools]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [anatools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anatools-3.3.0.tar.gz tmp/anatools-3.3.1.tar.gz --markdown 20230805/a/anatools/3.3.0-3.3.1/diff.md --exclude *.pyd
+[2023-08-05 02:08:56] INFO root fetch - processPackages [mct-nightly]: executing diffoscope
+[2023-08-05 02:08:56] INFO root fetch - processPackages [mct-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mct-nightly-1.9.0.20230803.post430.tar.gz tmp/mct-nightly-1.9.0.20230804.post414.tar.gz --markdown 20230805/m/mct-nightly/1.9.0.20230803.post430-1.9.0.20230804.post414/diff.md --exclude *.pyd
+[2023-08-05 02:08:57] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221221.tar.gz]
+[2023-08-05 02:08:57] INFO root fetch - processPackages [jaxkern-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxkern-nightly-0.dev20221222.tar.gz]
+[2023-08-05 02:08:57] INFO root fetch - processPackages [jaxkern-nightly]: Start processing: onnxscript-preview
+[2023-08-05 02:08:57] INFO root fetch - main [MainThread]: End processing [jaxkern-nightly]: success
+[2023-08-05 02:08:57] INFO root fetch - processPackages [onnxscript-preview]: New version: [0.1.0.dev20230804] Old Version: [0.1.0.dev20230803]
+[2023-08-05 02:08:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230803.tar.gz]
+[2023-08-05 02:08:57] INFO root fetch - processPackages [jaxutils-nightly]: Remove: archive file [/home/abi/fetcher/tmp/jaxutils-nightly-0.0.8.dev20230804.tar.gz]
+[2023-08-05 02:08:57] INFO root fetch - processPackages [jaxutils-nightly]: Start processing: garth
+[2023-08-05 02:08:57] INFO root fetch - main [MainThread]: End processing [jaxutils-nightly]: success
+[2023-08-05 02:08:57] INFO root fetch - processPackages [dep-lerng]: Remove: archive file [/home/abi/fetcher/tmp/dep_lerng-0.13.tar.gz]
+[2023-08-05 02:08:57] INFO root fetch - processPackages [dep-lerng]: Remove: archive file [/home/abi/fetcher/tmp/dep_lerng-0.14.tar.gz]
+[2023-08-05 02:08:57] INFO root fetch - main [MainThread]: End processing [dep-lerng]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/39/35/c37a35f3d96b051936e11a55674a271471a587f8560fb83185e66b052240/onnxscript_preview-0.1.0.dev20230803-py3-none-any.whl
+[2023-08-05 02:08:58] INFO root fetch - processPackages [garth]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-05 02:08:58] INFO root fetch - main [MainThread]: End processing [dep-lerng]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/39/4c/fd4d938e50cd02d1ee5ce2f984ccf34595c694065c431fffd901db63d15f/garth-0.4.1.tar.gz
+[2023-08-05 02:08:58] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.4.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - processPackages [wordcel]: Remove: archive file [/home/abi/fetcher/tmp/wordcel-0.0.5.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - main [MainThread]: End processing [wordcel]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [django-iubenda]: Remove: archive file [/home/abi/fetcher/tmp/django-iubenda-1.2.7.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - processPackages [django-iubenda]: Remove: archive file [/home/abi/fetcher/tmp/django-iubenda-1.2.9.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - main [MainThread]: End processing [django-iubenda]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691021244.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - processPackages [torchlayers-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchlayers-nightly-1691107662.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - main [MainThread]: End processing [torchlayers-nightly]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [onnxscript-preview]: Downloading https://files.pythonhosted.org/packages/11/89/bd500095315870b72eac25a5b51dc6c9a0cc2bd61d908f267714bbe2bfea/onnxscript_preview-0.1.0.dev20230804-py3-none-any.whl
+[2023-08-05 02:08:58] INFO root fetch - processPackages [garth]: Downloading https://files.pythonhosted.org/packages/5a/0c/1fe47162512397dcb9983f41e90e5adf7fd6905a20a933cab8a628b72167/garth-0.4.2.tar.gz
+[2023-08-05 02:08:58] INFO root fetch - processPackages [anatools]: Remove: archive file [/home/abi/fetcher/tmp/anatools-3.3.0.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - processPackages [anatools]: Remove: archive file [/home/abi/fetcher/tmp/anatools-3.3.1.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - main [MainThread]: End processing [anatools]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308030007.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - processPackages [ml-compiler-opt]: Remove: archive file [/home/abi/fetcher/tmp/ml-compiler-opt-0.0.1.dev202308040007.tar.gz]
+[2023-08-05 02:08:58] INFO root fetch - main [MainThread]: End processing [ml-compiler-opt]: success
+[2023-08-05 02:08:58] INFO root fetch - processPackages [garth]: executing diffoscope
+[2023-08-05 02:08:58] INFO root fetch - processPackages [garth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/garth-0.4.1.tar.gz tmp/garth-0.4.2.tar.gz --markdown 20230805/g/garth/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-05 02:08:58] INFO root fetch - processPackages [onnxscript-preview]: executing diffoscope
+[2023-08-05 02:08:58] INFO root fetch - processPackages [onnxscript-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/onnxscript_preview-0.1.0.dev20230803-py3-none-any.whl.zip tmp/onnxscript_preview-0.1.0.dev20230804-py3-none-any.whl.zip --markdown 20230805/o/onnxscript-preview/0.1.0.dev20230803-0.1.0.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 02:08:59] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.1.tar.gz]
+[2023-08-05 02:08:59] INFO root fetch - processPackages [garth]: Remove: archive file [/home/abi/fetcher/tmp/garth-0.4.2.tar.gz]
+[2023-08-05 02:08:59] INFO root fetch - main [MainThread]: End processing [garth]: success
+[2023-08-05 02:09:00] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230803-py3-none-any.whl.zip]
+[2023-08-05 02:09:00] INFO root fetch - processPackages [onnxscript-preview]: Remove: archive file [/home/abi/fetcher/tmp/onnxscript_preview-0.1.0.dev20230804-py3-none-any.whl.zip]
+[2023-08-05 02:09:00] INFO root fetch - main [MainThread]: End processing [onnxscript-preview]: success
+[2023-08-05 02:09:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230803.post430.tar.gz]
+[2023-08-05 02:09:00] INFO root fetch - processPackages [mct-nightly]: Remove: archive file [/home/abi/fetcher/tmp/mct-nightly-1.9.0.20230804.post414.tar.gz]
+[2023-08-05 02:09:00] INFO root fetch - main [MainThread]: End processing [mct-nightly]: success
+[2023-08-05 02:09:00] INFO root fetch - main [MainThread]: Store serial: [19181829]
