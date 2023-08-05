@@ -7822,3 +7822,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:06:29] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
 [2023-08-05 06:06:29] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
 [2023-08-05 06:06:29] INFO root fetch - main [MainThread]: Store serial: [19184188]
+[2023-08-05 06:11:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184188]
+[2023-08-05 06:11:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pythia8mc
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-mrp-bom-location
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: datasette-sqlite-lines
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sqlite-lines
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-utils-sqlite-lines
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: edc-he
+[2023-08-05 06:11:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: newmath
+[2023-08-05 06:11:37] INFO root fetch - processPackages [edc-he]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [datasette-sqlite-lines]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-lines]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/53/0c/e3d8392638346ebe4166d50001c323beca8448af4225c430ff78757657ea/edc-he-0.1.8.tar.gz
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/9c/33/30b00959127f6aa687f490e7424634309e76e47cbc9238d781660b39a620/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: New version: [14.0.1.0.2.dev8] Old Version: [14.0.1.0.2.dev6]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [pythia8mc]: New version: [8.310.1] Old Version: [8.310.0]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/83/92/f91984e26cd56f347ae064021bd16423ef351f2cafd5539c85dae86fa10c/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [newmath]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/48/31/41e3b2075c6dc432da12788dd517bd3cefb7ef4c2b7b15527992c1a1edc6/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: Downloading https://files.pythonhosted.org/packages/cf/45/b67a27f7c53fbfa5a1b6c0beeb18686c232530ac705bb575560ff43cac5e/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev6-py3-none-any.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [edc-he]: Downloading https://files.pythonhosted.org/packages/81/50/fe3c2fd651c82e8cdb1397d9331b9d914ded1d8e1f020127c71b81a43e95/edc-he-0.1.9.tar.gz
+[2023-08-05 06:11:38] INFO root fetch - processPackages [pythia8mc]: Downloading https://files.pythonhosted.org/packages/76/95/bc42620f09433182e20f2f8b9b4680b5adda7fa28f2947018d8d368eef77/pythia8mc-8.310.0.tar.gz
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/b8/ab/43f532e39f64f5226f39135862205071fe54e5baa9cdf7140b2f5f7d3372/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [newmath]: Downloading https://files.pythonhosted.org/packages/96/9a/cb5ae274fb3b04565510096da9ffd69e1fcbe64670495cd9dcb473abfd20/newmath-0.2.1.tar.gz
+[2023-08-05 06:11:38] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/52/10/ca4f9fc531664d80c3105472409f86273249c85a1c327f9b92827f99fb92/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl
+[2023-08-05 06:11:38] WARNING root fetch - processPackages [pythia8mc]: Skipping package: exceeds size limit 20151914>=10485760
+[2023-08-05 06:11:38] INFO root fetch - main [MainThread]: End processing [pythia8mc] error
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/bb/d0/0f173bbab56da024b255d85d36b29579a86ffe9ed7966fae62de70ec6e09/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [edc-he]: executing diffoscope
+[2023-08-05 06:11:38] INFO root fetch - processPackages [edc-he]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-he-0.1.8.tar.gz tmp/edc-he-0.1.9.tar.gz --markdown 20230805/e/edc-he/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-lines]: executing diffoscope
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230805/s/sqlite-lines/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 06:11:38] INFO root fetch - processPackages [datasette-sqlite-lines]: executing diffoscope
+[2023-08-05 06:11:38] INFO root fetch - processPackages [datasette-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl.zip tmp/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-lines/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: executing diffoscope
+[2023-08-05 06:11:38] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl.zip --markdown 20230805/s/sqlite-utils-sqlite-lines/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 06:11:38] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: Downloading https://files.pythonhosted.org/packages/b0/dd/2b91b6d8923185ac7ecc1533a22bf2d5995ca9b26321f3f31dbda82cd919/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev8-py3-none-any.whl
+[2023-08-05 06:11:38] INFO root fetch - processPackages [newmath]: Downloading https://files.pythonhosted.org/packages/16/42/3e904ed49c0d304f30469787d1f0c3e8fe5d257aa8f143edaf9d304cb0dc/newmath-0.2.2.tar.gz
+[2023-08-05 06:11:38] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: executing diffoscope
+[2023-08-05 06:11:38] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev6-py3-none-any.whl.zip tmp/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev8-py3-none-any.whl.zip --markdown 20230805/o/odoo14-addon-mrp-bom-location/14.0.1.0.2.dev6-14.0.1.0.2.dev8/diff.md --exclude *.pyd
+[2023-08-05 06:11:39] INFO root fetch - processPackages [newmath]: executing diffoscope
+[2023-08-05 06:11:39] INFO root fetch - processPackages [newmath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/newmath-0.2.1.tar.gz tmp/newmath-0.2.2.tar.gz --markdown 20230805/n/newmath/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-05 06:11:39] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 06:11:39] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-05 06:11:39] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-lines]: success
+[2023-08-05 06:11:39] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.8.tar.gz]
+[2023-08-05 06:11:39] INFO root fetch - processPackages [edc-he]: Remove: archive file [/home/abi/fetcher/tmp/edc-he-0.1.9.tar.gz]
+[2023-08-05 06:11:39] INFO root fetch - main [MainThread]: End processing [edc-he]: success
+[2023-08-05 06:11:39] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 06:11:39] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-05 06:11:39] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-lines]: success
+[2023-08-05 06:11:40] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-05 06:11:40] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-05 06:11:40] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
+[2023-08-05 06:11:40] INFO root fetch - processPackages [newmath]: Remove: archive file [/home/abi/fetcher/tmp/newmath-0.2.1.tar.gz]
+[2023-08-05 06:11:40] INFO root fetch - processPackages [newmath]: Remove: archive file [/home/abi/fetcher/tmp/newmath-0.2.2.tar.gz]
+[2023-08-05 06:11:40] INFO root fetch - main [MainThread]: End processing [newmath]: success
+[2023-08-05 06:11:40] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev6-py3-none-any.whl.zip]
+[2023-08-05 06:11:40] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev8-py3-none-any.whl.zip]
+[2023-08-05 06:11:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-location]: success
+[2023-08-05 06:11:40] INFO root fetch - main [MainThread]: Store serial: [19184207]
