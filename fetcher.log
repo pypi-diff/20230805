@@ -18424,3 +18424,75 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 22:50:23] INFO root fetch - processPackages [policyengine-us]: Remove: archive file [/home/abi/fetcher/tmp/policyengine-us-0.409.0.tar.gz]
 [2023-08-05 22:50:23] INFO root fetch - main [MainThread]: End processing [policyengine-us]: success
 [2023-08-05 22:50:23] INFO root fetch - main [MainThread]: Store serial: [19189259]
+[2023-08-05 22:55:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189259]
+[2023-08-05 22:55:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tendril-utils-types
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sequana-pipetools
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spline-agent
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: nerblackbox
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: babi-grammars
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tendril-caching
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: gpt4all-code-review
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: devtools-cli
+[2023-08-05 22:55:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: freetar
+[2023-08-05 22:55:32] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.15] Old Version: [0.14]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [freetar]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [nerblackbox]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/34/40/b95e7ce8f0e96a57b5bb509d344e64865f7573882d0140f9221c2594f7d5/gpt4all-code-review-0.14.tar.gz
+[2023-08-05 22:55:32] WARNING root fetch - processPackages [spline-agent]: Skipping, unable to determine old version
+[2023-08-05 22:55:32] INFO root fetch - main [MainThread]: End processing [spline-agent] error
+[2023-08-05 22:55:32] INFO root fetch - processPackages [tendril-caching]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [freetar]: Downloading https://files.pythonhosted.org/packages/03/f6/1c4df33ee71be38d8236d166a714e8e63b0e64b5299fd3c53a0c47648485/freetar-0.1.5.tar.gz
+[2023-08-05 22:55:32] WARNING root fetch - processPackages [devtools-cli]: Skipping, unable to determine old version
+[2023-08-05 22:55:32] INFO root fetch - main [MainThread]: End processing [devtools-cli] error
+[2023-08-05 22:55:32] INFO root fetch - processPackages [sequana-pipetools]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [tendril-utils-types]: New version: [0.2.4] Old Version: [0.2.3]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [babi-grammars]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 22:55:32] INFO root fetch - processPackages [nerblackbox]: Downloading https://files.pythonhosted.org/packages/41/2d/124b1a109d08f4f1eb7b3f4b0cd38b66252541370410467e2b1eb4ab2add/nerblackbox-0.0.8.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/d3/56/65511e497513000a72d7f3bb19fcf5b2dc179827b86e0036a7e03e654c0e/tendril-caching-0.2.8.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [sequana-pipetools]: Downloading https://files.pythonhosted.org/packages/b9/9b/026d86b249ac0e19b736b5ba49e470530fdf4c775e3a922364fa98071d99/sequana_pipetools-0.9.5.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [tendril-utils-types]: Downloading https://files.pythonhosted.org/packages/c0/6b/ade2a61d4e48815d4150f4a6388a6811b22e78fb0c655d7b3f43256413f8/tendril-utils-types-0.2.3.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [babi-grammars]: Downloading https://files.pythonhosted.org/packages/68/49/8f3995514260e189d97ee9b41c3cc5aa712670de410324dee06e333ff50f/babi_grammars-0.0.8.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/a2/0a/cbac44a1978d9f4122fd816d32e9690e7cde446caaf0f348ecd9c5c1a2fe/gpt4all-code-review-0.15.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [freetar]: Downloading https://files.pythonhosted.org/packages/d1/54/1dc193482b715e06fdb7abb165ecfa8cd87dac515ce500f89928b752ad04/freetar-0.1.6.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-05 22:55:32] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.14.tar.gz tmp/gpt4all-code-review-0.15.tar.gz --markdown 20230805/g/gpt4all-code-review/0.14-0.15/diff.md --exclude *.pyd
+[2023-08-05 22:55:32] INFO root fetch - processPackages [nerblackbox]: Downloading https://files.pythonhosted.org/packages/86/3b/b9b15be1695d68c10442823c6f5af999dcc36f353780a42c58c71a7d6128/nerblackbox-0.0.9.tar.gz
+[2023-08-05 22:55:32] INFO root fetch - processPackages [freetar]: executing diffoscope
+[2023-08-05 22:55:32] INFO root fetch - processPackages [freetar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freetar-0.1.5.tar.gz tmp/freetar-0.1.6.tar.gz --markdown 20230805/f/freetar/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-05 22:55:32] INFO root fetch - processPackages [tendril-caching]: Downloading https://files.pythonhosted.org/packages/04/35/14f6427917d330990cbe68e811741712982b1bb890389e02c86008d3c480/tendril-caching-0.2.9.tar.gz
+[2023-08-05 22:55:33] INFO root fetch - processPackages [tendril-utils-types]: Downloading https://files.pythonhosted.org/packages/23/07/214b1c4ff9ada5b4f3ec13a5f6ed0ec2e4173c1944566952a3f9a331fb3b/tendril-utils-types-0.2.4.tar.gz
+[2023-08-05 22:55:33] INFO root fetch - processPackages [nerblackbox]: executing diffoscope
+[2023-08-05 22:55:33] INFO root fetch - processPackages [nerblackbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nerblackbox-0.0.8.tar.gz tmp/nerblackbox-0.0.9.tar.gz --markdown 20230805/n/nerblackbox/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 22:55:33] INFO root fetch - processPackages [sequana-pipetools]: Downloading https://files.pythonhosted.org/packages/cf/8f/e03a25d505020aeb82aa541caf6ad21e33496440b057cbb3e04816e72ed4/sequana_pipetools-0.9.6.tar.gz
+[2023-08-05 22:55:33] INFO root fetch - processPackages [babi-grammars]: Downloading https://files.pythonhosted.org/packages/9d/57/6b3e2a8b3fc21f081859dee728281b067c69f451548f1af70ea402160c4b/babi_grammars-0.0.9.tar.gz
+[2023-08-05 22:55:33] INFO root fetch - processPackages [tendril-caching]: executing diffoscope
+[2023-08-05 22:55:33] INFO root fetch - processPackages [tendril-caching]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-caching-0.2.8.tar.gz tmp/tendril-caching-0.2.9.tar.gz --markdown 20230805/t/tendril-caching/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 22:55:33] INFO root fetch - processPackages [tendril-utils-types]: executing diffoscope
+[2023-08-05 22:55:33] INFO root fetch - processPackages [tendril-utils-types]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tendril-utils-types-0.2.3.tar.gz tmp/tendril-utils-types-0.2.4.tar.gz --markdown 20230805/t/tendril-utils-types/0.2.3-0.2.4/diff.md --exclude *.pyd
+[2023-08-05 22:55:33] INFO root fetch - processPackages [babi-grammars]: executing diffoscope
+[2023-08-05 22:55:33] INFO root fetch - processPackages [babi-grammars]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/babi_grammars-0.0.8.tar.gz tmp/babi_grammars-0.0.9.tar.gz --markdown 20230805/b/babi-grammars/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 22:55:33] INFO root fetch - processPackages [sequana-pipetools]: executing diffoscope
+[2023-08-05 22:55:33] INFO root fetch - processPackages [sequana-pipetools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sequana_pipetools-0.9.5.tar.gz tmp/sequana_pipetools-0.9.6.tar.gz --markdown 20230805/s/sequana-pipetools/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-05 22:55:33] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.14.tar.gz]
+[2023-08-05 22:55:33] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.15.tar.gz]
+[2023-08-05 22:55:33] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-05 22:55:34] INFO root fetch - processPackages [freetar]: Remove: archive file [/home/abi/fetcher/tmp/freetar-0.1.5.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - processPackages [freetar]: Remove: archive file [/home/abi/fetcher/tmp/freetar-0.1.6.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [freetar]: success
+[2023-08-05 22:55:34] INFO root fetch - processPackages [nerblackbox]: Remove: archive file [/home/abi/fetcher/tmp/nerblackbox-0.0.8.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - processPackages [nerblackbox]: Remove: archive file [/home/abi/fetcher/tmp/nerblackbox-0.0.9.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [nerblackbox]: success
+[2023-08-05 22:55:34] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.8.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - processPackages [tendril-caching]: Remove: archive file [/home/abi/fetcher/tmp/tendril-caching-0.2.9.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [tendril-caching]: success
+[2023-08-05 22:55:34] INFO root fetch - processPackages [tendril-utils-types]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-types-0.2.3.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - processPackages [tendril-utils-types]: Remove: archive file [/home/abi/fetcher/tmp/tendril-utils-types-0.2.4.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [tendril-utils-types]: success
+[2023-08-05 22:55:34] INFO root fetch - processPackages [sequana-pipetools]: Remove: archive file [/home/abi/fetcher/tmp/sequana_pipetools-0.9.5.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - processPackages [sequana-pipetools]: Remove: archive file [/home/abi/fetcher/tmp/sequana_pipetools-0.9.6.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [sequana-pipetools]: success
+[2023-08-05 22:55:34] INFO root fetch - processPackages [babi-grammars]: Remove: archive file [/home/abi/fetcher/tmp/babi_grammars-0.0.8.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - processPackages [babi-grammars]: Remove: archive file [/home/abi/fetcher/tmp/babi_grammars-0.0.9.tar.gz]
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: End processing [babi-grammars]: success
+[2023-08-05 22:55:34] INFO root fetch - main [MainThread]: Store serial: [19189290]
