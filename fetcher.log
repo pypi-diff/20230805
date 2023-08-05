@@ -8393,3 +8393,31 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:14:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230803-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
 [2023-08-05 07:14:47] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
 [2023-08-05 07:14:47] INFO root fetch - main [MainThread]: Store serial: [19184426]
+[2023-08-05 07:19:53] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184426]
+[2023-08-05 07:19:57] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 07:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: assess-acceptability-judgments
+[2023-08-05 07:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rapidpe-rift-pipe
+[2023-08-05 07:19:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: assess-acceptability-judgments
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: New version: [0.5.4.dev20230804] Old Version: [0.5.4.dev20230803]
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-05 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/c7/5f/78e0171030035fb4343e58035743ecc587cab6709a8550cbeb4a3dd60639/rapidpe_rift_pipe-0.5.4.dev20230803.tar.gz
+[2023-08-05 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: Downloading https://files.pythonhosted.org/packages/58/39/dbec9967bcf71112208768cf458195ad3195c95debee121658b1939b4d16/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz
+[2023-08-05 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: executing diffoscope
+[2023-08-05 07:19:58] INFO root fetch - processPackages [rapidpe-rift-pipe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapidpe_rift_pipe-0.5.4.dev20230803.tar.gz tmp/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz --markdown 20230805/r/rapidpe-rift-pipe/0.5.4.dev20230803-0.5.4.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230805/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-05 07:19:58] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230805/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 07:19:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230803.tar.gz]
+[2023-08-05 07:19:59] INFO root fetch - processPackages [rapidpe-rift-pipe]: Remove: archive file [/home/abi/fetcher/tmp/rapidpe_rift_pipe-0.5.4.dev20230804.tar.gz]
+[2023-08-05 07:19:59] INFO root fetch - main [MainThread]: End processing [rapidpe-rift-pipe]: success
+[2023-08-05 07:20:01] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.8.tar.gz]
+[2023-08-05 07:20:01] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
+[2023-08-05 07:20:01] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-05 07:20:01] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-05 07:20:01] INFO root fetch - main [MainThread]: Store serial: [19184439]
