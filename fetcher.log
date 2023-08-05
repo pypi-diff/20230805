@@ -9809,3 +9809,50 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 10:18:14] INFO root fetch - processPackages [opsanalyze]: Remove: archive file [/home/abi/fetcher/tmp/opsanalyze-1.1.tar.gz]
 [2023-08-05 10:18:14] INFO root fetch - main [MainThread]: End processing [opsanalyze]: success
 [2023-08-05 10:18:14] INFO root fetch - main [MainThread]: Store serial: [19185065]
+[2023-08-05 10:23:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185065]
+[2023-08-05 10:23:23] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 10:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-api-info
+[2023-08-05 10:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: daqpp
+[2023-08-05 10:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vdaq-soap
+[2023-08-05 10:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: qudi-hira-analysis
+[2023-08-05 10:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tybase
+[2023-08-05 10:23:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: discord-api-info
+[2023-08-05 10:23:23] INFO root fetch - processPackages [tybase]: New version: [0.2.7] Old Version: [0.2.6]
+[2023-08-05 10:23:23] INFO root fetch - processPackages [qudi-hira-analysis]: New version: [1.5.1] Old Version: [1.5.0]
+[2023-08-05 10:23:23] INFO root fetch - processPackages [discord-api-info]: New version: [1.4] Old Version: [1.3]
+[2023-08-05 10:23:23] INFO root fetch - processPackages [discord-api-info]: New version: [1.4] Old Version: [1.3]
+[2023-08-05 10:23:23] INFO root fetch - processPackages [daqpp]: New version: [2.0.3] Old Version: [2.0.1]
+[2023-08-05 10:23:23] INFO root fetch - processPackages [vdaq-soap]: New version: [1.0.5] Old Version: [1.0.4]
+[2023-08-05 10:23:23] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/78/2b/6be677ce1a95d4559a83de6ae3e9eb32bc55254a27260a6f2de7d9b66179/tybase-0.2.6.tar.gz
+[2023-08-05 10:23:23] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/36/8d/43ac80bf8ba55c9c96b0ac29ea17091549da965922239fdf3afd943c77c3/qudi_hira_analysis-1.5.0.tar.gz
+[2023-08-05 10:23:23] ERROR root fetch - processPackages [discord-api-info]: Unable to fetch info: No such project/version 'discord-api-info' 1.3
+[2023-08-05 10:23:23] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 10:23:23] ERROR root fetch - processPackages [discord-api-info]: Unable to fetch info: No such project/version 'discord-api-info' 1.3
+[2023-08-05 10:23:23] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 10:23:23] INFO root fetch - processPackages [daqpp]: Downloading https://files.pythonhosted.org/packages/f6/96/e57c6fb46897f3c72c9fa58a8ad8a85f0851fc6dfbe816005a4be73711c5/daqpp-2.0.1.tar.gz
+[2023-08-05 10:23:23] INFO root fetch - processPackages [vdaq-soap]: Downloading https://files.pythonhosted.org/packages/a9/2b/75ef9efd2f73bc1ded47d16f5ea4d1bbdbfec9d7500ca1f79200df12a76c/vdaq_soap-1.0.4.tar.gz
+[2023-08-05 10:23:23] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/69/98/951f351e8535fdf760115bf4e32a210e5b95094caf76b92286450e45b44b/tybase-0.2.7.tar.gz
+[2023-08-05 10:23:23] INFO root fetch - processPackages [qudi-hira-analysis]: Downloading https://files.pythonhosted.org/packages/35/2c/725577c41e1cd85a6d2ec1323bb8b827c3118293c4c6d18d9976ddbc28b7/qudi_hira_analysis-1.5.1.tar.gz
+[2023-08-05 10:23:24] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 10:23:24] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.2.6.tar.gz tmp/tybase-0.2.7.tar.gz --markdown 20230805/t/tybase/0.2.6-0.2.7/diff.md --exclude *.pyd
+[2023-08-05 10:23:24] INFO root fetch - processPackages [daqpp]: Downloading https://files.pythonhosted.org/packages/a8/05/7c7449da616d1480745e2aee2b86281c3e020759f32f181bdb02bd3dfb28/daqpp-2.0.3.tar.gz
+[2023-08-05 10:23:24] INFO root fetch - processPackages [qudi-hira-analysis]: executing diffoscope
+[2023-08-05 10:23:24] INFO root fetch - processPackages [qudi-hira-analysis]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/qudi_hira_analysis-1.5.0.tar.gz tmp/qudi_hira_analysis-1.5.1.tar.gz --markdown 20230805/q/qudi-hira-analysis/1.5.0-1.5.1/diff.md --exclude *.pyd
+[2023-08-05 10:23:24] INFO root fetch - processPackages [vdaq-soap]: Downloading https://files.pythonhosted.org/packages/1e/d5/4dbc98f22e6b1b1024fde59d8540af90fd93b7c237c8faa2656d19beabdd/vdaq_soap-1.0.5.tar.gz
+[2023-08-05 10:23:24] INFO root fetch - processPackages [daqpp]: executing diffoscope
+[2023-08-05 10:23:24] INFO root fetch - processPackages [daqpp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daqpp-2.0.1.tar.gz tmp/daqpp-2.0.3.tar.gz --markdown 20230805/d/daqpp/2.0.1-2.0.3/diff.md --exclude *.pyd
+[2023-08-05 10:23:24] INFO root fetch - processPackages [vdaq-soap]: executing diffoscope
+[2023-08-05 10:23:24] INFO root fetch - processPackages [vdaq-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vdaq_soap-1.0.4.tar.gz tmp/vdaq_soap-1.0.5.tar.gz --markdown 20230805/v/vdaq-soap/1.0.4-1.0.5/diff.md --exclude *.pyd
+[2023-08-05 10:23:24] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.6.tar.gz]
+[2023-08-05 10:23:24] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.7.tar.gz]
+[2023-08-05 10:23:24] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 10:23:24] INFO root fetch - processPackages [daqpp]: Remove: archive file [/home/abi/fetcher/tmp/daqpp-2.0.1.tar.gz]
+[2023-08-05 10:23:24] INFO root fetch - processPackages [daqpp]: Remove: archive file [/home/abi/fetcher/tmp/daqpp-2.0.3.tar.gz]
+[2023-08-05 10:23:24] INFO root fetch - main [MainThread]: End processing [daqpp]: success
+[2023-08-05 10:23:25] INFO root fetch - processPackages [qudi-hira-analysis]: Remove: archive file [/home/abi/fetcher/tmp/qudi_hira_analysis-1.5.0.tar.gz]
+[2023-08-05 10:23:25] INFO root fetch - processPackages [qudi-hira-analysis]: Remove: archive file [/home/abi/fetcher/tmp/qudi_hira_analysis-1.5.1.tar.gz]
+[2023-08-05 10:23:25] INFO root fetch - main [MainThread]: End processing [qudi-hira-analysis]: success
+[2023-08-05 10:23:25] INFO root fetch - processPackages [vdaq-soap]: Remove: archive file [/home/abi/fetcher/tmp/vdaq_soap-1.0.4.tar.gz]
+[2023-08-05 10:23:25] INFO root fetch - processPackages [vdaq-soap]: Remove: archive file [/home/abi/fetcher/tmp/vdaq_soap-1.0.5.tar.gz]
+[2023-08-05 10:23:25] INFO root fetch - main [MainThread]: End processing [vdaq-soap]: success
+[2023-08-05 10:23:25] INFO root fetch - main [MainThread]: Store serial: [19185085]
