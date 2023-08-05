@@ -10607,3 +10607,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:32:06] INFO root fetch - processPackages [benanalysis]: Remove: archive file [/home/abi/fetcher/tmp/benanalysis-4.0.1-cp39-cp39-win_amd64.whl.zip]
 [2023-08-05 11:32:06] INFO root fetch - main [MainThread]: End processing [benanalysis]: success
 [2023-08-05 11:32:06] INFO root fetch - main [MainThread]: Store serial: [19185421]
+[2023-08-05 11:37:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185421]
+[2023-08-05 11:37:16] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: mbbank-lib
+[2023-08-05 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zip2pdf
+[2023-08-05 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: kfsd
+[2023-08-05 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pyggc
+[2023-08-05 11:37:16] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seotools
+[2023-08-05 11:37:17] WARNING root fetch - processPackages [pyggc]: Skipping, unable to determine old version
+[2023-08-05 11:37:17] INFO root fetch - main [MainThread]: End processing [pyggc] error
+[2023-08-05 11:37:17] INFO root fetch - processPackages [mbbank-lib]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 11:37:17] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/91/cf/d43680901e591f2ac54205cb154c522e8f8c579558799593436725456a39/mbbank-lib-0.0.4.tar.gz
+[2023-08-05 11:37:17] WARNING root fetch - processPackages [zip2pdf]: Skipping, unable to determine old version
+[2023-08-05 11:37:17] INFO root fetch - main [MainThread]: End processing [zip2pdf] error
+[2023-08-05 11:37:17] INFO root fetch - processPackages [seotools]: New version: [0.1.0] Old Version: [0.0.1]
+[2023-08-05 11:37:17] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 11:37:17] INFO root fetch - processPackages [seotools]: Downloading https://files.pythonhosted.org/packages/00/1f/56433c76ef7e2880b8f3628e1e1226daec76ae71dadeb80b4beaa54323ca/seotools-0.0.1.tar.gz
+[2023-08-05 11:37:17] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-05 11:37:17] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/c7/da/2963257c3531a303116028553082e1da0e2986d5c5dcd77871b79c9a8629/mbbank-lib-0.0.5.tar.gz
+[2023-08-05 11:37:17] INFO root fetch - processPackages [mbbank-lib]: executing diffoscope
+[2023-08-05 11:37:17] INFO root fetch - processPackages [mbbank-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbbank-lib-0.0.4.tar.gz tmp/mbbank-lib-0.0.5.tar.gz --markdown 20230805/m/mbbank-lib/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 11:37:17] INFO root fetch - processPackages [seotools]: Downloading https://files.pythonhosted.org/packages/13/28/97da62663e7f4228efe034f2083632fca3002c44160aaab3431065a5ec20/seotools-0.1.0.tar.gz
+[2023-08-05 11:37:17] INFO root fetch - processPackages [seotools]: executing diffoscope
+[2023-08-05 11:37:17] INFO root fetch - processPackages [seotools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seotools-0.0.1.tar.gz tmp/seotools-0.1.0.tar.gz --markdown 20230805/s/seotools/0.0.1-0.1.0/diff.md --exclude *.pyd
+[2023-08-05 11:37:17] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-05 11:37:18] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-05 11:37:18] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230805/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 11:37:18] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.4.tar.gz]
+[2023-08-05 11:37:18] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.5.tar.gz]
+[2023-08-05 11:37:18] INFO root fetch - main [MainThread]: End processing [mbbank-lib]: success
+[2023-08-05 11:37:18] INFO root fetch - processPackages [seotools]: Remove: archive file [/home/abi/fetcher/tmp/seotools-0.0.1.tar.gz]
+[2023-08-05 11:37:18] INFO root fetch - processPackages [seotools]: Remove: archive file [/home/abi/fetcher/tmp/seotools-0.1.0.tar.gz]
+[2023-08-05 11:37:18] INFO root fetch - main [MainThread]: End processing [seotools]: success
+[2023-08-05 11:37:19] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-05 11:37:19] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-05 11:37:19] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-05 11:37:19] INFO root fetch - main [MainThread]: Store serial: [19185453]
