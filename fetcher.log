@@ -6164,3 +6164,113 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 03:39:45] INFO root fetch - processPackages [qontract-reconcile]: Remove: archive file [/home/abi/fetcher/tmp/qontract_reconcile-0.9.1rc99-py3-none-any.whl.zip]
 [2023-08-05 03:39:45] INFO root fetch - main [MainThread]: End processing [qontract-reconcile]: success
 [2023-08-05 03:39:45] INFO root fetch - main [MainThread]: Store serial: [19183528]
+[2023-08-05 03:44:49] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183528]
+[2023-08-05 03:44:54] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-http
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-http
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: homeassistant-stubs
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl-dev
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: composabl-ray-dev
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nbdev-apl
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: weathermap
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: flowtask
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyenphase
+[2023-08-05 03:44:54] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: proactive
+[2023-08-05 03:44:54] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [pyenphase]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [weathermap]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [flowtask]: New version: [4.6.6] Old Version: [4.6.5]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [composabl-ray-dev]: New version: [0.4.0.dev9] Old Version: [0.4.0.dev8]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.936] Old Version: [0.0.935]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [proactive]: New version: [8.4.11] Old Version: [8.4.10]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/3f/87/e857db80b96fa499462a158f3c45131a67140c6919ad4282625c2dfab351/pyenphase-0.3.0.tar.gz
+[2023-08-05 03:44:54] INFO root fetch - processPackages [composabl-dev]: New version: [0.4.2.dev1] Old Version: [0.4.0.dev9]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [homeassistant-stubs]: New version: [2023.8.1] Old Version: [2023.8.0b4]
+[2023-08-05 03:44:54] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/f0/d7/1725d6b6b1db1503f0060fb780094f95ee8186e692c87eee81c1c9ceff5f/datasette_sqlite_http-0.1.0a7-py3-none-any.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [weathermap]: Downloading https://files.pythonhosted.org/packages/3e/5b/0d6b4263d2a47b0aa915d16bea9cac23c668fda15cd277108e7b2b0fd08b/weathermap-1.0.2.tar.gz
+[2023-08-05 03:44:55] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/a6/96/349b99971d8291401056711ff12aedeaf575c6161980d1e387e360945f0b/flowtask-4.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/4d/09/662ca026925a031d755fd24f2d4d1669eb7b53622527468365d36a9d8052/composabl_ray_dev-0.4.0.dev8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/61/c0/92280f42a399e1fa0f21365ce64e10198c71f93dc78e7f6029efbb0e8548/sqlite_http-0.1.0a7-py3-none-win_amd64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/ae/dc/a41ba0e55df50021228f91378ef0ea438366e9d52e1714393ae07117c14f/nbdev-apl-0.0.935.tar.gz
+[2023-08-05 03:44:55] INFO root fetch - processPackages [proactive]: Downloading https://files.pythonhosted.org/packages/36/67/8f2441cbc911f3a57a2168b0e419b0751450a04c18791e6ba642af1085d8/proactive-8.4.10.zip
+[2023-08-05 03:44:55] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/cc/5c/529d0cd76491da4e32fdf13b7994ed40e774e27b71c4194aeea9ad4cb810/composabl_dev-0.4.0.dev9-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:44:55] WARNING root fetch - processPackages [proactive]: Skipping package: exceeds size limit 18979361>=10485760
+[2023-08-05 03:44:55] INFO root fetch - processPackages [proactive]: Start processing: oa-pynput
+[2023-08-05 03:44:55] INFO root fetch - main [MainThread]: End processing [proactive] error
+[2023-08-05 03:44:55] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/01/c7/16d77d21d8cd9cd615ad490fb0d620ea8056df84e246ddda153513c21b9c/homeassistant_stubs-2023.8.0b4.tar.gz
+[2023-08-05 03:44:55] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/de/e7/ea3af4b630ce6a1b8533b7026d892031dabbd04c67d28de5d4e4d65d8d30/pyenphase-0.4.0.tar.gz
+[2023-08-05 03:44:55] INFO root fetch - processPackages [weathermap]: Downloading https://files.pythonhosted.org/packages/96/fe/40a7a31d7bb0bdb412bacd99d6987d3853b52522e54f8e0e3a04e3524faf/weathermap-1.0.3.tar.gz
+[2023-08-05 03:44:55] WARNING root fetch - processPackages [oa-pynput]: Skipping, unable to determine old version
+[2023-08-05 03:44:55] INFO root fetch - processPackages [oa-pynput]: Start processing: flightcondition
+[2023-08-05 03:44:55] INFO root fetch - main [MainThread]: End processing [oa-pynput] error
+[2023-08-05 03:44:55] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/1f/81/706d9189c573153f3fcd0451e2ae081a66d17cad0b28f2a12d7cec360629/datasette_sqlite_http-0.1.0a8-py3-none-any.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [flightcondition]: New version: [23.8.4] Old Version: [23.1.23]
+[2023-08-05 03:44:55] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-05 03:44:55] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.3.0.tar.gz tmp/pyenphase-0.4.0.tar.gz --markdown 20230805/p/pyenphase/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 03:44:55] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/3a/19/e6cc998dd511ace7a793c7a7458c4cd7721d241ce18f5c037b733072aed8/nbdev-apl-0.0.936.tar.gz
+[2023-08-05 03:44:55] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-08-05 03:44:55] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a7-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-http/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-08-05 03:44:55] INFO root fetch - processPackages [composabl-ray-dev]: Downloading https://files.pythonhosted.org/packages/56/18/c7e7f4f8570289a6020cc6aeeba3e647f7d81e46c194b79562f80f6ab619/composabl_ray_dev-0.4.0.dev9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [composabl-dev]: Downloading https://files.pythonhosted.org/packages/31/ae/92cd7414c3a45b9c98337d14f2e990578f2efdec3bea879588ed05841fab/composabl_dev-0.4.2.dev1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [weathermap]: executing diffoscope
+[2023-08-05 03:44:55] INFO root fetch - processPackages [weathermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathermap-1.0.2.tar.gz tmp/weathermap-1.0.3.tar.gz --markdown 20230805/w/weathermap/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-05 03:44:55] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/4b/20/da8336bce10fc54d00580a2d2d01b3df0b365d562a78287bba0e85672c2f/sqlite_http-0.1.0a8-py3-none-win_amd64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/5b/e8/932b93760696a4c79b6b52916068240e12f27ade975143f7124db9f4e0cc/flightcondition-23.1.23.tar.gz
+[2023-08-05 03:44:55] INFO root fetch - processPackages [flowtask]: Downloading https://files.pythonhosted.org/packages/91/30/a1966e5ac0a638366dc0824479ed72f4c688274bf73e258787dfc7f2649f/flowtask-4.6.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:44:55] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-05 03:44:55] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.935.tar.gz tmp/nbdev-apl-0.0.936.tar.gz --markdown 20230805/n/nbdev-apl/0.0.935-0.0.936/diff.md --exclude *.pyd
+[2023-08-05 03:44:55] INFO root fetch - processPackages [homeassistant-stubs]: Downloading https://files.pythonhosted.org/packages/16/a0/2ee40311d8b12e2d0ffa69928ced4928f13e06b3cd2f4760d41ae37e306f/homeassistant_stubs-2023.8.1.tar.gz
+[2023-08-05 03:44:56] INFO root fetch - processPackages [composabl-dev]: executing diffoscope
+[2023-08-05 03:44:56] INFO root fetch - processPackages [composabl-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_dev-0.4.0.dev9-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_dev-0.4.2.dev1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/c/composabl-dev/0.4.0.dev9-0.4.2.dev1/diff.md --exclude *.pyd
+[2023-08-05 03:44:56] INFO root fetch - processPackages [homeassistant-stubs]: executing diffoscope
+[2023-08-05 03:44:56] INFO root fetch - processPackages [homeassistant-stubs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeassistant_stubs-2023.8.0b4.tar.gz tmp/homeassistant_stubs-2023.8.1.tar.gz --markdown 20230805/h/homeassistant-stubs/2023.8.0b4-2023.8.1/diff.md --exclude *.pyd
+[2023-08-05 03:44:56] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/63/84/f7a30138499658158fce4e1a2cb71997661a4e42ee3e562d9bff5fa53f4c/flightcondition-23.8.4.tar.gz
+[2023-08-05 03:44:56] INFO root fetch - processPackages [flightcondition]: executing diffoscope
+[2023-08-05 03:44:56] INFO root fetch - processPackages [flightcondition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightcondition-23.1.23.tar.gz tmp/flightcondition-23.8.4.tar.gz --markdown 20230805/f/flightcondition/23.1.23-23.8.4/diff.md --exclude *.pyd
+[2023-08-05 03:44:56] INFO root fetch - processPackages [composabl-ray-dev]: executing diffoscope
+[2023-08-05 03:44:56] INFO root fetch - processPackages [composabl-ray-dev]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray_dev-0.4.0.dev8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_ray_dev-0.4.0.dev9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/c/composabl-ray-dev/0.4.0.dev8-0.4.0.dev9/diff.md --exclude *.pyd
+[2023-08-05 03:44:56] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-08-05 03:44:56] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a7-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip --markdown 20230805/s/sqlite-http/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-08-05 03:44:56] INFO root fetch - processPackages [flowtask]: executing diffoscope
+[2023-08-05 03:44:56] INFO root fetch - processPackages [flowtask]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flowtask-4.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/flowtask-4.6.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/f/flowtask/4.6.5-4.6.6/diff.md --exclude *.pyd
+[2023-08-05 03:44:56] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.3.0.tar.gz]
+[2023-08-05 03:44:56] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.4.0.tar.gz]
+[2023-08-05 03:44:56] INFO root fetch - processPackages [pyenphase]: Start processing: proactive-jupyter-kernel
+[2023-08-05 03:44:56] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-05 03:44:56] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a7-py3-none-any.whl.zip]
+[2023-08-05 03:44:56] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip]
+[2023-08-05 03:44:56] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-08-05 03:44:56] INFO root fetch - processPackages [proactive-jupyter-kernel]: New version: [13.1.1.2212191832.dev0] Old Version: [13.1.1.2212191149.dev0]
+[2023-08-05 03:44:57] INFO root fetch - processPackages [weathermap]: Remove: archive file [/home/abi/fetcher/tmp/weathermap-1.0.2.tar.gz]
+[2023-08-05 03:44:57] INFO root fetch - processPackages [weathermap]: Remove: archive file [/home/abi/fetcher/tmp/weathermap-1.0.3.tar.gz]
+[2023-08-05 03:44:57] INFO root fetch - main [MainThread]: End processing [weathermap]: success
+[2023-08-05 03:44:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/2f/bc/886004d2f6edca874f61f16aaba9985e6b38f5c62e3a9638165dad1ae89e/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip
+[2023-08-05 03:44:57] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.935.tar.gz]
+[2023-08-05 03:44:57] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.936.tar.gz]
+[2023-08-05 03:44:57] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-05 03:44:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: Downloading https://files.pythonhosted.org/packages/b1/93/020f781eacfc72831423f0159f4e4e5afdb02a21db391853b68ce7631de6/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip
+[2023-08-05 03:44:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: executing diffoscope
+[2023-08-05 03:44:57] INFO root fetch - processPackages [proactive-jupyter-kernel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip --markdown 20230805/p/proactive-jupyter-kernel/13.1.1.2212191149.dev0-13.1.1.2212191832.dev0/diff.md --exclude *.pyd
+[2023-08-05 03:44:57] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-23.1.23.tar.gz]
+[2023-08-05 03:44:57] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-23.8.4.tar.gz]
+[2023-08-05 03:44:57] INFO root fetch - main [MainThread]: End processing [flightcondition]: success
+[2023-08-05 03:44:58] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.4.0.dev9-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:44:58] INFO root fetch - processPackages [composabl-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_dev-0.4.2.dev1-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:44:58] INFO root fetch - main [MainThread]: End processing [composabl-dev]: success
+[2023-08-05 03:44:58] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.4.0.dev8-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:44:58] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.4.0.dev9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:44:58] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
+[2023-08-05 03:44:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191149.dev0.zip]
+[2023-08-05 03:44:58] INFO root fetch - processPackages [proactive-jupyter-kernel]: Remove: archive file [/home/abi/fetcher/tmp/proactive-jupyter-kernel-13.1.1.2212191832.dev0.zip]
+[2023-08-05 03:44:58] INFO root fetch - main [MainThread]: End processing [proactive-jupyter-kernel]: success
+[2023-08-05 03:44:58] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.6.5-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:44:58] INFO root fetch - processPackages [flowtask]: Remove: archive file [/home/abi/fetcher/tmp/flowtask-4.6.6-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:44:58] INFO root fetch - main [MainThread]: End processing [flowtask]: success
+[2023-08-05 03:45:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.0b4.tar.gz]
+[2023-08-05 03:45:12] INFO root fetch - processPackages [homeassistant-stubs]: Remove: archive file [/home/abi/fetcher/tmp/homeassistant_stubs-2023.8.1.tar.gz]
+[2023-08-05 03:45:12] INFO root fetch - main [MainThread]: End processing [homeassistant-stubs]: success
+[2023-08-05 03:47:23] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a7-py3-none-win_amd64.whl.zip]
+[2023-08-05 03:47:23] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip]
+[2023-08-05 03:47:23] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-08-05 03:47:23] INFO root fetch - main [MainThread]: Store serial: [19183574]
