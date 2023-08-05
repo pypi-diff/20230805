@@ -11146,3 +11146,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:20:39] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.8.0.tar.gz]
 [2023-08-05 12:20:39] INFO root fetch - main [MainThread]: End processing [lino]: success
 [2023-08-05 12:20:39] INFO root fetch - main [MainThread]: Store serial: [19185653]
+[2023-08-05 12:25:45] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185653]
+[2023-08-05 12:25:50] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lino-noi
+[2023-08-05 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: casdoor
+[2023-08-05 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-linar2
+[2023-08-05 12:25:50] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pysource-codegen
+[2023-08-05 12:25:50] INFO root fetch - processPackages [lino-noi]: New version: [23.8.0] Old Version: [23.7.0]
+[2023-08-05 12:25:50] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/c6/04/3e9331142f2ef67a0e0b8816fe32e4f076290c6c48f97807665eb0910ae8/lino-noi-23.7.0.tar.gz
+[2023-08-05 12:25:50] INFO root fetch - processPackages [casdoor]: New version: [1.9.0] Old Version: [1.8.0]
+[2023-08-05 12:25:50] INFO root fetch - processPackages [pysource-codegen]: New version: [0.2.0] Old Version: [0.1.0]
+[2023-08-05 12:25:50] INFO root fetch - processPackages [example-package-linar2]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-08-05 12:25:51] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/98/25/be1faf6e5b9e17cf4b2266d88676bff68fbc758eb3942351d732c2409ada/lino-noi-23.8.0.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [example-package-linar2]: Downloading https://files.pythonhosted.org/packages/a6/42/3fe0ea6e3cb9c2c4fa64887320dc797a1794517aae128cdfe1a7ef86276b/example_package_linar2-0.0.1.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [pysource-codegen]: Downloading https://files.pythonhosted.org/packages/d0/e6/2adc050a674b1bbcd3bcf776c7ba06b5ec860373156d949f98002dfcb75f/pysource_codegen-0.1.0.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/b5/0d/ea0d365eef0e2cb9337578d932d25f5442b13bff76e2ce2f56d63355a341/casdoor-1.8.0.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [lino-noi]: executing diffoscope
+[2023-08-05 12:25:51] INFO root fetch - processPackages [lino-noi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-noi-23.7.0.tar.gz tmp/lino-noi-23.8.0.tar.gz --markdown 20230805/l/lino-noi/23.7.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-05 12:25:51] INFO root fetch - processPackages [example-package-linar2]: Downloading https://files.pythonhosted.org/packages/c6/0a/9cfd3d0f43002bc637184512f40bb1cdfcb7083fa4662eda6c1825c93519/example_package_linar2-0.1.1.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [pysource-codegen]: Downloading https://files.pythonhosted.org/packages/5d/ed/62f78a58e729dcd532841899b2a80605fc30c348e896da26fa3da3c2e070/pysource_codegen-0.2.0.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [example-package-linar2]: executing diffoscope
+[2023-08-05 12:25:51] INFO root fetch - processPackages [example-package-linar2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_linar2-0.0.1.tar.gz tmp/example_package_linar2-0.1.1.tar.gz --markdown 20230805/e/example-package-linar2/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 12:25:51] INFO root fetch - processPackages [pysource-codegen]: executing diffoscope
+[2023-08-05 12:25:51] INFO root fetch - processPackages [pysource-codegen]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pysource_codegen-0.1.0.tar.gz tmp/pysource_codegen-0.2.0.tar.gz --markdown 20230805/p/pysource-codegen/0.1.0-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 12:25:51] INFO root fetch - processPackages [casdoor]: Downloading https://files.pythonhosted.org/packages/40/23/ec811b0c57811259c23a5c1705697b64f4fe5a0a20fe40a04adbf8e1ab18/casdoor-1.9.0.tar.gz
+[2023-08-05 12:25:51] INFO root fetch - processPackages [casdoor]: executing diffoscope
+[2023-08-05 12:25:51] INFO root fetch - processPackages [casdoor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/casdoor-1.8.0.tar.gz tmp/casdoor-1.9.0.tar.gz --markdown 20230805/c/casdoor/1.8.0-1.9.0/diff.md --exclude *.pyd
+[2023-08-05 12:25:52] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-23.7.0.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-23.8.0.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - main [MainThread]: End processing [lino-noi]: success
+[2023-08-05 12:25:52] INFO root fetch - processPackages [pysource-codegen]: Remove: archive file [/home/abi/fetcher/tmp/pysource_codegen-0.1.0.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - processPackages [pysource-codegen]: Remove: archive file [/home/abi/fetcher/tmp/pysource_codegen-0.2.0.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - main [MainThread]: End processing [pysource-codegen]: success
+[2023-08-05 12:25:52] INFO root fetch - processPackages [example-package-linar2]: Remove: archive file [/home/abi/fetcher/tmp/example_package_linar2-0.0.1.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - processPackages [example-package-linar2]: Remove: archive file [/home/abi/fetcher/tmp/example_package_linar2-0.1.1.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - main [MainThread]: End processing [example-package-linar2]: success
+[2023-08-05 12:25:52] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.8.0.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.9.0.tar.gz]
+[2023-08-05 12:25:52] INFO root fetch - main [MainThread]: End processing [casdoor]: success
+[2023-08-05 12:25:52] INFO root fetch - main [MainThread]: Store serial: [19185665]
