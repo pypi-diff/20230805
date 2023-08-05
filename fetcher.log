@@ -15149,3 +15149,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:05:11] INFO root fetch - processPackages [alibabacloud-sas20181203-py2]: Remove: archive file [/home/abi/fetcher/tmp/alibabacloud_sas20181203_py2-2.2.2.tar.gz]
 [2023-08-05 18:05:11] INFO root fetch - main [MainThread]: End processing [alibabacloud-sas20181203-py2]: success
 [2023-08-05 18:05:11] INFO root fetch - main [MainThread]: Store serial: [19187718]
+[2023-08-05 18:10:26] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187718]
+[2023-08-05 18:10:31] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: lora-utils
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mbbank-lib
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ais-dom-frontend
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: cellar-extractor
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: openshift-python-utilities
+[2023-08-05 18:10:31] INFO root fetch - processPackages [mbbank-lib]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-05 18:10:31] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/c7/da/2963257c3531a303116028553082e1da0e2986d5c5dcd77871b79c9a8629/mbbank-lib-0.0.5.tar.gz
+[2023-08-05 18:10:31] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.56] Old Version: [1.0.55]
+[2023-08-05 18:10:31] INFO root fetch - processPackages [lora-utils]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ais-dom-frontend]: New version: [20230802.0] Old Version: [20230725.0]
+[2023-08-05 18:10:31] INFO root fetch - processPackages [openshift-python-utilities]: New version: [4.14.4] Old Version: [4.14.2]
+[2023-08-05 18:10:31] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/87/f5/0a25e756368770cf0734e8ef6eae21d38b2979e563bb73da7fa5cda49973/cellar_extractor-1.0.55.tar.gz
+[2023-08-05 18:10:31] INFO root fetch - processPackages [ais-dom-frontend]: Downloading https://files.pythonhosted.org/packages/6d/54/494cc8b75eef6857a6d8a065b69012665ccd2ebf6f4f8c823bcc7ebb3f71/ais_dom_frontend-20230725.0-py3-none-any.whl
+[2023-08-05 18:10:31] INFO root fetch - processPackages [lora-utils]: Downloading https://files.pythonhosted.org/packages/a7/99/5f4b0ae5d66fb1ca7e9d31b5c415a72629d1243e970fcca425746f6334bc/lora_utils-0.1.0.tar.gz
+[2023-08-05 18:10:32] WARNING root fetch - processPackages [ais-dom-frontend]: Skipping package: exceeds size limit 44317012>=10485760
+[2023-08-05 18:10:32] INFO root fetch - main [MainThread]: End processing [ais-dom-frontend] error
+[2023-08-05 18:10:32] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/61/0c/20e29e0c161f0c776a6d004dbc407ea19f6be3c14fae74d533770d6869e8/openshift-python-utilities-4.14.2.tar.gz
+[2023-08-05 18:10:32] INFO root fetch - processPackages [mbbank-lib]: Downloading https://files.pythonhosted.org/packages/53/4b/41f687bc4e17a7269792b8060a73760a85487e0187ed6ebb82d267ee22d5/mbbank-lib-0.0.6.tar.gz
+[2023-08-05 18:10:32] INFO root fetch - processPackages [mbbank-lib]: executing diffoscope
+[2023-08-05 18:10:32] INFO root fetch - processPackages [mbbank-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbbank-lib-0.0.5.tar.gz tmp/mbbank-lib-0.0.6.tar.gz --markdown 20230805/m/mbbank-lib/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-05 18:10:32] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/f1/41/b4353350dd6166a723446ff09feef879964d1ec3f9c31443b5cc931573bd/cellar_extractor-1.0.56.tar.gz
+[2023-08-05 18:10:32] INFO root fetch - processPackages [lora-utils]: Downloading https://files.pythonhosted.org/packages/40/8d/b3544f72b4eab4fc0bd4b7be7b4c11a7302bd9d79eb058ea743699ee0736/lora_utils-0.1.1.tar.gz
+[2023-08-05 18:10:32] INFO root fetch - processPackages [openshift-python-utilities]: Downloading https://files.pythonhosted.org/packages/2f/df/7fbbe1d089e299496d9ac3942cdda3eed63f38e68e9188e487ff3ab9b3f7/openshift-python-utilities-4.14.4.tar.gz
+[2023-08-05 18:10:32] INFO root fetch - processPackages [lora-utils]: executing diffoscope
+[2023-08-05 18:10:32] INFO root fetch - processPackages [lora-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lora_utils-0.1.0.tar.gz tmp/lora_utils-0.1.1.tar.gz --markdown 20230805/l/lora-utils/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 18:10:32] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-08-05 18:10:32] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.55.tar.gz tmp/cellar_extractor-1.0.56.tar.gz --markdown 20230805/c/cellar-extractor/1.0.55-1.0.56/diff.md --exclude *.pyd
+[2023-08-05 18:10:32] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.5.tar.gz]
+[2023-08-05 18:10:32] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.6.tar.gz]
+[2023-08-05 18:10:32] INFO root fetch - main [MainThread]: End processing [mbbank-lib]: success
+[2023-08-05 18:10:32] INFO root fetch - processPackages [openshift-python-utilities]: executing diffoscope
+[2023-08-05 18:10:32] INFO root fetch - processPackages [openshift-python-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openshift-python-utilities-4.14.2.tar.gz tmp/openshift-python-utilities-4.14.4.tar.gz --markdown 20230805/o/openshift-python-utilities/4.14.2-4.14.4/diff.md --exclude *.pyd
+[2023-08-05 18:10:33] INFO root fetch - processPackages [lora-utils]: Remove: archive file [/home/abi/fetcher/tmp/lora_utils-0.1.0.tar.gz]
+[2023-08-05 18:10:33] INFO root fetch - processPackages [lora-utils]: Remove: archive file [/home/abi/fetcher/tmp/lora_utils-0.1.1.tar.gz]
+[2023-08-05 18:10:33] INFO root fetch - main [MainThread]: End processing [lora-utils]: success
+[2023-08-05 18:10:33] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.55.tar.gz]
+[2023-08-05 18:10:33] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.56.tar.gz]
+[2023-08-05 18:10:33] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-08-05 18:10:33] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.2.tar.gz]
+[2023-08-05 18:10:33] INFO root fetch - processPackages [openshift-python-utilities]: Remove: archive file [/home/abi/fetcher/tmp/openshift-python-utilities-4.14.4.tar.gz]
+[2023-08-05 18:10:33] INFO root fetch - main [MainThread]: End processing [openshift-python-utilities]: success
+[2023-08-05 18:10:33] INFO root fetch - main [MainThread]: Store serial: [19187730]
