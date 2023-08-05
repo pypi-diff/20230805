@@ -11185,3 +11185,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:25:52] INFO root fetch - processPackages [casdoor]: Remove: archive file [/home/abi/fetcher/tmp/casdoor-1.9.0.tar.gz]
 [2023-08-05 12:25:52] INFO root fetch - main [MainThread]: End processing [casdoor]: success
 [2023-08-05 12:25:52] INFO root fetch - main [MainThread]: Store serial: [19185665]
+[2023-08-05 12:30:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185665]
+[2023-08-05 12:31:01] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 12:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: rapid-videocr
+[2023-08-05 12:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plot2vid
+[2023-08-05 12:31:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: example-package-linar2
+[2023-08-05 12:31:01] WARNING root fetch - processPackages [plot2vid]: Skipping, unable to determine old version
+[2023-08-05 12:31:01] INFO root fetch - processPackages [example-package-linar2]: New version: [0.1.1] Old Version: [0.0.1]
+[2023-08-05 12:31:01] INFO root fetch - main [MainThread]: End processing [plot2vid] error
+[2023-08-05 12:31:01] INFO root fetch - processPackages [example-package-linar2]: Downloading https://files.pythonhosted.org/packages/a6/42/3fe0ea6e3cb9c2c4fa64887320dc797a1794517aae128cdfe1a7ef86276b/example_package_linar2-0.0.1.tar.gz
+[2023-08-05 12:31:01] INFO root fetch - processPackages [rapid-videocr]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-08-05 12:31:01] INFO root fetch - processPackages [example-package-linar2]: Downloading https://files.pythonhosted.org/packages/c6/0a/9cfd3d0f43002bc637184512f40bb1cdfcb7083fa4662eda6c1825c93519/example_package_linar2-0.1.1.tar.gz
+[2023-08-05 12:31:01] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/c4/64/4538c75068b920b2fcf2c6279d7f93cb206e5a9b949519cdb4fed5dfd4cc/rapid_videocr-2.2.5-py3-none-any.whl
+[2023-08-05 12:31:01] INFO root fetch - processPackages [example-package-linar2]: executing diffoscope
+[2023-08-05 12:31:01] INFO root fetch - processPackages [example-package-linar2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/example_package_linar2-0.0.1.tar.gz tmp/example_package_linar2-0.1.1.tar.gz --markdown 20230805/e/example-package-linar2/0.0.1-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 12:31:01] INFO root fetch - processPackages [rapid-videocr]: Downloading https://files.pythonhosted.org/packages/22/7b/7238cb39b7981d4c2d71b30f6c6ff283a7f14a4d7b0317f07e0148ec16b6/rapid_videocr-2.2.6-py3-none-any.whl
+[2023-08-05 12:31:02] INFO root fetch - processPackages [rapid-videocr]: executing diffoscope
+[2023-08-05 12:31:02] INFO root fetch - processPackages [rapid-videocr]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rapid_videocr-2.2.5-py3-none-any.whl.zip tmp/rapid_videocr-2.2.6-py3-none-any.whl.zip --markdown 20230805/r/rapid-videocr/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-08-05 12:31:02] INFO root fetch - processPackages [example-package-linar2]: Remove: archive file [/home/abi/fetcher/tmp/example_package_linar2-0.0.1.tar.gz]
+[2023-08-05 12:31:02] INFO root fetch - processPackages [example-package-linar2]: Remove: archive file [/home/abi/fetcher/tmp/example_package_linar2-0.1.1.tar.gz]
+[2023-08-05 12:31:02] INFO root fetch - main [MainThread]: End processing [example-package-linar2]: success
+[2023-08-05 12:31:02] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.5-py3-none-any.whl.zip]
+[2023-08-05 12:31:02] INFO root fetch - processPackages [rapid-videocr]: Remove: archive file [/home/abi/fetcher/tmp/rapid_videocr-2.2.6-py3-none-any.whl.zip]
+[2023-08-05 12:31:02] INFO root fetch - main [MainThread]: End processing [rapid-videocr]: success
+[2023-08-05 12:31:02] INFO root fetch - main [MainThread]: Store serial: [19185680]
