@@ -11833,3 +11833,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:28:25] INFO root fetch - processPackages [djdantic]: Remove: archive file [/home/abi/fetcher/tmp/djdantic-0.0.9.tar.gz]
 [2023-08-05 13:28:25] INFO root fetch - main [MainThread]: End processing [djdantic]: success
 [2023-08-05 13:28:25] INFO root fetch - main [MainThread]: Store serial: [19186070]
+[2023-08-05 13:33:28] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186070]
+[2023-08-05 13:33:33] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: torchrec-nightly
+[2023-08-05 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sats-receiver
+[2023-08-05 13:33:33] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: algoworld-contracts
+[2023-08-05 13:33:33] INFO root fetch - processPackages [algoworld-contracts]: New version: [1.3.6] Old Version: [1.2.5]
+[2023-08-05 13:33:33] INFO root fetch - processPackages [sats-receiver]: New version: [0.1.76] Old Version: [0.1.19]
+[2023-08-05 13:33:33] INFO root fetch - processPackages [torchrec-nightly]: New version: [2023.8.5] Old Version: [2023.8.3]
+[2023-08-05 13:33:33] INFO root fetch - processPackages [algoworld-contracts]: Downloading https://files.pythonhosted.org/packages/d2/fc/d5b373489a654bdb6d62959663f1ef1ea601aefe6a9c8ea17321242bc3e8/algoworld_contracts-1.2.5.tar.gz
+[2023-08-05 13:33:34] INFO root fetch - processPackages [sats-receiver]: Downloading https://files.pythonhosted.org/packages/5e/df/4b0b45e9904acd50dcc4071bec8ab4f0128783c83f987fdac8cf40a10041/sats_receiver-0.1.19.tar.gz
+[2023-08-05 13:33:34] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/98/5a/fa4ec802fe382c0e45ec3e5f96e54af38e7d70840477004e462c29d18d47/torchrec_nightly-2023.8.3-py39-none-any.whl
+[2023-08-05 13:33:34] INFO root fetch - processPackages [algoworld-contracts]: Downloading https://files.pythonhosted.org/packages/4d/fa/5aa189e81d52bee5eb54e92e6c52c8f52cec8e3e47d691af678afd861f6f/algoworld_contracts-1.3.6.tar.gz
+[2023-08-05 13:33:34] INFO root fetch - processPackages [torchrec-nightly]: Downloading https://files.pythonhosted.org/packages/60/a6/1bb9a81ce36661657754a798f71f2e86e15b4d7cd356e8c6c2e4fec6c2b8/torchrec_nightly-2023.8.5-py39-none-any.whl
+[2023-08-05 13:33:34] INFO root fetch - processPackages [algoworld-contracts]: executing diffoscope
+[2023-08-05 13:33:34] INFO root fetch - processPackages [algoworld-contracts]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/algoworld_contracts-1.2.5.tar.gz tmp/algoworld_contracts-1.3.6.tar.gz --markdown 20230805/a/algoworld-contracts/1.2.5-1.3.6/diff.md --exclude *.pyd
+[2023-08-05 13:33:34] INFO root fetch - processPackages [sats-receiver]: Downloading https://files.pythonhosted.org/packages/87/87/9bb0b25b84a18043b0f7927d790100aef4b17650f7d88a9ee0a477e709d5/sats_receiver-0.1.76.tar.gz
+[2023-08-05 13:33:34] INFO root fetch - processPackages [sats-receiver]: executing diffoscope
+[2023-08-05 13:33:34] INFO root fetch - processPackages [sats-receiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sats_receiver-0.1.19.tar.gz tmp/sats_receiver-0.1.76.tar.gz --markdown 20230805/s/sats-receiver/0.1.19-0.1.76/diff.md --exclude *.pyd
+[2023-08-05 13:33:34] INFO root fetch - processPackages [torchrec-nightly]: executing diffoscope
+[2023-08-05 13:33:34] INFO root fetch - processPackages [torchrec-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/torchrec_nightly-2023.8.3-py39-none-any.whl.zip tmp/torchrec_nightly-2023.8.5-py39-none-any.whl.zip --markdown 20230805/t/torchrec-nightly/2023.8.3-2023.8.5/diff.md --exclude *.pyd
+[2023-08-05 13:33:35] INFO root fetch - processPackages [algoworld-contracts]: Remove: archive file [/home/abi/fetcher/tmp/algoworld_contracts-1.2.5.tar.gz]
+[2023-08-05 13:33:35] INFO root fetch - processPackages [algoworld-contracts]: Remove: archive file [/home/abi/fetcher/tmp/algoworld_contracts-1.3.6.tar.gz]
+[2023-08-05 13:33:35] INFO root fetch - main [MainThread]: End processing [algoworld-contracts]: success
+[2023-08-05 13:33:35] INFO root fetch - processPackages [sats-receiver]: Remove: archive file [/home/abi/fetcher/tmp/sats_receiver-0.1.19.tar.gz]
+[2023-08-05 13:33:35] INFO root fetch - processPackages [sats-receiver]: Remove: archive file [/home/abi/fetcher/tmp/sats_receiver-0.1.76.tar.gz]
+[2023-08-05 13:33:35] INFO root fetch - main [MainThread]: End processing [sats-receiver]: success
+[2023-08-05 13:33:35] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.3-py39-none-any.whl.zip]
+[2023-08-05 13:33:35] INFO root fetch - processPackages [torchrec-nightly]: Remove: archive file [/home/abi/fetcher/tmp/torchrec_nightly-2023.8.5-py39-none-any.whl.zip]
+[2023-08-05 13:33:35] INFO root fetch - main [MainThread]: End processing [torchrec-nightly]: success
+[2023-08-05 13:33:35] INFO root fetch - main [MainThread]: Store serial: [19186081]
