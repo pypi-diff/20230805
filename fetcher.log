@@ -8318,3 +8318,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:09:21] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
 [2023-08-05 07:09:21] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
 [2023-08-05 07:09:21] INFO root fetch - main [MainThread]: Store serial: [19184394]
+[2023-08-05 07:14:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184394]
+[2023-08-05 07:14:29] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pytest-homeassistant-custom-component
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: score-regression
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-server-ux
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opennsfw2
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: tflite-runtime-nightly
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: webint
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bgq
+[2023-08-05 07:14:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: odoo-addons-oca-social
+[2023-08-05 07:14:29] INFO root fetch - processPackages [score-regression]: New version: [0.0.14] Old Version: [0.0.13]
+[2023-08-05 07:14:29] INFO root fetch - processPackages [bgq]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 07:14:29] INFO root fetch - processPackages [tflite-runtime-nightly]: New version: [2.15.0.dev20230803] Old Version: [2.15.0.dev20230802]
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: New version: [16.0.20230713.0] Old Version: [16.0.20230628.1]
+[2023-08-05 07:14:30] INFO root fetch - processPackages [webint]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-social]: New version: [16.0.20230804.0] Old Version: [16.0.20230717.0]
+[2023-08-05 07:14:30] INFO root fetch - processPackages [opennsfw2]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-05 07:14:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/d4/c9/aea682ded5712f6dbd7c506a16976f38224adb14c0b6d64bb6c4cdfd0aaf/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-05 07:14:30] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-05 07:14:30] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/da/50/0a56df04ea5f413324d88ee1766b51023090616dbbc12acb79f803e247c4/score_regression-0.0.13.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [bgq]: Downloading https://files.pythonhosted.org/packages/71/06/d00fa17c51321d66cee4ba36ea358bce6772e02cf3269ff561b807fe309d/bgq-0.1.2.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/5a/08/ccd385557c701a973345c113c1a24d4c500e02f852694b8f278f9c58df01/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl
+[2023-08-05 07:14:30] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/42/4b/ccc995b423281681af4329fc9b74ebca49b5bf43a516d576459c419b486b/webint-0.1.8.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/e7/d9/ff02694d7fc99abf880ce7481016cde96f134be44f669b03cc1206738020/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl
+[2023-08-05 07:14:30] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/8a/3b/b76075872ac35edad46a4fd3401c3faebda7af874b306526a1d7e1a4336a/pytest-homeassistant-custom-component-0.9.8.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [opennsfw2]: Downloading https://files.pythonhosted.org/packages/d7/67/7dbfa1c9fe70ec4b1138a7b07d4b49fd3831147f4e9438110111f7f919e2/opennsfw2-0.9.1.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [score-regression]: Downloading https://files.pythonhosted.org/packages/68/56/ec1d661d750685a6b2b15fe39d188250638d778c57def610d42d22a1f53b/score_regression-0.0.14.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [tflite-runtime-nightly]: Downloading https://files.pythonhosted.org/packages/37/2b/604545e7f4335116f27c2ae83cd4376413d953a9f5b32d8aaf334bca0b71/tflite_runtime_nightly-2.15.0.dev20230803-cp39-cp39-manylinux_2_34_armv7l.whl
+[2023-08-05 07:14:30] INFO root fetch - processPackages [bgq]: Downloading https://files.pythonhosted.org/packages/80/42/bb94d75aa7b1b93b9b308becc61b95b9b44682d9c975a5cb97645cc790e9/bgq-0.1.3.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-social]: Downloading https://files.pythonhosted.org/packages/8b/42/80148d26039917e1ff77f3035e6f38ac021f35dfeab05446751d98773258/odoo_addons_oca_social-16.0.20230804.0-py3-none-any.whl
+[2023-08-05 07:14:30] INFO root fetch - processPackages [score-regression]: executing diffoscope
+[2023-08-05 07:14:30] INFO root fetch - processPackages [score-regression]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_regression-0.0.13.tar.gz tmp/score_regression-0.0.14.tar.gz --markdown 20230805/s/score-regression/0.0.13-0.0.14/diff.md --exclude *.pyd
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Downloading https://files.pythonhosted.org/packages/99/0f/253e610c09d98873eeb107a07ae8493a2ac0494b23432ff5faa8f832dacf/odoo_addons_oca_server_ux-16.0.20230713.0-py3-none-any.whl
+[2023-08-05 07:14:30] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Downloading https://files.pythonhosted.org/packages/60/4e/ba1174db4b883610c2a5afba7a30857178ada41a2368936b2e3d764bfe6a/pytest-homeassistant-custom-component-0.9.9.tar.gz
+[2023-08-05 07:14:30] INFO root fetch - processPackages [bgq]: executing diffoscope
+[2023-08-05 07:14:30] INFO root fetch - processPackages [bgq]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgq-0.1.2.tar.gz tmp/bgq-0.1.3.tar.gz --markdown 20230805/b/bgq/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-social]: executing diffoscope
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-social]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip tmp/odoo_addons_oca_social-16.0.20230804.0-py3-none-any.whl.zip --markdown 20230805/o/odoo-addons-oca-social/16.0.20230717.0-16.0.20230804.0/diff.md --exclude *.pyd
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: executing diffoscope
+[2023-08-05 07:14:30] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip tmp/odoo_addons_oca_server_ux-16.0.20230713.0-py3-none-any.whl.zip --markdown 20230805/o/odoo-addons-oca-server-ux/16.0.20230628.1-16.0.20230713.0/diff.md --exclude *.pyd
+[2023-08-05 07:14:30] INFO root fetch - processPackages [opennsfw2]: Downloading https://files.pythonhosted.org/packages/0d/ed/5aebd45d49c9153260db3455519c586b4a330f7954ffabd276ba7223d4fd/opennsfw2-0.9.2.tar.gz
+[2023-08-05 07:14:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: executing diffoscope
+[2023-08-05 07:14:31] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz --markdown 20230805/p/pytest-homeassistant-custom-component/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 07:14:31] INFO root fetch - processPackages [opennsfw2]: executing diffoscope
+[2023-08-05 07:14:31] INFO root fetch - processPackages [opennsfw2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opennsfw2-0.9.1.tar.gz tmp/opennsfw2-0.9.2.tar.gz --markdown 20230805/o/opennsfw2/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-05 07:14:31] INFO root fetch - processPackages [tflite-runtime-nightly]: executing diffoscope
+[2023-08-05 07:14:31] INFO root fetch - processPackages [tflite-runtime-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip tmp/tflite_runtime_nightly-2.15.0.dev20230803-cp39-cp39-manylinux_2_34_armv7l.whl.zip --markdown 20230805/t/tflite-runtime-nightly/2.15.0.dev20230802-2.15.0.dev20230803/diff.md --exclude *.pyd
+[2023-08-05 07:14:31] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.13.tar.gz]
+[2023-08-05 07:14:31] INFO root fetch - processPackages [score-regression]: Remove: archive file [/home/abi/fetcher/tmp/score_regression-0.0.14.tar.gz]
+[2023-08-05 07:14:31] INFO root fetch - main [MainThread]: End processing [score-regression]: success
+[2023-08-05 07:14:32] INFO root fetch - processPackages [bgq]: Remove: archive file [/home/abi/fetcher/tmp/bgq-0.1.2.tar.gz]
+[2023-08-05 07:14:32] INFO root fetch - processPackages [bgq]: Remove: archive file [/home/abi/fetcher/tmp/bgq-0.1.3.tar.gz]
+[2023-08-05 07:14:32] INFO root fetch - main [MainThread]: End processing [bgq]: success
+[2023-08-05 07:14:32] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230717.0-py3-none-any.whl.zip]
+[2023-08-05 07:14:32] INFO root fetch - processPackages [odoo-addons-oca-social]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_social-16.0.20230804.0-py3-none-any.whl.zip]
+[2023-08-05 07:14:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-social]: success
+[2023-08-05 07:14:32] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230628.1-py3-none-any.whl.zip]
+[2023-08-05 07:14:32] INFO root fetch - processPackages [odoo-addons-oca-server-ux]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_server_ux-16.0.20230713.0-py3-none-any.whl.zip]
+[2023-08-05 07:14:32] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-server-ux]: success
+[2023-08-05 07:14:32] INFO root fetch - processPackages [opennsfw2]: Remove: archive file [/home/abi/fetcher/tmp/opennsfw2-0.9.1.tar.gz]
+[2023-08-05 07:14:32] INFO root fetch - processPackages [opennsfw2]: Remove: archive file [/home/abi/fetcher/tmp/opennsfw2-0.9.2.tar.gz]
+[2023-08-05 07:14:32] INFO root fetch - main [MainThread]: End processing [opennsfw2]: success
+[2023-08-05 07:14:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.8.tar.gz]
+[2023-08-05 07:14:32] INFO root fetch - processPackages [pytest-homeassistant-custom-component]: Remove: archive file [/home/abi/fetcher/tmp/pytest-homeassistant-custom-component-0.9.9.tar.gz]
+[2023-08-05 07:14:32] INFO root fetch - main [MainThread]: End processing [pytest-homeassistant-custom-component]: success
+[2023-08-05 07:14:32] INFO root fetch - processPackages [webint]: Downloading https://files.pythonhosted.org/packages/f4/be/5553cc674f3905c35a02f9069bad2384cbae83ac40e14f3949e72c082fa7/webint-0.1.9.tar.gz
+[2023-08-05 07:14:35] INFO root fetch - processPackages [webint]: executing diffoscope
+[2023-08-05 07:14:35] INFO root fetch - processPackages [webint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/webint-0.1.8.tar.gz tmp/webint-0.1.9.tar.gz --markdown 20230805/w/webint/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 07:14:40] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.8.tar.gz]
+[2023-08-05 07:14:40] INFO root fetch - processPackages [webint]: Remove: archive file [/home/abi/fetcher/tmp/webint-0.1.9.tar.gz]
+[2023-08-05 07:14:40] INFO root fetch - main [MainThread]: End processing [webint]: success
+[2023-08-05 07:14:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230802-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-05 07:14:47] INFO root fetch - processPackages [tflite-runtime-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tflite_runtime_nightly-2.15.0.dev20230803-cp39-cp39-manylinux_2_34_armv7l.whl.zip]
+[2023-08-05 07:14:47] INFO root fetch - main [MainThread]: End processing [tflite-runtime-nightly]: success
+[2023-08-05 07:14:47] INFO root fetch - main [MainThread]: Store serial: [19184426]
