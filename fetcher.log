@@ -7561,3 +7561,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 05:43:21] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip]
 [2023-08-05 05:43:21] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
 [2023-08-05 05:43:21] INFO root fetch - main [MainThread]: Store serial: [19184077]
+[2023-08-05 05:48:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184077]
+[2023-08-05 05:48:46] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-metadata
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: bluetooth-data-tools
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: calfcv
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo12-addon-assets-management
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: ykenan-file
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: odoo14-addon-assets-management
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lidamao-utils
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: twpl
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: quickMTF
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: odoo-addons-oca-l10n-italy
+[2023-08-05 05:48:46] INFO root fetch - processPackages [calfcv]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 05:48:46] INFO root fetch - processPackages [odoo14-addon-assets-management]: New version: [14.0.1.0.8.dev2] Old Version: [14.0.1.0.8.dev1]
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ykenan-file]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-05 05:48:46] WARNING root fetch - processPackages [twpl]: Skipping, unable to determine old version
+[2023-08-05 05:48:46] INFO root fetch - main [MainThread]: End processing [twpl] error
+[2023-08-05 05:48:46] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/07/c6/18e1a4d1e65a7d6778f22031b786a678cd100c23be0959c2846624519584/odoo14_addon_assets_management-14.0.1.0.8.dev1-py3-none-any.whl
+[2023-08-05 05:48:46] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/94/97/0cb72e0656e05c75e509c8c5240aca83afec6c70b776689d4bd1b66731ee/calfcv-0.0.7.tar.gz
+[2023-08-05 05:48:46] INFO root fetch - processPackages [bluetooth-data-tools]: New version: [1.7.0] Old Version: [1.6.1]
+[2023-08-05 05:48:46] WARNING root fetch - processPackages [quickMTF]: Skipping, unable to determine old version
+[2023-08-05 05:48:46] INFO root fetch - main [MainThread]: End processing [quickMTF] error
+[2023-08-05 05:48:46] WARNING root fetch - processPackages [lidamao-utils]: Skipping, unable to determine old version
+[2023-08-05 05:48:46] INFO root fetch - main [MainThread]: End processing [lidamao-utils] error
+[2023-08-05 05:48:46] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: New version: [16.0.20230804.0] Old Version: [16.0.20230721.0]
+[2023-08-05 05:48:46] INFO root fetch - processPackages [odoo12-addon-assets-management]: New version: [12.0.1.0.1.99.dev1] Old Version: [12.0.1.0.1]
+[2023-08-05 05:48:46] INFO root fetch - processPackages [ykenan-file]: Downloading https://files.pythonhosted.org/packages/98/f2/ecf9bb2ae5e4d4dda83d254411c62f45baf4944bc618e994877192fe7384/ykenan_file-0.2.0.tar.gz
+[2023-08-05 05:48:47] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/dc/dd/26ec626571ab4fa233d0d3a3b5bde78b1ea99d5494e5061b82928b6b4627/odoo12_addon_assets_management-12.0.1.0.1-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/86/53/724c190ba2678437de784f5b8220b4cb6ca6f08b001e8af01c8f22279891/odoo_addons_oca_l10n_italy-16.0.20230721.0-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/8d/02/e3d76769df1aad32006c55e4497953dcec5e7c2d9d75daba26b87fae05d2/bluetooth_data_tools-1.6.1.tar.gz
+[2023-08-05 05:48:47] INFO root fetch - processPackages [calfcv]: Downloading https://files.pythonhosted.org/packages/3e/23/711cb250e4bf95a971ed99c65b906bf98cdda9d7c02183d02f00d70657e6/calfcv-0.0.8.tar.gz
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/87/e9/c7dee5688efce5a204226dc363a95d2fbf4967ba55f047d2351d630d81b3/odoo14_addon_assets_management-14.0.1.0.8.dev2-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [ykenan-file]: Downloading https://files.pythonhosted.org/packages/15/ab/eb2665b49511e20ba69e256aacb49b42d9bee00d1d94b5881a3462407f22/ykenan_file-0.2.1.tar.gz
+[2023-08-05 05:48:47] INFO root fetch - processPackages [calfcv]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [calfcv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/calfcv-0.0.7.tar.gz tmp/calfcv-0.0.8.tar.gz --markdown 20230805/c/calfcv/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 05:48:47] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo14-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_assets_management-14.0.1.0.8.dev1-py3-none-any.whl.zip tmp/odoo14_addon_assets_management-14.0.1.0.8.dev2-py3-none-any.whl.zip --markdown 20230805/o/odoo14-addon-assets-management/14.0.1.0.8.dev1-14.0.1.0.8.dev2/diff.md --exclude *.pyd
+[2023-08-05 05:48:47] INFO root fetch - processPackages [ykenan-file]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [ykenan-file]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ykenan_file-0.2.0.tar.gz tmp/ykenan_file-0.2.1.tar.gz --markdown 20230805/y/ykenan-file/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo12-addon-assets-management]: Downloading https://files.pythonhosted.org/packages/14/ac/92334260e44be8ca9f75865cab3da8a1a156b46fe923d68799e5937d90c7/odoo12_addon_assets_management-12.0.1.0.1.99.dev1-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [bluetooth-data-tools]: Downloading https://files.pythonhosted.org/packages/df/1f/f7332f5557764336e7fd95c9c0d274f20ce2db12d1f3d9141ba4b94d30d0/bluetooth_data_tools-1.7.0.tar.gz
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Downloading https://files.pythonhosted.org/packages/1c/87/4813acf693ad8f204409a49ac2bac6774b8afcf9a8fc7700e845b1ebc54f/odoo_addons_oca_l10n_italy-16.0.20230804.0-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [bluetooth-data-tools]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [bluetooth-data-tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bluetooth_data_tools-1.6.1.tar.gz tmp/bluetooth_data_tools-1.7.0.tar.gz --markdown 20230805/b/bluetooth-data-tools/1.6.1-1.7.0/diff.md --exclude *.pyd
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo12-addon-assets-management]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo12-addon-assets-management]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo12_addon_assets_management-12.0.1.0.1-py3-none-any.whl.zip tmp/odoo12_addon_assets_management-12.0.1.0.1.99.dev1-py3-none-any.whl.zip --markdown 20230805/o/odoo12-addon-assets-management/12.0.1.0.1-12.0.1.0.1.99.dev1/diff.md --exclude *.pyd
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_l10n_italy-16.0.20230721.0-py3-none-any.whl.zip tmp/odoo_addons_oca_l10n_italy-16.0.20230804.0-py3-none-any.whl.zip --markdown 20230805/o/odoo-addons-oca-l10n-italy/16.0.20230721.0-16.0.20230804.0/diff.md --exclude *.pyd
+[2023-08-05 05:48:47] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-05 05:48:47] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-05 05:48:47] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230805/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 05:48:48] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.7.tar.gz]
+[2023-08-05 05:48:48] INFO root fetch - processPackages [calfcv]: Remove: archive file [/home/abi/fetcher/tmp/calfcv-0.0.8.tar.gz]
+[2023-08-05 05:48:48] INFO root fetch - main [MainThread]: End processing [calfcv]: success
+[2023-08-05 05:48:48] INFO root fetch - processPackages [ykenan-file]: Remove: archive file [/home/abi/fetcher/tmp/ykenan_file-0.2.0.tar.gz]
+[2023-08-05 05:48:48] INFO root fetch - processPackages [ykenan-file]: Remove: archive file [/home/abi/fetcher/tmp/ykenan_file-0.2.1.tar.gz]
+[2023-08-05 05:48:48] INFO root fetch - main [MainThread]: End processing [ykenan-file]: success
+[2023-08-05 05:48:48] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.6.1.tar.gz]
+[2023-08-05 05:48:48] INFO root fetch - processPackages [bluetooth-data-tools]: Remove: archive file [/home/abi/fetcher/tmp/bluetooth_data_tools-1.7.0.tar.gz]
+[2023-08-05 05:48:48] INFO root fetch - main [MainThread]: End processing [bluetooth-data-tools]: success
+[2023-08-05 05:48:48] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_italy-16.0.20230721.0-py3-none-any.whl.zip]
+[2023-08-05 05:48:48] INFO root fetch - processPackages [odoo-addons-oca-l10n-italy]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_l10n_italy-16.0.20230804.0-py3-none-any.whl.zip]
+[2023-08-05 05:48:48] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-l10n-italy]: success
+[2023-08-05 05:48:48] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.8.dev1-py3-none-any.whl.zip]
+[2023-08-05 05:48:48] INFO root fetch - processPackages [odoo14-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_assets_management-14.0.1.0.8.dev2-py3-none-any.whl.zip]
+[2023-08-05 05:48:48] INFO root fetch - main [MainThread]: End processing [odoo14-addon-assets-management]: success
+[2023-08-05 05:48:49] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.1-py3-none-any.whl.zip]
+[2023-08-05 05:48:49] INFO root fetch - processPackages [odoo12-addon-assets-management]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_assets_management-12.0.1.0.1.99.dev1-py3-none-any.whl.zip]
+[2023-08-05 05:48:49] INFO root fetch - main [MainThread]: End processing [odoo12-addon-assets-management]: success
+[2023-08-05 05:48:49] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 05:48:49] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-05 05:48:49] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-05 05:48:49] INFO root fetch - main [MainThread]: Store serial: [19184109]
