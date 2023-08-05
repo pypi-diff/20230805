@@ -15881,3 +15881,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:10:26] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-0.0.8.tar.gz]
 [2023-08-05 19:10:26] INFO root fetch - main [MainThread]: End processing [am2r-yams]: success
 [2023-08-05 19:10:26] INFO root fetch - main [MainThread]: Store serial: [19188035]
+[2023-08-05 19:15:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188035]
+[2023-08-05 19:15:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gammarer.aws-ec2-instance-connect-custom-resource
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: limao
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pytraeger
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aa-miningtaxes
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: k8sutils
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: litellm
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: bimmer-connected
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: geomancy
+[2023-08-05 19:15:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: irene-pro
+[2023-08-05 19:15:35] INFO root fetch - processPackages [litellm]: New version: [0.1.3] Old Version: [0.1.238]
+[2023-08-05 19:15:35] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-05 19:15:35] WARNING root fetch - processPackages [k8sutils]: Skipping, unable to determine old version
+[2023-08-05 19:15:35] INFO root fetch - main [MainThread]: End processing [k8sutils] error
+[2023-08-05 19:15:35] ERROR root fetch - processPackages [pytraeger]: Unable to get metadata: No such project 'pytraeger'
+[2023-08-05 19:15:35] INFO root fetch - main [MainThread]: End processing [pytraeger] error
+[2023-08-05 19:15:35] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/13/20/c071ceb9d352af280a5feff6769f012d22ab2779c41f5ab1150ea1a7fa2b/litellm-0.1.238.tar.gz
+[2023-08-05 19:15:35] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/02/84/53d9af231ae417392b8cf916016b6ebdfbc6a5035a937ef4a4b793c93bb8/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz
+[2023-08-05 19:15:35] WARNING root fetch - processPackages [limao]: Skipping, unable to determine old version
+[2023-08-05 19:15:35] INFO root fetch - main [MainThread]: End processing [limao] error
+[2023-08-05 19:15:35] INFO root fetch - processPackages [aa-miningtaxes]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-05 19:15:35] INFO root fetch - processPackages [geomancy]: New version: [1.1.1] Old Version: [1.0.0]
+[2023-08-05 19:15:35] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 19:15:35] INFO root fetch - processPackages [bimmer-connected]: New version: [0.9.6] Old Version: [0.9.5]
+[2023-08-05 19:15:36] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Downloading https://files.pythonhosted.org/packages/7c/1d/e7137888c846c616b7512dd23bad20cfe2b2f147461f96689a373187927f/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/39/64/c4e55485e6d772b15175375ca59650a5af4a3f7e712097ac2078078ab373/aa-miningtaxes-1.2.8.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/10/80/0b1e185b963b0359f9a226896ebf5fb2183ad70a467146beb3ef75a78079/geomancy-1.0.0.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [bimmer-connected]: Downloading https://files.pythonhosted.org/packages/7c/aa/46a3e536f963dd4b99f0fa5e5e99e187586a44cd1708628848fda21dd74c/bimmer_connected-0.9.5.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/9a/80/13925594b7883d8e2c958c0b143913741fdd88b7f438b48cf5164b7af4a1/litellm-0.1.3.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: executing diffoscope
+[2023-08-05 19:15:36] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz --markdown 20230805/g/gammarer.aws-ec2-instance-connect-custom-resource/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-05 19:15:36] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 19:15:36] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.238.tar.gz tmp/litellm-0.1.3.tar.gz --markdown 20230805/l/litellm/0.1.238-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 19:15:36] INFO root fetch - processPackages [geomancy]: Downloading https://files.pythonhosted.org/packages/91/99/85349df66277c46306b9574e64fa9652adef29f67c662c260931607493c9/geomancy-1.1.1.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [aa-miningtaxes]: Downloading https://files.pythonhosted.org/packages/db/06/9e86cd7848559f1c04f901cb810b8abc9ab64b8789572d2eee63d461ef4e/aa-miningtaxes-1.2.9.tar.gz
+[2023-08-05 19:15:36] INFO root fetch - processPackages [geomancy]: executing diffoscope
+[2023-08-05 19:15:36] INFO root fetch - processPackages [geomancy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/geomancy-1.0.0.tar.gz tmp/geomancy-1.1.1.tar.gz --markdown 20230805/g/geomancy/1.0.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 19:15:36] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-05 19:15:36] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230805/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 19:15:36] INFO root fetch - processPackages [aa-miningtaxes]: executing diffoscope
+[2023-08-05 19:15:36] INFO root fetch - processPackages [aa-miningtaxes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aa-miningtaxes-1.2.8.tar.gz tmp/aa-miningtaxes-1.2.9.tar.gz --markdown 20230805/a/aa-miningtaxes/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-05 19:15:37] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.8.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - processPackages [gammarer.aws-ec2-instance-connect-custom-resource]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ec2-instance-connect-custom-resource-0.4.9.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ec2-instance-connect-custom-resource]: success
+[2023-08-05 19:15:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.238.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.3.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 19:15:37] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-05 19:15:37] INFO root fetch - processPackages [bimmer-connected]: Downloading https://files.pythonhosted.org/packages/f0/5b/7c1571b36dc97d1164dee2b34b947abbb48769488c33d9204d82aaee852d/bimmer_connected-0.9.6.tar.gz
+[2023-08-05 19:15:37] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-1.0.0.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-1.1.1.tar.gz]
+[2023-08-05 19:15:37] INFO root fetch - main [MainThread]: End processing [geomancy]: success
+[2023-08-05 19:15:38] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.8.tar.gz]
+[2023-08-05 19:15:38] INFO root fetch - processPackages [aa-miningtaxes]: Remove: archive file [/home/abi/fetcher/tmp/aa-miningtaxes-1.2.9.tar.gz]
+[2023-08-05 19:15:38] INFO root fetch - main [MainThread]: End processing [aa-miningtaxes]: success
+[2023-08-05 19:15:39] INFO root fetch - processPackages [bimmer-connected]: executing diffoscope
+[2023-08-05 19:15:39] INFO root fetch - processPackages [bimmer-connected]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bimmer_connected-0.9.5.tar.gz tmp/bimmer_connected-0.9.6.tar.gz --markdown 20230805/b/bimmer-connected/0.9.5-0.9.6/diff.md --exclude *.pyd
+[2023-08-05 19:15:40] INFO root fetch - processPackages [bimmer-connected]: Remove: archive file [/home/abi/fetcher/tmp/bimmer_connected-0.9.5.tar.gz]
+[2023-08-05 19:15:40] INFO root fetch - processPackages [bimmer-connected]: Remove: archive file [/home/abi/fetcher/tmp/bimmer_connected-0.9.6.tar.gz]
+[2023-08-05 19:15:40] INFO root fetch - main [MainThread]: End processing [bimmer-connected]: success
+[2023-08-05 19:15:40] INFO root fetch - main [MainThread]: Store serial: [19188069]
