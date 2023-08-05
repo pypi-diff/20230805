@@ -16936,3 +16936,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:39:16] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
 [2023-08-05 20:39:16] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
 [2023-08-05 20:39:16] INFO root fetch - main [MainThread]: Store serial: [19188512]
+[2023-08-05 20:44:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188512]
+[2023-08-05 20:44:29] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pxutil-pygojrc
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: testlibreria
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: bluerpc-client
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jufinance
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: konfuzio-sdk
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: seismicio
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pyfmrheo
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ladderbot
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: nyct-gtfs
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: movingpandas
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ladderbot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 20:44:29] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-05 20:44:29] WARNING root fetch - processPackages [testlibreria]: Skipping, unable to determine old version
+[2023-08-05 20:44:29] INFO root fetch - processPackages [testlibreria]: Start processing: mecha
+[2023-08-05 20:44:29] INFO root fetch - main [MainThread]: End processing [testlibreria] error
+[2023-08-05 20:44:29] INFO root fetch - processPackages [nyct-gtfs]: New version: [1.3.0] Old Version: [1.2.0]
+[2023-08-05 20:44:29] WARNING root fetch - processPackages [bluerpc-client]: Skipping, unable to determine old version
+[2023-08-05 20:44:29] INFO root fetch - main [MainThread]: End processing [bluerpc-client] error
+[2023-08-05 20:44:29] INFO root fetch - processPackages [pyfmrheo]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 20:44:29] WARNING root fetch - processPackages [pxutil-pygojrc]: Skipping, unable to determine old version
+[2023-08-05 20:44:29] INFO root fetch - main [MainThread]: End processing [pxutil-pygojrc] error
+[2023-08-05 20:44:29] INFO root fetch - processPackages [jufinance]: New version: [0.0.12] Old Version: [0.0.11]
+[2023-08-05 20:44:29] INFO root fetch - processPackages [seismicio]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 20:44:29] INFO root fetch - processPackages [movingpandas]: New version: [0.9rc3] Old Version: [0.9rc2]
+[2023-08-05 20:44:29] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/9a/53/d3be742802f467ae71724ff48887b2267cea798c0bdf7ed06f4ea0008f9a/ladderbot-0.0.4.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [jufinance]: Downloading https://files.pythonhosted.org/packages/7b/e1/e006a1249b9e4039276ae2b29c24c3ad3eb6799342f7d0e4225aa01159c1/jufinance-0.0.11.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [mecha]: New version: [0.9.2] Old Version: [0.9.1]
+[2023-08-05 20:44:30] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [pyfmrheo]: Downloading https://files.pythonhosted.org/packages/26/c9/d90a273025ef51afe89dfc08f4bb72ed7804e2dca76c46f164e7c456b136/pyfmrheo-0.1.1.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [movingpandas]: Downloading https://files.pythonhosted.org/packages/1d/d2/3504611926d9edf4bc48973591f0ca895e3966f904dbd158d7d2fb8b6959/movingpandas-0.9rc2.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [seismicio]: Downloading https://files.pythonhosted.org/packages/5c/7c/8b56d3bc622b3163fa7a69f6b29f697ffe3a2eaaf0a817576088168658e2/seismicio-0.0.8.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [nyct-gtfs]: Downloading https://files.pythonhosted.org/packages/cc/47/653fda18fcbb987f807bfdfd644f53cc0f4e877993713374d668fb6a16d2/nyct-gtfs-1.2.0.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/3a/86/9d2ff7b913ad4519720de891fbc01eb47e5d111297e795d3c45e1e99c414/ladderbot-0.0.5.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-05 20:44:30] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230805/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-05 20:44:30] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/28/57/da22dd551f33f6b582c19b734b74b26aee1d4803dcb574a2f1364532ba4d/mecha-0.9.1.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [jufinance]: Downloading https://files.pythonhosted.org/packages/df/f7/270a9c5fa950dd37cd93a3a5d4969fb62e35acf1aa1ffa7780802d6280fc/jufinance-0.0.12.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 20:44:30] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.4.tar.gz tmp/ladderbot-0.0.5.tar.gz --markdown 20230805/l/ladderbot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 20:44:30] INFO root fetch - processPackages [pyfmrheo]: Downloading https://files.pythonhosted.org/packages/36/fd/a3b5be40e01a5f3165dcd790e40c83e25e25ff841e067d0facfaf817870a/pyfmrheo-0.1.2.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [seismicio]: Downloading https://files.pythonhosted.org/packages/a7/dd/49d71bb14e326c405600335e97546f871cf0a5b68cb9f83f5da6deeabf97/seismicio-0.0.9.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [jufinance]: executing diffoscope
+[2023-08-05 20:44:30] INFO root fetch - processPackages [jufinance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jufinance-0.0.11.tar.gz tmp/jufinance-0.0.12.tar.gz --markdown 20230805/j/jufinance/0.0.11-0.0.12/diff.md --exclude *.pyd
+[2023-08-05 20:44:30] INFO root fetch - processPackages [movingpandas]: Downloading https://files.pythonhosted.org/packages/35/0b/a148f8b99efb7a95ed99aa84405bed86a3e86c30d8c889c1aa65dfb629ad/movingpandas-0.9rc3.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [nyct-gtfs]: Downloading https://files.pythonhosted.org/packages/53/91/7ee2fdc122cdcdb250a720dfb615889649b470563237ca68783bfa8209c4/nyct-gtfs-1.3.0.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [seismicio]: executing diffoscope
+[2023-08-05 20:44:30] INFO root fetch - processPackages [seismicio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seismicio-0.0.8.tar.gz tmp/seismicio-0.0.9.tar.gz --markdown 20230805/s/seismicio/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 20:44:30] INFO root fetch - processPackages [mecha]: Downloading https://files.pythonhosted.org/packages/6f/a1/0f57164803886c9e226d6e5c23400fa86bc0a33db9e0dde0312bc627047f/mecha-0.9.2.tar.gz
+[2023-08-05 20:44:30] INFO root fetch - processPackages [pyfmrheo]: executing diffoscope
+[2023-08-05 20:44:30] INFO root fetch - processPackages [pyfmrheo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfmrheo-0.1.1.tar.gz tmp/pyfmrheo-0.1.2.tar.gz --markdown 20230805/p/pyfmrheo/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 20:44:30] INFO root fetch - processPackages [movingpandas]: executing diffoscope
+[2023-08-05 20:44:30] INFO root fetch - processPackages [movingpandas]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/movingpandas-0.9rc2.tar.gz tmp/movingpandas-0.9rc3.tar.gz --markdown 20230805/m/movingpandas/0.9rc2-0.9rc3/diff.md --exclude *.pyd
+[2023-08-05 20:44:31] INFO root fetch - processPackages [nyct-gtfs]: executing diffoscope
+[2023-08-05 20:44:31] INFO root fetch - processPackages [nyct-gtfs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nyct-gtfs-1.2.0.tar.gz tmp/nyct-gtfs-1.3.0.tar.gz --markdown 20230805/n/nyct-gtfs/1.2.0-1.3.0/diff.md --exclude *.pyd
+[2023-08-05 20:44:31] INFO root fetch - processPackages [mecha]: executing diffoscope
+[2023-08-05 20:44:31] INFO root fetch - processPackages [mecha]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mecha-0.9.1.tar.gz tmp/mecha-0.9.2.tar.gz --markdown 20230805/m/mecha/0.9.1-0.9.2/diff.md --exclude *.pyd
+[2023-08-05 20:44:31] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-05 20:44:31] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-05 20:44:31] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-05 20:44:31] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.4.tar.gz]
+[2023-08-05 20:44:31] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.5.tar.gz]
+[2023-08-05 20:44:31] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 20:44:31] INFO root fetch - processPackages [jufinance]: Remove: archive file [/home/abi/fetcher/tmp/jufinance-0.0.11.tar.gz]
+[2023-08-05 20:44:31] INFO root fetch - processPackages [jufinance]: Remove: archive file [/home/abi/fetcher/tmp/jufinance-0.0.12.tar.gz]
+[2023-08-05 20:44:31] INFO root fetch - main [MainThread]: End processing [jufinance]: success
+[2023-08-05 20:44:32] INFO root fetch - processPackages [seismicio]: Remove: archive file [/home/abi/fetcher/tmp/seismicio-0.0.8.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - processPackages [seismicio]: Remove: archive file [/home/abi/fetcher/tmp/seismicio-0.0.9.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - main [MainThread]: End processing [seismicio]: success
+[2023-08-05 20:44:32] INFO root fetch - processPackages [pyfmrheo]: Remove: archive file [/home/abi/fetcher/tmp/pyfmrheo-0.1.1.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - processPackages [pyfmrheo]: Remove: archive file [/home/abi/fetcher/tmp/pyfmrheo-0.1.2.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - main [MainThread]: End processing [pyfmrheo]: success
+[2023-08-05 20:44:32] INFO root fetch - processPackages [nyct-gtfs]: Remove: archive file [/home/abi/fetcher/tmp/nyct-gtfs-1.2.0.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - processPackages [nyct-gtfs]: Remove: archive file [/home/abi/fetcher/tmp/nyct-gtfs-1.3.0.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - main [MainThread]: End processing [nyct-gtfs]: success
+[2023-08-05 20:44:32] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.1.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - processPackages [mecha]: Remove: archive file [/home/abi/fetcher/tmp/mecha-0.9.2.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - main [MainThread]: End processing [mecha]: success
+[2023-08-05 20:44:32] INFO root fetch - processPackages [movingpandas]: Remove: archive file [/home/abi/fetcher/tmp/movingpandas-0.9rc2.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - processPackages [movingpandas]: Remove: archive file [/home/abi/fetcher/tmp/movingpandas-0.9rc3.tar.gz]
+[2023-08-05 20:44:32] INFO root fetch - main [MainThread]: End processing [movingpandas]: success
+[2023-08-05 20:44:32] INFO root fetch - main [MainThread]: Store serial: [19188552]
