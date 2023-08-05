@@ -12470,3 +12470,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 14:35:51] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
 [2023-08-05 14:35:51] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
 [2023-08-05 14:35:51] INFO root fetch - main [MainThread]: Store serial: [19186434]
+[2023-08-05 14:40:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186434]
+[2023-08-05 14:41:01] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ioavstatsdb
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: PyLandslide
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: vban-cmd
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: axion
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: parallelism
+[2023-08-05 14:41:01] INFO root fetch - processPackages [axion]: New version: [3.6.18] Old Version: [3.6.17]
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ioavstatsdb]: New version: [1.5.0a93] Old Version: [1.5.0a91]
+[2023-08-05 14:41:01] INFO root fetch - processPackages [PyLandslide]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 14:41:01] INFO root fetch - processPackages [parallelism]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 14:41:01] INFO root fetch - processPackages [vban-cmd]: New version: [2.4.3] Old Version: [2.4.1]
+[2023-08-05 14:41:01] INFO root fetch - processPackages [PyLandslide]: Downloading https://files.pythonhosted.org/packages/2b/6a/05cad9f9f3e74107bd226f2f5cd08d9540023ead25f567067046ffb7773e/PyLandslide-0.0.3.tar.gz
+[2023-08-05 14:41:01] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/8a/d7/0e35cd93ada0481ef3a91426a90c5976a7510ecc884c64891a7c9dbeb062/axion-3.6.17-cp311-none-win_amd64.whl
+[2023-08-05 14:41:01] INFO root fetch - processPackages [ioavstatsdb]: Downloading https://files.pythonhosted.org/packages/72/7e/3fae4a6374364c925dad2652d56efcd9a5dfd01e9b945e91aa587b9ba650/ioavstatsdb-1.5.0a91.tar.gz
+[2023-08-05 14:41:02] INFO root fetch - processPackages [parallelism]: Downloading https://files.pythonhosted.org/packages/fa/64/cfde1df411cabbd3dc55da18a0923ea053e27aacf35d16e56633f51c19bc/parallelism-0.1.0.tar.gz
+[2023-08-05 14:41:02] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/dc/e0/f681eb5937c24ca5667f8091ab89df89135a39f004bec050da6434b83665/vban_cmd-2.4.1.tar.gz
+[2023-08-05 14:41:02] ERROR root fetch - processPackages [PyLandslide]: Unable to fetch info: No such project/version 'PyLandslide' 0.0.4
+[2023-08-05 14:41:02] INFO root fetch - main [MainThread]: End processing [PyLandslide] error
+[2023-08-05 14:41:02] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/7a/c3/a1791ec6fc53fe03e72fa04ccdc931651b29b81cd4cfb5bc1f881efe0312/axion-3.6.18-cp311-none-win_amd64.whl
+[2023-08-05 14:41:02] INFO root fetch - processPackages [ioavstatsdb]: Downloading https://files.pythonhosted.org/packages/06/37/85ab2b62cec20a00c1cd25fddcdeb9ba76833e3901521dc25e2e4627762a/ioavstatsdb-1.5.0a93.tar.gz
+[2023-08-05 14:41:02] INFO root fetch - processPackages [parallelism]: Downloading https://files.pythonhosted.org/packages/58/c4/f2d9a1bdef769c7daeb2f81e00f70a8a21c724a0a6aad7f9a53c23c975a8/parallelism-0.1.1.tar.gz
+[2023-08-05 14:41:02] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-08-05 14:41:02] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.17-cp311-none-win_amd64.whl.zip tmp/axion-3.6.18-cp311-none-win_amd64.whl.zip --markdown 20230805/a/axion/3.6.17-3.6.18/diff.md --exclude *.pyd
+[2023-08-05 14:41:02] INFO root fetch - processPackages [vban-cmd]: Downloading https://files.pythonhosted.org/packages/80/82/17403cabd2022d42c36b3a1467c0df11a36dac410a3cabe1835dea782eb8/vban_cmd-2.4.3.tar.gz
+[2023-08-05 14:41:02] INFO root fetch - processPackages [ioavstatsdb]: executing diffoscope
+[2023-08-05 14:41:02] INFO root fetch - processPackages [ioavstatsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioavstatsdb-1.5.0a91.tar.gz tmp/ioavstatsdb-1.5.0a93.tar.gz --markdown 20230805/i/ioavstatsdb/1.5.0a91-1.5.0a93/diff.md --exclude *.pyd
+[2023-08-05 14:41:02] INFO root fetch - processPackages [vban-cmd]: executing diffoscope
+[2023-08-05 14:41:02] INFO root fetch - processPackages [vban-cmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vban_cmd-2.4.1.tar.gz tmp/vban_cmd-2.4.3.tar.gz --markdown 20230805/v/vban-cmd/2.4.1-2.4.3/diff.md --exclude *.pyd
+[2023-08-05 14:41:02] INFO root fetch - processPackages [parallelism]: executing diffoscope
+[2023-08-05 14:41:02] INFO root fetch - processPackages [parallelism]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/parallelism-0.1.0.tar.gz tmp/parallelism-0.1.1.tar.gz --markdown 20230805/p/parallelism/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 14:41:03] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.17-cp311-none-win_amd64.whl.zip]
+[2023-08-05 14:41:03] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.18-cp311-none-win_amd64.whl.zip]
+[2023-08-05 14:41:03] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-08-05 14:41:03] INFO root fetch - processPackages [ioavstatsdb]: Remove: archive file [/home/abi/fetcher/tmp/ioavstatsdb-1.5.0a91.tar.gz]
+[2023-08-05 14:41:03] INFO root fetch - processPackages [ioavstatsdb]: Remove: archive file [/home/abi/fetcher/tmp/ioavstatsdb-1.5.0a93.tar.gz]
+[2023-08-05 14:41:03] INFO root fetch - main [MainThread]: End processing [ioavstatsdb]: success
+[2023-08-05 14:41:03] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.4.1.tar.gz]
+[2023-08-05 14:41:03] INFO root fetch - processPackages [vban-cmd]: Remove: archive file [/home/abi/fetcher/tmp/vban_cmd-2.4.3.tar.gz]
+[2023-08-05 14:41:03] INFO root fetch - main [MainThread]: End processing [vban-cmd]: success
+[2023-08-05 14:41:03] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.1.0.tar.gz]
+[2023-08-05 14:41:03] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.1.1.tar.gz]
+[2023-08-05 14:41:03] INFO root fetch - main [MainThread]: End processing [parallelism]: success
+[2023-08-05 14:41:03] INFO root fetch - main [MainThread]: Store serial: [19186454]
