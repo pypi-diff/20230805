@@ -15423,3 +15423,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:21:04] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
 [2023-08-05 18:21:04] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
 [2023-08-05 18:21:04] INFO root fetch - main [MainThread]: Store serial: [19187814]
+[2023-08-05 18:26:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187814]
+[2023-08-05 18:26:13] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: sklearn2pmml
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cellar-extractor
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sr.comp.cli
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sr.comp.http
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-csv
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: chainlib
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audioldm2
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nonebot-plugin-stable-diffusion-diao
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: whois21
+[2023-08-05 18:26:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: Quart-Kroket
+[2023-08-05 18:26:13] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: New version: [0.4.0.1] Old Version: [0.4.0]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [chainlib]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [sr.comp.cli]: New version: [1.8.0] Old Version: [1.7.0]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [whois21]: New version: [1.3.0] Old Version: [1.2.1]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [Quart-Kroket]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [audioldm2]: New version: [0.0.7] Old Version: [0.0.6]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [sr.comp.http]: New version: [1.8.1] Old Version: [1.8.0]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/a1/be/7f6756796c994d2da3c5c6b23462ecd645bf28be3d6c6f07b598f31e2368/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [cellar-extractor]: New version: [1.0.58] Old Version: [1.0.57]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [sklearn2pmml]: New version: [0.97.1] Old Version: [0.97.0]
+[2023-08-05 18:26:13] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/74/a9/8530d0f7af85256a2e33c3b11a0ab81fed9d20b22b01037336f1efbf26d1/chainlib-0.4.8.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [sr.comp.cli]: Downloading https://files.pythonhosted.org/packages/84/3a/690e0d6b45a078f9f35f823619a62740ab2989ec7e669f9a4bb992ab38b4/sr.comp.cli-1.7.0.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [Quart-Kroket]: Downloading https://files.pythonhosted.org/packages/f5/18/9e579e1c095b4f4db40aa477a5e703f709ff78b3f7fe11681956cf4454ec/Quart-Kroket-1.0.6.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/9b/c2/ec837fc30c27239adb96d0a1bff6298cb1e37444f48a14b1893c57131d07/cellar_extractor-1.0.57.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [whois21]: Downloading https://files.pythonhosted.org/packages/17/e2/cc57b8c825031a1416236ff956b63e7faf8c1ce4740f2c8a393f43a4124e/whois21-1.2.1.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/f7/75/d3d43012d4ac6d8e9add232a2620e65061aaf6fa512b91c4d9debd74bc1c/sklearn2pmml-0.97.0.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [sr.comp.http]: Downloading https://files.pythonhosted.org/packages/7c/13/3300c58cf8b766b0bc55edd70230be75248341bff49457645960b3b5eb55/sr.comp.http-1.8.0.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/8a/e5/ff3247d709926c5465eee8e56a172ba5565e3b493fba175d2fd93ef7f220/audioldm2-0.0.6.tar.gz
+[2023-08-05 18:26:13] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Downloading https://files.pythonhosted.org/packages/ef/56/dd6d8a31ebb4ecb75c2c2387eb3b493daebe603a6d1439307a35ad8d5105/nonebot_plugin_stable_diffusion_diao-0.4.0.1.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [chainlib]: Downloading https://files.pythonhosted.org/packages/d2/c1/c82620206cd2e44148a47b1009b67b854f7c6bb870d44537182fdbd02dd8/chainlib-0.4.9.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sr.comp.cli]: Downloading https://files.pythonhosted.org/packages/31/53/22495601427f50db1f74ac5037c1754cf5b0ca14a6d327860b42eeb82136/sr.comp.cli-1.8.0.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [Quart-Kroket]: Downloading https://files.pythonhosted.org/packages/bf/b9/ff187d504d106cf8e52f1d756eecde676236755fa907a5127298a159836c/Quart-Kroket-1.0.7.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [whois21]: Downloading https://files.pythonhosted.org/packages/b8/0e/07dec0ca09a3f775eabb23bf3431952d9a183d9685dec287e1a855882437/whois21-1.3.0.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [cellar-extractor]: Downloading https://files.pythonhosted.org/packages/77/2c/2f98dce6075d052978f3414add2ea3d0e6b907a2d38d9d40e98550e24899/cellar_extractor-1.0.58.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.1.tar.gz --markdown 20230805/n/nonebot-plugin-stable-diffusion-diao/0.4.0-0.4.0.1/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sr.comp.http]: Downloading https://files.pythonhosted.org/packages/b6/7b/e2d626317d978962c78186361aa476a43565f713aff4b8e272cd0875f220/sr.comp.http-1.8.1.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sr.comp.cli]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sr.comp.cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sr.comp.cli-1.7.0.tar.gz tmp/sr.comp.cli-1.8.0.tar.gz --markdown 20230805/s/sr.comp.cli/1.7.0-1.8.0/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [whois21]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [whois21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/whois21-1.2.1.tar.gz tmp/whois21-1.3.0.tar.gz --markdown 20230805/w/whois21/1.2.1-1.3.0/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sr.comp.http]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sr.comp.http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sr.comp.http-1.8.0.tar.gz tmp/sr.comp.http-1.8.1.tar.gz --markdown 20230805/s/sr.comp.http/1.8.0-1.8.1/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [chainlib]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [chainlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chainlib-0.4.8.tar.gz tmp/chainlib-0.4.9.tar.gz --markdown 20230805/c/chainlib/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [Quart-Kroket]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [Quart-Kroket]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Quart-Kroket-1.0.6.tar.gz tmp/Quart-Kroket-1.0.7.tar.gz --markdown 20230805/Q/Quart-Kroket/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [cellar-extractor]: executing diffoscope
+[2023-08-05 18:26:14] INFO root fetch - processPackages [cellar-extractor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cellar_extractor-1.0.57.tar.gz tmp/cellar_extractor-1.0.58.tar.gz --markdown 20230805/c/cellar-extractor/1.0.57-1.0.58/diff.md --exclude *.pyd
+[2023-08-05 18:26:14] INFO root fetch - processPackages [sklearn2pmml]: Downloading https://files.pythonhosted.org/packages/9f/7b/6bd4d21676ad925202559b1072aa7eaa3a475268402ff32036a0ab073421/sklearn2pmml-0.97.1.tar.gz
+[2023-08-05 18:26:14] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/77/0f/87b9f4d957469efe6d09542e956b1bd7bd3be01c89b638770e6a1132f286/audioldm2-0.0.7.tar.gz
+[2023-08-05 18:26:15] INFO root fetch - processPackages [sklearn2pmml]: executing diffoscope
+[2023-08-05 18:26:15] INFO root fetch - processPackages [sklearn2pmml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sklearn2pmml-0.97.0.tar.gz tmp/sklearn2pmml-0.97.1.tar.gz --markdown 20230805/s/sklearn2pmml/0.97.0-0.97.1/diff.md --exclude *.pyd
+[2023-08-05 18:26:15] INFO root fetch - processPackages [audioldm2]: executing diffoscope
+[2023-08-05 18:26:15] INFO root fetch - processPackages [audioldm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm2-0.0.6.tar.gz tmp/audioldm2-0.0.7.tar.gz --markdown 20230805/a/audioldm2/0.0.6-0.0.7/diff.md --exclude *.pyd
+[2023-08-05 18:26:15] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-05 18:26:15] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-05 18:26:15] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 18:26:15] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.tar.gz]
+[2023-08-05 18:26:15] INFO root fetch - processPackages [nonebot-plugin-stable-diffusion-diao]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_stable_diffusion_diao-0.4.0.1.tar.gz]
+[2023-08-05 18:26:15] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-stable-diffusion-diao]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [sr.comp.http]: Remove: archive file [/home/abi/fetcher/tmp/sr.comp.http-1.8.0.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [sr.comp.http]: Remove: archive file [/home/abi/fetcher/tmp/sr.comp.http-1.8.1.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [sr.comp.http]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [whois21]: Remove: archive file [/home/abi/fetcher/tmp/whois21-1.2.1.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [whois21]: Remove: archive file [/home/abi/fetcher/tmp/whois21-1.3.0.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [whois21]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.57.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [cellar-extractor]: Remove: archive file [/home/abi/fetcher/tmp/cellar_extractor-1.0.58.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [cellar-extractor]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.8.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [chainlib]: Remove: archive file [/home/abi/fetcher/tmp/chainlib-0.4.9.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [chainlib]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [Quart-Kroket]: Remove: archive file [/home/abi/fetcher/tmp/Quart-Kroket-1.0.6.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [Quart-Kroket]: Remove: archive file [/home/abi/fetcher/tmp/Quart-Kroket-1.0.7.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [Quart-Kroket]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [sr.comp.cli]: Remove: archive file [/home/abi/fetcher/tmp/sr.comp.cli-1.7.0.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [sr.comp.cli]: Remove: archive file [/home/abi/fetcher/tmp/sr.comp.cli-1.8.0.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [sr.comp.cli]: success
+[2023-08-05 18:26:16] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.6.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.7.tar.gz]
+[2023-08-05 18:26:16] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
+[2023-08-05 18:27:04] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.97.0.tar.gz]
+[2023-08-05 18:27:04] INFO root fetch - processPackages [sklearn2pmml]: Remove: archive file [/home/abi/fetcher/tmp/sklearn2pmml-0.97.1.tar.gz]
+[2023-08-05 18:27:04] INFO root fetch - main [MainThread]: End processing [sklearn2pmml]: success
+[2023-08-05 18:27:04] INFO root fetch - main [MainThread]: Store serial: [19187840]
