@@ -9447,3 +9447,40 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:31:39] INFO root fetch - processPackages [sqldao-generator]: Remove: archive file [/home/abi/fetcher/tmp/sqldao-generator-0.4.0.tar.gz]
 [2023-08-05 09:31:39] INFO root fetch - main [MainThread]: End processing [sqldao-generator]: success
 [2023-08-05 09:31:39] INFO root fetch - main [MainThread]: Store serial: [19184847]
+[2023-08-05 09:36:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184847]
+[2023-08-05 09:36:47] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: LidamaoUtils
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: txt2voice
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tf-nightly-macos
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: FINBUNDLE
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: cc-auth-service
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cc-auth-service
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: daisytuner-llvm
+[2023-08-05 09:36:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: lalsuite
+[2023-08-05 09:36:48] INFO root fetch - processPackages [tf-nightly-macos]: New version: [2.15.0.dev20230804] Old Version: [2.15.0.dev20230803]
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [cc-auth-service]: Skipping, unable to determine old version
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [cc-auth-service] error
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [cc-auth-service]: Skipping, unable to determine old version
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [cc-auth-service] error
+[2023-08-05 09:36:48] INFO root fetch - processPackages [lalsuite]: New version: [7.9] Old Version: [7.8]
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [LidamaoUtils]: Skipping, unable to determine old version
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [LidamaoUtils] error
+[2023-08-05 09:36:48] INFO root fetch - processPackages [txt2voice]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [daisytuner-llvm]: Skipping, unable to determine old version
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [daisytuner-llvm] error
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [FINBUNDLE]: Skipping, unable to determine old version
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [FINBUNDLE] error
+[2023-08-05 09:36:48] INFO root fetch - processPackages [lalsuite]: Downloading https://files.pythonhosted.org/packages/53/92/fc43211ca56b7c5532fc1b47c701a564c7ddcaf866c62ae45acbfdc34f23/lalsuite-7.8-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 09:36:48] INFO root fetch - processPackages [tf-nightly-macos]: Downloading https://files.pythonhosted.org/packages/ff/e6/324bb889dc9edb4f5696f55923f01a96a9554e0f574654b05a36c8fcf126/tf_nightly_macos-2.15.0.dev20230803-cp311-cp311-macosx_12_0_arm64.whl
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [lalsuite]: Skipping package: exceeds size limit 48394251>=10485760
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [lalsuite] error
+[2023-08-05 09:36:48] INFO root fetch - processPackages [txt2voice]: Downloading https://files.pythonhosted.org/packages/c2/f9/45ad27a56a3065997b331eae77767f5c9c25b9b86c3f3125a92da777582e/txt2voice-0.1.0.tar.gz
+[2023-08-05 09:36:48] WARNING root fetch - processPackages [tf-nightly-macos]: Skipping package: exceeds size limit 199724412>=10485760
+[2023-08-05 09:36:48] INFO root fetch - main [MainThread]: End processing [tf-nightly-macos] error
+[2023-08-05 09:36:48] INFO root fetch - processPackages [txt2voice]: Downloading https://files.pythonhosted.org/packages/50/cf/a11daffc056584b1472ee0fa8bcc2c75d2f77bf26afa160aa47cb06d572c/txt2voice-0.1.1.tar.gz
+[2023-08-05 09:36:48] INFO root fetch - processPackages [txt2voice]: executing diffoscope
+[2023-08-05 09:36:48] INFO root fetch - processPackages [txt2voice]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/txt2voice-0.1.0.tar.gz tmp/txt2voice-0.1.1.tar.gz --markdown 20230805/t/txt2voice/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 09:36:49] INFO root fetch - processPackages [txt2voice]: Remove: archive file [/home/abi/fetcher/tmp/txt2voice-0.1.0.tar.gz]
+[2023-08-05 09:36:49] INFO root fetch - processPackages [txt2voice]: Remove: archive file [/home/abi/fetcher/tmp/txt2voice-0.1.1.tar.gz]
+[2023-08-05 09:36:49] INFO root fetch - main [MainThread]: End processing [txt2voice]: success
+[2023-08-05 09:36:49] INFO root fetch - main [MainThread]: Store serial: [19184875]
