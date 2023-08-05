@@ -17257,3 +17257,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:05:20] INFO root fetch - processPackages [pkgcore]: Remove: archive file [/home/abi/fetcher/tmp/pkgcore-0.9.7.tar.gz]
 [2023-08-05 21:05:20] INFO root fetch - main [MainThread]: End processing [pkgcore]: success
 [2023-08-05 21:05:20] INFO root fetch - main [MainThread]: Store serial: [19188653]
+[2023-08-05 21:10:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188653]
+[2023-08-05 21:10:29] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vector-vault
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: statprocon
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ladderbot
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: rclip
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mbnk
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Gbtestapi0.4
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ladderbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 21:10:29] INFO root fetch - processPackages [rclip]: New version: [1.4.8a0] Old Version: [1.4.7a9]
+[2023-08-05 21:10:29] INFO root fetch - processPackages [mbnk]: New version: [0.4.0a1] Old Version: [0.4.0a0]
+[2023-08-05 21:10:29] INFO root fetch - processPackages [statprocon]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-05 21:10:29] INFO root fetch - processPackages [vector-vault]: New version: [2.1.4] Old Version: [2.1.3]
+[2023-08-05 21:10:29] WARNING root fetch - processPackages [Gbtestapi0.4]: Skipping, unable to determine old version
+[2023-08-05 21:10:29] INFO root fetch - main [MainThread]: End processing [Gbtestapi0.4] error
+[2023-08-05 21:10:29] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/31/e5/7bb0bec8ec5f762444a62bbc17fd8e01f29a10f98d54311ab9c756bd2fea/rclip-1.4.7a9.tar.gz
+[2023-08-05 21:10:29] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/68/fc/1a91c3a440b5ddbf1c35af25af4c0016273d104a76c930b19ee0b0fbdd2b/statprocon-0.1.1.tar.gz
+[2023-08-05 21:10:29] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/b9/90/a3db4f1a763197d9563d7cf16d4efb752fec218a811115c1714c8b7c5656/mbnk-0.4.0a0.tar.gz
+[2023-08-05 21:10:29] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/6b/8f/7d21a0682747ad2213b0c891c79bd363d304c922cfa656819e44be9abdad/vector_vault-2.1.3.tar.gz
+[2023-08-05 21:10:29] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/e5/e1/cc5f3a847cf2d38e7aaf9e6801e57ff12e3f3cc59754fb9b36a461f387e7/ladderbot-0.0.8.tar.gz
+[2023-08-05 21:10:30] INFO root fetch - processPackages [rclip]: Downloading https://files.pythonhosted.org/packages/4f/3b/20bb8117e6885a6774e7c33a9a6a20429d78280483fb6446e211d831aad1/rclip-1.4.8a0.tar.gz
+[2023-08-05 21:10:30] INFO root fetch - processPackages [mbnk]: Downloading https://files.pythonhosted.org/packages/76/f4/7e941f6c598d200c81456c5f31dcd18e3e405254dc2eed03a072fe9ff3d2/mbnk-0.4.0a1.tar.gz
+[2023-08-05 21:10:30] INFO root fetch - processPackages [statprocon]: Downloading https://files.pythonhosted.org/packages/d6/57/93d4632f63a59f7fe7bd0deb4a0d5e3cd98eced1ee56af85457bd0774851/statprocon-0.2.0.tar.gz
+[2023-08-05 21:10:30] INFO root fetch - processPackages [rclip]: executing diffoscope
+[2023-08-05 21:10:30] INFO root fetch - processPackages [rclip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rclip-1.4.7a9.tar.gz tmp/rclip-1.4.8a0.tar.gz --markdown 20230805/r/rclip/1.4.7a9-1.4.8a0/diff.md --exclude *.pyd
+[2023-08-05 21:10:30] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/69/27/e8f02b0d156d3bafa2ea1b34e9d5107a5482106411478528075cb9cd4eed/ladderbot-0.0.9.tar.gz
+[2023-08-05 21:10:30] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/c5/b9/79e80704bdc35608b7332391bc70cf82c56e4c0eb0d12c4f73d01a0738be/vector_vault-2.1.4.tar.gz
+[2023-08-05 21:10:30] INFO root fetch - processPackages [mbnk]: executing diffoscope
+[2023-08-05 21:10:30] INFO root fetch - processPackages [mbnk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mbnk-0.4.0a0.tar.gz tmp/mbnk-0.4.0a1.tar.gz --markdown 20230805/m/mbnk/0.4.0a0-0.4.0a1/diff.md --exclude *.pyd
+[2023-08-05 21:10:30] INFO root fetch - processPackages [statprocon]: executing diffoscope
+[2023-08-05 21:10:30] INFO root fetch - processPackages [statprocon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/statprocon-0.1.1.tar.gz tmp/statprocon-0.2.0.tar.gz --markdown 20230805/s/statprocon/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 21:10:30] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 21:10:30] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.8.tar.gz tmp/ladderbot-0.0.9.tar.gz --markdown 20230805/l/ladderbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 21:10:30] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-08-05 21:10:30] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.3.tar.gz tmp/vector_vault-2.1.4.tar.gz --markdown 20230805/v/vector-vault/2.1.3-2.1.4/diff.md --exclude *.pyd
+[2023-08-05 21:10:31] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.4.0a0.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - processPackages [mbnk]: Remove: archive file [/home/abi/fetcher/tmp/mbnk-0.4.0a1.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - main [MainThread]: End processing [mbnk]: success
+[2023-08-05 21:10:31] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.7a9.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - processPackages [rclip]: Remove: archive file [/home/abi/fetcher/tmp/rclip-1.4.8a0.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - main [MainThread]: End processing [rclip]: success
+[2023-08-05 21:10:31] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.1.1.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - processPackages [statprocon]: Remove: archive file [/home/abi/fetcher/tmp/statprocon-0.2.0.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - main [MainThread]: End processing [statprocon]: success
+[2023-08-05 21:10:31] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.3.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.4.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-08-05 21:10:31] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.8.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.9.tar.gz]
+[2023-08-05 21:10:31] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 21:10:31] INFO root fetch - main [MainThread]: Store serial: [19188672]
