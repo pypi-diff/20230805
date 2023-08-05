@@ -11666,3 +11666,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:18:01] INFO root fetch - processPackages [HDRezka]: Remove: archive file [/home/abi/fetcher/tmp/HDRezka-3.0.2.tar.gz]
 [2023-08-05 13:18:01] INFO root fetch - main [MainThread]: End processing [HDRezka]: success
 [2023-08-05 13:18:01] INFO root fetch - main [MainThread]: Store serial: [19185999]
+[2023-08-05 13:23:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185999]
+[2023-08-05 13:23:09] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: e2D
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via-api
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pojw
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tf-nightly-cpu-aws
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyimporters-csv
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fpcmci
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdpred
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Abg
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: superagent-py
+[2023-08-05 13:23:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: circleutils
+[2023-08-05 13:23:09] INFO root fetch - processPackages [fpcmci]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-08-05 13:23:09] WARNING root fetch - processPackages [cdpred]: Skipping, unable to determine old version
+[2023-08-05 13:23:09] INFO root fetch - processPackages [cdpred]: Start processing: tb-nightly
+[2023-08-05 13:23:09] INFO root fetch - processPackages [e2D]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-05 13:23:09] INFO root fetch - main [MainThread]: End processing [cdpred] error
+[2023-08-05 13:23:09] INFO root fetch - processPackages [pojw]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 13:23:09] INFO root fetch - processPackages [via-api]: New version: [2.1.0] Old Version: [1.1.3]
+[2023-08-05 13:23:09] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 13:23:09] INFO root fetch - processPackages [superagent-py]: New version: [0.0.42] Old Version: [0.0.41]
+[2023-08-05 13:23:09] WARNING root fetch - processPackages [circleutils]: Skipping, unable to determine old version
+[2023-08-05 13:23:09] INFO root fetch - processPackages [circleutils]: Start processing: pyimporters-csv
+[2023-08-05 13:23:09] INFO root fetch - main [MainThread]: End processing [circleutils] error
+[2023-08-05 13:23:09] INFO root fetch - processPackages [tb-nightly]: New version: [2.9.0a20220502] Old Version: [2.9.0a20220501]
+[2023-08-05 13:23:09] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/ab/70/e4f73bda041365c1686a6e9572d96a1bbbd3c22ef1e91870ae5ccc1d6c9c/via-api-1.1.3.tar.gz
+[2023-08-05 13:23:09] INFO root fetch - processPackages [Abg]: New version: [2.3.5] Old Version: [2.3.4]
+[2023-08-05 13:23:10] INFO root fetch - processPackages [tf-nightly-cpu-aws]: New version: [2.15.0.dev20230805] Old Version: [2.15.0.dev20230804]
+[2023-08-05 13:23:10] INFO root fetch - processPackages [e2D]: Downloading https://files.pythonhosted.org/packages/f6/df/d38b1e67ce0b7d165364e64557ddb4e4e8247414af3434a9d73c16b6df07/e2D-1.1.0.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/c1/00/8acdc3d1f6626cab44295ea10cfe3f5ae54e9c8bee0b2e615878f679caeb/fpcmci-4.2.1.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pojw]: Downloading https://files.pythonhosted.org/packages/bd/aa/2ecf1216363138aaa0c336d3b29a5b63f63a396411dd7d400971a78f0189/pojw-0.0.3-py3-none-any.whl
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 13:23:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/cc/bf/76bb32cf070e37f4b777ed5596c5d082fb60a1bfc06e9463401d07021a8a/tb_nightly-2.9.0a20220501-py3-none-any.whl
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/92/22/c917ef1e3553c12020d11628d6971376fb6474029463277e913dc04fb801/superagent_py-0.0.41.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/63/8b/71a0d611727e303892aa3ce4480cf7a3961652d0cf8b2559a0b8c2dab4ed/Abg-2.3.4.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [tf-nightly-cpu-aws]: Downloading https://files.pythonhosted.org/packages/96/07/9b25435dffd66905685cd2036393eef764beadf289781b614fd95a7249e4/tf_nightly_cpu_aws-2.15.0.dev20230804-cp39-cp39-manylinux_2_17_aarch64.manylinux2014_aarch64.whl
+[2023-08-05 13:23:10] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/ae/29/30530f471b4f5dffd81cc566401800050aa993f96b04802af32b9b77b8c1/fpcmci-4.3.0.tar.gz
+[2023-08-05 13:23:10] WARNING root fetch - processPackages [tf-nightly-cpu-aws]: Skipping package: exceeds size limit 263043045>=10485760
+[2023-08-05 13:23:10] INFO root fetch - main [MainThread]: End processing [tf-nightly-cpu-aws] error
+[2023-08-05 13:23:10] INFO root fetch - processPackages [e2D]: Downloading https://files.pythonhosted.org/packages/7b/ab/f8991a78397881d5e03dea36dfa4b51d0f588f20132b43225135d0369f0b/e2D-1.1.1.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pojw]: Downloading https://files.pythonhosted.org/packages/47/52/0fb719fae72942abcf544bba9665a1755a1ca2dad5ac4b9c091edbe247d8/pojw-0.0.4.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/8a/db/12fe2ce46fd9d8b0c8bee4a62b65513da1712c952ac01db032352ef69b7b/via-api-2.1.0.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [fpcmci]: executing diffoscope
+[2023-08-05 13:23:10] INFO root fetch - processPackages [fpcmci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpcmci-4.2.1.tar.gz tmp/fpcmci-4.3.0.tar.gz --markdown 20230805/f/fpcmci/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-08-05 13:23:10] INFO root fetch - processPackages [tb-nightly]: Downloading https://files.pythonhosted.org/packages/68/8e/03bca092830a4abf26a80c7387b02478c5f948656cb79d63c1bffab65c00/tb_nightly-2.9.0a20220502-py3-none-any.whl
+[2023-08-05 13:23:10] INFO root fetch - processPackages [e2D]: executing diffoscope
+[2023-08-05 13:23:10] INFO root fetch - processPackages [e2D]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/e2D-1.1.0.tar.gz tmp/e2D-1.1.1.tar.gz --markdown 20230805/e/e2D/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pojw]: executing diffoscope
+[2023-08-05 13:23:10] INFO root fetch - processPackages [pojw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pojw-0.0.3-py3-none-any.whl.zip tmp/pojw-0.0.4.tar.gz --markdown 20230805/p/pojw/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 13:23:10] INFO root fetch - processPackages [Abg]: Downloading https://files.pythonhosted.org/packages/c3/4a/0ff25bd7e5117a87a15ab3946b6a111b869fa23d454c3423d266a6fdb689/Abg-2.3.5.tar.gz
+[2023-08-05 13:23:10] INFO root fetch - processPackages [superagent-py]: Downloading https://files.pythonhosted.org/packages/a4/bf/e8462dc29daf25ff370ed151bbfd795bb6233e8d49275b21e05f2575252a/superagent_py-0.0.42.tar.gz
+[2023-08-05 13:23:11] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 13:23:11] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 13:23:11] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-05 13:23:11] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-1.1.3.tar.gz tmp/via-api-2.1.0.tar.gz --markdown 20230805/v/via-api/1.1.3-2.1.0/diff.md --exclude *.pyd
+[2023-08-05 13:23:11] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 13:23:11] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 13:23:11] INFO root fetch - processPackages [Abg]: executing diffoscope
+[2023-08-05 13:23:11] INFO root fetch - processPackages [Abg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Abg-2.3.4.tar.gz tmp/Abg-2.3.5.tar.gz --markdown 20230805/A/Abg/2.3.4-2.3.5/diff.md --exclude *.pyd
+[2023-08-05 13:23:11] INFO root fetch - processPackages [superagent-py]: executing diffoscope
+[2023-08-05 13:23:11] INFO root fetch - processPackages [superagent-py]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/superagent_py-0.0.41.tar.gz tmp/superagent_py-0.0.42.tar.gz --markdown 20230805/s/superagent-py/0.0.41-0.0.42/diff.md --exclude *.pyd
+[2023-08-05 13:23:11] INFO root fetch - processPackages [tb-nightly]: executing diffoscope
+[2023-08-05 13:23:11] INFO root fetch - processPackages [tb-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip --markdown 20230805/t/tb-nightly/2.9.0a20220501-2.9.0a20220502/diff.md --exclude *.pyd
+[2023-08-05 13:23:12] INFO root fetch - processPackages [pojw]: Remove: archive file [/home/abi/fetcher/tmp/pojw-0.0.3-py3-none-any.whl.zip]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [pojw]: Remove: archive file [/home/abi/fetcher/tmp/pojw-0.0.4.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [pojw]: success
+[2023-08-05 13:23:12] INFO root fetch - processPackages [e2D]: Remove: archive file [/home/abi/fetcher/tmp/e2D-1.1.0.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [e2D]: Remove: archive file [/home/abi/fetcher/tmp/e2D-1.1.1.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [e2D]: success
+[2023-08-05 13:23:12] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.41.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [superagent-py]: Remove: archive file [/home/abi/fetcher/tmp/superagent_py-0.0.42.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [superagent-py]: success
+[2023-08-05 13:23:12] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 13:23:12] INFO root fetch - processPackages [fpcmci]: Remove: archive file [/home/abi/fetcher/tmp/fpcmci-4.2.1.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [fpcmci]: Remove: archive file [/home/abi/fetcher/tmp/fpcmci-4.3.0.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [fpcmci]: success
+[2023-08-05 13:23:12] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-1.1.3.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.1.0.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-05 13:23:12] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.4.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - processPackages [Abg]: Remove: archive file [/home/abi/fetcher/tmp/Abg-2.3.5.tar.gz]
+[2023-08-05 13:23:12] INFO root fetch - main [MainThread]: End processing [Abg]: success
+[2023-08-05 13:23:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220501-py3-none-any.whl.zip]
+[2023-08-05 13:23:13] INFO root fetch - processPackages [tb-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tb_nightly-2.9.0a20220502-py3-none-any.whl.zip]
+[2023-08-05 13:23:13] INFO root fetch - main [MainThread]: End processing [tb-nightly]: success
+[2023-08-05 13:23:13] INFO root fetch - main [MainThread]: Store serial: [19186037]
