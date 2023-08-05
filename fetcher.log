@@ -7884,3 +7884,23 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:11:40] INFO root fetch - processPackages [odoo14-addon-mrp-bom-location]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_mrp_bom_location-14.0.1.0.2.dev8-py3-none-any.whl.zip]
 [2023-08-05 06:11:40] INFO root fetch - main [MainThread]: End processing [odoo14-addon-mrp-bom-location]: success
 [2023-08-05 06:11:40] INFO root fetch - main [MainThread]: Store serial: [19184207]
+[2023-08-05 06:16:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184207]
+[2023-08-05 06:16:48] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: yb-package-for-pythonbook
+[2023-08-05 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfl-ai
+[2023-08-05 06:16:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pybmd
+[2023-08-05 06:16:48] WARNING root fetch - processPackages [yb-package-for-pythonbook]: Skipping, unable to determine old version
+[2023-08-05 06:16:48] INFO root fetch - main [MainThread]: End processing [yb-package-for-pythonbook] error
+[2023-08-05 06:16:48] INFO root fetch - processPackages [pybmd]: New version: [2023.3.0] Old Version: [2023.2.0]
+[2023-08-05 06:16:48] INFO root fetch - processPackages [zfl-ai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 06:16:48] INFO root fetch - processPackages [pybmd]: Downloading https://files.pythonhosted.org/packages/16/1a/ede39537de2cd30309ca60e2b13a4d59fd5930c142bea7a628d64d1b7b9f/pybmd-2023.2.0.tar.gz
+[2023-08-05 06:16:49] INFO root fetch - processPackages [zfl-ai]: Downloading https://files.pythonhosted.org/packages/03/91/551384ced74a08245e2e33bc6408b3877abd30b2262ffd9a661984a15009/zfl_ai-0.0.8.tar.gz
+[2023-08-05 06:16:49] INFO root fetch - processPackages [pybmd]: Downloading https://files.pythonhosted.org/packages/26/fb/0a7300df52a6d6a258b080101eae78f871409cb793263a939a1db3fff53c/pybmd-2023.3.0.tar.gz
+[2023-08-05 06:16:49] INFO root fetch - processPackages [pybmd]: executing diffoscope
+[2023-08-05 06:16:49] INFO root fetch - processPackages [pybmd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pybmd-2023.2.0.tar.gz tmp/pybmd-2023.3.0.tar.gz --markdown 20230805/p/pybmd/2023.2.0-2023.3.0/diff.md --exclude *.pyd
+[2023-08-05 06:16:49] WARNING root fetch - processPackages [zfl-ai]: Skipping package: exceeds size limit 30240283>=10485760
+[2023-08-05 06:16:49] INFO root fetch - main [MainThread]: End processing [zfl-ai] error
+[2023-08-05 06:16:50] INFO root fetch - processPackages [pybmd]: Remove: archive file [/home/abi/fetcher/tmp/pybmd-2023.2.0.tar.gz]
+[2023-08-05 06:16:50] INFO root fetch - processPackages [pybmd]: Remove: archive file [/home/abi/fetcher/tmp/pybmd-2023.3.0.tar.gz]
+[2023-08-05 06:16:50] INFO root fetch - main [MainThread]: End processing [pybmd]: success
+[2023-08-05 06:16:50] INFO root fetch - main [MainThread]: Store serial: [19184219]
