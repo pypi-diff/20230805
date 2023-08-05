@@ -13693,3 +13693,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:10:23] INFO root fetch - processPackages [mojo-interop]: Remove: archive file [/home/abi/fetcher/tmp/mojo_interop-0.0.9.tar.gz]
 [2023-08-05 16:10:23] INFO root fetch - main [MainThread]: End processing [mojo-interop]: success
 [2023-08-05 16:10:23] INFO root fetch - main [MainThread]: Store serial: [19187008]
+[2023-08-05 16:15:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187008]
+[2023-08-05 16:15:32] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flare-utilities
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: numbers-parser
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: asgardpy
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: jgp-report-creditos
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: bia-bob
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: wordview
+[2023-08-05 16:15:32] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ultralytics
+[2023-08-05 16:15:33] WARNING root fetch - processPackages [bia-bob]: Skipping, unable to determine old version
+[2023-08-05 16:15:33] INFO root fetch - main [MainThread]: End processing [bia-bob] error
+[2023-08-05 16:15:33] INFO root fetch - processPackages [asgardpy]: New version: [0.3.6] Old Version: [0.3.5]
+[2023-08-05 16:15:33] INFO root fetch - processPackages [flare-utilities]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:15:33] INFO root fetch - processPackages [wordview]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-05 16:15:33] INFO root fetch - processPackages [jgp-report-creditos]: New version: [0.0.9] Old Version: [0.0.18]
+[2023-08-05 16:15:33] INFO root fetch - processPackages [numbers-parser]: New version: [4.4.1] Old Version: [4.4.0]
+[2023-08-05 16:15:33] INFO root fetch - processPackages [ultralytics]: New version: [8.0.99] Old Version: [8.0.98]
+[2023-08-05 16:15:33] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/91/6c/e2e31a7a84e044ee8a67c3dec68d1fc3834d76c904113d34679adee43b8e/asgardpy-0.3.5.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [jgp-report-creditos]: Downloading https://files.pythonhosted.org/packages/a7/e8/72b9645770f0af5a858626d9db82ea0f5a73f4e3cf8069637d2af522a532/jgp_report_creditos-0.0.18.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [flare-utilities]: Downloading https://files.pythonhosted.org/packages/cd/6d/1162dcbb7f791087f1ba0decb86b7cb192c71875ee8f1c3957de6bc517b9/Flare_Utilities-0.0.8.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/f7/29/940a1a244f3db7cfd47dc64ad42e6a80bc5de271437227843e55e34081c5/wordview-1.0.0.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b6/de/f3172b8f928ec31c47cbc2e23d6a875eea575cba8e11ad4548900923efa1/ultralytics-8.0.98.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/ed/41/227acaaf1742ae66a1946bc73f1f9a9375f4f4243d79a7c4a5d210348316/numbers_parser-4.4.0.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [asgardpy]: Downloading https://files.pythonhosted.org/packages/f3/db/205f8decdfead13c0aa79a00b7e2f7e1ea086eadb88ae9bca5717b4ce782/asgardpy-0.3.6.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [jgp-report-creditos]: Downloading https://files.pythonhosted.org/packages/a2/b7/889dd0d4d43a0595194eafda6e62ff265ed1f3a6e4a048083ed75f59530e/jgp_report_creditos-0.0.9.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [ultralytics]: Downloading https://files.pythonhosted.org/packages/b3/b0/87b289ca8a910cd1421d5a217c06fb642b51546dd96bd6b923c67be00415/ultralytics-8.0.99.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [flare-utilities]: Downloading https://files.pythonhosted.org/packages/04/7c/0b08fa1978c749a8b32097a536541f9cdb5a33c77cb3b689ae9f88e4cedd/Flare_Utilities-0.0.9.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [wordview]: Downloading https://files.pythonhosted.org/packages/e9/23/0f3c06d49e3bc467c1b4ae2e72a6a5ce55cc0eba05069f0d9b6b3dc7df27/wordview-1.1.0.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [numbers-parser]: Downloading https://files.pythonhosted.org/packages/79/f1/6c2f0fba0c185b8de74c5f8f3340a9054dea1557cddb4ad2b2792ee4e370/numbers_parser-4.4.1.tar.gz
+[2023-08-05 16:15:33] INFO root fetch - processPackages [asgardpy]: executing diffoscope
+[2023-08-05 16:15:33] INFO root fetch - processPackages [asgardpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/asgardpy-0.3.5.tar.gz tmp/asgardpy-0.3.6.tar.gz --markdown 20230805/a/asgardpy/0.3.5-0.3.6/diff.md --exclude *.pyd
+[2023-08-05 16:15:33] INFO root fetch - processPackages [jgp-report-creditos]: executing diffoscope
+[2023-08-05 16:15:33] INFO root fetch - processPackages [jgp-report-creditos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/jgp_report_creditos-0.0.18.tar.gz tmp/jgp_report_creditos-0.0.9.tar.gz --markdown 20230805/j/jgp-report-creditos/0.0.18-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:15:34] INFO root fetch - processPackages [ultralytics]: executing diffoscope
+[2023-08-05 16:15:34] INFO root fetch - processPackages [ultralytics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ultralytics-8.0.98.tar.gz tmp/ultralytics-8.0.99.tar.gz --markdown 20230805/u/ultralytics/8.0.98-8.0.99/diff.md --exclude *.pyd
+[2023-08-05 16:15:34] INFO root fetch - processPackages [flare-utilities]: executing diffoscope
+[2023-08-05 16:15:34] INFO root fetch - processPackages [flare-utilities]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Flare_Utilities-0.0.8.tar.gz tmp/Flare_Utilities-0.0.9.tar.gz --markdown 20230805/f/flare-utilities/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:15:34] INFO root fetch - processPackages [wordview]: executing diffoscope
+[2023-08-05 16:15:34] INFO root fetch - processPackages [wordview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wordview-1.0.0.tar.gz tmp/wordview-1.1.0.tar.gz --markdown 20230805/w/wordview/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 16:15:34] INFO root fetch - processPackages [numbers-parser]: executing diffoscope
+[2023-08-05 16:15:34] INFO root fetch - processPackages [numbers-parser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/numbers_parser-4.4.0.tar.gz tmp/numbers_parser-4.4.1.tar.gz --markdown 20230805/n/numbers-parser/4.4.0-4.4.1/diff.md --exclude *.pyd
+[2023-08-05 16:15:35] INFO root fetch - processPackages [jgp-report-creditos]: Remove: archive file [/home/abi/fetcher/tmp/jgp_report_creditos-0.0.18.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - processPackages [jgp-report-creditos]: Remove: archive file [/home/abi/fetcher/tmp/jgp_report_creditos-0.0.9.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [jgp-report-creditos]: success
+[2023-08-05 16:15:35] INFO root fetch - processPackages [asgardpy]: Remove: archive file [/home/abi/fetcher/tmp/asgardpy-0.3.5.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - processPackages [asgardpy]: Remove: archive file [/home/abi/fetcher/tmp/asgardpy-0.3.6.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [asgardpy]: success
+[2023-08-05 16:15:35] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-1.0.0.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - processPackages [wordview]: Remove: archive file [/home/abi/fetcher/tmp/wordview-1.1.0.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [wordview]: success
+[2023-08-05 16:15:35] INFO root fetch - processPackages [flare-utilities]: Remove: archive file [/home/abi/fetcher/tmp/Flare_Utilities-0.0.8.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - processPackages [flare-utilities]: Remove: archive file [/home/abi/fetcher/tmp/Flare_Utilities-0.0.9.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [flare-utilities]: success
+[2023-08-05 16:15:35] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-4.4.0.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - processPackages [numbers-parser]: Remove: archive file [/home/abi/fetcher/tmp/numbers_parser-4.4.1.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [numbers-parser]: success
+[2023-08-05 16:15:35] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.98.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
+[2023-08-05 16:15:35] INFO root fetch - main [MainThread]: Store serial: [19187034]
