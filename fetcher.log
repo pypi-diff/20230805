@@ -13826,3 +13826,78 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:20:47] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.4.2.tar.gz]
 [2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [dfsync]: success
 [2023-08-05 16:20:47] INFO root fetch - main [MainThread]: Store serial: [19187057]
+[2023-08-05 16:25:51] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187057]
+[2023-08-05 16:25:56] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: locust
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pih
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: encipher-lightman210567
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: moneycontrol-api
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pih-mio
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: remotior-sensus
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: Nutter-Tools
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: xerparser
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: flarepy
+[2023-08-05 16:25:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: funda-scraper
+[2023-08-05 16:25:56] INFO root fetch - processPackages [pih-mio]: New version: [1.48027] Old Version: [1.48026]
+[2023-08-05 16:25:56] WARNING root fetch - processPackages [flarepy]: Skipping, unable to determine old version
+[2023-08-05 16:25:56] INFO root fetch - main [MainThread]: End processing [flarepy] error
+[2023-08-05 16:25:56] WARNING root fetch - processPackages [encipher-lightman210567]: Skipping, unable to determine old version
+[2023-08-05 16:25:56] INFO root fetch - main [MainThread]: End processing [encipher-lightman210567] error
+[2023-08-05 16:25:56] WARNING root fetch - processPackages [Nutter-Tools]: Skipping, unable to determine old version
+[2023-08-05 16:25:56] INFO root fetch - main [MainThread]: End processing [Nutter-Tools] error
+[2023-08-05 16:25:56] INFO root fetch - processPackages [xerparser]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-05 16:25:56] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-08-05 16:25:56] INFO root fetch - processPackages [pih]: New version: [1.48036] Old Version: [1.48035]
+[2023-08-05 16:25:56] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/ba/39/304f788de7f8aa0d260fc3600d442cc1f5a86a9c1c96f72d2ff731ca0b0b/pih-mio-1.48026.tar.gz
+[2023-08-05 16:25:56] INFO root fetch - processPackages [funda-scraper]: New version: [1.0.0] Old Version: [0.0.3]
+[2023-08-05 16:25:56] INFO root fetch - processPackages [moneycontrol-api]: New version: [1.1.0] Old Version: [1.0.9]
+[2023-08-05 16:25:56] INFO root fetch - processPackages [remotior-sensus]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:25:56] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/57/61/55fc7663ee44ef9d016ede45f9b8870827ff835084c733803247df26f920/pih-1.48035.tar.gz
+[2023-08-05 16:25:56] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-08-05 16:25:56] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/d9/b8/18f3046e2056eba25c985ca6032f27b0e998fc148dcae61ba8c1137c2fda/xerparser-0.9.8.tar.gz
+[2023-08-05 16:25:56] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/83/16/06ddbd12e8d83fcb705b9261aa5b89a9068489370a3f708544f0f6d93d19/funda_scraper-0.0.3-py3.8.egg
+[2023-08-05 16:25:56] INFO root fetch - processPackages [moneycontrol-api]: Downloading https://files.pythonhosted.org/packages/99/56/9cd431502563dd820a61da6a8bd85151f756b59fa75bf67e27afaf7970f1/moneycontrol_api-1.0.9.tar.gz
+[2023-08-05 16:25:56] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/2d/82/4f0f8be3b8f3c4f00b90027ff3c32958918221be17a5ad7c3cf298d4af04/remotior_sensus-0.0.8.tar.gz
+[2023-08-05 16:25:56] INFO root fetch - processPackages [pih-mio]: Downloading https://files.pythonhosted.org/packages/55/a5/70f91e464efa4e4584a6b0f0d82e0b48ad5425000e3df6e73a32c950abb9/pih-mio-1.48027.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [pih]: Downloading https://files.pythonhosted.org/packages/3e/4e/3d485b0f6e9eab3654a568c22969b1b6d63e8b516c509d28e3944afd1c8a/pih-1.48036.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [pih-mio]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [pih-mio]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-mio-1.48026.tar.gz tmp/pih-mio-1.48027.tar.gz --markdown 20230805/p/pih-mio/1.48026-1.48027/diff.md --exclude *.pyd
+[2023-08-05 16:25:57] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/22/42/f0e78f46e0368cb92bc480f0764ca6ef9fc9b783412c97ad2208002fd0ee/xerparser-0.9.9.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [moneycontrol-api]: Downloading https://files.pythonhosted.org/packages/81/31/2b5a9e73c1f5d9fd86614bf1c4d005b5eee120dce655c160599b19ffbc3a/moneycontrol_api-1.1.0.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [pih]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [pih]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pih-1.48035.tar.gz tmp/pih-1.48036.tar.gz --markdown 20230805/p/pih/1.48035-1.48036/diff.md --exclude *.pyd
+[2023-08-05 16:25:57] INFO root fetch - processPackages [funda-scraper]: Downloading https://files.pythonhosted.org/packages/3c/9c/b7b068f09eadf43eeee6f54e08594667e555dea0a704c6adbd9521c22e42/funda-scraper-1.0.0.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [remotior-sensus]: Downloading https://files.pythonhosted.org/packages/e4/c8/0c6054910848b2651da24ecb17a3d9ab9a62b4c844a98797ec686eaac17b/remotior_sensus-0.0.9.tar.gz
+[2023-08-05 16:25:57] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230805/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-08-05 16:25:57] INFO root fetch - processPackages [xerparser]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [xerparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerparser-0.9.8.tar.gz tmp/xerparser-0.9.9.tar.gz --markdown 20230805/x/xerparser/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 16:25:57] INFO root fetch - processPackages [moneycontrol-api]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [moneycontrol-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/moneycontrol_api-1.0.9.tar.gz tmp/moneycontrol_api-1.1.0.tar.gz --markdown 20230805/m/moneycontrol-api/1.0.9-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 16:25:57] INFO root fetch - processPackages [funda-scraper]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [funda-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/funda_scraper-0.0.3-py3.8.egg tmp/funda-scraper-1.0.0.tar.gz --markdown 20230805/f/funda-scraper/0.0.3-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 16:25:57] INFO root fetch - processPackages [remotior-sensus]: executing diffoscope
+[2023-08-05 16:25:57] INFO root fetch - processPackages [remotior-sensus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remotior_sensus-0.0.8.tar.gz tmp/remotior_sensus-0.0.9.tar.gz --markdown 20230805/r/remotior-sensus/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:25:58] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48026.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - processPackages [pih-mio]: Remove: archive file [/home/abi/fetcher/tmp/pih-mio-1.48027.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - main [MainThread]: End processing [pih-mio]: success
+[2023-08-05 16:25:58] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48035.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - processPackages [pih]: Remove: archive file [/home/abi/fetcher/tmp/pih-1.48036.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - main [MainThread]: End processing [pih]: success
+[2023-08-05 16:25:58] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda_scraper-0.0.3-py3.8.egg]
+[2023-08-05 16:25:58] INFO root fetch - processPackages [funda-scraper]: Remove: archive file [/home/abi/fetcher/tmp/funda-scraper-1.0.0.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - main [MainThread]: End processing [funda-scraper]: success
+[2023-08-05 16:25:58] INFO root fetch - processPackages [xerparser]: Remove: archive file [/home/abi/fetcher/tmp/xerparser-0.9.8.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - processPackages [xerparser]: Remove: archive file [/home/abi/fetcher/tmp/xerparser-0.9.9.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - main [MainThread]: End processing [xerparser]: success
+[2023-08-05 16:25:58] INFO root fetch - processPackages [moneycontrol-api]: Remove: archive file [/home/abi/fetcher/tmp/moneycontrol_api-1.0.9.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - processPackages [moneycontrol-api]: Remove: archive file [/home/abi/fetcher/tmp/moneycontrol_api-1.1.0.tar.gz]
+[2023-08-05 16:25:58] INFO root fetch - main [MainThread]: End processing [moneycontrol-api]: success
+[2023-08-05 16:25:59] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.8.tar.gz]
+[2023-08-05 16:25:59] INFO root fetch - processPackages [remotior-sensus]: Remove: archive file [/home/abi/fetcher/tmp/remotior_sensus-0.0.9.tar.gz]
+[2023-08-05 16:25:59] INFO root fetch - main [MainThread]: End processing [remotior-sensus]: success
+[2023-08-05 16:25:59] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-08-05 16:25:59] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-08-05 16:25:59] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-08-05 16:25:59] INFO root fetch - main [MainThread]: Store serial: [19187085]
