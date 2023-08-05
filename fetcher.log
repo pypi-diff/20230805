@@ -8793,3 +8793,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:56:58] INFO root fetch - processPackages [decorator-validation]: Remove: archive file [/home/abi/fetcher/tmp/decorator_validation-1.0.1.tar.gz]
 [2023-08-05 07:56:58] INFO root fetch - main [MainThread]: End processing [decorator-validation]: success
 [2023-08-05 07:56:58] INFO root fetch - main [MainThread]: Store serial: [19184546]
+[2023-08-05 08:02:02] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184546]
+[2023-08-05 08:02:07] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Geode-Background
+[2023-08-05 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: types-houdini
+[2023-08-05 08:02:07] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: types-pyside2
+[2023-08-05 08:02:07] WARNING root fetch - processPackages [types-houdini]: Skipping, unable to determine old version
+[2023-08-05 08:02:07] INFO root fetch - main [MainThread]: End processing [types-houdini] error
+[2023-08-05 08:02:07] INFO root fetch - processPackages [types-pyside2]: New version: [5.15.2.1.6] Old Version: [5.15.2.1.5]
+[2023-08-05 08:02:07] INFO root fetch - processPackages [Geode-Background]: New version: [7.3.3rc1] Old Version: [7.3.3]
+[2023-08-05 08:02:07] INFO root fetch - processPackages [types-pyside2]: Downloading https://files.pythonhosted.org/packages/87/c0/e1893f7d42800554d2e0f7b3fb2cefe1165210b5ec9c3b4f4a25453e1847/types_PySide2-5.15.2.1.5-py2.py3-none-any.whl
+[2023-08-05 08:02:07] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/ce/71/39a0bd6b6e8c990bf03ac8688e474a70a784c17ad58b3dff5426e33d4dd7/Geode_Background-7.3.3-cp39-cp39-win_amd64.whl
+[2023-08-05 08:02:08] INFO root fetch - processPackages [types-pyside2]: Downloading https://files.pythonhosted.org/packages/f2/e7/418c06b30349cd5d584d874d4c317cf2c7dde89e471ebdb50aa1d9c6f8d4/types_pyside2-5.15.2.1.6.tar.gz
+[2023-08-05 08:02:08] INFO root fetch - processPackages [types-pyside2]: executing diffoscope
+[2023-08-05 08:02:08] INFO root fetch - processPackages [types-pyside2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/types_PySide2-5.15.2.1.5-py2.py3-none-any.whl.zip tmp/types_pyside2-5.15.2.1.6.tar.gz --markdown 20230805/t/types-pyside2/5.15.2.1.5-5.15.2.1.6/diff.md --exclude *.pyd
+[2023-08-05 08:02:09] INFO root fetch - processPackages [Geode-Background]: Downloading https://files.pythonhosted.org/packages/4c/a3/321e4a01ea9d3cfbc3aa5c17e0227224ee0b4d24f4a1b5aec07a862db846/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl
+[2023-08-05 08:02:09] INFO root fetch - processPackages [types-pyside2]: Remove: archive file [/home/abi/fetcher/tmp/types_PySide2-5.15.2.1.5-py2.py3-none-any.whl.zip]
+[2023-08-05 08:02:09] INFO root fetch - processPackages [types-pyside2]: Remove: archive file [/home/abi/fetcher/tmp/types_pyside2-5.15.2.1.6.tar.gz]
+[2023-08-05 08:02:09] INFO root fetch - main [MainThread]: End processing [types-pyside2]: success
+[2023-08-05 08:02:10] INFO root fetch - processPackages [Geode-Background]: executing diffoscope
+[2023-08-05 08:02:10] INFO root fetch - processPackages [Geode-Background]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Geode_Background-7.3.3-cp39-cp39-win_amd64.whl.zip tmp/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl.zip --markdown 20230805/G/Geode-Background/7.3.3-7.3.3rc1/diff.md --exclude *.pyd
+[2023-08-05 08:02:30] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.3-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 08:02:30] INFO root fetch - processPackages [Geode-Background]: Remove: archive file [/home/abi/fetcher/tmp/Geode_Background-7.3.3rc1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 08:02:30] INFO root fetch - main [MainThread]: End processing [Geode-Background]: success
+[2023-08-05 08:02:30] INFO root fetch - main [MainThread]: Store serial: [19184561]
