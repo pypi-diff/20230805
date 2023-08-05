@@ -7636,3 +7636,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 05:48:49] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
 [2023-08-05 05:48:49] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
 [2023-08-05 05:48:49] INFO root fetch - main [MainThread]: Store serial: [19184109]
+[2023-08-05 05:53:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184109]
+[2023-08-05 05:53:57] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 05:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-visit-schedule
+[2023-08-05 05:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: fscraper
+[2023-08-05 05:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: Furious-GUI
+[2023-08-05 05:53:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: odoo-addon-l10n-ro-stock-account
+[2023-08-05 05:53:58] INFO root fetch - processPackages [edc-visit-schedule]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 05:53:58] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/55/62/08b5eb66559fe5f11493a7403cf1549605588ac96f1433e68190de33a591/edc_visit_schedule-0.3.8-py3-none-any.whl
+[2023-08-05 05:53:58] INFO root fetch - processPackages [fscraper]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-05 05:53:58] INFO root fetch - processPackages [Furious-GUI]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-05 05:53:58] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: New version: [16.0.1.4.0.2] Old Version: [16.0.1.4.0.1]
+[2023-08-05 05:53:58] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/0d/a4/853c71e809a5d85a37e22348b76cc72ddf34c4e294b81aa063109972bd97/Furious-GUI-0.1.7.tar.gz
+[2023-08-05 05:53:58] INFO root fetch - processPackages [fscraper]: Downloading https://files.pythonhosted.org/packages/8c/9f/9ea055b5b884b2dec830afd6d969e6f81070ee1367f410677558506a1584/fscraper-1.0.1.tar.gz
+[2023-08-05 05:53:58] INFO root fetch - processPackages [edc-visit-schedule]: Downloading https://files.pythonhosted.org/packages/d5/72/3df1323c5292ddeb8587bdab58504a97371317f435cce78a6e93a1c6561a/edc_visit_schedule-0.3.9-py3-none-any.whl
+[2023-08-05 05:53:58] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/46/62/343f5b961f2ee776277d123b78ad9e3ac580d4f147efd1c1cce19d47a7b8/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.1-py3-none-any.whl
+[2023-08-05 05:53:58] INFO root fetch - processPackages [edc-visit-schedule]: executing diffoscope
+[2023-08-05 05:53:58] INFO root fetch - processPackages [edc-visit-schedule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip --markdown 20230805/e/edc-visit-schedule/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 05:53:58] INFO root fetch - processPackages [fscraper]: Downloading https://files.pythonhosted.org/packages/2c/85/a77b4e52a6879d44e73763e447d7d8ed86710487cdbeb997983abd6bf3c1/fscraper-1.0.2.tar.gz
+[2023-08-05 05:53:58] INFO root fetch - processPackages [fscraper]: executing diffoscope
+[2023-08-05 05:53:58] INFO root fetch - processPackages [fscraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fscraper-1.0.1.tar.gz tmp/fscraper-1.0.2.tar.gz --markdown 20230805/f/fscraper/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 05:53:58] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Downloading https://files.pythonhosted.org/packages/62/61/16fa0271e11b4caaea98b24cb287bf21663b3268b452f8dc9e90451f86a6/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.2-py3-none-any.whl
+[2023-08-05 05:53:59] INFO root fetch - processPackages [Furious-GUI]: Downloading https://files.pythonhosted.org/packages/55/23/9d54b6d7d13d4909129259c67e0be936c1acb9463a79b32902da35f9483d/Furious-GUI-0.1.8.tar.gz
+[2023-08-05 05:53:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: executing diffoscope
+[2023-08-05 05:53:59] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.1-py3-none-any.whl.zip tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.2-py3-none-any.whl.zip --markdown 20230805/o/odoo-addon-l10n-ro-stock-account/16.0.1.4.0.1-16.0.1.4.0.2/diff.md --exclude *.pyd
+[2023-08-05 05:53:59] INFO root fetch - processPackages [Furious-GUI]: executing diffoscope
+[2023-08-05 05:53:59] INFO root fetch - processPackages [Furious-GUI]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Furious-GUI-0.1.7.tar.gz tmp/Furious-GUI-0.1.8.tar.gz --markdown 20230805/F/Furious-GUI/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-05 05:53:59] INFO root fetch - processPackages [fscraper]: Remove: archive file [/home/abi/fetcher/tmp/fscraper-1.0.1.tar.gz]
+[2023-08-05 05:53:59] INFO root fetch - processPackages [fscraper]: Remove: archive file [/home/abi/fetcher/tmp/fscraper-1.0.2.tar.gz]
+[2023-08-05 05:53:59] INFO root fetch - main [MainThread]: End processing [fscraper]: success
+[2023-08-05 05:53:59] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 05:53:59] INFO root fetch - processPackages [edc-visit-schedule]: Remove: archive file [/home/abi/fetcher/tmp/edc_visit_schedule-0.3.9-py3-none-any.whl.zip]
+[2023-08-05 05:53:59] INFO root fetch - main [MainThread]: End processing [edc-visit-schedule]: success
+[2023-08-05 05:54:00] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.1-py3-none-any.whl.zip]
+[2023-08-05 05:54:00] INFO root fetch - processPackages [odoo-addon-l10n-ro-stock-account]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_l10n_ro_stock_account-16.0.1.4.0.2-py3-none-any.whl.zip]
+[2023-08-05 05:54:00] INFO root fetch - main [MainThread]: End processing [odoo-addon-l10n-ro-stock-account]: success
+[2023-08-05 05:54:01] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.7.tar.gz]
+[2023-08-05 05:54:01] INFO root fetch - processPackages [Furious-GUI]: Remove: archive file [/home/abi/fetcher/tmp/Furious-GUI-0.1.8.tar.gz]
+[2023-08-05 05:54:01] INFO root fetch - main [MainThread]: End processing [Furious-GUI]: success
+[2023-08-05 05:54:01] INFO root fetch - main [MainThread]: Store serial: [19184134]
