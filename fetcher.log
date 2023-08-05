@@ -15947,3 +15947,46 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:15:40] INFO root fetch - processPackages [bimmer-connected]: Remove: archive file [/home/abi/fetcher/tmp/bimmer_connected-0.9.6.tar.gz]
 [2023-08-05 19:15:40] INFO root fetch - main [MainThread]: End processing [bimmer-connected]: success
 [2023-08-05 19:15:40] INFO root fetch - main [MainThread]: Store serial: [19188069]
+[2023-08-05 19:20:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188069]
+[2023-08-05 19:20:49] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 19:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refineryframe
+[2023-08-05 19:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytraeger
+[2023-08-05 19:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: spanishconjugator
+[2023-08-05 19:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: spanishconjugator
+[2023-08-05 19:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2023-08-05 19:20:49] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ss3a
+[2023-08-05 19:20:49] INFO root fetch - processPackages [refineryframe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 19:20:49] WARNING root fetch - processPackages [ss3a]: Skipping, unable to determine old version
+[2023-08-05 19:20:49] INFO root fetch - main [MainThread]: End processing [ss3a] error
+[2023-08-05 19:20:49] INFO root fetch - processPackages [litellm]: New version: [0.1.31] Old Version: [0.1.3]
+[2023-08-05 19:20:49] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-05 19:20:49] WARNING root fetch - processPackages [pytraeger]: Skipping, unable to determine old version
+[2023-08-05 19:20:49] INFO root fetch - main [MainThread]: End processing [pytraeger] error
+[2023-08-05 19:20:49] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/9a/80/13925594b7883d8e2c958c0b143913741fdd88b7f438b48cf5164b7af4a1/litellm-0.1.3.tar.gz
+[2023-08-05 19:20:49] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/2e/dd/10ed1c1f11bfa8ab104700b2a5d020c536a28c23c9e5e796f231fe36a0a8/refineryframe-0.1.8.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/70/6e/5c9dd4eb84b76aabd31215851f6762877f567a5471242d422854a20e2369/refineryframe-0.1.9.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/2f/13/df523488f19a229783321b8845b8beb682fd312f874d9ad95e6a510f1bf1/litellm-0.1.31.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-05 19:20:50] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 19:20:50] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.8.tar.gz tmp/refineryframe-0.1.9.tar.gz --markdown 20230805/r/refineryframe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230805/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-05 19:20:50] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230805/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-05 19:20:50] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 19:20:50] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.3.tar.gz tmp/litellm-0.1.31.tar.gz --markdown 20230805/l/litellm/0.1.3-0.1.31/diff.md --exclude *.pyd
+[2023-08-05 19:20:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-05 19:20:51] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-05 19:20:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-05 19:20:51] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.8.tar.gz]
+[2023-08-05 19:20:51] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.9.tar.gz]
+[2023-08-05 19:20:51] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 19:20:51] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.3.tar.gz]
+[2023-08-05 19:20:51] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.31.tar.gz]
+[2023-08-05 19:20:51] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 19:20:51] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-05 19:20:51] INFO root fetch - main [MainThread]: Store serial: [19188093]
