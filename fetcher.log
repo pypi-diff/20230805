@@ -5952,3 +5952,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 03:26:33] INFO root fetch - processPackages [composabl-ray-dev]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray_dev-0.4.0.dev9-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-05 03:26:33] INFO root fetch - main [MainThread]: End processing [composabl-ray-dev]: success
 [2023-08-05 03:26:33] INFO root fetch - main [MainThread]: Store serial: [19183423]
+[2023-08-05 03:31:37] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183423]
+[2023-08-05 03:31:42] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 03:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: bioregistry
+[2023-08-05 03:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: scrunch
+[2023-08-05 03:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: SBILib
+[2023-08-05 03:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: datasette-sqlite-http
+[2023-08-05 03:31:42] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sqlite-http
+[2023-08-05 03:31:42] INFO root fetch - processPackages [SBILib]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 03:31:42] INFO root fetch - processPackages [scrunch]: New version: [6.5.2038.post1691195849] Old Version: [6.5.2037.post1691184100]
+[2023-08-05 03:31:42] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-08-05 03:31:42] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.0a8] Old Version: [0.1.0a7]
+[2023-08-05 03:31:42] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/01/85/32e2065cf451bd33e1082bf848d09a83514ca723eaf120018b137b55d354/scrunch-6.5.2037.post1691184100.tar.gz
+[2023-08-05 03:31:42] INFO root fetch - processPackages [bioregistry]: New version: [0.9.95] Old Version: [0.9.94]
+[2023-08-05 03:31:42] INFO root fetch - processPackages [SBILib]: Downloading https://files.pythonhosted.org/packages/f3/89/da4304abcf60687aac965370c6e2f4abcef742f433dac63089dd86d67827/SBILib-0.3.2.tar.gz
+[2023-08-05 03:31:42] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/61/c0/92280f42a399e1fa0f21365ce64e10198c71f93dc78e7f6029efbb0e8548/sqlite_http-0.1.0a7-py3-none-win_amd64.whl
+[2023-08-05 03:31:42] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/55/eb/e29dbaefe9c21254aae33c000cf13b35f69125bb15ee0bcfacbe1860acd4/bioregistry-0.9.94.tar.gz
+[2023-08-05 03:31:42] INFO root fetch - processPackages [scrunch]: Downloading https://files.pythonhosted.org/packages/0c/c5/4b0998b225dca01836de2d57f20acb6e0a80c8a8a65c1fd2dce8338316f4/scrunch-6.5.2038.post1691195849.tar.gz
+[2023-08-05 03:31:42] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/f0/d7/1725d6b6b1db1503f0060fb780094f95ee8186e692c87eee81c1c9ceff5f/datasette_sqlite_http-0.1.0a7-py3-none-any.whl
+[2023-08-05 03:31:43] INFO root fetch - processPackages [SBILib]: Downloading https://files.pythonhosted.org/packages/e1/cb/903c853bf9c9b126c4e1b474151c56ca2a786d1abe80c980021a8d515d3e/SBILib-0.3.3.tar.gz
+[2023-08-05 03:31:43] INFO root fetch - processPackages [scrunch]: executing diffoscope
+[2023-08-05 03:31:43] INFO root fetch - processPackages [scrunch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scrunch-6.5.2037.post1691184100.tar.gz tmp/scrunch-6.5.2038.post1691195849.tar.gz --markdown 20230805/s/scrunch/6.5.2037.post1691184100-6.5.2038.post1691195849/diff.md --exclude *.pyd
+[2023-08-05 03:31:43] INFO root fetch - processPackages [SBILib]: executing diffoscope
+[2023-08-05 03:31:43] INFO root fetch - processPackages [SBILib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/SBILib-0.3.2.tar.gz tmp/SBILib-0.3.3.tar.gz --markdown 20230805/S/SBILib/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 03:31:43] INFO root fetch - processPackages [bioregistry]: Downloading https://files.pythonhosted.org/packages/4c/a1/7f27a1715c2793fb9156f793615252a0572e412c161ace1ce53db40df3fe/bioregistry-0.9.95.tar.gz
+[2023-08-05 03:31:43] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/1f/81/706d9189c573153f3fcd0451e2ae081a66d17cad0b28f2a12d7cec360629/datasette_sqlite_http-0.1.0a8-py3-none-any.whl
+[2023-08-05 03:31:43] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-08-05 03:31:43] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a7-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-http/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-08-05 03:31:44] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2037.post1691184100.tar.gz]
+[2023-08-05 03:31:44] INFO root fetch - processPackages [scrunch]: Remove: archive file [/home/abi/fetcher/tmp/scrunch-6.5.2038.post1691195849.tar.gz]
+[2023-08-05 03:31:44] INFO root fetch - main [MainThread]: End processing [scrunch]: success
+[2023-08-05 03:31:44] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a7-py3-none-any.whl.zip]
+[2023-08-05 03:31:44] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip]
+[2023-08-05 03:31:44] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-08-05 03:31:44] INFO root fetch - processPackages [SBILib]: Remove: archive file [/home/abi/fetcher/tmp/SBILib-0.3.2.tar.gz]
+[2023-08-05 03:31:44] INFO root fetch - processPackages [SBILib]: Remove: archive file [/home/abi/fetcher/tmp/SBILib-0.3.3.tar.gz]
+[2023-08-05 03:31:44] INFO root fetch - main [MainThread]: End processing [SBILib]: success
+[2023-08-05 03:31:44] INFO root fetch - processPackages [bioregistry]: executing diffoscope
+[2023-08-05 03:31:44] INFO root fetch - processPackages [bioregistry]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bioregistry-0.9.94.tar.gz tmp/bioregistry-0.9.95.tar.gz --markdown 20230805/b/bioregistry/0.9.94-0.9.95/diff.md --exclude *.pyd
+[2023-08-05 03:31:44] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/4b/20/da8336bce10fc54d00580a2d2d01b3df0b365d562a78287bba0e85672c2f/sqlite_http-0.1.0a8-py3-none-win_amd64.whl
+[2023-08-05 03:31:45] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-08-05 03:31:45] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a7-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip --markdown 20230805/s/sqlite-http/0.1.0a7-0.1.0a8/diff.md --exclude *.pyd
+[2023-08-05 03:32:56] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.94.tar.gz]
+[2023-08-05 03:32:56] INFO root fetch - processPackages [bioregistry]: Remove: archive file [/home/abi/fetcher/tmp/bioregistry-0.9.95.tar.gz]
+[2023-08-05 03:32:56] INFO root fetch - main [MainThread]: End processing [bioregistry]: success
+[2023-08-05 03:34:11] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a7-py3-none-win_amd64.whl.zip]
+[2023-08-05 03:34:11] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip]
+[2023-08-05 03:34:11] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-08-05 03:34:11] INFO root fetch - main [MainThread]: Store serial: [19183442]
