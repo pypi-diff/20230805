@@ -10733,3 +10733,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:42:31] INFO root fetch - main [MainThread]: End processing [iman]: success
 [2023-08-05 11:42:31] INFO root fetch - main [MainThread]: End processing [iman]: success
 [2023-08-05 11:42:31] INFO root fetch - main [MainThread]: Store serial: [19185485]
+[2023-08-05 11:47:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185485]
+[2023-08-05 11:47:39] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: iman
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: kfsd
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: telegram-menu
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: gramps-webapi
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pk4adi
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: bgstools
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: nsz
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: rug
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: DEME
+[2023-08-05 11:47:39] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: zip2pdf
+[2023-08-05 11:47:39] INFO root fetch - processPackages [rug]: New version: [0.8.3] Old Version: [0.8.2]
+[2023-08-05 11:47:39] WARNING root fetch - processPackages [zip2pdf]: Skipping, unable to determine old version
+[2023-08-05 11:47:39] INFO root fetch - processPackages [zip2pdf]: Start processing: creart
+[2023-08-05 11:47:39] INFO root fetch - main [MainThread]: End processing [zip2pdf] error
+[2023-08-05 11:47:39] INFO root fetch - processPackages [telegram-menu]: New version: [2.1.2] Old Version: [2.1.1]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [gramps-webapi]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [bgstools]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [iman]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [pk4adi]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [rug]: Downloading https://files.pythonhosted.org/packages/4a/a1/c834eb959b4bf8b553fe6786ad0cb2c5f058b303a566bc9c1ae0f8ed5856/rug-0.8.2.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [nsz]: New version: [4.4.0] Old Version: [4.3.0]
+[2023-08-05 11:47:40] WARNING root fetch - processPackages [DEME]: Skipping, unable to determine old version
+[2023-08-05 11:47:40] INFO root fetch - main [MainThread]: End processing [DEME] error
+[2023-08-05 11:47:40] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [creart]: New version: [0.3.0] Old Version: [0.2.2]
+[2023-08-05 11:47:40] INFO root fetch - processPackages [telegram-menu]: Downloading https://files.pythonhosted.org/packages/28/f5/44f3b5f84eb5bbf6b887da992cb9601a0b2ef8cd6327bf8ba2013dcd44d3/telegram_menu-2.1.1.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/d1/c9/0b9063f5652ea4c9ac627e2f616c6a821bb8167f36927a3e414323ec22b8/iman-0.0.95.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/0f/69/c390bd665bf2dce93ab1bc55e313b3dd2c115848f709fe2ad57eb584bed7/gramps-webapi-1.1.8.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [rug]: Downloading https://files.pythonhosted.org/packages/95/13/4f375fd6809c0d75ff2151b5d69eabef6eb8c1c97c0b3ff291cf5ac07531/rug-0.8.3.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/a3/d9/0f2b579fbbb29225abec7da824c3d2177fa751c84913339da89e8d0b4f89/bgstools-0.1.8.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/bc/16/6459bc56da1140dc0ffbdf7cbe11edfc4114012ce1f3dd084a6a55d1446b/pk4adi-0.1.3.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [nsz]: Downloading https://files.pythonhosted.org/packages/96/64/9fcda8dc509d7caf87eb46c5e53f6529f9ab17a711df7a60099432b63458/nsz-4.3.0.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [creart]: Downloading https://files.pythonhosted.org/packages/38/7a/9eb96ddc36d70d3d75bb33193811bcc515c6d37f68f27153e3c50651a65e/creart-0.2.2.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [rug]: executing diffoscope
+[2023-08-05 11:47:40] INFO root fetch - processPackages [rug]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rug-0.8.2.tar.gz tmp/rug-0.8.3.tar.gz --markdown 20230805/r/rug/0.8.2-0.8.3/diff.md --exclude *.pyd
+[2023-08-05 11:47:40] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/4f/fb/fe3fdd026f1908f395c928ceca234bb24a37b536608927fb174e8a4aa791/iman-0.0.96.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [pk4adi]: Downloading https://files.pythonhosted.org/packages/7f/7f/440be24c41a59dcd977452baa9fdb0dffea9371c50fe0e149712595afd00/pk4adi-0.1.4.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [gramps-webapi]: Downloading https://files.pythonhosted.org/packages/97/ce/0702fcc2c28161305f3f45bd729c5982673b5d1ab2b597bdc6be68888f13/gramps-webapi-1.1.9.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [creart]: Downloading https://files.pythonhosted.org/packages/fa/41/3c649c472a5c6a2011403f33b9105d0c7446551a38df6520347d1b46aaeb/creart-0.3.0.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [bgstools]: Downloading https://files.pythonhosted.org/packages/0a/3c/638191cc7a3a6135dbf58e2857b29d83bacba72ac3e579510aae9606e202/bgstools-0.1.9.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [telegram-menu]: Downloading https://files.pythonhosted.org/packages/52/78/13991c8d3ba3fb2675cdaf17973e4bf691ec4f5cc525f1cd5fc5921f342e/telegram_menu-2.1.2.tar.gz
+[2023-08-05 11:47:40] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-05 11:47:41] INFO root fetch - processPackages [pk4adi]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [pk4adi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pk4adi-0.1.3.tar.gz tmp/pk4adi-0.1.4.tar.gz --markdown 20230805/p/pk4adi/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [nsz]: Downloading https://files.pythonhosted.org/packages/01/52/4074f11ed6c8104ceabd30f2cf2f3711d8601e4815c4f03d1422c34411e4/nsz-4.4.0.tar.gz
+[2023-08-05 11:47:41] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.95.tar.gz tmp/iman-0.0.96.tar.gz --markdown 20230805/i/iman/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [creart]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [creart]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/creart-0.2.2.tar.gz tmp/creart-0.3.0.tar.gz --markdown 20230805/c/creart/0.2.2-0.3.0/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [gramps-webapi]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [gramps-webapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gramps-webapi-1.1.8.tar.gz tmp/gramps-webapi-1.1.9.tar.gz --markdown 20230805/g/gramps-webapi/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [bgstools]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [bgstools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bgstools-0.1.8.tar.gz tmp/bgstools-0.1.9.tar.gz --markdown 20230805/b/bgstools/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230805/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [telegram-menu]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [telegram-menu]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/telegram_menu-2.1.1.tar.gz tmp/telegram_menu-2.1.2.tar.gz --markdown 20230805/t/telegram-menu/2.1.1-2.1.2/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [nsz]: executing diffoscope
+[2023-08-05 11:47:41] INFO root fetch - processPackages [nsz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nsz-4.3.0.tar.gz tmp/nsz-4.4.0.tar.gz --markdown 20230805/n/nsz/4.3.0-4.4.0/diff.md --exclude *.pyd
+[2023-08-05 11:47:41] INFO root fetch - processPackages [rug]: Remove: archive file [/home/abi/fetcher/tmp/rug-0.8.2.tar.gz]
+[2023-08-05 11:47:41] INFO root fetch - processPackages [rug]: Remove: archive file [/home/abi/fetcher/tmp/rug-0.8.3.tar.gz]
+[2023-08-05 11:47:41] INFO root fetch - main [MainThread]: End processing [rug]: success
+[2023-08-05 11:47:42] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.3.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - processPackages [pk4adi]: Remove: archive file [/home/abi/fetcher/tmp/pk4adi-0.1.4.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - main [MainThread]: End processing [pk4adi]: success
+[2023-08-05 11:47:42] INFO root fetch - processPackages [creart]: Remove: archive file [/home/abi/fetcher/tmp/creart-0.2.2.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - processPackages [creart]: Remove: archive file [/home/abi/fetcher/tmp/creart-0.3.0.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - main [MainThread]: End processing [creart]: success
+[2023-08-05 11:47:42] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.8.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - processPackages [bgstools]: Remove: archive file [/home/abi/fetcher/tmp/bgstools-0.1.9.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - main [MainThread]: End processing [bgstools]: success
+[2023-08-05 11:47:42] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.95.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.96.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-08-05 11:47:42] INFO root fetch - processPackages [telegram-menu]: Remove: archive file [/home/abi/fetcher/tmp/telegram_menu-2.1.1.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - processPackages [telegram-menu]: Remove: archive file [/home/abi/fetcher/tmp/telegram_menu-2.1.2.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - main [MainThread]: End processing [telegram-menu]: success
+[2023-08-05 11:47:42] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-05 11:47:42] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-05 11:47:43] INFO root fetch - processPackages [nsz]: Remove: archive file [/home/abi/fetcher/tmp/nsz-4.3.0.tar.gz]
+[2023-08-05 11:47:43] INFO root fetch - processPackages [nsz]: Remove: archive file [/home/abi/fetcher/tmp/nsz-4.4.0.tar.gz]
+[2023-08-05 11:47:43] INFO root fetch - main [MainThread]: End processing [nsz]: success
+[2023-08-05 11:47:43] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.8.tar.gz]
+[2023-08-05 11:47:43] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.9.tar.gz]
+[2023-08-05 11:47:43] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
+[2023-08-05 11:47:43] INFO root fetch - main [MainThread]: Store serial: [19185522]
