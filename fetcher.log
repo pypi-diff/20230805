@@ -15821,3 +15821,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:05:15] INFO root fetch - processPackages [alacorder]: Remove: archive file [/home/abi/fetcher/tmp/alacorder-81.1.7.tar.gz]
 [2023-08-05 19:05:15] INFO root fetch - main [MainThread]: End processing [alacorder]: success
 [2023-08-05 19:05:15] INFO root fetch - main [MainThread]: Store serial: [19187993]
+[2023-08-05 19:10:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187993]
+[2023-08-05 19:10:23] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: litellm
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cmake
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MicroMachinePy
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: django-redis-session
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: am2r-yams
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: dymoprint
+[2023-08-05 19:10:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pytech-rules
+[2023-08-05 19:10:24] INFO root fetch - processPackages [pytech-rules]: New version: [0.1.0] Old Version: [0.0.4]
+[2023-08-05 19:10:24] INFO root fetch - processPackages [litellm]: New version: [0.1.238] Old Version: [0.1.237]
+[2023-08-05 19:10:24] INFO root fetch - processPackages [dymoprint]: New version: [2.1.0] Old Version: [2.0.0b0]
+[2023-08-05 19:10:24] INFO root fetch - processPackages [pytech-rules]: Downloading https://files.pythonhosted.org/packages/c0/7f/b4b3cbfc5edde08380f331c5a02b0ebb2661fdceec4d365f0c72ec11a070/pytech_rules-0.0.4.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/31/ad/205285a979db3618e9db424a0ede1ce2994265d802ea7f165065964918fe/litellm-0.1.237.tar.gz
+[2023-08-05 19:10:24] WARNING root fetch - processPackages [django-redis-session]: Skipping, unable to determine old version
+[2023-08-05 19:10:24] INFO root fetch - main [MainThread]: End processing [django-redis-session] error
+[2023-08-05 19:10:24] INFO root fetch - processPackages [MicroMachinePy]: New version: [1.0.2] Old Version: [0.0.1]
+[2023-08-05 19:10:24] INFO root fetch - processPackages [am2r-yams]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 19:10:24] INFO root fetch - processPackages [cmake]: New version: [3.9.6] Old Version: [3.8.2]
+[2023-08-05 19:10:24] INFO root fetch - processPackages [dymoprint]: Downloading https://files.pythonhosted.org/packages/83/c2/9faa76fbcd7bcdcee9b10594424679901b28502a4846da5ed166c205276e/dymoprint-2.0.0b0.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [MicroMachinePy]: Downloading https://files.pythonhosted.org/packages/87/51/ad8eda275a9ca7622a95f1d73349d7b54eb800be5cec85856da808964e2b/MicroMachinePy-0.0.1.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [cmake]: Downloading https://files.pythonhosted.org/packages/4d/ad/19916b99d0f65b090bf3cb24665209a9ddf1a698419d18b2a0e64d609378/cmake-3.8.2.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [am2r-yams]: Downloading https://files.pythonhosted.org/packages/7c/9d/e3db646db0785452f9ab9834bd5f9fdb7a73e8166d588ce50f8e580d0390/am2r_yams-0.0.7.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [pytech-rules]: Downloading https://files.pythonhosted.org/packages/c1/4f/5d74609108eac187ca8133990f1491a266dc92fa4fc0b2971db031763e9b/pytech_rules-0.1.0.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/13/20/c071ceb9d352af280a5feff6769f012d22ab2779c41f5ab1150ea1a7fa2b/litellm-0.1.238.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [pytech-rules]: executing diffoscope
+[2023-08-05 19:10:24] INFO root fetch - processPackages [pytech-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytech_rules-0.0.4.tar.gz tmp/pytech_rules-0.1.0.tar.gz --markdown 20230805/p/pytech-rules/0.0.4-0.1.0/diff.md --exclude *.pyd
+[2023-08-05 19:10:24] INFO root fetch - processPackages [MicroMachinePy]: Downloading https://files.pythonhosted.org/packages/19/7e/cd2ee3fe68a085d013c5ab00c9fd951504c8a92c4e1386ede668a3c67cf4/MicroMachinePy-1.0.2.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 19:10:24] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.237.tar.gz tmp/litellm-0.1.238.tar.gz --markdown 20230805/l/litellm/0.1.237-0.1.238/diff.md --exclude *.pyd
+[2023-08-05 19:10:24] INFO root fetch - processPackages [cmake]: Downloading https://files.pythonhosted.org/packages/d8/89/79dc57c6fa77f314917d2168e96bdd61c7349a101c4720421e50576c894e/cmake-3.9.6.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [dymoprint]: Downloading https://files.pythonhosted.org/packages/8d/aa/f5d44ce8cdd1c727166232a18c5b9beef929dc56213b925726e0e5c29ab1/dymoprint-2.1.0.tar.gz
+[2023-08-05 19:10:24] INFO root fetch - processPackages [MicroMachinePy]: executing diffoscope
+[2023-08-05 19:10:24] INFO root fetch - processPackages [MicroMachinePy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MicroMachinePy-0.0.1.tar.gz tmp/MicroMachinePy-1.0.2.tar.gz --markdown 20230805/M/MicroMachinePy/0.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 19:10:24] INFO root fetch - processPackages [cmake]: executing diffoscope
+[2023-08-05 19:10:24] INFO root fetch - processPackages [cmake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cmake-3.8.2.tar.gz tmp/cmake-3.9.6.tar.gz --markdown 20230805/c/cmake/3.8.2-3.9.6/diff.md --exclude *.pyd
+[2023-08-05 19:10:24] INFO root fetch - processPackages [am2r-yams]: Downloading https://files.pythonhosted.org/packages/a5/cd/2b18302854035ed3fbee99a5858169e66d41cd0421e00e2719cc74d754e0/am2r_yams-0.0.8.tar.gz
+[2023-08-05 19:10:25] INFO root fetch - processPackages [dymoprint]: executing diffoscope
+[2023-08-05 19:10:25] INFO root fetch - processPackages [dymoprint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dymoprint-2.0.0b0.tar.gz tmp/dymoprint-2.1.0.tar.gz --markdown 20230805/d/dymoprint/2.0.0b0-2.1.0/diff.md --exclude *.pyd
+[2023-08-05 19:10:25] INFO root fetch - processPackages [am2r-yams]: executing diffoscope
+[2023-08-05 19:10:25] INFO root fetch - processPackages [am2r-yams]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/am2r_yams-0.0.7.tar.gz tmp/am2r_yams-0.0.8.tar.gz --markdown 20230805/a/am2r-yams/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 19:10:25] INFO root fetch - processPackages [pytech-rules]: Remove: archive file [/home/abi/fetcher/tmp/pytech_rules-0.0.4.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - processPackages [pytech-rules]: Remove: archive file [/home/abi/fetcher/tmp/pytech_rules-0.1.0.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - main [MainThread]: End processing [pytech-rules]: success
+[2023-08-05 19:10:25] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.237.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.238.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 19:10:25] INFO root fetch - processPackages [MicroMachinePy]: Remove: archive file [/home/abi/fetcher/tmp/MicroMachinePy-0.0.1.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - processPackages [MicroMachinePy]: Remove: archive file [/home/abi/fetcher/tmp/MicroMachinePy-1.0.2.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - main [MainThread]: End processing [MicroMachinePy]: success
+[2023-08-05 19:10:25] INFO root fetch - processPackages [cmake]: Remove: archive file [/home/abi/fetcher/tmp/cmake-3.8.2.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - processPackages [cmake]: Remove: archive file [/home/abi/fetcher/tmp/cmake-3.9.6.tar.gz]
+[2023-08-05 19:10:25] INFO root fetch - main [MainThread]: End processing [cmake]: success
+[2023-08-05 19:10:26] INFO root fetch - processPackages [dymoprint]: Remove: archive file [/home/abi/fetcher/tmp/dymoprint-2.0.0b0.tar.gz]
+[2023-08-05 19:10:26] INFO root fetch - processPackages [dymoprint]: Remove: archive file [/home/abi/fetcher/tmp/dymoprint-2.1.0.tar.gz]
+[2023-08-05 19:10:26] INFO root fetch - main [MainThread]: End processing [dymoprint]: success
+[2023-08-05 19:10:26] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-0.0.7.tar.gz]
+[2023-08-05 19:10:26] INFO root fetch - processPackages [am2r-yams]: Remove: archive file [/home/abi/fetcher/tmp/am2r_yams-0.0.8.tar.gz]
+[2023-08-05 19:10:26] INFO root fetch - main [MainThread]: End processing [am2r-yams]: success
+[2023-08-05 19:10:26] INFO root fetch - main [MainThread]: Store serial: [19188035]
