@@ -15654,3 +15654,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:44:20] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.26-py3-none-any.whl.zip]
 [2023-08-05 18:44:20] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
 [2023-08-05 18:44:20] INFO root fetch - main [MainThread]: Store serial: [19187895]
+[2023-08-05 18:49:35] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187895]
+[2023-08-05 18:49:40] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edc-facility
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: inducoapi
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: audioldm2
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: vector-vault
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: litellm
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: voicebox-pytorch
+[2023-08-05 18:49:40] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: tybase
+[2023-08-05 18:49:41] INFO root fetch - processPackages [litellm]: New version: [0.1.236] Old Version: [0.1.235]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [voicebox-pytorch]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [tybase]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [vector-vault]: New version: [2.1.3] Old Version: [2.1.2]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [inducoapi]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [edc-facility]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/cb/a6/0aa50c0b9648c1b34182d93d9c21b751b893700ace6811564ffed16115ba/litellm-0.1.235.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/29/0e/2d333316f2a82b7b36f7fc05241dabe2d2f0b825f1dfa3b104c8622f7fd0/voicebox-pytorch-0.0.2.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/77/e8/b8644e5cd29c8c7d16452d194f90f5d406f54fbdd639ac35b6acf6c19430/tybase-0.3.2.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/88/8a/a787b885786b8a7d6cbabb230efa58b7eb0ae6b2c2be79bd2c61f55022bf/vector_vault-2.1.2.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [inducoapi]: Downloading https://files.pythonhosted.org/packages/8a/d4/8440a7c94330c02fbe66310f68aae2f53a9e3cd5e0730cf69cfdaf803789/inducoapi-2.1.0.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [audioldm2]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 18:49:41] INFO root fetch - processPackages [edc-facility]: Downloading https://files.pythonhosted.org/packages/f8/43/83ddfd23c29814a9582db7d419729670f9c76a8c30ea48150565efb2e059/edc_facility-0.3.8-py3-none-any.whl
+[2023-08-05 18:49:41] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/c9/6f/caef3a28cd8a59acea02f5cc3a45600bcd2d3ec569ce3ade1470784436b0/litellm-0.1.236.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [vector-vault]: Downloading https://files.pythonhosted.org/packages/6b/8f/7d21a0682747ad2213b0c891c79bd363d304c922cfa656819e44be9abdad/vector_vault-2.1.3.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/77/0f/87b9f4d957469efe6d09542e956b1bd7bd3be01c89b638770e6a1132f286/audioldm2-0.0.7.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [voicebox-pytorch]: Downloading https://files.pythonhosted.org/packages/9a/44/5c75da5ab8ad90130de00a66d415748acde3666c5edf163dd3579524a3e7/voicebox-pytorch-0.0.3.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/fb/d2/0dd073d243c31a1d52dd32d0c55e6ae22eab4603ce27d6308e67a6cb0803/tybase-0.3.3.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 18:49:41] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.235.tar.gz tmp/litellm-0.1.236.tar.gz --markdown 20230805/l/litellm/0.1.235-0.1.236/diff.md --exclude *.pyd
+[2023-08-05 18:49:41] INFO root fetch - processPackages [inducoapi]: Downloading https://files.pythonhosted.org/packages/69/3a/a783c09902a390078a9fcb747ee2a640a3f41b069646b1780776a753974c/inducoapi-2.1.1.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [voicebox-pytorch]: executing diffoscope
+[2023-08-05 18:49:41] INFO root fetch - processPackages [voicebox-pytorch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicebox-pytorch-0.0.2.tar.gz tmp/voicebox-pytorch-0.0.3.tar.gz --markdown 20230805/v/voicebox-pytorch/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 18:49:41] INFO root fetch - processPackages [vector-vault]: executing diffoscope
+[2023-08-05 18:49:41] INFO root fetch - processPackages [vector-vault]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vector_vault-2.1.2.tar.gz tmp/vector_vault-2.1.3.tar.gz --markdown 20230805/v/vector-vault/2.1.2-2.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:49:41] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 18:49:41] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.3.2.tar.gz tmp/tybase-0.3.3.tar.gz --markdown 20230805/t/tybase/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 18:49:41] INFO root fetch - processPackages [edc-facility]: Downloading https://files.pythonhosted.org/packages/25/df/5c2c19681b3a879f977740022bc5a788ede02f38db0703d0f9c08b2d0300/edc-facility-0.3.9.tar.gz
+[2023-08-05 18:49:41] INFO root fetch - processPackages [inducoapi]: executing diffoscope
+[2023-08-05 18:49:41] INFO root fetch - processPackages [inducoapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inducoapi-2.1.0.tar.gz tmp/inducoapi-2.1.1.tar.gz --markdown 20230805/i/inducoapi/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-05 18:49:41] INFO root fetch - processPackages [edc-facility]: executing diffoscope
+[2023-08-05 18:49:41] INFO root fetch - processPackages [edc-facility]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_facility-0.3.8-py3-none-any.whl.zip tmp/edc-facility-0.3.9.tar.gz --markdown 20230805/e/edc-facility/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 18:49:42] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/2b/41/dddbe585addacebabfe6c1927428c6da5487d9efbbaa20842ab6411786cd/audioldm2-0.0.8.tar.gz
+[2023-08-05 18:49:42] INFO root fetch - processPackages [audioldm2]: executing diffoscope
+[2023-08-05 18:49:42] INFO root fetch - processPackages [audioldm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm2-0.0.7.tar.gz tmp/audioldm2-0.0.8.tar.gz --markdown 20230805/a/audioldm2/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 18:49:42] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.235.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.236.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 18:49:42] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.2.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - processPackages [vector-vault]: Remove: archive file [/home/abi/fetcher/tmp/vector_vault-2.1.3.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - main [MainThread]: End processing [vector-vault]: success
+[2023-08-05 18:49:42] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.2.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - processPackages [voicebox-pytorch]: Remove: archive file [/home/abi/fetcher/tmp/voicebox-pytorch-0.0.3.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - main [MainThread]: End processing [voicebox-pytorch]: success
+[2023-08-05 18:49:42] INFO root fetch - processPackages [edc-facility]: Remove: archive file [/home/abi/fetcher/tmp/edc_facility-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 18:49:42] INFO root fetch - processPackages [edc-facility]: Remove: archive file [/home/abi/fetcher/tmp/edc-facility-0.3.9.tar.gz]
+[2023-08-05 18:49:42] INFO root fetch - main [MainThread]: End processing [edc-facility]: success
+[2023-08-05 18:49:43] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.3.2.tar.gz]
+[2023-08-05 18:49:43] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.3.3.tar.gz]
+[2023-08-05 18:49:43] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 18:49:43] INFO root fetch - processPackages [inducoapi]: Remove: archive file [/home/abi/fetcher/tmp/inducoapi-2.1.0.tar.gz]
+[2023-08-05 18:49:43] INFO root fetch - processPackages [inducoapi]: Remove: archive file [/home/abi/fetcher/tmp/inducoapi-2.1.1.tar.gz]
+[2023-08-05 18:49:43] INFO root fetch - main [MainThread]: End processing [inducoapi]: success
+[2023-08-05 18:49:43] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.7.tar.gz]
+[2023-08-05 18:49:43] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.8.tar.gz]
+[2023-08-05 18:49:43] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
+[2023-08-05 18:49:43] INFO root fetch - main [MainThread]: Store serial: [19187916]
