@@ -18899,3 +18899,46 @@ zipfile.BadZipFile: File is not a zip file
 [2023-08-05 23:42:32] INFO root fetch - processPackages [geomancy]: Remove: archive file [/home/abi/fetcher/tmp/geomancy-1.1.2.tar.gz]
 [2023-08-05 23:42:32] INFO root fetch - main [MainThread]: End processing [geomancy]: success
 [2023-08-05 23:42:32] INFO root fetch - main [MainThread]: Store serial: [19189505]
+[2023-08-05 23:47:36] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189505]
+[2023-08-05 23:47:41] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 23:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyyeti
+[2023-08-05 23:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cumplo-common
+[2023-08-05 23:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nice65
+[2023-08-05 23:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: mwpf
+[2023-08-05 23:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: eggella
+[2023-08-05 23:47:41] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: nice65
+[2023-08-05 23:47:41] INFO root fetch - processPackages [nice65]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 23:47:41] INFO root fetch - processPackages [nice65]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 23:47:41] WARNING root fetch - processPackages [mwpf]: Skipping, unable to determine old version
+[2023-08-05 23:47:41] INFO root fetch - main [MainThread]: End processing [mwpf] error
+[2023-08-05 23:47:41] WARNING root fetch - processPackages [cumplo-common]: Skipping, unable to determine old version
+[2023-08-05 23:47:41] INFO root fetch - main [MainThread]: End processing [cumplo-common] error
+[2023-08-05 23:47:41] INFO root fetch - processPackages [eggella]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 23:47:41] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/e8/0a/965e81458791b413520629c911aa9cdf66961bae4b1dfa628aa90cedd402/nice65-0.1.2.tar.gz
+[2023-08-05 23:47:41] INFO root fetch - processPackages [pyyeti]: New version: [1.3.2] Old Version: [1.3.1]
+[2023-08-05 23:47:41] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/e8/0a/965e81458791b413520629c911aa9cdf66961bae4b1dfa628aa90cedd402/nice65-0.1.2.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [pyyeti]: Downloading https://files.pythonhosted.org/packages/09/4b/6b35b706b730dfc9856853c76e01d6eafbe421ad07f8f59cb990cebf4413/pyyeti-1.3.1.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/21/93/317507fb919612586ded818e750bf73f9b2bd0baf4af3459f82a385dbfba/eggella-0.0.8.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/d5/dd/05c651c314fbba2d2282f06f954dfc717521c64b58274f99cf97f4c74e7d/nice65-0.1.3.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/d5/dd/05c651c314fbba2d2282f06f954dfc717521c64b58274f99cf97f4c74e7d/nice65-0.1.3.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [nice65]: executing diffoscope
+[2023-08-05 23:47:42] INFO root fetch - processPackages [nice65]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice65-0.1.2.tar.gz tmp/nice65-0.1.3.tar.gz --markdown 20230805/n/nice65/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 23:47:42] INFO root fetch - processPackages [nice65]: executing diffoscope
+[2023-08-05 23:47:42] INFO root fetch - processPackages [nice65]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice65-0.1.2.tar.gz tmp/nice65-0.1.3.tar.gz --markdown 20230805/n/nice65/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 23:47:42] INFO root fetch - processPackages [eggella]: Downloading https://files.pythonhosted.org/packages/5b/79/e9370022ea8cd21959f95a9dd623ad94703f6821d1a05e31f6c80093c3df/eggella-0.0.9.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [pyyeti]: Downloading https://files.pythonhosted.org/packages/5e/90/f51f777aff57e375153e3a7e8d87b18959a5131dfac794069ff3581e5aa0/pyyeti-1.3.2.tar.gz
+[2023-08-05 23:47:42] INFO root fetch - processPackages [eggella]: executing diffoscope
+[2023-08-05 23:47:42] INFO root fetch - processPackages [eggella]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/eggella-0.0.8.tar.gz tmp/eggella-0.0.9.tar.gz --markdown 20230805/e/eggella/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 23:47:42] INFO root fetch - processPackages [pyyeti]: executing diffoscope
+[2023-08-05 23:47:42] INFO root fetch - processPackages [pyyeti]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyyeti-1.3.1.tar.gz tmp/pyyeti-1.3.2.tar.gz --markdown 20230805/p/pyyeti/1.3.1-1.3.2/diff.md --exclude *.pyd
+[2023-08-05 23:47:43] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.2.tar.gz]
+[2023-08-05 23:47:43] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.3.tar.gz]
+[2023-08-05 23:47:43] INFO root fetch - main [MainThread]: End processing [nice65]: success
+[2023-08-05 23:47:43] INFO root fetch - main [MainThread]: End processing [nice65]: success
+[2023-08-05 23:47:43] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.8.tar.gz]
+[2023-08-05 23:47:43] INFO root fetch - processPackages [eggella]: Remove: archive file [/home/abi/fetcher/tmp/eggella-0.0.9.tar.gz]
+[2023-08-05 23:47:43] INFO root fetch - main [MainThread]: End processing [eggella]: success
+[2023-08-05 23:47:43] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.3.1.tar.gz]
+[2023-08-05 23:47:43] INFO root fetch - processPackages [pyyeti]: Remove: archive file [/home/abi/fetcher/tmp/pyyeti-1.3.2.tar.gz]
+[2023-08-05 23:47:43] INFO root fetch - main [MainThread]: End processing [pyyeti]: success
+[2023-08-05 23:47:43] INFO root fetch - main [MainThread]: Store serial: [19189529]
