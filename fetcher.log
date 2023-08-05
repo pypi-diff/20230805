@@ -10643,3 +10643,93 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:37:19] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
 [2023-08-05 11:37:19] INFO root fetch - main [MainThread]: End processing [kfsd]: success
 [2023-08-05 11:37:19] INFO root fetch - main [MainThread]: Store serial: [19185453]
+[2023-08-05 11:42:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185453]
+[2023-08-05 11:42:27] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: enhancedocs
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: valmi-connector-lib
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: iman
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: distfit
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: TimeanddateScrapper
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: axion
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: repsys-framework
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: aiomonitor
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: domify
+[2023-08-05 11:42:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: micrologai
+[2023-08-05 11:42:28] INFO root fetch - processPackages [aiomonitor]: New version: [0.5.0a1] Old Version: [0.4.5]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [TimeanddateScrapper]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [repsys-framework]: New version: [0.4.0] Old Version: [0.3.8]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [micrologai]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [TimeanddateScrapper]: Downloading https://files.pythonhosted.org/packages/75/98/8f9c198e33a4028f0760f39f969b161d3403c435a52e65e98d9aa6d4c892/TimeanddateScrapper-0.0.3.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [valmi-connector-lib]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [axion]: New version: [3.6.18] Old Version: [3.6.17]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/20/8c/4098098773e99add7ee9290d6ceb4b753ceb536baf9c03398db857f5e887/micrologai-1.3.8.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [repsys-framework]: Downloading https://files.pythonhosted.org/packages/24/35/c58c5549cb9bf1cadcc7cbd95fe965a08306747244f98e469aeddbd77b80/repsys-framework-0.3.8.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [domify]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-05 11:42:28] WARNING root fetch - processPackages [enhancedocs]: Skipping, unable to determine old version
+[2023-08-05 11:42:28] INFO root fetch - processPackages [enhancedocs]: Start processing: iman
+[2023-08-05 11:42:28] INFO root fetch - main [MainThread]: End processing [enhancedocs] error
+[2023-08-05 11:42:28] INFO root fetch - processPackages [distfit]: New version: [1.6.9] Old Version: [1.6.8]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [iman]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-08-05 11:42:28] WARNING root fetch - processPackages [repsys-framework]: Skipping package: exceeds size limit 10653216>=10485760
+[2023-08-05 11:42:28] INFO root fetch - main [MainThread]: End processing [repsys-framework] error
+[2023-08-05 11:42:28] INFO root fetch - processPackages [aiomonitor]: Downloading https://files.pythonhosted.org/packages/98/76/b62e9fbe267287527fb6f4b6774394d4f00650195774173bb0055a99ab3d/aiomonitor-0.4.5.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [iman]: New version: [0.0.96] Old Version: [0.0.95]
+[2023-08-05 11:42:28] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/6c/3e/d4275c80e696994002c76ed3675cf9d05ead8792d67ae4d2c1fc5482382e/valmi_connector_lib-0.1.8.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [domify]: Downloading https://files.pythonhosted.org/packages/30/ac/2b97e6d33fd4ba7eb7bde0eb884a721ae1d2697097b3b890da87e23c28b9/domify-0.4.2.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [distfit]: Downloading https://files.pythonhosted.org/packages/ca/41/4067a8106c024f14e6e2ad676f098e1261fe95e9acf9b630bdb5acae27e1/distfit-1.6.8.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/d1/c9/0b9063f5652ea4c9ac627e2f616c6a821bb8167f36927a3e414323ec22b8/iman-0.0.95.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/d1/c9/0b9063f5652ea4c9ac627e2f616c6a821bb8167f36927a3e414323ec22b8/iman-0.0.95.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/8a/d7/0e35cd93ada0481ef3a91426a90c5976a7510ecc884c64891a7c9dbeb062/axion-3.6.17-cp311-none-win_amd64.whl
+[2023-08-05 11:42:28] INFO root fetch - processPackages [TimeanddateScrapper]: Downloading https://files.pythonhosted.org/packages/b4/d0/e05cdd3f95cb7073f473b80bb619da86e2c3425b0fffb199da1c64f94ea6/TimeanddateScrapper-0.0.4.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [aiomonitor]: Downloading https://files.pythonhosted.org/packages/1e/f4/d099658c570890b81658746de58a00d0b075ae72f83a485d7634f66b9221/aiomonitor-0.5.0a1.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [TimeanddateScrapper]: executing diffoscope
+[2023-08-05 11:42:28] INFO root fetch - processPackages [TimeanddateScrapper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TimeanddateScrapper-0.0.3.tar.gz tmp/TimeanddateScrapper-0.0.4.tar.gz --markdown 20230805/T/TimeanddateScrapper/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 11:42:28] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/5f/ff/abdd943dffeb90d8622427d1fdb64da731c7bbfa2b83c524e10e39d834c2/micrologai-1.3.9.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [valmi-connector-lib]: Downloading https://files.pythonhosted.org/packages/70/81/122eb1c23072069f6b5b24b7171ebc54114a9104028620fcede5eaa89952/valmi_connector_lib-0.1.9.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [distfit]: Downloading https://files.pythonhosted.org/packages/4e/15/1b39865a5b49df2f68db2304af5fcf1552218e97a9506f10338c65e870d6/distfit-1.6.9.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [domify]: Downloading https://files.pythonhosted.org/packages/7c/ee/3fab0a075c54b28ade43c908367f17dfc1958210a2c28bc9b887f578522c/domify-0.4.3.tar.gz
+[2023-08-05 11:42:28] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/4f/fb/fe3fdd026f1908f395c928ceca234bb24a37b536608927fb174e8a4aa791/iman-0.0.96.tar.gz
+[2023-08-05 11:42:29] INFO root fetch - processPackages [aiomonitor]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [aiomonitor]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiomonitor-0.4.5.tar.gz tmp/aiomonitor-0.5.0a1.tar.gz --markdown 20230805/a/aiomonitor/0.4.5-0.5.0a1/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [iman]: Downloading https://files.pythonhosted.org/packages/4f/fb/fe3fdd026f1908f395c928ceca234bb24a37b536608927fb174e8a4aa791/iman-0.0.96.tar.gz
+[2023-08-05 11:42:29] INFO root fetch - processPackages [axion]: Downloading https://files.pythonhosted.org/packages/7a/c3/a1791ec6fc53fe03e72fa04ccdc931651b29b81cd4cfb5bc1f881efe0312/axion-3.6.18-cp311-none-win_amd64.whl
+[2023-08-05 11:42:29] INFO root fetch - processPackages [valmi-connector-lib]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [valmi-connector-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valmi_connector_lib-0.1.8.tar.gz tmp/valmi_connector_lib-0.1.9.tar.gz --markdown 20230805/v/valmi-connector-lib/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [distfit]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [distfit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/distfit-1.6.8.tar.gz tmp/distfit-1.6.9.tar.gz --markdown 20230805/d/distfit/1.6.8-1.6.9/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [domify]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [domify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/domify-0.4.2.tar.gz tmp/domify-0.4.3.tar.gz --markdown 20230805/d/domify/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.8.tar.gz tmp/micrologai-1.3.9.tar.gz --markdown 20230805/m/micrologai/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [axion]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [axion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/axion-3.6.17-cp311-none-win_amd64.whl.zip tmp/axion-3.6.18-cp311-none-win_amd64.whl.zip --markdown 20230805/a/axion/3.6.17-3.6.18/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [TimeanddateScrapper]: Remove: archive file [/home/abi/fetcher/tmp/TimeanddateScrapper-0.0.3.tar.gz]
+[2023-08-05 11:42:29] INFO root fetch - processPackages [TimeanddateScrapper]: Remove: archive file [/home/abi/fetcher/tmp/TimeanddateScrapper-0.0.4.tar.gz]
+[2023-08-05 11:42:29] INFO root fetch - main [MainThread]: End processing [TimeanddateScrapper]: success
+[2023-08-05 11:42:29] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.95.tar.gz tmp/iman-0.0.96.tar.gz --markdown 20230805/i/iman/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-08-05 11:42:29] INFO root fetch - processPackages [iman]: executing diffoscope
+[2023-08-05 11:42:29] INFO root fetch - processPackages [iman]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/iman-0.0.95.tar.gz tmp/iman-0.0.96.tar.gz --markdown 20230805/i/iman/0.0.95-0.0.96/diff.md --exclude *.pyd
+[2023-08-05 11:42:30] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.8.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - processPackages [valmi-connector-lib]: Remove: archive file [/home/abi/fetcher/tmp/valmi_connector_lib-0.1.9.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - main [MainThread]: End processing [valmi-connector-lib]: success
+[2023-08-05 11:42:30] INFO root fetch - processPackages [aiomonitor]: Remove: archive file [/home/abi/fetcher/tmp/aiomonitor-0.4.5.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - processPackages [aiomonitor]: Remove: archive file [/home/abi/fetcher/tmp/aiomonitor-0.5.0a1.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - main [MainThread]: End processing [aiomonitor]: success
+[2023-08-05 11:42:30] INFO root fetch - processPackages [distfit]: Remove: archive file [/home/abi/fetcher/tmp/distfit-1.6.8.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - processPackages [distfit]: Remove: archive file [/home/abi/fetcher/tmp/distfit-1.6.9.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - main [MainThread]: End processing [distfit]: success
+[2023-08-05 11:42:30] INFO root fetch - processPackages [domify]: Remove: archive file [/home/abi/fetcher/tmp/domify-0.4.2.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - processPackages [domify]: Remove: archive file [/home/abi/fetcher/tmp/domify-0.4.3.tar.gz]
+[2023-08-05 11:42:30] INFO root fetch - main [MainThread]: End processing [domify]: success
+[2023-08-05 11:42:30] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.17-cp311-none-win_amd64.whl.zip]
+[2023-08-05 11:42:30] INFO root fetch - processPackages [axion]: Remove: archive file [/home/abi/fetcher/tmp/axion-3.6.18-cp311-none-win_amd64.whl.zip]
+[2023-08-05 11:42:30] INFO root fetch - main [MainThread]: End processing [axion]: success
+[2023-08-05 11:42:31] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.8.tar.gz]
+[2023-08-05 11:42:31] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.9.tar.gz]
+[2023-08-05 11:42:31] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-05 11:42:31] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.95.tar.gz]
+[2023-08-05 11:42:31] INFO root fetch - processPackages [iman]: Remove: archive file [/home/abi/fetcher/tmp/iman-0.0.96.tar.gz]
+[2023-08-05 11:42:31] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-08-05 11:42:31] INFO root fetch - main [MainThread]: End processing [iman]: success
+[2023-08-05 11:42:31] INFO root fetch - main [MainThread]: Store serial: [19185485]
