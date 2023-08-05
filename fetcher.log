@@ -2298,3 +2298,77 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 02:51:17] INFO root fetch - processPackages [kubric-nightly]: Remove: archive file [/home/abi/fetcher/tmp/kubric-nightly-2023.8.5.tar.gz]
 [2023-08-05 02:51:17] INFO root fetch - main [MainThread]: End processing [kubric-nightly]: success
 [2023-08-05 02:51:17] INFO root fetch - main [MainThread]: Store serial: [19182164]
+[2023-08-05 02:56:21] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19182164]
+[2023-08-05 02:56:26] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pycde
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-sns-notify
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-emrserverless-with-delta-lake
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: kumo-ai
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: box-bsxpath
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: raydp-nightly
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: valvebsp
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: Eryn
+[2023-08-05 02:56:26] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: pyenphase
+[2023-08-05 02:56:26] WARNING root fetch - processPackages [box-bsxpath]: Skipping, unable to determine old version
+[2023-08-05 02:56:26] INFO root fetch - main [MainThread]: End processing [box-bsxpath] error
+[2023-08-05 02:56:26] INFO root fetch - processPackages [pyenphase]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [kumo-ai]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [valvebsp]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [cdk-sns-notify]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [Eryn]: New version: [1.1.4] Old Version: [1.1.3]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [raydp-nightly]: New version: [2023.8.5.dev0] Old Version: [2023.8.1.dev0]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [pycde]: New version: [0.2.1.dev988] Old Version: [0.2.1.dev961]
+[2023-08-05 02:56:26] INFO root fetch - processPackages [kumo-ai]: Downloading https://files.pythonhosted.org/packages/54/8d/42ac95dd95b7567b8540a3797e5b8e1fa7cd5ef5e7ec719a8afdf62a5f49/kumo-ai-0.1.8.tar.gz
+[2023-08-05 02:56:26] INFO root fetch - processPackages [valvebsp]: Downloading https://files.pythonhosted.org/packages/f8/69/c5152305ee623be0071665d428d9d91f5dec6c9c998f84542cf42f83a4fe/valvebsp-1.3.2.tar.gz
+[2023-08-05 02:56:26] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/ca/c8/c8aec8668c8ae715e0e15ea3ea2e2e326fea6b5d0258b79e2b876aefa521/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz
+[2023-08-05 02:56:26] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/63/7d/ec62f3b7c0e08e1437b2036911a0d42b75ee30ea2cbb819399bdf8b55111/cdk-sns-notify-0.0.98.tar.gz
+[2023-08-05 02:56:26] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/3f/87/e857db80b96fa499462a158f3c45131a67140c6919ad4282625c2dfab351/pyenphase-0.3.0.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [Eryn]: Downloading https://files.pythonhosted.org/packages/7e/66/c3d02f27ec316065982cba0609c5553396e087be6552f23d33fbf5c4e6a5/Eryn-1.1.3.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [raydp-nightly]: Downloading https://files.pythonhosted.org/packages/24/1e/c364a193f20d57b9840252f0e7dce1e37aa3423f336d64dda056f6fb944e/raydp_nightly-2023.8.1.dev0-py3-none-any.whl
+[2023-08-05 02:56:27] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b7/ed/804e0141dfcd66f1160e48bcb2d0162bfe55d21ef588a6e07e0806b0a859/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl
+[2023-08-05 02:56:27] WARNING root fetch - processPackages [raydp-nightly]: Skipping package: exceeds size limit 14072213>=10485760
+[2023-08-05 02:56:27] INFO root fetch - main [MainThread]: End processing [raydp-nightly] error
+[2023-08-05 02:56:27] INFO root fetch - processPackages [kumo-ai]: Downloading https://files.pythonhosted.org/packages/3b/0c/56516d4ce24682ffa795efce19feafd231e14a7722e5a9003a8074698b5b/kumo-ai-0.1.9.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [valvebsp]: Downloading https://files.pythonhosted.org/packages/9c/99/af2f7523414e655821df5ba555cb0975f8fed7e8182db0d4b7b1b11c2537/valvebsp-1.3.3.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [cdk-sns-notify]: Downloading https://files.pythonhosted.org/packages/18/81/3593e022c53913815c1207f0d20763efc2764992a13c81d641f3a01edf7d/cdk-sns-notify-0.0.99.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [kumo-ai]: executing diffoscope
+[2023-08-05 02:56:27] INFO root fetch - processPackages [kumo-ai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kumo-ai-0.1.8.tar.gz tmp/kumo-ai-0.1.9.tar.gz --markdown 20230805/k/kumo-ai/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 02:56:27] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/de/e7/ea3af4b630ce6a1b8533b7026d892031dabbd04c67d28de5d4e4d65d8d30/pyenphase-0.4.0.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [valvebsp]: executing diffoscope
+[2023-08-05 02:56:27] INFO root fetch - processPackages [valvebsp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/valvebsp-1.3.2.tar.gz tmp/valvebsp-1.3.3.tar.gz --markdown 20230805/v/valvebsp/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-08-05 02:56:27] INFO root fetch - processPackages [cdk-sns-notify]: executing diffoscope
+[2023-08-05 02:56:27] INFO root fetch - processPackages [cdk-sns-notify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-sns-notify-0.0.98.tar.gz tmp/cdk-sns-notify-0.0.99.tar.gz --markdown 20230805/c/cdk-sns-notify/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:56:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Downloading https://files.pythonhosted.org/packages/7f/24/30b3ba3f3be3fa0cda5f66dcfce20bb782a7327b2635d12d6f66d6acf91f/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-05 02:56:27] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.3.0.tar.gz tmp/pyenphase-0.4.0.tar.gz --markdown 20230805/p/pyenphase/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 02:56:27] INFO root fetch - processPackages [Eryn]: Downloading https://files.pythonhosted.org/packages/81/fe/6685cb0198aca2d0ec4da7902c4c20c74c6477a992c37c10cf0f51d386d8/Eryn-1.1.4.tar.gz
+[2023-08-05 02:56:27] INFO root fetch - processPackages [Eryn]: executing diffoscope
+[2023-08-05 02:56:27] INFO root fetch - processPackages [Eryn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Eryn-1.1.3.tar.gz tmp/Eryn-1.1.4.tar.gz --markdown 20230805/E/Eryn/1.1.3-1.1.4/diff.md --exclude *.pyd
+[2023-08-05 02:56:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: executing diffoscope
+[2023-08-05 02:56:27] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz --markdown 20230805/c/cdk-emrserverless-with-delta-lake/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:56:27] INFO root fetch - processPackages [pycde]: Downloading https://files.pythonhosted.org/packages/b9/ae/7d052a4c453053b2cbbee8bd65271ab000dd63312d3de98a9c90ca0d9952/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl
+[2023-08-05 02:56:28] INFO root fetch - processPackages [kumo-ai]: Remove: archive file [/home/abi/fetcher/tmp/kumo-ai-0.1.8.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - processPackages [kumo-ai]: Remove: archive file [/home/abi/fetcher/tmp/kumo-ai-0.1.9.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - main [MainThread]: End processing [kumo-ai]: success
+[2023-08-05 02:56:28] INFO root fetch - processPackages [valvebsp]: Remove: archive file [/home/abi/fetcher/tmp/valvebsp-1.3.2.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - processPackages [valvebsp]: Remove: archive file [/home/abi/fetcher/tmp/valvebsp-1.3.3.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - main [MainThread]: End processing [valvebsp]: success
+[2023-08-05 02:56:28] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.98.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - processPackages [cdk-sns-notify]: Remove: archive file [/home/abi/fetcher/tmp/cdk-sns-notify-0.0.99.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - main [MainThread]: End processing [cdk-sns-notify]: success
+[2023-08-05 02:56:28] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.3.0.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.4.0.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-05 02:56:28] INFO root fetch - processPackages [Eryn]: Remove: archive file [/home/abi/fetcher/tmp/Eryn-1.1.3.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - processPackages [Eryn]: Remove: archive file [/home/abi/fetcher/tmp/Eryn-1.1.4.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - main [MainThread]: End processing [Eryn]: success
+[2023-08-05 02:56:28] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.98.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - processPackages [cdk-emrserverless-with-delta-lake]: Remove: archive file [/home/abi/fetcher/tmp/cdk_emrserverless_with_delta_lake-2.0.99.tar.gz]
+[2023-08-05 02:56:28] INFO root fetch - main [MainThread]: End processing [cdk-emrserverless-with-delta-lake]: success
+[2023-08-05 02:56:29] INFO root fetch - processPackages [pycde]: executing diffoscope
+[2023-08-05 02:56:29] INFO root fetch - processPackages [pycde]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip --markdown 20230805/p/pycde/0.2.1.dev961-0.2.1.dev988/diff.md --exclude *.pyd
+[2023-08-05 02:56:55] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev961-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 02:56:55] INFO root fetch - processPackages [pycde]: Remove: archive file [/home/abi/fetcher/tmp/pycde-0.2.1.dev988-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 02:56:55] INFO root fetch - main [MainThread]: End processing [pycde]: success
+[2023-08-05 02:56:55] INFO root fetch - main [MainThread]: Store serial: [19182195]
