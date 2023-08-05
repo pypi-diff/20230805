@@ -11394,3 +11394,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:46:44] INFO root fetch - processPackages [DuHast]: Remove: archive file [/home/abi/fetcher/tmp/DuHast-0.0.9.tar.gz]
 [2023-08-05 12:46:44] INFO root fetch - main [MainThread]: End processing [DuHast]: success
 [2023-08-05 12:46:44] INFO root fetch - main [MainThread]: Store serial: [19185837]
+[2023-08-05 12:51:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185837]
+[2023-08-05 12:51:53] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: ioavstatsdb
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-finance
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nice65
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: graia-broadcast
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: aiotieba-reviewer
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Carter-Offline
+[2023-08-05 12:51:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: audioldm2
+[2023-08-05 12:51:53] INFO root fetch - processPackages [nice65]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 12:51:53] INFO root fetch - processPackages [audioldm2]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 12:51:53] INFO root fetch - processPackages [graia-broadcast]: New version: [0.9.0] Old Version: [0.8.9]
+[2023-08-05 12:51:53] INFO root fetch - processPackages [xj-finance]: New version: [1.1.8] Old Version: [1.1.7]
+[2023-08-05 12:51:53] WARNING root fetch - processPackages [ioavstatsdb]: Skipping, unable to determine old version
+[2023-08-05 12:51:53] INFO root fetch - main [MainThread]: End processing [ioavstatsdb] error
+[2023-08-05 12:51:53] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-05 12:51:53] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/0e/73/12db803a0653fdb1df3662b25ed789d44aa87dfe7ca86424e2a23b073b79/graia-broadcast-0.8.9.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [aiotieba-reviewer]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-05 12:51:53] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/fc/18/73bbb88bf9d3cc5e4dab69ad4ba9eb683b612692928ce245c5a81962a787/nice65-0.1.0.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/65/89/3a3eedf3d237111aee07c77589cf8eb699a329c190f7346751f19575e940/Carter-Offline-2.0.8.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/4f/4f/0973540d5d42171aeed8382c4fb4cd409a03589e4efab606626e7fbd342c/audioldm2-0.0.1.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/85/06/1e9c8076aa8e0629c14bb494a76121b916ff57c4793069cd4ef44db94916/xj_finance-1.1.7.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [aiotieba-reviewer]: Downloading https://files.pythonhosted.org/packages/38/42/379cc9cb24ff083b7e807687707bbfc7077fe8855ea57fc102ecbbbad085/aiotieba-reviewer-0.3.0.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [nice65]: Downloading https://files.pythonhosted.org/packages/5b/b1/9f20db4b78ed3c9b9af8153da21599cea158207046de2626c90e637439f0/nice65-0.1.1.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/0d/46/517c017c3b166ba73aaff309d3073ec1dc0fddf4cfe42811dd260baa10c0/Carter-Offline-2.0.9.tar.gz
+[2023-08-05 12:51:53] INFO root fetch - processPackages [graia-broadcast]: Downloading https://files.pythonhosted.org/packages/bb/b6/1e12c5c4c947738dd16cc772420e87e8482984dcf5e94bc92fe2ae57c0cf/graia-broadcast-0.9.0.tar.gz
+[2023-08-05 12:51:54] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-05 12:51:54] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.8.tar.gz tmp/Carter-Offline-2.0.9.tar.gz --markdown 20230805/C/Carter-Offline/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-05 12:51:54] INFO root fetch - processPackages [xj-finance]: Downloading https://files.pythonhosted.org/packages/05/17/1d8ed3acedb3e976333c002d75343346b672b1b0907099e9685be98f80ac/xj_finance-1.1.8.tar.gz
+[2023-08-05 12:51:54] INFO root fetch - processPackages [nice65]: executing diffoscope
+[2023-08-05 12:51:54] INFO root fetch - processPackages [nice65]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nice65-0.1.0.tar.gz tmp/nice65-0.1.1.tar.gz --markdown 20230805/n/nice65/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 12:51:54] INFO root fetch - processPackages [graia-broadcast]: executing diffoscope
+[2023-08-05 12:51:54] INFO root fetch - processPackages [graia-broadcast]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/graia-broadcast-0.8.9.tar.gz tmp/graia-broadcast-0.9.0.tar.gz --markdown 20230805/g/graia-broadcast/0.8.9-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 12:51:54] INFO root fetch - processPackages [aiotieba-reviewer]: Downloading https://files.pythonhosted.org/packages/d5/c6/acd899eceed8ffdef916f514df0ef30c705e4c6db880603690cab2c33221/aiotieba-reviewer-0.3.1.tar.gz
+[2023-08-05 12:51:54] INFO root fetch - processPackages [xj-finance]: executing diffoscope
+[2023-08-05 12:51:54] INFO root fetch - processPackages [xj-finance]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_finance-1.1.7.tar.gz tmp/xj_finance-1.1.8.tar.gz --markdown 20230805/x/xj-finance/1.1.7-1.1.8/diff.md --exclude *.pyd
+[2023-08-05 12:51:54] INFO root fetch - processPackages [aiotieba-reviewer]: executing diffoscope
+[2023-08-05 12:51:54] INFO root fetch - processPackages [aiotieba-reviewer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aiotieba-reviewer-0.3.0.tar.gz tmp/aiotieba-reviewer-0.3.1.tar.gz --markdown 20230805/a/aiotieba-reviewer/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 12:51:54] INFO root fetch - processPackages [audioldm2]: Downloading https://files.pythonhosted.org/packages/5c/df/479543659d26ce17b22af604e356df62239861b12a29126298e7778e4a95/audioldm2-0.0.2.tar.gz
+[2023-08-05 12:51:54] INFO root fetch - processPackages [audioldm2]: executing diffoscope
+[2023-08-05 12:51:54] INFO root fetch - processPackages [audioldm2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/audioldm2-0.0.1.tar.gz tmp/audioldm2-0.0.2.tar.gz --markdown 20230805/a/audioldm2/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 12:51:54] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.8.tar.gz]
+[2023-08-05 12:51:54] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.9.tar.gz]
+[2023-08-05 12:51:54] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-05 12:51:55] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.0.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - processPackages [nice65]: Remove: archive file [/home/abi/fetcher/tmp/nice65-0.1.1.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - main [MainThread]: End processing [nice65]: success
+[2023-08-05 12:51:55] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.8.9.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - processPackages [graia-broadcast]: Remove: archive file [/home/abi/fetcher/tmp/graia-broadcast-0.9.0.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - main [MainThread]: End processing [graia-broadcast]: success
+[2023-08-05 12:51:55] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.7.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - processPackages [xj-finance]: Remove: archive file [/home/abi/fetcher/tmp/xj_finance-1.1.8.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - main [MainThread]: End processing [xj-finance]: success
+[2023-08-05 12:51:55] INFO root fetch - processPackages [aiotieba-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-reviewer-0.3.0.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - processPackages [aiotieba-reviewer]: Remove: archive file [/home/abi/fetcher/tmp/aiotieba-reviewer-0.3.1.tar.gz]
+[2023-08-05 12:51:55] INFO root fetch - main [MainThread]: End processing [aiotieba-reviewer]: success
+[2023-08-05 12:51:56] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.1.tar.gz]
+[2023-08-05 12:51:56] INFO root fetch - processPackages [audioldm2]: Remove: archive file [/home/abi/fetcher/tmp/audioldm2-0.0.2.tar.gz]
+[2023-08-05 12:51:56] INFO root fetch - main [MainThread]: End processing [audioldm2]: success
+[2023-08-05 12:51:56] INFO root fetch - main [MainThread]: Store serial: [19185860]
