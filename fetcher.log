@@ -8164,3 +8164,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:48:36] WARNING root fetch - processPackages [quickMTF]: Skipping, unable to determine old version
 [2023-08-05 06:48:36] INFO root fetch - main [MainThread]: End processing [quickMTF] error
 [2023-08-05 06:48:36] INFO root fetch - main [MainThread]: Store serial: [19184326]
+[2023-08-05 06:53:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184326]
+[2023-08-05 06:53:44] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pypomes-core
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo-addon-sale-comment-template
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: odoo-addons-oca-sale-reporting
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: usepy-plugin-rabbitmq
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: quickMTF
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: Inxio
+[2023-08-05 06:53:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ast-grep-cli
+[2023-08-05 06:53:45] INFO root fetch - processPackages [quickMTF]: New version: [2023.3.1] Old Version: [2023.2.1]
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: New version: [16.0.1.0.0.2] Old Version: [15.0.1.0.1.2]
+[2023-08-05 06:53:45] WARNING root fetch - processPackages [usepy-plugin-rabbitmq]: Skipping, unable to determine old version
+[2023-08-05 06:53:45] INFO root fetch - main [MainThread]: End processing [usepy-plugin-rabbitmq] error
+[2023-08-05 06:53:45] WARNING root fetch - processPackages [Inxio]: Skipping, unable to determine old version
+[2023-08-05 06:53:45] INFO root fetch - main [MainThread]: End processing [Inxio] error
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: Downloading https://files.pythonhosted.org/packages/92/bd/dd8be20f1848c1c9bb824accf59b204ca9d192b896509387e0685c1fcfbc/odoo_addon_sale_comment_template-15.0.1.0.1.2-py3-none-any.whl
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: New version: [16.0.20230804.0] Old Version: [16.0.20230706.0]
+[2023-08-05 06:53:45] INFO root fetch - processPackages [pypomes-core]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-05 06:53:45] INFO root fetch - processPackages [ast-grep-cli]: New version: [0.9.3] Old Version: [0.9.2]
+[2023-08-05 06:53:45] INFO root fetch - processPackages [quickMTF]: Downloading https://files.pythonhosted.org/packages/c2/b0/69bc6efe67935b4155898156d18dc0d6f85884baa1de120f7554dc1aba96/quickMTF-2023.2.1.tar.gz
+[2023-08-05 06:53:45] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/35/50/b67f4d2d5de4be54d9d7e30d5986b2e96a1ace73508b9897b07fc98aa5cb/pypomes_core-0.2.2.tar.gz
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: Downloading https://files.pythonhosted.org/packages/50/b4/aa6aec1c0a81715fff6c18bcea7c4b62c1bc98d15d346a07b07d41e53879/odoo_addon_sale_comment_template-16.0.1.0.0.2-py3-none-any.whl
+[2023-08-05 06:53:45] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/f7/c2/09d75b706485bc51e9971fffe138396e852d914b4ea1ced1dcbbf9c8890e/ast_grep_cli-0.9.2.tar.gz
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/d3/82/b6bac1769a61471f78dfc3bc26fe299371616c928c64ee653e14247e119e/odoo_addons_oca_sale_reporting-16.0.20230706.0-py3-none-any.whl
+[2023-08-05 06:53:45] INFO root fetch - processPackages [quickMTF]: Downloading https://files.pythonhosted.org/packages/76/76/35fe24bbeb28aa9256187351ee51ed0bc6c53b3a856a265875fc731ee56a/quickMTF-2023.3.1.tar.gz
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: executing diffoscope
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addon_sale_comment_template-15.0.1.0.1.2-py3-none-any.whl.zip tmp/odoo_addon_sale_comment_template-16.0.1.0.0.2-py3-none-any.whl.zip --markdown 20230805/o/odoo-addon-sale-comment-template/15.0.1.0.1.2-16.0.1.0.0.2/diff.md --exclude *.pyd
+[2023-08-05 06:53:45] INFO root fetch - processPackages [pypomes-core]: Downloading https://files.pythonhosted.org/packages/84/63/16fd95f63152f43c1594c454dfddebff68639fbb1dcb87c005908c1cbc8a/pypomes_core-0.2.3.tar.gz
+[2023-08-05 06:53:45] INFO root fetch - processPackages [quickMTF]: executing diffoscope
+[2023-08-05 06:53:45] INFO root fetch - processPackages [quickMTF]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/quickMTF-2023.2.1.tar.gz tmp/quickMTF-2023.3.1.tar.gz --markdown 20230805/q/quickMTF/2023.2.1-2023.3.1/diff.md --exclude *.pyd
+[2023-08-05 06:53:45] INFO root fetch - processPackages [pypomes-core]: executing diffoscope
+[2023-08-05 06:53:45] INFO root fetch - processPackages [pypomes-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_core-0.2.2.tar.gz tmp/pypomes_core-0.2.3.tar.gz --markdown 20230805/p/pypomes-core/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-05 06:53:45] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Downloading https://files.pythonhosted.org/packages/b7/fc/08c9c1e9b98674f5e6933e136c727cf5c52d98e1aeeea5ca2972d0c11685/odoo_addons_oca_sale_reporting-16.0.20230804.0-py3-none-any.whl
+[2023-08-05 06:53:46] INFO root fetch - processPackages [ast-grep-cli]: Downloading https://files.pythonhosted.org/packages/bb/5c/1c5ee896b0968132154badd72079015a1958ff352d47c5f9e74e8ce6d54e/ast_grep_cli-0.9.3.tar.gz
+[2023-08-05 06:53:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: executing diffoscope
+[2023-08-05 06:53:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo_addons_oca_sale_reporting-16.0.20230706.0-py3-none-any.whl.zip tmp/odoo_addons_oca_sale_reporting-16.0.20230804.0-py3-none-any.whl.zip --markdown 20230805/o/odoo-addons-oca-sale-reporting/16.0.20230706.0-16.0.20230804.0/diff.md --exclude *.pyd
+[2023-08-05 06:53:46] INFO root fetch - processPackages [ast-grep-cli]: executing diffoscope
+[2023-08-05 06:53:46] INFO root fetch - processPackages [ast-grep-cli]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ast_grep_cli-0.9.2.tar.gz tmp/ast_grep_cli-0.9.3.tar.gz --markdown 20230805/a/ast-grep-cli/0.9.2-0.9.3/diff.md --exclude *.pyd
+[2023-08-05 06:53:46] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_comment_template-15.0.1.0.1.2-py3-none-any.whl.zip]
+[2023-08-05 06:53:46] INFO root fetch - processPackages [odoo-addon-sale-comment-template]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addon_sale_comment_template-16.0.1.0.0.2-py3-none-any.whl.zip]
+[2023-08-05 06:53:46] INFO root fetch - main [MainThread]: End processing [odoo-addon-sale-comment-template]: success
+[2023-08-05 06:53:46] INFO root fetch - processPackages [quickMTF]: Remove: archive file [/home/abi/fetcher/tmp/quickMTF-2023.2.1.tar.gz]
+[2023-08-05 06:53:46] INFO root fetch - processPackages [quickMTF]: Remove: archive file [/home/abi/fetcher/tmp/quickMTF-2023.3.1.tar.gz]
+[2023-08-05 06:53:46] INFO root fetch - main [MainThread]: End processing [quickMTF]: success
+[2023-08-05 06:53:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230706.0-py3-none-any.whl.zip]
+[2023-08-05 06:53:46] INFO root fetch - processPackages [odoo-addons-oca-sale-reporting]: Remove: archive file [/home/abi/fetcher/tmp/odoo_addons_oca_sale_reporting-16.0.20230804.0-py3-none-any.whl.zip]
+[2023-08-05 06:53:46] INFO root fetch - main [MainThread]: End processing [odoo-addons-oca-sale-reporting]: success
+[2023-08-05 06:53:47] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.2.2.tar.gz]
+[2023-08-05 06:53:47] INFO root fetch - processPackages [pypomes-core]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_core-0.2.3.tar.gz]
+[2023-08-05 06:53:47] INFO root fetch - main [MainThread]: End processing [pypomes-core]: success
+[2023-08-05 06:53:47] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.2.tar.gz]
+[2023-08-05 06:53:47] INFO root fetch - processPackages [ast-grep-cli]: Remove: archive file [/home/abi/fetcher/tmp/ast_grep_cli-0.9.3.tar.gz]
+[2023-08-05 06:53:47] INFO root fetch - main [MainThread]: End processing [ast-grep-cli]: success
+[2023-08-05 06:53:47] INFO root fetch - main [MainThread]: Store serial: [19184345]
