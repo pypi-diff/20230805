@@ -18176,3 +18176,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 22:34:10] INFO root fetch - processPackages [hpo3]: Remove: archive file [/home/abi/fetcher/tmp/hpo3-1.0.0-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
 [2023-08-05 22:34:10] INFO root fetch - main [MainThread]: End processing [hpo3]: success
 [2023-08-05 22:34:10] INFO root fetch - main [MainThread]: Store serial: [19189100]
+[2023-08-05 22:39:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189100]
+[2023-08-05 22:39:19] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: quiele
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: extype
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: wagtail-lxp
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dipdup
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyraws
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: felupe
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ladderbot
+[2023-08-05 22:39:19] WARNING root fetch - processPackages [pyraws]: Skipping, unable to determine old version
+[2023-08-05 22:39:19] INFO root fetch - main [MainThread]: End processing [pyraws] error
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ladderbot]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 22:39:19] WARNING root fetch - processPackages [quiele]: Skipping, unable to determine old version
+[2023-08-05 22:39:19] INFO root fetch - main [MainThread]: End processing [quiele] error
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/e5/e1/cc5f3a847cf2d38e7aaf9e6801e57ff12e3f3cc59754fb9b36a461f387e7/ladderbot-0.0.8.tar.gz
+[2023-08-05 22:39:19] INFO root fetch - processPackages [wagtail-lxp]: New version: [23.8.1] Old Version: [22.11.2]
+[2023-08-05 22:39:19] INFO root fetch - processPackages [felupe]: New version: [7.5.1] Old Version: [7.5.0]
+[2023-08-05 22:39:19] INFO root fetch - processPackages [dipdup]: New version: [7.0.0rc3] Old Version: [7.0.0rc2]
+[2023-08-05 22:39:19] INFO root fetch - processPackages [extype]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/69/27/e8f02b0d156d3bafa2ea1b34e9d5107a5482106411478528075cb9cd4eed/ladderbot-0.0.9.tar.gz
+[2023-08-05 22:39:19] INFO root fetch - processPackages [wagtail-lxp]: Downloading https://files.pythonhosted.org/packages/5d/d0/41a2b885985ec2a044bf57dd80a2cd200727a3c82935be0a276d1dba1585/wagtail-lxp-22.11.2.tar.gz
+[2023-08-05 22:39:19] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/34/f7/b8b17e6c929f83927779b75a9d20b863b6f03d73bd7e139347aa89edab53/felupe-7.5.0.tar.gz
+[2023-08-05 22:39:19] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/c7/5f/42b5ea1a211d99bd325a333a884f27d8d507827e7a53b8937e55e45549e6/dipdup-7.0.0rc2.tar.gz
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 22:39:19] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.8.tar.gz tmp/ladderbot-0.0.9.tar.gz --markdown 20230805/l/ladderbot/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 22:39:19] INFO root fetch - processPackages [extype]: Downloading https://files.pythonhosted.org/packages/15/5d/52aa303c863b14bf541ea845f0695af54b58379a50d1d5e947cca0eb6235/extype-1.0.0-cp39-cp39-win_amd64.whl
+[2023-08-05 22:39:20] INFO root fetch - processPackages [wagtail-lxp]: Downloading https://files.pythonhosted.org/packages/a8/85/3ee8504a1654b51f6edbf645400c69f2b12f41ab4b9380c84c45c0cf1438/wagtail-lxp-23.8.1.tar.gz
+[2023-08-05 22:39:20] INFO root fetch - processPackages [extype]: Downloading https://files.pythonhosted.org/packages/73/21/771b7593415de99c9eb425d39c3f7aabacae79967e85c3415e00e787d9cc/extype-1.1.0-cp39-cp39-win_amd64.whl
+[2023-08-05 22:39:20] INFO root fetch - processPackages [felupe]: Downloading https://files.pythonhosted.org/packages/b1/6c/775b049fff0ad23f4662cb9a509bc7e76f09d0a868da7dbc879f16da3b3a/felupe-7.5.1.tar.gz
+[2023-08-05 22:39:20] INFO root fetch - processPackages [wagtail-lxp]: executing diffoscope
+[2023-08-05 22:39:20] INFO root fetch - processPackages [wagtail-lxp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wagtail-lxp-22.11.2.tar.gz tmp/wagtail-lxp-23.8.1.tar.gz --markdown 20230805/w/wagtail-lxp/22.11.2-23.8.1/diff.md --exclude *.pyd
+[2023-08-05 22:39:20] INFO root fetch - processPackages [felupe]: executing diffoscope
+[2023-08-05 22:39:20] INFO root fetch - processPackages [felupe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/felupe-7.5.0.tar.gz tmp/felupe-7.5.1.tar.gz --markdown 20230805/f/felupe/7.5.0-7.5.1/diff.md --exclude *.pyd
+[2023-08-05 22:39:20] INFO root fetch - processPackages [extype]: executing diffoscope
+[2023-08-05 22:39:20] INFO root fetch - processPackages [extype]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/extype-1.0.0-cp39-cp39-win_amd64.whl.zip tmp/extype-1.1.0-cp39-cp39-win_amd64.whl.zip --markdown 20230805/e/extype/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 22:39:20] INFO root fetch - processPackages [dipdup]: Downloading https://files.pythonhosted.org/packages/29/a1/be49c64ecb7ecb3b28d29e9c9e470aa7d75ff36213fb61b43fe72252fd40/dipdup-7.0.0rc3.tar.gz
+[2023-08-05 22:39:20] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.8.tar.gz]
+[2023-08-05 22:39:20] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.9.tar.gz]
+[2023-08-05 22:39:20] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 22:39:20] INFO root fetch - processPackages [dipdup]: executing diffoscope
+[2023-08-05 22:39:20] INFO root fetch - processPackages [dipdup]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dipdup-7.0.0rc2.tar.gz tmp/dipdup-7.0.0rc3.tar.gz --markdown 20230805/d/dipdup/7.0.0rc2-7.0.0rc3/diff.md --exclude *.pyd
+[2023-08-05 22:39:21] INFO root fetch - processPackages [extype]: Remove: archive file [/home/abi/fetcher/tmp/extype-1.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 22:39:21] INFO root fetch - processPackages [extype]: Remove: archive file [/home/abi/fetcher/tmp/extype-1.1.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 22:39:21] INFO root fetch - main [MainThread]: End processing [extype]: success
+[2023-08-05 22:39:21] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-7.5.0.tar.gz]
+[2023-08-05 22:39:21] INFO root fetch - processPackages [felupe]: Remove: archive file [/home/abi/fetcher/tmp/felupe-7.5.1.tar.gz]
+[2023-08-05 22:39:21] INFO root fetch - main [MainThread]: End processing [felupe]: success
+[2023-08-05 22:39:22] INFO root fetch - processPackages [wagtail-lxp]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-lxp-22.11.2.tar.gz]
+[2023-08-05 22:39:22] INFO root fetch - processPackages [wagtail-lxp]: Remove: archive file [/home/abi/fetcher/tmp/wagtail-lxp-23.8.1.tar.gz]
+[2023-08-05 22:39:22] INFO root fetch - main [MainThread]: End processing [wagtail-lxp]: success
+[2023-08-05 22:39:29] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.0.0rc2.tar.gz]
+[2023-08-05 22:39:29] INFO root fetch - processPackages [dipdup]: Remove: archive file [/home/abi/fetcher/tmp/dipdup-7.0.0rc3.tar.gz]
+[2023-08-05 22:39:29] INFO root fetch - main [MainThread]: End processing [dipdup]: success
+[2023-08-05 22:39:29] INFO root fetch - main [MainThread]: Store serial: [19189196]
