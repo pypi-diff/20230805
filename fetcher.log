@@ -18110,3 +18110,69 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 22:28:56] INFO root fetch - main [MainThread]: End processing [audio-separator]: success
 [2023-08-05 22:28:56] INFO root fetch - main [MainThread]: End processing [mkdocs-git-revision-date-plugin-blame]: success
 [2023-08-05 22:28:56] INFO root fetch - main [MainThread]: Store serial: [19189040]
+[2023-08-05 22:34:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19189040]
+[2023-08-05 22:34:04] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: plateaukit
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: laflem
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: open-interpreter
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: sci-annot-eval
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: offat
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tvdcn
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cerberuspy
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: hpo3
+[2023-08-05 22:34:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: tempmail-python
+[2023-08-05 22:34:05] INFO root fetch - processPackages [plateaukit]: New version: [0.2.0] Old Version: [0.1.1]
+[2023-08-05 22:34:05] INFO root fetch - processPackages [offat]: New version: [0.5.0] Old Version: [0.4.0]
+[2023-08-05 22:34:05] WARNING root fetch - processPackages [laflem]: Skipping, unable to determine old version
+[2023-08-05 22:34:05] INFO root fetch - main [MainThread]: End processing [laflem] error
+[2023-08-05 22:34:05] WARNING root fetch - processPackages [cerberuspy]: Skipping, unable to determine old version
+[2023-08-05 22:34:05] INFO root fetch - main [MainThread]: End processing [cerberuspy] error
+[2023-08-05 22:34:05] INFO root fetch - processPackages [tvdcn]: New version: [0.4.0] Old Version: [0.3.3]
+[2023-08-05 22:34:05] INFO root fetch - processPackages [open-interpreter]: New version: [0.0.247] Old Version: [0.0.246]
+[2023-08-05 22:34:05] INFO root fetch - processPackages [sci-annot-eval]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 22:34:05] WARNING root fetch - processPackages [tempmail-python]: Skipping, unable to determine old version
+[2023-08-05 22:34:05] INFO root fetch - main [MainThread]: End processing [tempmail-python] error
+[2023-08-05 22:34:05] INFO root fetch - processPackages [hpo3]: New version: [1.0.0] Old Version: [0.3.0]
+[2023-08-05 22:34:05] INFO root fetch - processPackages [plateaukit]: Downloading https://files.pythonhosted.org/packages/2f/99/1849ad881380a767b62e564c3bb2a1a40af464f4b4057c3ca5117632dd94/plateaukit-0.1.1.tar.gz
+[2023-08-05 22:34:05] INFO root fetch - processPackages [offat]: Downloading https://files.pythonhosted.org/packages/32/d2/40ad9d389f0a46a035902e9022c1e67d4c10bf22f2784a195b9952416d89/offat-0.4.0.tar.gz
+[2023-08-05 22:34:05] INFO root fetch - processPackages [sci-annot-eval]: Downloading https://files.pythonhosted.org/packages/ce/e2/01085672f3ae53a9b18dda6d4a368999ad27483a2c0e2d57c7f0927a85aa/sci_annot_eval-0.0.7-py3-none-any.whl
+[2023-08-05 22:34:05] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/1d/fa/d655c3a046753aac1add7c9e7594bfb9f1cd5644389cfdaacf1318c1b84e/open_interpreter-0.0.246.tar.gz
+[2023-08-05 22:34:05] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/e1/b8/fa2fe63049ef4cb7dc590e727ed4e9aef50a70248efe827fe51998c63789/tvdcn-0.3.3.tar.gz
+[2023-08-05 22:34:05] INFO root fetch - processPackages [hpo3]: Downloading https://files.pythonhosted.org/packages/21/e3/2dfc4f4df2abdd90921f7485506ff402b8d34dabc0461804879f4ef5122d/hpo3-0.3.0.tar.gz
+[2023-08-05 22:34:05] INFO root fetch - processPackages [plateaukit]: Downloading https://files.pythonhosted.org/packages/a0/99/87a8b0f86b8a28e2ed2ae35b357e5d563560f9ec32bbfccc974a4f4db5e4/plateaukit-0.2.0.tar.gz
+[2023-08-05 22:34:05] INFO root fetch - processPackages [offat]: Downloading https://files.pythonhosted.org/packages/a9/47/f100ebbf3373297d3786f196b056ba0457d2b871b20aecb5d9f65aef7668/offat-0.5.0.tar.gz
+[2023-08-05 22:34:06] INFO root fetch - processPackages [plateaukit]: executing diffoscope
+[2023-08-05 22:34:06] INFO root fetch - processPackages [plateaukit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plateaukit-0.1.1.tar.gz tmp/plateaukit-0.2.0.tar.gz --markdown 20230805/p/plateaukit/0.1.1-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 22:34:06] INFO root fetch - processPackages [sci-annot-eval]: Downloading https://files.pythonhosted.org/packages/91/b9/2be452218beda63039a065e3747415ec217cd2fd004f3f0b7ee3d5f2b2f8/sci_annot_eval-0.0.8-py3-none-any.whl
+[2023-08-05 22:34:06] INFO root fetch - processPackages [open-interpreter]: Downloading https://files.pythonhosted.org/packages/c9/90/29de21f6c2336308f2a40eafbf60689de828dd2804981915bab37dc59bbf/open_interpreter-0.0.247.tar.gz
+[2023-08-05 22:34:06] INFO root fetch - processPackages [offat]: executing diffoscope
+[2023-08-05 22:34:06] INFO root fetch - processPackages [offat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/offat-0.4.0.tar.gz tmp/offat-0.5.0.tar.gz --markdown 20230805/o/offat/0.4.0-0.5.0/diff.md --exclude *.pyd
+[2023-08-05 22:34:06] INFO root fetch - processPackages [tvdcn]: Downloading https://files.pythonhosted.org/packages/aa/0c/e74420b218e2a54859bd142dc939e03c9c6e11a5a4f14ce281c2109d4bf7/tvdcn-0.4.0.tar.gz
+[2023-08-05 22:34:06] INFO root fetch - processPackages [sci-annot-eval]: executing diffoscope
+[2023-08-05 22:34:06] INFO root fetch - processPackages [sci-annot-eval]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sci_annot_eval-0.0.7-py3-none-any.whl.zip tmp/sci_annot_eval-0.0.8-py3-none-any.whl.zip --markdown 20230805/s/sci-annot-eval/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 22:34:06] INFO root fetch - processPackages [open-interpreter]: executing diffoscope
+[2023-08-05 22:34:06] INFO root fetch - processPackages [open-interpreter]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/open_interpreter-0.0.246.tar.gz tmp/open_interpreter-0.0.247.tar.gz --markdown 20230805/o/open-interpreter/0.0.246-0.0.247/diff.md --exclude *.pyd
+[2023-08-05 22:34:06] INFO root fetch - processPackages [hpo3]: Downloading https://files.pythonhosted.org/packages/89/c4/f07f626b9ed196bec79e72bd8491bc4f9f9846760c03d459b1a03eeca678/hpo3-1.0.0-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl
+[2023-08-05 22:34:06] INFO root fetch - processPackages [tvdcn]: executing diffoscope
+[2023-08-05 22:34:06] INFO root fetch - processPackages [tvdcn]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tvdcn-0.3.3.tar.gz tmp/tvdcn-0.4.0.tar.gz --markdown 20230805/t/tvdcn/0.3.3-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 22:34:07] INFO root fetch - processPackages [plateaukit]: Remove: archive file [/home/abi/fetcher/tmp/plateaukit-0.1.1.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - processPackages [plateaukit]: Remove: archive file [/home/abi/fetcher/tmp/plateaukit-0.2.0.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - main [MainThread]: End processing [plateaukit]: success
+[2023-08-05 22:34:07] INFO root fetch - processPackages [sci-annot-eval]: Remove: archive file [/home/abi/fetcher/tmp/sci_annot_eval-0.0.7-py3-none-any.whl.zip]
+[2023-08-05 22:34:07] INFO root fetch - processPackages [sci-annot-eval]: Remove: archive file [/home/abi/fetcher/tmp/sci_annot_eval-0.0.8-py3-none-any.whl.zip]
+[2023-08-05 22:34:07] INFO root fetch - main [MainThread]: End processing [sci-annot-eval]: success
+[2023-08-05 22:34:07] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.246.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - processPackages [open-interpreter]: Remove: archive file [/home/abi/fetcher/tmp/open_interpreter-0.0.247.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - main [MainThread]: End processing [open-interpreter]: success
+[2023-08-05 22:34:07] INFO root fetch - processPackages [offat]: Remove: archive file [/home/abi/fetcher/tmp/offat-0.4.0.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - processPackages [offat]: Remove: archive file [/home/abi/fetcher/tmp/offat-0.5.0.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - main [MainThread]: End processing [offat]: success
+[2023-08-05 22:34:07] INFO root fetch - processPackages [tvdcn]: Remove: archive file [/home/abi/fetcher/tmp/tvdcn-0.3.3.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - processPackages [tvdcn]: Remove: archive file [/home/abi/fetcher/tmp/tvdcn-0.4.0.tar.gz]
+[2023-08-05 22:34:07] INFO root fetch - main [MainThread]: End processing [tvdcn]: success
+[2023-08-05 22:34:09] INFO root fetch - processPackages [hpo3]: executing diffoscope
+[2023-08-05 22:34:09] INFO root fetch - processPackages [hpo3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hpo3-0.3.0.tar.gz tmp/hpo3-1.0.0-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip --markdown 20230805/h/hpo3/0.3.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 22:34:10] INFO root fetch - processPackages [hpo3]: Remove: archive file [/home/abi/fetcher/tmp/hpo3-0.3.0.tar.gz]
+[2023-08-05 22:34:10] INFO root fetch - processPackages [hpo3]: Remove: archive file [/home/abi/fetcher/tmp/hpo3-1.0.0-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl.zip]
+[2023-08-05 22:34:10] INFO root fetch - main [MainThread]: End processing [hpo3]: success
+[2023-08-05 22:34:10] INFO root fetch - main [MainThread]: Store serial: [19189100]
