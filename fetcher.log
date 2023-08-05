@@ -17558,3 +17558,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:36:28] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.0.tar.gz]
 [2023-08-05 21:36:28] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
 [2023-08-05 21:36:28] INFO root fetch - main [MainThread]: Store serial: [19188762]
+[2023-08-05 21:41:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188762]
+[2023-08-05 21:41:37] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 21:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dukeai-lib
+[2023-08-05 21:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: astro-wcpy
+[2023-08-05 21:41:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: lmcloud
+[2023-08-05 21:41:37] INFO root fetch - processPackages [astro-wcpy]: New version: [0.0.2.0] Old Version: [0.0.1.0]
+[2023-08-05 21:41:37] INFO root fetch - processPackages [astro-wcpy]: Downloading https://files.pythonhosted.org/packages/f0/60/c4876bb4f45f7001700ea3123494745927a3429e6804e7f5706087066ee4/astro-wcpy-0.0.1.0.tar.gz
+[2023-08-05 21:41:37] INFO root fetch - processPackages [lmcloud]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 21:41:37] INFO root fetch - processPackages [dukeai-lib]: New version: [0.2.0] Old Version: [0.1.9]
+[2023-08-05 21:41:37] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/69/51/0ce3c376cb50db2a42334309b1c457cdc444e8a5e4c9fac7e7d64791eed9/dukeai_lib-0.1.9.tar.gz
+[2023-08-05 21:41:37] INFO root fetch - processPackages [astro-wcpy]: Downloading https://files.pythonhosted.org/packages/a3/1d/3d9e63d66788fb0bce434bd92c4285bcd371f585b67cdc919766bf9c0f03/astro-wcpy-0.0.2.0.tar.gz
+[2023-08-05 21:41:37] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/46/20/dbfeccebfd72300edb21a9ac07bba12f45a17211279f8fd82be8560156de/lmcloud-0.3.8.tar.gz
+[2023-08-05 21:41:37] INFO root fetch - processPackages [astro-wcpy]: executing diffoscope
+[2023-08-05 21:41:37] INFO root fetch - processPackages [astro-wcpy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/astro-wcpy-0.0.1.0.tar.gz tmp/astro-wcpy-0.0.2.0.tar.gz --markdown 20230805/a/astro-wcpy/0.0.1.0-0.0.2.0/diff.md --exclude *.pyd
+[2023-08-05 21:41:38] INFO root fetch - processPackages [dukeai-lib]: Downloading https://files.pythonhosted.org/packages/c5/1a/6d6974ee7e40f139d02f12b26a71df41bd2af963d13fd149a63e2270cd91/dukeai_lib-0.2.0.tar.gz
+[2023-08-05 21:41:38] INFO root fetch - processPackages [dukeai-lib]: executing diffoscope
+[2023-08-05 21:41:38] INFO root fetch - processPackages [dukeai-lib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dukeai_lib-0.1.9.tar.gz tmp/dukeai_lib-0.2.0.tar.gz --markdown 20230805/d/dukeai-lib/0.1.9-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 21:41:38] INFO root fetch - processPackages [lmcloud]: Downloading https://files.pythonhosted.org/packages/6e/d2/638c9bce5b1bc60bac99065be03da54104fd4e94d026f74417cbb45dd33f/lmcloud-0.3.9.tar.gz
+[2023-08-05 21:41:38] INFO root fetch - processPackages [lmcloud]: executing diffoscope
+[2023-08-05 21:41:38] INFO root fetch - processPackages [lmcloud]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lmcloud-0.3.8.tar.gz tmp/lmcloud-0.3.9.tar.gz --markdown 20230805/l/lmcloud/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 21:41:38] INFO root fetch - processPackages [astro-wcpy]: Remove: archive file [/home/abi/fetcher/tmp/astro-wcpy-0.0.1.0.tar.gz]
+[2023-08-05 21:41:38] INFO root fetch - processPackages [astro-wcpy]: Remove: archive file [/home/abi/fetcher/tmp/astro-wcpy-0.0.2.0.tar.gz]
+[2023-08-05 21:41:38] INFO root fetch - main [MainThread]: End processing [astro-wcpy]: success
+[2023-08-05 21:41:39] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.1.9.tar.gz]
+[2023-08-05 21:41:39] INFO root fetch - processPackages [dukeai-lib]: Remove: archive file [/home/abi/fetcher/tmp/dukeai_lib-0.2.0.tar.gz]
+[2023-08-05 21:41:39] INFO root fetch - main [MainThread]: End processing [dukeai-lib]: success
+[2023-08-05 21:41:39] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.8.tar.gz]
+[2023-08-05 21:41:39] INFO root fetch - processPackages [lmcloud]: Remove: archive file [/home/abi/fetcher/tmp/lmcloud-0.3.9.tar.gz]
+[2023-08-05 21:41:39] INFO root fetch - main [MainThread]: End processing [lmcloud]: success
+[2023-08-05 21:41:39] INFO root fetch - main [MainThread]: Store serial: [19188776]
