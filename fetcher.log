@@ -12668,3 +12668,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:01:46] INFO root fetch - processPackages [PySiglent-SSA3000x]: Remove: archive file [/home/abi/fetcher/tmp/PySiglent_SSA3000x-0.3.tar.gz]
 [2023-08-05 15:01:46] INFO root fetch - main [MainThread]: End processing [PySiglent-SSA3000x]: success
 [2023-08-05 15:01:46] INFO root fetch - main [MainThread]: Store serial: [19186545]
+[2023-08-05 15:06:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186545]
+[2023-08-05 15:06:55] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 15:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: auto-archiver
+[2023-08-05 15:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: via-api
+[2023-08-05 15:06:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: nbdev-stdlib
+[2023-08-05 15:06:55] INFO root fetch - processPackages [via-api]: New version: [2.2.0] Old Version: [2.1.0]
+[2023-08-05 15:06:55] INFO root fetch - processPackages [nbdev-stdlib]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:06:55] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/8a/db/12fe2ce46fd9d8b0c8bee4a62b65513da1712c952ac01db032352ef69b7b/via-api-2.1.0.tar.gz
+[2023-08-05 15:06:55] INFO root fetch - processPackages [auto-archiver]: New version: [0.6.3] Old Version: [0.6.2]
+[2023-08-05 15:06:55] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/e8/48/ed43dbfa0bd5ca86a6a3f6ae0500b0cffb413b2c3f118e82da24ef3488f1/nbdev-stdlib-0.0.98.tar.gz
+[2023-08-05 15:06:55] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/a7/1f/c5ec56824c18727f687fa063e7489b929b7359d0074318652c2dfa84a8bd/auto_archiver-0.6.2.tar.gz
+[2023-08-05 15:06:55] INFO root fetch - processPackages [nbdev-stdlib]: Downloading https://files.pythonhosted.org/packages/9b/0f/42944508859f820e43bf894814c5e9dbc7920a0caceef1828a31a9e5b599/nbdev-stdlib-0.0.99.tar.gz
+[2023-08-05 15:06:55] INFO root fetch - processPackages [via-api]: Downloading https://files.pythonhosted.org/packages/7c/81/f98d9a2ebcc6ba1049290d1f96a3213a4e9ac59cbc7b33b13eec43ace61e/via-api-2.2.0.tar.gz
+[2023-08-05 15:06:55] INFO root fetch - processPackages [nbdev-stdlib]: executing diffoscope
+[2023-08-05 15:06:55] INFO root fetch - processPackages [nbdev-stdlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-stdlib-0.0.98.tar.gz tmp/nbdev-stdlib-0.0.99.tar.gz --markdown 20230805/n/nbdev-stdlib/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:06:55] INFO root fetch - processPackages [via-api]: executing diffoscope
+[2023-08-05 15:06:55] INFO root fetch - processPackages [via-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/via-api-2.1.0.tar.gz tmp/via-api-2.2.0.tar.gz --markdown 20230805/v/via-api/2.1.0-2.2.0/diff.md --exclude *.pyd
+[2023-08-05 15:06:55] INFO root fetch - processPackages [auto-archiver]: Downloading https://files.pythonhosted.org/packages/b0/5b/a3a8711e21bf4b763a98b71dff6cad282eb264f308deb0d0530e244698eb/auto_archiver-0.6.3.tar.gz
+[2023-08-05 15:06:56] INFO root fetch - processPackages [auto-archiver]: executing diffoscope
+[2023-08-05 15:06:56] INFO root fetch - processPackages [auto-archiver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/auto_archiver-0.6.2.tar.gz tmp/auto_archiver-0.6.3.tar.gz --markdown 20230805/a/auto-archiver/0.6.2-0.6.3/diff.md --exclude *.pyd
+[2023-08-05 15:06:56] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.1.0.tar.gz]
+[2023-08-05 15:06:56] INFO root fetch - processPackages [via-api]: Remove: archive file [/home/abi/fetcher/tmp/via-api-2.2.0.tar.gz]
+[2023-08-05 15:06:56] INFO root fetch - main [MainThread]: End processing [via-api]: success
+[2023-08-05 15:06:56] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.98.tar.gz]
+[2023-08-05 15:06:56] INFO root fetch - processPackages [nbdev-stdlib]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-stdlib-0.0.99.tar.gz]
+[2023-08-05 15:06:56] INFO root fetch - main [MainThread]: End processing [nbdev-stdlib]: success
+[2023-08-05 15:06:56] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.6.2.tar.gz]
+[2023-08-05 15:06:56] INFO root fetch - processPackages [auto-archiver]: Remove: archive file [/home/abi/fetcher/tmp/auto_archiver-0.6.3.tar.gz]
+[2023-08-05 15:06:56] INFO root fetch - main [MainThread]: End processing [auto-archiver]: success
+[2023-08-05 15:06:56] INFO root fetch - main [MainThread]: Store serial: [19186555]
