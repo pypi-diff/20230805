@@ -9623,3 +9623,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:52:21] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
 [2023-08-05 09:52:21] INFO root fetch - main [MainThread]: End processing [yeref]: success
 [2023-08-05 09:52:21] INFO root fetch - main [MainThread]: Store serial: [19184970]
+[2023-08-05 09:57:25] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184970]
+[2023-08-05 09:57:30] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: reactpy-django
+[2023-08-05 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-api-lib
+[2023-08-05 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tamodify
+[2023-08-05 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pythonscholar-replace-space
+[2023-08-05 09:57:30] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: vika
+[2023-08-05 09:57:30] WARNING root fetch - processPackages [pythonscholar-replace-space]: Skipping, unable to determine old version
+[2023-08-05 09:57:30] INFO root fetch - main [MainThread]: End processing [pythonscholar-replace-space] error
+[2023-08-05 09:57:30] ERROR root fetch - processPackages [discord-api-lib]: Unable to get metadata: No such project 'discord-api-lib'
+[2023-08-05 09:57:30] INFO root fetch - main [MainThread]: End processing [discord-api-lib] error
+[2023-08-05 09:57:30] INFO root fetch - processPackages [tamodify]: New version: [0.1.0] Old Version: [0.0.6]
+[2023-08-05 09:57:30] INFO root fetch - processPackages [reactpy-django]: New version: [3.3.0] Old Version: [3.2.1]
+[2023-08-05 09:57:30] INFO root fetch - processPackages [vika]: New version: [1.3.1] Old Version: [1.3.0]
+[2023-08-05 09:57:30] INFO root fetch - processPackages [tamodify]: Downloading https://files.pythonhosted.org/packages/bd/31/aaed5aee20934bc46aafb1885ffa8c4efbe4943df16edf0c4568385361f8/tamodify-0.0.6.tar.gz
+[2023-08-05 09:57:30] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/9b/96/5e5a061d81422d298a35355160caf7135b85e3fff589526917463eba9909/reactpy_django-3.2.1.tar.gz
+[2023-08-05 09:57:30] INFO root fetch - processPackages [vika]: Downloading https://files.pythonhosted.org/packages/ff/fa/69813806596d5096244874d35fe9bd9ef2edd72891779a81003293249b2f/vika-1.3.0.tar.gz
+[2023-08-05 09:57:30] INFO root fetch - processPackages [tamodify]: Downloading https://files.pythonhosted.org/packages/b8/a7/a3668151660e850e46c399e9bd06ac05aeb75d0f97f6b1645517c3d256ce/tamodify-0.1.0.tar.gz
+[2023-08-05 09:57:30] INFO root fetch - processPackages [reactpy-django]: Downloading https://files.pythonhosted.org/packages/db/8b/65328017d7a7d71015810300ce2f7be457eec76c22b812584431e72244f0/reactpy_django-3.3.0.tar.gz
+[2023-08-05 09:57:31] INFO root fetch - processPackages [tamodify]: executing diffoscope
+[2023-08-05 09:57:31] INFO root fetch - processPackages [tamodify]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tamodify-0.0.6.tar.gz tmp/tamodify-0.1.0.tar.gz --markdown 20230805/t/tamodify/0.0.6-0.1.0/diff.md --exclude *.pyd
+[2023-08-05 09:57:31] INFO root fetch - processPackages [reactpy-django]: executing diffoscope
+[2023-08-05 09:57:31] INFO root fetch - processPackages [reactpy-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/reactpy_django-3.2.1.tar.gz tmp/reactpy_django-3.3.0.tar.gz --markdown 20230805/r/reactpy-django/3.2.1-3.3.0/diff.md --exclude *.pyd
+[2023-08-05 09:57:31] INFO root fetch - processPackages [vika]: Downloading https://files.pythonhosted.org/packages/39/79/cba5c9c21de54414735486dd73f41353ea20eb1012f5e0b681970bc22a5e/vika-1.3.1.tar.gz
+[2023-08-05 09:57:31] INFO root fetch - processPackages [vika]: executing diffoscope
+[2023-08-05 09:57:31] INFO root fetch - processPackages [vika]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vika-1.3.0.tar.gz tmp/vika-1.3.1.tar.gz --markdown 20230805/v/vika/1.3.0-1.3.1/diff.md --exclude *.pyd
+[2023-08-05 09:57:31] INFO root fetch - processPackages [tamodify]: Remove: archive file [/home/abi/fetcher/tmp/tamodify-0.0.6.tar.gz]
+[2023-08-05 09:57:31] INFO root fetch - processPackages [tamodify]: Remove: archive file [/home/abi/fetcher/tmp/tamodify-0.1.0.tar.gz]
+[2023-08-05 09:57:31] INFO root fetch - main [MainThread]: End processing [tamodify]: success
+[2023-08-05 09:57:31] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.2.1.tar.gz]
+[2023-08-05 09:57:31] INFO root fetch - processPackages [reactpy-django]: Remove: archive file [/home/abi/fetcher/tmp/reactpy_django-3.3.0.tar.gz]
+[2023-08-05 09:57:31] INFO root fetch - main [MainThread]: End processing [reactpy-django]: success
+[2023-08-05 09:57:32] INFO root fetch - processPackages [vika]: Remove: archive file [/home/abi/fetcher/tmp/vika-1.3.0.tar.gz]
+[2023-08-05 09:57:32] INFO root fetch - processPackages [vika]: Remove: archive file [/home/abi/fetcher/tmp/vika-1.3.1.tar.gz]
+[2023-08-05 09:57:32] INFO root fetch - main [MainThread]: End processing [vika]: success
+[2023-08-05 09:57:32] INFO root fetch - main [MainThread]: Store serial: [19184990]
