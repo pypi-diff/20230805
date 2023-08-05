@@ -12183,3 +12183,117 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 14:09:48] INFO root fetch - processPackages [cdk8s-jenkins]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-jenkins-0.0.99.tar.gz]
 [2023-08-05 14:09:48] INFO root fetch - main [MainThread]: End processing [cdk8s-jenkins]: success
 [2023-08-05 14:09:48] INFO root fetch - main [MainThread]: Store serial: [19186297]
+[2023-08-05 14:14:52] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186297]
+[2023-08-05 14:14:56] INFO root fetch - main [MainThread]: Found 13 changed packages
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xoscar
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: wizata-dsapi
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: voicemeeter-api
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: directdb
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flag-embedding
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: tech-spec
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk8s
+[2023-08-05 14:14:56] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mcemtools
+[2023-08-05 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: cdk8s-grafana
+[2023-08-05 14:14:57] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: dryenv
+[2023-08-05 14:14:57] INFO root fetch - processPackages [tech-spec]: New version: [1.0.30] Old Version: [1.0.29]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [directdb]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [wizata-dsapi]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [cdk8s-grafana]: New version: [0.1.99] Old Version: [0.1.98]
+[2023-08-05 14:14:57] WARNING root fetch - processPackages [flag-embedding]: Skipping, unable to determine old version
+[2023-08-05 14:14:57] INFO root fetch - processPackages [flag-embedding]: Start processing: DEME
+[2023-08-05 14:14:57] INFO root fetch - main [MainThread]: End processing [flag-embedding] error
+[2023-08-05 14:14:57] INFO root fetch - processPackages [voicemeeter-api]: New version: [2.4.4] Old Version: [2.4.2]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [DEME]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/48/2b/99d61c35d8e9f78456ba154ae2a6ac4f00eb5ef579e3b26be6572e24ea0e/tech-spec-1.0.29.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [dryenv]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/ea/9a/6aada6825f083303777138365371ea25fa3ea1414c04e1cbdb1b1a8203b8/wizata-dsapi-0.3.3.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [mcemtools]: New version: [0.8.6] Old Version: [0.8.5]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [xoscar]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 14:14:57] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/5e/ea/162daaa0feb19915c757ba5ca97dc4c458ab2a31400847396b75adf86552/directdb-1.1.0.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/d9/95/654afcf433ff074ee19483bcc89f1b1a113ddd08edd6ff0bfcc205167a77/cdk8s-grafana-0.1.98.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/01/c7/9ef22c5ea066c8b51bc0245a4cff8e1de29ac95595adc00a64d7b3b7055a/DEME-0.0.3.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [dryenv]: Downloading https://files.pythonhosted.org/packages/9c/12/b6fdc76b6d7dc3139fde66fd358d05e4ffffb5a89ec7559b6b2fecada3ff/dryenv-0.1.0.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/3a/0d/af192d723950e481da1712ec6fb0a8b328f0d63ceb8f59f3ad1d9bd385d4/mcemtools-0.8.5.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [xoscar]: Downloading https://files.pythonhosted.org/packages/1d/0a/7f6ba807bdbd479515f96dfb5f3b47b0ea6e38f0d0643ae14d538d56b7d6/xoscar-0.0.8.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/4f/8b/b38c63de7da5805911bfd861f36a4878287a1bcd54dbe31339cb5d23258a/voicemeeter_api-2.4.2.tar.gz
+[2023-08-05 14:14:57] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/92/b8/fc87ca7bc2428b85a02a1825e1784c75512f49988b38913931cf1cc08b98/directdb-1.1.1.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/7b/a2/600ec433c9dc040855c8f72e516a670b3a2f2e9446c086d015a2cda64223/tech-spec-1.0.30.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [wizata-dsapi]: Downloading https://files.pythonhosted.org/packages/2a/76/0bb8bfd4f0d38d89106921a5f81234be3864033503b5f4317cecae60a6e0/wizata-dsapi-0.3.4.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [DEME]: Downloading https://files.pythonhosted.org/packages/b0/62/5f4c55e29e1a66a62b8ddf8b4206482af8d99a23a5d12f047ede2f1c22bb/deme-0.0.4.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [directdb]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [directdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directdb-1.1.0.tar.gz tmp/directdb-1.1.1.tar.gz --markdown 20230805/d/directdb/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.29.tar.gz tmp/tech-spec-1.0.30.tar.gz --markdown 20230805/t/tech-spec/1.0.29-1.0.30/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [wizata-dsapi]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [wizata-dsapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wizata-dsapi-0.3.3.tar.gz tmp/wizata-dsapi-0.3.4.tar.gz --markdown 20230805/w/wizata-dsapi/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [cdk8s-grafana]: Downloading https://files.pythonhosted.org/packages/70/0b/1cbbebf9bdeb0edcb5ab0f3110b233c14ebfd8e9d744573a7640af1c4b94/cdk8s-grafana-0.1.99.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [dryenv]: Downloading https://files.pythonhosted.org/packages/dd/e4/caa41628b43841a57026e76ac601429b4089fbda3347047397ca46d52a14/dryenv-0.1.1.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [mcemtools]: Downloading https://files.pythonhosted.org/packages/ab/5c/1da5a5a1a4bb78b21eb0ddc910bcd62913f163c5667797c95207219fadf1/mcemtools-0.8.6.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [voicemeeter-api]: Downloading https://files.pythonhosted.org/packages/f6/07/5dcb1a06b4b55a0c372b1eb95189d4d94cc6bf5e10aea52ae721ab750ed3/voicemeeter_api-2.4.4.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230805/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [cdk8s-grafana]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [cdk8s-grafana]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-grafana-0.1.98.tar.gz tmp/cdk8s-grafana-0.1.99.tar.gz --markdown 20230805/c/cdk8s-grafana/0.1.98-0.1.99/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [dryenv]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [dryenv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dryenv-0.1.0.tar.gz tmp/dryenv-0.1.1.tar.gz --markdown 20230805/d/dryenv/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [xoscar]: Downloading https://files.pythonhosted.org/packages/64/d6/17f861bc3fca4f3cf3d1e264327ef8a008e8e2c1e53c611b293a60daec13/xoscar-0.0.9.tar.gz
+[2023-08-05 14:14:58] INFO root fetch - processPackages [mcemtools]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [mcemtools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mcemtools-0.8.5.tar.gz tmp/mcemtools-0.8.6.tar.gz --markdown 20230805/m/mcemtools/0.8.5-0.8.6/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [voicemeeter-api]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [voicemeeter-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/voicemeeter_api-2.4.2.tar.gz tmp/voicemeeter_api-2.4.4.tar.gz --markdown 20230805/v/voicemeeter-api/2.4.2-2.4.4/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [xoscar]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [xoscar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xoscar-0.0.8.tar.gz tmp/xoscar-0.0.9.tar.gz --markdown 20230805/x/xoscar/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 14:14:58] INFO root fetch - processPackages [DEME]: executing diffoscope
+[2023-08-05 14:14:58] INFO root fetch - processPackages [DEME]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DEME-0.0.3.tar.gz tmp/deme-0.0.4.tar.gz --markdown 20230805/D/DEME/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 14:14:59] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.0.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.1.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [directdb]: Start processing: cdk8s-plus-27
+[2023-08-05 14:14:59] INFO root fetch - main [MainThread]: End processing [directdb]: success
+[2023-08-05 14:14:59] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.29.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.30.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [tech-spec]: Start processing: cdk8s
+[2023-08-05 14:14:59] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-05 14:14:59] INFO root fetch - processPackages [cdk8s-plus-27]: New version: [2.5.0] Old Version: [2.4.0]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [cdk8s]: New version: [2.9.0] Old Version: [2.8.0]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-05 14:14:59] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/7d/c5/592391e50b273450851cb1dd87401069971eead9d407a9d5c5ec13704f65/cdk8s-2.8.0.tar.gz
+[2023-08-05 14:14:59] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.3.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - processPackages [wizata-dsapi]: Remove: archive file [/home/abi/fetcher/tmp/wizata-dsapi-0.3.4.tar.gz]
+[2023-08-05 14:14:59] INFO root fetch - main [MainThread]: End processing [wizata-dsapi]: success
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/ce/38/0004c188d1a06c5368a3eacacb886fdd2b9b78de86a9382532dcd977698d/cdk8s-plus-27-2.4.0.tar.gz
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.98.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s-grafana]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-grafana-0.1.99.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - main [MainThread]: End processing [cdk8s-grafana]: success
+[2023-08-05 14:15:00] INFO root fetch - processPackages [dryenv]: Remove: archive file [/home/abi/fetcher/tmp/dryenv-0.1.0.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - processPackages [dryenv]: Remove: archive file [/home/abi/fetcher/tmp/dryenv-0.1.1.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - main [MainThread]: End processing [dryenv]: success
+[2023-08-05 14:15:00] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.8.5.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - processPackages [mcemtools]: Remove: archive file [/home/abi/fetcher/tmp/mcemtools-0.8.6.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - main [MainThread]: End processing [mcemtools]: success
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s]: Downloading https://files.pythonhosted.org/packages/3b/6d/920a6a9be9d1576059ced41c1fd11a3f7214589f1add4c7d3da2290b1198/cdk8s-2.9.0.tar.gz
+[2023-08-05 14:15:00] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.4.2.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - processPackages [voicemeeter-api]: Remove: archive file [/home/abi/fetcher/tmp/voicemeeter_api-2.4.4.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s]: executing diffoscope
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-2.8.0.tar.gz tmp/cdk8s-2.9.0.tar.gz --markdown 20230805/c/cdk8s/2.8.0-2.9.0/diff.md --exclude *.pyd
+[2023-08-05 14:15:00] INFO root fetch - main [MainThread]: End processing [voicemeeter-api]: success
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s-plus-27]: Downloading https://files.pythonhosted.org/packages/f1/e6/ddfa63a9010ce034e162594228ddb5f221d445e1e3edd172ae98dae64240/cdk8s-plus-27-2.5.0.tar.gz
+[2023-08-05 14:15:00] INFO root fetch - processPackages [xoscar]: Remove: archive file [/home/abi/fetcher/tmp/xoscar-0.0.8.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - processPackages [xoscar]: Remove: archive file [/home/abi/fetcher/tmp/xoscar-0.0.9.tar.gz]
+[2023-08-05 14:15:00] INFO root fetch - main [MainThread]: End processing [xoscar]: success
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s-plus-27]: executing diffoscope
+[2023-08-05 14:15:00] INFO root fetch - processPackages [cdk8s-plus-27]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk8s-plus-27-2.4.0.tar.gz tmp/cdk8s-plus-27-2.5.0.tar.gz --markdown 20230805/c/cdk8s-plus-27/2.4.0-2.5.0/diff.md --exclude *.pyd
+[2023-08-05 14:15:01] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.8.0.tar.gz]
+[2023-08-05 14:15:01] INFO root fetch - processPackages [cdk8s]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-2.9.0.tar.gz]
+[2023-08-05 14:15:01] INFO root fetch - main [MainThread]: End processing [cdk8s]: success
+[2023-08-05 14:15:01] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/DEME-0.0.3.tar.gz]
+[2023-08-05 14:15:01] INFO root fetch - processPackages [DEME]: Remove: archive file [/home/abi/fetcher/tmp/deme-0.0.4.tar.gz]
+[2023-08-05 14:15:01] INFO root fetch - main [MainThread]: End processing [DEME]: success
+[2023-08-05 14:15:01] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.4.0.tar.gz]
+[2023-08-05 14:15:01] INFO root fetch - processPackages [cdk8s-plus-27]: Remove: archive file [/home/abi/fetcher/tmp/cdk8s-plus-27-2.5.0.tar.gz]
+[2023-08-05 14:15:01] INFO root fetch - main [MainThread]: End processing [cdk8s-plus-27]: success
+[2023-08-05 14:15:01] INFO root fetch - main [MainThread]: Store serial: [19186358]
