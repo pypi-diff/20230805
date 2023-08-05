@@ -17499,3 +17499,62 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:31:14] INFO root fetch - processPackages [jaxwt]: Remove: archive file [/home/abi/fetcher/tmp/jaxwt-0.0.8.post1.tar.gz]
 [2023-08-05 21:31:14] INFO root fetch - main [MainThread]: End processing [jaxwt]: success
 [2023-08-05 21:31:14] INFO root fetch - main [MainThread]: Store serial: [19188736]
+[2023-08-05 21:36:18] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188736]
+[2023-08-05 21:36:23] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gdsfactory
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: first-packge
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ovos-classifiers
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: certora-cli-alpha-master
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: useragent-changer
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: option-trader
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: openct
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: AIMM
+[2023-08-05 21:36:23] INFO root fetch - processPackages [openct]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-05 21:36:23] INFO root fetch - processPackages [certora-cli-alpha-master]: New version: [20230805.10.39.482907] Old Version: [20230804.4.46.357254]
+[2023-08-05 21:36:23] INFO root fetch - processPackages [useragent-changer]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-05 21:36:23] INFO root fetch - processPackages [openct]: Downloading https://files.pythonhosted.org/packages/bc/6a/fb80dcb5f913e933cd3034e139a9ec530367d742b912619a3a1c989ada96/openct-0.1.6.tar.gz
+[2023-08-05 21:36:23] WARNING root fetch - processPackages [option-trader]: Skipping, unable to determine old version
+[2023-08-05 21:36:23] INFO root fetch - main [MainThread]: End processing [option-trader] error
+[2023-08-05 21:36:23] INFO root fetch - processPackages [ovos-classifiers]: New version: [0.0.0a9] Old Version: [0.0.0a8]
+[2023-08-05 21:36:23] INFO root fetch - processPackages [AIMM]: New version: [1.1.dev3] Old Version: [1.1.dev2]
+[2023-08-05 21:36:23] WARNING root fetch - processPackages [first-packge]: Skipping, unable to determine old version
+[2023-08-05 21:36:23] INFO root fetch - main [MainThread]: End processing [first-packge] error
+[2023-08-05 21:36:23] INFO root fetch - processPackages [gdsfactory]: New version: [7.1.0] Old Version: [7.0.2]
+[2023-08-05 21:36:24] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/d3/47/28297f0168b5313b5f24beed4399a2f889e97ee6df702677868f146b8bd6/useragent_changer-0.2.1.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [certora-cli-alpha-master]: Downloading https://files.pythonhosted.org/packages/7a/ec/9da1b6a2981a959129538bd4c25963042d3f10a53b57ca0a68dabb38dc07/certora-cli-alpha-master-20230804.4.46.357254.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [AIMM]: Downloading https://files.pythonhosted.org/packages/59/3e/6c91b9933acba977cd5fccd4d5ff4ab92cd2708e8131496b84ba6babe191/AIMM-1.1.dev2.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/3d/bf/d7564ff0e1f7e3f0fb7eac8019535b1448a1007b085b5a972d8a879bcda5/ovos_classifiers-0.0.0a8-py3-none-any.whl
+[2023-08-05 21:36:24] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/11/d1/85e7552f3cb26e780b4c643bf65485d0b14e8e8e729a23a88bb386fce90b/gdsfactory-7.0.2.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [openct]: Downloading https://files.pythonhosted.org/packages/4a/bc/e74b29073cf7153cfe955c38ef40c028fcaf98f4c368fa5a539d5558ee5e/openct-0.1.7.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [useragent-changer]: Downloading https://files.pythonhosted.org/packages/58/a7/d447d426edcdbdda6dc38a2193be6e5610bc9da649471eda714a7dc62a38/useragent_changer-0.2.2.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [AIMM]: Downloading https://files.pythonhosted.org/packages/7f/5d/87fb86c0c735fcd9d815c731082e12cf1b434d306589ff55ffc2ac90d8a6/AIMM-1.1.dev3.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [openct]: executing diffoscope
+[2023-08-05 21:36:24] INFO root fetch - processPackages [openct]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/openct-0.1.6.tar.gz tmp/openct-0.1.7.tar.gz --markdown 20230805/o/openct/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-05 21:36:24] WARNING root fetch - processPackages [certora-cli-alpha-master]: Skipping package: exceeds size limit 37829850>=10485760
+[2023-08-05 21:36:24] INFO root fetch - main [MainThread]: End processing [certora-cli-alpha-master] error
+[2023-08-05 21:36:24] INFO root fetch - processPackages [gdsfactory]: Downloading https://files.pythonhosted.org/packages/34/58/dd7d0a7fd24324ec735c038ea3b444ae131d460c4901ea2d2215b7c05497/gdsfactory-7.1.0.tar.gz
+[2023-08-05 21:36:24] INFO root fetch - processPackages [useragent-changer]: executing diffoscope
+[2023-08-05 21:36:24] INFO root fetch - processPackages [useragent-changer]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/useragent_changer-0.2.1.tar.gz tmp/useragent_changer-0.2.2.tar.gz --markdown 20230805/u/useragent-changer/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-05 21:36:24] INFO root fetch - processPackages [AIMM]: executing diffoscope
+[2023-08-05 21:36:24] INFO root fetch - processPackages [AIMM]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/AIMM-1.1.dev2.tar.gz tmp/AIMM-1.1.dev3.tar.gz --markdown 20230805/A/AIMM/1.1.dev2-1.1.dev3/diff.md --exclude *.pyd
+[2023-08-05 21:36:24] INFO root fetch - processPackages [gdsfactory]: executing diffoscope
+[2023-08-05 21:36:24] INFO root fetch - processPackages [gdsfactory]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gdsfactory-7.0.2.tar.gz tmp/gdsfactory-7.1.0.tar.gz --markdown 20230805/g/gdsfactory/7.0.2-7.1.0/diff.md --exclude *.pyd
+[2023-08-05 21:36:24] INFO root fetch - processPackages [ovos-classifiers]: Downloading https://files.pythonhosted.org/packages/de/c2/a7611d4080a75efee622171a47f6d2c86828139a54f8559166765f73f7de/ovos_classifiers-0.0.0a9-py3-none-any.whl
+[2023-08-05 21:36:25] INFO root fetch - processPackages [ovos-classifiers]: executing diffoscope
+[2023-08-05 21:36:25] INFO root fetch - processPackages [ovos-classifiers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip --markdown 20230805/o/ovos-classifiers/0.0.0a8-0.0.0a9/diff.md --exclude *.pyd
+[2023-08-05 21:36:25] INFO root fetch - processPackages [openct]: Remove: archive file [/home/abi/fetcher/tmp/openct-0.1.6.tar.gz]
+[2023-08-05 21:36:25] INFO root fetch - processPackages [openct]: Remove: archive file [/home/abi/fetcher/tmp/openct-0.1.7.tar.gz]
+[2023-08-05 21:36:25] INFO root fetch - main [MainThread]: End processing [openct]: success
+[2023-08-05 21:36:25] INFO root fetch - processPackages [AIMM]: Remove: archive file [/home/abi/fetcher/tmp/AIMM-1.1.dev2.tar.gz]
+[2023-08-05 21:36:25] INFO root fetch - processPackages [AIMM]: Remove: archive file [/home/abi/fetcher/tmp/AIMM-1.1.dev3.tar.gz]
+[2023-08-05 21:36:25] INFO root fetch - main [MainThread]: End processing [AIMM]: success
+[2023-08-05 21:36:25] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.1.tar.gz]
+[2023-08-05 21:36:25] INFO root fetch - processPackages [useragent-changer]: Remove: archive file [/home/abi/fetcher/tmp/useragent_changer-0.2.2.tar.gz]
+[2023-08-05 21:36:25] INFO root fetch - main [MainThread]: End processing [useragent-changer]: success
+[2023-08-05 21:36:26] INFO root fetch - processPackages [ovos-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/ovos_classifiers-0.0.0a8-py3-none-any.whl.zip]
+[2023-08-05 21:36:26] INFO root fetch - processPackages [ovos-classifiers]: Remove: archive file [/home/abi/fetcher/tmp/ovos_classifiers-0.0.0a9-py3-none-any.whl.zip]
+[2023-08-05 21:36:26] INFO root fetch - main [MainThread]: End processing [ovos-classifiers]: success
+[2023-08-05 21:36:28] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.0.2.tar.gz]
+[2023-08-05 21:36:28] INFO root fetch - processPackages [gdsfactory]: Remove: archive file [/home/abi/fetcher/tmp/gdsfactory-7.1.0.tar.gz]
+[2023-08-05 21:36:28] INFO root fetch - main [MainThread]: End processing [gdsfactory]: success
+[2023-08-05 21:36:28] INFO root fetch - main [MainThread]: Store serial: [19188762]
