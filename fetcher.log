@@ -9177,3 +9177,60 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:00:09] INFO root fetch - processPackages [pglast]: Remove: archive file [/home/abi/fetcher/tmp/pglast-5.3.tar.gz]
 [2023-08-05 09:00:09] INFO root fetch - main [MainThread]: End processing [pglast]: success
 [2023-08-05 09:00:09] INFO root fetch - main [MainThread]: Store serial: [19184716]
+[2023-08-05 09:05:13] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184716]
+[2023-08-05 09:05:17] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 09:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdk-rds-dump
+[2023-08-05 09:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: homeconnect-webthing
+[2023-08-05 09:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gmpg
+[2023-08-05 09:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: deeplake
+[2023-08-05 09:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: seqio-nightly
+[2023-08-05 09:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: shortgpt
+[2023-08-05 09:05:17] INFO root fetch - processPackages [gmpg]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 09:05:17] INFO root fetch - processPackages [deeplake]: New version: [3.6.9] Old Version: [3.6.8]
+[2023-08-05 09:05:17] INFO root fetch - processPackages [shortgpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 09:05:17] INFO root fetch - processPackages [seqio-nightly]: New version: [0.0.8.dev20220907] Old Version: [0.0.8.dev20220906]
+[2023-08-05 09:05:17] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/9d/70/96eb32734649cb99e32519622ef5c2cd116e38f586f577ec4f5005200fd9/deeplake-3.6.8.tar.gz
+[2023-08-05 09:05:17] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/9c/bd/73542cefb59411db4e793823f8338fd317f854bb8afb9ccf94c59ebd5849/gmpg-0.1.8.tar.gz
+[2023-08-05 09:05:17] INFO root fetch - processPackages [cdk-rds-dump]: New version: [1.2.9] Old Version: [1.2.8]
+[2023-08-05 09:05:18] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/bf/76/242b17d120ef0ec11c61a6e3b5c73947b8c36a6d416bd14f56a31d1c704a/shortgpt-0.1.0.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [homeconnect-webthing]: New version: [1.0.2] Old Version: [1.0.1]
+[2023-08-05 09:05:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/43/a0/f60ad514b6f8534fa5ba8cc5fcc2a8f2e32e7d06d2dbfd43b12c2cb29931/seqio-nightly-0.0.8.dev20220906.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [gmpg]: Downloading https://files.pythonhosted.org/packages/62/a8/b25e36acc0cd572c2749c594b1dfcc46fffbb02fb91fdeae98c2b9d53fad/gmpg-0.1.9.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/da/04/7987c6cf55388d28f10ecb571fc3b4bd16ffa3b6958e1ea0fef09eac7076/cdk-rds-dump-1.2.8.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/f0/09/6926178edf84be16d235714489ff8231e7551baf9a5de3afb74e5ea82664/shortgpt-0.1.1.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/ee/fb/c1769ee1cc47be1b1c906d9907dc4d2cc34cd5f62d2e8742be811a03c41c/homeconnect_webthing-1.0.1.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [deeplake]: Downloading https://files.pythonhosted.org/packages/bc/93/cf9565061098eb6d71162d1cc59e1916a05fbfaa461fdb566f9597e8fc0c/deeplake-3.6.9.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [gmpg]: executing diffoscope
+[2023-08-05 09:05:18] INFO root fetch - processPackages [gmpg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gmpg-0.1.8.tar.gz tmp/gmpg-0.1.9.tar.gz --markdown 20230805/g/gmpg/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 09:05:18] INFO root fetch - processPackages [shortgpt]: executing diffoscope
+[2023-08-05 09:05:18] INFO root fetch - processPackages [shortgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortgpt-0.1.0.tar.gz tmp/shortgpt-0.1.1.tar.gz --markdown 20230805/s/shortgpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 09:05:18] INFO root fetch - processPackages [seqio-nightly]: Downloading https://files.pythonhosted.org/packages/2a/76/25f4c7602cdd724deac948a914e454756abfad2119a525c06d9ce341b918/seqio-nightly-0.0.8.dev20220907.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [deeplake]: executing diffoscope
+[2023-08-05 09:05:18] INFO root fetch - processPackages [deeplake]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deeplake-3.6.8.tar.gz tmp/deeplake-3.6.9.tar.gz --markdown 20230805/d/deeplake/3.6.8-3.6.9/diff.md --exclude *.pyd
+[2023-08-05 09:05:18] INFO root fetch - processPackages [homeconnect-webthing]: Downloading https://files.pythonhosted.org/packages/a5/53/577c3c474255a07a1ad95891ecdc1ee9a20a8f097f64bf2bbc25f83f1ac3/homeconnect_webthing-1.0.2.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [cdk-rds-dump]: Downloading https://files.pythonhosted.org/packages/f4/0b/9ab10174144eed83c415831738537c9f62b5e67cd207b5f85aae8c3bb5a8/cdk-rds-dump-1.2.9.tar.gz
+[2023-08-05 09:05:18] INFO root fetch - processPackages [seqio-nightly]: executing diffoscope
+[2023-08-05 09:05:18] INFO root fetch - processPackages [seqio-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/seqio-nightly-0.0.8.dev20220906.tar.gz tmp/seqio-nightly-0.0.8.dev20220907.tar.gz --markdown 20230805/s/seqio-nightly/0.0.8.dev20220906-0.0.8.dev20220907/diff.md --exclude *.pyd
+[2023-08-05 09:05:18] INFO root fetch - processPackages [homeconnect-webthing]: executing diffoscope
+[2023-08-05 09:05:18] INFO root fetch - processPackages [homeconnect-webthing]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/homeconnect_webthing-1.0.1.tar.gz tmp/homeconnect_webthing-1.0.2.tar.gz --markdown 20230805/h/homeconnect-webthing/1.0.1-1.0.2/diff.md --exclude *.pyd
+[2023-08-05 09:05:19] INFO root fetch - processPackages [cdk-rds-dump]: executing diffoscope
+[2023-08-05 09:05:19] INFO root fetch - processPackages [cdk-rds-dump]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-rds-dump-1.2.8.tar.gz tmp/cdk-rds-dump-1.2.9.tar.gz --markdown 20230805/c/cdk-rds-dump/1.2.8-1.2.9/diff.md --exclude *.pyd
+[2023-08-05 09:05:19] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.8.tar.gz]
+[2023-08-05 09:05:19] INFO root fetch - processPackages [gmpg]: Remove: archive file [/home/abi/fetcher/tmp/gmpg-0.1.9.tar.gz]
+[2023-08-05 09:05:19] INFO root fetch - main [MainThread]: End processing [gmpg]: success
+[2023-08-05 09:05:19] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.0.tar.gz]
+[2023-08-05 09:05:19] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.1.tar.gz]
+[2023-08-05 09:05:19] INFO root fetch - main [MainThread]: End processing [shortgpt]: success
+[2023-08-05 09:05:19] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.1.tar.gz]
+[2023-08-05 09:05:19] INFO root fetch - processPackages [homeconnect-webthing]: Remove: archive file [/home/abi/fetcher/tmp/homeconnect_webthing-1.0.2.tar.gz]
+[2023-08-05 09:05:19] INFO root fetch - main [MainThread]: End processing [homeconnect-webthing]: success
+[2023-08-05 09:05:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220906.tar.gz]
+[2023-08-05 09:05:20] INFO root fetch - processPackages [seqio-nightly]: Remove: archive file [/home/abi/fetcher/tmp/seqio-nightly-0.0.8.dev20220907.tar.gz]
+[2023-08-05 09:05:20] INFO root fetch - main [MainThread]: End processing [seqio-nightly]: success
+[2023-08-05 09:05:20] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.8.tar.gz]
+[2023-08-05 09:05:20] INFO root fetch - processPackages [cdk-rds-dump]: Remove: archive file [/home/abi/fetcher/tmp/cdk-rds-dump-1.2.9.tar.gz]
+[2023-08-05 09:05:20] INFO root fetch - main [MainThread]: End processing [cdk-rds-dump]: success
+[2023-08-05 09:05:20] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.8.tar.gz]
+[2023-08-05 09:05:20] INFO root fetch - processPackages [deeplake]: Remove: archive file [/home/abi/fetcher/tmp/deeplake-3.6.9.tar.gz]
+[2023-08-05 09:05:20] INFO root fetch - main [MainThread]: End processing [deeplake]: success
+[2023-08-05 09:05:20] INFO root fetch - main [MainThread]: Store serial: [19184733]
