@@ -7753,3 +7753,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:01:05] INFO root fetch - processPackages [sqlite-html]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_html-0.1.2a8-py3-none-win_amd64.whl.zip]
 [2023-08-05 06:01:05] INFO root fetch - main [MainThread]: End processing [sqlite-html]: success
 [2023-08-05 06:01:05] INFO root fetch - main [MainThread]: Store serial: [19184164]
+[2023-08-05 06:06:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184164]
+[2023-08-05 06:06:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: datasette-sqlite-lines
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: sqlite-lines
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sqlite-utils-sqlite-lines
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: evals-nightly
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: py-msgraph
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: aioruckus
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: assess-acceptability-judgments
+[2023-08-05 06:06:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: chromedriver-binary
+[2023-08-05 06:06:25] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 06:06:25] WARNING root fetch - processPackages [py-msgraph]: Skipping, unable to determine old version
+[2023-08-05 06:06:25] INFO root fetch - main [MainThread]: End processing [py-msgraph] error
+[2023-08-05 06:06:25] INFO root fetch - processPackages [aioruckus]: New version: [0.30] Old Version: [0.24]
+[2023-08-05 06:06:25] INFO root fetch - processPackages [chromedriver-binary]: New version: [99.0.4844.51.0] Old Version: [99.0.4844.35.0]
+[2023-08-05 06:06:25] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-05 06:06:25] INFO root fetch - processPackages [evals-nightly]: New version: [1.0.3.dev20230804] Old Version: [1.0.3.dev20230803]
+[2023-08-05 06:06:25] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 06:06:25] INFO root fetch - processPackages [datasette-sqlite-lines]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 06:06:25] INFO root fetch - processPackages [sqlite-lines]: New version: [0.2.1a2] Old Version: [0.2.1a1]
+[2023-08-05 06:06:25] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/50/a2/f36a3d2f2aa37ccc496e5f81d594f06e3965b836712da14b4b01d2f05ca8/chromedriver-binary-99.0.4844.35.0.tar.gz
+[2023-08-05 06:06:25] INFO root fetch - processPackages [aioruckus]: Downloading https://files.pythonhosted.org/packages/22/4b/d5af1b817d73c3a7e3ffde9900a0a8e0b0cd422e1f57137c4513d8f1261e/aioruckus-0.24.tar.gz
+[2023-08-05 06:06:25] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/48/31/41e3b2075c6dc432da12788dd517bd3cefb7ef4c2b7b15527992c1a1edc6/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl
+[2023-08-05 06:06:25] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/f4/2e/a1577a4db8241469b2b452a3bb3e167f8dfe10fbf3f90fac31e3f432f27c/evals-nightly-1.0.3.dev20230803.tar.gz
+[2023-08-05 06:06:25] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/9c/33/30b00959127f6aa687f490e7424634309e76e47cbc9238d781660b39a620/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-05 06:06:25] INFO root fetch - processPackages [chromedriver-binary]: Downloading https://files.pythonhosted.org/packages/d9/eb/3bd2a308b9e6f7441fbed7b759578bddade2cb983bb4ffe7fc3777863314/chromedriver-binary-99.0.4844.51.0.tar.gz
+[2023-08-05 06:06:25] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/83/92/f91984e26cd56f347ae064021bd16423ef351f2cafd5539c85dae86fa10c/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl
+[2023-08-05 06:06:26] INFO root fetch - processPackages [chromedriver-binary]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [chromedriver-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromedriver-binary-99.0.4844.35.0.tar.gz tmp/chromedriver-binary-99.0.4844.51.0.tar.gz --markdown 20230805/c/chromedriver-binary/99.0.4844.35.0-99.0.4844.51.0/diff.md --exclude *.pyd
+[2023-08-05 06:06:26] INFO root fetch - processPackages [aioruckus]: Downloading https://files.pythonhosted.org/packages/0a/b1/67cb73808dc1de92465d0483859c54e373dfaa89f0741426ed08c0c50808/aioruckus-0.30.tar.gz
+[2023-08-05 06:06:26] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-05 06:06:26] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/bb/d0/0f173bbab56da024b255d85d36b29579a86ffe9ed7966fae62de70ec6e09/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl
+[2023-08-05 06:06:26] INFO root fetch - processPackages [evals-nightly]: Downloading https://files.pythonhosted.org/packages/3d/14/8375a8a36b2dea1c8cb922e1e00fc6bee64dbffdc1bbc228a4254f4f72ea/evals-nightly-1.0.3.dev20230804.tar.gz
+[2023-08-05 06:06:26] INFO root fetch - processPackages [aioruckus]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [aioruckus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aioruckus-0.24.tar.gz tmp/aioruckus-0.30.tar.gz --markdown 20230805/a/aioruckus/0.24-0.30/diff.md --exclude *.pyd
+[2023-08-05 06:06:26] INFO root fetch - processPackages [sqlite-lines]: Downloading https://files.pythonhosted.org/packages/b8/ab/43f532e39f64f5226f39135862205071fe54e5baa9cdf7140b2f5f7d3372/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl
+[2023-08-05 06:06:26] INFO root fetch - processPackages [datasette-sqlite-lines]: Downloading https://files.pythonhosted.org/packages/52/10/ca4f9fc531664d80c3105472409f86273249c85a1c327f9b92827f99fb92/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl
+[2023-08-05 06:06:26] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl.zip tmp/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl.zip --markdown 20230805/s/sqlite-utils-sqlite-lines/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 06:06:26] INFO root fetch - processPackages [sqlite-lines]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip tmp/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip --markdown 20230805/s/sqlite-lines/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 06:06:26] INFO root fetch - processPackages [evals-nightly]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [evals-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/evals-nightly-1.0.3.dev20230803.tar.gz tmp/evals-nightly-1.0.3.dev20230804.tar.gz --markdown 20230805/e/evals-nightly/1.0.3.dev20230803-1.0.3.dev20230804/diff.md --exclude *.pyd
+[2023-08-05 06:06:26] INFO root fetch - processPackages [datasette-sqlite-lines]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [datasette-sqlite-lines]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl.zip tmp/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-lines/0.2.1a1-0.2.1a2/diff.md --exclude *.pyd
+[2023-08-05 06:06:26] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-05 06:06:26] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230805/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 06:06:27] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.35.0.tar.gz]
+[2023-08-05 06:06:27] INFO root fetch - processPackages [chromedriver-binary]: Remove: archive file [/home/abi/fetcher/tmp/chromedriver-binary-99.0.4844.51.0.tar.gz]
+[2023-08-05 06:06:27] INFO root fetch - main [MainThread]: End processing [chromedriver-binary]: success
+[2023-08-05 06:06:27] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 06:06:27] INFO root fetch - processPackages [sqlite-utils-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_utils_sqlite_lines-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-05 06:06:27] INFO root fetch - main [MainThread]: End processing [sqlite-utils-sqlite-lines]: success
+[2023-08-05 06:06:27] INFO root fetch - processPackages [aioruckus]: Remove: archive file [/home/abi/fetcher/tmp/aioruckus-0.24.tar.gz]
+[2023-08-05 06:06:27] INFO root fetch - processPackages [aioruckus]: Remove: archive file [/home/abi/fetcher/tmp/aioruckus-0.30.tar.gz]
+[2023-08-05 06:06:27] INFO root fetch - main [MainThread]: End processing [aioruckus]: success
+[2023-08-05 06:06:27] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.1a1-py3-none-any.whl.zip]
+[2023-08-05 06:06:27] INFO root fetch - processPackages [datasette-sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_lines-0.2.1a2-py3-none-any.whl.zip]
+[2023-08-05 06:06:27] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-lines]: success
+[2023-08-05 06:06:27] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.1a1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-05 06:06:27] INFO root fetch - processPackages [sqlite-lines]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_lines-0.2.1a2-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux1_x86_64.whl.zip]
+[2023-08-05 06:06:27] INFO root fetch - main [MainThread]: End processing [sqlite-lines]: success
+[2023-08-05 06:06:28] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230803.tar.gz]
+[2023-08-05 06:06:28] INFO root fetch - processPackages [evals-nightly]: Remove: archive file [/home/abi/fetcher/tmp/evals-nightly-1.0.3.dev20230804.tar.gz]
+[2023-08-05 06:06:28] INFO root fetch - main [MainThread]: End processing [evals-nightly]: success
+[2023-08-05 06:06:29] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.8.tar.gz]
+[2023-08-05 06:06:29] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
+[2023-08-05 06:06:29] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-05 06:06:29] INFO root fetch - main [MainThread]: Store serial: [19184188]
