@@ -13753,3 +13753,76 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:15:35] INFO root fetch - processPackages [ultralytics]: Remove: archive file [/home/abi/fetcher/tmp/ultralytics-8.0.99.tar.gz]
 [2023-08-05 16:15:35] INFO root fetch - main [MainThread]: End processing [ultralytics]: success
 [2023-08-05 16:15:35] INFO root fetch - main [MainThread]: Store serial: [19187034]
+[2023-08-05 16:20:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187034]
+[2023-08-05 16:20:44] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tplink-omada-client
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: mojo-runtime
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: stream-zip
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: dfsync
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rdpy3
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ioavstatsdb
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: spanishconjugator
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: spanishconjugator
+[2023-08-05 16:20:44] INFO root fetch - processPackages [stream-zip]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:20:44] INFO root fetch - processPackages [rdpy3]: New version: [1.3.6] Old Version: [1.3.5]
+[2023-08-05 16:20:44] INFO root fetch - processPackages [ioavstatsdb]: New version: [1.5.0a98] Old Version: [1.5.0a94]
+[2023-08-05 16:20:44] INFO root fetch - processPackages [mojo-runtime]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:20:44] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-05 16:20:44] INFO root fetch - processPackages [dfsync]: New version: [0.4.2] Old Version: [0.4.1]
+[2023-08-05 16:20:44] INFO root fetch - processPackages [tplink-omada-client]: New version: [1.3.2] Old Version: [1.3.0]
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: New version: [2.3.999] Old Version: [2.3.998]
+[2023-08-05 16:20:45] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/4b/65/27b6998732f631a7691a5157fb51c5d5328faa138986c06684c5ae4fe771/stream-zip-0.0.8.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/99/49/45e3667c9d95581c9a90a11da2b77132298a905536cfa9e34a10ad8072fa/rdpy3-1.3.5.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/db/37/516fe709f86d258be0f5a778c40223cf5664bee23872366db528c38d1fa0/mojo_runtime-0.0.8.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [ioavstatsdb]: Downloading https://files.pythonhosted.org/packages/f2/74/c5f26834a254b6feeaf1a0223e5b8325f4e309fbed866c90c97ae1f7bae0/ioavstatsdb-1.5.0a94.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [tplink-omada-client]: Downloading https://files.pythonhosted.org/packages/03/57/6939a0579ec38957916a63dfe166f4130693c2393e0fc11bf0e49c6d84db/tplink_omada_client-1.3.0.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/1c/a2/a7226dfd48c2c6d3e52091175146891f40a2c1c7d20943e8e0560192be85/spanishconjugator-2.3.998.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/49/86/00f587fdb8e386cb35146322be462c233441990acc30e1caaa8dceca3b71/dfsync-0.4.1.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [mojo-runtime]: Downloading https://files.pythonhosted.org/packages/01/a6/585a2c7f79b275fe281946b36941136d6e09296a144056c0b4a78c26b94d/mojo_runtime-0.0.9.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [stream-zip]: Downloading https://files.pythonhosted.org/packages/0e/94/162b767659b1b6afe9241c47773d921e2b8a0f97f124d374e76c7f1d2b53/stream-zip-0.0.9.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: Downloading https://files.pythonhosted.org/packages/38/b5/7c4b33d552653d08874337c2258ccc985f5f1bc589073e61d6e1ccff130e/spanishconjugator-2.3.999.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/ef/6e/9a2694a605d3da9bc61f73897a24f36ffe7d2ebab4b5cb01e43c2c529f4e/rdpy3-1.3.6.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [ioavstatsdb]: Downloading https://files.pythonhosted.org/packages/29/f8/54fa7eb3e7518ec08b91f51be0a86f330931836c801ad82f8073a76aebc7/ioavstatsdb-1.5.0a98.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [mojo-runtime]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [mojo-runtime]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_runtime-0.0.8.tar.gz tmp/mojo_runtime-0.0.9.tar.gz --markdown 20230805/m/mojo-runtime/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [tplink-omada-client]: Downloading https://files.pythonhosted.org/packages/42/83/0aeadbbb1d0b7134d06aaefaacc910c18a306951841e699a0a3fc11682e7/tplink_omada_client-1.3.2.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [stream-zip]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [stream-zip]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/stream-zip-0.0.8.tar.gz tmp/stream-zip-0.0.9.tar.gz --markdown 20230805/s/stream-zip/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230805/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [spanishconjugator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spanishconjugator-2.3.998.tar.gz tmp/spanishconjugator-2.3.999.tar.gz --markdown 20230805/s/spanishconjugator/2.3.998-2.3.999/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.5.tar.gz tmp/rdpy3-1.3.6.tar.gz --markdown 20230805/r/rdpy3/1.3.5-1.3.6/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [ioavstatsdb]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [ioavstatsdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ioavstatsdb-1.5.0a94.tar.gz tmp/ioavstatsdb-1.5.0a98.tar.gz --markdown 20230805/i/ioavstatsdb/1.5.0a94-1.5.0a98/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [dfsync]: Downloading https://files.pythonhosted.org/packages/f8/4a/e28ecfde9989d448d78377a06faa3edda86b70a7db64ca155a489f8644e0/dfsync-0.4.2.tar.gz
+[2023-08-05 16:20:45] INFO root fetch - processPackages [tplink-omada-client]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [tplink-omada-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tplink_omada_client-1.3.0.tar.gz tmp/tplink_omada_client-1.3.2.tar.gz --markdown 20230805/t/tplink-omada-client/1.3.0-1.3.2/diff.md --exclude *.pyd
+[2023-08-05 16:20:45] INFO root fetch - processPackages [dfsync]: executing diffoscope
+[2023-08-05 16:20:45] INFO root fetch - processPackages [dfsync]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dfsync-0.4.1.tar.gz tmp/dfsync-0.4.2.tar.gz --markdown 20230805/d/dfsync/0.4.1-0.4.2/diff.md --exclude *.pyd
+[2023-08-05 16:20:46] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.8.tar.gz]
+[2023-08-05 16:20:46] INFO root fetch - processPackages [stream-zip]: Remove: archive file [/home/abi/fetcher/tmp/stream-zip-0.0.9.tar.gz]
+[2023-08-05 16:20:46] INFO root fetch - main [MainThread]: End processing [stream-zip]: success
+[2023-08-05 16:20:46] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.8.tar.gz]
+[2023-08-05 16:20:46] INFO root fetch - processPackages [mojo-runtime]: Remove: archive file [/home/abi/fetcher/tmp/mojo_runtime-0.0.9.tar.gz]
+[2023-08-05 16:20:46] INFO root fetch - main [MainThread]: End processing [mojo-runtime]: success
+[2023-08-05 16:20:47] INFO root fetch - processPackages [tplink-omada-client]: Remove: archive file [/home/abi/fetcher/tmp/tplink_omada_client-1.3.0.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - processPackages [tplink-omada-client]: Remove: archive file [/home/abi/fetcher/tmp/tplink_omada_client-1.3.2.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [tplink-omada-client]: success
+[2023-08-05 16:20:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.998.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - processPackages [spanishconjugator]: Remove: archive file [/home/abi/fetcher/tmp/spanishconjugator-2.3.999.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [spanishconjugator]: success
+[2023-08-05 16:20:47] INFO root fetch - processPackages [ioavstatsdb]: Remove: archive file [/home/abi/fetcher/tmp/ioavstatsdb-1.5.0a94.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - processPackages [ioavstatsdb]: Remove: archive file [/home/abi/fetcher/tmp/ioavstatsdb-1.5.0a98.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [ioavstatsdb]: success
+[2023-08-05 16:20:47] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.5.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.6.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-05 16:20:47] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.4.1.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - processPackages [dfsync]: Remove: archive file [/home/abi/fetcher/tmp/dfsync-0.4.2.tar.gz]
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: End processing [dfsync]: success
+[2023-08-05 16:20:47] INFO root fetch - main [MainThread]: Store serial: [19187057]
