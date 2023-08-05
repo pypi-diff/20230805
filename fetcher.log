@@ -9264,3 +9264,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:10:54] INFO root fetch - processPackages [feffery-antd-components]: Remove: archive file [/home/abi/fetcher/tmp/feffery_antd_components-0.2.9.tar.gz]
 [2023-08-05 09:10:54] INFO root fetch - main [MainThread]: End processing [feffery-antd-components]: success
 [2023-08-05 09:10:54] INFO root fetch - main [MainThread]: Store serial: [19184743]
+[2023-08-05 09:15:59] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184743]
+[2023-08-05 09:16:04] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 09:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: luminesce-sdk-preview
+[2023-08-05 09:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xj-user
+[2023-08-05 09:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: konfuzio-sdk
+[2023-08-05 09:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: inviz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: xj-behavior
+[2023-08-05 09:16:04] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: blockchain-todo
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-user]: New version: [1.2.99] Old Version: [1.2.98]
+[2023-08-05 09:16:04] INFO root fetch - processPackages [inviz]: New version: [0.2.8] Old Version: [0.2.7]
+[2023-08-05 09:16:04] INFO root fetch - processPackages [konfuzio-sdk]: New version: [0.2.9.dev20230104175944] Old Version: [0.2.9.dev20221227125623]
+[2023-08-05 09:16:04] WARNING root fetch - processPackages [blockchain-todo]: Skipping, unable to determine old version
+[2023-08-05 09:16:04] INFO root fetch - main [MainThread]: End processing [blockchain-todo] error
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-behavior]: New version: [1.0.7] Old Version: [1.0.6]
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/26/be/e0d28eecf05fff47ab8dc5bf0e46eff90f3cee3ae03596f052698e5df93d/xj_user-1.2.98.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/11/68/ee929bd80d4562e5d4916fbc26378a5a8c67fcce1bee74090ed2aaf7d11f/inviz-0.2.7.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/ac/dc/9465335e6231c486f3c6bdbe6b292085b01976718bb1af6f33d8d890281a/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-behavior]: Downloading https://files.pythonhosted.org/packages/86/8a/4e2dc1e0a92fa28e3ab50af77742c24ea39a3001100c29a83c67724b8b0e/xj_behavior-1.0.6.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-user]: Downloading https://files.pythonhosted.org/packages/f9/79/9b7536f52cd2a21b092678ce5bc888a17a7c527cef9ae891d864354f2e5c/xj_user-1.2.99.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [konfuzio-sdk]: Downloading https://files.pythonhosted.org/packages/4a/3b/875a5d1cf74ec597eceaf7095d68ea13e58abb9f095fff321dc0709029f0/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [inviz]: Downloading https://files.pythonhosted.org/packages/a1/72/b55f89d76bddfb7e9b299017805a913a6bee1a6b1039ef079d7697d81007/inviz-0.2.8.tar.gz
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-user]: executing diffoscope
+[2023-08-05 09:16:04] INFO root fetch - processPackages [xj-user]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_user-1.2.98.tar.gz tmp/xj_user-1.2.99.tar.gz --markdown 20230805/x/xj-user/1.2.98-1.2.99/diff.md --exclude *.pyd
+[2023-08-05 09:16:05] INFO root fetch - processPackages [inviz]: executing diffoscope
+[2023-08-05 09:16:05] INFO root fetch - processPackages [inviz]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/inviz-0.2.7.tar.gz tmp/inviz-0.2.8.tar.gz --markdown 20230805/i/inviz/0.2.7-0.2.8/diff.md --exclude *.pyd
+[2023-08-05 09:16:05] INFO root fetch - processPackages [konfuzio-sdk]: executing diffoscope
+[2023-08-05 09:16:05] INFO root fetch - processPackages [konfuzio-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz --markdown 20230805/k/konfuzio-sdk/0.2.9.dev20221227125623-0.2.9.dev20230104175944/diff.md --exclude *.pyd
+[2023-08-05 09:16:05] INFO root fetch - processPackages [xj-behavior]: Downloading https://files.pythonhosted.org/packages/34/5d/fd41ccf4ec46b2f8f3687a6b774fe76c8f2bbb5c9f30ac5079fc5afdbb86/xj_behavior-1.0.7.tar.gz
+[2023-08-05 09:16:05] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-08-05 09:16:05] INFO root fetch - processPackages [xj-behavior]: executing diffoscope
+[2023-08-05 09:16:05] INFO root fetch - processPackages [xj-behavior]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xj_behavior-1.0.6.tar.gz tmp/xj_behavior-1.0.7.tar.gz --markdown 20230805/x/xj-behavior/1.0.6-1.0.7/diff.md --exclude *.pyd
+[2023-08-05 09:16:05] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-08-05 09:16:05] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230805/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-08-05 09:16:05] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.7.tar.gz]
+[2023-08-05 09:16:05] INFO root fetch - processPackages [inviz]: Remove: archive file [/home/abi/fetcher/tmp/inviz-0.2.8.tar.gz]
+[2023-08-05 09:16:05] INFO root fetch - main [MainThread]: End processing [inviz]: success
+[2023-08-05 09:16:06] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20221227125623.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - processPackages [konfuzio-sdk]: Remove: archive file [/home/abi/fetcher/tmp/konfuzio_sdk-0.2.9.dev20230104175944.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - main [MainThread]: End processing [konfuzio-sdk]: success
+[2023-08-05 09:16:06] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.98.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - processPackages [xj-user]: Remove: archive file [/home/abi/fetcher/tmp/xj_user-1.2.99.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - main [MainThread]: End processing [xj-user]: success
+[2023-08-05 09:16:06] INFO root fetch - processPackages [xj-behavior]: Remove: archive file [/home/abi/fetcher/tmp/xj_behavior-1.0.6.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - processPackages [xj-behavior]: Remove: archive file [/home/abi/fetcher/tmp/xj_behavior-1.0.7.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - main [MainThread]: End processing [xj-behavior]: success
+[2023-08-05 09:16:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-08-05 09:16:06] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-08-05 09:16:06] INFO root fetch - main [MainThread]: Store serial: [19184763]
