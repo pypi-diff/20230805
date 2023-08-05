@@ -16032,3 +16032,54 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:26:03] INFO root fetch - processPackages [pibble]: Remove: archive file [/home/abi/fetcher/tmp/pibble-0.6.7.tar.gz]
 [2023-08-05 19:26:03] INFO root fetch - main [MainThread]: End processing [pibble]: success
 [2023-08-05 19:26:03] INFO root fetch - main [MainThread]: Store serial: [19188107]
+[2023-08-05 19:31:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188107]
+[2023-08-05 19:31:11] INFO root fetch - main [MainThread]: Found 6 changed packages
+[2023-08-05 19:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: py-astrolab
+[2023-08-05 19:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: ss3a
+[2023-08-05 19:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: crazy-thursday
+[2023-08-05 19:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: wixcf
+[2023-08-05 19:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: mySweetCache
+[2023-08-05 19:31:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: irene-pro
+[2023-08-05 19:31:11] INFO root fetch - processPackages [py-astrolab]: New version: [0.6.8] Old Version: [0.6.7]
+[2023-08-05 19:31:11] INFO root fetch - processPackages [irene-pro]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 19:31:11] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.8.5.1] Old Version: [2023.8.5.0]
+[2023-08-05 19:31:12] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/be/f6/461d4bdfcfe720be0c0e9d0f86a3934a5db293b8aff3d1611bb3f0d64c16/py_astrolab-0.6.7.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [mySweetCache]: New version: [1.0.0] Old Version: [0.1.0]
+[2023-08-05 19:31:12] WARNING root fetch - processPackages [wixcf]: Skipping, unable to determine old version
+[2023-08-05 19:31:12] INFO root fetch - main [MainThread]: End processing [wixcf] error
+[2023-08-05 19:31:12] INFO root fetch - processPackages [ss3a]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 19:31:12] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ef/63/aae6ee6f1301ac9d0a57596340880805329a2619b87ed8e03a15069425d5/crazy-thursday-2023.8.5.0.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/46/8e/6e730d1043dbdc8f6c7827c01bb663f8fb6221931b2e45076f60fdc18f79/irene_pro-0.1.8.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [ss3a]: Downloading https://files.pythonhosted.org/packages/91/86/605234f13c97536f45f2d73be767f7fcb859ff0a6c746015828b7edffee4/ss3a-0.0.2.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [mySweetCache]: Downloading https://files.pythonhosted.org/packages/15/24/7c5a6dd0bf8459c7beb192c69965286f72a4447fff4a20c4e9f61d875e8d/mysweetcache-0.1.0.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [py-astrolab]: Downloading https://files.pythonhosted.org/packages/62/9e/50568ae9d1e1bc1d81864000c7ef411f1030e442ad5acd5a760544afd35f/py_astrolab-0.6.8.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [irene-pro]: Downloading https://files.pythonhosted.org/packages/f8/06/483ee1c1417771faaa0b5e6987ea6181d55523b74640d4bac8c5fe47cd49/irene_pro-0.1.9.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [irene-pro]: executing diffoscope
+[2023-08-05 19:31:12] INFO root fetch - processPackages [irene-pro]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/irene_pro-0.1.8.tar.gz tmp/irene_pro-0.1.9.tar.gz --markdown 20230805/i/irene-pro/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 19:31:12] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/1a/f9/c3eae2eeef9439ebeb42a176d68a0a9729066fea73a51152f8548222173f/crazy-thursday-2023.8.5.1.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [py-astrolab]: executing diffoscope
+[2023-08-05 19:31:12] INFO root fetch - processPackages [py-astrolab]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py_astrolab-0.6.7.tar.gz tmp/py_astrolab-0.6.8.tar.gz --markdown 20230805/p/py-astrolab/0.6.7-0.6.8/diff.md --exclude *.pyd
+[2023-08-05 19:31:12] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-08-05 19:31:12] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.8.5.0.tar.gz tmp/crazy-thursday-2023.8.5.1.tar.gz --markdown 20230805/c/crazy-thursday/2023.8.5.0-2023.8.5.1/diff.md --exclude *.pyd
+[2023-08-05 19:31:12] INFO root fetch - processPackages [mySweetCache]: Downloading https://files.pythonhosted.org/packages/60/64/65a2599b6901fca4d92fa29e56e1e5f9b9e2b5ec2d69ae3a3aa0d811f804/mysweetcache-1.0.0.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [ss3a]: Downloading https://files.pythonhosted.org/packages/03/b1/81080c0d1b312398a56ba94b24275bb7377c437cf3605971db33352e0445/ss3a-0.0.3.tar.gz
+[2023-08-05 19:31:12] INFO root fetch - processPackages [mySweetCache]: executing diffoscope
+[2023-08-05 19:31:12] INFO root fetch - processPackages [mySweetCache]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mysweetcache-0.1.0.tar.gz tmp/mysweetcache-1.0.0.tar.gz --markdown 20230805/m/mySweetCache/0.1.0-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 19:31:12] INFO root fetch - processPackages [ss3a]: executing diffoscope
+[2023-08-05 19:31:12] INFO root fetch - processPackages [ss3a]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ss3a-0.0.2.tar.gz tmp/ss3a-0.0.3.tar.gz --markdown 20230805/s/ss3a/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 19:31:13] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.8.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - processPackages [irene-pro]: Remove: archive file [/home/abi/fetcher/tmp/irene_pro-0.1.9.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - main [MainThread]: End processing [irene-pro]: success
+[2023-08-05 19:31:13] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.5.0.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.5.1.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-08-05 19:31:13] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.7.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - processPackages [py-astrolab]: Remove: archive file [/home/abi/fetcher/tmp/py_astrolab-0.6.8.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - main [MainThread]: End processing [py-astrolab]: success
+[2023-08-05 19:31:13] INFO root fetch - processPackages [ss3a]: Remove: archive file [/home/abi/fetcher/tmp/ss3a-0.0.2.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - processPackages [ss3a]: Remove: archive file [/home/abi/fetcher/tmp/ss3a-0.0.3.tar.gz]
+[2023-08-05 19:31:13] INFO root fetch - main [MainThread]: End processing [ss3a]: success
+[2023-08-05 19:31:14] INFO root fetch - processPackages [mySweetCache]: Remove: archive file [/home/abi/fetcher/tmp/mysweetcache-0.1.0.tar.gz]
+[2023-08-05 19:31:14] INFO root fetch - processPackages [mySweetCache]: Remove: archive file [/home/abi/fetcher/tmp/mysweetcache-1.0.0.tar.gz]
+[2023-08-05 19:31:14] INFO root fetch - main [MainThread]: End processing [mySweetCache]: success
+[2023-08-05 19:31:14] INFO root fetch - main [MainThread]: Store serial: [19188127]
