@@ -9773,3 +9773,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 10:13:04] INFO root fetch - processPackages [referencing]: Remove: archive file [/home/abi/fetcher/tmp/referencing-0.9.2.tar.gz]
 [2023-08-05 10:13:04] INFO root fetch - main [MainThread]: End processing [referencing]: success
 [2023-08-05 10:13:04] INFO root fetch - main [MainThread]: Store serial: [19185051]
+[2023-08-05 10:18:08] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185051]
+[2023-08-05 10:18:13] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 10:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: discord-api-info
+[2023-08-05 10:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: py3seed
+[2023-08-05 10:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tybase
+[2023-08-05 10:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: opsanalyze
+[2023-08-05 10:18:13] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: discord-api-info
+[2023-08-05 10:18:13] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 10:18:13] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 10:18:13] INFO root fetch - processPackages [tybase]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-05 10:18:13] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 10:18:13] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 10:18:13] INFO root fetch - processPackages [py3seed]: New version: [0.3.4] Old Version: [0.3.3]
+[2023-08-05 10:18:13] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/a7/7d/e80d21e470123c318e4c1f96dc4cdbe2e7bc9f76ddd98581ec10feff156b/tybase-0.2.5.tar.gz
+[2023-08-05 10:18:13] INFO root fetch - processPackages [opsanalyze]: New version: [1.1] Old Version: [1.0]
+[2023-08-05 10:18:13] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/55/e1/4b21e576dd1512f23bd918ae98e9aeba385565c489e1d09a04bc4bdf2f7d/py3seed-0.3.3.tar.gz
+[2023-08-05 10:18:13] INFO root fetch - processPackages [py3seed]: Downloading https://files.pythonhosted.org/packages/fe/8d/505abb7816afa3035dbd512f742474c33c4c6cd35b6e4909ebf68b3de8e2/py3seed-0.3.4.tar.gz
+[2023-08-05 10:18:13] INFO root fetch - processPackages [opsanalyze]: Downloading https://files.pythonhosted.org/packages/86/29/2a087851327608cbf7e74d9e6c73faa87424b0e130e56d427f9c3fa0c5be/opsanalyze-1.0.tar.gz
+[2023-08-05 10:18:13] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/78/2b/6be677ce1a95d4559a83de6ae3e9eb32bc55254a27260a6f2de7d9b66179/tybase-0.2.6.tar.gz
+[2023-08-05 10:18:13] INFO root fetch - processPackages [py3seed]: executing diffoscope
+[2023-08-05 10:18:13] INFO root fetch - processPackages [py3seed]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3seed-0.3.3.tar.gz tmp/py3seed-0.3.4.tar.gz --markdown 20230805/p/py3seed/0.3.3-0.3.4/diff.md --exclude *.pyd
+[2023-08-05 10:18:13] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 10:18:13] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.2.5.tar.gz tmp/tybase-0.2.6.tar.gz --markdown 20230805/t/tybase/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-05 10:18:13] INFO root fetch - processPackages [opsanalyze]: Downloading https://files.pythonhosted.org/packages/e5/fe/ed24b5392733292400007b0deb89914e9a086b9cbe0ff2e16231d1556136/opsanalyze-1.1.tar.gz
+[2023-08-05 10:18:13] INFO root fetch - processPackages [opsanalyze]: executing diffoscope
+[2023-08-05 10:18:13] INFO root fetch - processPackages [opsanalyze]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opsanalyze-1.0.tar.gz tmp/opsanalyze-1.1.tar.gz --markdown 20230805/o/opsanalyze/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-05 10:18:14] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.5.tar.gz]
+[2023-08-05 10:18:14] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.6.tar.gz]
+[2023-08-05 10:18:14] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 10:18:14] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.3.tar.gz]
+[2023-08-05 10:18:14] INFO root fetch - processPackages [py3seed]: Remove: archive file [/home/abi/fetcher/tmp/py3seed-0.3.4.tar.gz]
+[2023-08-05 10:18:14] INFO root fetch - main [MainThread]: End processing [py3seed]: success
+[2023-08-05 10:18:14] INFO root fetch - processPackages [opsanalyze]: Remove: archive file [/home/abi/fetcher/tmp/opsanalyze-1.0.tar.gz]
+[2023-08-05 10:18:14] INFO root fetch - processPackages [opsanalyze]: Remove: archive file [/home/abi/fetcher/tmp/opsanalyze-1.1.tar.gz]
+[2023-08-05 10:18:14] INFO root fetch - main [MainThread]: End processing [opsanalyze]: success
+[2023-08-05 10:18:14] INFO root fetch - main [MainThread]: Store serial: [19185065]
