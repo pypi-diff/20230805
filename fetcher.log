@@ -12827,3 +12827,168 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:15:07] INFO root fetch - processPackages [circt]: Remove: archive file [/home/abi/fetcher/tmp/circt-1.49.1.dev50-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
 [2023-08-05 15:15:07] INFO root fetch - main [MainThread]: End processing [circt]: success
 [2023-08-05 15:15:07] INFO root fetch - main [MainThread]: Store serial: [19186612]
+[2023-08-05 15:20:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186612]
+[2023-08-05 15:20:42] INFO root fetch - main [MainThread]: Found 18 changed packages
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nbdev-sphinx
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: deepke
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: easyecs
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: notifyemail
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nbdev-django
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mojo-testplus
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: pandocker-lua-filters
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: nbdev-apl
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rysk-client
+[2023-08-05 15:20:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: find-ff
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-apl]: New version: [0.0.937] Old Version: [0.0.936]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [notifyemail]: New version: [1.1.1] Old Version: [1.0.2]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [rysk-client]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [mojo-testplus]: New version: [0.0.8] Old Version: [0.0.5]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [easyecs]: New version: [0.4.7] Old Version: [0.4.3]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [pandocker-lua-filters]: New version: [0.0.26] Old Version: [0.0.25]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [find-ff]: New version: [603] Old Version: [601]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [deepke]: New version: [2.2.6] Old Version: [2.2.5]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-django]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/3a/19/e6cc998dd511ace7a793c7a7458c4cd7721d241ce18f5c037b733072aed8/nbdev-apl-0.0.936.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-sphinx]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 15:20:43] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/a6/3d/168a7b7787334a0f8315be1d493ca855c4d3f9a306e0687f375b8361390e/easyecs-0.4.3.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [deepke]: Downloading https://files.pythonhosted.org/packages/85/27/f4e7d2b4992e6784554f8430953377932dc4947962340d58b66e69791dfb/deepke-2.2.5.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/2d/71/4cc05f447a214674a13f9f217e773cf5da4e3ebf8a7c17ded9f6e781d4fb/rysk_client-0.2.8.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [notifyemail]: Downloading https://files.pythonhosted.org/packages/5d/14/cbcb8c52a7e9653b061068943df6d1a6c91873d8bd58e2e2e0e561fe6e3a/notifyemail-1.0.2.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/39/1f/61b2e206df6ebaa1c0b92d3e2458b65b97b3176ebef8f4a0b8181aa64f1f/mojo_testplus-0.0.5.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/2b/95/9e261b8f3e5f931da5a2f9ddc475954265376d1d468b6f3877f38ad482c3/nbdev-django-0.0.98.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [find-ff]: Downloading https://files.pythonhosted.org/packages/16/f7/d83b642b131dea068e7f93d0e31ec8f1c46efba116eaccb527a2ec65e304/find-ff-601.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/df/51/77c7beb7e0f2b3d6df61da9ef737bad7e0b6fdbcf567e04a5037977b7b31/pandocker_lua_filters-0.0.25-py3-none-any.whl
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/50/26/1673892b3686c404af92c390906ab3bac81806c424381e82dedac6477190/nbdev-sphinx-0.0.98.tar.gz
+[2023-08-05 15:20:43] INFO root fetch - processPackages [nbdev-apl]: Downloading https://files.pythonhosted.org/packages/9f/98/fa45adca8e3b417096ee5fe41ad00ffb9a8d2cb6220bf80dae94e156e465/nbdev-apl-0.0.937.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [easyecs]: Downloading https://files.pythonhosted.org/packages/b7/ad/cd233fdb3702946a6ba82c4a5186b9ce7cc1332cf493ff67b6d04996e53e/easyecs-0.4.7.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-apl]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-apl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-apl-0.0.936.tar.gz tmp/nbdev-apl-0.0.937.tar.gz --markdown 20230805/n/nbdev-apl/0.0.936-0.0.937/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [deepke]: Downloading https://files.pythonhosted.org/packages/c9/cc/0625f9935e3e990087c05f3d9543df2a3f8f18c8f8dfd89a4bef2967bf98/deepke-2.2.6.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [rysk-client]: Downloading https://files.pythonhosted.org/packages/e6/a0/f6b7d17f12c0b68012411e6b893a7f08f47bf1be07d720d2609c1882a09c/rysk_client-0.2.9.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [mojo-testplus]: Downloading https://files.pythonhosted.org/packages/d7/5d/ef815d751cc3d4b592c2b5e50d0c8a7549435e90ad7e958087a633cccb68/mojo_testplus-0.0.8.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-django]: Downloading https://files.pythonhosted.org/packages/f2/7a/5214014e1426324d1fea2f984c9b5480e467e5eddefe61721e8f4d1c025e/nbdev-django-0.0.99.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [find-ff]: Downloading https://files.pythonhosted.org/packages/d4/7b/2ed56b8c02e0a0fc3b7d98d88983012ac1550f64fbbfbb8d524bd962b59a/find-ff-603.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-sphinx]: Downloading https://files.pythonhosted.org/packages/55/5e/ba946430b849ba8f51f4047dad2bb2417fbc794da9bb8301308347bb6207/nbdev-sphinx-0.0.99.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [easyecs]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [easyecs]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/easyecs-0.4.3.tar.gz tmp/easyecs-0.4.7.tar.gz --markdown 20230805/e/easyecs/0.4.3-0.4.7/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [rysk-client]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [rysk-client]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rysk_client-0.2.8.tar.gz tmp/rysk_client-0.2.9.tar.gz --markdown 20230805/r/rysk-client/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [notifyemail]: Downloading https://files.pythonhosted.org/packages/78/99/039d2d0224ce587fefd0534ac9203b0b85f5379b4fc378fb1d85f338c24a/notifyemail-1.1.1.tar.gz
+[2023-08-05 15:20:44] INFO root fetch - processPackages [deepke]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [deepke]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/deepke-2.2.5.tar.gz tmp/deepke-2.2.6.tar.gz --markdown 20230805/d/deepke/2.2.5-2.2.6/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [mojo-testplus]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [mojo-testplus]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_testplus-0.0.5.tar.gz tmp/mojo_testplus-0.0.8.tar.gz --markdown 20230805/m/mojo-testplus/0.0.5-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-django]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-django]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-django-0.0.98.tar.gz tmp/nbdev-django-0.0.99.tar.gz --markdown 20230805/n/nbdev-django/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [find-ff]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [find-ff]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/find-ff-601.tar.gz tmp/find-ff-603.tar.gz --markdown 20230805/f/find-ff/601-603/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-sphinx]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [nbdev-sphinx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nbdev-sphinx-0.0.98.tar.gz tmp/nbdev-sphinx-0.0.99.tar.gz --markdown 20230805/n/nbdev-sphinx/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 15:20:44] INFO root fetch - processPackages [pandocker-lua-filters]: Downloading https://files.pythonhosted.org/packages/32/62/9112c4735142df154d2b72684117526ab757316b0013db3a042c452656ac/pandocker_lua_filters-0.0.26-py3-none-any.whl
+[2023-08-05 15:20:44] INFO root fetch - processPackages [notifyemail]: executing diffoscope
+[2023-08-05 15:20:44] INFO root fetch - processPackages [notifyemail]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/notifyemail-1.0.2.tar.gz tmp/notifyemail-1.1.1.tar.gz --markdown 20230805/n/notifyemail/1.0.2-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 15:20:45] INFO root fetch - processPackages [pandocker-lua-filters]: executing diffoscope
+[2023-08-05 15:20:45] INFO root fetch - processPackages [pandocker-lua-filters]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip tmp/pandocker_lua_filters-0.0.26-py3-none-any.whl.zip --markdown 20230805/p/pandocker-lua-filters/0.0.25-0.0.26/diff.md --exclude *.pyd
+[2023-08-05 15:20:45] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.936.tar.gz]
+[2023-08-05 15:20:45] INFO root fetch - processPackages [nbdev-apl]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-apl-0.0.937.tar.gz]
+[2023-08-05 15:20:45] INFO root fetch - processPackages [nbdev-apl]: Start processing: bdating-common
+[2023-08-05 15:20:45] INFO root fetch - main [MainThread]: End processing [nbdev-apl]: success
+[2023-08-05 15:20:45] INFO root fetch - processPackages [bdating-common]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-05 15:20:45] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/b6/e8/182164ed551405a938d125b986db596ae2ec4c2e63f64a36150e891ba74b/bdating-common-0.9.8.tar.gz
+[2023-08-05 15:20:45] INFO root fetch - processPackages [bdating-common]: Downloading https://files.pythonhosted.org/packages/5e/03/279ccb140de56fd96b4d934616aca37e5a50bff8f0684be248f712f24d5a/bdating-common-0.9.9.tar.gz
+[2023-08-05 15:20:46] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.98.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [nbdev-django]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-django-0.0.99.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [nbdev-django]: Start processing: amniotic
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [nbdev-django]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bdating-common]: executing diffoscope
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bdating-common]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bdating-common-0.9.8.tar.gz tmp/bdating-common-0.9.9.tar.gz --markdown 20230805/b/bdating-common/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 15:20:46] INFO root fetch - processPackages [amniotic]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [notifyemail]: Remove: archive file [/home/abi/fetcher/tmp/notifyemail-1.0.2.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [notifyemail]: Remove: archive file [/home/abi/fetcher/tmp/notifyemail-1.1.1.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [notifyemail]: Start processing: assess-acceptability-judgments
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [notifyemail]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.98.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [nbdev-sphinx]: Remove: archive file [/home/abi/fetcher/tmp/nbdev-sphinx-0.0.99.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [nbdev-sphinx]: Start processing: bigdl-nano
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [nbdev-sphinx]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-08-05 15:20:46] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.4.3.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [easyecs]: Remove: archive file [/home/abi/fetcher/tmp/easyecs-0.4.7.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [easyecs]: Start processing: bigdl-llm
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [easyecs]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [assess-acceptability-judgments]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-llm]: New version: [2.4.0b20230804] Old Version: [2.4.0b20230803]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-nano]: New version: [2.4.0b20230804] Old Version: [2.4.0b20230803]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.8.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [rysk-client]: Remove: archive file [/home/abi/fetcher/tmp/rysk_client-0.2.9.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [rysk-client]: Start processing: bigdl-chronos
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [rysk-client]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/4f/48/9f7539a5aeca8843875b453a08c37e8a1fbcb3fbe2e57ac4eebf00c53408/assess_acceptability_judgments-0.0.8.tar.gz
+[2023-08-05 15:20:46] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.5.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [mojo-testplus]: Remove: archive file [/home/abi/fetcher/tmp/mojo_testplus-0.0.8.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [mojo-testplus]: Start processing: bigdl-serving
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [mojo-testplus]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/8d/3a/943a7157f9193b47034e84fcf34a82c4e603f95feb0fd6f17a86f41d28e5/bigdl_llm-2.4.0b20230803-py3-none-win_amd64.whl
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-chronos]: New version: [2.4.0b20230804] Old Version: [2.4.0b20230803]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [find-ff]: Remove: archive file [/home/abi/fetcher/tmp/find-ff-601.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [find-ff]: Remove: archive file [/home/abi/fetcher/tmp/find-ff-603.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [find-ff]: Start processing: codeboxapi
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [find-ff]: success
+[2023-08-05 15:20:46] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/ea/40/4cdfa41d2d5ed717effee50e9a84a09e4fda8f35c2710061de92fd94c77c/amniotic-0.5.9.tar.gz
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-serving]: New version: [2.4.0b20230804] Old Version: [2.4.0b20230803]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/fe/c2/5b98385757912bd7a15cb2a50c0062eb911eb76fe1a01b91fb7e3c5dcde5/bigdl_nano-2.4.0b20230803-py3-none-win_amd64.whl
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/b3/ca/367610944306686d0d21c298d4eb246bc5606953abfd39789e2b17a49c78/bigdl_serving-2.4.0b20230803-py2.py3-none-any.whl
+[2023-08-05 15:20:46] INFO root fetch - processPackages [codeboxapi]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-08-05 15:20:46] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.8.tar.gz tmp/amniotic-0.5.9.tar.gz --markdown 20230805/a/amniotic/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-05 15:20:46] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/64/dd/9e720db3c115662e3a37960ef29d5a489190aef25f968806472fb38c7be7/bigdl_chronos-2.4.0b20230803-py3-none-win_amd64.whl
+[2023-08-05 15:20:46] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/20/86/21b83aa25c92841c8caee97c0785f57c4a8b383ed8c3666252072eefc7a4/codeboxapi-0.0.8.tar.gz
+[2023-08-05 15:20:46] INFO root fetch - processPackages [deepke]: Remove: archive file [/home/abi/fetcher/tmp/deepke-2.2.5.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - processPackages [deepke]: Remove: archive file [/home/abi/fetcher/tmp/deepke-2.2.6.tar.gz]
+[2023-08-05 15:20:46] INFO root fetch - main [MainThread]: End processing [deepke]: success
+[2023-08-05 15:20:47] INFO root fetch - processPackages [assess-acceptability-judgments]: Downloading https://files.pythonhosted.org/packages/e4/db/8ec9932edb716cd73e143278019dc61601cb1a4b930510d6a5ea2b8477b7/assess_acceptability_judgments-0.0.9.tar.gz
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-serving]: Downloading https://files.pythonhosted.org/packages/17/54/b00a0907c29d2b33fb92938a1ba3cbcdce2d3f81b6162e9adf1bff54e100/bigdl_serving-2.4.0b20230804-py2.py3-none-any.whl
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-nano]: Downloading https://files.pythonhosted.org/packages/5a/4b/7fd75dd8cc83b6ce913a12e511c33aa352e101f910c553a073bc3c27ed71/bigdl_nano-2.4.0b20230804-py3-none-win_amd64.whl
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.8.tar.gz]
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bdating-common]: Remove: archive file [/home/abi/fetcher/tmp/bdating-common-0.9.9.tar.gz]
+[2023-08-05 15:20:47] INFO root fetch - main [MainThread]: End processing [bdating-common]: success
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-llm]: Downloading https://files.pythonhosted.org/packages/ab/e1/9e7ed1bb1b28dedad8c4dd7a70b05ce8653a290de13aeb6ba597b71ac376/bigdl_llm-2.4.0b20230804-py3-none-win_amd64.whl
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-chronos]: Downloading https://files.pythonhosted.org/packages/57/86/1e3d3db82efb27b2a120850eb794d550aed90c94777a3da344f584fad9e2/bigdl_chronos-2.4.0b20230804-py3-none-win_amd64.whl
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-serving]: executing diffoscope
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-serving]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_serving-2.4.0b20230803-py2.py3-none-any.whl.zip tmp/bigdl_serving-2.4.0b20230804-py2.py3-none-any.whl.zip --markdown 20230805/b/bigdl-serving/2.4.0b20230803-2.4.0b20230804/diff.md --exclude *.pyd
+[2023-08-05 15:20:47] INFO root fetch - processPackages [codeboxapi]: Downloading https://files.pythonhosted.org/packages/85/1e/7c6eda9373b99ecefa347632a0386195e4693118d2e8438b74efcbfddc11/codeboxapi-0.0.9.tar.gz
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-chronos]: executing diffoscope
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-chronos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_chronos-2.4.0b20230803-py3-none-win_amd64.whl.zip tmp/bigdl_chronos-2.4.0b20230804-py3-none-win_amd64.whl.zip --markdown 20230805/b/bigdl-chronos/2.4.0b20230803-2.4.0b20230804/diff.md --exclude *.pyd
+[2023-08-05 15:20:47] INFO root fetch - processPackages [codeboxapi]: executing diffoscope
+[2023-08-05 15:20:47] INFO root fetch - processPackages [codeboxapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/codeboxapi-0.0.8.tar.gz tmp/codeboxapi-0.0.9.tar.gz --markdown 20230805/c/codeboxapi/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 15:20:47] INFO root fetch - processPackages [assess-acceptability-judgments]: executing diffoscope
+[2023-08-05 15:20:47] INFO root fetch - processPackages [assess-acceptability-judgments]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/assess_acceptability_judgments-0.0.8.tar.gz tmp/assess_acceptability_judgments-0.0.9.tar.gz --markdown 20230805/a/assess-acceptability-judgments/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-nano]: executing diffoscope
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-nano]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_nano-2.4.0b20230803-py3-none-win_amd64.whl.zip tmp/bigdl_nano-2.4.0b20230804-py3-none-win_amd64.whl.zip --markdown 20230805/b/bigdl-nano/2.4.0b20230803-2.4.0b20230804/diff.md --exclude *.pyd
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-llm]: executing diffoscope
+[2023-08-05 15:20:47] INFO root fetch - processPackages [bigdl-llm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/bigdl_llm-2.4.0b20230803-py3-none-win_amd64.whl.zip tmp/bigdl_llm-2.4.0b20230804-py3-none-win_amd64.whl.zip --markdown 20230805/b/bigdl-llm/2.4.0b20230803-2.4.0b20230804/diff.md --exclude *.pyd
+[2023-08-05 15:20:47] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-08-05 15:20:47] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.9.tar.gz]
+[2023-08-05 15:20:47] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-08-05 15:20:48] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230803-py2.py3-none-any.whl.zip]
+[2023-08-05 15:20:48] INFO root fetch - processPackages [bigdl-serving]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_serving-2.4.0b20230804-py2.py3-none-any.whl.zip]
+[2023-08-05 15:20:48] INFO root fetch - main [MainThread]: End processing [bigdl-serving]: success
+[2023-08-05 15:20:48] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.8.tar.gz]
+[2023-08-05 15:20:48] INFO root fetch - processPackages [codeboxapi]: Remove: archive file [/home/abi/fetcher/tmp/codeboxapi-0.0.9.tar.gz]
+[2023-08-05 15:20:48] INFO root fetch - main [MainThread]: End processing [codeboxapi]: success
+[2023-08-05 15:20:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230803-py3-none-win_amd64.whl.zip]
+[2023-08-05 15:20:49] INFO root fetch - processPackages [bigdl-chronos]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_chronos-2.4.0b20230804-py3-none-win_amd64.whl.zip]
+[2023-08-05 15:20:49] INFO root fetch - main [MainThread]: End processing [bigdl-chronos]: success
+[2023-08-05 15:20:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230803-py3-none-win_amd64.whl.zip]
+[2023-08-05 15:20:49] INFO root fetch - processPackages [bigdl-nano]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_nano-2.4.0b20230804-py3-none-win_amd64.whl.zip]
+[2023-08-05 15:20:49] INFO root fetch - main [MainThread]: End processing [bigdl-nano]: success
+[2023-08-05 15:20:50] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.8.tar.gz]
+[2023-08-05 15:20:50] INFO root fetch - processPackages [assess-acceptability-judgments]: Remove: archive file [/home/abi/fetcher/tmp/assess_acceptability_judgments-0.0.9.tar.gz]
+[2023-08-05 15:20:50] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
+[2023-08-05 15:21:01] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230803-py3-none-win_amd64.whl.zip]
+[2023-08-05 15:21:01] INFO root fetch - processPackages [bigdl-llm]: Remove: archive file [/home/abi/fetcher/tmp/bigdl_llm-2.4.0b20230804-py3-none-win_amd64.whl.zip]
+[2023-08-05 15:21:01] INFO root fetch - main [MainThread]: End processing [bigdl-llm]: success
+[2023-08-05 15:22:31] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.25-py3-none-any.whl.zip]
+[2023-08-05 15:22:31] INFO root fetch - processPackages [pandocker-lua-filters]: Remove: archive file [/home/abi/fetcher/tmp/pandocker_lua_filters-0.0.26-py3-none-any.whl.zip]
+[2023-08-05 15:22:31] INFO root fetch - main [MainThread]: End processing [pandocker-lua-filters]: success
+[2023-08-05 15:22:31] INFO root fetch - main [MainThread]: Store serial: [19186663]
