@@ -15267,3 +15267,159 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:15:44] INFO root fetch - processPackages [mbbank-lib]: Remove: archive file [/home/abi/fetcher/tmp/mbbank-lib-0.0.7.tar.gz]
 [2023-08-05 18:15:44] INFO root fetch - main [MainThread]: End processing [mbbank-lib]: success
 [2023-08-05 18:15:44] INFO root fetch - main [MainThread]: Store serial: [19187755]
+[2023-08-05 18:20:48] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187755]
+[2023-08-05 18:20:53] INFO root fetch - main [MainThread]: Found 17 changed packages
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tighnari
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: litellm
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyimporters-csv
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: findmyorder
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nahida
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: sr.comp
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: py3status-amdfan
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: datkit
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: talkytrend
+[2023-08-05 18:20:53] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: alhaitham
+[2023-08-05 18:20:53] INFO root fetch - processPackages [litellm]: New version: [0.1.233] Old Version: [0.1.232]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [talkytrend]: New version: [1.9.2] Old Version: [1.9.1]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [nahida]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [tighnari]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [datkit]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [alhaitham]: New version: [0.1.3] Old Version: [0.1.0]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [findmyorder]: New version: [1.7.5] Old Version: [1.7.3]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [sr.comp]: New version: [1.8.2] Old Version: [1.8.1]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [py3status-amdfan]: New version: [0.1.8] Old Version: [0.1.7]
+[2023-08-05 18:20:53] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/13/c8/b04bdb0c6e9a038162587ab6ae06d9e471eac65a7ed36b7f249c5d9aaef7/litellm-0.1.232.tar.gz
+[2023-08-05 18:20:53] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/7f/a0/91a5588b9d502eb6a2c4294ea61ada8eabb439cc70ea9da33f160db69eca/talkytrend-1.9.1.tar.gz
+[2023-08-05 18:20:53] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 18:20:53] INFO root fetch - processPackages [nahida]: Downloading https://files.pythonhosted.org/packages/44/51/8350a913919bdc4aacb3af2bdd17943463e85c98d7b7954a8fa87a27ed0d/nahida-0.1.0.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [datkit]: Downloading https://files.pythonhosted.org/packages/5d/40/d020e6bd3bd729a40f2265a0fc0a79b91d2e419aaf7794486c596e2440b1/datkit-0.0.1.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/c7/4e/95e26766229632d5789117ae305a46e15b5df2b3f4b9a82453509b90f020/findmyorder-1.7.3.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [tighnari]: Downloading https://files.pythonhosted.org/packages/e5/1d/c67eab091afd99db3249db425de056b2820d3da6d48d773ecc025dc114ad/tighnari-0.1.0.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [alhaitham]: Downloading https://files.pythonhosted.org/packages/21/e7/71d694e661dcd80ef521c511bcebc1d71ce415f2533bb5f9b4a2c89bb74c/alhaitham-0.1.0.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [sr.comp]: Downloading https://files.pythonhosted.org/packages/76/cd/29e9c51bda5b120fc02ac2e03dad6b3f1d549166079e01c6380958a60233/sr.comp-1.8.1.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [py3status-amdfan]: Downloading https://files.pythonhosted.org/packages/b2/2d/e9d366dedf4de5e9c98428f3a7f18f9c996ead12b3fdd86036b773d830ea/py3status_amdfan-0.1.7.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [talkytrend]: Downloading https://files.pythonhosted.org/packages/53/e2/c2d707a4626f26e1fb1d80f4d9aecf86510b8faeec72a12f2d8b0d9e9ba3/talkytrend-1.9.2.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [litellm]: Downloading https://files.pythonhosted.org/packages/f6/a0/b5ec1c09c4bdd9e234009696f765e5616970b1f7f68d784145d89ca1c82f/litellm-0.1.233.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [talkytrend]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [talkytrend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/talkytrend-1.9.1.tar.gz tmp/talkytrend-1.9.2.tar.gz --markdown 20230805/t/talkytrend/1.9.1-1.9.2/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [nahida]: Downloading https://files.pythonhosted.org/packages/b5/95/01db32ac56feacbbac06f9356f1631587508de56134fac53c3a652a5beed/nahida-0.1.3.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [findmyorder]: Downloading https://files.pythonhosted.org/packages/5b/ec/276bebf684782243d7de800073f2773d0488627132a068826088c5eb7a19/findmyorder-1.7.5.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [litellm]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [litellm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litellm-0.1.232.tar.gz tmp/litellm-0.1.233.tar.gz --markdown 20230805/l/litellm/0.1.232-0.1.233/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [nahida]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [nahida]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nahida-0.1.0.tar.gz tmp/nahida-0.1.3.tar.gz --markdown 20230805/n/nahida/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [datkit]: Downloading https://files.pythonhosted.org/packages/24/b1/7efc07adab8224f357f6e179cbb015a0da5c4be2abf16b190600bfb05560/datkit-0.0.2.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [tighnari]: Downloading https://files.pythonhosted.org/packages/dd/20/05bea095b7baa5a5ad9bd3874121ec21eeb96dbe164aef94d7d948e01b78/tighnari-0.1.3.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [alhaitham]: Downloading https://files.pythonhosted.org/packages/50/23/032dc9512ba7599697a6754f21201ea70d2da9d58309e55e1f6c92e9f291/alhaitham-0.1.3.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [sr.comp]: Downloading https://files.pythonhosted.org/packages/9b/a6/2b1f6a6b2ee7572dcb636f49885dc94f082a9a365cf5308ba0c7188bf0be/sr.comp-1.8.2.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [findmyorder]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [findmyorder]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/findmyorder-1.7.3.tar.gz tmp/findmyorder-1.7.5.tar.gz --markdown 20230805/f/findmyorder/1.7.3-1.7.5/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [py3status-amdfan]: Downloading https://files.pythonhosted.org/packages/22/4e/90e6ce9235003479d5dc0d067e118e0397f9ddfb3c6acebdf373693aaf9f/py3status_amdfan-0.1.8.tar.gz
+[2023-08-05 18:20:54] INFO root fetch - processPackages [datkit]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [datkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datkit-0.0.1.tar.gz tmp/datkit-0.0.2.tar.gz --markdown 20230805/d/datkit/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [tighnari]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [tighnari]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tighnari-0.1.0.tar.gz tmp/tighnari-0.1.3.tar.gz --markdown 20230805/t/tighnari/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [alhaitham]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [alhaitham]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/alhaitham-0.1.0.tar.gz tmp/alhaitham-0.1.3.tar.gz --markdown 20230805/a/alhaitham/0.1.0-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [sr.comp]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [sr.comp]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sr.comp-1.8.1.tar.gz tmp/sr.comp-1.8.2.tar.gz --markdown 20230805/s/sr.comp/1.8.1-1.8.2/diff.md --exclude *.pyd
+[2023-08-05 18:20:54] INFO root fetch - processPackages [py3status-amdfan]: executing diffoscope
+[2023-08-05 18:20:54] INFO root fetch - processPackages [py3status-amdfan]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/py3status_amdfan-0.1.7.tar.gz tmp/py3status_amdfan-0.1.8.tar.gz --markdown 20230805/p/py3status-amdfan/0.1.7-0.1.8/diff.md --exclude *.pyd
+[2023-08-05 18:20:55] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.1.tar.gz]
+[2023-08-05 18:20:55] INFO root fetch - processPackages [talkytrend]: Remove: archive file [/home/abi/fetcher/tmp/talkytrend-1.9.2.tar.gz]
+[2023-08-05 18:20:55] INFO root fetch - processPackages [talkytrend]: Start processing: ezkl
+[2023-08-05 18:20:55] INFO root fetch - main [MainThread]: End processing [talkytrend]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [ezkl]: New version: [1.7.19] Old Version: [1.7.17]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [nahida]: Remove: archive file [/home/abi/fetcher/tmp/nahida-0.1.0.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [nahida]: Remove: archive file [/home/abi/fetcher/tmp/nahida-0.1.3.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [nahida]: Start processing: gpt4all-code-review
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [nahida]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.232.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [litellm]: Remove: archive file [/home/abi/fetcher/tmp/litellm-0.1.233.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [litellm]: Start processing: optimal-data-selector
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [litellm]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [gpt4all-code-review]: New version: [0.15] Old Version: [0.14]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [pyimporters-csv]: Start processing: windmill-api
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [tighnari]: Remove: archive file [/home/abi/fetcher/tmp/tighnari-0.1.0.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [tighnari]: Remove: archive file [/home/abi/fetcher/tmp/tighnari-0.1.3.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [tighnari]: Start processing: wmill
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [tighnari]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [alhaitham]: Remove: archive file [/home/abi/fetcher/tmp/alhaitham-0.1.0.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [alhaitham]: Remove: archive file [/home/abi/fetcher/tmp/alhaitham-0.1.3.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [alhaitham]: Start processing: Janex
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [alhaitham]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [windmill-api]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [optimal-data-selector]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/68/76/c3442338d9b4cd2118fe07d08c5abdb447a3fea346169e09a258ee18d244/ezkl-1.7.17-cp37-abi3-win_amd64.whl
+[2023-08-05 18:20:56] INFO root fetch - processPackages [datkit]: Remove: archive file [/home/abi/fetcher/tmp/datkit-0.0.1.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [datkit]: Remove: archive file [/home/abi/fetcher/tmp/datkit-0.0.2.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [datkit]: Start processing: wmill-pg
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [datkit]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [Janex]: New version: [0.0.9] Old Version: [0.0.8b0]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [py3status-amdfan]: Remove: archive file [/home/abi/fetcher/tmp/py3status_amdfan-0.1.7.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [py3status-amdfan]: Remove: archive file [/home/abi/fetcher/tmp/py3status_amdfan-0.1.8.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [py3status-amdfan]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [wmill]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.3.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/34/40/b95e7ce8f0e96a57b5bb509d344e64865f7573882d0140f9221c2594f7d5/gpt4all-code-review-0.14.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [findmyorder]: Remove: archive file [/home/abi/fetcher/tmp/findmyorder-1.7.5.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [findmyorder]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/bd/de/5d29ca258adee967295dbf926ab306c480527c234336f0725d4c2bc1d718/windmill_api-1.98.0.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [sr.comp]: Remove: archive file [/home/abi/fetcher/tmp/sr.comp-1.8.1.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [sr.comp]: Remove: archive file [/home/abi/fetcher/tmp/sr.comp-1.8.2.tar.gz]
+[2023-08-05 18:20:56] INFO root fetch - main [MainThread]: End processing [sr.comp]: success
+[2023-08-05 18:20:56] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/ad/9b/02e3075181cb89ca28ef6d7eac669469d8be57e9f6888e74a0598d03bd22/Janex-0.0.8b0.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [wmill-pg]: New version: [1.99.0] Old Version: [1.98.0]
+[2023-08-05 18:20:56] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/6d/91/6b6052c80b8d367e051cc2905d1d921bf9a11f63e27a0f802b5c1277aa20/wmill-1.98.0.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [optimal-data-selector]: Downloading https://files.pythonhosted.org/packages/01/86/7426ce902958bfea1611e820b665c9e73d1f597b1f8af0952b7e80aeaf0a/optimal_data_selector-1.0.2.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/a1/22/f7655b5ea090afc59651b874c61bf7bea4694e3fa9720a46058fa34c71ef/wmill_pg-1.98.0.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [Janex]: Downloading https://files.pythonhosted.org/packages/40/e1/132b211480dc634919c04b591850f6164665441cdbd516ef4c1b946c6f18/Janex-0.0.9.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [gpt4all-code-review]: Downloading https://files.pythonhosted.org/packages/a2/0a/cbac44a1978d9f4122fd816d32e9690e7cde446caaf0f348ecd9c5c1a2fe/gpt4all-code-review-0.15.tar.gz
+[2023-08-05 18:20:56] INFO root fetch - processPackages [Janex]: executing diffoscope
+[2023-08-05 18:20:56] INFO root fetch - processPackages [Janex]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Janex-0.0.8b0.tar.gz tmp/Janex-0.0.9.tar.gz --markdown 20230805/J/Janex/0.0.8b0-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 18:20:56] INFO root fetch - processPackages [wmill-pg]: Downloading https://files.pythonhosted.org/packages/26/ac/296bc5f7193d111c826ef99b60bf75fe1605158a73d728a5fad8aa771331/wmill_pg-1.99.0.tar.gz
+[2023-08-05 18:20:57] INFO root fetch - processPackages [wmill]: Downloading https://files.pythonhosted.org/packages/f1/d1/eb5b4c7d25f969fc3603441c8e90a5a8e00688be43ce0631166287977a65/wmill-1.99.0.tar.gz
+[2023-08-05 18:20:57] INFO root fetch - processPackages [gpt4all-code-review]: executing diffoscope
+[2023-08-05 18:20:57] INFO root fetch - processPackages [gpt4all-code-review]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gpt4all-code-review-0.14.tar.gz tmp/gpt4all-code-review-0.15.tar.gz --markdown 20230805/g/gpt4all-code-review/0.14-0.15/diff.md --exclude *.pyd
+[2023-08-05 18:20:57] INFO root fetch - processPackages [optimal-data-selector]: Downloading https://files.pythonhosted.org/packages/37/3b/31903552da70f586ad67f1895b6c6020219655c4be67cdb93050beea735c/optimal_data_selector-1.0.3.tar.gz
+[2023-08-05 18:20:57] INFO root fetch - processPackages [optimal-data-selector]: executing diffoscope
+[2023-08-05 18:20:57] INFO root fetch - processPackages [optimal-data-selector]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimal_data_selector-1.0.2.tar.gz tmp/optimal_data_selector-1.0.3.tar.gz --markdown 20230805/o/optimal-data-selector/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-05 18:20:57] INFO root fetch - processPackages [wmill-pg]: executing diffoscope
+[2023-08-05 18:20:57] INFO root fetch - processPackages [wmill-pg]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill_pg-1.98.0.tar.gz tmp/wmill_pg-1.99.0.tar.gz --markdown 20230805/w/wmill-pg/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 18:20:57] INFO root fetch - processPackages [wmill]: executing diffoscope
+[2023-08-05 18:20:57] INFO root fetch - processPackages [wmill]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/wmill-1.98.0.tar.gz tmp/wmill-1.99.0.tar.gz --markdown 20230805/w/wmill/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 18:20:57] INFO root fetch - processPackages [windmill-api]: Downloading https://files.pythonhosted.org/packages/32/94/9431b41ce6b9c2670fbc125624f7ebc3d186482c80c271e3d7acde511319/windmill_api-1.99.0.tar.gz
+[2023-08-05 18:20:57] INFO root fetch - processPackages [windmill-api]: executing diffoscope
+[2023-08-05 18:20:57] INFO root fetch - processPackages [windmill-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/windmill_api-1.98.0.tar.gz tmp/windmill_api-1.99.0.tar.gz --markdown 20230805/w/windmill-api/1.98.0-1.99.0/diff.md --exclude *.pyd
+[2023-08-05 18:20:57] INFO root fetch - processPackages [ezkl]: Downloading https://files.pythonhosted.org/packages/38/7b/68f27eb74885a150a99073890cbee1fefbb9948a2f1432c1fd2cf0f186b3/ezkl-1.7.19-cp37-abi3-win_amd64.whl
+[2023-08-05 18:20:57] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.14.tar.gz]
+[2023-08-05 18:20:57] INFO root fetch - processPackages [gpt4all-code-review]: Remove: archive file [/home/abi/fetcher/tmp/gpt4all-code-review-0.15.tar.gz]
+[2023-08-05 18:20:57] INFO root fetch - main [MainThread]: End processing [gpt4all-code-review]: success
+[2023-08-05 18:20:57] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.8b0.tar.gz]
+[2023-08-05 18:20:57] INFO root fetch - processPackages [Janex]: Remove: archive file [/home/abi/fetcher/tmp/Janex-0.0.9.tar.gz]
+[2023-08-05 18:20:57] INFO root fetch - main [MainThread]: End processing [Janex]: success
+[2023-08-05 18:20:58] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.98.0.tar.gz]
+[2023-08-05 18:20:58] INFO root fetch - processPackages [wmill-pg]: Remove: archive file [/home/abi/fetcher/tmp/wmill_pg-1.99.0.tar.gz]
+[2023-08-05 18:20:58] INFO root fetch - main [MainThread]: End processing [wmill-pg]: success
+[2023-08-05 18:20:58] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.98.0.tar.gz]
+[2023-08-05 18:20:58] INFO root fetch - processPackages [wmill]: Remove: archive file [/home/abi/fetcher/tmp/wmill-1.99.0.tar.gz]
+[2023-08-05 18:20:58] INFO root fetch - main [MainThread]: End processing [wmill]: success
+[2023-08-05 18:20:58] INFO root fetch - processPackages [ezkl]: executing diffoscope
+[2023-08-05 18:20:58] INFO root fetch - processPackages [ezkl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ezkl-1.7.17-cp37-abi3-win_amd64.whl.zip tmp/ezkl-1.7.19-cp37-abi3-win_amd64.whl.zip --markdown 20230805/e/ezkl/1.7.17-1.7.19/diff.md --exclude *.pyd
+[2023-08-05 18:20:58] INFO root fetch - processPackages [optimal-data-selector]: Remove: archive file [/home/abi/fetcher/tmp/optimal_data_selector-1.0.2.tar.gz]
+[2023-08-05 18:20:58] INFO root fetch - processPackages [optimal-data-selector]: Remove: archive file [/home/abi/fetcher/tmp/optimal_data_selector-1.0.3.tar.gz]
+[2023-08-05 18:20:58] INFO root fetch - main [MainThread]: End processing [optimal-data-selector]: success
+[2023-08-05 18:20:59] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.7.17-cp37-abi3-win_amd64.whl.zip]
+[2023-08-05 18:20:59] INFO root fetch - processPackages [ezkl]: Remove: archive file [/home/abi/fetcher/tmp/ezkl-1.7.19-cp37-abi3-win_amd64.whl.zip]
+[2023-08-05 18:20:59] INFO root fetch - main [MainThread]: End processing [ezkl]: success
+[2023-08-05 18:21:04] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.98.0.tar.gz]
+[2023-08-05 18:21:04] INFO root fetch - processPackages [windmill-api]: Remove: archive file [/home/abi/fetcher/tmp/windmill_api-1.99.0.tar.gz]
+[2023-08-05 18:21:04] INFO root fetch - main [MainThread]: End processing [windmill-api]: success
+[2023-08-05 18:21:04] INFO root fetch - main [MainThread]: Store serial: [19187814]
