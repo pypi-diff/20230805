@@ -11508,3 +11508,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:02:16] INFO root fetch - processPackages [importer-local]: Remove: archive file [/home/abi/fetcher/tmp/importer-local-0.0.9.tar.gz]
 [2023-08-05 13:02:16] INFO root fetch - main [MainThread]: End processing [importer-local]: success
 [2023-08-05 13:02:16] INFO root fetch - main [MainThread]: Store serial: [19185888]
+[2023-08-05 13:07:20] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185888]
+[2023-08-05 13:07:25] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edulint
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: c2y
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: win32-classics
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fpcmci
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: Carter-Offline
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: locust
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-api-info
+[2023-08-05 13:07:25] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: directdb
+[2023-08-05 13:07:25] INFO root fetch - processPackages [c2y]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 13:07:25] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-05 13:07:25] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 13:07:25] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 13:07:25] INFO root fetch - processPackages [locust]: New version: [2.9.1.dev45] Old Version: [2.9.1.dev38]
+[2023-08-05 13:07:25] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/65/89/3a3eedf3d237111aee07c77589cf8eb699a329c190f7346751f19575e940/Carter-Offline-2.0.8.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [win32-classics]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 13:07:25] INFO root fetch - processPackages [c2y]: Downloading https://files.pythonhosted.org/packages/8b/44/f343ce41307aa4bb3ae4327e04e2c1099bfd4f3d5b2d1b74d1b646a8391c/c2y-0.1.1.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [fpcmci]: New version: [4.3.0] Old Version: [4.2.1]
+[2023-08-05 13:07:25] INFO root fetch - processPackages [edulint]: New version: [2.8.0] Old Version: [2.7.1]
+[2023-08-05 13:07:25] INFO root fetch - processPackages [directdb]: New version: [1.1.0] Old Version: [1.0.1]
+[2023-08-05 13:07:25] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/9e/ec/230b194549eadcded8e4a0fd7d2e3ed3a9c600452bfc52bfe59d845fb5a5/locust-2.9.1.dev38.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/c1/00/8acdc3d1f6626cab44295ea10cfe3f5ae54e9c8bee0b2e615878f679caeb/fpcmci-4.2.1.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/0d/46/517c017c3b166ba73aaff309d3073ec1dc0fddf4cfe42811dd260baa10c0/Carter-Offline-2.0.9.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [win32-classics]: Downloading https://files.pythonhosted.org/packages/9b/cc/081efaf667020accb33269e213c89e65e42e329ca6d58776202fd2c62600/win32_classics-0.0.3.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/a4/3a/57335e3e13c5a6484ff2c379f1d59fcdd8ebc6dc79414e20824bc319c37c/directdb-1.0.1.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [edulint]: Downloading https://files.pythonhosted.org/packages/22/06/ecff28149315a166f51dcaec0296e8c1c316484e20a6ff86055ce0152127/edulint-2.7.1.tar.gz
+[2023-08-05 13:07:25] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-05 13:07:25] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.8.tar.gz tmp/Carter-Offline-2.0.9.tar.gz --markdown 20230805/C/Carter-Offline/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-05 13:07:25] INFO root fetch - processPackages [c2y]: Downloading https://files.pythonhosted.org/packages/92/35/cd64baa34be0cf4f894da8e525a3cbb045638d8314387fb97b55c3c106bd/c2y-0.1.2.tar.gz
+[2023-08-05 13:07:26] INFO root fetch - processPackages [locust]: Downloading https://files.pythonhosted.org/packages/ec/25/23264f2f77e7f0b1be817a375627e7821524f1a6bf4a5fd503bab0031505/locust-2.9.1.dev45.tar.gz
+[2023-08-05 13:07:26] INFO root fetch - processPackages [c2y]: executing diffoscope
+[2023-08-05 13:07:26] INFO root fetch - processPackages [c2y]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/c2y-0.1.1.tar.gz tmp/c2y-0.1.2.tar.gz --markdown 20230805/c/c2y/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 13:07:26] INFO root fetch - processPackages [fpcmci]: Downloading https://files.pythonhosted.org/packages/ae/29/30530f471b4f5dffd81cc566401800050aa993f96b04802af32b9b77b8c1/fpcmci-4.3.0.tar.gz
+[2023-08-05 13:07:26] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/5e/ea/162daaa0feb19915c757ba5ca97dc4c458ab2a31400847396b75adf86552/directdb-1.1.0.tar.gz
+[2023-08-05 13:07:26] INFO root fetch - processPackages [edulint]: Downloading https://files.pythonhosted.org/packages/ba/1f/b51692c50c70c941bedcea2068224777565edd38179b7f872eea066e5f79/edulint-2.8.0.tar.gz
+[2023-08-05 13:07:26] INFO root fetch - processPackages [fpcmci]: executing diffoscope
+[2023-08-05 13:07:26] INFO root fetch - processPackages [fpcmci]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fpcmci-4.2.1.tar.gz tmp/fpcmci-4.3.0.tar.gz --markdown 20230805/f/fpcmci/4.2.1-4.3.0/diff.md --exclude *.pyd
+[2023-08-05 13:07:26] INFO root fetch - processPackages [directdb]: executing diffoscope
+[2023-08-05 13:07:26] INFO root fetch - processPackages [directdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directdb-1.0.1.tar.gz tmp/directdb-1.1.0.tar.gz --markdown 20230805/d/directdb/1.0.1-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 13:07:26] INFO root fetch - processPackages [edulint]: executing diffoscope
+[2023-08-05 13:07:26] INFO root fetch - processPackages [edulint]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edulint-2.7.1.tar.gz tmp/edulint-2.8.0.tar.gz --markdown 20230805/e/edulint/2.7.1-2.8.0/diff.md --exclude *.pyd
+[2023-08-05 13:07:26] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.8.tar.gz]
+[2023-08-05 13:07:26] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.9.tar.gz]
+[2023-08-05 13:07:26] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-05 13:07:26] INFO root fetch - processPackages [locust]: executing diffoscope
+[2023-08-05 13:07:26] INFO root fetch - processPackages [locust]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/locust-2.9.1.dev38.tar.gz tmp/locust-2.9.1.dev45.tar.gz --markdown 20230805/l/locust/2.9.1.dev38-2.9.1.dev45/diff.md --exclude *.pyd
+[2023-08-05 13:07:26] INFO root fetch - processPackages [c2y]: Remove: archive file [/home/abi/fetcher/tmp/c2y-0.1.1.tar.gz]
+[2023-08-05 13:07:26] INFO root fetch - processPackages [c2y]: Remove: archive file [/home/abi/fetcher/tmp/c2y-0.1.2.tar.gz]
+[2023-08-05 13:07:26] INFO root fetch - main [MainThread]: End processing [c2y]: success
+[2023-08-05 13:07:26] INFO root fetch - processPackages [win32-classics]: Downloading https://files.pythonhosted.org/packages/76/32/733048cacee4cf1630b3d5053b668e3ef27ab08b3d64dbb12fb1a86d3524/win32_classics-0.0.4.tar.gz
+[2023-08-05 13:07:27] INFO root fetch - processPackages [win32-classics]: executing diffoscope
+[2023-08-05 13:07:27] INFO root fetch - processPackages [win32-classics]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/win32_classics-0.0.3.tar.gz tmp/win32_classics-0.0.4.tar.gz --markdown 20230805/w/win32-classics/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 13:07:27] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.0.1.tar.gz]
+[2023-08-05 13:07:27] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.0.tar.gz]
+[2023-08-05 13:07:27] INFO root fetch - main [MainThread]: End processing [directdb]: success
+[2023-08-05 13:07:27] INFO root fetch - processPackages [fpcmci]: Remove: archive file [/home/abi/fetcher/tmp/fpcmci-4.2.1.tar.gz]
+[2023-08-05 13:07:27] INFO root fetch - processPackages [fpcmci]: Remove: archive file [/home/abi/fetcher/tmp/fpcmci-4.3.0.tar.gz]
+[2023-08-05 13:07:27] INFO root fetch - main [MainThread]: End processing [fpcmci]: success
+[2023-08-05 13:07:27] INFO root fetch - processPackages [edulint]: Remove: archive file [/home/abi/fetcher/tmp/edulint-2.7.1.tar.gz]
+[2023-08-05 13:07:27] INFO root fetch - processPackages [edulint]: Remove: archive file [/home/abi/fetcher/tmp/edulint-2.8.0.tar.gz]
+[2023-08-05 13:07:27] INFO root fetch - main [MainThread]: End processing [edulint]: success
+[2023-08-05 13:07:28] INFO root fetch - processPackages [win32-classics]: Remove: archive file [/home/abi/fetcher/tmp/win32_classics-0.0.3.tar.gz]
+[2023-08-05 13:07:28] INFO root fetch - processPackages [win32-classics]: Remove: archive file [/home/abi/fetcher/tmp/win32_classics-0.0.4.tar.gz]
+[2023-08-05 13:07:28] INFO root fetch - main [MainThread]: End processing [win32-classics]: success
+[2023-08-05 13:07:28] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev38.tar.gz]
+[2023-08-05 13:07:28] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
+[2023-08-05 13:07:28] INFO root fetch - main [MainThread]: End processing [locust]: success
+[2023-08-05 13:07:28] INFO root fetch - main [MainThread]: Store serial: [19185920]
