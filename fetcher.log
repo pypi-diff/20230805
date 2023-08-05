@@ -8421,3 +8421,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:20:01] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
 [2023-08-05 07:20:01] INFO root fetch - main [MainThread]: End processing [assess-acceptability-judgments]: success
 [2023-08-05 07:20:01] INFO root fetch - main [MainThread]: Store serial: [19184439]
+[2023-08-05 07:25:04] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184439]
+[2023-08-05 07:25:09] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 07:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: idkwhttph
+[2023-08-05 07:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyzard
+[2023-08-05 07:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: interpret
+[2023-08-05 07:25:09] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypomes-crypto
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pyzard]: New version: [1.1] Old Version: [1.0]
+[2023-08-05 07:25:10] INFO root fetch - processPackages [idkwhttph]: New version: [0.3.8] Old Version: [0.3.7]
+[2023-08-05 07:25:10] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/58/08/e6152f4e37eb7671bb84d75100ffae9124bdd9c90f37d1963a60cdc9c3d6/idkwhttph-0.3.7.tar.gz
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pypomes-crypto]: New version: [0.1.5] Old Version: [0.1.4]
+[2023-08-05 07:25:10] INFO root fetch - processPackages [interpret]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pyzard]: Downloading https://files.pythonhosted.org/packages/e1/4a/1038713bbb2e4d0029beb1af3bf1952000d6df9d8598007be3314098e6bd/pyzard-1.0-py3-none-any.whl
+[2023-08-05 07:25:10] INFO root fetch - processPackages [interpret]: Downloading https://files.pythonhosted.org/packages/87/49/b081880b983d8bbb8bf9fece0121934ddee8610bae01ab05ff981d1624e1/interpret-0.4.2.tar.gz
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pypomes-crypto]: Downloading https://files.pythonhosted.org/packages/fe/db/b45f61903c475e69bfba4a0dec5f069838ce9ab6057a62a310ebf124e269/pypomes_crypto-0.1.4.tar.gz
+[2023-08-05 07:25:10] INFO root fetch - processPackages [idkwhttph]: Downloading https://files.pythonhosted.org/packages/67/4a/b1823ec624ee64596238eab1e64b877875c3f1f7b9032c280165432437ae/idkwhttph-0.3.8.tar.gz
+[2023-08-05 07:25:10] INFO root fetch - processPackages [idkwhttph]: executing diffoscope
+[2023-08-05 07:25:10] INFO root fetch - processPackages [idkwhttph]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/idkwhttph-0.3.7.tar.gz tmp/idkwhttph-0.3.8.tar.gz --markdown 20230805/i/idkwhttph/0.3.7-0.3.8/diff.md --exclude *.pyd
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pyzard]: Downloading https://files.pythonhosted.org/packages/01/80/bd9f1db3d4b81975369cb3bc05e281d28ed74be183c40e541e7c30c73fc7/pyzard-1.1-py3-none-any.whl
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pypomes-crypto]: Downloading https://files.pythonhosted.org/packages/c5/48/c0636baeddc7df9903313f6024cd65243351f34bd0473799c74b526b31ca/pypomes_crypto-0.1.5.tar.gz
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pyzard]: executing diffoscope
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pyzard]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyzard-1.0-py3-none-any.whl.zip tmp/pyzard-1.1-py3-none-any.whl.zip --markdown 20230805/p/pyzard/1.0-1.1/diff.md --exclude *.pyd
+[2023-08-05 07:25:10] INFO root fetch - processPackages [interpret]: Downloading https://files.pythonhosted.org/packages/2c/0f/d6481c389a033683bc928b5f83cf95d44c7dbc9e81576541688a60d9969b/interpret-0.4.3-py3-none-any.whl
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pypomes-crypto]: executing diffoscope
+[2023-08-05 07:25:10] INFO root fetch - processPackages [pypomes-crypto]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_crypto-0.1.4.tar.gz tmp/pypomes_crypto-0.1.5.tar.gz --markdown 20230805/p/pypomes-crypto/0.1.4-0.1.5/diff.md --exclude *.pyd
+[2023-08-05 07:25:11] INFO root fetch - processPackages [interpret]: executing diffoscope
+[2023-08-05 07:25:11] INFO root fetch - processPackages [interpret]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpret-0.4.2.tar.gz tmp/interpret-0.4.3-py3-none-any.whl.zip --markdown 20230805/i/interpret/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-05 07:25:11] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.7.tar.gz]
+[2023-08-05 07:25:11] INFO root fetch - processPackages [idkwhttph]: Remove: archive file [/home/abi/fetcher/tmp/idkwhttph-0.3.8.tar.gz]
+[2023-08-05 07:25:11] INFO root fetch - main [MainThread]: End processing [idkwhttph]: success
+[2023-08-05 07:25:11] INFO root fetch - processPackages [pypomes-crypto]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_crypto-0.1.4.tar.gz]
+[2023-08-05 07:25:11] INFO root fetch - processPackages [pypomes-crypto]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_crypto-0.1.5.tar.gz]
+[2023-08-05 07:25:11] INFO root fetch - main [MainThread]: End processing [pypomes-crypto]: success
+[2023-08-05 07:25:11] INFO root fetch - processPackages [interpret]: Remove: archive file [/home/abi/fetcher/tmp/interpret-0.4.2.tar.gz]
+[2023-08-05 07:25:11] INFO root fetch - processPackages [interpret]: Remove: archive file [/home/abi/fetcher/tmp/interpret-0.4.3-py3-none-any.whl.zip]
+[2023-08-05 07:25:11] INFO root fetch - main [MainThread]: End processing [interpret]: success
+[2023-08-05 07:25:12] INFO root fetch - processPackages [pyzard]: Remove: archive file [/home/abi/fetcher/tmp/pyzard-1.0-py3-none-any.whl.zip]
+[2023-08-05 07:25:12] INFO root fetch - processPackages [pyzard]: Remove: archive file [/home/abi/fetcher/tmp/pyzard-1.1-py3-none-any.whl.zip]
+[2023-08-05 07:25:12] INFO root fetch - main [MainThread]: End processing [pyzard]: success
+[2023-08-05 07:25:12] INFO root fetch - main [MainThread]: Store serial: [19184449]
