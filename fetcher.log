@@ -16854,3 +16854,85 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:33:56] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.6.1.tar.gz]
 [2023-08-05 20:33:56] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
 [2023-08-05 20:33:56] INFO root fetch - main [MainThread]: Store serial: [19188471]
+[2023-08-05 20:39:00] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188471]
+[2023-08-05 20:39:05] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: nonebot-plugin-kanonbot
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: edc-lab-panel
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ladderbot
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: hm-pyhelper
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: edc-metadata
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: test-oscar
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: edc-reference
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: ladderbot
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: intelmo
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: news-toolkit-api
+[2023-08-05 20:39:05] INFO root fetch - processPackages [edc-metadata]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 20:39:05] INFO root fetch - processPackages [edc-lab-panel]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 20:39:05] WARNING root fetch - processPackages [intelmo]: Skipping, unable to determine old version
+[2023-08-05 20:39:05] INFO root fetch - processPackages [intelmo]: Start processing: neat-py-lollo
+[2023-08-05 20:39:05] INFO root fetch - main [MainThread]: End processing [intelmo] error
+[2023-08-05 20:39:05] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/31/9d/7e4dc7d00a9f09501415d10d685657f87a104cade0c183eeed14910dacce/edc_metadata-0.3.8-py3-none-any.whl
+[2023-08-05 20:39:05] WARNING root fetch - processPackages [test-oscar]: Skipping, unable to determine old version
+[2023-08-05 20:39:05] INFO root fetch - main [MainThread]: End processing [test-oscar] error
+[2023-08-05 20:39:05] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: New version: [0.0.1b2] Old Version: [0.0.1b1]
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ladderbot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 20:39:05] INFO root fetch - processPackages [news-toolkit-api]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 20:39:05] INFO root fetch - processPackages [ladderbot]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 20:39:05] INFO root fetch - processPackages [edc-reference]: New version: [0.3.9] Old Version: [0.3.8]
+[2023-08-05 20:39:05] INFO root fetch - processPackages [hm-pyhelper]: New version: [0.8.9] Old Version: [0.8.13]
+[2023-08-05 20:39:05] WARNING root fetch - processPackages [neat-py-lollo]: Skipping, unable to determine old version
+[2023-08-05 20:39:05] INFO root fetch - main [MainThread]: End processing [neat-py-lollo] error
+[2023-08-05 20:39:05] INFO root fetch - processPackages [edc-lab-panel]: Downloading https://files.pythonhosted.org/packages/22/70/8dbda37d891cd6dd83101f9b2fab3c69e24bd92bb7d30e38b032dd16bc95/edc-lab-panel-0.1.8.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/9a/53/d3be742802f467ae71724ff48887b2267cea798c0bdf7ed06f4ea0008f9a/ladderbot-0.0.4.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Downloading https://files.pythonhosted.org/packages/3b/24/02e9384b45fa87f9757249be52eea20caef2639226fc44d1e074544b7ccd/nonebot_plugin_kanonbot-0.0.1b1.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-metadata]: Downloading https://files.pythonhosted.org/packages/fc/87/223d66df835d66d65b4b4fee1285f68343b30d95b0385ea166afd9f48874/edc_metadata-0.3.9-py3-none-any.whl
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/9a/53/d3be742802f467ae71724ff48887b2267cea798c0bdf7ed06f4ea0008f9a/ladderbot-0.0.4.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-reference]: Downloading https://files.pythonhosted.org/packages/b7/b6/eab08f130b612c4adc7895aa9c2069cb23fc5ede9d5e3ed5ae1f307c506f/edc_reference-0.3.8-py3-none-any.whl
+[2023-08-05 20:39:06] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/9b/4b/edc7e8852a6293842940cad780b7da899e6155718c56447e5f3b731575dc/hm_pyhelper-0.8.13.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/01/a8/5c879c130be570496a0aa73bc0fc0db545c98a01e57ecbea8267f6cdd035/news_toolkit_api-0.0.8.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-metadata]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-metadata]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_metadata-0.3.8-py3-none-any.whl.zip tmp/edc_metadata-0.3.9-py3-none-any.whl.zip --markdown 20230805/e/edc-metadata/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-lab-panel]: Downloading https://files.pythonhosted.org/packages/5d/c6/ecf38eeb586c2180edb3c4a866ffacb8e66901fc7463bcf14fe2f74547d6/edc-lab-panel-0.1.9.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Downloading https://files.pythonhosted.org/packages/5b/f0/4b26c18f81ae50c222d216c124008c2bc21e5d72a5eeb46679a582f88216/nonebot_plugin_kanonbot-0.0.1b2.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/3a/86/9d2ff7b913ad4519720de891fbc01eb47e5d111297e795d3c45e1e99c414/ladderbot-0.0.5.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/3a/86/9d2ff7b913ad4519720de891fbc01eb47e5d111297e795d3c45e1e99c414/ladderbot-0.0.5.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-lab-panel]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-lab-panel]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc-lab-panel-0.1.8.tar.gz tmp/edc-lab-panel-0.1.9.tar.gz --markdown 20230805/e/edc-lab-panel/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 20:39:06] INFO root fetch - processPackages [news-toolkit-api]: Downloading https://files.pythonhosted.org/packages/7f/ae/04ccf146659576048ebe5320388456ac50c316a7c3127feda7be5c62efb6/news_toolkit_api-0.0.9.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-reference]: Downloading https://files.pythonhosted.org/packages/71/ef/04e54c49d503a2882ce28956b5634c5df1ed8db573a42b8dfbd5f58b5729/edc-reference-0.3.9.tar.gz
+[2023-08-05 20:39:06] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_kanonbot-0.0.1b1.tar.gz tmp/nonebot_plugin_kanonbot-0.0.1b2.tar.gz --markdown 20230805/n/nonebot-plugin-kanonbot/0.0.1b1-0.0.1b2/diff.md --exclude *.pyd
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.4.tar.gz tmp/ladderbot-0.0.5.tar.gz --markdown 20230805/l/ladderbot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.4.tar.gz tmp/ladderbot-0.0.5.tar.gz --markdown 20230805/l/ladderbot/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 20:39:06] INFO root fetch - processPackages [news-toolkit-api]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [news-toolkit-api]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/news_toolkit_api-0.0.8.tar.gz tmp/news_toolkit_api-0.0.9.tar.gz --markdown 20230805/n/news-toolkit-api/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-reference]: executing diffoscope
+[2023-08-05 20:39:06] INFO root fetch - processPackages [edc-reference]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edc_reference-0.3.8-py3-none-any.whl.zip tmp/edc-reference-0.3.9.tar.gz --markdown 20230805/e/edc-reference/0.3.8-0.3.9/diff.md --exclude *.pyd
+[2023-08-05 20:39:07] INFO root fetch - processPackages [hm-pyhelper]: Downloading https://files.pythonhosted.org/packages/5c/c0/bdb90181854669b92d6865c451e6de030723d3440e6446b8d80df6be04f2/hm_pyhelper-0.8.9.tar.gz
+[2023-08-05 20:39:07] INFO root fetch - processPackages [hm-pyhelper]: executing diffoscope
+[2023-08-05 20:39:07] INFO root fetch - processPackages [hm-pyhelper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hm_pyhelper-0.8.13.tar.gz tmp/hm_pyhelper-0.8.9.tar.gz --markdown 20230805/h/hm-pyhelper/0.8.13-0.8.9/diff.md --exclude *.pyd
+[2023-08-05 20:39:07] INFO root fetch - processPackages [edc-lab-panel]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-panel-0.1.8.tar.gz]
+[2023-08-05 20:39:07] INFO root fetch - processPackages [edc-lab-panel]: Remove: archive file [/home/abi/fetcher/tmp/edc-lab-panel-0.1.9.tar.gz]
+[2023-08-05 20:39:07] INFO root fetch - main [MainThread]: End processing [edc-lab-panel]: success
+[2023-08-05 20:39:07] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.4.tar.gz]
+[2023-08-05 20:39:07] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.5.tar.gz]
+[2023-08-05 20:39:07] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 20:39:08] INFO root fetch - processPackages [edc-reference]: Remove: archive file [/home/abi/fetcher/tmp/edc_reference-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 20:39:08] INFO root fetch - processPackages [edc-reference]: Remove: archive file [/home/abi/fetcher/tmp/edc-reference-0.3.9.tar.gz]
+[2023-08-05 20:39:08] INFO root fetch - main [MainThread]: End processing [edc-reference]: success
+[2023-08-05 20:39:08] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.8.tar.gz]
+[2023-08-05 20:39:08] INFO root fetch - processPackages [news-toolkit-api]: Remove: archive file [/home/abi/fetcher/tmp/news_toolkit_api-0.0.9.tar.gz]
+[2023-08-05 20:39:08] INFO root fetch - main [MainThread]: End processing [news-toolkit-api]: success
+[2023-08-05 20:39:08] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kanonbot-0.0.1b1.tar.gz]
+[2023-08-05 20:39:08] INFO root fetch - processPackages [nonebot-plugin-kanonbot]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_kanonbot-0.0.1b2.tar.gz]
+[2023-08-05 20:39:08] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-kanonbot]: success
+[2023-08-05 20:39:08] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.8-py3-none-any.whl.zip]
+[2023-08-05 20:39:08] INFO root fetch - processPackages [edc-metadata]: Remove: archive file [/home/abi/fetcher/tmp/edc_metadata-0.3.9-py3-none-any.whl.zip]
+[2023-08-05 20:39:08] INFO root fetch - main [MainThread]: End processing [edc-metadata]: success
+[2023-08-05 20:39:08] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 20:39:16] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.13.tar.gz]
+[2023-08-05 20:39:16] INFO root fetch - processPackages [hm-pyhelper]: Remove: archive file [/home/abi/fetcher/tmp/hm_pyhelper-0.8.9.tar.gz]
+[2023-08-05 20:39:16] INFO root fetch - main [MainThread]: End processing [hm-pyhelper]: success
+[2023-08-05 20:39:16] INFO root fetch - main [MainThread]: Store serial: [19188512]
