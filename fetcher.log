@@ -16327,3 +16327,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 19:47:01] INFO root fetch - processPackages [email-monitor]: Remove: archive file [/home/abi/fetcher/tmp/email_monitor-0.1.1-py3-none-any.whl.zip]
 [2023-08-05 19:47:01] INFO root fetch - main [MainThread]: End processing [email-monitor]: success
 [2023-08-05 19:47:01] INFO root fetch - main [MainThread]: Store serial: [19188216]
+[2023-08-05 19:52:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188216]
+[2023-08-05 19:52:10] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: refineryframe
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-api-info
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: TDS2STAC
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: colourmap
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: gitaudit
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: abd-clam
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discord-interactive
+[2023-08-05 19:52:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pyfixest
+[2023-08-05 19:52:10] INFO root fetch - processPackages [colourmap]: New version: [1.1.9] Old Version: [1.1.8]
+[2023-08-05 19:52:10] INFO root fetch - processPackages [refineryframe]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 19:52:10] INFO root fetch - processPackages [pyfixest]: New version: [0.8.2] Old Version: [0.7.4]
+[2023-08-05 19:52:10] INFO root fetch - processPackages [TDS2STAC]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-05 19:52:10] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 19:52:10] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 19:52:10] INFO root fetch - processPackages [discord-interactive]: New version: [4.1.0] Old Version: [4.0]
+[2023-08-05 19:52:10] INFO root fetch - processPackages [abd-clam]: New version: [0.9.0.dev5] Old Version: [0.9.0.dev1]
+[2023-08-05 19:52:10] INFO root fetch - processPackages [gitaudit]: New version: [0.9.0] Old Version: [0.8.8]
+[2023-08-05 19:52:10] INFO root fetch - processPackages [colourmap]: Downloading https://files.pythonhosted.org/packages/c4/a4/4508fc1de4adb6533fe24517d041619a69ad0cc1ac371c0e4fd21ec77ea8/colourmap-1.1.8.tar.gz
+[2023-08-05 19:52:10] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/2e/dd/10ed1c1f11bfa8ab104700b2a5d020c536a28c23c9e5e796f231fe36a0a8/refineryframe-0.1.8.tar.gz
+[2023-08-05 19:52:10] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/44/b3/642a363c32cac4e2350129abee25aa122af8d1da782e6e03f5fdc87ab7b5/pyfixest-0.7.4.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [discord-interactive]: Downloading https://files.pythonhosted.org/packages/77/da/af3272fbd0c8f8cf09e8a865c3a3d18414b756b051ad6c8fda213cf0138f/discord_interactive-4.0.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/80/f2/63c1481095e3b66eb1afa5a69cc83baf8170928ad5f90992ce69d2d1d0aa/TDS2STAC-2.0.8.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/bd/20/964ab768efce75ba26c4319c140e23a1b920b649444733ed661e13323622/abd_clam-0.9.0.dev1.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/2d/30/e3485fc05b26e6d8d4ef8c4523b201e1e9c27c1f31908756f521ca2c8274/gitaudit-0.8.8.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/70/6e/5c9dd4eb84b76aabd31215851f6762877f567a5471242d422854a20e2369/refineryframe-0.1.9.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [colourmap]: Downloading https://files.pythonhosted.org/packages/5b/c4/7c0ddc64d4baeba492f5e1c9df509acce27b612f824540996bf1b7f8371d/colourmap-1.1.9.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [pyfixest]: Downloading https://files.pythonhosted.org/packages/d5/c4/5fde571f0184db6d6dd809480fe9159cad975cc206f3bbcb69df8e7c7554/pyfixest-0.8.2.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.8.tar.gz tmp/refineryframe-0.1.9.tar.gz --markdown 20230805/r/refineryframe/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 19:52:11] INFO root fetch - processPackages [pyfixest]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [pyfixest]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyfixest-0.7.4.tar.gz tmp/pyfixest-0.8.2.tar.gz --markdown 20230805/p/pyfixest/0.7.4-0.8.2/diff.md --exclude *.pyd
+[2023-08-05 19:52:11] INFO root fetch - processPackages [discord-interactive]: Downloading https://files.pythonhosted.org/packages/64/02/5d2d3a8ededbb4768e70483b395e98d267b4909bc7a088989001e4ceb907/discord_interactive-4.1.0.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [colourmap]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [colourmap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/colourmap-1.1.8.tar.gz tmp/colourmap-1.1.9.tar.gz --markdown 20230805/c/colourmap/1.1.8-1.1.9/diff.md --exclude *.pyd
+[2023-08-05 19:52:11] INFO root fetch - processPackages [abd-clam]: Downloading https://files.pythonhosted.org/packages/9c/87/023a50a2fea36c90811c51197f0f44e18904c603fc07439a0212d0be2b6a/abd_clam-0.9.0.dev5.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [discord-interactive]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [discord-interactive]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discord_interactive-4.0.tar.gz tmp/discord_interactive-4.1.0.tar.gz --markdown 20230805/d/discord-interactive/4.0-4.1.0/diff.md --exclude *.pyd
+[2023-08-05 19:52:11] INFO root fetch - processPackages [gitaudit]: Downloading https://files.pythonhosted.org/packages/6d/54/70a010633ae2008eb8086ae94d16bdd384331aa2117faa3e29f8ccfbfd59/gitaudit-0.9.0.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [TDS2STAC]: Downloading https://files.pythonhosted.org/packages/2a/c1/62aee7cc75d6e80d86dc651db1c643a61362a6698bbccce62f5a63cd5ac2/TDS2STAC-2.0.9.tar.gz
+[2023-08-05 19:52:11] INFO root fetch - processPackages [abd-clam]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [abd-clam]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/abd_clam-0.9.0.dev1.tar.gz tmp/abd_clam-0.9.0.dev5.tar.gz --markdown 20230805/a/abd-clam/0.9.0.dev1-0.9.0.dev5/diff.md --exclude *.pyd
+[2023-08-05 19:52:11] INFO root fetch - processPackages [gitaudit]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [gitaudit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gitaudit-0.8.8.tar.gz tmp/gitaudit-0.9.0.tar.gz --markdown 20230805/g/gitaudit/0.8.8-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 19:52:11] INFO root fetch - processPackages [TDS2STAC]: executing diffoscope
+[2023-08-05 19:52:11] INFO root fetch - processPackages [TDS2STAC]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/TDS2STAC-2.0.8.tar.gz tmp/TDS2STAC-2.0.9.tar.gz --markdown 20230805/T/TDS2STAC/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-05 19:52:12] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.7.4.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - processPackages [pyfixest]: Remove: archive file [/home/abi/fetcher/tmp/pyfixest-0.8.2.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - main [MainThread]: End processing [pyfixest]: success
+[2023-08-05 19:52:12] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.8.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.9.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 19:52:12] INFO root fetch - processPackages [colourmap]: Remove: archive file [/home/abi/fetcher/tmp/colourmap-1.1.8.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - processPackages [colourmap]: Remove: archive file [/home/abi/fetcher/tmp/colourmap-1.1.9.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - main [MainThread]: End processing [colourmap]: success
+[2023-08-05 19:52:12] INFO root fetch - processPackages [discord-interactive]: Remove: archive file [/home/abi/fetcher/tmp/discord_interactive-4.0.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - processPackages [discord-interactive]: Remove: archive file [/home/abi/fetcher/tmp/discord_interactive-4.1.0.tar.gz]
+[2023-08-05 19:52:12] INFO root fetch - main [MainThread]: End processing [discord-interactive]: success
+[2023-08-05 19:52:13] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev1.tar.gz]
+[2023-08-05 19:52:13] INFO root fetch - processPackages [abd-clam]: Remove: archive file [/home/abi/fetcher/tmp/abd_clam-0.9.0.dev5.tar.gz]
+[2023-08-05 19:52:13] INFO root fetch - main [MainThread]: End processing [abd-clam]: success
+[2023-08-05 19:52:13] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.8.tar.gz]
+[2023-08-05 19:52:13] INFO root fetch - processPackages [TDS2STAC]: Remove: archive file [/home/abi/fetcher/tmp/TDS2STAC-2.0.9.tar.gz]
+[2023-08-05 19:52:13] INFO root fetch - main [MainThread]: End processing [TDS2STAC]: success
+[2023-08-05 19:52:13] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.8.8.tar.gz]
+[2023-08-05 19:52:13] INFO root fetch - processPackages [gitaudit]: Remove: archive file [/home/abi/fetcher/tmp/gitaudit-0.9.0.tar.gz]
+[2023-08-05 19:52:13] INFO root fetch - main [MainThread]: End processing [gitaudit]: success
+[2023-08-05 19:52:13] INFO root fetch - main [MainThread]: Store serial: [19188240]
