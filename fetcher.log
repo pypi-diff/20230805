@@ -12514,3 +12514,57 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 14:41:03] INFO root fetch - processPackages [parallelism]: Remove: archive file [/home/abi/fetcher/tmp/parallelism-0.1.1.tar.gz]
 [2023-08-05 14:41:03] INFO root fetch - main [MainThread]: End processing [parallelism]: success
 [2023-08-05 14:41:03] INFO root fetch - main [MainThread]: Store serial: [19186454]
+[2023-08-05 14:46:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186454]
+[2023-08-05 14:46:11] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amniotic
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: log21
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tybase
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tensorcircuit-nightly
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: nonebot-plugin-lostark-wandering-trader
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: myllm
+[2023-08-05 14:46:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: update-submodules
+[2023-08-05 14:46:12] INFO root fetch - processPackages [amniotic]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-05 14:46:12] WARNING root fetch - processPackages [myllm]: Skipping, unable to determine old version
+[2023-08-05 14:46:12] INFO root fetch - main [MainThread]: End processing [myllm] error
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tybase]: New version: [0.3.2] Old Version: [0.3.1]
+[2023-08-05 14:46:12] INFO root fetch - processPackages [log21]: New version: [2.6.1] Old Version: [2.6.0]
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: New version: [0.9.1.dev20230608] Old Version: [0.9.1.dev20230607]
+[2023-08-05 14:46:12] WARNING root fetch - processPackages [update-submodules]: Skipping, unable to determine old version
+[2023-08-05 14:46:12] INFO root fetch - main [MainThread]: End processing [update-submodules] error
+[2023-08-05 14:46:12] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/4d/eb/c9366cf29981316e0f1ec3ffa3fe0c5440f864a59ed82ef73aa28758d0eb/tybase-0.3.1.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/2e/85/48ffae0f81bbd95548c9fd8d38b7786b5205f404eb681568e26aee226e86/log21-2.6.0.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/79/2a/50740b6f8b7e1d0c4223c72c789f41baca7a4e77f32e8f52bd91e7ebff20/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/ea/40/4cdfa41d2d5ed717effee50e9a84a09e4fda8f35c2710061de92fd94c77c/amniotic-0.5.9.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/ae/39/544d3fb9e920b8eaec624b13310ea84da9b9f76445a9b54ccb43119cec76/nonebot_plugin_lostark_wandering_trader-0.0.3.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [log21]: Downloading https://files.pythonhosted.org/packages/eb/c8/d791a3a9a389d0a994cdfb67d8343670b8f5b399391e54e4a56f2e94c199/log21-2.6.1.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: Downloading https://files.pythonhosted.org/packages/2f/cc/671276320457670987d1eb503de15ee19924e63c7ec9c99b14c240d5aa18/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-08-05 14:46:12] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.8.tar.gz tmp/amniotic-0.5.9.tar.gz --markdown 20230805/a/amniotic/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/77/e8/b8644e5cd29c8c7d16452d194f90f5d406f54fbdd639ac35b6acf6c19430/tybase-0.3.2.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [log21]: executing diffoscope
+[2023-08-05 14:46:12] INFO root fetch - processPackages [log21]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/log21-2.6.0.tar.gz tmp/log21-2.6.1.tar.gz --markdown 20230805/l/log21/2.6.0-2.6.1/diff.md --exclude *.pyd
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: executing diffoscope
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tensorcircuit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz --markdown 20230805/t/tensorcircuit-nightly/0.9.1.dev20230607-0.9.1.dev20230608/diff.md --exclude *.pyd
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 14:46:12] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.3.1.tar.gz tmp/tybase-0.3.2.tar.gz --markdown 20230805/t/tybase/0.3.1-0.3.2/diff.md --exclude *.pyd
+[2023-08-05 14:46:12] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Downloading https://files.pythonhosted.org/packages/27/bc/958d0e78f9a83f177105236c08c487fda901d3e8943db7b2d269fbdfb0de/nonebot_plugin_lostark_wandering_trader-0.0.4.tar.gz
+[2023-08-05 14:46:12] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: executing diffoscope
+[2023-08-05 14:46:12] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/nonebot_plugin_lostark_wandering_trader-0.0.3.tar.gz tmp/nonebot_plugin_lostark_wandering_trader-0.0.4.tar.gz --markdown 20230805/n/nonebot-plugin-lostark-wandering-trader/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 14:46:13] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.9.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-08-05 14:46:13] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.3.1.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.3.2.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 14:46:13] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.6.0.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - processPackages [log21]: Remove: archive file [/home/abi/fetcher/tmp/log21-2.6.1.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - main [MainThread]: End processing [log21]: success
+[2023-08-05 14:46:13] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.3.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - processPackages [nonebot-plugin-lostark-wandering-trader]: Remove: archive file [/home/abi/fetcher/tmp/nonebot_plugin_lostark_wandering_trader-0.0.4.tar.gz]
+[2023-08-05 14:46:13] INFO root fetch - main [MainThread]: End processing [nonebot-plugin-lostark-wandering-trader]: success
+[2023-08-05 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230607.tar.gz]
+[2023-08-05 14:46:14] INFO root fetch - processPackages [tensorcircuit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensorcircuit-nightly-0.9.1.dev20230608.tar.gz]
+[2023-08-05 14:46:14] INFO root fetch - main [MainThread]: End processing [tensorcircuit-nightly]: success
+[2023-08-05 14:46:14] INFO root fetch - main [MainThread]: Store serial: [19186476]
