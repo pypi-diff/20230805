@@ -1855,3 +1855,124 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 02:19:40] INFO root fetch - processPackages [moto]: Remove: archive file [/home/abi/fetcher/tmp/moto-4.1.9.dev9.tar.gz]
 [2023-08-05 02:19:40] INFO root fetch - main [MainThread]: End processing [moto]: success
 [2023-08-05 02:19:40] INFO root fetch - main [MainThread]: Store serial: [19181946]
+[2023-08-05 02:24:44] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19181946]
+[2023-08-05 02:24:48] INFO root fetch - main [MainThread]: Found 14 changed packages
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: cdktf-surreal-backend
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdk-amazon-chime-resources
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cdk-gitlab-runner
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: aissistant
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: degirum
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: cdk-nag
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: cdk-tweet-queue
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: cdklabs.cdk-ethereum-node
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: testflows.github.runners
+[2023-08-05 02:24:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: cdk-aurora-globaldatabase
+[2023-08-05 02:24:48] INFO root fetch - processPackages [aissistant]: New version: [0.4] Old Version: [0.3]
+[2023-08-05 02:24:48] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.5.230805.1001721] Old Version: [1.5.230805.1000220]
+[2023-08-05 02:24:48] INFO root fetch - processPackages [cdk-tweet-queue]: New version: [2.0.99] Old Version: [2.0.98]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: New version: [0.0.99] Old Version: [0.0.98]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: New version: [2.3.99] Old Version: [2.3.98]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-nag]: New version: [2.9.7] Old Version: [2.9.6]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [aissistant]: Downloading https://files.pythonhosted.org/packages/b2/fb/23bfa8ef71106055c221d3034d2cdcf03de2cec321a7ff4973b757be9142/aissistant-0.3.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [degirum]: New version: [0.9.1] Old Version: [0.9.0]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-gitlab-runner]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/ea/43/866ceff147f1348cb4fef77ace3625271980995bc18e5dabca6e9fbec10b/testflows.github.runners-1.5.230805.1000220.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/d8/1a/417af84315b2d52f6063ccf2072677259777d28fb73cab91e17879faaa26/cdklabs.cdk-ethereum-node-0.0.98.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdktf-surreal-backend]: New version: [1.0.99] Old Version: [1.0.98]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-amazon-chime-resources]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/e4/39/e997b5acac972df8d777c4a4ad6dfd9f51e03e75fc8e23c973a7772267d5/cdk-aurora-globaldatabase-2.3.98.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/26/bc/b8768e307b8d360b78f45303ac30baa4232637f372296203b0005cd07cd4/cdk-nag-2.9.6.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/f2/a9/33fbe548cea174e015412108a563be3bbbdacbb6982d1ef6bf71d4abb509/cdk-tweet-queue-2.0.98.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/cb/0a/a7b476cc0f57abbfe23b6e1de3ab7c8d7ef56c77aa972828c5dc9958e1d8/cdktf-surreal-backend-1.0.98.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [aissistant]: Downloading https://files.pythonhosted.org/packages/e6/67/b0040d9d8739b7c65186b7129835b4f52b1cbefc287c20de53a7be10dde4/aissistant-0.4.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Downloading https://files.pythonhosted.org/packages/4c/ea/3ffe9aaa9fff3e6ce00cfde898a305f95a593308f75cbf8c8da89e04914e/cdk-amazon-chime-resources-2.4.8.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/3a/a8/2d1e7c07c65340f94bd3ce6452952543ce5012e185895eacd9202af42b87/degirum-0.9.0-cp39-cp39-win_amd64.whl
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/00/40/016cdb2fb9e28fe1b601ce7542603c38b93a78a9a0d77a0309e559d58a1c/cdk-gitlab-runner-2.1.98.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Downloading https://files.pythonhosted.org/packages/2d/d8/3fd98f927d9988f7c189f488b1829ac7aa7f855bf93f6030e3bed9af9a97/cdklabs.cdk-ethereum-node-0.0.99.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Downloading https://files.pythonhosted.org/packages/51/53/0158facaec2becec86707148eb931de78a7ad1c2b63f80b9911a53e4c17b/cdk-aurora-globaldatabase-2.3.99.tar.gz
+[2023-08-05 02:24:49] WARNING root fetch - processPackages [cdk-amazon-chime-resources]: Skipping package: exceeds size limit 14616087>=10485760
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-amazon-chime-resources]: Start processing: pulumi-aws
+[2023-08-05 02:24:49] INFO root fetch - main [MainThread]: End processing [cdk-amazon-chime-resources] error
+[2023-08-05 02:24:49] INFO root fetch - processPackages [aissistant]: executing diffoscope
+[2023-08-05 02:24:49] INFO root fetch - processPackages [aissistant]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aissistant-0.3.tar.gz tmp/aissistant-0.4.tar.gz --markdown 20230805/a/aissistant/0.3-0.4/diff.md --exclude *.pyd
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-tweet-queue]: Downloading https://files.pythonhosted.org/packages/b9/df/ffba41b66fc7796cb2c763da82c2012cc28d0708e1dcb7775c98d3d9e491/cdk-tweet-queue-2.0.99.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-nag]: Downloading https://files.pythonhosted.org/packages/71/78/6a2d0c627f1033774d5be3d2faca465e0bc0b07cf97cec491c795775999a/cdk-nag-2.9.7.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/22/3a/8674c767ad3e8bc41955875aaa146832985b0c29890a5519620a75b9b6f6/testflows.github.runners-1.5.230805.1001721.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: executing diffoscope
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz --markdown 20230805/c/cdklabs.cdk-ethereum-node/0.0.98-0.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:24:49] INFO root fetch - processPackages [pulumi-aws]: New version: [6.0.0a6] Old Version: [6.0.0a5]
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: executing diffoscope
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz --markdown 20230805/c/cdk-aurora-globaldatabase/2.3.98-2.3.99/diff.md --exclude *.pyd
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-tweet-queue]: executing diffoscope
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-tweet-queue]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-tweet-queue-2.0.98.tar.gz tmp/cdk-tweet-queue-2.0.99.tar.gz --markdown 20230805/c/cdk-tweet-queue/2.0.98-2.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:24:49] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/78/16/cbcfe00953e87338e58e1993a629d68edb5fc1bdffbeb486b1b55095c6ca/pulumi_aws-6.0.0a5.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdktf-surreal-backend]: Downloading https://files.pythonhosted.org/packages/b2/df/7604fdc8f04cf537fd774472005fab2e46b4e2271b55ee3e5027045037e4/cdktf-surreal-backend-1.0.99.tar.gz
+[2023-08-05 02:24:49] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-08-05 02:24:49] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.5.230805.1000220.tar.gz tmp/testflows.github.runners-1.5.230805.1001721.tar.gz --markdown 20230805/t/testflows.github.runners/1.5.230805.1000220-1.5.230805.1001721/diff.md --exclude *.pyd
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-nag]: executing diffoscope
+[2023-08-05 02:24:49] INFO root fetch - processPackages [cdk-nag]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-nag-2.9.6.tar.gz tmp/cdk-nag-2.9.7.tar.gz --markdown 20230805/c/cdk-nag/2.9.6-2.9.7/diff.md --exclude *.pyd
+[2023-08-05 02:24:50] INFO root fetch - processPackages [cdk-gitlab-runner]: Downloading https://files.pythonhosted.org/packages/89/96/8e14acbbed72ce7cf16a2f829e722ff9189610a1fe440e7d52bb6185d401/cdk-gitlab-runner-2.1.99.tar.gz
+[2023-08-05 02:24:50] INFO root fetch - processPackages [cdktf-surreal-backend]: executing diffoscope
+[2023-08-05 02:24:50] INFO root fetch - processPackages [cdktf-surreal-backend]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdktf-surreal-backend-1.0.98.tar.gz tmp/cdktf-surreal-backend-1.0.99.tar.gz --markdown 20230805/c/cdktf-surreal-backend/1.0.98-1.0.99/diff.md --exclude *.pyd
+[2023-08-05 02:24:50] INFO root fetch - processPackages [cdk-gitlab-runner]: executing diffoscope
+[2023-08-05 02:24:50] INFO root fetch - processPackages [cdk-gitlab-runner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-gitlab-runner-2.1.98.tar.gz tmp/cdk-gitlab-runner-2.1.99.tar.gz --markdown 20230805/c/cdk-gitlab-runner/2.1.98-2.1.99/diff.md --exclude *.pyd
+[2023-08-05 02:24:50] INFO root fetch - processPackages [degirum]: Downloading https://files.pythonhosted.org/packages/50/d4/54d0bc24910ce16934e63332d17fd1ca85e060936c8c680caaef5da5adec/degirum-0.9.1-cp39-cp39-win_amd64.whl
+[2023-08-05 02:24:50] INFO root fetch - processPackages [pulumi-aws]: Downloading https://files.pythonhosted.org/packages/a5/55/e7efed78df29d6c6b4745c5e59288c7af41dd4c3bcff9ea2210a91e6340c/pulumi_aws-6.0.0a6.tar.gz
+[2023-08-05 02:24:50] INFO root fetch - processPackages [pulumi-aws]: executing diffoscope
+[2023-08-05 02:24:50] INFO root fetch - processPackages [pulumi-aws]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pulumi_aws-6.0.0a5.tar.gz tmp/pulumi_aws-6.0.0a6.tar.gz --markdown 20230805/p/pulumi-aws/6.0.0a5-6.0.0a6/diff.md --exclude *.pyd
+[2023-08-05 02:24:50] INFO root fetch - processPackages [aissistant]: Remove: archive file [/home/abi/fetcher/tmp/aissistant-0.3.tar.gz]
+[2023-08-05 02:24:50] INFO root fetch - processPackages [aissistant]: Remove: archive file [/home/abi/fetcher/tmp/aissistant-0.4.tar.gz]
+[2023-08-05 02:24:50] INFO root fetch - processPackages [aissistant]: Start processing: cdk-remote-stack
+[2023-08-05 02:24:50] INFO root fetch - main [MainThread]: End processing [aissistant]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-remote-stack]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/1e/de/45d43dc1fa4bc3424cd99914bf377237ae9ee0c29f504b3c449c461104e1/cdk-remote-stack-2.0.8.tar.gz
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.98.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Remove: archive file [/home/abi/fetcher/tmp/cdk-aurora-globaldatabase-2.3.99.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-aurora-globaldatabase]: Start processing: femwell
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdk-aurora-globaldatabase]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.98.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-tweet-queue]: Remove: archive file [/home/abi/fetcher/tmp/cdk-tweet-queue-2.0.99.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-tweet-queue]: Start processing: cdk-cr-constructs
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdk-tweet-queue]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.98.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdklabs.cdk-ethereum-node]: Remove: archive file [/home/abi/fetcher/tmp/cdklabs.cdk-ethereum-node-0.0.99.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdklabs.cdk-ethereum-node]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [degirum]: executing diffoscope
+[2023-08-05 02:24:51] INFO root fetch - processPackages [degirum]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/degirum-0.9.0-cp39-cp39-win_amd64.whl.zip tmp/degirum-0.9.1-cp39-cp39-win_amd64.whl.zip --markdown 20230805/d/degirum/0.9.0-0.9.1/diff.md --exclude *.pyd
+[2023-08-05 02:24:51] INFO root fetch - processPackages [femwell]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-cr-constructs]: New version: [2.1.99] Old Version: [2.1.98]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-remote-stack]: Downloading https://files.pythonhosted.org/packages/53/84/0d0362b5a5e90511d1836dad771fb231ff4adf4461322f76f2463dfdf6d3/cdk-remote-stack-2.0.9.tar.gz
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.6.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-nag]: Remove: archive file [/home/abi/fetcher/tmp/cdk-nag-2.9.7.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdk-nag]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-cr-constructs]: Downloading https://files.pythonhosted.org/packages/fe/58/3e435ab85ca79a785db1238624c29b48fc60946bcbae9b2813fd45cb0a41/cdk-cr-constructs-2.1.98.tar.gz
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.98.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdktf-surreal-backend]: Remove: archive file [/home/abi/fetcher/tmp/cdktf-surreal-backend-1.0.99.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdktf-surreal-backend]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.98.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-gitlab-runner]: Remove: archive file [/home/abi/fetcher/tmp/cdk-gitlab-runner-2.1.99.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdk-gitlab-runner]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/96/42/7ea67680abd0c172b4d2b1161545f27c3acab20eac019ff4472dccb25e97/femwell-0.1.6.tar.gz
+[2023-08-05 02:24:51] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.5.230805.1000220.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.5.230805.1001721.tar.gz]
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-remote-stack]: executing diffoscope
+[2023-08-05 02:24:51] INFO root fetch - processPackages [cdk-remote-stack]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cdk-remote-stack-2.0.8.tar.gz tmp/cdk-remote-stack-2.0.9.tar.gz --markdown 20230805/c/cdk-remote-stack/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-05 02:24:51] WARNING root fetch - processPackages [cdk-cr-constructs]: Skipping package: exceeds size limit 12826336>=10485760
+[2023-08-05 02:24:51] INFO root fetch - main [MainThread]: End processing [cdk-cr-constructs] error
+[2023-08-05 02:24:51] INFO root fetch - processPackages [femwell]: Downloading https://files.pythonhosted.org/packages/bb/1c/f1c9e44b6e2e1a8764cb61b13042362a965a05bce11d3b034c007e2360fe/femwell-0.1.7.tar.gz
+[2023-08-05 02:24:51] INFO root fetch - processPackages [femwell]: executing diffoscope
+[2023-08-05 02:24:51] INFO root fetch - processPackages [femwell]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/femwell-0.1.6.tar.gz tmp/femwell-0.1.7.tar.gz --markdown 20230805/f/femwell/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-05 02:24:52] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.8.tar.gz]
+[2023-08-05 02:24:52] INFO root fetch - processPackages [cdk-remote-stack]: Remove: archive file [/home/abi/fetcher/tmp/cdk-remote-stack-2.0.9.tar.gz]
+[2023-08-05 02:24:52] INFO root fetch - main [MainThread]: End processing [cdk-remote-stack]: success
+[2023-08-05 02:24:52] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.6.tar.gz]
+[2023-08-05 02:24:52] INFO root fetch - processPackages [femwell]: Remove: archive file [/home/abi/fetcher/tmp/femwell-0.1.7.tar.gz]
+[2023-08-05 02:24:52] INFO root fetch - main [MainThread]: End processing [femwell]: success
+[2023-08-05 02:24:58] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 02:24:58] INFO root fetch - processPackages [degirum]: Remove: archive file [/home/abi/fetcher/tmp/degirum-0.9.1-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 02:24:58] INFO root fetch - main [MainThread]: End processing [degirum]: success
+[2023-08-05 02:25:12] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a5.tar.gz]
+[2023-08-05 02:25:12] INFO root fetch - processPackages [pulumi-aws]: Remove: archive file [/home/abi/fetcher/tmp/pulumi_aws-6.0.0a6.tar.gz]
+[2023-08-05 02:25:12] INFO root fetch - main [MainThread]: End processing [pulumi-aws]: success
+[2023-08-05 02:25:12] INFO root fetch - main [MainThread]: Store serial: [19182006]
