@@ -10297,3 +10297,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:05:03] INFO root fetch - processPackages [swcgeom]: Remove: archive file [/home/abi/fetcher/tmp/swcgeom-0.9.0.tar.gz]
 [2023-08-05 11:05:03] INFO root fetch - main [MainThread]: End processing [swcgeom]: success
 [2023-08-05 11:05:03] INFO root fetch - main [MainThread]: Store serial: [19185259]
+[2023-08-05 11:10:07] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185259]
+[2023-08-05 11:10:12] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: streamlit-calendar-semver
+[2023-08-05 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: s1290006-learn
+[2023-08-05 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sonnenbatterie
+[2023-08-05 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: lcd-module
+[2023-08-05 11:10:12] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: CairoSVG
+[2023-08-05 11:10:12] INFO root fetch - processPackages [streamlit-calendar-semver]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-05 11:10:12] WARNING root fetch - processPackages [s1290006-learn]: Skipping, unable to determine old version
+[2023-08-05 11:10:12] INFO root fetch - main [MainThread]: End processing [s1290006-learn] error
+[2023-08-05 11:10:12] INFO root fetch - processPackages [sonnenbatterie]: New version: [0.2.2] Old Version: [0.2.0]
+[2023-08-05 11:10:12] WARNING root fetch - processPackages [lcd-module]: Skipping, unable to determine old version
+[2023-08-05 11:10:12] INFO root fetch - main [MainThread]: End processing [lcd-module] error
+[2023-08-05 11:10:12] INFO root fetch - processPackages [CairoSVG]: New version: [2.7.1] Old Version: [2.7.0]
+[2023-08-05 11:10:13] INFO root fetch - processPackages [streamlit-calendar-semver]: Downloading https://files.pythonhosted.org/packages/99/fb/188a9435d761f5e0b8688665a438de7a437bf308088aceddf6d2b4b60f56/streamlit_calendar_semver-0.3.0.tar.gz
+[2023-08-05 11:10:13] INFO root fetch - processPackages [CairoSVG]: Downloading https://files.pythonhosted.org/packages/a8/e1/a69d14425d125fcac173c68b445816d3a539bb95a09edd620108bdc9348e/CairoSVG-2.7.0.tar.gz
+[2023-08-05 11:10:13] INFO root fetch - processPackages [sonnenbatterie]: Downloading https://files.pythonhosted.org/packages/b4/79/2525a5e83f3c7dff0e0a61dcab74b74b8f535378694d4e191938a73e8bfe/sonnenbatterie-0.2.0.tar.gz
+[2023-08-05 11:10:13] INFO root fetch - processPackages [streamlit-calendar-semver]: Downloading https://files.pythonhosted.org/packages/db/d0/c902203c8957c76c117e35dbf054a1833f6352df8fc6025327702e832e35/streamlit_calendar_semver-0.4.0.tar.gz
+[2023-08-05 11:10:13] INFO root fetch - processPackages [sonnenbatterie]: Downloading https://files.pythonhosted.org/packages/43/f5/6adaa2611dc4e84de32488526031f2646254ed70f0533a60cfed558d38fb/sonnenbatterie-0.2.2.tar.gz
+[2023-08-05 11:10:13] INFO root fetch - processPackages [streamlit-calendar-semver]: executing diffoscope
+[2023-08-05 11:10:13] INFO root fetch - processPackages [streamlit-calendar-semver]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit_calendar_semver-0.3.0.tar.gz tmp/streamlit_calendar_semver-0.4.0.tar.gz --markdown 20230805/s/streamlit-calendar-semver/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 11:10:13] INFO root fetch - processPackages [sonnenbatterie]: executing diffoscope
+[2023-08-05 11:10:13] INFO root fetch - processPackages [sonnenbatterie]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sonnenbatterie-0.2.0.tar.gz tmp/sonnenbatterie-0.2.2.tar.gz --markdown 20230805/s/sonnenbatterie/0.2.0-0.2.2/diff.md --exclude *.pyd
+[2023-08-05 11:10:14] INFO root fetch - processPackages [sonnenbatterie]: Remove: archive file [/home/abi/fetcher/tmp/sonnenbatterie-0.2.0.tar.gz]
+[2023-08-05 11:10:14] INFO root fetch - processPackages [sonnenbatterie]: Remove: archive file [/home/abi/fetcher/tmp/sonnenbatterie-0.2.2.tar.gz]
+[2023-08-05 11:10:14] INFO root fetch - main [MainThread]: End processing [sonnenbatterie]: success
+[2023-08-05 11:10:14] INFO root fetch - processPackages [streamlit-calendar-semver]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_calendar_semver-0.3.0.tar.gz]
+[2023-08-05 11:10:14] INFO root fetch - processPackages [streamlit-calendar-semver]: Remove: archive file [/home/abi/fetcher/tmp/streamlit_calendar_semver-0.4.0.tar.gz]
+[2023-08-05 11:10:14] INFO root fetch - main [MainThread]: End processing [streamlit-calendar-semver]: success
+[2023-08-05 11:10:14] INFO root fetch - processPackages [CairoSVG]: Downloading https://files.pythonhosted.org/packages/d5/e6/ec5900b724e3c44af7f6f51f719919137284e5da4aabe96508baec8a1b40/CairoSVG-2.7.1.tar.gz
+[2023-08-05 11:10:16] INFO root fetch - processPackages [CairoSVG]: executing diffoscope
+[2023-08-05 11:10:16] INFO root fetch - processPackages [CairoSVG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/CairoSVG-2.7.0.tar.gz tmp/CairoSVG-2.7.1.tar.gz --markdown 20230805/C/CairoSVG/2.7.0-2.7.1/diff.md --exclude *.pyd
+[2023-08-05 11:10:23] INFO root fetch - processPackages [CairoSVG]: Remove: archive file [/home/abi/fetcher/tmp/CairoSVG-2.7.0.tar.gz]
+[2023-08-05 11:10:23] INFO root fetch - processPackages [CairoSVG]: Remove: archive file [/home/abi/fetcher/tmp/CairoSVG-2.7.1.tar.gz]
+[2023-08-05 11:10:23] INFO root fetch - main [MainThread]: End processing [CairoSVG]: success
+[2023-08-05 11:10:23] INFO root fetch - main [MainThread]: Store serial: [19185292]
