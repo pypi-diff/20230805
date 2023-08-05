@@ -17669,3 +17669,75 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:52:11] INFO root fetch - processPackages [avwx-engine]: Remove: archive file [/home/abi/fetcher/tmp/avwx_engine-1.8.9.tar.gz]
 [2023-08-05 21:52:11] INFO root fetch - main [MainThread]: End processing [avwx-engine]: success
 [2023-08-05 21:52:11] INFO root fetch - main [MainThread]: Store serial: [19188809]
+[2023-08-05 21:57:30] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188809]
+[2023-08-05 21:57:35] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: edu-rdm-integration
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: beet-plugins
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: freetar
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: beam-sdk
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: flask-unity
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: kolibri-ml
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: joestools
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: pytetris-101
+[2023-08-05 21:57:35] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: first-packge
+[2023-08-05 21:57:35] INFO root fetch - processPackages [beam-sdk]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-05 21:57:35] INFO root fetch - processPackages [first-packge]: New version: [0.1.2] Old Version: [0.1.1]
+[2023-08-05 21:57:35] INFO root fetch - processPackages [kolibri-ml]: New version: [1.1.80] Old Version: [1.1.8]
+[2023-08-05 21:57:35] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/d6/21/9666fc17e5c5d3b0f75cde3f0ad0a33e2fe3063aa155fc1fc4593572bb8d/beam-sdk-0.9.8.tar.gz
+[2023-08-05 21:57:35] INFO root fetch - processPackages [edu-rdm-integration]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-05 21:57:35] INFO root fetch - processPackages [freetar]: New version: [0.1.5] Old Version: [0.1.3]
+[2023-08-05 21:57:35] INFO root fetch - processPackages [joestools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 21:57:35] WARNING root fetch - processPackages [flask-unity]: Skipping, unable to determine old version
+[2023-08-05 21:57:35] INFO root fetch - main [MainThread]: End processing [flask-unity] error
+[2023-08-05 21:57:35] WARNING root fetch - processPackages [pytetris-101]: Skipping, unable to determine old version
+[2023-08-05 21:57:35] INFO root fetch - main [MainThread]: End processing [pytetris-101] error
+[2023-08-05 21:57:35] INFO root fetch - processPackages [beet-plugins]: New version: [0.9.0] Old Version: [0.8.1]
+[2023-08-05 21:57:35] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/cf/97/90c21f98d1d917a1aba37dde9f7497a137a46ef54f7c363a162fd4a91d71/kolibri_ml-1.1.8-py3-none-any.whl
+[2023-08-05 21:57:35] INFO root fetch - processPackages [first-packge]: Downloading https://files.pythonhosted.org/packages/71/fa/89de1eaee169eac453dbe553fd51f08b97094734d370264dec7d1113957b/first_packge-0.1.1.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/25/7a/eeb076000df7226591d744233eed8386329f0599027e1a7219bb87f85648/edu-rdm-integration-0.2.0.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [freetar]: Downloading https://files.pythonhosted.org/packages/68/ad/5d21d0c72ef91b247176d9e82df775dad1c7896cadbea3e09a3bba31d25c/freetar-0.1.3.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beam-sdk]: Downloading https://files.pythonhosted.org/packages/64/d7/1ec63c342b9af2c5412a757ed5c8a6c98db462032364060ff95bda50e556/beam-sdk-0.9.9.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [joestools]: Downloading https://files.pythonhosted.org/packages/23/aa/952d3eda9b97e47f53cb36770650570bfee9b91ba8a6749a518d1e88cbb5/joestools-0.0.1.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beet-plugins]: Downloading https://files.pythonhosted.org/packages/8b/4d/615031b7ef6eaa1f2359a5aefce27d75e194e3742ff9c4bb4439d23551ba/beet_plugins-0.8.1.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beam-sdk]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beam-sdk]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beam-sdk-0.9.8.tar.gz tmp/beam-sdk-0.9.9.tar.gz --markdown 20230805/b/beam-sdk/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 21:57:36] INFO root fetch - processPackages [kolibri-ml]: Downloading https://files.pythonhosted.org/packages/83/ac/cd6af3458cf0e4f8c9d6d58751ebe634b9442e1e9c2734b2369da8529650/kolibri_ml-1.1.80-py3-none-any.whl
+[2023-08-05 21:57:36] INFO root fetch - processPackages [first-packge]: Downloading https://files.pythonhosted.org/packages/aa/7b/b04e04e2db84aec06005adc075aaf5d83f667b2be47fdbe466459019d378/first_packge-0.1.2.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [edu-rdm-integration]: Downloading https://files.pythonhosted.org/packages/ef/71/379e32b8c6c0f04a675330ea98b1b72199ae78431295186e751c2aff8b77/edu-rdm-integration-0.2.1.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [freetar]: Downloading https://files.pythonhosted.org/packages/03/f6/1c4df33ee71be38d8236d166a714e8e63b0e64b5299fd3c53a0c47648485/freetar-0.1.5.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beet-plugins]: Downloading https://files.pythonhosted.org/packages/f7/df/bdff97762c62d3f4976bf0ee17d9933070c6b5dd777742ff9d77df65e46a/beet_plugins-0.9.0.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [joestools]: Downloading https://files.pythonhosted.org/packages/88/67/c173961d187eac376e839b24b52487d2117a062887d8f0122d5a9ae96000/joestools-0.0.2.tar.gz
+[2023-08-05 21:57:36] INFO root fetch - processPackages [first-packge]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [first-packge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_packge-0.1.1.tar.gz tmp/first_packge-0.1.2.tar.gz --markdown 20230805/f/first-packge/0.1.1-0.1.2/diff.md --exclude *.pyd
+[2023-08-05 21:57:36] INFO root fetch - processPackages [kolibri-ml]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [kolibri-ml]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip tmp/kolibri_ml-1.1.80-py3-none-any.whl.zip --markdown 20230805/k/kolibri-ml/1.1.8-1.1.80/diff.md --exclude *.pyd
+[2023-08-05 21:57:36] INFO root fetch - processPackages [edu-rdm-integration]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [edu-rdm-integration]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/edu-rdm-integration-0.2.0.tar.gz tmp/edu-rdm-integration-0.2.1.tar.gz --markdown 20230805/e/edu-rdm-integration/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-05 21:57:36] INFO root fetch - processPackages [freetar]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [freetar]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/freetar-0.1.3.tar.gz tmp/freetar-0.1.5.tar.gz --markdown 20230805/f/freetar/0.1.3-0.1.5/diff.md --exclude *.pyd
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beet-plugins]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [beet-plugins]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/beet_plugins-0.8.1.tar.gz tmp/beet_plugins-0.9.0.tar.gz --markdown 20230805/b/beet-plugins/0.8.1-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 21:57:36] INFO root fetch - processPackages [joestools]: executing diffoscope
+[2023-08-05 21:57:36] INFO root fetch - processPackages [joestools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/joestools-0.0.1.tar.gz tmp/joestools-0.0.2.tar.gz --markdown 20230805/j/joestools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 21:57:37] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.8.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - processPackages [beam-sdk]: Remove: archive file [/home/abi/fetcher/tmp/beam-sdk-0.9.9.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - main [MainThread]: End processing [beam-sdk]: success
+[2023-08-05 21:57:37] INFO root fetch - processPackages [first-packge]: Remove: archive file [/home/abi/fetcher/tmp/first_packge-0.1.1.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - processPackages [first-packge]: Remove: archive file [/home/abi/fetcher/tmp/first_packge-0.1.2.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - main [MainThread]: End processing [first-packge]: success
+[2023-08-05 21:57:37] INFO root fetch - processPackages [freetar]: Remove: archive file [/home/abi/fetcher/tmp/freetar-0.1.3.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - processPackages [freetar]: Remove: archive file [/home/abi/fetcher/tmp/freetar-0.1.5.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - main [MainThread]: End processing [freetar]: success
+[2023-08-05 21:57:37] INFO root fetch - processPackages [joestools]: Remove: archive file [/home/abi/fetcher/tmp/joestools-0.0.1.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - processPackages [joestools]: Remove: archive file [/home/abi/fetcher/tmp/joestools-0.0.2.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - main [MainThread]: End processing [joestools]: success
+[2023-08-05 21:57:37] INFO root fetch - processPackages [beet-plugins]: Remove: archive file [/home/abi/fetcher/tmp/beet_plugins-0.8.1.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - processPackages [beet-plugins]: Remove: archive file [/home/abi/fetcher/tmp/beet_plugins-0.9.0.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - main [MainThread]: End processing [beet-plugins]: success
+[2023-08-05 21:57:37] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.2.0.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - processPackages [edu-rdm-integration]: Remove: archive file [/home/abi/fetcher/tmp/edu-rdm-integration-0.2.1.tar.gz]
+[2023-08-05 21:57:37] INFO root fetch - main [MainThread]: End processing [edu-rdm-integration]: success
+[2023-08-05 21:57:40] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.8-py3-none-any.whl.zip]
+[2023-08-05 21:57:40] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.80-py3-none-any.whl.zip]
+[2023-08-05 21:57:40] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
+[2023-08-05 21:57:40] INFO root fetch - main [MainThread]: Store serial: [19188836]
