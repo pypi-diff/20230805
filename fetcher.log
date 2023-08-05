@@ -8733,3 +8733,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:46:38] INFO root fetch - processPackages [odoo12-addon-website-legal-page]: Remove: archive file [/home/abi/fetcher/tmp/odoo12_addon_website_legal_page-12.0.1.1.0.99.dev9-py3-none-any.whl.zip]
 [2023-08-05 07:46:38] INFO root fetch - main [MainThread]: End processing [odoo12-addon-website-legal-page]: success
 [2023-08-05 07:46:38] INFO root fetch - main [MainThread]: Store serial: [19184529]
+[2023-08-05 07:51:42] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184529]
+[2023-08-05 07:51:47] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 07:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dispersenn2
+[2023-08-05 07:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-soap
+[2023-08-05 07:51:47] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyviscous
+[2023-08-05 07:51:47] INFO root fetch - processPackages [dispersenn2]: New version: [0.0.5] Old Version: [0.0.4]
+[2023-08-05 07:51:47] INFO root fetch - processPackages [pyviscous]: New version: [2.1.1] Old Version: [2.1.0]
+[2023-08-05 07:51:47] INFO root fetch - processPackages [pypomes-soap]: New version: [0.1.4] Old Version: [0.1.3]
+[2023-08-05 07:51:47] INFO root fetch - processPackages [dispersenn2]: Downloading https://files.pythonhosted.org/packages/58/0b/fb034b58d9a148e381cfa11a1f6d1d2c3889345b21274293e58d2063e1cb/dispersenn2-0.0.4.tar.gz
+[2023-08-05 07:51:47] INFO root fetch - processPackages [pyviscous]: Downloading https://files.pythonhosted.org/packages/1c/7a/d6923e9095aa140df6948129762d5af05694d453c16e63217fea2d70e6fd/pyviscous-2.1.0.tar.gz
+[2023-08-05 07:51:47] INFO root fetch - processPackages [pypomes-soap]: Downloading https://files.pythonhosted.org/packages/f3/a0/115d9b09a511a5e718845d9c3a06e17a3fac761fcd168eb0b15df55e9215/pypomes_soap-0.1.3.tar.gz
+[2023-08-05 07:51:47] INFO root fetch - processPackages [dispersenn2]: Downloading https://files.pythonhosted.org/packages/47/83/5b2fb65ad6600c5fa574523d580949c27698dee2ba35f2503c7294e2ade7/dispersenn2-0.0.5.tar.gz
+[2023-08-05 07:51:47] INFO root fetch - processPackages [dispersenn2]: executing diffoscope
+[2023-08-05 07:51:47] INFO root fetch - processPackages [dispersenn2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dispersenn2-0.0.4.tar.gz tmp/dispersenn2-0.0.5.tar.gz --markdown 20230805/d/dispersenn2/0.0.4-0.0.5/diff.md --exclude *.pyd
+[2023-08-05 07:51:47] INFO root fetch - processPackages [pyviscous]: Downloading https://files.pythonhosted.org/packages/b9/46/68d6ea8749263e389163a8f12cd5c6b962520f326d654a4272b2fe121564/pyviscous-2.1.1.tar.gz
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pypomes-soap]: Downloading https://files.pythonhosted.org/packages/d2/73/6695be8f0ae49f8fff376ede252297a18593e1e9265642b16538837706db/pypomes_soap-0.1.4.tar.gz
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pyviscous]: executing diffoscope
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pyviscous]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyviscous-2.1.0.tar.gz tmp/pyviscous-2.1.1.tar.gz --markdown 20230805/p/pyviscous/2.1.0-2.1.1/diff.md --exclude *.pyd
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pypomes-soap]: executing diffoscope
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pypomes-soap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_soap-0.1.3.tar.gz tmp/pypomes_soap-0.1.4.tar.gz --markdown 20230805/p/pypomes-soap/0.1.3-0.1.4/diff.md --exclude *.pyd
+[2023-08-05 07:51:48] INFO root fetch - processPackages [dispersenn2]: Remove: archive file [/home/abi/fetcher/tmp/dispersenn2-0.0.4.tar.gz]
+[2023-08-05 07:51:48] INFO root fetch - processPackages [dispersenn2]: Remove: archive file [/home/abi/fetcher/tmp/dispersenn2-0.0.5.tar.gz]
+[2023-08-05 07:51:48] INFO root fetch - main [MainThread]: End processing [dispersenn2]: success
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pyviscous]: Remove: archive file [/home/abi/fetcher/tmp/pyviscous-2.1.0.tar.gz]
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pyviscous]: Remove: archive file [/home/abi/fetcher/tmp/pyviscous-2.1.1.tar.gz]
+[2023-08-05 07:51:48] INFO root fetch - main [MainThread]: End processing [pyviscous]: success
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pypomes-soap]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_soap-0.1.3.tar.gz]
+[2023-08-05 07:51:48] INFO root fetch - processPackages [pypomes-soap]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_soap-0.1.4.tar.gz]
+[2023-08-05 07:51:48] INFO root fetch - main [MainThread]: End processing [pypomes-soap]: success
+[2023-08-05 07:51:48] INFO root fetch - main [MainThread]: Store serial: [19184538]
