@@ -16686,3 +16686,87 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:18:23] INFO root fetch - processPackages [serpyco-rs]: Remove: archive file [/home/abi/fetcher/tmp/serpyco_rs-0.9.3.tar.gz]
 [2023-08-05 20:18:23] INFO root fetch - main [MainThread]: End processing [serpyco-rs]: success
 [2023-08-05 20:18:23] INFO root fetch - main [MainThread]: Store serial: [19188397]
+[2023-08-05 20:23:27] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188397]
+[2023-08-05 20:23:31] INFO root fetch - main [MainThread]: Found 9 changed packages
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: niantongEEG
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pygmalion
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: MC6809
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: logger-local
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: python-osc
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: ipc-worker
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: python-roborock
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: score-models
+[2023-08-05 20:23:31] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: gammarer.aws-ecs-fargate-task-termination-detection-event-rule
+[2023-08-05 20:23:32] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [logger-local]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [python-osc]: New version: [1.8.3] Old Version: [1.8.2]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [MC6809]: New version: [0.7.1] Old Version: [0.7.0rc1]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/21/e1/7a45a748162f16f488c16187a0b07c25201df5531bf12da29ff61c6d7db5/logger-local-0.0.8.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/df/79/de75e268ced8265f0236fc0c57a53bb8c2d88d4e90b3c3e0a0b87f048615/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [pygmalion]: New version: [0.1.6] Old Version: [0.1.5]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [niantongEEG]: New version: [0.1.3.9] Old Version: [0.1.3.8]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [python-roborock]: New version: [0.9.0rc0] Old Version: [0.9.0]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [score-models]: New version: [0.4.9] Old Version: [0.4.8]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [ipc-worker]: New version: [0.1.1] Old Version: [0.0.9]
+[2023-08-05 20:23:32] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/24/2a/e820f8e6e4b69f029d773ec6775f9a54e5178c2b7cf2f633a3a4e7f8599f/ipc_worker-0.0.9-py3-none-any.whl
+[2023-08-05 20:23:32] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/bc/a5/7bd08437421c34e92b81b72e3d3eaf9ab00bc7dcca9dd03a427476c13e59/python_roborock-0.9.0.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [python-osc]: Downloading https://files.pythonhosted.org/packages/ff/0e/45b2c1a492d6f3dcdc4cb1a89da1bda9ee2d5743536e7342dd5d8f133cb1/python-osc-1.8.2.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [MC6809]: Downloading https://files.pythonhosted.org/packages/42/84/1d63455ef24a42ec0d59f199f53420d13652f4c45a04b315a5faff3ad2c2/MC6809-0.7.0rc1.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [niantongEEG]: Downloading https://files.pythonhosted.org/packages/25/7b/a121b3018fb92884b2c3bd01357e615969454e5b603a038b0a5ec3337e86/NiantongEEG-0.1.3.8.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [logger-local]: Downloading https://files.pythonhosted.org/packages/2d/a9/d7815ae572e09b03370b309ad1bf127cf7c8f4c91b3ddd26fd0043a2e559/logger-local-0.0.9.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [pygmalion]: Downloading https://files.pythonhosted.org/packages/88/a7/11d722e97ec65f03c3ae34685996f50b624040c6cccfe484240e10928b6e/pygmalion-0.1.5.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/13/25/c4f11b94165b50732fb957169d3c5a3de0c515133214bbdff7a509db5859/score_models-0.4.8.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [logger-local]: executing diffoscope
+[2023-08-05 20:23:32] INFO root fetch - processPackages [logger-local]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/logger-local-0.0.8.tar.gz tmp/logger-local-0.0.9.tar.gz --markdown 20230805/l/logger-local/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 20:23:32] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Downloading https://files.pythonhosted.org/packages/c7/e3/724d40f647e0f9c9266676d8e0a5644d591def8f3febf064538d3d138e4e/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz
+[2023-08-05 20:23:32] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/b2/d6/a1bfc12e3455f7987889d00aa7ea35027f9b68f59a69994daa69b72198e9/ipc_worker-0.1.1-py3-none-any.whl
+[2023-08-05 20:23:32] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: executing diffoscope
+[2023-08-05 20:23:32] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz --markdown 20230805/g/gammarer.aws-ecs-fargate-task-termination-detection-event-rule/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-05 20:23:32] INFO root fetch - processPackages [python-osc]: Downloading https://files.pythonhosted.org/packages/2b/23/2dba900b73bae16117c9d69b44774865392dc30bbc80faa7b5b5fc524fc9/python-osc-1.8.3.tar.gz
+[2023-08-05 20:23:33] INFO root fetch - processPackages [MC6809]: Downloading https://files.pythonhosted.org/packages/0f/85/158b6d472d7a66e67a099836de599250f3e08b7abc646ca011000d00df8c/MC6809-0.7.1.tar.gz
+[2023-08-05 20:23:33] INFO root fetch - processPackages [python-roborock]: Downloading https://files.pythonhosted.org/packages/40/9b/30bb82604def56c9a66db0578b68938e38bd30a9c931295d66012a137825/python_roborock-0.9.0rc0.tar.gz
+[2023-08-05 20:23:33] INFO root fetch - processPackages [niantongEEG]: Downloading https://files.pythonhosted.org/packages/bc/79/61c913a929ff306bd6cb372d6e141f76cc5c8ae22cf6a903fd25b278e5c2/NiantongEEG-0.1.3.9.tar.gz
+[2023-08-05 20:23:33] INFO root fetch - processPackages [ipc-worker]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [ipc-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipc_worker-0.0.9-py3-none-any.whl.zip tmp/ipc_worker-0.1.1-py3-none-any.whl.zip --markdown 20230805/i/ipc-worker/0.0.9-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [pygmalion]: Downloading https://files.pythonhosted.org/packages/53/6f/3dc65363e1435cd72b806a70781452ab27647acda9bdc9463e26e6f69a63/pygmalion-0.1.6.tar.gz
+[2023-08-05 20:23:33] INFO root fetch - processPackages [score-models]: Downloading https://files.pythonhosted.org/packages/d0/89/8850c6f6a0524ad64c30b862a871bdb36a9eda0f7f8b89c7df1c99231158/score_models-0.4.9.tar.gz
+[2023-08-05 20:23:33] INFO root fetch - processPackages [python-osc]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [python-osc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python-osc-1.8.2.tar.gz tmp/python-osc-1.8.3.tar.gz --markdown 20230805/p/python-osc/1.8.2-1.8.3/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [niantongEEG]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [niantongEEG]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/NiantongEEG-0.1.3.8.tar.gz tmp/NiantongEEG-0.1.3.9.tar.gz --markdown 20230805/n/niantongEEG/0.1.3.8-0.1.3.9/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [python-roborock]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [python-roborock]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/python_roborock-0.9.0.tar.gz tmp/python_roborock-0.9.0rc0.tar.gz --markdown 20230805/p/python-roborock/0.9.0-0.9.0rc0/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [MC6809]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [MC6809]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/MC6809-0.7.0rc1.tar.gz tmp/MC6809-0.7.1.tar.gz --markdown 20230805/M/MC6809/0.7.0rc1-0.7.1/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [score-models]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [score-models]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/score_models-0.4.8.tar.gz tmp/score_models-0.4.9.tar.gz --markdown 20230805/s/score-models/0.4.8-0.4.9/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [pygmalion]: executing diffoscope
+[2023-08-05 20:23:33] INFO root fetch - processPackages [pygmalion]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pygmalion-0.1.5.tar.gz tmp/pygmalion-0.1.6.tar.gz --markdown 20230805/p/pygmalion/0.1.5-0.1.6/diff.md --exclude *.pyd
+[2023-08-05 20:23:33] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.8.tar.gz]
+[2023-08-05 20:23:33] INFO root fetch - processPackages [logger-local]: Remove: archive file [/home/abi/fetcher/tmp/logger-local-0.0.9.tar.gz]
+[2023-08-05 20:23:33] INFO root fetch - main [MainThread]: End processing [logger-local]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.8.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: Remove: archive file [/home/abi/fetcher/tmp/gammarer.aws-ecs-fargate-task-termination-detection-event-rule-0.4.9.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [gammarer.aws-ecs-fargate-task-termination-detection-event-rule]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [python-osc]: Remove: archive file [/home/abi/fetcher/tmp/python-osc-1.8.2.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [python-osc]: Remove: archive file [/home/abi/fetcher/tmp/python-osc-1.8.3.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [python-osc]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [niantongEEG]: Remove: archive file [/home/abi/fetcher/tmp/NiantongEEG-0.1.3.8.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [niantongEEG]: Remove: archive file [/home/abi/fetcher/tmp/NiantongEEG-0.1.3.9.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [niantongEEG]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.9-py3-none-any.whl.zip]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.1.1-py3-none-any.whl.zip]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [ipc-worker]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [python-roborock]: Remove: archive file [/home/abi/fetcher/tmp/python_roborock-0.9.0rc0.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [python-roborock]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.8.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [score-models]: Remove: archive file [/home/abi/fetcher/tmp/score_models-0.4.9.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [score-models]: success
+[2023-08-05 20:23:34] INFO root fetch - processPackages [MC6809]: Remove: archive file [/home/abi/fetcher/tmp/MC6809-0.7.0rc1.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - processPackages [MC6809]: Remove: archive file [/home/abi/fetcher/tmp/MC6809-0.7.1.tar.gz]
+[2023-08-05 20:23:34] INFO root fetch - main [MainThread]: End processing [MC6809]: success
+[2023-08-05 20:23:35] INFO root fetch - processPackages [pygmalion]: Remove: archive file [/home/abi/fetcher/tmp/pygmalion-0.1.5.tar.gz]
+[2023-08-05 20:23:35] INFO root fetch - processPackages [pygmalion]: Remove: archive file [/home/abi/fetcher/tmp/pygmalion-0.1.6.tar.gz]
+[2023-08-05 20:23:35] INFO root fetch - main [MainThread]: End processing [pygmalion]: success
+[2023-08-05 20:23:35] INFO root fetch - main [MainThread]: Store serial: [19188428]
