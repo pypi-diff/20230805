@@ -14065,3 +14065,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:41:35] INFO root fetch - processPackages [codeinterpreterapi]: Remove: archive file [/home/abi/fetcher/tmp/codeinterpreterapi-0.0.9.tar.gz]
 [2023-08-05 16:41:35] INFO root fetch - main [MainThread]: End processing [codeinterpreterapi]: success
 [2023-08-05 16:41:35] INFO root fetch - main [MainThread]: Store serial: [19187163]
+[2023-08-05 16:46:38] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187163]
+[2023-08-05 16:46:43] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 16:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: xerparser
+[2023-08-05 16:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: opentty
+[2023-08-05 16:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: novadata-utils
+[2023-08-05 16:46:43] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Nutter-Tools
+[2023-08-05 16:46:43] INFO root fetch - processPackages [Nutter-Tools]: New version: [0.0.31] Old Version: [0.0.3]
+[2023-08-05 16:46:43] INFO root fetch - processPackages [opentty]: New version: [1.1] Old Version: [1.0rc4]
+[2023-08-05 16:46:43] INFO root fetch - processPackages [xerparser]: New version: [0.9.9] Old Version: [0.9.8]
+[2023-08-05 16:46:44] INFO root fetch - processPackages [novadata-utils]: New version: [0.2.6] Old Version: [0.2.5]
+[2023-08-05 16:46:44] INFO root fetch - processPackages [opentty]: Downloading https://files.pythonhosted.org/packages/a6/8f/a2a3276bf3a37acd2f78e5d218c01dadf180390c5043cefba46d38cee607/opentty-1.0rc4.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [Nutter-Tools]: Downloading https://files.pythonhosted.org/packages/89/24/a8c8c9caee5ff07a91b8a1b20ff48bb7e4147a8d94d69c3488d9fd94afb1/Nutter-Tools-0.0.3.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/d9/b8/18f3046e2056eba25c985ca6032f27b0e998fc148dcae61ba8c1137c2fda/xerparser-0.9.8.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [novadata-utils]: Downloading https://files.pythonhosted.org/packages/f4/58/072df4c80f90e2c80569e80419b05fc8f5295c87401e9b71597f731fb9e3/novadata_utils-0.2.5.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [opentty]: Downloading https://files.pythonhosted.org/packages/ef/a1/5e2ca733dabac920962eef040f3be41efa92c6881f15d1c110f965359b3b/opentty-1.1.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [xerparser]: Downloading https://files.pythonhosted.org/packages/22/42/f0e78f46e0368cb92bc480f0764ca6ef9fc9b783412c97ad2208002fd0ee/xerparser-0.9.9.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [Nutter-Tools]: Downloading https://files.pythonhosted.org/packages/e7/fc/3e4e60ee2067fca109f1fc0ac466fa79d0a399ea0e9004f946952983b5e3/Nutter-Tools-0.0.31.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [opentty]: executing diffoscope
+[2023-08-05 16:46:44] INFO root fetch - processPackages [opentty]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opentty-1.0rc4.tar.gz tmp/opentty-1.1.tar.gz --markdown 20230805/o/opentty/1.0rc4-1.1/diff.md --exclude *.pyd
+[2023-08-05 16:46:44] INFO root fetch - processPackages [xerparser]: executing diffoscope
+[2023-08-05 16:46:44] INFO root fetch - processPackages [xerparser]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xerparser-0.9.8.tar.gz tmp/xerparser-0.9.9.tar.gz --markdown 20230805/x/xerparser/0.9.8-0.9.9/diff.md --exclude *.pyd
+[2023-08-05 16:46:44] INFO root fetch - processPackages [Nutter-Tools]: executing diffoscope
+[2023-08-05 16:46:44] INFO root fetch - processPackages [Nutter-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nutter-Tools-0.0.3.tar.gz tmp/Nutter-Tools-0.0.31.tar.gz --markdown 20230805/N/Nutter-Tools/0.0.3-0.0.31/diff.md --exclude *.pyd
+[2023-08-05 16:46:44] INFO root fetch - processPackages [novadata-utils]: Downloading https://files.pythonhosted.org/packages/ba/93/7e4f28e5f69c0d9ac1052bec0a0c42c1bc27db2ea308483cc758b9d88137/novadata_utils-0.2.6.tar.gz
+[2023-08-05 16:46:44] INFO root fetch - processPackages [novadata-utils]: executing diffoscope
+[2023-08-05 16:46:44] INFO root fetch - processPackages [novadata-utils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/novadata_utils-0.2.5.tar.gz tmp/novadata_utils-0.2.6.tar.gz --markdown 20230805/n/novadata-utils/0.2.5-0.2.6/diff.md --exclude *.pyd
+[2023-08-05 16:46:45] INFO root fetch - processPackages [opentty]: Remove: archive file [/home/abi/fetcher/tmp/opentty-1.0rc4.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - processPackages [opentty]: Remove: archive file [/home/abi/fetcher/tmp/opentty-1.1.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - main [MainThread]: End processing [opentty]: success
+[2023-08-05 16:46:45] INFO root fetch - processPackages [Nutter-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Nutter-Tools-0.0.3.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - processPackages [Nutter-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Nutter-Tools-0.0.31.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - main [MainThread]: End processing [Nutter-Tools]: success
+[2023-08-05 16:46:45] INFO root fetch - processPackages [novadata-utils]: Remove: archive file [/home/abi/fetcher/tmp/novadata_utils-0.2.5.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - processPackages [novadata-utils]: Remove: archive file [/home/abi/fetcher/tmp/novadata_utils-0.2.6.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - main [MainThread]: End processing [novadata-utils]: success
+[2023-08-05 16:46:45] INFO root fetch - processPackages [xerparser]: Remove: archive file [/home/abi/fetcher/tmp/xerparser-0.9.8.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - processPackages [xerparser]: Remove: archive file [/home/abi/fetcher/tmp/xerparser-0.9.9.tar.gz]
+[2023-08-05 16:46:45] INFO root fetch - main [MainThread]: End processing [xerparser]: success
+[2023-08-05 16:46:45] INFO root fetch - main [MainThread]: Store serial: [19187173]
