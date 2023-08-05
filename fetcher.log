@@ -9117,3 +9117,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 08:44:20] INFO root fetch - processPackages [GalSim]: Remove: archive file [/home/abi/fetcher/tmp/GalSim-2.4.9.tar.gz]
 [2023-08-05 08:44:20] INFO root fetch - main [MainThread]: End processing [GalSim]: success
 [2023-08-05 08:44:20] INFO root fetch - main [MainThread]: Store serial: [19184692]
+[2023-08-05 08:49:24] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184692]
+[2023-08-05 08:49:29] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 08:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: shortgpt
+[2023-08-05 08:49:29] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: up2b
+[2023-08-05 08:49:29] INFO root fetch - processPackages [shortgpt]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 08:49:29] INFO root fetch - processPackages [up2b]: New version: [0.7.1a5] Old Version: [0.7.1a4]
+[2023-08-05 08:49:29] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/bf/76/242b17d120ef0ec11c61a6e3b5c73947b8c36a6d416bd14f56a31d1c704a/shortgpt-0.1.0.tar.gz
+[2023-08-05 08:49:29] INFO root fetch - processPackages [up2b]: Downloading https://files.pythonhosted.org/packages/7b/f6/fac5faadd126cd0a5300c26172981ea224af506e5af26fd863ad15a4f5f3/up2b-0.7.1a4.tar.gz
+[2023-08-05 08:49:29] INFO root fetch - processPackages [shortgpt]: Downloading https://files.pythonhosted.org/packages/f0/09/6926178edf84be16d235714489ff8231e7551baf9a5de3afb74e5ea82664/shortgpt-0.1.1.tar.gz
+[2023-08-05 08:49:29] INFO root fetch - processPackages [up2b]: Downloading https://files.pythonhosted.org/packages/6a/34/fad06c3997bff371ed2f54469dff222eb1da76061e9913c59bc103b7e518/up2b-0.7.1a5.tar.gz
+[2023-08-05 08:49:30] INFO root fetch - processPackages [shortgpt]: executing diffoscope
+[2023-08-05 08:49:30] INFO root fetch - processPackages [shortgpt]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/shortgpt-0.1.0.tar.gz tmp/shortgpt-0.1.1.tar.gz --markdown 20230805/s/shortgpt/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 08:49:30] INFO root fetch - processPackages [up2b]: executing diffoscope
+[2023-08-05 08:49:30] INFO root fetch - processPackages [up2b]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/up2b-0.7.1a4.tar.gz tmp/up2b-0.7.1a5.tar.gz --markdown 20230805/u/up2b/0.7.1a4-0.7.1a5/diff.md --exclude *.pyd
+[2023-08-05 08:49:30] INFO root fetch - processPackages [up2b]: Remove: archive file [/home/abi/fetcher/tmp/up2b-0.7.1a4.tar.gz]
+[2023-08-05 08:49:30] INFO root fetch - processPackages [up2b]: Remove: archive file [/home/abi/fetcher/tmp/up2b-0.7.1a5.tar.gz]
+[2023-08-05 08:49:30] INFO root fetch - main [MainThread]: End processing [up2b]: success
+[2023-08-05 08:49:31] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.0.tar.gz]
+[2023-08-05 08:49:31] INFO root fetch - processPackages [shortgpt]: Remove: archive file [/home/abi/fetcher/tmp/shortgpt-0.1.1.tar.gz]
+[2023-08-05 08:49:31] INFO root fetch - main [MainThread]: End processing [shortgpt]: success
+[2023-08-05 08:49:31] INFO root fetch - main [MainThread]: Store serial: [19184699]
