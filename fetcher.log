@@ -17215,3 +17215,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:00:08] INFO root fetch - processPackages [fast-depends]: Remove: archive file [/home/abi/fetcher/tmp/fast_depends-2.1.5.tar.gz]
 [2023-08-05 21:00:08] INFO root fetch - main [MainThread]: End processing [fast-depends]: success
 [2023-08-05 21:00:08] INFO root fetch - main [MainThread]: Store serial: [19188635]
+[2023-08-05 21:05:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188635]
+[2023-08-05 21:05:17] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: PPP-Language-Translation
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: spec2nii
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: ladderbot
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pkgcore
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pyenphase
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ladderbot]: New version: [0.0.8] Old Version: [0.0.7]
+[2023-08-05 21:05:17] INFO root fetch - processPackages [pyenphase]: New version: [0.7.0] Old Version: [0.6.1]
+[2023-08-05 21:05:17] INFO root fetch - processPackages [pkgcore]: New version: [0.9.7] Old Version: [0.9.6]
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/cd/7d/33141cb5d1ddd9e33bdd8fd0093cc333a6da5807585489a165df83209a55/ladderbot-0.0.7.tar.gz
+[2023-08-05 21:05:17] INFO root fetch - processPackages [spec2nii]: New version: [0.7.0] Old Version: [0.6.9]
+[2023-08-05 21:05:17] WARNING root fetch - processPackages [PPP-Language-Translation]: Skipping, unable to determine old version
+[2023-08-05 21:05:17] INFO root fetch - main [MainThread]: End processing [PPP-Language-Translation] error
+[2023-08-05 21:05:17] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/97/f3/696be0badabfa52cf9740511e69df648363960329f0ac7b1a13d6a03d5cf/pyenphase-0.6.1.tar.gz
+[2023-08-05 21:05:17] INFO root fetch - processPackages [spec2nii]: Downloading https://files.pythonhosted.org/packages/3a/84/98a24fb2a2fc6f474b77f0cb4c9e7a3a7afd02d8d04fdd146911985daf82/spec2nii-0.6.9.tar.gz
+[2023-08-05 21:05:17] INFO root fetch - processPackages [pkgcore]: Downloading https://files.pythonhosted.org/packages/b0/08/a6af872e6f6269f3b400686dde74bb4c6cad0c6a7ce8e1e998ee9efdd92d/pkgcore-0.9.6.tar.gz
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ladderbot]: Downloading https://files.pythonhosted.org/packages/e5/e1/cc5f3a847cf2d38e7aaf9e6801e57ff12e3f3cc59754fb9b36a461f387e7/ladderbot-0.0.8.tar.gz
+[2023-08-05 21:05:17] INFO root fetch - processPackages [pyenphase]: Downloading https://files.pythonhosted.org/packages/8e/3e/004472cc8e37ab3e42973c2e3ef296f552f896c05d146bd7df7009af9ed3/pyenphase-0.7.0.tar.gz
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ladderbot]: executing diffoscope
+[2023-08-05 21:05:17] INFO root fetch - processPackages [ladderbot]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ladderbot-0.0.7.tar.gz tmp/ladderbot-0.0.8.tar.gz --markdown 20230805/l/ladderbot/0.0.7-0.0.8/diff.md --exclude *.pyd
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pyenphase]: executing diffoscope
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pyenphase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyenphase-0.6.1.tar.gz tmp/pyenphase-0.7.0.tar.gz --markdown 20230805/p/pyenphase/0.6.1-0.7.0/diff.md --exclude *.pyd
+[2023-08-05 21:05:18] INFO root fetch - processPackages [spec2nii]: Downloading https://files.pythonhosted.org/packages/19/f5/7f8d1dc9b5534b71e430c534b515bd0f047201c2fab1bf7f1ef5a8513d31/spec2nii-0.7.0.tar.gz
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pkgcore]: Downloading https://files.pythonhosted.org/packages/fd/25/d3bb2106d42651237b8bd4abdf0129981aaacbe65560bf7ec8744b2f54fc/pkgcore-0.9.7.tar.gz
+[2023-08-05 21:05:18] INFO root fetch - processPackages [spec2nii]: executing diffoscope
+[2023-08-05 21:05:18] INFO root fetch - processPackages [spec2nii]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/spec2nii-0.6.9.tar.gz tmp/spec2nii-0.7.0.tar.gz --markdown 20230805/s/spec2nii/0.6.9-0.7.0/diff.md --exclude *.pyd
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pkgcore]: executing diffoscope
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pkgcore]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pkgcore-0.9.6.tar.gz tmp/pkgcore-0.9.7.tar.gz --markdown 20230805/p/pkgcore/0.9.6-0.9.7/diff.md --exclude *.pyd
+[2023-08-05 21:05:18] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.7.tar.gz]
+[2023-08-05 21:05:18] INFO root fetch - processPackages [ladderbot]: Remove: archive file [/home/abi/fetcher/tmp/ladderbot-0.0.8.tar.gz]
+[2023-08-05 21:05:18] INFO root fetch - main [MainThread]: End processing [ladderbot]: success
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.6.1.tar.gz]
+[2023-08-05 21:05:18] INFO root fetch - processPackages [pyenphase]: Remove: archive file [/home/abi/fetcher/tmp/pyenphase-0.7.0.tar.gz]
+[2023-08-05 21:05:18] INFO root fetch - main [MainThread]: End processing [pyenphase]: success
+[2023-08-05 21:05:19] INFO root fetch - processPackages [spec2nii]: Remove: archive file [/home/abi/fetcher/tmp/spec2nii-0.6.9.tar.gz]
+[2023-08-05 21:05:19] INFO root fetch - processPackages [spec2nii]: Remove: archive file [/home/abi/fetcher/tmp/spec2nii-0.7.0.tar.gz]
+[2023-08-05 21:05:19] INFO root fetch - main [MainThread]: End processing [spec2nii]: success
+[2023-08-05 21:05:20] INFO root fetch - processPackages [pkgcore]: Remove: archive file [/home/abi/fetcher/tmp/pkgcore-0.9.6.tar.gz]
+[2023-08-05 21:05:20] INFO root fetch - processPackages [pkgcore]: Remove: archive file [/home/abi/fetcher/tmp/pkgcore-0.9.7.tar.gz]
+[2023-08-05 21:05:20] INFO root fetch - main [MainThread]: End processing [pkgcore]: success
+[2023-08-05 21:05:20] INFO root fetch - main [MainThread]: Store serial: [19188653]
