@@ -8499,3 +8499,51 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:31:00] INFO root fetch - processPackages [interpret-core]: Remove: archive file [/home/abi/fetcher/tmp/interpret-core-0.4.3.tar.gz]
 [2023-08-05 07:31:00] INFO root fetch - main [MainThread]: End processing [interpret-core]: success
 [2023-08-05 07:31:00] INFO root fetch - main [MainThread]: Store serial: [19184461]
+[2023-08-05 07:36:05] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184461]
+[2023-08-05 07:36:10] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 07:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: aigc-zoo
+[2023-08-05 07:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pypomes-db
+[2023-08-05 07:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: optimus-prime-transformers
+[2023-08-05 07:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: weathermap
+[2023-08-05 07:36:10] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: rwkv
+[2023-08-05 07:36:10] INFO root fetch - processPackages [weathermap]: New version: [1.0.6] Old Version: [1.0.5]
+[2023-08-05 07:36:10] INFO root fetch - processPackages [aigc-zoo]: New version: [0.1.13.post0] Old Version: [0.1.13]
+[2023-08-05 07:36:10] INFO root fetch - processPackages [weathermap]: Downloading https://files.pythonhosted.org/packages/07/37/198cd149e8e1c5e4b6ad0ca6d10ffce1d745cfb42f90b9927a05cdcb2fde/weathermap-1.0.5.tar.gz
+[2023-08-05 07:36:10] INFO root fetch - processPackages [pypomes-db]: New version: [0.2.1] Old Version: [0.2.0]
+[2023-08-05 07:36:10] INFO root fetch - processPackages [optimus-prime-transformers]: New version: [1.2.1] Old Version: [1.1.9]
+[2023-08-05 07:36:10] INFO root fetch - processPackages [rwkv]: New version: [0.8.9] Old Version: [0.8.8]
+[2023-08-05 07:36:10] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/c1/a8/bf21a0d3cf3c1f691be2072cf8bdbd25cdb360fdb1f7522f0e13add4a390/aigc_zoo-0.1.13-py3-none-any.whl
+[2023-08-05 07:36:11] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/ab/93/3b85210b3c65e68a72155f2deba8049fc702e960af9544d9bd68de0c22ce/pypomes_db-0.2.0.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/6c/0d/7501aa78625d5fb7efa39ef91e324e062e7a87678d553c6f72d729c47e35/optimus-prime-transformers-1.1.9.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/1d/7d/6a406912dbf0c83f57ba53b08790f54283440fa016cbcf35e46963c385ac/rwkv-0.8.8.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [weathermap]: Downloading https://files.pythonhosted.org/packages/61/e9/f65e685569cd1c9e950812520577eb3e7348be9a55816317fa1f8de8ea32/weathermap-1.0.6.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [aigc-zoo]: Downloading https://files.pythonhosted.org/packages/f7/4d/f44177ce01e595e0b3c2221c463de3c8f1cf8d69568157bbe5646ad8e034/aigc_zoo-0.1.13.post0-py3-none-any.whl
+[2023-08-05 07:36:11] INFO root fetch - processPackages [weathermap]: executing diffoscope
+[2023-08-05 07:36:11] INFO root fetch - processPackages [weathermap]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/weathermap-1.0.5.tar.gz tmp/weathermap-1.0.6.tar.gz --markdown 20230805/w/weathermap/1.0.5-1.0.6/diff.md --exclude *.pyd
+[2023-08-05 07:36:11] INFO root fetch - processPackages [aigc-zoo]: executing diffoscope
+[2023-08-05 07:36:11] INFO root fetch - processPackages [aigc-zoo]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/aigc_zoo-0.1.13-py3-none-any.whl.zip tmp/aigc_zoo-0.1.13.post0-py3-none-any.whl.zip --markdown 20230805/a/aigc-zoo/0.1.13-0.1.13.post0/diff.md --exclude *.pyd
+[2023-08-05 07:36:11] INFO root fetch - processPackages [pypomes-db]: Downloading https://files.pythonhosted.org/packages/b1/a4/41725cf9ed13e38c77d625547bfa32707742229f82d1db03c7545eb1e463/pypomes_db-0.2.1.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [optimus-prime-transformers]: Downloading https://files.pythonhosted.org/packages/97/1f/24db853619b847050407c40dfe4701b579feae85433984ab166bc105cfdf/optimus-prime-transformers-1.2.1.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [rwkv]: Downloading https://files.pythonhosted.org/packages/0e/e1/7d32d3ae252f75f59d18e86cd05537fbe0be2b947cebca19958d7ad3ce83/rwkv-0.8.9.tar.gz
+[2023-08-05 07:36:11] INFO root fetch - processPackages [pypomes-db]: executing diffoscope
+[2023-08-05 07:36:11] INFO root fetch - processPackages [pypomes-db]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypomes_db-0.2.0.tar.gz tmp/pypomes_db-0.2.1.tar.gz --markdown 20230805/p/pypomes-db/0.2.0-0.2.1/diff.md --exclude *.pyd
+[2023-08-05 07:36:11] INFO root fetch - processPackages [optimus-prime-transformers]: executing diffoscope
+[2023-08-05 07:36:11] INFO root fetch - processPackages [optimus-prime-transformers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optimus-prime-transformers-1.1.9.tar.gz tmp/optimus-prime-transformers-1.2.1.tar.gz --markdown 20230805/o/optimus-prime-transformers/1.1.9-1.2.1/diff.md --exclude *.pyd
+[2023-08-05 07:36:11] INFO root fetch - processPackages [rwkv]: executing diffoscope
+[2023-08-05 07:36:11] INFO root fetch - processPackages [rwkv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rwkv-0.8.8.tar.gz tmp/rwkv-0.8.9.tar.gz --markdown 20230805/r/rwkv/0.8.8-0.8.9/diff.md --exclude *.pyd
+[2023-08-05 07:36:12] INFO root fetch - processPackages [weathermap]: Remove: archive file [/home/abi/fetcher/tmp/weathermap-1.0.5.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - processPackages [weathermap]: Remove: archive file [/home/abi/fetcher/tmp/weathermap-1.0.6.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - main [MainThread]: End processing [weathermap]: success
+[2023-08-05 07:36:12] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.13-py3-none-any.whl.zip]
+[2023-08-05 07:36:12] INFO root fetch - processPackages [aigc-zoo]: Remove: archive file [/home/abi/fetcher/tmp/aigc_zoo-0.1.13.post0-py3-none-any.whl.zip]
+[2023-08-05 07:36:12] INFO root fetch - main [MainThread]: End processing [aigc-zoo]: success
+[2023-08-05 07:36:12] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.2.0.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - processPackages [pypomes-db]: Remove: archive file [/home/abi/fetcher/tmp/pypomes_db-0.2.1.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - main [MainThread]: End processing [pypomes-db]: success
+[2023-08-05 07:36:12] INFO root fetch - processPackages [optimus-prime-transformers]: Remove: archive file [/home/abi/fetcher/tmp/optimus-prime-transformers-1.1.9.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - processPackages [optimus-prime-transformers]: Remove: archive file [/home/abi/fetcher/tmp/optimus-prime-transformers-1.2.1.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - main [MainThread]: End processing [optimus-prime-transformers]: success
+[2023-08-05 07:36:12] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.8.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - processPackages [rwkv]: Remove: archive file [/home/abi/fetcher/tmp/rwkv-0.8.9.tar.gz]
+[2023-08-05 07:36:12] INFO root fetch - main [MainThread]: End processing [rwkv]: success
+[2023-08-05 07:36:12] INFO root fetch - main [MainThread]: Store serial: [19184476]
