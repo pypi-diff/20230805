@@ -6274,3 +6274,97 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 03:47:23] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip]
 [2023-08-05 03:47:23] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
 [2023-08-05 03:47:23] INFO root fetch - main [MainThread]: Store serial: [19183574]
+[2023-08-05 03:52:39] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183574]
+[2023-08-05 03:52:44] INFO root fetch - main [MainThread]: Found 11 changed packages
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: dagknows
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: xdart
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: composabl-ray
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: composabl
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: sgtpyutils
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: datasette-sqlite-http
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: sqlite-http
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: duckdb
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: scmomat
+[2023-08-05 03:52:44] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: xtalx
+[2023-08-05 03:52:44] INFO root fetch - processPackages [datasette-sqlite-http]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [sqlite-http]: New version: [0.1.0a9] Old Version: [0.1.0a8]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [sgtpyutils]: New version: [1.9.144] Old Version: [1.7.94]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [composabl-ray]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [composabl]: New version: [0.3.3] Old Version: [0.3.2]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [dagknows]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [xdart]: New version: [0.12.8] Old Version: [0.12.7]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [scmomat]: New version: [0.2.2] Old Version: [0.2.1]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [xtalx]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [duckdb]: New version: [0.8.2.dev2509] Old Version: [0.8.2.dev2399]
+[2023-08-05 03:52:44] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/4b/20/da8336bce10fc54d00580a2d2d01b3df0b365d562a78287bba0e85672c2f/sqlite_http-0.1.0a8-py3-none-win_amd64.whl
+[2023-08-05 03:52:44] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/1f/81/706d9189c573153f3fcd0451e2ae081a66d17cad0b28f2a12d7cec360629/datasette_sqlite_http-0.1.0a8-py3-none-any.whl
+[2023-08-05 03:52:44] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/8f/a6/4a0957a02c346d0247f86ae9935cd77dfa7bce8813727f8fd07585f61e84/composabl_ray-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:52:44] INFO root fetch - processPackages [sgtpyutils]: Downloading https://files.pythonhosted.org/packages/51/ca/a41982e0e29e52d38873d740db8ea6599ffaebe07175f1cd0db14d089731/sgtpyutils-1.7.94.tar.gz
+[2023-08-05 03:52:44] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/6a/83/dddc7ad724e59f90cf7fc8c5f99aa73f68e441120358ab330de792eaf702/composabl-0.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:52:44] INFO root fetch - processPackages [xdart]: Downloading https://files.pythonhosted.org/packages/7c/03/501ecaeb5e196ad1f7ad4075282a45dda53f3bf9a2673c59706feb6f2aa4/xdart-0.12.7.tar.gz
+[2023-08-05 03:52:45] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/48/5b/85b4c3b7ec270fcce58d0f43343adf5bb53a4bcf74af45dbd3e3940c90b2/dagknows-0.0.8-py3-none-any.whl
+[2023-08-05 03:52:45] INFO root fetch - processPackages [xtalx]: Downloading https://files.pythonhosted.org/packages/42/14/1627b9c796357e8ae7dd765f27de5982dab08981fec9de86dbc12865f1f3/xtalx-1.0.3.tar.gz
+[2023-08-05 03:52:45] INFO root fetch - processPackages [scmomat]: Downloading https://files.pythonhosted.org/packages/d7/b7/e7c073d1dc1fbbf1b619dbfebd9c53944107db1617332943ff568df09ec8/scmomat-0.2.1.tar.gz
+[2023-08-05 03:52:45] INFO root fetch - processPackages [duckdb]: Downloading https://files.pythonhosted.org/packages/73/26/9cf24ef0617a749f5426d8431f36b1d073fd500bd940db1fc9835d9fde62/duckdb-0.8.2.dev2399.tar.gz
+[2023-08-05 03:52:45] WARNING root fetch - processPackages [xdart]: Skipping package: exceeds size limit 16818962>=10485760
+[2023-08-05 03:52:45] INFO root fetch - processPackages [xdart]: Start processing: procmaps
+[2023-08-05 03:52:45] INFO root fetch - main [MainThread]: End processing [xdart] error
+[2023-08-05 03:52:45] WARNING root fetch - processPackages [duckdb]: Skipping package: exceeds size limit 10523138>=10485760
+[2023-08-05 03:52:45] INFO root fetch - main [MainThread]: End processing [duckdb] error
+[2023-08-05 03:52:45] INFO root fetch - processPackages [datasette-sqlite-http]: Downloading https://files.pythonhosted.org/packages/b0/83/ae0d5c860bde5297310227367b4d454674fb4f447072331f06bc6a06e03f/datasette_sqlite_http-0.1.0a9-py3-none-any.whl
+[2023-08-05 03:52:45] INFO root fetch - processPackages [procmaps]: New version: [0.6.4rc1] Old Version: [0.6.3rc1]
+[2023-08-05 03:52:45] INFO root fetch - processPackages [sgtpyutils]: Downloading https://files.pythonhosted.org/packages/0b/65/7dfa2edc9366d64a487a0f371dcadda0c8abff1c84e8807aaa25c079bbb1/sgtpyutils-1.9.144.tar.gz
+[2023-08-05 03:52:45] INFO root fetch - processPackages [composabl]: Downloading https://files.pythonhosted.org/packages/79/19/c15edfac87fe501258b45cb3a84f7c3079dd7d888c7bd3cd2b2433887836/composabl-0.3.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:52:45] INFO root fetch - processPackages [datasette-sqlite-http]: executing diffoscope
+[2023-08-05 03:52:45] INFO root fetch - processPackages [datasette-sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip tmp/datasette_sqlite_http-0.1.0a9-py3-none-any.whl.zip --markdown 20230805/d/datasette-sqlite-http/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-08-05 03:52:45] INFO root fetch - processPackages [xtalx]: Downloading https://files.pythonhosted.org/packages/74/21/f4f5f88d9ba7ef2740b260cfa0e6a73675bc5bca4db65d81a0ac1b509663/xtalx-1.0.4.tar.gz
+[2023-08-05 03:52:45] INFO root fetch - processPackages [scmomat]: Downloading https://files.pythonhosted.org/packages/cb/89/3c2532ef7eb7c8d7c47334595e9bb60233e19ac577e2abcea801d71b7dfc/scmomat-0.2.2.tar.gz
+[2023-08-05 03:52:45] INFO root fetch - processPackages [dagknows]: Downloading https://files.pythonhosted.org/packages/57/73/fdc53628716b16ae897344fbc1d98948616e9c3bbc4e3651b6f1332389fa/dagknows-0.0.9-py3-none-any.whl
+[2023-08-05 03:52:45] INFO root fetch - processPackages [procmaps]: Downloading https://files.pythonhosted.org/packages/35/44/19d305006197a33897989b532c9cc5489644112e27d85f71f757843f8120/procmaps-0.6.3rc1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:52:45] INFO root fetch - processPackages [composabl]: executing diffoscope
+[2023-08-05 03:52:45] INFO root fetch - processPackages [composabl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl-0.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl-0.3.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/c/composabl/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 03:52:45] INFO root fetch - processPackages [xtalx]: executing diffoscope
+[2023-08-05 03:52:45] INFO root fetch - processPackages [xtalx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/xtalx-1.0.3.tar.gz tmp/xtalx-1.0.4.tar.gz --markdown 20230805/x/xtalx/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-05 03:52:45] INFO root fetch - processPackages [scmomat]: executing diffoscope
+[2023-08-05 03:52:45] INFO root fetch - processPackages [scmomat]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/scmomat-0.2.1.tar.gz tmp/scmomat-0.2.2.tar.gz --markdown 20230805/s/scmomat/0.2.1-0.2.2/diff.md --exclude *.pyd
+[2023-08-05 03:52:45] INFO root fetch - processPackages [dagknows]: executing diffoscope
+[2023-08-05 03:52:45] INFO root fetch - processPackages [dagknows]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dagknows-0.0.8-py3-none-any.whl.zip tmp/dagknows-0.0.9-py3-none-any.whl.zip --markdown 20230805/d/dagknows/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 03:52:46] INFO root fetch - processPackages [procmaps]: Downloading https://files.pythonhosted.org/packages/d2/e9/bf8876dee0ff2748a2e2606ee6700da92705ec090029f06fdf2dba0dd996/procmaps-0.6.4rc1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:52:46] INFO root fetch - processPackages [composabl-ray]: Downloading https://files.pythonhosted.org/packages/cd/f3/63c7e7c0aa02e6ec6f36eeca4c6e29158a31374e68c4323892418a351586/composabl_ray-0.3.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 03:52:46] INFO root fetch - processPackages [sgtpyutils]: executing diffoscope
+[2023-08-05 03:52:46] INFO root fetch - processPackages [sgtpyutils]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sgtpyutils-1.7.94.tar.gz tmp/sgtpyutils-1.9.144.tar.gz --markdown 20230805/s/sgtpyutils/1.7.94-1.9.144/diff.md --exclude *.pyd
+[2023-08-05 03:52:46] INFO root fetch - processPackages [procmaps]: executing diffoscope
+[2023-08-05 03:52:46] INFO root fetch - processPackages [procmaps]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/procmaps-0.6.3rc1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/procmaps-0.6.4rc1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/p/procmaps/0.6.3rc1-0.6.4rc1/diff.md --exclude *.pyd
+[2023-08-05 03:52:46] INFO root fetch - processPackages [sqlite-http]: Downloading https://files.pythonhosted.org/packages/c0/94/6ac7a589eda29eab847d6fd95a329ad9f36c2b9079adad05e6f36ded2443/sqlite_http-0.1.0a9-py3-none-win_amd64.whl
+[2023-08-05 03:52:46] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a8-py3-none-any.whl.zip]
+[2023-08-05 03:52:46] INFO root fetch - processPackages [datasette-sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/datasette_sqlite_http-0.1.0a9-py3-none-any.whl.zip]
+[2023-08-05 03:52:46] INFO root fetch - main [MainThread]: End processing [datasette-sqlite-http]: success
+[2023-08-05 03:52:46] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.3.2-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:52:46] INFO root fetch - processPackages [composabl]: Remove: archive file [/home/abi/fetcher/tmp/composabl-0.3.3-cp38-cp38-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:52:46] INFO root fetch - main [MainThread]: End processing [composabl]: success
+[2023-08-05 03:52:46] INFO root fetch - processPackages [xtalx]: Remove: archive file [/home/abi/fetcher/tmp/xtalx-1.0.3.tar.gz]
+[2023-08-05 03:52:46] INFO root fetch - processPackages [xtalx]: Remove: archive file [/home/abi/fetcher/tmp/xtalx-1.0.4.tar.gz]
+[2023-08-05 03:52:46] INFO root fetch - main [MainThread]: End processing [xtalx]: success
+[2023-08-05 03:52:46] INFO root fetch - processPackages [composabl-ray]: executing diffoscope
+[2023-08-05 03:52:46] INFO root fetch - processPackages [composabl-ray]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/composabl_ray-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip tmp/composabl_ray-0.3.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip --markdown 20230805/c/composabl-ray/0.3.2-0.3.3/diff.md --exclude *.pyd
+[2023-08-05 03:52:47] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.8-py3-none-any.whl.zip]
+[2023-08-05 03:52:47] INFO root fetch - processPackages [dagknows]: Remove: archive file [/home/abi/fetcher/tmp/dagknows-0.0.9-py3-none-any.whl.zip]
+[2023-08-05 03:52:47] INFO root fetch - main [MainThread]: End processing [dagknows]: success
+[2023-08-05 03:52:47] INFO root fetch - processPackages [scmomat]: Remove: archive file [/home/abi/fetcher/tmp/scmomat-0.2.1.tar.gz]
+[2023-08-05 03:52:47] INFO root fetch - processPackages [scmomat]: Remove: archive file [/home/abi/fetcher/tmp/scmomat-0.2.2.tar.gz]
+[2023-08-05 03:52:47] INFO root fetch - main [MainThread]: End processing [scmomat]: success
+[2023-08-05 03:52:47] INFO root fetch - processPackages [sgtpyutils]: Remove: archive file [/home/abi/fetcher/tmp/sgtpyutils-1.7.94.tar.gz]
+[2023-08-05 03:52:47] INFO root fetch - processPackages [sgtpyutils]: Remove: archive file [/home/abi/fetcher/tmp/sgtpyutils-1.9.144.tar.gz]
+[2023-08-05 03:52:47] INFO root fetch - main [MainThread]: End processing [sgtpyutils]: success
+[2023-08-05 03:52:47] INFO root fetch - processPackages [sqlite-http]: executing diffoscope
+[2023-08-05 03:52:47] INFO root fetch - processPackages [sqlite-http]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip --markdown 20230805/s/sqlite-http/0.1.0a8-0.1.0a9/diff.md --exclude *.pyd
+[2023-08-05 03:52:47] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.2-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:52:47] INFO root fetch - processPackages [composabl-ray]: Remove: archive file [/home/abi/fetcher/tmp/composabl_ray-0.3.3-cp38-cp38-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:52:47] INFO root fetch - main [MainThread]: End processing [composabl-ray]: success
+[2023-08-05 03:52:49] INFO root fetch - processPackages [procmaps]: Remove: archive file [/home/abi/fetcher/tmp/procmaps-0.6.3rc1-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:52:49] INFO root fetch - processPackages [procmaps]: Remove: archive file [/home/abi/fetcher/tmp/procmaps-0.6.4rc1-cp38-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.zip]
+[2023-08-05 03:52:49] INFO root fetch - main [MainThread]: End processing [procmaps]: success
+[2023-08-05 03:55:12] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a8-py3-none-win_amd64.whl.zip]
+[2023-08-05 03:55:12] INFO root fetch - processPackages [sqlite-http]: Remove: archive file [/home/abi/fetcher/tmp/sqlite_http-0.1.0a9-py3-none-win_amd64.whl.zip]
+[2023-08-05 03:55:12] INFO root fetch - main [MainThread]: End processing [sqlite-http]: success
+[2023-08-05 03:55:12] INFO root fetch - main [MainThread]: Store serial: [19183616]
