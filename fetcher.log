@@ -8460,3 +8460,42 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 07:25:12] INFO root fetch - processPackages [pyzard]: Remove: archive file [/home/abi/fetcher/tmp/pyzard-1.1-py3-none-any.whl.zip]
 [2023-08-05 07:25:12] INFO root fetch - main [MainThread]: End processing [pyzard]: success
 [2023-08-05 07:25:12] INFO root fetch - main [MainThread]: Store serial: [19184449]
+[2023-08-05 07:30:15] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184449]
+[2023-08-05 07:30:20] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 07:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: interpret-core
+[2023-08-05 07:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: odoo14-addon-stock-picking-cancel-reason
+[2023-08-05 07:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pyrestoolbox
+[2023-08-05 07:30:20] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: crazy-thursday
+[2023-08-05 07:30:20] INFO root fetch - processPackages [pyrestoolbox]: New version: [1.4.1] Old Version: [1.4.0]
+[2023-08-05 07:30:20] INFO root fetch - processPackages [crazy-thursday]: New version: [2023.8.5.0] Old Version: [2023.8.4.1]
+[2023-08-05 07:30:21] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/bc/d9/b00d2f67d1f122671e45137e059a05a704a9516fa50ac510444ff81f2695/pyrestoolbox-1.4.0.tar.gz
+[2023-08-05 07:30:21] INFO root fetch - processPackages [interpret-core]: New version: [0.4.3] Old Version: [0.4.2]
+[2023-08-05 07:30:21] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: New version: [14.0.1.0.1.dev4] Old Version: [14.0.1.0.1.dev2]
+[2023-08-05 07:30:21] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/66/fa/bde2867009675efa7dbd91118ec0b5f05616e66a9a8241e5d59d83c5dcb1/crazy-thursday-2023.8.4.1.tar.gz
+[2023-08-05 07:30:21] INFO root fetch - processPackages [pyrestoolbox]: Downloading https://files.pythonhosted.org/packages/7e/6d/5d9da12ca7a3441ce8908dbb7d6ccdaeb8723ec4c3d1ec8bb298a690381a/pyrestoolbox-1.4.1.tar.gz
+[2023-08-05 07:30:21] INFO root fetch - processPackages [interpret-core]: Downloading https://files.pythonhosted.org/packages/75/52/1a9f4eaff637dafb09d02c040a9c47678dcd85e795364bfd4e41567c01e2/interpret-core-0.4.2.tar.gz
+[2023-08-05 07:30:21] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: Downloading https://files.pythonhosted.org/packages/c9/41/68e6b7e34c398277e313c28f3fbfb643514a960d47233d93bf67516b4a4e/odoo14_addon_stock_picking_cancel_reason-14.0.1.0.1.dev2-py3-none-any.whl
+[2023-08-05 07:30:21] INFO root fetch - processPackages [pyrestoolbox]: executing diffoscope
+[2023-08-05 07:30:21] INFO root fetch - processPackages [pyrestoolbox]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyrestoolbox-1.4.0.tar.gz tmp/pyrestoolbox-1.4.1.tar.gz --markdown 20230805/p/pyrestoolbox/1.4.0-1.4.1/diff.md --exclude *.pyd
+[2023-08-05 07:30:21] INFO root fetch - processPackages [crazy-thursday]: Downloading https://files.pythonhosted.org/packages/ef/63/aae6ee6f1301ac9d0a57596340880805329a2619b87ed8e03a15069425d5/crazy-thursday-2023.8.5.0.tar.gz
+[2023-08-05 07:30:21] INFO root fetch - processPackages [crazy-thursday]: executing diffoscope
+[2023-08-05 07:30:21] INFO root fetch - processPackages [crazy-thursday]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/crazy-thursday-2023.8.4.1.tar.gz tmp/crazy-thursday-2023.8.5.0.tar.gz --markdown 20230805/c/crazy-thursday/2023.8.4.1-2023.8.5.0/diff.md --exclude *.pyd
+[2023-08-05 07:30:21] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: Downloading https://files.pythonhosted.org/packages/d1/4d/1e0aaeab0363d2d7dd6f27d5557504b485f76fc473db2343ab1f4526022c/odoo14_addon_stock_picking_cancel_reason-14.0.1.0.1.dev4-py3-none-any.whl
+[2023-08-05 07:30:21] INFO root fetch - processPackages [interpret-core]: Downloading https://files.pythonhosted.org/packages/0d/81/4384acbca5ecfd2a31835c4e493d84757a874fc5648d16390da1ad7a9885/interpret-core-0.4.3.tar.gz
+[2023-08-05 07:30:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: executing diffoscope
+[2023-08-05 07:30:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/odoo14_addon_stock_picking_cancel_reason-14.0.1.0.1.dev2-py3-none-any.whl.zip tmp/odoo14_addon_stock_picking_cancel_reason-14.0.1.0.1.dev4-py3-none-any.whl.zip --markdown 20230805/o/odoo14-addon-stock-picking-cancel-reason/14.0.1.0.1.dev2-14.0.1.0.1.dev4/diff.md --exclude *.pyd
+[2023-08-05 07:30:22] INFO root fetch - processPackages [interpret-core]: executing diffoscope
+[2023-08-05 07:30:22] INFO root fetch - processPackages [interpret-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/interpret-core-0.4.2.tar.gz tmp/interpret-core-0.4.3.tar.gz --markdown 20230805/i/interpret-core/0.4.2-0.4.3/diff.md --exclude *.pyd
+[2023-08-05 07:30:22] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.4.0.tar.gz]
+[2023-08-05 07:30:22] INFO root fetch - processPackages [pyrestoolbox]: Remove: archive file [/home/abi/fetcher/tmp/pyrestoolbox-1.4.1.tar.gz]
+[2023-08-05 07:30:22] INFO root fetch - main [MainThread]: End processing [pyrestoolbox]: success
+[2023-08-05 07:30:22] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.4.1.tar.gz]
+[2023-08-05 07:30:22] INFO root fetch - processPackages [crazy-thursday]: Remove: archive file [/home/abi/fetcher/tmp/crazy-thursday-2023.8.5.0.tar.gz]
+[2023-08-05 07:30:22] INFO root fetch - main [MainThread]: End processing [crazy-thursday]: success
+[2023-08-05 07:30:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_cancel_reason-14.0.1.0.1.dev2-py3-none-any.whl.zip]
+[2023-08-05 07:30:22] INFO root fetch - processPackages [odoo14-addon-stock-picking-cancel-reason]: Remove: archive file [/home/abi/fetcher/tmp/odoo14_addon_stock_picking_cancel_reason-14.0.1.0.1.dev4-py3-none-any.whl.zip]
+[2023-08-05 07:30:22] INFO root fetch - main [MainThread]: End processing [odoo14-addon-stock-picking-cancel-reason]: success
+[2023-08-05 07:31:00] INFO root fetch - processPackages [interpret-core]: Remove: archive file [/home/abi/fetcher/tmp/interpret-core-0.4.2.tar.gz]
+[2023-08-05 07:31:00] INFO root fetch - processPackages [interpret-core]: Remove: archive file [/home/abi/fetcher/tmp/interpret-core-0.4.3.tar.gz]
+[2023-08-05 07:31:00] INFO root fetch - main [MainThread]: End processing [interpret-core]: success
+[2023-08-05 07:31:00] INFO root fetch - main [MainThread]: Store serial: [19184461]
