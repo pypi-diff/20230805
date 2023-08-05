@@ -13901,3 +13901,24 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:25:59] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2023-08-05 16:25:59] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2023-08-05 16:25:59] INFO root fetch - main [MainThread]: Store serial: [19187085]
+[2023-08-05 16:31:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187085]
+[2023-08-05 16:31:08] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 16:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Nutter-Tools
+[2023-08-05 16:31:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plugwise
+[2023-08-05 16:31:09] INFO root fetch - processPackages [Nutter-Tools]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 16:31:09] INFO root fetch - processPackages [plugwise]: New version: [0.9.4a9] Old Version: [0.9.4a8]
+[2023-08-05 16:31:09] INFO root fetch - processPackages [Nutter-Tools]: Downloading https://files.pythonhosted.org/packages/a9/0a/58ddd66b3e2ce1d4f5d1268d775f87cc247dfa8d7909d6ef112a0b3f6f8d/Nutter-Tools-0.0.1.tar.gz
+[2023-08-05 16:31:09] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/9f/eb/88773e492984c980bc342942239d3bd6eee77c3dc052d35d25e42e2137a6/plugwise-0.9.4a8.tar.gz
+[2023-08-05 16:31:09] INFO root fetch - processPackages [Nutter-Tools]: Downloading https://files.pythonhosted.org/packages/f5/eb/f6b1e678d3bb6352ec9b60e9ef912437b99cd32f631ff034b4a1347c5834/Nutter-Tools-0.0.2.tar.gz
+[2023-08-05 16:31:09] INFO root fetch - processPackages [plugwise]: Downloading https://files.pythonhosted.org/packages/ec/fd/45b5a2ee424806593e900234e26bf62ae0c3582ac99cadfa9477e6719004/plugwise-0.9.4a9.tar.gz
+[2023-08-05 16:31:09] INFO root fetch - processPackages [Nutter-Tools]: executing diffoscope
+[2023-08-05 16:31:09] INFO root fetch - processPackages [Nutter-Tools]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Nutter-Tools-0.0.1.tar.gz tmp/Nutter-Tools-0.0.2.tar.gz --markdown 20230805/N/Nutter-Tools/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 16:31:09] INFO root fetch - processPackages [plugwise]: executing diffoscope
+[2023-08-05 16:31:09] INFO root fetch - processPackages [plugwise]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/plugwise-0.9.4a8.tar.gz tmp/plugwise-0.9.4a9.tar.gz --markdown 20230805/p/plugwise/0.9.4a8-0.9.4a9/diff.md --exclude *.pyd
+[2023-08-05 16:31:10] INFO root fetch - processPackages [Nutter-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Nutter-Tools-0.0.1.tar.gz]
+[2023-08-05 16:31:10] INFO root fetch - processPackages [Nutter-Tools]: Remove: archive file [/home/abi/fetcher/tmp/Nutter-Tools-0.0.2.tar.gz]
+[2023-08-05 16:31:10] INFO root fetch - main [MainThread]: End processing [Nutter-Tools]: success
+[2023-08-05 16:31:10] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a8.tar.gz]
+[2023-08-05 16:31:10] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a9.tar.gz]
+[2023-08-05 16:31:10] INFO root fetch - main [MainThread]: End processing [plugwise]: success
+[2023-08-05 16:31:10] INFO root fetch - main [MainThread]: Store serial: [19187089]
