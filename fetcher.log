@@ -9513,3 +9513,47 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 09:42:00] INFO root fetch - processPackages [opstool]: Remove: archive file [/home/abi/fetcher/tmp/opstool-0.8.4.tar.gz]
 [2023-08-05 09:42:00] INFO root fetch - main [MainThread]: End processing [opstool]: success
 [2023-08-05 09:42:00] INFO root fetch - main [MainThread]: Store serial: [19184902]
+[2023-08-05 09:47:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184902]
+[2023-08-05 09:47:08] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: daisytuner-llvm
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: knifes
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: cc-django-auth
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: tfq-nightly
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: splatnet3-scraper
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: flask-lidamao-utils
+[2023-08-05 09:47:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ss3a
+[2023-08-05 09:47:09] INFO root fetch - processPackages [knifes]: New version: [0.8.91] Old Version: [0.8.90]
+[2023-08-05 09:47:09] WARNING root fetch - processPackages [ss3a]: Skipping, unable to determine old version
+[2023-08-05 09:47:09] INFO root fetch - main [MainThread]: End processing [ss3a] error
+[2023-08-05 09:47:09] WARNING root fetch - processPackages [cc-django-auth]: Skipping, unable to determine old version
+[2023-08-05 09:47:09] INFO root fetch - main [MainThread]: End processing [cc-django-auth] error
+[2023-08-05 09:47:09] INFO root fetch - processPackages [splatnet3-scraper]: New version: [0.9.5] Old Version: [0.9.4]
+[2023-08-05 09:47:09] INFO root fetch - processPackages [daisytuner-llvm]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 09:47:09] WARNING root fetch - processPackages [flask-lidamao-utils]: Skipping, unable to determine old version
+[2023-08-05 09:47:09] INFO root fetch - main [MainThread]: End processing [flask-lidamao-utils] error
+[2023-08-05 09:47:09] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/96/35/3c6479308544fb9ec66de73034a9c802734e57801aa7e3b0552bf8d34889/knifes-0.8.90.tar.gz
+[2023-08-05 09:47:09] INFO root fetch - processPackages [tfq-nightly]: New version: [0.7.3.dev20230805] Old Version: [0.7.3.dev20230804]
+[2023-08-05 09:47:09] INFO root fetch - processPackages [daisytuner-llvm]: Downloading https://files.pythonhosted.org/packages/9a/7c/86bb0fae7a186a6c090822c6da2f2b0ee7d5e4fa100313aed914e4e7f342/daisytuner_llvm-0.1.0-py3-none-any.whl
+[2023-08-05 09:47:09] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/6a/1d/1ce027dec5ecd41f9e9eb42c0d9676e679c3ef11c33963e6528829e2c53d/splatnet3_scraper-0.9.4.tar.gz
+[2023-08-05 09:47:09] INFO root fetch - processPackages [knifes]: Downloading https://files.pythonhosted.org/packages/34/8a/c630c8545c54027739522ff2d0d49c5a025993ee467124dae2631aab9a0e/knifes-0.8.91.tar.gz
+[2023-08-05 09:47:09] INFO root fetch - processPackages [tfq-nightly]: Downloading https://files.pythonhosted.org/packages/9e/71/96aaf07fa2a7cf0d0865d7e0952310dcc7b46e439123203b146498c4effd/tfq_nightly-0.7.3.dev20230804-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+[2023-08-05 09:47:09] WARNING root fetch - processPackages [tfq-nightly]: Skipping package: exceeds size limit 10807265>=10485760
+[2023-08-05 09:47:09] INFO root fetch - main [MainThread]: End processing [tfq-nightly] error
+[2023-08-05 09:47:09] INFO root fetch - processPackages [knifes]: executing diffoscope
+[2023-08-05 09:47:09] INFO root fetch - processPackages [knifes]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/knifes-0.8.90.tar.gz tmp/knifes-0.8.91.tar.gz --markdown 20230805/k/knifes/0.8.90-0.8.91/diff.md --exclude *.pyd
+[2023-08-05 09:47:09] INFO root fetch - processPackages [splatnet3-scraper]: Downloading https://files.pythonhosted.org/packages/57/8a/3d74c8c3c6941c851208333ae0f21184d4edcc86ef95f5b8bbea8dbb9cbe/splatnet3_scraper-0.9.5.tar.gz
+[2023-08-05 09:47:09] INFO root fetch - processPackages [daisytuner-llvm]: Downloading https://files.pythonhosted.org/packages/ef/b9/4095ac02bbca592b193f5caf2bd07fd8b2c3127e1208cfc76d78f9836a2b/daisytuner_llvm-0.1.1-py3-none-any.whl
+[2023-08-05 09:47:09] INFO root fetch - processPackages [splatnet3-scraper]: executing diffoscope
+[2023-08-05 09:47:09] INFO root fetch - processPackages [splatnet3-scraper]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/splatnet3_scraper-0.9.4.tar.gz tmp/splatnet3_scraper-0.9.5.tar.gz --markdown 20230805/s/splatnet3-scraper/0.9.4-0.9.5/diff.md --exclude *.pyd
+[2023-08-05 09:47:09] INFO root fetch - processPackages [daisytuner-llvm]: executing diffoscope
+[2023-08-05 09:47:09] INFO root fetch - processPackages [daisytuner-llvm]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/daisytuner_llvm-0.1.0-py3-none-any.whl.zip tmp/daisytuner_llvm-0.1.1-py3-none-any.whl.zip --markdown 20230805/d/daisytuner-llvm/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 09:47:10] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.90.tar.gz]
+[2023-08-05 09:47:10] INFO root fetch - processPackages [knifes]: Remove: archive file [/home/abi/fetcher/tmp/knifes-0.8.91.tar.gz]
+[2023-08-05 09:47:10] INFO root fetch - main [MainThread]: End processing [knifes]: success
+[2023-08-05 09:47:10] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.4.tar.gz]
+[2023-08-05 09:47:10] INFO root fetch - processPackages [splatnet3-scraper]: Remove: archive file [/home/abi/fetcher/tmp/splatnet3_scraper-0.9.5.tar.gz]
+[2023-08-05 09:47:10] INFO root fetch - main [MainThread]: End processing [splatnet3-scraper]: success
+[2023-08-05 09:47:10] INFO root fetch - processPackages [daisytuner-llvm]: Remove: archive file [/home/abi/fetcher/tmp/daisytuner_llvm-0.1.0-py3-none-any.whl.zip]
+[2023-08-05 09:47:10] INFO root fetch - processPackages [daisytuner-llvm]: Remove: archive file [/home/abi/fetcher/tmp/daisytuner_llvm-0.1.1-py3-none-any.whl.zip]
+[2023-08-05 09:47:10] INFO root fetch - main [MainThread]: End processing [daisytuner-llvm]: success
+[2023-08-05 09:47:10] INFO root fetch - main [MainThread]: Store serial: [19184926]
