@@ -11577,3 +11577,63 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:07:28] INFO root fetch - processPackages [locust]: Remove: archive file [/home/abi/fetcher/tmp/locust-2.9.1.dev45.tar.gz]
 [2023-08-05 13:07:28] INFO root fetch - main [MainThread]: End processing [locust]: success
 [2023-08-05 13:07:28] INFO root fetch - main [MainThread]: Store serial: [19185920]
+[2023-08-05 13:12:32] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185920]
+[2023-08-05 13:12:37] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pyimporters-csv
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: cdpred
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: directdb
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: Carter-Offline
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: miniosl
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: circleapi
+[2023-08-05 13:12:37] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: discuit
+[2023-08-05 13:12:37] INFO root fetch - processPackages [Carter-Offline]: New version: [2.0.9] Old Version: [2.0.8]
+[2023-08-05 13:12:37] INFO root fetch - processPackages [miniosl]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 13:12:37] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/65/89/3a3eedf3d237111aee07c77589cf8eb699a329c190f7346751f19575e940/Carter-Offline-2.0.8.tar.gz
+[2023-08-05 13:12:37] INFO root fetch - processPackages [discuit]: New version: [0.4.0] Old Version: [0.3.0]
+[2023-08-05 13:12:37] INFO root fetch - processPackages [directdb]: New version: [1.1.1] Old Version: [1.1.0]
+[2023-08-05 13:12:37] WARNING root fetch - processPackages [cdpred]: Skipping, unable to determine old version
+[2023-08-05 13:12:37] INFO root fetch - processPackages [circleapi]: New version: [2023.8.5] Old Version: [2023.7.15]
+[2023-08-05 13:12:37] INFO root fetch - main [MainThread]: End processing [cdpred] error
+[2023-08-05 13:12:38] INFO root fetch - processPackages [pyimporters-csv]: New version: [0.4.98] Old Version: [0.4.96]
+[2023-08-05 13:12:38] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/5e/ea/162daaa0feb19915c757ba5ca97dc4c458ab2a31400847396b75adf86552/directdb-1.1.0.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/ec/23/0a40da03e8d4efaa180037441979bfeecb3b76264d97ff4a9b50aca248fb/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-08-05 13:12:38] INFO root fetch - processPackages [Carter-Offline]: Downloading https://files.pythonhosted.org/packages/0d/46/517c017c3b166ba73aaff309d3073ec1dc0fddf4cfe42811dd260baa10c0/Carter-Offline-2.0.9.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/f9/36/999c1e1ba7048ae09c20c94ffa81467ec51c76974a45190aefcca4168685/discuit-0.3.0.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/85/49/8731778df26b93885c58aaa24ef7a03a3b978e531d33767c30f266673980/pyimporters-csv-0.4.96.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [circleapi]: Downloading https://files.pythonhosted.org/packages/cb/d0/ef65071e638b27757529d71f94d20f165fac765dd0de0b08eaf897620237/circleapi-2023.7.15.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [Carter-Offline]: executing diffoscope
+[2023-08-05 13:12:38] INFO root fetch - processPackages [Carter-Offline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Carter-Offline-2.0.8.tar.gz tmp/Carter-Offline-2.0.9.tar.gz --markdown 20230805/C/Carter-Offline/2.0.8-2.0.9/diff.md --exclude *.pyd
+[2023-08-05 13:12:38] INFO root fetch - processPackages [directdb]: Downloading https://files.pythonhosted.org/packages/92/b8/fc87ca7bc2428b85a02a1825e1784c75512f49988b38913931cf1cc08b98/directdb-1.1.1.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [discuit]: Downloading https://files.pythonhosted.org/packages/b3/b9/966c9b2b4a06be549a1b7d545a679f4d531a72f00d7569d091554e41f60e/discuit-0.4.0.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [circleapi]: Downloading https://files.pythonhosted.org/packages/36/e6/e741cc4e4f7a48a5870b3edadb5193dacc965927d8763e5b7b0bad4a5a75/circleapi-2023.8.5.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [pyimporters-csv]: Downloading https://files.pythonhosted.org/packages/8b/2c/1f0de790074110fe1ce2035d0e9b3bb8e29aa0c961addfeb5b5924ccebbb/pyimporters-csv-0.4.98.tar.gz
+[2023-08-05 13:12:38] INFO root fetch - processPackages [directdb]: executing diffoscope
+[2023-08-05 13:12:38] INFO root fetch - processPackages [directdb]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/directdb-1.1.0.tar.gz tmp/directdb-1.1.1.tar.gz --markdown 20230805/d/directdb/1.1.0-1.1.1/diff.md --exclude *.pyd
+[2023-08-05 13:12:38] INFO root fetch - processPackages [miniosl]: Downloading https://files.pythonhosted.org/packages/52/e1/2eae407bda00f8e2ae889b1f97fba9a3c2178f4caeaaf633f7febb6f2b16/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl
+[2023-08-05 13:12:38] INFO root fetch - processPackages [discuit]: executing diffoscope
+[2023-08-05 13:12:38] INFO root fetch - processPackages [discuit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/discuit-0.3.0.tar.gz tmp/discuit-0.4.0.tar.gz --markdown 20230805/d/discuit/0.3.0-0.4.0/diff.md --exclude *.pyd
+[2023-08-05 13:12:38] INFO root fetch - processPackages [circleapi]: executing diffoscope
+[2023-08-05 13:12:38] INFO root fetch - processPackages [circleapi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/circleapi-2023.7.15.tar.gz tmp/circleapi-2023.8.5.tar.gz --markdown 20230805/c/circleapi/2023.7.15-2023.8.5/diff.md --exclude *.pyd
+[2023-08-05 13:12:38] INFO root fetch - processPackages [pyimporters-csv]: executing diffoscope
+[2023-08-05 13:12:38] INFO root fetch - processPackages [pyimporters-csv]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyimporters-csv-0.4.96.tar.gz tmp/pyimporters-csv-0.4.98.tar.gz --markdown 20230805/p/pyimporters-csv/0.4.96-0.4.98/diff.md --exclude *.pyd
+[2023-08-05 13:12:39] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.8.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - processPackages [Carter-Offline]: Remove: archive file [/home/abi/fetcher/tmp/Carter-Offline-2.0.9.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - main [MainThread]: End processing [Carter-Offline]: success
+[2023-08-05 13:12:39] INFO root fetch - processPackages [miniosl]: executing diffoscope
+[2023-08-05 13:12:39] INFO root fetch - processPackages [miniosl]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip --markdown 20230805/m/miniosl/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 13:12:39] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.0.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - processPackages [directdb]: Remove: archive file [/home/abi/fetcher/tmp/directdb-1.1.1.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - main [MainThread]: End processing [directdb]: success
+[2023-08-05 13:12:39] INFO root fetch - processPackages [discuit]: Remove: archive file [/home/abi/fetcher/tmp/discuit-0.3.0.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - processPackages [discuit]: Remove: archive file [/home/abi/fetcher/tmp/discuit-0.4.0.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - main [MainThread]: End processing [discuit]: success
+[2023-08-05 13:12:39] INFO root fetch - processPackages [circleapi]: Remove: archive file [/home/abi/fetcher/tmp/circleapi-2023.7.15.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - processPackages [circleapi]: Remove: archive file [/home/abi/fetcher/tmp/circleapi-2023.8.5.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - main [MainThread]: End processing [circleapi]: success
+[2023-08-05 13:12:39] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.96.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - processPackages [pyimporters-csv]: Remove: archive file [/home/abi/fetcher/tmp/pyimporters-csv-0.4.98.tar.gz]
+[2023-08-05 13:12:39] INFO root fetch - main [MainThread]: End processing [pyimporters-csv]: success
+[2023-08-05 13:12:48] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.8-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-08-05 13:12:48] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
+[2023-08-05 13:12:48] INFO root fetch - main [MainThread]: End processing [miniosl]: success
+[2023-08-05 13:12:48] INFO root fetch - main [MainThread]: Store serial: [19185978]
