@@ -10823,3 +10823,39 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:47:43] INFO root fetch - processPackages [gramps-webapi]: Remove: archive file [/home/abi/fetcher/tmp/gramps-webapi-1.1.9.tar.gz]
 [2023-08-05 11:47:43] INFO root fetch - main [MainThread]: End processing [gramps-webapi]: success
 [2023-08-05 11:47:43] INFO root fetch - main [MainThread]: Store serial: [19185522]
+[2023-08-05 11:52:47] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185522]
+[2023-08-05 11:52:52] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 11:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: htmlipi
+[2023-08-05 11:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: htmlipi-sripravan
+[2023-08-05 11:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: hashbeaf
+[2023-08-05 11:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: barcodes-uc
+[2023-08-05 11:52:52] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: yeref
+[2023-08-05 11:52:52] INFO root fetch - processPackages [barcodes-uc]: New version: [0.7.0] Old Version: [0.6.2]
+[2023-08-05 11:52:52] INFO root fetch - processPackages [yeref]: New version: [0.2.9] Old Version: [0.2.8]
+[2023-08-05 11:52:52] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/43/63/4c35c5627d7c82371d7aa838184c58db2881b1ac308f373838f3cede2ce0/barcodes_uc-0.6.2.tar.gz
+[2023-08-05 11:52:52] WARNING root fetch - processPackages [htmlipi]: Skipping, unable to determine old version
+[2023-08-05 11:52:52] INFO root fetch - main [MainThread]: End processing [htmlipi] error
+[2023-08-05 11:52:52] INFO root fetch - processPackages [hashbeaf]: New version: [1.1.0] Old Version: [1.0.0]
+[2023-08-05 11:52:52] WARNING root fetch - processPackages [htmlipi-sripravan]: Skipping, unable to determine old version
+[2023-08-05 11:52:52] INFO root fetch - main [MainThread]: End processing [htmlipi-sripravan] error
+[2023-08-05 11:52:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/b0/b0/909fe6a3b78d0f6ac51f68676b3211c8db161827cbcd18d88fca04fd4ea2/yeref-0.2.8.tar.gz
+[2023-08-05 11:52:52] INFO root fetch - processPackages [hashbeaf]: Downloading https://files.pythonhosted.org/packages/64/53/b233cdb7c1e2748855b428cdd18590e36c4f9689f94af1b1c19fdbad5af2/hashbeaf-1.0.0.tar.gz
+[2023-08-05 11:52:52] INFO root fetch - processPackages [barcodes-uc]: Downloading https://files.pythonhosted.org/packages/b2/f5/0fbc9fe6d68576f03c842f75c60aa2857d968a59d533d47a5fd820ddcb2d/barcodes_uc-0.7.0.tar.gz
+[2023-08-05 11:52:52] INFO root fetch - processPackages [yeref]: Downloading https://files.pythonhosted.org/packages/50/99/66805a69f7cda19e4f2694ce8433b49220c99c3c330adad82223a3aa368e/yeref-0.2.9.tar.gz
+[2023-08-05 11:52:52] INFO root fetch - processPackages [barcodes-uc]: executing diffoscope
+[2023-08-05 11:52:52] INFO root fetch - processPackages [barcodes-uc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/barcodes_uc-0.6.2.tar.gz tmp/barcodes_uc-0.7.0.tar.gz --markdown 20230805/b/barcodes-uc/0.6.2-0.7.0/diff.md --exclude *.pyd
+[2023-08-05 11:52:52] INFO root fetch - processPackages [yeref]: executing diffoscope
+[2023-08-05 11:52:52] INFO root fetch - processPackages [yeref]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/yeref-0.2.8.tar.gz tmp/yeref-0.2.9.tar.gz --markdown 20230805/y/yeref/0.2.8-0.2.9/diff.md --exclude *.pyd
+[2023-08-05 11:52:52] INFO root fetch - processPackages [hashbeaf]: Downloading https://files.pythonhosted.org/packages/63/3c/4a8341fe3d3602c9be46b5f9f6f6be5f86a585a093b8fd889f9ac80f3e85/hashbeaf-1.1.0.tar.gz
+[2023-08-05 11:52:52] INFO root fetch - processPackages [hashbeaf]: executing diffoscope
+[2023-08-05 11:52:52] INFO root fetch - processPackages [hashbeaf]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/hashbeaf-1.0.0.tar.gz tmp/hashbeaf-1.1.0.tar.gz --markdown 20230805/h/hashbeaf/1.0.0-1.1.0/diff.md --exclude *.pyd
+[2023-08-05 11:52:53] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.6.2.tar.gz]
+[2023-08-05 11:52:53] INFO root fetch - processPackages [barcodes-uc]: Remove: archive file [/home/abi/fetcher/tmp/barcodes_uc-0.7.0.tar.gz]
+[2023-08-05 11:52:53] INFO root fetch - main [MainThread]: End processing [barcodes-uc]: success
+[2023-08-05 11:52:53] INFO root fetch - processPackages [hashbeaf]: Remove: archive file [/home/abi/fetcher/tmp/hashbeaf-1.0.0.tar.gz]
+[2023-08-05 11:52:53] INFO root fetch - processPackages [hashbeaf]: Remove: archive file [/home/abi/fetcher/tmp/hashbeaf-1.1.0.tar.gz]
+[2023-08-05 11:52:53] INFO root fetch - main [MainThread]: End processing [hashbeaf]: success
+[2023-08-05 11:52:53] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.8.tar.gz]
+[2023-08-05 11:52:53] INFO root fetch - processPackages [yeref]: Remove: archive file [/home/abi/fetcher/tmp/yeref-0.2.9.tar.gz]
+[2023-08-05 11:52:53] INFO root fetch - main [MainThread]: End processing [yeref]: success
+[2023-08-05 11:52:53] INFO root fetch - main [MainThread]: Store serial: [19185541]
