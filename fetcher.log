@@ -13494,3 +13494,96 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:59:41] INFO root fetch - processPackages [psycopg-binary]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl.zip]
 [2023-08-05 15:59:41] INFO root fetch - main [MainThread]: End processing [psycopg-binary]: success
 [2023-08-05 15:59:41] INFO root fetch - main [MainThread]: Store serial: [19186933]
+[2023-08-05 16:04:50] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186933]
+[2023-08-05 16:04:55] INFO root fetch - main [MainThread]: Found 10 changed packages
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: Swagger2Tests
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pytech-rules
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pydt3
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: remote-log
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: streamlit-nightly
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: mojo-xmodules
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: receptor-digger
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: mkdocs-ultralytics-plugin
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: rdpy3
+[2023-08-05 16:04:55] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: refineryframe
+[2023-08-05 16:04:55] INFO root fetch - processPackages [remote-log]: New version: [1.0.1] Old Version: [1.0.0]
+[2023-08-05 16:04:55] INFO root fetch - processPackages [pydt3]: New version: [0.0.6] Old Version: [0.0.5]
+[2023-08-05 16:04:55] INFO root fetch - processPackages [pytech-rules]: New version: [0.0.4] Old Version: [0.0.3]
+[2023-08-05 16:04:55] INFO root fetch - processPackages [Swagger2Tests]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [refineryframe]: New version: [0.1.7] Old Version: [0.1.6]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [rdpy3]: New version: [1.3.4] Old Version: [1.3.3]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [receptor-digger]: New version: [0.5.6] Old Version: [0.5.5]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/0e/82/d7fa1120cd0521ad0c9c3485bbd31a9697fa98310b4fa99cd6176e6f0984/Swagger2Tests-1.0.8.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [mojo-xmodules]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/85/dc/18eeccf12580ccf4a4e99642e6e77874827c9062b438d203312ec5565a06/pydt3-0.0.5.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [streamlit-nightly]: New version: [1.9.3.dev20220601] Old Version: [1.9.3.dev20220531]
+[2023-08-05 16:04:56] INFO root fetch - processPackages [pytech-rules]: Downloading https://files.pythonhosted.org/packages/67/fa/ab507b61e9cb5aaff319b95db409b218603cbeee45d59474df6a4d7f47fc/pytech_rules-0.0.3.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/21/15/590edcc970f8b39a4d7c2500c70d8f690d8bac4ba0d67ab77221feac1e62/refineryframe-0.1.6.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/64/e2/58559443727227505fb747c4c97977ca3040c23a79338b98bccc57622743/remote-log-1.0.0.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/df/ff/9b2307dec845cdcb34031f7e8b76ad88f32a46e881730236db4463e78ce6/rdpy3-1.3.3.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [receptor-digger]: Downloading https://files.pythonhosted.org/packages/26/29/dee652b6b6cba6709c927087f16ff9b615030ebbf1c27d5191d058e949f3/receptor_digger-0.5.5.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/bb/77/73ca36b159a0852f16710c30eca243772d04e8d37c1497e26e837ebad465/streamlit-nightly-1.9.3.dev20220531.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [Swagger2Tests]: Downloading https://files.pythonhosted.org/packages/8c/09/e3f350a59badd488e02be8b42839099ba3ee48c8b86a74c46d59dcf0f88a/Swagger2Tests-1.0.9.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [pydt3]: Downloading https://files.pythonhosted.org/packages/95/e0/e079608c3da20d43e98a6b9e5653ddfc92439d93131ac43415e7e5109c10/pydt3-0.0.6.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/bf/10/b6d851a854a3a852050415af6786fb226d0646a35f4666d322f49ccea4dd/mojo_xmodules-0.0.8.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/29/d0/fa2f02750b3f36ef2ce674e8fb933b5074a4dbdeaf6dee8572d14e60c689/mkdocs-ultralytics-plugin-0.0.8.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [Swagger2Tests]: executing diffoscope
+[2023-08-05 16:04:56] INFO root fetch - processPackages [Swagger2Tests]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/Swagger2Tests-1.0.8.tar.gz tmp/Swagger2Tests-1.0.9.tar.gz --markdown 20230805/S/Swagger2Tests/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:04:56] INFO root fetch - processPackages [pydt3]: executing diffoscope
+[2023-08-05 16:04:56] INFO root fetch - processPackages [pydt3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pydt3-0.0.5.tar.gz tmp/pydt3-0.0.6.tar.gz --markdown 20230805/p/pydt3/0.0.5-0.0.6/diff.md --exclude *.pyd
+[2023-08-05 16:04:56] INFO root fetch - processPackages [pytech-rules]: Downloading https://files.pythonhosted.org/packages/c0/7f/b4b3cbfc5edde08380f331c5a02b0ebb2661fdceec4d365f0c72ec11a070/pytech_rules-0.0.4.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [receptor-digger]: Downloading https://files.pythonhosted.org/packages/03/de/329d22b54914e128ca60490722c18702f3383b94e7415ae041c2fabdbd4a/receptor_digger-0.5.6.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [remote-log]: Downloading https://files.pythonhosted.org/packages/f1/16/81a5471bad251f0e9f7f1322c737d2e208a369cfd01e12e386317bdaae9c/remote-log-1.0.1.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [refineryframe]: Downloading https://files.pythonhosted.org/packages/d1/1e/b43f44a9f6143c60cb9b5b148a6023b3322306ab07afb5ff6c1727944fec/refineryframe-0.1.7.tar.gz
+[2023-08-05 16:04:56] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/2c/af/d455a70932fa45e70f6eb0f22bb7e54b4ab636cc84759cca6eb1c633d9a5/rdpy3-1.3.4.tar.gz
+[2023-08-05 16:04:57] INFO root fetch - processPackages [pytech-rules]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [pytech-rules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pytech_rules-0.0.3.tar.gz tmp/pytech_rules-0.0.4.tar.gz --markdown 20230805/p/pytech-rules/0.0.3-0.0.4/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [receptor-digger]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [receptor-digger]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/receptor_digger-0.5.5.tar.gz tmp/receptor_digger-0.5.6.tar.gz --markdown 20230805/r/receptor-digger/0.5.5-0.5.6/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [remote-log]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [remote-log]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/remote-log-1.0.0.tar.gz tmp/remote-log-1.0.1.tar.gz --markdown 20230805/r/remote-log/1.0.0-1.0.1/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [mojo-xmodules]: Downloading https://files.pythonhosted.org/packages/ae/80/363a71f08c20912ecd84ee3a80f80c40bbdc4555837b08dedc72e5a6ad01/mojo_xmodules-0.0.9.tar.gz
+[2023-08-05 16:04:57] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Downloading https://files.pythonhosted.org/packages/3f/59/0ab7cebaf152c6d2c1d19e6257ebf0306ed93310ec2d2ad715df2d1ec855/mkdocs-ultralytics-plugin-0.0.9.tar.gz
+[2023-08-05 16:04:57] INFO root fetch - processPackages [refineryframe]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [refineryframe]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/refineryframe-0.1.6.tar.gz tmp/refineryframe-0.1.7.tar.gz --markdown 20230805/r/refineryframe/0.1.6-0.1.7/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.3.tar.gz tmp/rdpy3-1.3.4.tar.gz --markdown 20230805/r/rdpy3/1.3.3-1.3.4/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz --markdown 20230805/m/mkdocs-ultralytics-plugin/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [mojo-xmodules]: executing diffoscope
+[2023-08-05 16:04:57] INFO root fetch - processPackages [mojo-xmodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_xmodules-0.0.8.tar.gz tmp/mojo_xmodules-0.0.9.tar.gz --markdown 20230805/m/mojo-xmodules/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:04:57] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.8.tar.gz]
+[2023-08-05 16:04:57] INFO root fetch - processPackages [Swagger2Tests]: Remove: archive file [/home/abi/fetcher/tmp/Swagger2Tests-1.0.9.tar.gz]
+[2023-08-05 16:04:57] INFO root fetch - main [MainThread]: End processing [Swagger2Tests]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.5.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [pydt3]: Remove: archive file [/home/abi/fetcher/tmp/pydt3-0.0.6.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [pydt3]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [pytech-rules]: Remove: archive file [/home/abi/fetcher/tmp/pytech_rules-0.0.3.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [pytech-rules]: Remove: archive file [/home/abi/fetcher/tmp/pytech_rules-0.0.4.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [pytech-rules]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.6.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [refineryframe]: Remove: archive file [/home/abi/fetcher/tmp/refineryframe-0.1.7.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [refineryframe]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [remote-log]: Remove: archive file [/home/abi/fetcher/tmp/remote-log-1.0.0.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [remote-log]: Remove: archive file [/home/abi/fetcher/tmp/remote-log-1.0.1.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [remote-log]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.8.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [mkdocs-ultralytics-plugin]: Remove: archive file [/home/abi/fetcher/tmp/mkdocs-ultralytics-plugin-0.0.9.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [mkdocs-ultralytics-plugin]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [receptor-digger]: Remove: archive file [/home/abi/fetcher/tmp/receptor_digger-0.5.5.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [receptor-digger]: Remove: archive file [/home/abi/fetcher/tmp/receptor_digger-0.5.6.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [receptor-digger]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.3.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.4.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-05 16:04:58] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.8.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - processPackages [mojo-xmodules]: Remove: archive file [/home/abi/fetcher/tmp/mojo_xmodules-0.0.9.tar.gz]
+[2023-08-05 16:04:58] INFO root fetch - main [MainThread]: End processing [mojo-xmodules]: success
+[2023-08-05 16:04:59] INFO root fetch - processPackages [streamlit-nightly]: Downloading https://files.pythonhosted.org/packages/3f/2a/57340e81e1d94e80229a3f8d9acc663cdad9ffd0ead21e2c20c76b879c18/streamlit-nightly-1.9.3.dev20220601.tar.gz
+[2023-08-05 16:05:02] INFO root fetch - processPackages [streamlit-nightly]: executing diffoscope
+[2023-08-05 16:05:02] INFO root fetch - processPackages [streamlit-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz --markdown 20230805/s/streamlit-nightly/1.9.3.dev20220531-1.9.3.dev20220601/diff.md --exclude *.pyd
+[2023-08-05 16:05:10] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220531.tar.gz]
+[2023-08-05 16:05:10] INFO root fetch - processPackages [streamlit-nightly]: Remove: archive file [/home/abi/fetcher/tmp/streamlit-nightly-1.9.3.dev20220601.tar.gz]
+[2023-08-05 16:05:10] INFO root fetch - main [MainThread]: End processing [streamlit-nightly]: success
+[2023-08-05 16:05:10] INFO root fetch - main [MainThread]: Store serial: [19186969]
