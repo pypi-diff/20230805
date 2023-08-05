@@ -12025,3 +12025,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:49:10] INFO root fetch - processPackages [isyatirimhisse]: Remove: archive file [/home/abi/fetcher/tmp/isyatirimhisse-1.0.0.tar.gz]
 [2023-08-05 13:49:10] INFO root fetch - main [MainThread]: End processing [isyatirimhisse]: success
 [2023-08-05 13:49:10] INFO root fetch - main [MainThread]: Store serial: [19186163]
+[2023-08-05 13:54:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186163]
+[2023-08-05 13:54:18] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: tech-spec
+[2023-08-05 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: license-scanner
+[2023-08-05 13:54:18] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: luminesce-sdk-preview
+[2023-08-05 13:54:19] INFO root fetch - processPackages [luminesce-sdk-preview]: New version: [1.9.92] Old Version: [1.9.88]
+[2023-08-05 13:54:19] INFO root fetch - processPackages [license-scanner]: New version: [0.2.0] Old Version: [0.1.3]
+[2023-08-05 13:54:19] INFO root fetch - processPackages [tech-spec]: New version: [1.0.28] Old Version: [1.0.27]
+[2023-08-05 13:54:19] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/d3/7b/a9c3e829fb03ae79379224fe34adb99d80c6dbfc5f00ccc44cf429d34f61/luminesce-sdk-preview-1.9.88.tar.gz
+[2023-08-05 13:54:19] INFO root fetch - processPackages [license-scanner]: Downloading https://files.pythonhosted.org/packages/5f/00/6f693e5ba9fe8ba217f2b1258394e6aee04d4652110b3e5196e875639539/license_scanner-0.1.3.tar.gz
+[2023-08-05 13:54:19] INFO root fetch - processPackages [luminesce-sdk-preview]: Downloading https://files.pythonhosted.org/packages/b4/a1/29e30342ad6b0ee5f31f57c9ebeee25c12a4805f3f972e1908bf31abd599/luminesce-sdk-preview-1.9.92.tar.gz
+[2023-08-05 13:54:19] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/fe/65/f7524c6d9f76184c5795f41a6f16ba174320d819ff4f7cbe1c753d3edd2f/tech-spec-1.0.27.tar.gz
+[2023-08-05 13:54:19] INFO root fetch - processPackages [luminesce-sdk-preview]: executing diffoscope
+[2023-08-05 13:54:19] INFO root fetch - processPackages [luminesce-sdk-preview]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/luminesce-sdk-preview-1.9.88.tar.gz tmp/luminesce-sdk-preview-1.9.92.tar.gz --markdown 20230805/l/luminesce-sdk-preview/1.9.88-1.9.92/diff.md --exclude *.pyd
+[2023-08-05 13:54:19] INFO root fetch - processPackages [license-scanner]: Downloading https://files.pythonhosted.org/packages/9a/89/a6896a548267ad694e4c621d39e0c915faf089d51b4439d849448fea31bf/license_scanner-0.2.0.tar.gz
+[2023-08-05 13:54:19] INFO root fetch - processPackages [tech-spec]: Downloading https://files.pythonhosted.org/packages/bb/ad/0ee5013e51a9ea1fd1a049b0fe0ffd4dfc7a7a40b13aa4fac54aae349394/tech-spec-1.0.28.tar.gz
+[2023-08-05 13:54:19] INFO root fetch - processPackages [license-scanner]: executing diffoscope
+[2023-08-05 13:54:19] INFO root fetch - processPackages [license-scanner]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/license_scanner-0.1.3.tar.gz tmp/license_scanner-0.2.0.tar.gz --markdown 20230805/l/license-scanner/0.1.3-0.2.0/diff.md --exclude *.pyd
+[2023-08-05 13:54:19] INFO root fetch - processPackages [tech-spec]: executing diffoscope
+[2023-08-05 13:54:19] INFO root fetch - processPackages [tech-spec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tech-spec-1.0.27.tar.gz tmp/tech-spec-1.0.28.tar.gz --markdown 20230805/t/tech-spec/1.0.27-1.0.28/diff.md --exclude *.pyd
+[2023-08-05 13:54:20] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.27.tar.gz]
+[2023-08-05 13:54:20] INFO root fetch - processPackages [tech-spec]: Remove: archive file [/home/abi/fetcher/tmp/tech-spec-1.0.28.tar.gz]
+[2023-08-05 13:54:20] INFO root fetch - main [MainThread]: End processing [tech-spec]: success
+[2023-08-05 13:54:20] INFO root fetch - processPackages [license-scanner]: Remove: archive file [/home/abi/fetcher/tmp/license_scanner-0.1.3.tar.gz]
+[2023-08-05 13:54:20] INFO root fetch - processPackages [license-scanner]: Remove: archive file [/home/abi/fetcher/tmp/license_scanner-0.2.0.tar.gz]
+[2023-08-05 13:54:20] INFO root fetch - main [MainThread]: End processing [license-scanner]: success
+[2023-08-05 13:54:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.88.tar.gz]
+[2023-08-05 13:54:20] INFO root fetch - processPackages [luminesce-sdk-preview]: Remove: archive file [/home/abi/fetcher/tmp/luminesce-sdk-preview-1.9.92.tar.gz]
+[2023-08-05 13:54:20] INFO root fetch - main [MainThread]: End processing [luminesce-sdk-preview]: success
+[2023-08-05 13:54:20] INFO root fetch - main [MainThread]: Store serial: [19186172]
