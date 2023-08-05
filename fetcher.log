@@ -6671,3 +6671,27 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 04:28:05] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.4.tar.gz]
 [2023-08-05 04:28:05] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
 [2023-08-05 04:28:05] INFO root fetch - main [MainThread]: Store serial: [19183748]
+[2023-08-05 04:33:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183748]
+[2023-08-05 04:33:19] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: chiapos
+[2023-08-05 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: zfl-data
+[2023-08-05 04:33:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: gubchat
+[2023-08-05 04:33:19] INFO root fetch - processPackages [zfl-data]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 04:33:19] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/eb/f8/eb0f98ec80fcbf4d1daaf955efdf8dd889cf1514c0154266ffb2837376e7/zfl_data-0.0.1.tar.gz
+[2023-08-05 04:33:19] WARNING root fetch - processPackages [gubchat]: Skipping, unable to determine old version
+[2023-08-05 04:33:19] INFO root fetch - main [MainThread]: End processing [gubchat] error
+[2023-08-05 04:33:19] INFO root fetch - processPackages [chiapos]: New version: [2.0.0rc1] Old Version: [2.0.0b5]
+[2023-08-05 04:33:20] INFO root fetch - processPackages [zfl-data]: Downloading https://files.pythonhosted.org/packages/2f/63/847917af61ab314a77e6001a5a031a2565231f5abba4dc694a1333388c94/zfl_data-0.0.2.tar.gz
+[2023-08-05 04:33:20] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/19/c5/0934f3d042ef19d01eee1e448a7f7bbd48c0c51f4f77c4821bd61f12c10a/chiapos-2.0.0b5.tar.gz
+[2023-08-05 04:33:20] INFO root fetch - processPackages [zfl-data]: executing diffoscope
+[2023-08-05 04:33:20] INFO root fetch - processPackages [zfl-data]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/zfl_data-0.0.1.tar.gz tmp/zfl_data-0.0.2.tar.gz --markdown 20230805/z/zfl-data/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 04:33:20] INFO root fetch - processPackages [chiapos]: Downloading https://files.pythonhosted.org/packages/70/11/e0b0bc290ac376b00f9fb63a02d567cf724fcd1052a2daf3110a74b85642/chiapos-2.0.0rc1.tar.gz
+[2023-08-05 04:33:20] INFO root fetch - processPackages [chiapos]: executing diffoscope
+[2023-08-05 04:33:20] INFO root fetch - processPackages [chiapos]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chiapos-2.0.0b5.tar.gz tmp/chiapos-2.0.0rc1.tar.gz --markdown 20230805/c/chiapos/2.0.0b5-2.0.0rc1/diff.md --exclude *.pyd
+[2023-08-05 04:33:21] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.1.tar.gz]
+[2023-08-05 04:33:21] INFO root fetch - processPackages [zfl-data]: Remove: archive file [/home/abi/fetcher/tmp/zfl_data-0.0.2.tar.gz]
+[2023-08-05 04:33:21] INFO root fetch - main [MainThread]: End processing [zfl-data]: success
+[2023-08-05 04:33:22] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0b5.tar.gz]
+[2023-08-05 04:33:22] INFO root fetch - processPackages [chiapos]: Remove: archive file [/home/abi/fetcher/tmp/chiapos-2.0.0rc1.tar.gz]
+[2023-08-05 04:33:22] INFO root fetch - main [MainThread]: End processing [chiapos]: success
+[2023-08-05 04:33:22] INFO root fetch - main [MainThread]: Store serial: [19183777]
