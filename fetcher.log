@@ -6642,3 +6642,32 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 04:22:53] INFO root fetch - processPackages [iam-actions]: Remove: archive file [/home/abi/fetcher/tmp/iam_actions-1.2.20230804.tar.gz]
 [2023-08-05 04:22:53] INFO root fetch - main [MainThread]: End processing [iam-actions]: success
 [2023-08-05 04:22:53] INFO root fetch - main [MainThread]: Store serial: [19183732]
+[2023-08-05 04:27:56] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183732]
+[2023-08-05 04:28:01] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 04:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: testflows.github.runners
+[2023-08-05 04:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tf-nightly-intel
+[2023-08-05 04:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: airflow-looker
+[2023-08-05 04:28:01] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: naif-eop-high-prec
+[2023-08-05 04:28:01] INFO root fetch - processPackages [naif-eop-high-prec]: New version: [2023.8.4] Old Version: [2023.8.3]
+[2023-08-05 04:28:01] INFO root fetch - processPackages [testflows.github.runners]: New version: [1.5.230805.1021151] Old Version: [1.5.230805.1020839]
+[2023-08-05 04:28:01] WARNING root fetch - processPackages [airflow-looker]: Skipping, unable to determine old version
+[2023-08-05 04:28:01] INFO root fetch - main [MainThread]: End processing [airflow-looker] error
+[2023-08-05 04:28:01] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/98/5a/e14fb70556b5f5e553d293d77a6f2af6102906e195cf8441c1e90f94b1bc/naif_eop_high_prec-2023.8.3.tar.gz
+[2023-08-05 04:28:01] INFO root fetch - processPackages [tf-nightly-intel]: New version: [2.15.0.dev20230804] Old Version: [2.15.0.dev20230803]
+[2023-08-05 04:28:01] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/2a/e4/61e32c4031c461041bc23024ea5774579bf593c3ff82e580fa2a59732cd5/testflows.github.runners-1.5.230805.1020839.tar.gz
+[2023-08-05 04:28:02] INFO root fetch - processPackages [tf-nightly-intel]: Downloading https://files.pythonhosted.org/packages/37/46/c8e48831a14fbb1a001a9fbeef701c0efb7b408f3cdb059beedf7940fb63/tf_nightly_intel-2.15.0.dev20230803-cp39-cp39-win_amd64.whl
+[2023-08-05 04:28:02] WARNING root fetch - processPackages [tf-nightly-intel]: Skipping package: exceeds size limit 185047276>=10485760
+[2023-08-05 04:28:02] INFO root fetch - main [MainThread]: End processing [tf-nightly-intel] error
+[2023-08-05 04:28:02] INFO root fetch - processPackages [testflows.github.runners]: Downloading https://files.pythonhosted.org/packages/35/ab/df40279e43ae14e46af0ce113d96d7fc5a331af77389dce5eaf1da2b6110/testflows.github.runners-1.5.230805.1021151.tar.gz
+[2023-08-05 04:28:02] INFO root fetch - processPackages [naif-eop-high-prec]: Downloading https://files.pythonhosted.org/packages/a8/28/0f35a5bde8624b7ebc6fd591ea3881067df31ac8d484dadf333d0968f10c/naif_eop_high_prec-2023.8.4.tar.gz
+[2023-08-05 04:28:02] INFO root fetch - processPackages [testflows.github.runners]: executing diffoscope
+[2023-08-05 04:28:02] INFO root fetch - processPackages [testflows.github.runners]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/testflows.github.runners-1.5.230805.1020839.tar.gz tmp/testflows.github.runners-1.5.230805.1021151.tar.gz --markdown 20230805/t/testflows.github.runners/1.5.230805.1020839-1.5.230805.1021151/diff.md --exclude *.pyd
+[2023-08-05 04:28:02] INFO root fetch - processPackages [naif-eop-high-prec]: executing diffoscope
+[2023-08-05 04:28:02] INFO root fetch - processPackages [naif-eop-high-prec]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/naif_eop_high_prec-2023.8.3.tar.gz tmp/naif_eop_high_prec-2023.8.4.tar.gz --markdown 20230805/n/naif-eop-high-prec/2023.8.3-2023.8.4/diff.md --exclude *.pyd
+[2023-08-05 04:28:03] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.5.230805.1020839.tar.gz]
+[2023-08-05 04:28:03] INFO root fetch - processPackages [testflows.github.runners]: Remove: archive file [/home/abi/fetcher/tmp/testflows.github.runners-1.5.230805.1021151.tar.gz]
+[2023-08-05 04:28:03] INFO root fetch - main [MainThread]: End processing [testflows.github.runners]: success
+[2023-08-05 04:28:05] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.3.tar.gz]
+[2023-08-05 04:28:05] INFO root fetch - processPackages [naif-eop-high-prec]: Remove: archive file [/home/abi/fetcher/tmp/naif_eop_high_prec-2023.8.4.tar.gz]
+[2023-08-05 04:28:05] INFO root fetch - main [MainThread]: End processing [naif-eop-high-prec]: success
+[2023-08-05 04:28:05] INFO root fetch - main [MainThread]: Store serial: [19183748]
