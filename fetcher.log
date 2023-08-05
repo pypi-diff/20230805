@@ -13922,3 +13922,98 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 16:31:10] INFO root fetch - processPackages [plugwise]: Remove: archive file [/home/abi/fetcher/tmp/plugwise-0.9.4a9.tar.gz]
 [2023-08-05 16:31:10] INFO root fetch - main [MainThread]: End processing [plugwise]: success
 [2023-08-05 16:31:10] INFO root fetch - main [MainThread]: Store serial: [19187089]
+[2023-08-05 16:36:14] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187089]
+[2023-08-05 16:36:19] INFO root fetch - main [MainThread]: Found 12 changed packages
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: amniotic
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyg4ometry
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: perming
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: OctoBot-Trading
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: argos-translate-files
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: update-submodules
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: ipc-worker
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: fastapi_user_auth
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_8]: Start processing: OctoBot-Tentacles-Manager
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ThreadPoolExecutor-0_9]: Start processing: album-image-util
+[2023-08-05 16:36:19] INFO root fetch - processPackages [argos-translate-files]: New version: [1.1.3] Old Version: [1.1.2]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [pyg4ometry]: New version: [1.1.0] Old Version: [1.0.5]
+[2023-08-05 16:36:19] WARNING root fetch - processPackages [album-image-util]: Skipping, unable to determine old version
+[2023-08-05 16:36:19] INFO root fetch - processPackages [fastapi_user_auth]: New version: [0.5.1] Old Version: [0.5.0]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [album-image-util]: Start processing: oligo-capture
+[2023-08-05 16:36:19] INFO root fetch - main [MainThread]: End processing [album-image-util] error
+[2023-08-05 16:36:19] INFO root fetch - processPackages [update-submodules]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [perming]: New version: [1.5.0] Old Version: [1.4.3]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [ipc-worker]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: New version: [2.9.3] Old Version: [2.9.2]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [amniotic]: New version: [0.5.9] Old Version: [0.5.8]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [OctoBot-Trading]: New version: [2.4.9] Old Version: [2.4.8]
+[2023-08-05 16:36:19] INFO root fetch - processPackages [argos-translate-files]: Downloading https://files.pythonhosted.org/packages/82/9d/3ab2baf07317b2a66f490e45874dde7dd333ace2ccb7d118b739f53a8a43/argos-translate-files-1.1.2.tar.gz
+[2023-08-05 16:36:19] INFO root fetch - processPackages [fastapi_user_auth]: Downloading https://files.pythonhosted.org/packages/3f/66/392657f5099ad325b2020d93c43e78a07b9391557290ba24b9bf8cd97fd5/fastapi_user_auth-0.5.0.tar.gz
+[2023-08-05 16:36:20] WARNING root fetch - processPackages [oligo-capture]: Skipping, unable to determine old version
+[2023-08-05 16:36:20] INFO root fetch - processPackages [oligo-capture]: Start processing: cabina
+[2023-08-05 16:36:20] INFO root fetch - main [MainThread]: End processing [oligo-capture] error
+[2023-08-05 16:36:20] INFO root fetch - processPackages [cabina]: New version: [0.7.2] Old Version: [0.7.1]
+[2023-08-05 16:36:20] INFO root fetch - processPackages [update-submodules]: Downloading https://files.pythonhosted.org/packages/fc/23/b1aa65fc1b9d71177fc9f50cf287db3372780cf8e1d7d73ec90f66a9c0f5/update-submodules-0.0.1.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/c0/72/bcfbefa0421164291ec06c93f233ee123cb4291992e1d08ae4a710f94bd6/amniotic-0.5.8.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [pyg4ometry]: Downloading https://files.pythonhosted.org/packages/95/23/6b159a6251ffa78c81bd522230fc5029cbcf0225380229df049358384ca0/pyg4ometry-1.0.5.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/1d/62/36a8d38eb46c135b8ce9fca0148c9707fe2acd44d8db65eca84df9c78f7c/perming-1.4.3-py3-none-any.whl
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: Downloading https://files.pythonhosted.org/packages/53/3a/9a7e8969d70c847fcf2f8d9c3a78b208796f25d7df52e93621baa9d18033/OctoBot-Tentacles-Manager-2.9.2.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/73/23/c1d7881529a8c9625e383e42f1dc81df6232f45c2ceb32da5ce75194f893/OctoBot-Trading-2.4.8.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/dc/d0/e7ffca827f728ce00fa2fadde8662e61f3a5673ea48298f919f2fcdb2e23/ipc_worker-0.0.8-py3-none-any.whl
+[2023-08-05 16:36:20] WARNING root fetch - processPackages [pyg4ometry]: Skipping package: exceeds size limit 94964559>=10485760
+[2023-08-05 16:36:20] INFO root fetch - main [MainThread]: End processing [pyg4ometry] error
+[2023-08-05 16:36:20] INFO root fetch - processPackages [argos-translate-files]: Downloading https://files.pythonhosted.org/packages/d2/4f/75649052874b1c4ad02d8d73af1bba1457e4dde57be0b767bd7a95968db5/argos-translate-files-1.1.3.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [cabina]: Downloading https://files.pythonhosted.org/packages/09/91/c2667c4e034020bfeb966ed6683f9fd8d9268373f4cb876df200eaa4bf54/cabina-0.7.1.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [fastapi_user_auth]: Downloading https://files.pythonhosted.org/packages/8d/7a/945c9d630899ef357bf7bb4d5cc9442a3eddb05f6887c665832a8e0a1ac3/fastapi_user_auth-0.5.1.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [argos-translate-files]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [argos-translate-files]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/argos-translate-files-1.1.2.tar.gz tmp/argos-translate-files-1.1.3.tar.gz --markdown 20230805/a/argos-translate-files/1.1.2-1.1.3/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [update-submodules]: Downloading https://files.pythonhosted.org/packages/17/ed/cf80733530483aede8eeae86e4a80abfa395881488206c47619f99a5eb01/update-submodules-0.0.2.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [amniotic]: Downloading https://files.pythonhosted.org/packages/ea/40/4cdfa41d2d5ed717effee50e9a84a09e4fda8f35c2710061de92fd94c77c/amniotic-0.5.9.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [fastapi_user_auth]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [fastapi_user_auth]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_user_auth-0.5.0.tar.gz tmp/fastapi_user_auth-0.5.1.tar.gz --markdown 20230805/f/fastapi_user_auth/0.5.0-0.5.1/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [perming]: Downloading https://files.pythonhosted.org/packages/74/4d/43fa9e04dafa31f747d3206ed85ff1df3233b0a24c4b509ae21368c98044/perming-1.5.0-py3-none-any.whl
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: Downloading https://files.pythonhosted.org/packages/9f/ff/d86192f3a001d47e1f926127ee40fc53ff18e90111ee309c1809f7f9cb04/OctoBot-Tentacles-Manager-2.9.3.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [update-submodules]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [update-submodules]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/update-submodules-0.0.1.tar.gz tmp/update-submodules-0.0.2.tar.gz --markdown 20230805/u/update-submodules/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [amniotic]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [amniotic]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/amniotic-0.5.8.tar.gz tmp/amniotic-0.5.9.tar.gz --markdown 20230805/a/amniotic/0.5.8-0.5.9/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Trading]: Downloading https://files.pythonhosted.org/packages/77/bc/ecdb68086de1f382830bf4a54be7e64fdcf11183cbc9e6485fe1c829615e/OctoBot-Trading-2.4.9.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [ipc-worker]: Downloading https://files.pythonhosted.org/packages/24/2a/e820f8e6e4b69f029d773ec6775f9a54e5178c2b7cf2f633a3a4e7f8599f/ipc_worker-0.0.9-py3-none-any.whl
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Tentacles-Manager-2.9.2.tar.gz tmp/OctoBot-Tentacles-Manager-2.9.3.tar.gz --markdown 20230805/O/OctoBot-Tentacles-Manager/2.9.2-2.9.3/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [cabina]: Downloading https://files.pythonhosted.org/packages/d0/51/be8bb42e987f6c5889ac2c2d271b0b72e802ccbaa5545c25a91fd44aac02/cabina-0.7.2.tar.gz
+[2023-08-05 16:36:20] INFO root fetch - processPackages [perming]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [perming]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/perming-1.4.3-py3-none-any.whl.zip tmp/perming-1.5.0-py3-none-any.whl.zip --markdown 20230805/p/perming/1.4.3-1.5.0/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Trading]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [OctoBot-Trading]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/OctoBot-Trading-2.4.8.tar.gz tmp/OctoBot-Trading-2.4.9.tar.gz --markdown 20230805/O/OctoBot-Trading/2.4.8-2.4.9/diff.md --exclude *.pyd
+[2023-08-05 16:36:20] INFO root fetch - processPackages [cabina]: executing diffoscope
+[2023-08-05 16:36:20] INFO root fetch - processPackages [cabina]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/cabina-0.7.1.tar.gz tmp/cabina-0.7.2.tar.gz --markdown 20230805/c/cabina/0.7.1-0.7.2/diff.md --exclude *.pyd
+[2023-08-05 16:36:21] INFO root fetch - processPackages [ipc-worker]: executing diffoscope
+[2023-08-05 16:36:21] INFO root fetch - processPackages [ipc-worker]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/ipc_worker-0.0.8-py3-none-any.whl.zip tmp/ipc_worker-0.0.9-py3-none-any.whl.zip --markdown 20230805/i/ipc-worker/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 16:36:21] INFO root fetch - processPackages [argos-translate-files]: Remove: archive file [/home/abi/fetcher/tmp/argos-translate-files-1.1.2.tar.gz]
+[2023-08-05 16:36:21] INFO root fetch - processPackages [argos-translate-files]: Remove: archive file [/home/abi/fetcher/tmp/argos-translate-files-1.1.3.tar.gz]
+[2023-08-05 16:36:21] INFO root fetch - main [MainThread]: End processing [argos-translate-files]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [fastapi_user_auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_auth-0.5.0.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [fastapi_user_auth]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_user_auth-0.5.1.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [fastapi_user_auth]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [update-submodules]: Remove: archive file [/home/abi/fetcher/tmp/update-submodules-0.0.1.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [update-submodules]: Remove: archive file [/home/abi/fetcher/tmp/update-submodules-0.0.2.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [update-submodules]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.8.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [amniotic]: Remove: archive file [/home/abi/fetcher/tmp/amniotic-0.5.9.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [amniotic]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [cabina]: Remove: archive file [/home/abi/fetcher/tmp/cabina-0.7.1.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [cabina]: Remove: archive file [/home/abi/fetcher/tmp/cabina-0.7.2.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [cabina]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.8-py3-none-any.whl.zip]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [ipc-worker]: Remove: archive file [/home/abi/fetcher/tmp/ipc_worker-0.0.9-py3-none-any.whl.zip]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [ipc-worker]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.4.3-py3-none-any.whl.zip]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [perming]: Remove: archive file [/home/abi/fetcher/tmp/perming-1.5.0-py3-none-any.whl.zip]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [perming]: success
+[2023-08-05 16:36:22] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Tentacles-Manager-2.9.2.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - processPackages [OctoBot-Tentacles-Manager]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Tentacles-Manager-2.9.3.tar.gz]
+[2023-08-05 16:36:22] INFO root fetch - main [MainThread]: End processing [OctoBot-Tentacles-Manager]: success
+[2023-08-05 16:36:24] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.8.tar.gz]
+[2023-08-05 16:36:24] INFO root fetch - processPackages [OctoBot-Trading]: Remove: archive file [/home/abi/fetcher/tmp/OctoBot-Trading-2.4.9.tar.gz]
+[2023-08-05 16:36:24] INFO root fetch - main [MainThread]: End processing [OctoBot-Trading]: success
+[2023-08-05 16:36:24] INFO root fetch - main [MainThread]: Store serial: [19187149]
