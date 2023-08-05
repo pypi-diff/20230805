@@ -11998,3 +11998,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:43:59] INFO root fetch - processPackages [gaohn-common-utils]: Remove: archive file [/home/abi/fetcher/tmp/gaohn-common-utils-0.0.99.tar.gz]
 [2023-08-05 13:43:59] INFO root fetch - main [MainThread]: End processing [gaohn-common-utils]: success
 [2023-08-05 13:43:59] INFO root fetch - main [MainThread]: Store serial: [19186149]
+[2023-08-05 13:49:03] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186149]
+[2023-08-05 13:49:08] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 13:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: isyatirimhisse
+[2023-08-05 13:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tybase
+[2023-08-05 13:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: discord-api-info
+[2023-08-05 13:49:08] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: algoworld-contracts-legacy
+[2023-08-05 13:49:08] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 13:49:08] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 13:49:08] INFO root fetch - processPackages [tybase]: New version: [0.3.1] Old Version: [0.2.9]
+[2023-08-05 13:49:08] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/8a/16/0b871cd12162e84e087167ecc4e39cc67b193a0d879e01264aaf520390d9/tybase-0.2.9.tar.gz
+[2023-08-05 13:49:08] WARNING root fetch - processPackages [algoworld-contracts-legacy]: Skipping, unable to determine old version
+[2023-08-05 13:49:08] INFO root fetch - main [MainThread]: End processing [algoworld-contracts-legacy] error
+[2023-08-05 13:49:08] INFO root fetch - processPackages [isyatirimhisse]: New version: [1.0.0] Old Version: [0.2.1]
+[2023-08-05 13:49:09] INFO root fetch - processPackages [isyatirimhisse]: Downloading https://files.pythonhosted.org/packages/23/7a/df1df883b5a79e586c219fe6ed138b35f2d2876274023b9cff0d1595528b/isyatirimhisse-0.2.1.tar.gz
+[2023-08-05 13:49:09] INFO root fetch - processPackages [tybase]: Downloading https://files.pythonhosted.org/packages/4d/eb/c9366cf29981316e0f1ec3ffa3fe0c5440f864a59ed82ef73aa28758d0eb/tybase-0.3.1.tar.gz
+[2023-08-05 13:49:09] INFO root fetch - processPackages [tybase]: executing diffoscope
+[2023-08-05 13:49:09] INFO root fetch - processPackages [tybase]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tybase-0.2.9.tar.gz tmp/tybase-0.3.1.tar.gz --markdown 20230805/t/tybase/0.2.9-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 13:49:09] INFO root fetch - processPackages [isyatirimhisse]: Downloading https://files.pythonhosted.org/packages/8f/5c/6097ca8edc35cd901d374bfae1ea1fd3a740b72bcb1ceaf445f6bc4bc4a1/isyatirimhisse-1.0.0.tar.gz
+[2023-08-05 13:49:09] INFO root fetch - processPackages [isyatirimhisse]: executing diffoscope
+[2023-08-05 13:49:09] INFO root fetch - processPackages [isyatirimhisse]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/isyatirimhisse-0.2.1.tar.gz tmp/isyatirimhisse-1.0.0.tar.gz --markdown 20230805/i/isyatirimhisse/0.2.1-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 13:49:09] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.2.9.tar.gz]
+[2023-08-05 13:49:09] INFO root fetch - processPackages [tybase]: Remove: archive file [/home/abi/fetcher/tmp/tybase-0.3.1.tar.gz]
+[2023-08-05 13:49:09] INFO root fetch - main [MainThread]: End processing [tybase]: success
+[2023-08-05 13:49:10] INFO root fetch - processPackages [isyatirimhisse]: Remove: archive file [/home/abi/fetcher/tmp/isyatirimhisse-0.2.1.tar.gz]
+[2023-08-05 13:49:10] INFO root fetch - processPackages [isyatirimhisse]: Remove: archive file [/home/abi/fetcher/tmp/isyatirimhisse-1.0.0.tar.gz]
+[2023-08-05 13:49:10] INFO root fetch - main [MainThread]: End processing [isyatirimhisse]: success
+[2023-08-05 13:49:10] INFO root fetch - main [MainThread]: Store serial: [19186163]
