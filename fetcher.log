@@ -11637,3 +11637,32 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 13:12:48] INFO root fetch - processPackages [miniosl]: Remove: archive file [/home/abi/fetcher/tmp/miniosl-0.0.9-cp310-cp310-manylinux_2_28_x86_64.whl.zip]
 [2023-08-05 13:12:48] INFO root fetch - main [MainThread]: End processing [miniosl]: success
 [2023-08-05 13:12:48] INFO root fetch - main [MainThread]: Store serial: [19185978]
+[2023-08-05 13:17:54] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185978]
+[2023-08-05 13:17:59] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: pojw
+[2023-08-05 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: discord-api-info
+[2023-08-05 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: HDRezka
+[2023-08-05 13:17:59] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: c2y
+[2023-08-05 13:17:59] INFO root fetch - processPackages [c2y]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 13:17:59] INFO root fetch - processPackages [pojw]: New version: [0.0.3] Old Version: [0.0.2]
+[2023-08-05 13:17:59] INFO root fetch - processPackages [c2y]: Downloading https://files.pythonhosted.org/packages/92/35/cd64baa34be0cf4f894da8e525a3cbb045638d8314387fb97b55c3c106bd/c2y-0.1.2.tar.gz
+[2023-08-05 13:17:59] INFO root fetch - processPackages [HDRezka]: New version: [3.0.2] Old Version: [3.0.1]
+[2023-08-05 13:17:59] WARNING root fetch - processPackages [discord-api-info]: Skipping, unable to determine old version
+[2023-08-05 13:17:59] INFO root fetch - main [MainThread]: End processing [discord-api-info] error
+[2023-08-05 13:17:59] INFO root fetch - processPackages [pojw]: Downloading https://files.pythonhosted.org/packages/8f/74/f786beabb903ec26f40f58ae63dc4a697e3acdcdaf9e4f7328af6658ee01/pojw-0.0.2-py3-none-any.whl
+[2023-08-05 13:18:00] ERROR root fetch - processPackages [c2y]: Unable to fetch info: No such project/version 'c2y' 0.1.3
+[2023-08-05 13:18:00] INFO root fetch - main [MainThread]: End processing [c2y] error
+[2023-08-05 13:18:00] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/12/06/cb5bc8332eb242bba69f2359786abd3b3fe113b92105a7a325ed68b420f1/HDRezka-3.0.1.tar.gz
+[2023-08-05 13:18:00] INFO root fetch - processPackages [pojw]: Downloading https://files.pythonhosted.org/packages/bd/aa/2ecf1216363138aaa0c336d3b29a5b63f63a396411dd7d400971a78f0189/pojw-0.0.3-py3-none-any.whl
+[2023-08-05 13:18:00] INFO root fetch - processPackages [HDRezka]: Downloading https://files.pythonhosted.org/packages/e7/bb/318c9c56e060332e7ef0510e65eae2a40a2dbb4b0174f04a8f0afb711348/HDRezka-3.0.2.tar.gz
+[2023-08-05 13:18:00] INFO root fetch - processPackages [pojw]: executing diffoscope
+[2023-08-05 13:18:00] INFO root fetch - processPackages [pojw]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pojw-0.0.2-py3-none-any.whl.zip tmp/pojw-0.0.3-py3-none-any.whl.zip --markdown 20230805/p/pojw/0.0.2-0.0.3/diff.md --exclude *.pyd
+[2023-08-05 13:18:00] INFO root fetch - processPackages [HDRezka]: executing diffoscope
+[2023-08-05 13:18:00] INFO root fetch - processPackages [HDRezka]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/HDRezka-3.0.1.tar.gz tmp/HDRezka-3.0.2.tar.gz --markdown 20230805/H/HDRezka/3.0.1-3.0.2/diff.md --exclude *.pyd
+[2023-08-05 13:18:01] INFO root fetch - processPackages [pojw]: Remove: archive file [/home/abi/fetcher/tmp/pojw-0.0.2-py3-none-any.whl.zip]
+[2023-08-05 13:18:01] INFO root fetch - processPackages [pojw]: Remove: archive file [/home/abi/fetcher/tmp/pojw-0.0.3-py3-none-any.whl.zip]
+[2023-08-05 13:18:01] INFO root fetch - main [MainThread]: End processing [pojw]: success
+[2023-08-05 13:18:01] INFO root fetch - processPackages [HDRezka]: Remove: archive file [/home/abi/fetcher/tmp/HDRezka-3.0.1.tar.gz]
+[2023-08-05 13:18:01] INFO root fetch - processPackages [HDRezka]: Remove: archive file [/home/abi/fetcher/tmp/HDRezka-3.0.2.tar.gz]
+[2023-08-05 13:18:01] INFO root fetch - main [MainThread]: End processing [HDRezka]: success
+[2023-08-05 13:18:01] INFO root fetch - main [MainThread]: Store serial: [19185999]
