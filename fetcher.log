@@ -17741,3 +17741,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 21:57:40] INFO root fetch - processPackages [kolibri-ml]: Remove: archive file [/home/abi/fetcher/tmp/kolibri_ml-1.1.80-py3-none-any.whl.zip]
 [2023-08-05 21:57:40] INFO root fetch - main [MainThread]: End processing [kolibri-ml]: success
 [2023-08-05 21:57:40] INFO root fetch - main [MainThread]: Store serial: [19188836]
+[2023-08-05 22:02:43] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188836]
+[2023-08-05 22:02:48] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 22:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: first-packge
+[2023-08-05 22:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: tiktokapipy
+[2023-08-05 22:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: DragonPyEmulator
+[2023-08-05 22:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: optool
+[2023-08-05 22:02:48] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytetris-101
+[2023-08-05 22:02:48] WARNING root fetch - processPackages [pytetris-101]: Skipping, unable to determine old version
+[2023-08-05 22:02:48] INFO root fetch - main [MainThread]: End processing [pytetris-101] error
+[2023-08-05 22:02:48] INFO root fetch - processPackages [first-packge]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 22:02:48] INFO root fetch - processPackages [optool]: New version: [0.9.0] Old Version: [0.8.0]
+[2023-08-05 22:02:48] INFO root fetch - processPackages [tiktokapipy]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-05 22:02:48] INFO root fetch - processPackages [DragonPyEmulator]: New version: [0.9.0] Old Version: [0.8.0rc3]
+[2023-08-05 22:02:48] INFO root fetch - processPackages [first-packge]: Downloading https://files.pythonhosted.org/packages/aa/7b/b04e04e2db84aec06005adc075aaf5d83f667b2be47fdbe466459019d378/first_packge-0.1.2.tar.gz
+[2023-08-05 22:02:49] INFO root fetch - processPackages [DragonPyEmulator]: Downloading https://files.pythonhosted.org/packages/c2/f7/eaa340a107f8283dab30ffee04ed19f9347f00922e70a25119d101b0b5fc/DragonPyEmulator-0.8.0rc3.tar.gz
+[2023-08-05 22:02:49] INFO root fetch - processPackages [tiktokapipy]: Downloading https://files.pythonhosted.org/packages/4a/5c/bf1ce193b13a316e15bcaa612da99f824dc8bd4a92dd8e33b35fe8675ec3/tiktokapipy-0.2.2.tar.gz
+[2023-08-05 22:02:49] INFO root fetch - processPackages [optool]: Downloading https://files.pythonhosted.org/packages/13/90/fdc6702aeb9ac037b066bf1c66cd7cf97c64c3b804dfa42d7e3564838df9/optool-0.8.0-py3-none-any.whl
+[2023-08-05 22:02:49] INFO root fetch - processPackages [first-packge]: Downloading https://files.pythonhosted.org/packages/a4/2c/4d18c6e6a492c40740ea2b6e2f7391af4a2bfc889fdf1a30a5e1fd0543b0/first_packge-0.1.3.tar.gz
+[2023-08-05 22:02:49] INFO root fetch - processPackages [DragonPyEmulator]: Downloading https://files.pythonhosted.org/packages/d1/98/8d794b5d8c564fb0cdd189a9c4fff7c85a336689d6bcd18b4831a171d59e/DragonPyEmulator-0.9.0.tar.gz
+[2023-08-05 22:02:49] INFO root fetch - processPackages [first-packge]: executing diffoscope
+[2023-08-05 22:02:49] INFO root fetch - processPackages [first-packge]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/first_packge-0.1.2.tar.gz tmp/first_packge-0.1.3.tar.gz --markdown 20230805/f/first-packge/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 22:02:49] INFO root fetch - processPackages [tiktokapipy]: Downloading https://files.pythonhosted.org/packages/af/15/f6b1c2d640aeccdae09a1fcacdea0355b272dffe78839638b5b8d42ce0bd/tiktokapipy-0.2.3.tar.gz
+[2023-08-05 22:02:49] INFO root fetch - processPackages [optool]: Downloading https://files.pythonhosted.org/packages/c8/1b/edd256de58e250835f8fae1700c4bcf5476b379894a28ba2459b9b1ef22a/optool-0.9.0-py3-none-any.whl
+[2023-08-05 22:02:49] INFO root fetch - processPackages [optool]: executing diffoscope
+[2023-08-05 22:02:49] INFO root fetch - processPackages [optool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/optool-0.8.0-py3-none-any.whl.zip tmp/optool-0.9.0-py3-none-any.whl.zip --markdown 20230805/o/optool/0.8.0-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 22:02:49] INFO root fetch - processPackages [tiktokapipy]: executing diffoscope
+[2023-08-05 22:02:49] INFO root fetch - processPackages [tiktokapipy]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tiktokapipy-0.2.2.tar.gz tmp/tiktokapipy-0.2.3.tar.gz --markdown 20230805/t/tiktokapipy/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-05 22:02:49] INFO root fetch - processPackages [DragonPyEmulator]: executing diffoscope
+[2023-08-05 22:02:49] INFO root fetch - processPackages [DragonPyEmulator]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/DragonPyEmulator-0.8.0rc3.tar.gz tmp/DragonPyEmulator-0.9.0.tar.gz --markdown 20230805/D/DragonPyEmulator/0.8.0rc3-0.9.0/diff.md --exclude *.pyd
+[2023-08-05 22:02:50] INFO root fetch - processPackages [first-packge]: Remove: archive file [/home/abi/fetcher/tmp/first_packge-0.1.2.tar.gz]
+[2023-08-05 22:02:50] INFO root fetch - processPackages [first-packge]: Remove: archive file [/home/abi/fetcher/tmp/first_packge-0.1.3.tar.gz]
+[2023-08-05 22:02:50] INFO root fetch - main [MainThread]: End processing [first-packge]: success
+[2023-08-05 22:02:50] INFO root fetch - processPackages [optool]: Remove: archive file [/home/abi/fetcher/tmp/optool-0.8.0-py3-none-any.whl.zip]
+[2023-08-05 22:02:50] INFO root fetch - processPackages [optool]: Remove: archive file [/home/abi/fetcher/tmp/optool-0.9.0-py3-none-any.whl.zip]
+[2023-08-05 22:02:50] INFO root fetch - main [MainThread]: End processing [optool]: success
+[2023-08-05 22:02:50] INFO root fetch - processPackages [tiktokapipy]: Remove: archive file [/home/abi/fetcher/tmp/tiktokapipy-0.2.2.tar.gz]
+[2023-08-05 22:02:50] INFO root fetch - processPackages [tiktokapipy]: Remove: archive file [/home/abi/fetcher/tmp/tiktokapipy-0.2.3.tar.gz]
+[2023-08-05 22:02:50] INFO root fetch - main [MainThread]: End processing [tiktokapipy]: success
+[2023-08-05 22:02:51] INFO root fetch - processPackages [DragonPyEmulator]: Remove: archive file [/home/abi/fetcher/tmp/DragonPyEmulator-0.8.0rc3.tar.gz]
+[2023-08-05 22:02:51] INFO root fetch - processPackages [DragonPyEmulator]: Remove: archive file [/home/abi/fetcher/tmp/DragonPyEmulator-0.9.0.tar.gz]
+[2023-08-05 22:02:51] INFO root fetch - main [MainThread]: End processing [DragonPyEmulator]: success
+[2023-08-05 22:02:51] INFO root fetch - main [MainThread]: Store serial: [19188851]
