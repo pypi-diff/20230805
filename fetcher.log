@@ -10928,3 +10928,30 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 11:58:07] INFO root fetch - processPackages [PyQt-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt-Fluent-Widgets-1.0.4.tar.gz]
 [2023-08-05 11:58:07] INFO root fetch - main [MainThread]: End processing [PyQt-Fluent-Widgets]: success
 [2023-08-05 11:58:07] INFO root fetch - main [MainThread]: Store serial: [19185561]
+[2023-08-05 12:03:12] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185561]
+[2023-08-05 12:03:17] INFO root fetch - main [MainThread]: Found 4 changed packages
+[2023-08-05 12:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: example-package-linar2
+[2023-08-05 12:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: plot2vid
+[2023-08-05 12:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: micrologai
+[2023-08-05 12:03:17] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: fastapi_amis_admin
+[2023-08-05 12:03:18] INFO root fetch - processPackages [micrologai]: New version: [1.3.9] Old Version: [1.3.8]
+[2023-08-05 12:03:18] WARNING root fetch - processPackages [plot2vid]: Skipping, unable to determine old version
+[2023-08-05 12:03:18] INFO root fetch - main [MainThread]: End processing [plot2vid] error
+[2023-08-05 12:03:18] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/20/8c/4098098773e99add7ee9290d6ceb4b753ceb536baf9c03398db857f5e887/micrologai-1.3.8.tar.gz
+[2023-08-05 12:03:18] WARNING root fetch - processPackages [example-package-linar2]: Skipping, unable to determine old version
+[2023-08-05 12:03:18] INFO root fetch - main [MainThread]: End processing [example-package-linar2] error
+[2023-08-05 12:03:18] INFO root fetch - processPackages [fastapi_amis_admin]: New version: [0.6.3a1] Old Version: [0.6.3]
+[2023-08-05 12:03:18] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/70/ea/60fbd7172d11f1dda7c64b4afc74bc740ce5591a7f5b14ac20205495d6f5/fastapi_amis_admin-0.6.3.tar.gz
+[2023-08-05 12:03:18] INFO root fetch - processPackages [micrologai]: Downloading https://files.pythonhosted.org/packages/5f/ff/abdd943dffeb90d8622427d1fdb64da731c7bbfa2b83c524e10e39d834c2/micrologai-1.3.9.tar.gz
+[2023-08-05 12:03:18] INFO root fetch - processPackages [fastapi_amis_admin]: Downloading https://files.pythonhosted.org/packages/7a/9c/dad6580e522289a5678a3d5994b419029f0332b914c2355e8b7e595098db/fastapi_amis_admin-0.6.3a1.tar.gz
+[2023-08-05 12:03:18] INFO root fetch - processPackages [micrologai]: executing diffoscope
+[2023-08-05 12:03:18] INFO root fetch - processPackages [micrologai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/micrologai-1.3.8.tar.gz tmp/micrologai-1.3.9.tar.gz --markdown 20230805/m/micrologai/1.3.8-1.3.9/diff.md --exclude *.pyd
+[2023-08-05 12:03:18] INFO root fetch - processPackages [fastapi_amis_admin]: executing diffoscope
+[2023-08-05 12:03:18] INFO root fetch - processPackages [fastapi_amis_admin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fastapi_amis_admin-0.6.3.tar.gz tmp/fastapi_amis_admin-0.6.3a1.tar.gz --markdown 20230805/f/fastapi_amis_admin/0.6.3-0.6.3a1/diff.md --exclude *.pyd
+[2023-08-05 12:03:20] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.3.tar.gz]
+[2023-08-05 12:03:20] INFO root fetch - processPackages [fastapi_amis_admin]: Remove: archive file [/home/abi/fetcher/tmp/fastapi_amis_admin-0.6.3a1.tar.gz]
+[2023-08-05 12:03:20] INFO root fetch - main [MainThread]: End processing [fastapi_amis_admin]: success
+[2023-08-05 12:03:20] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.8.tar.gz]
+[2023-08-05 12:03:20] INFO root fetch - processPackages [micrologai]: Remove: archive file [/home/abi/fetcher/tmp/micrologai-1.3.9.tar.gz]
+[2023-08-05 12:03:20] INFO root fetch - main [MainThread]: End processing [micrologai]: success
+[2023-08-05 12:03:20] INFO root fetch - main [MainThread]: Store serial: [19185580]
