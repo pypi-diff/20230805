@@ -13425,3 +13425,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 15:54:18] INFO root fetch - processPackages [psycopg]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-3.1.9.tar.gz]
 [2023-08-05 15:54:18] INFO root fetch - main [MainThread]: End processing [psycopg]: success
 [2023-08-05 15:54:18] INFO root fetch - main [MainThread]: Store serial: [19186851]
+[2023-08-05 15:59:22] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19186851]
+[2023-08-05 15:59:27] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: psycopg-binary
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: rdpy3
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: tensordict-nightly
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: anyon
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: psycopg-c
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fyers-token-manager-v2
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: mojo-waiting
+[2023-08-05 15:59:27] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: remote-log
+[2023-08-05 15:59:27] WARNING root fetch - processPackages [remote-log]: Skipping, unable to determine old version
+[2023-08-05 15:59:27] INFO root fetch - main [MainThread]: End processing [remote-log] error
+[2023-08-05 15:59:27] INFO root fetch - processPackages [rdpy3]: New version: [1.3.3] Old Version: [1.3.2]
+[2023-08-05 15:59:27] INFO root fetch - processPackages [mojo-waiting]: New version: [1.0.3] Old Version: [1.0.2]
+[2023-08-05 15:59:27] INFO root fetch - processPackages [psycopg-c]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-08-05 15:59:28] INFO root fetch - processPackages [anyon]: New version: [3.8.13] Old Version: [3.8.12]
+[2023-08-05 15:59:28] INFO root fetch - processPackages [fyers-token-manager-v2]: New version: [0.1.3] Old Version: [0.1.2]
+[2023-08-05 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: New version: [2023.8.5] Old Version: [2023.8.4]
+[2023-08-05 15:59:28] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/40/d4/6b5b7e75ea66ef6a01ad49b50cd2f8bf53e4138760ceb2e6922fad99a36c/rdpy3-1.3.2.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [psycopg-binary]: New version: [3.1.9] Old Version: [3.1.8]
+[2023-08-05 15:59:28] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/b7/b3/88e9106a2d483d9dfdabc5bf0387028dcbcf909feea7feb471a0949738bf/mojo_waiting-1.0.2.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [psycopg-c]: Downloading https://files.pythonhosted.org/packages/e8/78/fecd6cb6ea54de499bf40f766c060112eff47c975a9caaf2a389cfb122fd/psycopg-c-3.1.8.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/3c/6a/a2d4683a640de67564c049d16f10e39f10fd8c08e4c406b9b6fde73ccdb0/tensordict_nightly-2023.8.4-cp39-cp39-win_amd64.whl
+[2023-08-05 15:59:28] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/8f/6b/fab7a43db7bea94154ff87f19305d6fdd3dbcbbacb09d97bfe0bc66b7a68/anyon-3.8.12-cp311-none-win_amd64.whl
+[2023-08-05 15:59:28] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/75/4b/40506353566e4084f41d38dc0dfe955847eff010dcb3df3e89eac432d1bf/fyers_token_manager_v2-0.1.2.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [rdpy3]: Downloading https://files.pythonhosted.org/packages/df/ff/9b2307dec845cdcb34031f7e8b76ad88f32a46e881730236db4463e78ce6/rdpy3-1.3.3.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [psycopg-binary]: Downloading https://files.pythonhosted.org/packages/56/01/43669ee809662be9967ef54520b89bbbb76a0a8d03cc3d7368521fcd7f24/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl
+[2023-08-05 15:59:28] INFO root fetch - processPackages [mojo-waiting]: Downloading https://files.pythonhosted.org/packages/0d/68/f40edaf19ca7b77606ef8977d75b30ec0bf7a76bf403f017fbd5ddd2eea9/mojo_waiting-1.0.3.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [psycopg-c]: Downloading https://files.pythonhosted.org/packages/a1/6e/33c466ef37936fbc1a45e849b0e5a6e280624ce022e70ecaf438dc1c5e48/psycopg-c-3.1.9.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: Downloading https://files.pythonhosted.org/packages/65/b9/baaa7b33a551a54a84920ec0ef149bc5550f8e0561fc1382811ddd4de5c8/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl
+[2023-08-05 15:59:28] INFO root fetch - processPackages [anyon]: Downloading https://files.pythonhosted.org/packages/5d/a6/5028ec0f573c4b2027e18b68fe49c9bd7b7fbf138bbf62961816e362a059/anyon-3.8.13-cp311-none-win_amd64.whl
+[2023-08-05 15:59:28] INFO root fetch - processPackages [fyers-token-manager-v2]: Downloading https://files.pythonhosted.org/packages/8d/ed/ca95cb2aaa2675eaaa9c767e1de7cec95bb8efad3c6cc2c869dcabcf3d71/fyers_token_manager_v2-0.1.3.tar.gz
+[2023-08-05 15:59:28] INFO root fetch - processPackages [rdpy3]: executing diffoscope
+[2023-08-05 15:59:28] INFO root fetch - processPackages [rdpy3]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/rdpy3-1.3.2.tar.gz tmp/rdpy3-1.3.3.tar.gz --markdown 20230805/r/rdpy3/1.3.2-1.3.3/diff.md --exclude *.pyd
+[2023-08-05 15:59:28] INFO root fetch - processPackages [mojo-waiting]: executing diffoscope
+[2023-08-05 15:59:28] INFO root fetch - processPackages [mojo-waiting]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/mojo_waiting-1.0.2.tar.gz tmp/mojo_waiting-1.0.3.tar.gz --markdown 20230805/m/mojo-waiting/1.0.2-1.0.3/diff.md --exclude *.pyd
+[2023-08-05 15:59:28] INFO root fetch - processPackages [psycopg-c]: executing diffoscope
+[2023-08-05 15:59:28] INFO root fetch - processPackages [psycopg-c]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg-c-3.1.8.tar.gz tmp/psycopg-c-3.1.9.tar.gz --markdown 20230805/p/psycopg-c/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-08-05 15:59:28] INFO root fetch - processPackages [fyers-token-manager-v2]: executing diffoscope
+[2023-08-05 15:59:28] INFO root fetch - processPackages [fyers-token-manager-v2]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fyers_token_manager_v2-0.1.2.tar.gz tmp/fyers_token_manager_v2-0.1.3.tar.gz --markdown 20230805/f/fyers-token-manager-v2/0.1.2-0.1.3/diff.md --exclude *.pyd
+[2023-08-05 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: executing diffoscope
+[2023-08-05 15:59:28] INFO root fetch - processPackages [tensordict-nightly]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/tensordict_nightly-2023.8.4-cp39-cp39-win_amd64.whl.zip tmp/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl.zip --markdown 20230805/t/tensordict-nightly/2023.8.4-2023.8.5/diff.md --exclude *.pyd
+[2023-08-05 15:59:29] INFO root fetch - processPackages [anyon]: executing diffoscope
+[2023-08-05 15:59:29] INFO root fetch - processPackages [anyon]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/anyon-3.8.12-cp311-none-win_amd64.whl.zip tmp/anyon-3.8.13-cp311-none-win_amd64.whl.zip --markdown 20230805/a/anyon/3.8.12-3.8.13/diff.md --exclude *.pyd
+[2023-08-05 15:59:29] INFO root fetch - processPackages [psycopg-binary]: Downloading https://files.pythonhosted.org/packages/9c/2b/43346b9fed00f054fb2806070a2b97697c752778d6ce301d204b7566e81b/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl
+[2023-08-05 15:59:29] INFO root fetch - processPackages [psycopg-binary]: executing diffoscope
+[2023-08-05 15:59:29] INFO root fetch - processPackages [psycopg-binary]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl.zip tmp/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl.zip --markdown 20230805/p/psycopg-binary/3.1.8-3.1.9/diff.md --exclude *.pyd
+[2023-08-05 15:59:30] INFO root fetch - processPackages [mojo-waiting]: Remove: archive file [/home/abi/fetcher/tmp/mojo_waiting-1.0.2.tar.gz]
+[2023-08-05 15:59:30] INFO root fetch - processPackages [mojo-waiting]: Remove: archive file [/home/abi/fetcher/tmp/mojo_waiting-1.0.3.tar.gz]
+[2023-08-05 15:59:30] INFO root fetch - main [MainThread]: End processing [mojo-waiting]: success
+[2023-08-05 15:59:30] INFO root fetch - processPackages [fyers-token-manager-v2]: Remove: archive file [/home/abi/fetcher/tmp/fyers_token_manager_v2-0.1.2.tar.gz]
+[2023-08-05 15:59:30] INFO root fetch - processPackages [fyers-token-manager-v2]: Remove: archive file [/home/abi/fetcher/tmp/fyers_token_manager_v2-0.1.3.tar.gz]
+[2023-08-05 15:59:30] INFO root fetch - main [MainThread]: End processing [fyers-token-manager-v2]: success
+[2023-08-05 15:59:30] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.2.tar.gz]
+[2023-08-05 15:59:30] INFO root fetch - processPackages [rdpy3]: Remove: archive file [/home/abi/fetcher/tmp/rdpy3-1.3.3.tar.gz]
+[2023-08-05 15:59:30] INFO root fetch - main [MainThread]: End processing [rdpy3]: success
+[2023-08-05 15:59:30] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.8.4-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 15:59:30] INFO root fetch - processPackages [tensordict-nightly]: Remove: archive file [/home/abi/fetcher/tmp/tensordict_nightly-2023.8.5-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 15:59:30] INFO root fetch - main [MainThread]: End processing [tensordict-nightly]: success
+[2023-08-05 15:59:30] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.12-cp311-none-win_amd64.whl.zip]
+[2023-08-05 15:59:30] INFO root fetch - processPackages [anyon]: Remove: archive file [/home/abi/fetcher/tmp/anyon-3.8.13-cp311-none-win_amd64.whl.zip]
+[2023-08-05 15:59:30] INFO root fetch - main [MainThread]: End processing [anyon]: success
+[2023-08-05 15:59:31] INFO root fetch - processPackages [psycopg-c]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-c-3.1.8.tar.gz]
+[2023-08-05 15:59:31] INFO root fetch - processPackages [psycopg-c]: Remove: archive file [/home/abi/fetcher/tmp/psycopg-c-3.1.9.tar.gz]
+[2023-08-05 15:59:31] INFO root fetch - main [MainThread]: End processing [psycopg-c]: success
+[2023-08-05 15:59:41] INFO root fetch - processPackages [psycopg-binary]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_binary-3.1.8-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 15:59:41] INFO root fetch - processPackages [psycopg-binary]: Remove: archive file [/home/abi/fetcher/tmp/psycopg_binary-3.1.9-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 15:59:41] INFO root fetch - main [MainThread]: End processing [psycopg-binary]: success
+[2023-08-05 15:59:41] INFO root fetch - main [MainThread]: Store serial: [19186933]
