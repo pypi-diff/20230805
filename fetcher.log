@@ -6782,3 +6782,72 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 04:54:02] INFO root fetch - processPackages [lycoris-lora]: Remove: archive file [/home/abi/fetcher/tmp/lycoris_lora-1.9.0.dev2.tar.gz]
 [2023-08-05 04:54:02] INFO root fetch - main [MainThread]: End processing [lycoris-lora]: success
 [2023-08-05 04:54:02] INFO root fetch - main [MainThread]: Store serial: [19183810]
+[2023-08-05 04:59:06] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19183810]
+[2023-08-05 04:59:11] INFO root fetch - main [MainThread]: Found 8 changed packages
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: flightcondition
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: gubchat
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: sakib-helpers
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: markline
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pssepath
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: fast-openai
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: one-api-tool
+[2023-08-05 04:59:11] INFO root fetch - processPackages [ThreadPoolExecutor-0_7]: Start processing: litenai
+[2023-08-05 04:59:11] INFO root fetch - processPackages [fast-openai]: New version: [0.1.1] Old Version: [0.1.0]
+[2023-08-05 04:59:11] WARNING root fetch - processPackages [gubchat]: Skipping, unable to determine old version
+[2023-08-05 04:59:11] INFO root fetch - main [MainThread]: End processing [gubchat] error
+[2023-08-05 04:59:11] INFO root fetch - processPackages [flightcondition]: New version: [23.8.5] Old Version: [23.8.4]
+[2023-08-05 04:59:11] INFO root fetch - processPackages [markline]: New version: [0.3.1] Old Version: [0.3.0]
+[2023-08-05 04:59:11] INFO root fetch - processPackages [one-api-tool]: New version: [0.5.4] Old Version: [0.5.2]
+[2023-08-05 04:59:11] INFO root fetch - processPackages [sakib-helpers]: New version: [0.0.2] Old Version: [0.0.1]
+[2023-08-05 04:59:11] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/63/84/f7a30138499658158fce4e1a2cb71997661a4e42ee3e562d9bff5fa53f4c/flightcondition-23.8.4.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [litenai]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 04:59:11] INFO root fetch - processPackages [pssepath]: New version: [0.2.3] Old Version: [0.2.2]
+[2023-08-05 04:59:11] INFO root fetch - processPackages [fast-openai]: Downloading https://files.pythonhosted.org/packages/34/e0/3ce3c28fc01368f235ce9ad2e273f095b248bbc3c9c75c1c1aaac4f36e7b/fast_openai-0.1.0.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/93/70/0b7e8fb4bab78762504b62c47341eec3d1fac7331be72c46d8dfdb0c8899/one-api-tool-0.5.2.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [markline]: Downloading https://files.pythonhosted.org/packages/94/2c/210a911fd06caf90bc3510b598ab0929c399d4f985f8734a87faeb24ae9c/markline-0.3.0.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [pssepath]: Downloading https://files.pythonhosted.org/packages/94/26/7ccea8d4a5246660b1f314a840170829fc6bd6ab5778e9bbd62fd1178ae2/pssepath-0.2.2.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [sakib-helpers]: Downloading https://files.pythonhosted.org/packages/50/49/a4adead7fdeed43edc41dde7418f81c34ccd2bdb7ccf3bfc04db41d9efd1/sakib_helpers-0.0.1.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/94/2a/faa876ae16d03bc0c8948d4f3be1aab1fdbcfb4318cef9fcb984d2b303b9/litenai-0.0.8-py3-none-any.whl
+[2023-08-05 04:59:11] INFO root fetch - processPackages [flightcondition]: Downloading https://files.pythonhosted.org/packages/12/0c/7de09f85fe1f2fcc69ceea736db39ef879b45c9ec3052e876d52ed963396/flightcondition-23.8.5.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [fast-openai]: Downloading https://files.pythonhosted.org/packages/bc/26/2b95652f70e69aeba07912c40c506dd3051570d07eb2d321bce66a53ecdb/fast_openai-0.1.1.tar.gz
+[2023-08-05 04:59:11] INFO root fetch - processPackages [flightcondition]: executing diffoscope
+[2023-08-05 04:59:11] INFO root fetch - processPackages [flightcondition]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/flightcondition-23.8.4.tar.gz tmp/flightcondition-23.8.5.tar.gz --markdown 20230805/f/flightcondition/23.8.4-23.8.5/diff.md --exclude *.pyd
+[2023-08-05 04:59:12] INFO root fetch - processPackages [fast-openai]: executing diffoscope
+[2023-08-05 04:59:12] INFO root fetch - processPackages [fast-openai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/fast_openai-0.1.0.tar.gz tmp/fast_openai-0.1.1.tar.gz --markdown 20230805/f/fast-openai/0.1.0-0.1.1/diff.md --exclude *.pyd
+[2023-08-05 04:59:12] INFO root fetch - processPackages [one-api-tool]: Downloading https://files.pythonhosted.org/packages/ac/34/d29ac77f3963bb1ca075a4d67a32fb3884e4e5a630ff5843b57b2f966f27/one-api-tool-0.5.4.tar.gz
+[2023-08-05 04:59:12] INFO root fetch - processPackages [pssepath]: Downloading https://files.pythonhosted.org/packages/db/63/a2a0853e28b0d7fa7f8fb1a81e3cb8eeb236d92dff849a098748a04bc170/pssepath-0.2.3.tar.gz
+[2023-08-05 04:59:12] INFO root fetch - processPackages [sakib-helpers]: Downloading https://files.pythonhosted.org/packages/9d/64/aca5945209f371df11b735deaac5d07cb7f6a721f292b8f0bc8d31d6656d/sakib_helpers-0.0.2.tar.gz
+[2023-08-05 04:59:12] INFO root fetch - processPackages [markline]: Downloading https://files.pythonhosted.org/packages/1b/89/c0ad0800689222012a2e1bfd776b879454930a9b8ce884a948d8dd6e270b/markline-0.3.1.tar.gz
+[2023-08-05 04:59:12] INFO root fetch - processPackages [one-api-tool]: executing diffoscope
+[2023-08-05 04:59:12] INFO root fetch - processPackages [one-api-tool]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/one-api-tool-0.5.2.tar.gz tmp/one-api-tool-0.5.4.tar.gz --markdown 20230805/o/one-api-tool/0.5.2-0.5.4/diff.md --exclude *.pyd
+[2023-08-05 04:59:12] INFO root fetch - processPackages [litenai]: Downloading https://files.pythonhosted.org/packages/75/73/193b789002dd329d092fe95760ff9bc83157ab0798508e0489ccadc622b4/litenai-0.0.9-py3-none-any.whl
+[2023-08-05 04:59:12] INFO root fetch - processPackages [pssepath]: executing diffoscope
+[2023-08-05 04:59:12] INFO root fetch - processPackages [pssepath]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pssepath-0.2.2.tar.gz tmp/pssepath-0.2.3.tar.gz --markdown 20230805/p/pssepath/0.2.2-0.2.3/diff.md --exclude *.pyd
+[2023-08-05 04:59:12] INFO root fetch - processPackages [sakib-helpers]: executing diffoscope
+[2023-08-05 04:59:12] INFO root fetch - processPackages [sakib-helpers]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/sakib_helpers-0.0.1.tar.gz tmp/sakib_helpers-0.0.2.tar.gz --markdown 20230805/s/sakib-helpers/0.0.1-0.0.2/diff.md --exclude *.pyd
+[2023-08-05 04:59:12] INFO root fetch - processPackages [markline]: executing diffoscope
+[2023-08-05 04:59:12] INFO root fetch - processPackages [markline]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/markline-0.3.0.tar.gz tmp/markline-0.3.1.tar.gz --markdown 20230805/m/markline/0.3.0-0.3.1/diff.md --exclude *.pyd
+[2023-08-05 04:59:12] INFO root fetch - processPackages [litenai]: executing diffoscope
+[2023-08-05 04:59:12] INFO root fetch - processPackages [litenai]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/litenai-0.0.8-py3-none-any.whl.zip tmp/litenai-0.0.9-py3-none-any.whl.zip --markdown 20230805/l/litenai/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 04:59:13] INFO root fetch - processPackages [fast-openai]: Remove: archive file [/home/abi/fetcher/tmp/fast_openai-0.1.0.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [fast-openai]: Remove: archive file [/home/abi/fetcher/tmp/fast_openai-0.1.1.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [fast-openai]: success
+[2023-08-05 04:59:13] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-23.8.4.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [flightcondition]: Remove: archive file [/home/abi/fetcher/tmp/flightcondition-23.8.5.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [flightcondition]: success
+[2023-08-05 04:59:13] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.5.2.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [one-api-tool]: Remove: archive file [/home/abi/fetcher/tmp/one-api-tool-0.5.4.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [one-api-tool]: success
+[2023-08-05 04:59:13] INFO root fetch - processPackages [pssepath]: Remove: archive file [/home/abi/fetcher/tmp/pssepath-0.2.2.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [pssepath]: Remove: archive file [/home/abi/fetcher/tmp/pssepath-0.2.3.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [pssepath]: success
+[2023-08-05 04:59:13] INFO root fetch - processPackages [markline]: Remove: archive file [/home/abi/fetcher/tmp/markline-0.3.0.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [markline]: Remove: archive file [/home/abi/fetcher/tmp/markline-0.3.1.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [markline]: success
+[2023-08-05 04:59:13] INFO root fetch - processPackages [sakib-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sakib_helpers-0.0.1.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [sakib-helpers]: Remove: archive file [/home/abi/fetcher/tmp/sakib_helpers-0.0.2.tar.gz]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [sakib-helpers]: success
+[2023-08-05 04:59:13] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.8-py3-none-any.whl.zip]
+[2023-08-05 04:59:13] INFO root fetch - processPackages [litenai]: Remove: archive file [/home/abi/fetcher/tmp/litenai-0.0.9-py3-none-any.whl.zip]
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: End processing [litenai]: success
+[2023-08-05 04:59:13] INFO root fetch - main [MainThread]: Store serial: [19183833]
