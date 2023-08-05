@@ -16586,3 +16586,21 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 20:07:54] INFO root fetch - processPackages [localstack-ext]: Remove: archive file [/home/abi/fetcher/tmp/localstack-ext-2.2.1.dev20230805180111.tar.gz]
 [2023-08-05 20:07:54] INFO root fetch - main [MainThread]: End processing [localstack-ext]: success
 [2023-08-05 20:07:54] INFO root fetch - main [MainThread]: Store serial: [19188326]
+[2023-08-05 20:12:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19188326]
+[2023-08-05 20:13:03] INFO root fetch - main [MainThread]: Found 2 changed packages
+[2023-08-05 20:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: gymnasium-connect-four
+[2023-08-05 20:13:03] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: chromatinhd
+[2023-08-05 20:13:04] INFO root fetch - processPackages [gymnasium-connect-four]: New version: [1.3.0] Old Version: [1.2.9]
+[2023-08-05 20:13:04] INFO root fetch - processPackages [chromatinhd]: New version: [0.0.21] Old Version: [0.0.20]
+[2023-08-05 20:13:04] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/89/82/db53e26c7ee24b313627d1d98a8e8a5e7b7a45aee6c81e8e50b060871db9/gymnasium_connect_four-1.2.9.tar.gz
+[2023-08-05 20:13:04] INFO root fetch - processPackages [chromatinhd]: Downloading https://files.pythonhosted.org/packages/50/80/5a16acee565af442a7a6e1f40cd795538dafb12739bc51097c8d10ab1cf3/chromatinhd-0.0.20.tar.gz
+[2023-08-05 20:13:04] INFO root fetch - processPackages [gymnasium-connect-four]: Downloading https://files.pythonhosted.org/packages/da/64/c03dda73c474e8aee22798596645c7035399b46492715146b7aa6881fd05/gymnasium_connect_four-1.3.0.tar.gz
+[2023-08-05 20:13:04] WARNING root fetch - processPackages [gymnasium-connect-four]: Skipping package: exceeds size limit 54047745>=10485760
+[2023-08-05 20:13:04] INFO root fetch - main [MainThread]: End processing [gymnasium-connect-four] error
+[2023-08-05 20:13:05] INFO root fetch - processPackages [chromatinhd]: Downloading https://files.pythonhosted.org/packages/16/5d/d92ec33a14f534cc6072b71fc592cb3ba001b59f0c85885e8a4a0e3ecf8a/chromatinhd-0.0.21.tar.gz
+[2023-08-05 20:13:05] INFO root fetch - processPackages [chromatinhd]: executing diffoscope
+[2023-08-05 20:13:05] INFO root fetch - processPackages [chromatinhd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/chromatinhd-0.0.20.tar.gz tmp/chromatinhd-0.0.21.tar.gz --markdown 20230805/c/chromatinhd/0.0.20-0.0.21/diff.md --exclude *.pyd
+[2023-08-05 20:13:09] INFO root fetch - processPackages [chromatinhd]: Remove: archive file [/home/abi/fetcher/tmp/chromatinhd-0.0.20.tar.gz]
+[2023-08-05 20:13:09] INFO root fetch - processPackages [chromatinhd]: Remove: archive file [/home/abi/fetcher/tmp/chromatinhd-0.0.21.tar.gz]
+[2023-08-05 20:13:09] INFO root fetch - main [MainThread]: End processing [chromatinhd]: success
+[2023-08-05 20:13:09] INFO root fetch - main [MainThread]: Store serial: [19188331]
