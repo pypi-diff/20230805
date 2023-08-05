@@ -8230,3 +8230,33 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 06:58:58] INFO root fetch - processPackages [aligo]: Remove: archive file [/home/abi/fetcher/tmp/aligo-6.1.0.tar.gz]
 [2023-08-05 06:58:58] INFO root fetch - main [MainThread]: End processing [aligo]: success
 [2023-08-05 06:58:58] INFO root fetch - main [MainThread]: Store serial: [19184358]
+[2023-08-05 07:04:01] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19184358]
+[2023-08-05 07:04:06] INFO root fetch - main [MainThread]: Found 3 changed packages
+[2023-08-05 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: opower
+[2023-08-05 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: snc4onnx
+[2023-08-05 07:04:06] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: dxlib
+[2023-08-05 07:04:07] INFO root fetch - processPackages [opower]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 07:04:07] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/de/e7/5d0e2eea618e46b3230cd28958d2cca7ca8ef0ec3acf7d333b499bc466db/opower-0.0.8.tar.gz
+[2023-08-05 07:04:07] INFO root fetch - processPackages [dxlib]: New version: [0.3.0] Old Version: [0.2.7]
+[2023-08-05 07:04:07] INFO root fetch - processPackages [snc4onnx]: New version: [1.0.9] Old Version: [1.0.8]
+[2023-08-05 07:04:07] INFO root fetch - processPackages [snc4onnx]: Downloading https://files.pythonhosted.org/packages/94/4f/0d9bb6e5c4ca7da8e462d0ae3be888f5de578e119805b9ca0afa8b635249/snc4onnx-1.0.8.tar.gz
+[2023-08-05 07:04:07] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/54/96/72fd7925cc6f9241570bec65d083495e79a8ae07715f29bd3bd3965059f4/dxlib-0.2.7.tar.gz
+[2023-08-05 07:04:07] INFO root fetch - processPackages [opower]: Downloading https://files.pythonhosted.org/packages/86/54/64abf478f9a76b0937adc32bc301690e94e6e745928ac9cfcd0eeb625f56/opower-0.0.9.tar.gz
+[2023-08-05 07:04:07] INFO root fetch - processPackages [opower]: executing diffoscope
+[2023-08-05 07:04:07] INFO root fetch - processPackages [opower]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/opower-0.0.8.tar.gz tmp/opower-0.0.9.tar.gz --markdown 20230805/o/opower/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 07:04:07] INFO root fetch - processPackages [snc4onnx]: Downloading https://files.pythonhosted.org/packages/0f/ff/b13d094f6c12d1b0728de9a3a880c92fa39522f7f56ff05722ba82e10e9a/snc4onnx-1.0.9.tar.gz
+[2023-08-05 07:04:07] INFO root fetch - processPackages [dxlib]: Downloading https://files.pythonhosted.org/packages/91/3b/440da3672aa1d9d7dd897217ce71964b2635dbeb0ce2845e49bda748a6e9/dxlib-0.3.0.tar.gz
+[2023-08-05 07:04:07] INFO root fetch - processPackages [snc4onnx]: executing diffoscope
+[2023-08-05 07:04:07] INFO root fetch - processPackages [snc4onnx]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/snc4onnx-1.0.8.tar.gz tmp/snc4onnx-1.0.9.tar.gz --markdown 20230805/s/snc4onnx/1.0.8-1.0.9/diff.md --exclude *.pyd
+[2023-08-05 07:04:07] INFO root fetch - processPackages [dxlib]: executing diffoscope
+[2023-08-05 07:04:07] INFO root fetch - processPackages [dxlib]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/dxlib-0.2.7.tar.gz tmp/dxlib-0.3.0.tar.gz --markdown 20230805/d/dxlib/0.2.7-0.3.0/diff.md --exclude *.pyd
+[2023-08-05 07:04:08] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.8.tar.gz]
+[2023-08-05 07:04:08] INFO root fetch - processPackages [opower]: Remove: archive file [/home/abi/fetcher/tmp/opower-0.0.9.tar.gz]
+[2023-08-05 07:04:08] INFO root fetch - main [MainThread]: End processing [opower]: success
+[2023-08-05 07:04:08] INFO root fetch - processPackages [snc4onnx]: Remove: archive file [/home/abi/fetcher/tmp/snc4onnx-1.0.8.tar.gz]
+[2023-08-05 07:04:08] INFO root fetch - processPackages [snc4onnx]: Remove: archive file [/home/abi/fetcher/tmp/snc4onnx-1.0.9.tar.gz]
+[2023-08-05 07:04:08] INFO root fetch - main [MainThread]: End processing [snc4onnx]: success
+[2023-08-05 07:04:08] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.2.7.tar.gz]
+[2023-08-05 07:04:08] INFO root fetch - processPackages [dxlib]: Remove: archive file [/home/abi/fetcher/tmp/dxlib-0.3.0.tar.gz]
+[2023-08-05 07:04:08] INFO root fetch - main [MainThread]: End processing [dxlib]: success
+[2023-08-05 07:04:08] INFO root fetch - main [MainThread]: Store serial: [19184370]
