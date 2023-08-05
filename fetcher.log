@@ -11084,3 +11084,65 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 12:14:34] INFO root fetch - processPackages [sphinxnotes-lilypond]: Remove: archive file [/home/abi/fetcher/tmp/sphinxnotes-lilypond-2.0.0a2.tar.gz]
 [2023-08-05 12:14:34] INFO root fetch - main [MainThread]: End processing [sphinxnotes-lilypond]: success
 [2023-08-05 12:14:34] INFO root fetch - main [MainThread]: Store serial: [19185633]
+[2023-08-05 12:19:41] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19185633]
+[2023-08-05 12:19:46] INFO root fetch - main [MainThread]: Found 7 changed packages
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: vas-core
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: lino
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: pypcapkit
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: effect-edc
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: lino-xl
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_5]: Start processing: PyQt6-Fluent-Widgets
+[2023-08-05 12:19:46] INFO root fetch - processPackages [ThreadPoolExecutor-0_6]: Start processing: lino-noi
+[2023-08-05 12:19:46] INFO root fetch - processPackages [vas-core]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [effect-edc]: New version: [0.1.9] Old Version: [0.1.8]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [lino-xl]: New version: [23.8.0] Old Version: [23.7.0]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [lino]: New version: [23.8.0] Old Version: [23.7.1]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: New version: [1.0.4] Old Version: [1.0.3]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [pypcapkit]: New version: [1.1.0.post2] Old Version: [1.1.0.post1]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [lino-noi]: New version: [23.8.0] Old Version: [23.7.0]
+[2023-08-05 12:19:46] INFO root fetch - processPackages [vas-core]: Downloading https://files.pythonhosted.org/packages/a7/1d/d2a123d8681c3cd8e5e6f5bacc38a617ef3235b081d53881a4c176aa8375/vas_core-0.0.8.tar.gz
+[2023-08-05 12:19:46] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/c6/04/3e9331142f2ef67a0e0b8816fe32e4f076290c6c48f97807665eb0910ae8/lino-noi-23.7.0.tar.gz
+[2023-08-05 12:19:46] INFO root fetch - processPackages [lino-xl]: Downloading https://files.pythonhosted.org/packages/92/1f/9ff0414d1079a043820377f6de023fc91e57f78244842e323dc53bc1be9b/lino-xl-23.7.0.tar.gz
+[2023-08-05 12:19:46] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/60/d3/fdc9151a861c28e4c2d0619159468ecb856c2e24c92b928e1ad1495dd0f2/effect-edc-0.1.8.tar.gz
+[2023-08-05 12:19:46] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/a0/14/5804904fd6e49860aec01d7b4930e9e8d742c39ce2d5e4ee635492059d97/lino-23.7.1.tar.gz
+[2023-08-05 12:19:46] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/be/20/eee2e152e70bb485f04d695bbd1de69611caf989b9056eb231854bd27820/PyQt6-Fluent-Widgets-1.0.3.tar.gz
+[2023-08-05 12:19:46] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/61/d3/0a618f8c4030eaf14b11a223dce9f1667009b9e457b28c8a1e2de44cc702/pypcapkit-1.1.0.post1.tar.gz
+[2023-08-05 12:19:47] INFO root fetch - processPackages [lino-noi]: Downloading https://files.pythonhosted.org/packages/98/25/be1faf6e5b9e17cf4b2266d88676bff68fbc758eb3942351d732c2409ada/lino-noi-23.8.0.tar.gz
+[2023-08-05 12:19:47] INFO root fetch - processPackages [vas-core]: Downloading https://files.pythonhosted.org/packages/cc/e8/ff25796d2d298af0a0b9580740de701b8d4252f79133bf5fbc909b915da5/vas_core-0.0.9.tar.gz
+[2023-08-05 12:19:47] WARNING root fetch - processPackages [lino-xl]: Skipping package: exceeds size limit 42039418>=10485760
+[2023-08-05 12:19:47] INFO root fetch - main [MainThread]: End processing [lino-xl] error
+[2023-08-05 12:19:47] INFO root fetch - processPackages [effect-edc]: Downloading https://files.pythonhosted.org/packages/d4/a9/c249648fe69cf380547e0fe9146aecec08f8689d51ea9a4c1a85df9a347a/effect-edc-0.1.9.tar.gz
+[2023-08-05 12:19:47] INFO root fetch - processPackages [vas-core]: executing diffoscope
+[2023-08-05 12:19:47] INFO root fetch - processPackages [vas-core]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/vas_core-0.0.8.tar.gz tmp/vas_core-0.0.9.tar.gz --markdown 20230805/v/vas-core/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 12:19:47] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Downloading https://files.pythonhosted.org/packages/48/b7/84ce66f533fd97d056444c977a9d8953859d67368e2653d836efdde1c3e0/PyQt6-Fluent-Widgets-1.0.4.tar.gz
+[2023-08-05 12:19:47] INFO root fetch - processPackages [pypcapkit]: Downloading https://files.pythonhosted.org/packages/c4/46/e012d20f741b9bea274036e46ee9991afa7b48583fd90197d35115a506b1/pypcapkit-1.1.0.post2.tar.gz
+[2023-08-05 12:19:47] INFO root fetch - processPackages [effect-edc]: executing diffoscope
+[2023-08-05 12:19:47] INFO root fetch - processPackages [effect-edc]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/effect-edc-0.1.8.tar.gz tmp/effect-edc-0.1.9.tar.gz --markdown 20230805/e/effect-edc/0.1.8-0.1.9/diff.md --exclude *.pyd
+[2023-08-05 12:19:47] INFO root fetch - processPackages [lino-noi]: executing diffoscope
+[2023-08-05 12:19:47] INFO root fetch - processPackages [lino-noi]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-noi-23.7.0.tar.gz tmp/lino-noi-23.8.0.tar.gz --markdown 20230805/l/lino-noi/23.7.0-23.8.0/diff.md --exclude *.pyd
+[2023-08-05 12:19:47] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: executing diffoscope
+[2023-08-05 12:19:47] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/PyQt6-Fluent-Widgets-1.0.3.tar.gz tmp/PyQt6-Fluent-Widgets-1.0.4.tar.gz --markdown 20230805/P/PyQt6-Fluent-Widgets/1.0.3-1.0.4/diff.md --exclude *.pyd
+[2023-08-05 12:19:47] INFO root fetch - processPackages [pypcapkit]: executing diffoscope
+[2023-08-05 12:19:47] INFO root fetch - processPackages [pypcapkit]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypcapkit-1.1.0.post1.tar.gz tmp/pypcapkit-1.1.0.post2.tar.gz --markdown 20230805/p/pypcapkit/1.1.0.post1-1.1.0.post2/diff.md --exclude *.pyd
+[2023-08-05 12:19:47] INFO root fetch - processPackages [lino]: Downloading https://files.pythonhosted.org/packages/63/03/72300bd06804c306f7cf0701c94fe5639dd4a997939d6c25ba33c8d48ff3/lino-23.8.0.tar.gz
+[2023-08-05 12:19:48] INFO root fetch - processPackages [vas-core]: Remove: archive file [/home/abi/fetcher/tmp/vas_core-0.0.8.tar.gz]
+[2023-08-05 12:19:48] INFO root fetch - processPackages [vas-core]: Remove: archive file [/home/abi/fetcher/tmp/vas_core-0.0.9.tar.gz]
+[2023-08-05 12:19:48] INFO root fetch - main [MainThread]: End processing [vas-core]: success
+[2023-08-05 12:19:48] INFO root fetch - processPackages [lino]: executing diffoscope
+[2023-08-05 12:19:48] INFO root fetch - processPackages [lino]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/lino-23.7.1.tar.gz tmp/lino-23.8.0.tar.gz --markdown 20230805/l/lino/23.7.1-23.8.0/diff.md --exclude *.pyd
+[2023-08-05 12:19:48] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-23.7.0.tar.gz]
+[2023-08-05 12:19:48] INFO root fetch - processPackages [lino-noi]: Remove: archive file [/home/abi/fetcher/tmp/lino-noi-23.8.0.tar.gz]
+[2023-08-05 12:19:48] INFO root fetch - main [MainThread]: End processing [lino-noi]: success
+[2023-08-05 12:19:50] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.8.tar.gz]
+[2023-08-05 12:19:50] INFO root fetch - processPackages [effect-edc]: Remove: archive file [/home/abi/fetcher/tmp/effect-edc-0.1.9.tar.gz]
+[2023-08-05 12:19:50] INFO root fetch - main [MainThread]: End processing [effect-edc]: success
+[2023-08-05 12:19:50] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.3.tar.gz]
+[2023-08-05 12:19:50] INFO root fetch - processPackages [PyQt6-Fluent-Widgets]: Remove: archive file [/home/abi/fetcher/tmp/PyQt6-Fluent-Widgets-1.0.4.tar.gz]
+[2023-08-05 12:19:50] INFO root fetch - main [MainThread]: End processing [PyQt6-Fluent-Widgets]: success
+[2023-08-05 12:19:51] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.1.0.post1.tar.gz]
+[2023-08-05 12:19:51] INFO root fetch - processPackages [pypcapkit]: Remove: archive file [/home/abi/fetcher/tmp/pypcapkit-1.1.0.post2.tar.gz]
+[2023-08-05 12:19:51] INFO root fetch - main [MainThread]: End processing [pypcapkit]: success
+[2023-08-05 12:20:39] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.7.1.tar.gz]
+[2023-08-05 12:20:39] INFO root fetch - processPackages [lino]: Remove: archive file [/home/abi/fetcher/tmp/lino-23.8.0.tar.gz]
+[2023-08-05 12:20:39] INFO root fetch - main [MainThread]: End processing [lino]: success
+[2023-08-05 12:20:39] INFO root fetch - main [MainThread]: Store serial: [19185653]
