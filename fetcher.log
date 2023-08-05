@@ -15747,3 +15747,45 @@ SystemError: ../Objects/codeobject.c:250: bad argument to internal function
 [2023-08-05 18:54:54] INFO root fetch - processPackages [pyllicagram]: Remove: archive file [/home/abi/fetcher/tmp/pyllicagram-1.8.3.tar.gz]
 [2023-08-05 18:54:54] INFO root fetch - main [MainThread]: End processing [pyllicagram]: success
 [2023-08-05 18:54:54] INFO root fetch - main [MainThread]: Store serial: [19187931]
+[2023-08-05 18:59:58] INFO root fetch - main [MainThread]: Get Changelog since Serial: [19187931]
+[2023-08-05 19:00:02] INFO root fetch - main [MainThread]: Found 5 changed packages
+[2023-08-05 19:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_0]: Start processing: kfsd
+[2023-08-05 19:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_1]: Start processing: pyNekobin
+[2023-08-05 19:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_2]: Start processing: usearch
+[2023-08-05 19:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_3]: Start processing: pypayment
+[2023-08-05 19:00:02] INFO root fetch - processPackages [ThreadPoolExecutor-0_4]: Start processing: pytraeger
+[2023-08-05 19:00:02] WARNING root fetch - processPackages [pytraeger]: Skipping, unable to determine old version
+[2023-08-05 19:00:02] INFO root fetch - main [MainThread]: End processing [pytraeger] error
+[2023-08-05 19:00:02] INFO root fetch - processPackages [pyNekobin]: New version: [2.9] Old Version: [2.8]
+[2023-08-05 19:00:02] INFO root fetch - processPackages [usearch]: New version: [1.0.0] Old Version: [0.9.7]
+[2023-08-05 19:00:02] INFO root fetch - processPackages [kfsd]: New version: [0.0.9] Old Version: [0.0.8]
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pypayment]: New version: [1.7.0] Old Version: [1.6.0]
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/af/91/fd64e2d22f5208ad90177e20eb9e874ce69c7490a6b309b0c30d21650e7a/pyNekobin-2.8.tar.gz
+[2023-08-05 19:00:03] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/a2/8f/a3252b30a16eab11240405b70ca175d22e9e65286f0453a51404db91b23e/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl
+[2023-08-05 19:00:03] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/bc/a3/f3db8d87a39f5eb8a59d2664840211b257e17b2838d141754bf65b5b99d4/kfsd-0.0.8.tar.gz
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pypayment]: Downloading https://files.pythonhosted.org/packages/1d/b1/c896067cde86595eb5ade851c5594fc3381f5302a357a56e13e04a1b9d74/pypayment-1.6.0.tar.gz
+[2023-08-05 19:00:03] INFO root fetch - processPackages [kfsd]: Downloading https://files.pythonhosted.org/packages/cc/18/f96c1914d54bd725df13ee5bf82870ca513b9a3c82d89aa30a7d271fa26a/kfsd-0.0.9.tar.gz
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pyNekobin]: Downloading https://files.pythonhosted.org/packages/2d/13/b22604addf3639c49ccbaf070aea34f3d07aa0cfce00a533c7b51c868d74/pyNekobin-2.9.tar.gz
+[2023-08-05 19:00:03] INFO root fetch - processPackages [usearch]: Downloading https://files.pythonhosted.org/packages/d1/67/391210bf8bc918c7676b859cbe9d56ab8c4d57df244900081ffdebcc9fc6/usearch-1.0.0-cp39-cp39-win_amd64.whl
+[2023-08-05 19:00:03] INFO root fetch - processPackages [kfsd]: executing diffoscope
+[2023-08-05 19:00:03] INFO root fetch - processPackages [kfsd]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/kfsd-0.0.8.tar.gz tmp/kfsd-0.0.9.tar.gz --markdown 20230805/k/kfsd/0.0.8-0.0.9/diff.md --exclude *.pyd
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pyNekobin]: executing diffoscope
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pyNekobin]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pyNekobin-2.8.tar.gz tmp/pyNekobin-2.9.tar.gz --markdown 20230805/p/pyNekobin/2.8-2.9/diff.md --exclude *.pyd
+[2023-08-05 19:00:03] INFO root fetch - processPackages [usearch]: executing diffoscope
+[2023-08-05 19:00:03] INFO root fetch - processPackages [usearch]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip tmp/usearch-1.0.0-cp39-cp39-win_amd64.whl.zip --markdown 20230805/u/usearch/0.9.7-1.0.0/diff.md --exclude *.pyd
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pypayment]: Downloading https://files.pythonhosted.org/packages/fd/26/096a272d8597502419e79ff41cd3abdd6509d236f6f183c9040b6f645549/pypayment-1.7.0.tar.gz
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pypayment]: executing diffoscope
+[2023-08-05 19:00:03] INFO root fetch - processPackages [pypayment]: podman run --user 0:0 --rm -w /home/abi/fetcher -v /home/abi/fetcher/tmp:/home/abi/fetcher/tmp:ro -v /home/abi/fetcher/20230805:/home/abi/fetcher/20230805:rw registry.salsa.debian.org/reproducible-builds/diffoscope --no-progress tmp/pypayment-1.6.0.tar.gz tmp/pypayment-1.7.0.tar.gz --markdown 20230805/p/pypayment/1.6.0-1.7.0/diff.md --exclude *.pyd
+[2023-08-05 19:00:04] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.8.tar.gz]
+[2023-08-05 19:00:04] INFO root fetch - processPackages [pyNekobin]: Remove: archive file [/home/abi/fetcher/tmp/pyNekobin-2.9.tar.gz]
+[2023-08-05 19:00:04] INFO root fetch - main [MainThread]: End processing [pyNekobin]: success
+[2023-08-05 19:00:04] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-0.9.7-cp39-cp39-manylinux_2_28_x86_64.whl.zip]
+[2023-08-05 19:00:04] INFO root fetch - processPackages [usearch]: Remove: archive file [/home/abi/fetcher/tmp/usearch-1.0.0-cp39-cp39-win_amd64.whl.zip]
+[2023-08-05 19:00:04] INFO root fetch - main [MainThread]: End processing [usearch]: success
+[2023-08-05 19:00:04] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.8.tar.gz]
+[2023-08-05 19:00:04] INFO root fetch - processPackages [kfsd]: Remove: archive file [/home/abi/fetcher/tmp/kfsd-0.0.9.tar.gz]
+[2023-08-05 19:00:04] INFO root fetch - main [MainThread]: End processing [kfsd]: success
+[2023-08-05 19:00:04] INFO root fetch - processPackages [pypayment]: Remove: archive file [/home/abi/fetcher/tmp/pypayment-1.6.0.tar.gz]
+[2023-08-05 19:00:04] INFO root fetch - processPackages [pypayment]: Remove: archive file [/home/abi/fetcher/tmp/pypayment-1.7.0.tar.gz]
+[2023-08-05 19:00:04] INFO root fetch - main [MainThread]: End processing [pypayment]: success
+[2023-08-05 19:00:04] INFO root fetch - main [MainThread]: Store serial: [19187971]
